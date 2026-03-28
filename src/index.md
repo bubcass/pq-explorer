@@ -308,8 +308,10 @@ display(
     const summary = getSummary();
     el.innerHTML = `
       <p>
-        In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.</p>
-       <p> See the breakdown by constituency, party, question type and Department.
+        In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+      </p>
+      <p>
+        See the breakdown by constituency, party, question type and Department.
       </p>
     `;
   })
@@ -344,13 +346,13 @@ display(
 
 </div>
 
-## Explore by Department
-
 ```js
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
     el.innerHTML = `
+      <h2>Explore by Department</h2>
+
       <p>
         This period covers <strong>${summary.year}</strong>, when the total number of <strong>parliamentary questions submitted, replied to and published to the web</strong> was <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.
       </p>
@@ -362,15 +364,12 @@ display(
       <p>
         For the selection, the <a href="https://en.wikipedia.org/wiki/Median">median average</a> of questions asked by a Deputy was <strong>${format(summary.medianQuestionsPerDeputy)}</strong> and the <a href="https://en.wikipedia.org/wiki/Mean#Statistical_location">mean average</a> of questions asked per Deputy was <strong>${formatMean(summary.meanQuestionsPerDeputy)}</strong>.
       </p>
+
+      <p>Hover over circles to reveal information.</p>
     `;
   })
 );
 ```
-
-<div class="prose-block">
-Hover over circles to reveal information.
-
-</div>
 
 <div class="chart-block">
 
@@ -387,19 +386,36 @@ display(
 ```
 
 </div>
-<div class="chart-caption">
-  Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
-</div>
 
-## Explore further
+```js
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    el.innerHTML = `
+      <p class="chart-caption">
+        Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
+      </p>
+    `;
+  })
+);
+```
 
-<div class="prose-block">
+```js
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    el.innerHTML = `
+      <h2>Explore further</h2>
 
-<strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.
+      <p>
+        <strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.
+      </p>
 
-Click on the top panel to zoom out again.
-
-</div>
+      <p>
+        Click on the top panel to zoom out again.
+      </p>
+    `;
+  })
+);
+```
 
 <div class="chart-block">
 
@@ -434,35 +450,34 @@ display(
   })
 );
 
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    el.innerHTML = `
+      <div class="explore-links-block">
+        <div class="explore-links-grid">
+          <a class="explore-tile" href="./deputies">
+            <div class="explore-tile-head">
+              <span class="explore-tile-title">Explore: Deputies</span>
+              <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
 
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./deputies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Deputies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+          <a class="explore-tile" href="./constituencies">
+            <div class="explore-tile-head">
+              <span class="explore-tile-title">Explore: Constituencies</span>
+              <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="explore-tile" href="./parties">
+            <div class="explore-tile-head">
+              <span class="explore-tile-title">Explore: Parties</span>
+              <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
         </div>
-      </a>
-
-      <a class="explore-tile" href="./constituencies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore:  Constituencies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-              </a>
-    </div>
-  `;
-
-  display(wrap);
-}
+      </div>
+    `;
+  })
+);
 ```

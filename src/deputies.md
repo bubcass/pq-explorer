@@ -759,7 +759,12 @@ display(
   })
 );
 ```
+
+<div class="prose-block">
+
 ## Explore by Department
+
+</div>
 
 ```js
 display(
@@ -857,9 +862,10 @@ display(
   Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
 </div>
 
-## Explore further
 
 <div class="prose-block">
+
+  ## Explore further
 
 **Click through the squares to drill down** to the Department to which the question is directed, the question topic, date, text of the question and reply as published.
 

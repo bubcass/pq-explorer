@@ -5,16 +5,17 @@
     "clean": "rimraf src/.observablehq/cache",
     "build": "observable build",
     "dev": "observable preview",
-    "deploy": "observable deploy",
+    "deploy": "gh-pages -d dist",
     "build:data": "node scripts/pq/build-all.js",
-      "build:2025": "node scripts/pq/build-year.js 2025",
-      "build:2026": "node scripts/pq/build-year.js 2026",
+    "build:2025": "node scripts/pq/build-year.js 2025",
+    "build:2026": "node scripts/pq/build-year.js 2026",
     "observable": "observable"
   },
   "dependencies": {
     "@observablehq/framework": "^1.13.4"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "rimraf": "^5.0.5"
   },
   "engines": {
