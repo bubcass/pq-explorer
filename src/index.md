@@ -439,27 +439,35 @@ display(
     debounceMs: 20
   })
 );
-```
+{
+  const wrap = document.createElement("div");
+  wrap.className = "explore-links-block";
 
-<div class="explore-links-block">
-  <div class="explore-links-grid">
-    <a class="explore-tile" href="./deputies">
-      <div class="explore-tile-head">
-        <span class="explore-tile-title">Explore: Deputies</span>
-        <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-      </div>
-    </a>
-    <a class="explore-tile" href="./constituencies">
-      <div class="explore-tile-head">
-        <span class="explore-tile-title">Explore: Constituencies</span>
-        <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-      </div>
-    </a>
-    <a class="explore-tile" href="./parties">
-      <div class="explore-tile-head">
-        <span class="explore-tile-title">Explore: Parties</span>
-        <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-      </div>
-    </a>
-  </div>
-</div>
+  wrap.innerHTML = `
+    <div class="explore-links-grid">
+      <a class="explore-tile" href="./deputies">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Deputies</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+
+      <a class="explore-tile" href="./constituencies">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore:  Constituencies</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+
+      <a class="explore-tile" href="./parties">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Parties</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+              </a>
+    </div>
+  `;
+
+  display(wrap);
+}
+```
