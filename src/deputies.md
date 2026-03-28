@@ -1,7 +1,9 @@
 ---
 title: PQ Explorer | Deputies
 header: false
-sidebar:
+sidebar: false
+footer: false
+toc: false
 ---
 ```js
 import * as d3 from "npm:d3";
