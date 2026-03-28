@@ -383,6 +383,19 @@ display(
 );
 }});
 
+define({id: "27d67335", inputs: ["display","mountReactive","getSummary"], body: (display,mountReactive,getSummary) => {
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const summary = getSummary();
+    el.innerHTML = `
+
+<h2> Explore by Department</h2>
+  
+    `;
+  })
+);
+}});
+
 define({id: "4c224aa5", inputs: ["display","mountReactive","getSummary","format","formatMean"], body: (display,mountReactive,getSummary,format,formatMean) => {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
@@ -416,6 +429,19 @@ display(
 );
 }});
 
+define({id: "f8ee9006", inputs: ["display","mountReactive","getSummary"], body: (display,mountReactive,getSummary) => {
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const summary = getSummary();
+    el.innerHTML = `
+
+<h2> Explore further</h2>
+  
+    `;
+  })
+);
+}});
+
 define({id: "fcc3dd47", inputs: ["display","mountReactive","getComputedData","zoomableTreemap"], body: (display,mountReactive,getComputedData,zoomableTreemap) => {
 display(
   mountReactive("", (el) => {
@@ -428,7 +454,7 @@ display(
 );
 }});
 
-define({id: "12c4e82b", inputs: ["display","mountReactive","getComputedData","downloadButton"], body: (display,mountReactive,getComputedData,downloadButton) => {
+define({id: "aa13a831", inputs: ["display","mountReactive","getComputedData","downloadButton"], body: (display,mountReactive,getComputedData,downloadButton) => {
 display(
   mountReactive("download-block", (el) => {
     const { rows } = getComputedData();
@@ -438,6 +464,9 @@ display(
   })
 );
 
+}});
+
+define({id: "39313feb", inputs: ["display"], body: (display) => {
 {
   const wrap = document.createElement("div");
   wrap.className = "explore-links-block";
@@ -492,9 +521,7 @@ display(
 <div class="chart-block">
 <div class="observablehq observablehq--block"><!--:02344008:--></div>
 </div>
-<div class="prose-block">
-<h2 id="explore-by-department" tabindex="-1"><a class="observablehq-header-anchor" href="#explore-by-department">Explore by Department</a></h2>
-</div>
+<div class="observablehq observablehq--block"><!--:27d67335:--></div>
 <div class="observablehq observablehq--block"><!--:4c224aa5:--></div>
 <div class="prose-block">
 Hover over circles to reveal information.
@@ -505,9 +532,7 @@ Hover over circles to reveal information.
 <div class="chart-caption">
  <p> Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.</p>
 </div>
-<div class="prose-block">
-<h2 id="explore-further" tabindex="-1"><a class="observablehq-header-anchor" href="#explore-further">Explore further</a></h2>
-</div>
+<div class="observablehq observablehq--block"><!--:f8ee9006:--></div>
 <div class="prose-block">
 <p><strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.</p>
 <p>Click on the top panel to zoom out again.</p>
@@ -521,7 +546,8 @@ Hover over circles to reveal information.
     Oireachtas open data API
   </a>.
 </div>
-<div class="observablehq observablehq--block"><!--:12c4e82b:--></div>
+<div class="observablehq observablehq--block"><!--:aa13a831:--></div>
+<div class="observablehq observablehq--block"><!--:39313feb:--></div>
 </main>
 <footer id="observablehq-footer">
 <div>© Houses of the Oireachtas</div>
