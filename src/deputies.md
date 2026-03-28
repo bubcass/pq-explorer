@@ -13,6 +13,12 @@ import { packedCircleChart } from "./components/packed-circle-chart.js";
 import { downloadButton } from "./components/download-button.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 
+const observer = new ResizeObserver(([entry]) => {
+  parent.postMessage({ height: entry.target.scrollHeight }, "*");
+});
+
+observer.observe(document.body);
+
 const format = d3.format(",d");
 
 const deputyRollups = {

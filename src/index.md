@@ -21,6 +21,12 @@ const summaries = {
   2026: await FileAttachment("data/pq/2026/summary.json").json()
 };
 
+const observer = new ResizeObserver(([entry]) => {
+  parent.postMessage({ height: entry.target.scrollHeight }, "*");
+});
+
+observer.observe(document.body);
+
 const flatData = {
   2025: await FileAttachment("data/pq/2025/flat-enriched.json").json(),
   2026: await FileAttachment("data/pq/2026/flat-enriched.json").json()
