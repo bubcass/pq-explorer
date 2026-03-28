@@ -7,9 +7,9 @@
 <title>PQ Explorer | Overview</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.65ad5bc2.css">
+<link rel="preload" as="style" href="./_import/style.d8fec356.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.65ad5bc2.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.d8fec356.css">
 <link rel="modulepreload" href="./_observablehq/client.d3a3c34b.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
@@ -345,14 +345,16 @@ pqControls({
 ))
 }});
 
-define({id: "00ad47ae", inputs: ["display","mountReactive","getSummary","format"], body: (display,mountReactive,getSummary,format) => {
+define({id: "18647d3d", inputs: ["display","mountReactive","getSummary","format"], body: (display,mountReactive,getSummary,format) => {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
     el.innerHTML = `
       <p>
-        In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.</p>
-       <p> See the breakdown by constituency, party, question type and Department.
+        In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+      </p>
+      <p>
+        See the breakdown by constituency, party, question type and Department.
       </p>
     `;
   })
@@ -383,20 +385,7 @@ display(
 );
 }});
 
-define({id: "27d67335", inputs: ["display","mountReactive","getSummary"], body: (display,mountReactive,getSummary) => {
-display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
-    el.innerHTML = `
-
-<h2> Explore by Department</h2>
-  
-    `;
-  })
-);
-}});
-
-define({id: "4c224aa5", inputs: ["display","mountReactive","getSummary","format","formatMean"], body: (display,mountReactive,getSummary,format,formatMean) => {
+define({id: "16fa5d4a", inputs: ["display","mountReactive","getSummary","format","formatMean"], body: (display,mountReactive,getSummary,format,formatMean) => {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
@@ -412,6 +401,8 @@ display(
       <p>
         For the selection, the <a href="https://en.wikipedia.org/wiki/Median">median average</a> of questions asked by a Deputy was <strong>${format(summary.medianQuestionsPerDeputy)}</strong> and the <a href="https://en.wikipedia.org/wiki/Mean#Statistical_location">mean average</a> of questions asked per Deputy was <strong>${formatMean(summary.meanQuestionsPerDeputy)}</strong>.
       </p>
+
+      <p>Hover over circles to reveal information.</p>
     `;
   })
 );
@@ -429,19 +420,6 @@ display(
 );
 }});
 
-define({id: "f8ee9006", inputs: ["display","mountReactive","getSummary"], body: (display,mountReactive,getSummary) => {
-display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
-    el.innerHTML = `
-
-<h2> Explore further</h2>
-  
-    `;
-  })
-);
-}});
-
 define({id: "fcc3dd47", inputs: ["display","mountReactive","getComputedData","zoomableTreemap"], body: (display,mountReactive,getComputedData,zoomableTreemap) => {
 display(
   mountReactive("", (el) => {
@@ -454,7 +432,7 @@ display(
 );
 }});
 
-define({id: "aa13a831", inputs: ["display","mountReactive","getComputedData","downloadButton"], body: (display,mountReactive,getComputedData,downloadButton) => {
+define({id: "19e6924c", inputs: ["display","mountReactive","getComputedData","downloadButton"], body: (display,mountReactive,getComputedData,downloadButton) => {
 display(
   mountReactive("download-block", (el) => {
     const { rows } = getComputedData();
@@ -463,10 +441,6 @@ display(
     debounceMs: 20
   })
 );
-
-}});
-
-define({id: "39313feb", inputs: ["display"], body: (display) => {
 {
   const wrap = document.createElement("div");
   wrap.className = "explore-links-block";
@@ -517,25 +491,30 @@ define({id: "39313feb", inputs: ["display"], body: (display) => {
 <div class="prose-block controls-block">
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:26e75849:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:00ad47ae:--></div>
+<div class="observablehq observablehq--block"><!--:18647d3d:--></div>
 <div class="chart-block">
 <div class="observablehq observablehq--block"><!--:02344008:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:27d67335:--></div>
-<div class="observablehq observablehq--block"><!--:4c224aa5:--></div>
 <div class="prose-block">
-Hover over circles to reveal information.
+  <h2>Explore by Department</h2>
 </div>
+<div class="observablehq observablehq--block"><!--:16fa5d4a:--></div>
 <div class="chart-block">
 <div class="observablehq observablehq--block"><!--:33ebbafd:--></div>
 </div>
-<div class="chart-caption">
- <p> Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.</p>
-</div>
-<div class="observablehq observablehq--block"><!--:f8ee9006:--></div>
 <div class="prose-block">
-<p><strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.</p>
-<p>Click on the top panel to zoom out again.</p>
+  <p class="chart-caption">
+    Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
+  </p>
+</div>
+<div class="prose-block">
+  <h2>Explore further</h2>
+  <p>
+    <strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.
+  </p>
+  <p>
+    Click on the top panel to zoom out again.
+  </p>
 </div>
 <div class="chart-block">
 <div class="observablehq observablehq--block"><!--:fcc3dd47:--></div>
@@ -546,8 +525,7 @@ Hover over circles to reveal information.
     Oireachtas open data API
   </a>.
 </div>
-<div class="observablehq observablehq--block"><!--:aa13a831:--></div>
-<div class="observablehq observablehq--block"><!--:39313feb:--></div>
+<div class="observablehq observablehq--block"><!--:19e6924c:--></div>
 </main>
 <footer id="observablehq-footer">
 <div>© Houses of the Oireachtas</div>
