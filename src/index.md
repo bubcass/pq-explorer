@@ -346,13 +346,15 @@ display(
 
 </div>
 
+<div class="prose-block">
+  <h2>Explore by Department</h2>
+</div>
+
 ```js
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
     el.innerHTML = `
-      <h2>Explore by Department</h2>
-
       <p>
         This period covers <strong>${summary.year}</strong>, when the total number of <strong>parliamentary questions submitted, replied to and published to the web</strong> was <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.
       </p>
@@ -387,35 +389,23 @@ display(
 
 </div>
 
-```js
-display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    el.innerHTML = `
-      <p class="chart-caption">
-        Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
-      </p>
-    `;
-  })
-);
-```
+<div class="prose-block">
+  <p class="chart-caption">
+    Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
+  </p>
+</div>
 
-```js
-display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    el.innerHTML = `
-      <h2>Explore further</h2>
+<div class="prose-block">
+  <h2>Explore further</h2>
 
-      <p>
-        <strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.
-      </p>
+  <p>
+    <strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, Deputy, text of the question and reply as published.
+  </p>
 
-      <p>
-        Click on the top panel to zoom out again.
-      </p>
-    `;
-  })
-);
-```
+  <p>
+    Click on the top panel to zoom out again.
+  </p>
+</div>
 
 <div class="chart-block">
 
@@ -449,35 +439,27 @@ display(
     debounceMs: 20
   })
 );
-
-display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    el.innerHTML = `
-      <div class="explore-links-block">
-        <div class="explore-links-grid">
-          <a class="explore-tile" href="./deputies">
-            <div class="explore-tile-head">
-              <span class="explore-tile-title">Explore: Deputies</span>
-              <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-            </div>
-          </a>
-
-          <a class="explore-tile" href="./constituencies">
-            <div class="explore-tile-head">
-              <span class="explore-tile-title">Explore: Constituencies</span>
-              <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-            </div>
-          </a>
-
-          <a class="explore-tile" href="./parties">
-            <div class="explore-tile-head">
-              <span class="explore-tile-title">Explore: Parties</span>
-              <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-            </div>
-          </a>
-        </div>
-      </div>
-    `;
-  })
-);
 ```
+
+<div class="explore-links-block">
+  <div class="explore-links-grid">
+    <a class="explore-tile" href="./deputies">
+      <div class="explore-tile-head">
+        <span class="explore-tile-title">Explore: Deputies</span>
+        <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+      </div>
+    </a>
+    <a class="explore-tile" href="./constituencies">
+      <div class="explore-tile-head">
+        <span class="explore-tile-title">Explore: Constituencies</span>
+        <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+      </div>
+    </a>
+    <a class="explore-tile" href="./parties">
+      <div class="explore-tile-head">
+        <span class="explore-tile-title">Explore: Parties</span>
+        <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+      </div>
+    </a>
+  </div>
+</div>

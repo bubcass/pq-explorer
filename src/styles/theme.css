@@ -738,4 +738,62 @@ nav a {
     .deputy-card-meta-grid {
         width: 100%;
     }
+    /* Reactive blocks: neutralise Observable wrapper spacing more reliably */
+    .observablehq--block:has(.reactive-prose) {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Ensure headings inside reactive prose behave like our prose headings */
+    .reactive-prose h2,
+    .reactive-prose h3,
+    .reactive-prose h4 {
+        margin: 0 0 var(--space-3);
+        color: var(--accent);
+        font-weight: 600;
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+        padding-top: 0 !important;
+        border-top: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .reactive-prose h2 {
+        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        margin-top: var(--space-5);
+        margin-bottom: var(--space-3);
+    }
+
+    /* Stop Observable anchor styling leaking into headings */
+    .reactive-prose .observablehq-header-anchor {
+        color: inherit !important;
+        text-decoration: none !important;
+        font: inherit !important;
+    }
+
+    /* Make chart captions behave like prose blocks */
+    .observablehq--block:has(.chart-caption) {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .chart-caption {
+        display: block;
+        max-width: var(--text-max);
+        margin: 0 0 1.1rem 0;
+        color: var(--text-muted);
+        font-size: 0.92rem;
+        line-height: 1.45;
+    }
+
+    /* Explore links wrapper should not inherit odd block spacing */
+    .observablehq--block:has(.explore-links-block) {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .explore-links-block,
+    .explore-links-block * {
+        font-family: inherit;
+    }
 }
