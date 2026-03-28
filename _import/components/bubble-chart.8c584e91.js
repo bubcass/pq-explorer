@@ -30,44 +30,39 @@ export function bubbleChart(
     strokeOpacity = null,
   } = {},
 ) {
-  // Raw data arrays
   const D = d3.map(data, (d) => d);
   const V = d3.map(data, value);
   const G = group == null ? null : d3.map(data, group);
 
-  // Filter valid indices
   const I = d3.range(V.length).filter((i) => (V[i] ?? 0) > 0);
 
-  // Unique groups
   if (G && groups === undefined) groups = I.map((i) => G[i]);
   groups = G && new d3.InternSet(groups);
 
-  // Color scale
   const color = G ? d3.scaleOrdinal(groups, colors) : null;
 
-  // Labels + titles
   const L = label == null ? null : d3.map(data, label);
   const T =
     title === undefined ? L : title == null ? null : d3.map(data, title);
 
-  // Layout (pack)
   const root = d3
     .pack()
     .size([width - marginLeft - marginRight, height - marginTop - marginBottom])
     .padding(padding)(d3.hierarchy({ children: I }).sum((i) => V[i]));
 
-  // SVG
   const svg = d3
     .create("svg")
     .attr("width", width)
     .attr("height", height)
     .attr("viewBox", [-marginLeft, -marginTop, width, height])
     .attr("style", "max-width: 100%; height: auto; height: intrinsic;")
-    .attr("font-size", 12)
-    .attr("font-family", "IBM Plex Sans")
-    .attr("text-anchor", "middle");
+    .attr("text-anchor", "middle")
+    .style(
+      "font-family",
+      '"IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+    )
+    .style("font-size", "12px");
 
-  // Nodes (wrapped in <a> for linking)
   const leaf = svg
     .selectAll("a")
     .data(root.leaves())
@@ -79,7 +74,6 @@ export function bubbleChart(
     .attr("target", link == null ? null : linkTarget)
     .attr("transform", (d) => `translate(${d.x},${d.y})`);
 
-  // Circles
   leaf
     .append("circle")
     .attr("stroke", (d) => {
@@ -105,12 +99,10 @@ export function bubbleChart(
     })
     .attr("r", (d) => d.r);
 
-  // Tooltip
   if (T) {
     leaf.append("title").text((d) => T[d.data]);
   }
 
-  // Labels (multi-line support)
   if (L) {
     const uid = `O-${Math.random().toString(16).slice(2)}`;
 
@@ -125,7 +117,13 @@ export function bubbleChart(
       .attr(
         "clip-path",
         (d) => `url(${new URL(`#${uid}-clip-${d.data}`, location)})`,
-      );
+      )
+      .style(
+        "font-family",
+        '"IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      )
+      .style("font-size", "12px")
+      .style("font-weight", "400");
 
     text
       .selectAll("tspan")

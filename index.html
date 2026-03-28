@@ -68,7 +68,7 @@ registerFile("./data/pq/2025/summary.json", {"name":"./data/pq/2025/summary.json
 registerFile("./data/pq/2026/flat-enriched.json", {"name":"./data/pq/2026/flat-enriched.json","mimeType":"application/json","path":"./_file/data/pq/2026/flat-enriched.ab4ae6de.json","lastModified":1774691849166,"size":20388114});
 registerFile("./data/pq/2026/summary.json", {"name":"./data/pq/2026/summary.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary.48fbd877.json","lastModified":1774691849210,"size":269});
 
-define({id: "4b2f43e2", inputs: ["FileAttachment"], outputs: ["d3","SankeyChart","packedCircleChart","zoomableTreemap","downloadButton","pqControls","format","formatMean","summaries","flatData","getState","getSummary","getRows","computedCache","getCacheKey","getComputedData","rollupLinks","buildCombinedSankey","buildPackedHierarchy","formatDateLabel","totalValue","groupRows","buildTreemapLeaf","buildTreemapLevel","buildTreemapData","mountReactive"], body: async (FileAttachment) => {
+define({id: "10946081", inputs: ["FileAttachment","ResizeObserver","parent"], outputs: ["d3","SankeyChart","packedCircleChart","zoomableTreemap","downloadButton","pqControls","format","formatMean","summaries","observer","flatData","getState","getSummary","getRows","computedCache","getCacheKey","getComputedData","rollupLinks","buildCombinedSankey","buildPackedHierarchy","formatDateLabel","totalValue","groupRows","buildTreemapLeaf","buildTreemapLevel","buildTreemapData","mountReactive"], body: async (FileAttachment,ResizeObserver,parent) => {
 const [d3, {SankeyChart}, {packedCircleChart}, {zoomableTreemap}, {downloadButton}, {pqControls}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/sankey-chart.69b83394.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/download-button.5f42e24a.js"), import("./_import/components/pq-controls.460341b5.js")]);
 
 const format = d3.format(",d");
@@ -78,6 +78,12 @@ const summaries = {
   2025: await FileAttachment("./data/pq/2025/summary.json").json(),
   2026: await FileAttachment("./data/pq/2026/summary.json").json()
 };
+
+const observer = new ResizeObserver(([entry]) => {
+  parent.postMessage({ height: entry.target.scrollHeight }, "*");
+});
+
+observer.observe(document.body);
 
 const flatData = {
   2025: await FileAttachment("./data/pq/2025/flat-enriched.json").json(),
@@ -331,7 +337,7 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,SankeyChart,packedCircleChart,zoomableTreemap,downloadButton,pqControls,format,formatMean,summaries,flatData,getState,getSummary,getRows,computedCache,getCacheKey,getComputedData,rollupLinks,buildCombinedSankey,buildPackedHierarchy,formatDateLabel,totalValue,groupRows,buildTreemapLeaf,buildTreemapLevel,buildTreemapData,mountReactive};
+return {d3,SankeyChart,packedCircleChart,zoomableTreemap,downloadButton,pqControls,format,formatMean,summaries,observer,flatData,getState,getSummary,getRows,computedCache,getCacheKey,getComputedData,rollupLinks,buildCombinedSankey,buildPackedHierarchy,formatDateLabel,totalValue,groupRows,buildTreemapLeaf,buildTreemapLevel,buildTreemapData,mountReactive};
 }});
 
 define({id: "26e75849", inputs: ["pqControls","display"], body: async (pqControls,display) => {
@@ -479,7 +485,7 @@ display(
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:4b2f43e2:--></div>
+<div class="observablehq observablehq--block"><!--:10946081:--></div>
 <div class="prose-block">
 <p><a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noopener noreferrer">Parliamentary questions</a> are an intrinsic part of Parliament and each year tens of thousands of questions are asked by Members. They are directed to each Department and answered by the appropriate Minister or Minister of State.</p>
 </div>
