@@ -434,7 +434,7 @@ display(
 display(
   mountReactive("download-block", (el) => {
     const { rows } = getComputedData();
-    el.replaceChildren(downloadButton(rows, "pq_explorer.csv"));
+    el.replaceChildren(downloadButton(rows, "parliamentary_questions_dataset.csv"));
   }, {
     debounceMs: 20
   })

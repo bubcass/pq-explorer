@@ -50,7 +50,7 @@ export function downloadButton(data, filename = "pq_dataset.csv") {
 
   button.textContent = name
     ? `Download dataset for ${name} (${state.year}) (~${sizeLabel})`
-    : `Download parliamentary question dataset ${state.year}.csv (~${sizeLabel})`;
+    : `Download parliamentary question dataset ${state.year} (~${sizeLabel})`;
 
   button.addEventListener("click", () => {
     const url = URL.createObjectURL(blob);
