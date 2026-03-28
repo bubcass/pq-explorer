@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.4">
+<title>PQ Explorer | Deputies | PQ Explorer | Overview</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.4f85da9e.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.4f85da9e.css">
+<link rel="modulepreload" href="./_observablehq/client.d3a3c34b.js">
+<link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
+<link rel="modulepreload" href="./_import/components/bubble-chart.d41ed442.js">
+<link rel="modulepreload" href="./_import/components/pq-controls.460341b5.js">
+<link rel="modulepreload" href="./_import/components/packed-circle-chart.8c317a95.js">
+<link rel="modulepreload" href="./_import/components/download-button.61471215.js">
+<link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/87adea64.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.2/3785bf2d.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/720b7f0a.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.1.0/d4ec0aa1.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
+<link rel="icon" href="./_file/logo.be2bef67.svg" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.d3a3c34b.js";
+import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
+
+registerFile("./data/pq/2025/flat-enriched.json", {"name":"./data/pq/2025/flat-enriched.json","mimeType":"application/json","path":"./_file/data/pq/2025/flat-enriched.f5bbe8aa.json","lastModified":1774691845237,"size":62281988});
+registerFile("./data/pq/2025/rollup-deputies.json", {"name":"./data/pq/2025/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2025/rollup-deputies.881bf1bf.json","lastModified":1774691845521,"size":47506});
+registerFile("./data/pq/2025/summary.json", {"name":"./data/pq/2025/summary.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary.959b4ecc.json","lastModified":1774691845354,"size":265});
+registerFile("./data/pq/2026/flat-enriched.json", {"name":"./data/pq/2026/flat-enriched.json","mimeType":"application/json","path":"./_file/data/pq/2026/flat-enriched.ab4ae6de.json","lastModified":1774691849166,"size":20388114});
+registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.0a7900bb.json","lastModified":1774691849264,"size":43953});
+registerFile("./data/pq/2026/summary.json", {"name":"./data/pq/2026/summary.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary.48fbd877.json","lastModified":1774691849210,"size":269});
+
+define({id: "e9fdbdc4", inputs: ["FileAttachment"], outputs: ["d3","bubbleChart","pqControls","packedCircleChart","downloadButton","zoomableTreemap","format","deputyRollups","flatData","summaries","partyColorMap","getState","getSummary","normaliseQuestionType","getSurname","getPartyColor","randomIndex","truncateLabel","formatDisplayDate","getYearRows","getFilteredFlatRows","getBubbleRows","getDeputyOptions","getSelectedDeputyRows","getHeadingOptions","ensureValidHeadingSelection","getSelectedDeputyTableRows","ensureValidDeputySelection","getSelectedDeputy","getSelectedDeputyInsights","getSelectedDeputyBubbleRow","getSelectedDeputyDownloadRows","getSelectedDeputyPackedData","formatDateLabel","totalValue","groupRows","buildTreemapLeaf","buildTreemapLevel","getSelectedDeputyTreemapData","dispatchChange","dispatchTableChange","withPreservedScroll","mountReactive"], body: async (FileAttachment) => {
+const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.d41ed442.js"), import("./_import/components/pq-controls.460341b5.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.61471215.js"), import("./_import/components/zoomable-treemap.91ece40e.js")]);
+
+const format = d3.format(",d");
+
+const deputyRollups = {
+  2025: await FileAttachment("./data/pq/2025/rollup-deputies.json").json(),
+  2026: await FileAttachment("./data/pq/2026/rollup-deputies.json").json()
+};
+
+const flatData = {
+  2025: await FileAttachment("./data/pq/2025/flat-enriched.json").json(),
+  2026: await FileAttachment("./data/pq/2026/flat-enriched.json").json()
+};
+
+const summaries = {
+  2025: await FileAttachment("./data/pq/2025/summary.json").json(),
+  2026: await FileAttachment("./data/pq/2026/summary.json").json()
+};
+
+const partyColorMap = new Map([
+  ["Fianna Fáil", "#2c8737"],
+  ["Sinn Féin", "#088460"],
+  ["Fine Gael", "#303591"],
+  ["Independent", "#666666"],
+  ["Labour Party", "#c82832"],
+  ["Social Democrats", "#782b81"],
+  ["Independent Ireland", "#087b87"],
+  ["People Before Profit-Solidarity", "#be417d"],
+  ["Aontú", "#b35400"],
+  ["100% RDR", "#985564"],
+  ["Green Party", "#6c7e26"]
+]);
+
+if (!window.pqDeputiesState) {
+  window.pqDeputiesState = {
+    year: 2026,
+    questionType: "all",
+    selectedDeputy: null,
+    selectedHeading: null
+  };
+}
+
+function getState() {
+  return window.pqDeputiesState;
+}
+
+function getSummary() {
+  return summaries[getState().year];
+}
+
+function normaliseQuestionType(value) {
+  if (!value) return null;
+  return String(value).trim().toLowerCase();
+}
+
+function getSurname(name) {
+  if (!name) return "";
+  const parts = String(name).trim().split(/\s+/);
+  return (parts[parts.length - 1] ?? "").toLowerCase();
+}
+
+function getPartyColor(party) {
+  return partyColorMap.get(party) ?? "#666666";
+}
+
+function randomIndex(length, seedString) {
+  let hash = 0;
+  const seed = String(seedString ?? "");
+  for (let i = 0; i < seed.length; i += 1) {
+    hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+  }
+  return length > 0 ? hash % length : 0;
+}
+
+function truncateLabel(text, max = 52) {
+  const value = String(text ?? "").trim();
+  if (value.length <= max) return value;
+  return value.slice(0, max).trimEnd() + "…";
+}
+
+function formatDisplayDate(dateIso) {
+  if (!dateIso) return "";
+  const date = new Date(`${dateIso}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return dateIso;
+
+  return new Intl.DateTimeFormat("en-IE", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(date);
+}
+
+function getYearRows() {
+  return deputyRollups[getState().year] ?? [];
+}
+
+function getFilteredFlatRows() {
+  const rows = flatData[getState().year] ?? [];
+  const questionType = normaliseQuestionType(getState().questionType);
+
+  if (questionType === "all") return rows;
+
+  return rows.filter(
+    (row) => normaliseQuestionType(row?.questionType) === questionType
+  );
+}
+
+function getBubbleRows() {
+  const rows = getYearRows();
+  const questionType = normaliseQuestionType(getState().questionType);
+
+  if (questionType === "all") {
+    return Array.from(
+      d3.rollup(
+        rows,
+        (group) => ({
+          id: group[0].id,
+          name: group[0].name,
+          value: d3.sum(group, (d) => d.value)
+        }),
+        (d) => d.id
+      ),
+      ([, value]) => value
+    ).sort((a, b) => d3.ascending(a.name, b.name));
+  }
+
+  return rows
+    .filter((d) => normaliseQuestionType(d.questionType) === questionType)
+    .map((d) => ({
+      id: d.id,
+      name: d.name,
+      value: d.value
+    }))
+    .sort((a, b) => d3.ascending(a.name, b.name));
+}
+
+function getDeputyOptions() {
+  const rows = flatData[getState().year] ?? [];
+
+  return Array.from(
+    d3.rollup(
+      rows,
+      (group) => {
+        const first = group[0];
+        return {
+          value: first.memberCode,
+          label: first.memberName || first.deputy,
+          party: first.party || "Independent",
+          constituency: first.constituency || "",
+          image: `https://data.oireachtas.ie/ie/oireachtas/member/id/${first.memberCode}/image/large`,
+          memberUrl: `https://www.oireachtas.ie/en/members/member/${first.memberCode}`
+        };
+      },
+      (d) => d.memberCode
+    ),
+    ([, value]) => value
+  ).sort((a, b) => {
+    const surnameCompare = d3.ascending(
+      getSurname(a.label),
+      getSurname(b.label)
+    );
+    if (surnameCompare !== 0) return surnameCompare;
+    return d3.ascending(a.label, b.label);
+  });
+}
+
+function getSelectedDeputyRows() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return [];
+
+  return getFilteredFlatRows().filter((d) => d.memberCode === selected);
+}
+
+function getHeadingOptions() {
+  const rows = getSelectedDeputyRows();
+
+  return [...new Set(
+    rows.map((d) => (d.heading ?? "").trim()).filter(Boolean)
+  )]
+    .sort((a, b) => d3.ascending(a, b))
+    .map((heading) => ({
+      value: heading,
+      label: heading
+    }));
+}
+
+function ensureValidHeadingSelection() {
+  const state = getState();
+  const options = getHeadingOptions();
+
+  if (!options.length) {
+    state.selectedHeading = null;
+    return null;
+  }
+
+  const isValid = options.some((d) => d.value === state.selectedHeading);
+  if (isValid) return state.selectedHeading;
+
+  state.selectedHeading = options[0].value;
+  return state.selectedHeading;
+}
+
+function getSelectedDeputyTableRows() {
+  const rows = getSelectedDeputyRows();
+  const selectedHeading = ensureValidHeadingSelection();
+
+  if (!selectedHeading) return [];
+
+  return rows
+    .filter((d) => (d.heading ?? "").trim() === selectedHeading)
+    .slice()
+    .sort((a, b) => {
+      const dateCompare = d3.ascending(a.date_iso ?? "", b.date_iso ?? "");
+      if (dateCompare !== 0) return dateCompare;
+      return d3.ascending(a.questionNumber ?? 0, b.questionNumber ?? 0);
+    });
+}
+
+function ensureValidDeputySelection() {
+  const state = getState();
+  const options = getDeputyOptions();
+
+  if (!options.length) {
+    state.selectedDeputy = null;
+    return null;
+  }
+
+  if (state.selectedDeputy) {
+    const existsInYear = options.some((d) => d.value === state.selectedDeputy);
+    if (existsInYear) return state.selectedDeputy;
+  }
+
+  state.selectedDeputy = options[0]?.value ?? null;
+  return state.selectedDeputy;
+}
+
+function getSelectedDeputy() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return null;
+  return getDeputyOptions().find((d) => d.value === selected) ?? null;
+}
+
+function getSelectedDeputyInsights() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return null;
+
+  const rows = getFilteredFlatRows().filter(
+    (d) => d.memberCode === selected
+  );
+
+  if (!rows.length) return null;
+
+  const headingCounts = d3.rollups(
+    rows,
+    (v) => v.length,
+    (d) => d.heading
+  ).sort((a, b) => d3.descending(a[1], b[1]));
+
+  const departmentCounts = d3.rollups(
+    rows,
+    (v) => v.length,
+    (d) => d.department
+  ).sort((a, b) => d3.descending(a[1], b[1]));
+
+  return {
+    topHeading: headingCounts[0]?.[0] ?? null,
+    topHeadingCount: headingCounts[0]?.[1] ?? 0,
+    topDepartment: departmentCounts[0]?.[0] ?? null,
+    topDepartmentCount: departmentCounts[0]?.[1] ?? 0
+  };
+}
+
+function getSelectedDeputyBubbleRow() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return null;
+  return getBubbleRows().find((d) => d.id === selected) ?? null;
+}
+
+function getSelectedDeputyDownloadRows() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return [];
+
+  return getFilteredFlatRows().filter(
+    (d) => d.memberCode === selected
+  );
+}
+
+function getSelectedDeputyPackedData() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return null;
+
+  const rows = getFilteredFlatRows().filter(
+    (d) => d.memberCode === selected
+  );
+
+  if (!rows.length) {
+    return {
+      name: "Parliamentary Questions",
+      children: []
+    };
+  }
+
+  const departmentMap = new Map();
+
+  for (const row of rows) {
+    const department = row?.department?.trim();
+    const heading = row?.heading?.trim();
+
+    if (!department || !heading) continue;
+
+    if (!departmentMap.has(department)) {
+      departmentMap.set(department, new Map());
+    }
+
+    const headingMap = departmentMap.get(department);
+    headingMap.set(heading, (headingMap.get(heading) ?? 0) + 1);
+  }
+
+  const children = [...departmentMap.entries()]
+    .map(([department, headingMap]) => ({
+      name: department,
+      children: [...headingMap.entries()]
+        .map(([heading, value]) => ({
+          name: heading,
+          value
+        }))
+        .sort((a, b) => b.value - a.value)
+    }))
+    .sort((a, b) => {
+      const aTotal = a.children.reduce((sum, d) => sum + d.value, 0);
+      const bTotal = b.children.reduce((sum, d) => sum + d.value, 0);
+      return bTotal - aTotal;
+    });
+
+  return {
+    name: "Parliamentary Questions",
+    children
+  };
+}
+
+function formatDateLabel(dateIso) {
+  if (!dateIso) return null;
+  const date = new Date(`${dateIso}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return null;
+
+  return new Intl.DateTimeFormat("en-IE", {
+    weekday: "long",
+    day: "numeric",
+    month: "long"
+  }).format(date);
+}
+
+function totalValue(node) {
+  if (!node) return 0;
+  if (typeof node.value === "number") return node.value;
+  if (!Array.isArray(node.children)) return 0;
+  return node.children.reduce((sum, child) => sum + totalValue(child), 0);
+}
+
+function groupRows(rows, getKey) {
+  const groups = new Map();
+
+  for (const row of rows) {
+    const key = getKey(row);
+    if (!key) continue;
+
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+
+    groups.get(key).push(row);
+  }
+
+  return groups;
+}
+
+function buildTreemapLeaf(rows) {
+  return {
+    children: rows.map((row) => ({
+      name: row?.question ?? "Untitled question",
+      value: 1,
+      url: row?.url ?? null
+    }))
+  };
+}
+
+function buildTreemapLevel(rows, levels, levelIndex = 0) {
+  if (levelIndex >= levels.length) return buildTreemapLeaf(rows);
+
+  const level = levels[levelIndex];
+  const groups = groupRows(rows, level.getKey);
+
+  const children = [...groups.entries()].map(([key, group]) => {
+    const node = buildTreemapLevel(group, levels, levelIndex + 1);
+
+    if (level.extra) {
+      return {
+        name: key,
+        ...level.extra(group[0]),
+        children: node.children ?? [node]
+      };
+    }
+
+    return {
+      name: key,
+      children: node.children ?? [node]
+    };
+  });
+
+  children.sort((a, b) => totalValue(b) - totalValue(a));
+  return { children };
+}
+
+function getSelectedDeputyTreemapData() {
+  const selected = ensureValidDeputySelection();
+  if (!selected) return null;
+
+  const preparedRows = getFilteredFlatRows()
+    .filter((row) => row.memberCode === selected)
+    .map((row) => ({
+      ...row,
+      date_label: formatDateLabel(row.date_iso)
+    }))
+    .filter(
+      (row) =>
+        row.department &&
+        row.heading &&
+        row.date_label &&
+        row.question
+    );
+
+  if (!preparedRows.length) {
+    return {
+      name: "Parliamentary Questions",
+      children: []
+    };
+  }
+
+  const treemapLevels = [
+    { getKey: (d) => d.department },
+    { getKey: (d) => d.heading },
+    {
+      getKey: (d) => d.date_label,
+      extra: (d) => ({ date_iso: d.date_iso ?? null })
+    }
+  ];
+
+  return {
+    name: "Parliamentary Questions",
+    children: buildTreemapLevel(preparedRows, treemapLevels).children ?? []
+  };
+}
+
+function dispatchChange() {
+  window.dispatchEvent(new CustomEvent("pq-deputies:change"));
+}
+
+function dispatchTableChange() {
+  window.dispatchEvent(new CustomEvent("pq-deputies-table:change"));
+}
+
+function withPreservedScroll(fn) {
+  const x = window.scrollX;
+  const y = window.scrollY;
+  fn();
+  requestAnimationFrame(() => window.scrollTo(x, y));
+}
+
+function mountReactive(className, renderFn, options = {}) {
+  const {
+    debounceMs = 50,
+    loadingHtml = "",
+    loadingDelayMs = 100,
+    eventName = "pq-deputies:change"
+  } = options;
+
+  const eventNames = Array.isArray(eventName) ? eventName : [eventName];
+
+  const el = document.createElement("div");
+  if (className) el.className = className;
+
+  let timeoutId = null;
+
+  const run = () => {
+    let didRender = false;
+
+    const loadingTimer = setTimeout(() => {
+      if (!didRender && loadingHtml) {
+        el.innerHTML = loadingHtml;
+      }
+    }, loadingDelayMs);
+
+    requestAnimationFrame(() => {
+      renderFn(el);
+      didRender = true;
+      clearTimeout(loadingTimer);
+    });
+  };
+
+  run();
+
+  const onChange = () => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(run, debounceMs);
+  };
+
+  for (const name of eventNames) {
+    window.addEventListener(name, onChange);
+  }
+
+  return el;
+}
+return {d3,bubbleChart,pqControls,packedCircleChart,downloadButton,zoomableTreemap,format,deputyRollups,flatData,summaries,partyColorMap,getState,getSummary,normaliseQuestionType,getSurname,getPartyColor,randomIndex,truncateLabel,formatDisplayDate,getYearRows,getFilteredFlatRows,getBubbleRows,getDeputyOptions,getSelectedDeputyRows,getHeadingOptions,ensureValidHeadingSelection,getSelectedDeputyTableRows,ensureValidDeputySelection,getSelectedDeputy,getSelectedDeputyInsights,getSelectedDeputyBubbleRow,getSelectedDeputyDownloadRows,getSelectedDeputyPackedData,formatDateLabel,totalValue,groupRows,buildTreemapLeaf,buildTreemapLevel,getSelectedDeputyTreemapData,dispatchChange,dispatchTableChange,withPreservedScroll,mountReactive};
+}});
+
+define({id: "1bfd206f", inputs: ["display","mountReactive","getSummary","format"], body: (display,mountReactive,getSummary,format) => {
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const summary = getSummary();
+    el.innerHTML = `
+       <p>In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+      </p>
+      <p>
+        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.</p>
+        <h2>Explore by Deputy</h2>
+       <p>Select a Deputy or take a look at the range below by hovering over circles, sized by question count. You can also click through to <a href="https://www.oireachtas.ie/en/members/" target="_blank" rel="noreferrer">
+         Member profiles
+       </a>.</p>
+    `;
+  })
+);
+}});
+
+define({id: "842aaa35", inputs: ["pqControls","ensureValidDeputySelection","ensureValidHeadingSelection","dispatchChange","getDeputyOptions","getSelectedDeputy","getSelectedDeputyBubbleRow","getPartyColor","format","getState","withPreservedScroll","display"], body: (pqControls,ensureValidDeputySelection,ensureValidHeadingSelection,dispatchChange,getDeputyOptions,getSelectedDeputy,getSelectedDeputyBubbleRow,getPartyColor,format,getState,withPreservedScroll,display) => {
+{
+  const panel = document.createElement("div");
+  panel.className = "deputy-selection-panel";
+
+  const controlsCol = document.createElement("div");
+  controlsCol.className = "deputy-selection-panel__controls";
+
+  const cardCol = document.createElement("div");
+  cardCol.className = "deputy-selection-panel__card";
+
+  const controls = pqControls({
+    state: window.pqDeputiesState,
+    onChange: () => {
+      ensureValidDeputySelection();
+      window.pqDeputiesState.selectedHeading = null;
+      ensureValidHeadingSelection();
+      dispatchChange();
+    }
+  });
+
+  controlsCol.appendChild(controls);
+
+  const deputyWrap = document.createElement("div");
+  deputyWrap.className = "deputy-select-wrap";
+
+  function renderDeputySelect() {
+    deputyWrap.replaceChildren();
+
+    const label = document.createElement("label");
+    label.className = "control";
+
+    const labelText = document.createElement("span");
+    labelText.className = "control-label";
+    labelText.textContent = "Deputy";
+
+    const select = document.createElement("select");
+    select.className = "control-input deputy-select-input";
+
+    const options = getDeputyOptions();
+    const selected = ensureValidDeputySelection();
+
+    if (!options.length) {
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = "No Deputies available";
+      select.appendChild(option);
+      select.disabled = true;
+    } else {
+      for (const optionData of options) {
+        const option = document.createElement("option");
+        option.value = optionData.value;
+        option.textContent = optionData.label;
+        option.selected = optionData.value === selected;
+        select.appendChild(option);
+      }
+
+      select.addEventListener("change", (event) => {
+        window.pqDeputiesState.selectedDeputy = event.target.value || null;
+        window.pqDeputiesState.selectedHeading = null;
+        ensureValidHeadingSelection();
+        dispatchChange();
+      });
+    }
+
+    label.appendChild(labelText);
+    label.appendChild(select);
+    deputyWrap.appendChild(label);
+  }
+
+  function renderDeputyCard() {
+    cardCol.replaceChildren();
+
+    const selected = getSelectedDeputy();
+    const selectedBubble = getSelectedDeputyBubbleRow();
+
+    if (!selected) {
+      const empty = document.createElement("div");
+      empty.className = "deputy-card deputy-card--empty";
+      empty.innerHTML = `
+        <div class="deputy-card-body">
+          <p class="deputy-card-empty-text">No Deputy is available for this selection.</p>
+        </div>
+      `;
+      cardCol.appendChild(empty);
+      return;
+    }
+
+    const questionCount = selectedBubble?.value ?? 0;
+    const partyColor = getPartyColor(selected.party);
+
+    const link = document.createElement("a");
+    link.className = "deputy-card-link";
+    link.href = selected.memberUrl;
+
+    const card = document.createElement("article");
+    card.className = "deputy-card";
+
+    const media = document.createElement("div");
+    media.className = "deputy-card-media";
+    media.style.setProperty("--party-color", partyColor);
+
+    const ring = document.createElement("div");
+    ring.className = "deputy-card-ring";
+
+    const img = document.createElement("img");
+    img.className = "deputy-card-image";
+    img.src = selected.image;
+    img.alt = selected.label;
+    img.loading = "lazy";
+    img.onerror = () => {
+      img.remove();
+      const placeholder = document.createElement("div");
+      placeholder.className = "deputy-card-placeholder";
+      placeholder.textContent = "TD";
+      ring.appendChild(placeholder);
+    };
+
+    ring.appendChild(img);
+    media.appendChild(ring);
+
+    const body = document.createElement("div");
+    body.className = "deputy-card-body";
+
+    const metaGrid = document.createElement("div");
+    metaGrid.className = "deputy-card-meta-grid";
+
+    const metaItems = [
+      ["Party", selected.party || "—"],
+      ["Constituency", selected.constituency || "—"],
+      ["Questions asked", format(questionCount)]
+    ];
+
+    for (const [labelText, valueText] of metaItems) {
+      const item = document.createElement("div");
+      item.className = "deputy-card-meta-item";
+
+      const itemLabel = document.createElement("span");
+      itemLabel.className = "deputy-card-meta-label";
+      itemLabel.textContent = labelText;
+
+      const itemValue = document.createElement("span");
+      itemValue.className = "deputy-card-meta-value";
+      itemValue.textContent = valueText;
+
+      item.appendChild(itemLabel);
+      item.appendChild(itemValue);
+      metaGrid.appendChild(item);
+    }
+
+    body.appendChild(metaGrid);
+
+    card.appendChild(media);
+    card.appendChild(body);
+    link.appendChild(card);
+    cardCol.appendChild(link);
+  }
+
+  renderDeputySelect();
+  renderDeputyCard();
+
+  let lastControlsKey = `${getState().year}::${getState().questionType}`;
+
+  window.addEventListener("pq-deputies:change", () => {
+    const nextKey = `${getState().year}::${getState().questionType}`;
+
+    withPreservedScroll(() => {
+      if (nextKey !== lastControlsKey) {
+        renderDeputySelect();
+        lastControlsKey = nextKey;
+      }
+      renderDeputyCard();
+    });
+  });
+
+  controlsCol.appendChild(deputyWrap);
+  panel.appendChild(cardCol);
+  panel.appendChild(controlsCol);
+  display(panel);
+}
+}});
+
+define({id: "6de2c112", inputs: ["display","mountReactive","getBubbleRows","getState","bubbleChart"], body: (display,mountReactive,getBubbleRows,getState,bubbleChart) => {
+display(
+  mountReactive("", (el) => {
+    const rows = getBubbleRows();
+    const selectedDeputy = getState().selectedDeputy;
+
+    if (!rows.length) {
+      el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
+      return;
+    }
+
+    el.replaceChildren(
+      bubbleChart(rows, {
+        width: 620,
+        height: 620,
+        selectedId: selectedDeputy,
+        label: (d) => [d.name, d.value.toLocaleString("en-IE")].join("\n"),
+        value: (d) => d.value,
+        group: (d) => d.id,
+        title: (d) =>
+          `${d.name} has asked ${d.value.toLocaleString("en-IE")} parliamentary questions in ${getState().year}`,
+        link: (d) => `https://www.oireachtas.ie/en/members/member/${d.id}`
+      })
+    );
+  }, {
+    loadingHtml: `<p class="chart-loading">Updating…</p>`,
+    loadingDelayMs: 100
+  })
+);
+}});
+
+define({id: "7a927c92", inputs: ["display","mountReactive","getSelectedDeputy","getSelectedDeputyInsights","getState","getSelectedDeputyBubbleRow"], body: (display,mountReactive,getSelectedDeputy,getSelectedDeputyInsights,getState,getSelectedDeputyBubbleRow) => {
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const deputy = getSelectedDeputy();
+    const insights = getSelectedDeputyInsights();
+    const state = getState();
+
+    if (!deputy) {
+      el.innerHTML = `<p>No data available for this Deputy.</p>`;
+      return;
+    }
+
+    const total = getSelectedDeputyBubbleRow()?.value ?? 0;
+
+    const questionLabel =
+      total === 1
+        ? state.questionType === "oral"
+          ? "oral question"
+          : "question"
+        : state.questionType === "oral"
+        ? "oral questions"
+        : "questions";
+
+    if (total === 0) {
+      el.innerHTML = `
+        <p>
+          <strong>Deputy ${deputy.label}</strong>  asked 
+          <strong>0 ${questionLabel}</strong> 
+          in this period, which covers <strong>${state.year}</strong>.
+        </p>
+
+        <p>
+          This Deputy did not ask any ${state.questionType === "oral" ? "oral questions" : "questions"} in this period.
+        </p>
+      `;
+      return;
+    }
+
+    if (!insights) {
+      el.innerHTML = `<p>No data available for this Deputy.</p>`;
+      return;
+    }
+
+    el.innerHTML = `
+      <p>
+        <strong>Deputy ${deputy.label}</strong>  asked 
+        <strong>${total.toLocaleString("en-IE")} ${questionLabel}</strong> 
+        in this period, which covers <strong>${state.year}</strong>.
+      </p>
+
+      <p>
+        In this period, the Deputy most frequently raised matters under the heading 
+        <strong>${insights.topHeading}</strong>, accounting for 
+        <strong>${insights.topHeadingCount.toLocaleString("en-IE")} ${
+          insights.topHeadingCount === 1 ? "question" : "questions"
+        }</strong>.
+      </p>
+
+      <p>
+        Take a look at the breakdown of the Deputy's questions and the Departments responding. 
+        Hover over circles to reveal information.
+      </p>
+    `;
+  })
+);
+}});
+
+define({id: "80813211", inputs: ["display","mountReactive","getSelectedDeputyPackedData","packedCircleChart"], body: (display,mountReactive,getSelectedDeputyPackedData,packedCircleChart) => {
+display(
+  mountReactive("", (el) => {
+    const data = getSelectedDeputyPackedData();
+
+    if (!data || !data.children.length) {
+      el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
+      return;
+    }
+
+    el.replaceChildren(
+      packedCircleChart(data, {
+        width: 800,
+        height: 700
+      })
+    );
+  }, {
+    loadingHtml: `<p class="chart-loading">Updating…</p>`,
+    loadingDelayMs: 100
+  })
+);
+}});
+
+define({id: "5df5e6a1", inputs: ["display","mountReactive","getSelectedDeputyTreemapData","zoomableTreemap"], body: (display,mountReactive,getSelectedDeputyTreemapData,zoomableTreemap) => {
+display(
+  mountReactive("", (el) => {
+    const data = getSelectedDeputyTreemapData();
+
+    if (!data || !data.children.length) {
+      el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
+      return;
+    }
+
+    el.replaceChildren(
+      zoomableTreemap(data, {
+        width: 650,
+        height: 520
+      })
+    );
+  }, {
+    loadingHtml: `<p class="chart-loading">Updating…</p>`,
+    loadingDelayMs: 100
+  })
+);
+}});
+
+define({id: "04e4e111", inputs: ["getHeadingOptions","ensureValidHeadingSelection","truncateLabel","dispatchTableChange","display"], body: (getHeadingOptions,ensureValidHeadingSelection,truncateLabel,dispatchTableChange,display) => {
+{
+  const wrap = document.createElement("div");
+
+  function renderHeadingSelect() {
+    wrap.replaceChildren();
+
+    const label = document.createElement("label");
+    label.className = "control";
+
+    const labelText = document.createElement("span");
+    labelText.className = "control-label";
+    labelText.textContent = "Question topic";
+
+    const select = document.createElement("select");
+    select.className = "control-input";
+
+    const options = getHeadingOptions();
+    const selected = ensureValidHeadingSelection();
+
+    if (!options.length) {
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = "No topics available";
+      select.appendChild(option);
+      select.disabled = true;
+    } else {
+      for (const optionData of options) {
+        const option = document.createElement("option");
+        option.value = optionData.value;
+        option.textContent = truncateLabel(optionData.label);
+        option.selected = optionData.value === selected;
+        select.appendChild(option);
+      }
+
+      select.addEventListener("change", (event) => {
+        window.pqDeputiesState.selectedHeading = event.target.value || null;
+        dispatchTableChange();
+      });
+    }
+
+    label.appendChild(labelText);
+    label.appendChild(select);
+    wrap.appendChild(label);
+
+  }
+
+  renderHeadingSelect();
+
+  window.addEventListener("pq-deputies:change", renderHeadingSelect);
+  window.addEventListener("pq-deputies-table:change", renderHeadingSelect);
+
+  display(wrap);
+}
+}});
+
+define({id: "18b37005", inputs: ["display","mountReactive","getSelectedDeputyTableRows","getState","getSelectedDeputy","normaliseQuestionType"], body: (display,mountReactive,getSelectedDeputyTableRows,getState,getSelectedDeputy,normaliseQuestionType) => {
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const rows = getSelectedDeputyTableRows();
+    const state = getState();
+    const deputy = getSelectedDeputy();
+
+    const count = rows.length;
+    const topic = state.selectedHeading || null;
+
+    if (!topic || !deputy) {
+      el.innerHTML = "";
+      return;
+    }
+
+    const isOral = normaliseQuestionType(state.questionType) === "oral";
+    const label =
+      count === 1
+        ? isOral
+          ? "oral question"
+          : "question"
+        : isOral
+        ? "oral questions"
+        : "questions";
+
+    el.innerHTML = `
+      <p>
+        <strong>Deputy ${deputy.label}</strong> has asked <strong>${count.toLocaleString("en-IE")} ${label}</strong>
+        about <strong>${topic}</strong>.
+      </p>
+    `;
+  }, {
+    eventName: ["pq-deputies:change", "pq-deputies-table:change"]
+  })
+);
+}});
+
+define({id: "47cae3f4", inputs: ["display","mountReactive","getSelectedDeputyTableRows","formatDisplayDate"], body: (display,mountReactive,getSelectedDeputyTableRows,formatDisplayDate) => {
+display(
+  mountReactive("", (el) => {
+    const rows = getSelectedDeputyTableRows();
+
+    if (!rows.length) {
+      el.innerHTML = `<p class="chart-loading">No questions available for this selection.</p>`;
+      return;
+    }
+
+    const table = document.createElement("table");
+
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Department</th>
+          <th>Question</th>
+          <th>Reply</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    `;
+
+    const tbody = table.querySelector("tbody");
+
+    for (const row of rows) {
+      const tr = document.createElement("tr");
+
+      const tdDate = document.createElement("td");
+      tdDate.textContent = formatDisplayDate(row.date_iso);
+
+      const tdDept = document.createElement("td");
+      tdDept.textContent = row.department ?? "";
+
+      const tdQuestion = document.createElement("td");
+      tdQuestion.textContent = (row.question ?? "").replace(/\s+/g, " ").trim();
+
+      const tdReply = document.createElement("td");
+      const a = document.createElement("a");
+      a.href = row.url ?? "#";
+      a.target = "_blank";
+      a.rel = "noreferrer";
+      a.textContent = "Read reply";
+      tdReply.appendChild(a);
+
+      tr.appendChild(tdDate);
+      tr.appendChild(tdDept);
+      tr.appendChild(tdQuestion);
+      tr.appendChild(tdReply);
+
+      tbody.appendChild(tr);
+    }
+
+    el.replaceChildren(table);
+  }, {
+    eventName: ["pq-deputies:change", "pq-deputies-table:change"]
+  })
+);
+}});
+
+define({id: "8f4c357e", inputs: ["display","mountReactive","getSelectedDeputyDownloadRows","getSelectedDeputy","getState","downloadButton"], body: (display,mountReactive,getSelectedDeputyDownloadRows,getSelectedDeputy,getState,downloadButton) => {
+display(
+  mountReactive("download-block", (el) => {
+    const rows = getSelectedDeputyDownloadRows();
+    const deputy = getSelectedDeputy();
+
+    if (!rows.length || !deputy) {
+      el.innerHTML = "";
+      return;
+    }
+
+    const filename = `pq_${deputy.label
+      .replace(/\s+/g, "_")
+      .toLowerCase()}_${getState().year}.csv`;
+
+    el.replaceChildren(
+      downloadButton(rows, filename)
+    );
+  }, {
+    debounceMs: 20
+  })
+);
+
+{
+  const wrap = document.createElement("div");
+  wrap.className = "explore-links-block";
+
+  wrap.innerHTML = `
+    <div class="explore-links-grid">
+      <a class="explore-tile" href="./">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Overview</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+
+      <a class="explore-tile" href="./constituencies">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore:  Constituencies</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+
+      <a class="explore-tile" href="./parties">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Parties</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+              </a>
+    </div>
+  `;
+
+  display(wrap);
+}
+}});
+
+</script>
+</head>
+<body>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:e9fdbdc4:--></div>
+<div class="observablehq observablehq--block"><!--:1bfd206f:--></div>
+<div class="prose-block controls-block">
+<div class="observablehq observablehq--block"><!--:842aaa35:--></div>
+</div>
+<div class="chart-block">
+<div class="observablehq observablehq--block"><!--:6de2c112:--></div>
+<h2 id="explore-by-department" tabindex="-1"><a class="observablehq-header-anchor" href="#explore-by-department">Explore by Department</a></h2>
+<div class="observablehq observablehq--block"><!--:7a927c92:--></div>
+<div class="chart-block">
+<div class="observablehq observablehq--block"><!--:80813211:--></div>
+</div>
+<div class="chart-caption">
+  Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
+</div>
+<h2 id="explore-further" tabindex="-1"><a class="observablehq-header-anchor" href="#explore-further">Explore further</a></h2>
+<div class="prose-block">
+<p><strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, text of the question and reply as published.</p>
+<p>Click on the top panel to zoom out again.</p>
+</div>
+<div class="chart-block">
+<div class="observablehq observablehq--block"><!--:5df5e6a1:--></div>
+</div>
+<div class="prose-block">
+<p>Refine your search further by question topics raised by the Deputy. Check the results in the table below and read the questions and replies in the Official Report.</p>
+</div>
+<div class="prose-block controls-block">
+<div class="observablehq observablehq--block"><!--:04e4e111:--></div>
+</div>
+<div class="observablehq observablehq--block"><!--:18b37005:--></div>
+<div class="observablehq observablehq--block"><!--:47cae3f4:--></div>
+<div class="prose-block">
+  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
+      dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
+    Oireachtas open data API
+  </a>.
+</div>
+<div class="observablehq observablehq--block"><!--:8f4c357e:--></div>
+</div></main>
+<footer id="observablehq-footer">
+<div>© Houses of the Oireachtas</div>
+</footer>
+</div>
+</body>
+</html>
