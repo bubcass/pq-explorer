@@ -12,12 +12,15 @@ import { pqControls } from "./components/pq-controls.js";
 import { packedCircleChart } from "./components/packed-circle-chart.js";
 import { downloadButton } from "./components/download-button.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
+import { deputyDetailUrls } from "./generated/deputy-detail-urls.js";
 
-const observer = new ResizeObserver(([entry]) => {
-  parent.postMessage({ height: entry.target.scrollHeight }, "*");
-});
+if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
+  window.__pqDeputiesResizeObserver = new ResizeObserver(([entry]) => {
+    parent.postMessage({ height: entry.target.scrollHeight }, "*");
+  });
 
-observer.observe(document.body);
+  window.__pqDeputiesResizeObserver.observe(document.body);
+}
 
 const format = d3.format(",d");
 
@@ -26,14 +29,15 @@ const deputyRollups = {
   2026: await FileAttachment("data/pq/2026/rollup-deputies.json").json()
 };
 
-const flatData = {
-  2025: await FileAttachment("data/pq/2025/flat-enriched.json").json(),
-  2026: await FileAttachment("data/pq/2026/flat-enriched.json").json()
-};
-
 const summaries = {
-  2025: await FileAttachment("data/pq/2025/summary.json").json(),
-  2026: await FileAttachment("data/pq/2026/summary.json").json()
+  2025: {
+    all: await FileAttachment("data/pq/2025/summary-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/summary-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/summary-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/summary-oral.json").json()
+  }
 };
 
 const partyColorMap = new Map([
@@ -59,17 +63,18 @@ if (!window.pqDeputiesState) {
   };
 }
 
+const deputyDetailCache = new Map();
+
 function getState() {
   return window.pqDeputiesState;
 }
 
-function getSummary() {
-  return summaries[getState().year];
+function getVariantKey() {
+  return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function normaliseQuestionType(value) {
-  if (!value) return null;
-  return String(value).trim().toLowerCase();
+function getSummary() {
+  return summaries[getState().year]?.[getVariantKey()] ?? null;
 }
 
 function getSurname(name) {
@@ -80,15 +85,6 @@ function getSurname(name) {
 
 function getPartyColor(party) {
   return partyColorMap.get(party) ?? "#666666";
-}
-
-function randomIndex(length, seedString) {
-  let hash = 0;
-  const seed = String(seedString ?? "");
-  for (let i = 0; i < seed.length; i += 1) {
-    hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
-  }
-  return length > 0 ? hash % length : 0;
 }
 
 function truncateLabel(text, max = 52) {
@@ -109,32 +105,48 @@ function formatDisplayDate(dateIso) {
   }).format(date);
 }
 
+function cardPlaceholder() {
+  const wrap = document.createElement("div");
+  wrap.className = "deputy-card deputy-card--empty";
+  wrap.style.minHeight = "180px";
+  wrap.innerHTML = `
+    <div class="deputy-card-body">
+      <p class="deputy-card-empty-text">Loading Deputy details…</p>
+    </div>
+  `;
+  return wrap;
+}
+
+function chartPlaceholder(height = 320, text = "Updating…") {
+  const wrap = document.createElement("div");
+  wrap.className = "chart-loading";
+  wrap.style.minHeight = `${height}px`;
+  wrap.style.display = "grid";
+  wrap.style.alignItems = "center";
+  wrap.style.justifyItems = "center";
+  wrap.style.border = "1px solid var(--border)";
+  wrap.style.background = "rgba(255,255,255,0.55)";
+  wrap.style.padding = "1rem";
+  wrap.textContent = text;
+  return wrap;
+}
+
 function getYearRows() {
   return deputyRollups[getState().year] ?? [];
 }
 
-function getFilteredFlatRows() {
-  const rows = flatData[getState().year] ?? [];
-  const questionType = normaliseQuestionType(getState().questionType);
-
-  if (questionType === "all") return rows;
-
-  return rows.filter(
-    (row) => normaliseQuestionType(row?.questionType) === questionType
-  );
-}
-
 function getBubbleRows() {
   const rows = getYearRows();
-  const questionType = normaliseQuestionType(getState().questionType);
+  const variant = getVariantKey();
 
-  if (questionType === "all") {
+  if (variant === "all") {
     return Array.from(
       d3.rollup(
         rows,
         (group) => ({
           id: group[0].id,
           name: group[0].name,
+          party: group[0].party,
           value: d3.sum(group, (d) => d.value)
         }),
         (d) => d.id
@@ -144,95 +156,33 @@ function getBubbleRows() {
   }
 
   return rows
-    .filter((d) => normaliseQuestionType(d.questionType) === questionType)
+    .filter((d) => String(d.questionType ?? "").trim().toLowerCase() === variant)
     .map((d) => ({
       id: d.id,
       name: d.name,
+      party: d.party,
       value: d.value
     }))
     .sort((a, b) => d3.ascending(a.name, b.name));
 }
 
 function getDeputyOptions() {
-  const rows = flatData[getState().year] ?? [];
-
   return Array.from(
     d3.rollup(
-      rows,
-      (group) => {
-        const first = group[0];
-        return {
-          value: first.memberCode,
-          label: first.memberName || first.deputy,
-          party: first.party || "Independent",
-          constituency: first.constituency || "",
-          image: `https://data.oireachtas.ie/ie/oireachtas/member/id/${first.memberCode}/image/large`,
-          memberUrl: `https://www.oireachtas.ie/en/members/member/${first.memberCode}`
-        };
-      },
-      (d) => d.memberCode
+      getYearRows(),
+      (group) => ({
+        value: group[0].id,
+        label: group[0].name,
+        party: group[0].party || "Independent"
+      }),
+      (d) => d.id
     ),
     ([, value]) => value
   ).sort((a, b) => {
-    const surnameCompare = d3.ascending(
-      getSurname(a.label),
-      getSurname(b.label)
-    );
+    const surnameCompare = d3.ascending(getSurname(a.label), getSurname(b.label));
     if (surnameCompare !== 0) return surnameCompare;
     return d3.ascending(a.label, b.label);
   });
-}
-
-function getSelectedDeputyRows() {
-  const selected = ensureValidDeputySelection();
-  if (!selected) return [];
-
-  return getFilteredFlatRows().filter((d) => d.memberCode === selected);
-}
-
-function getHeadingOptions() {
-  const rows = getSelectedDeputyRows();
-
-  return [...new Set(
-    rows.map((d) => (d.heading ?? "").trim()).filter(Boolean)
-  )]
-    .sort((a, b) => d3.ascending(a, b))
-    .map((heading) => ({
-      value: heading,
-      label: heading
-    }));
-}
-
-function ensureValidHeadingSelection() {
-  const state = getState();
-  const options = getHeadingOptions();
-
-  if (!options.length) {
-    state.selectedHeading = null;
-    return null;
-  }
-
-  const isValid = options.some((d) => d.value === state.selectedHeading);
-  if (isValid) return state.selectedHeading;
-
-  state.selectedHeading = options[0].value;
-  return state.selectedHeading;
-}
-
-function getSelectedDeputyTableRows() {
-  const rows = getSelectedDeputyRows();
-  const selectedHeading = ensureValidHeadingSelection();
-
-  if (!selectedHeading) return [];
-
-  return rows
-    .filter((d) => (d.heading ?? "").trim() === selectedHeading)
-    .slice()
-    .sort((a, b) => {
-      const dateCompare = d3.ascending(a.date_iso ?? "", b.date_iso ?? "");
-      if (dateCompare !== 0) return dateCompare;
-      return d3.ascending(a.questionNumber ?? 0, b.questionNumber ?? 0);
-    });
 }
 
 function ensureValidDeputySelection() {
@@ -244,49 +194,18 @@ function ensureValidDeputySelection() {
     return null;
   }
 
-  if (state.selectedDeputy) {
-    const existsInYear = options.some((d) => d.value === state.selectedDeputy);
-    if (existsInYear) return state.selectedDeputy;
+  if (state.selectedDeputy && options.some((d) => d.value === state.selectedDeputy)) {
+    return state.selectedDeputy;
   }
 
   state.selectedDeputy = options[0]?.value ?? null;
   return state.selectedDeputy;
 }
 
-function getSelectedDeputy() {
+function getSelectedDeputyOption() {
   const selected = ensureValidDeputySelection();
   if (!selected) return null;
   return getDeputyOptions().find((d) => d.value === selected) ?? null;
-}
-
-function getSelectedDeputyInsights() {
-  const selected = ensureValidDeputySelection();
-  if (!selected) return null;
-
-  const rows = getFilteredFlatRows().filter(
-    (d) => d.memberCode === selected
-  );
-
-  if (!rows.length) return null;
-
-  const headingCounts = d3.rollups(
-    rows,
-    (v) => v.length,
-    (d) => d.heading
-  ).sort((a, b) => d3.descending(a[1], b[1]));
-
-  const departmentCounts = d3.rollups(
-    rows,
-    (v) => v.length,
-    (d) => d.department
-  ).sort((a, b) => d3.descending(a[1], b[1]));
-
-  return {
-    topHeading: headingCounts[0]?.[0] ?? null,
-    topHeadingCount: headingCounts[0]?.[1] ?? 0,
-    topDepartment: departmentCounts[0]?.[0] ?? null,
-    topDepartmentCount: departmentCounts[0]?.[1] ?? 0
-  };
 }
 
 function getSelectedDeputyBubbleRow() {
@@ -295,179 +214,112 @@ function getSelectedDeputyBubbleRow() {
   return getBubbleRows().find((d) => d.id === selected) ?? null;
 }
 
-function getSelectedDeputyDownloadRows() {
-  const selected = ensureValidDeputySelection();
-  if (!selected) return [];
-
-  return getFilteredFlatRows().filter(
-    (d) => d.memberCode === selected
-  );
+function getDeputyDetailUrl(year, memberCode) {
+  return deputyDetailUrls?.[year]?.[memberCode] ?? null;
 }
 
-function getSelectedDeputyPackedData() {
-  const selected = ensureValidDeputySelection();
-  if (!selected) return null;
-
-  const rows = getFilteredFlatRows().filter(
-    (d) => d.memberCode === selected
-  );
-
-  if (!rows.length) {
-    return {
-      name: "Parliamentary Questions",
-      children: []
-    };
+async function getDeputyDetail(year, memberCode) {
+  const cacheKey = `${year}::${memberCode}`;
+  if (deputyDetailCache.has(cacheKey)) {
+    return deputyDetailCache.get(cacheKey);
   }
 
-  const departmentMap = new Map();
-
-  for (const row of rows) {
-    const department = row?.department?.trim();
-    const heading = row?.heading?.trim();
-
-    if (!department || !heading) continue;
-
-    if (!departmentMap.has(department)) {
-      departmentMap.set(department, new Map());
-    }
-
-    const headingMap = departmentMap.get(department);
-    headingMap.set(heading, (headingMap.get(heading) ?? 0) + 1);
+  const url = getDeputyDetailUrl(year, memberCode);
+  if (!url) {
+    console.error("No deputy detail URL found", { year, memberCode });
+    return null;
   }
 
-  const children = [...departmentMap.entries()]
-    .map(([department, headingMap]) => ({
-      name: department,
-      children: [...headingMap.entries()]
-        .map(([heading, value]) => ({
-          name: heading,
-          value
-        }))
-        .sort((a, b) => b.value - a.value)
-    }))
-    .sort((a, b) => {
-      const aTotal = a.children.reduce((sum, d) => sum + d.value, 0);
-      const bTotal = b.children.reduce((sum, d) => sum + d.value, 0);
-      return bTotal - aTotal;
+  const response = await fetch(url);
+  if (!response.ok) {
+    console.error("Deputy detail fetch failed", {
+      year,
+      memberCode,
+      url,
+      status: response.status
     });
-
-  return {
-    name: "Parliamentary Questions",
-    children
-  };
-}
-
-function formatDateLabel(dateIso) {
-  if (!dateIso) return null;
-  const date = new Date(`${dateIso}T00:00:00`);
-  if (Number.isNaN(date.getTime())) return null;
-
-  return new Intl.DateTimeFormat("en-IE", {
-    weekday: "long",
-    day: "numeric",
-    month: "long"
-  }).format(date);
-}
-
-function totalValue(node) {
-  if (!node) return 0;
-  if (typeof node.value === "number") return node.value;
-  if (!Array.isArray(node.children)) return 0;
-  return node.children.reduce((sum, child) => sum + totalValue(child), 0);
-}
-
-function groupRows(rows, getKey) {
-  const groups = new Map();
-
-  for (const row of rows) {
-    const key = getKey(row);
-    if (!key) continue;
-
-    if (!groups.has(key)) {
-      groups.set(key, []);
-    }
-
-    groups.get(key).push(row);
+    return null;
   }
 
-  return groups;
+  const json = await response.json();
+  deputyDetailCache.set(cacheKey, json);
+  return json;
 }
 
-function buildTreemapLeaf(rows) {
-  return {
-    children: rows.map((row) => ({
-      name: row?.question ?? "Untitled question",
-      value: 1,
-      url: row?.url ?? null
-    }))
-  };
-}
-
-function buildTreemapLevel(rows, levels, levelIndex = 0) {
-  if (levelIndex >= levels.length) return buildTreemapLeaf(rows);
-
-  const level = levels[levelIndex];
-  const groups = groupRows(rows, level.getKey);
-
-  const children = [...groups.entries()].map(([key, group]) => {
-    const node = buildTreemapLevel(group, levels, levelIndex + 1);
-
-    if (level.extra) {
-      return {
-        name: key,
-        ...level.extra(group[0]),
-        children: node.children ?? [node]
-      };
-    }
-
-    return {
-      name: key,
-      children: node.children ?? [node]
-    };
-  });
-
-  children.sort((a, b) => totalValue(b) - totalValue(a));
-  return { children };
-}
-
-function getSelectedDeputyTreemapData() {
+async function getSelectedDeputyDetail() {
   const selected = ensureValidDeputySelection();
   if (!selected) return null;
+  return await getDeputyDetail(getState().year, selected);
+}
 
-  const preparedRows = getFilteredFlatRows()
-    .filter((row) => row.memberCode === selected)
-    .map((row) => ({
-      ...row,
-      date_label: formatDateLabel(row.date_iso)
-    }))
-    .filter(
-      (row) =>
-        row.department &&
-        row.heading &&
-        row.date_label &&
-        row.question
-    );
+function getVariantDetail(detail) {
+  return detail?.types?.[getVariantKey()] ?? null;
+}
 
-  if (!preparedRows.length) {
-    return {
-      name: "Parliamentary Questions",
-      children: []
-    };
-  }
+async function getSelectedDeputyViewModel() {
+  const option = getSelectedDeputyOption();
+  if (!option) return null;
 
-  const treemapLevels = [
-    { getKey: (d) => d.department },
-    { getKey: (d) => d.heading },
-    {
-      getKey: (d) => d.date_label,
-      extra: (d) => ({ date_iso: d.date_iso ?? null })
-    }
-  ];
+  const detail = await getSelectedDeputyDetail();
+  if (!detail) return null;
+
+  const variant = getVariantDetail(detail) ?? {};
+  const questions = variant.questions ?? [];
 
   return {
-    name: "Parliamentary Questions",
-    children: buildTreemapLevel(preparedRows, treemapLevels).children ?? []
+    memberCode: detail.memberCode ?? option.value,
+    label: detail.memberName ?? detail.deputy ?? option.label,
+    deputy: detail.deputy ?? detail.memberName ?? option.label,
+    party: detail.party ?? option.party ?? "Independent",
+    constituency: detail.constituency ?? "",
+    imageUrl:
+      detail.imageUrl ??
+      `https://data.oireachtas.ie/ie/oireachtas/member/id/${option.value}/image/large`,
+    memberUrl:
+      detail.memberUrl ??
+      `https://www.oireachtas.ie/en/members/member/${option.value}`,
+    count: variant.count ?? getSelectedDeputyBubbleRow()?.value ?? questions.length,
+    headingOptions: (variant.headingOptions ?? []).slice().sort((a, b) => d3.ascending(a, b)),
+    insights: variant.insights ?? null,
+    packed: variant.packed ?? { name: "Parliamentary Questions", children: [] },
+    treemap: variant.treemap ?? { name: "Parliamentary Questions", children: [] },
+    questions
   };
+}
+
+async function ensureValidHeadingSelection() {
+  const state = getState();
+  const view = await getSelectedDeputyViewModel();
+  const options = view?.headingOptions ?? [];
+
+  if (!options.length) {
+    state.selectedHeading = null;
+    return null;
+  }
+
+  if (options.includes(state.selectedHeading)) {
+    return state.selectedHeading;
+  }
+
+  state.selectedHeading = options[0];
+  return state.selectedHeading;
+}
+
+async function getSelectedDeputyTableRows() {
+  const view = await getSelectedDeputyViewModel();
+  if (!view) return [];
+
+  const selectedHeading = await ensureValidHeadingSelection();
+  if (!selectedHeading) return [];
+
+  return view.questions
+    .filter((d) => (d.heading ?? "").trim() === selectedHeading)
+    .slice()
+    .sort((a, b) => {
+      const dateCompare = d3.ascending(a.date_iso ?? "", b.date_iso ?? "");
+      if (dateCompare !== 0) return dateCompare;
+      return d3.ascending(a.questionNumber ?? 0, b.questionNumber ?? 0);
+    });
 }
 
 function dispatchChange() {
@@ -505,14 +357,19 @@ function mountReactive(className, renderFn, options = {}) {
 
     const loadingTimer = setTimeout(() => {
       if (!didRender && loadingHtml) {
-        el.innerHTML = loadingHtml;
+        if (typeof loadingHtml === "string") {
+          el.innerHTML = loadingHtml;
+        } else {
+          el.replaceChildren(loadingHtml.cloneNode(true));
+        }
       }
     }, loadingDelayMs);
 
     requestAnimationFrame(() => {
-      renderFn(el);
-      didRender = true;
-      clearTimeout(loadingTimer);
+      Promise.resolve(renderFn(el)).finally(() => {
+        didRender = true;
+        clearTimeout(loadingTimer);
+      });
     });
   };
 
@@ -535,15 +392,21 @@ function mountReactive(className, renderFn, options = {}) {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
+
+    if (!summary) {
+      el.innerHTML = `<p>No summary data available for this selection.</p>`;
+      return;
+    }
+
     el.innerHTML = `
-       <p>In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
-      </p>
+      <p>In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.</p>
       <p>
-        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.</p>
-        <h2>Explore by Deputy</h2>
-       <p>Select a Deputy or take a look at the range below by hovering over circles, sized by question count. You can also click through to <a href="https://www.oireachtas.ie/en/members/" target="_blank" rel="noreferrer">
-         Member profiles
-       </a>.</p>
+        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.
+      </p>
+      <h2>Explore by Deputy</h2>
+      <p>
+        Select a Deputy or take a look at the range below by hovering over circles, sized by question count. You can also click through to <a href="https://www.oireachtas.ie/en/members/" target="_blank" rel="noreferrer">Member profiles</a>.
+      </p>
     `;
   })
 );
@@ -567,7 +430,6 @@ display(
     onChange: () => {
       ensureValidDeputySelection();
       window.pqDeputiesState.selectedHeading = null;
-      ensureValidHeadingSelection();
       dispatchChange();
     }
   });
@@ -611,7 +473,6 @@ display(
       select.addEventListener("change", (event) => {
         window.pqDeputiesState.selectedDeputy = event.target.value || null;
         window.pqDeputiesState.selectedHeading = null;
-        ensureValidHeadingSelection();
         dispatchChange();
       });
     }
@@ -621,13 +482,17 @@ display(
     deputyWrap.appendChild(label);
   }
 
-  function renderDeputyCard() {
+  async function renderDeputyCard() {
+    cardCol.replaceChildren(cardPlaceholder());
+
+    const currentSelection = ensureValidDeputySelection();
+    const view = await getSelectedDeputyViewModel();
+
+    if (currentSelection !== ensureValidDeputySelection()) return;
+
     cardCol.replaceChildren();
 
-    const selected = getSelectedDeputy();
-    const selectedBubble = getSelectedDeputyBubbleRow();
-
-    if (!selected) {
+    if (!view) {
       const empty = document.createElement("div");
       empty.className = "deputy-card deputy-card--empty";
       empty.innerHTML = `
@@ -639,12 +504,12 @@ display(
       return;
     }
 
-    const questionCount = selectedBubble?.value ?? 0;
-    const partyColor = getPartyColor(selected.party);
+    const questionCount = view.count ?? 0;
+    const partyColor = getPartyColor(view.party);
 
     const link = document.createElement("a");
     link.className = "deputy-card-link";
-    link.href = selected.memberUrl;
+    link.href = view.memberUrl;
 
     const card = document.createElement("article");
     card.className = "deputy-card";
@@ -656,20 +521,27 @@ display(
     const ring = document.createElement("div");
     ring.className = "deputy-card-ring";
 
-    const img = document.createElement("img");
-    img.className = "deputy-card-image";
-    img.src = selected.image;
-    img.alt = selected.label;
-    img.loading = "lazy";
-    img.onerror = () => {
-      img.remove();
+    if (view.imageUrl) {
+      const img = document.createElement("img");
+      img.className = "deputy-card-image";
+      img.src = view.imageUrl;
+      img.alt = view.label;
+      img.loading = "lazy";
+      img.onerror = () => {
+        img.remove();
+        const placeholder = document.createElement("div");
+        placeholder.className = "deputy-card-placeholder";
+        placeholder.textContent = "TD";
+        ring.appendChild(placeholder);
+      };
+      ring.appendChild(img);
+    } else {
       const placeholder = document.createElement("div");
       placeholder.className = "deputy-card-placeholder";
       placeholder.textContent = "TD";
       ring.appendChild(placeholder);
-    };
+    }
 
-    ring.appendChild(img);
     media.appendChild(ring);
 
     const body = document.createElement("div");
@@ -679,8 +551,8 @@ display(
     metaGrid.className = "deputy-card-meta-grid";
 
     const metaItems = [
-      ["Party", selected.party || "—"],
-      ["Constituency", selected.constituency || "—"],
+      ["Party", view.party || "—"],
+      ["Constituency", view.constituency || "—"],
       ["Questions asked", format(questionCount)]
     ];
 
@@ -762,8 +634,8 @@ display(
       })
     );
   }, {
-    loadingHtml: `<p class="chart-loading">Updating…</p>`,
-    loadingDelayMs: 100
+    loadingHtml: chartPlaceholder(620),
+    loadingDelayMs: 80
   })
 );
 ```
@@ -776,17 +648,16 @@ display(
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const deputy = getSelectedDeputy();
-    const insights = getSelectedDeputyInsights();
+  mountReactive("prose-block reactive-prose", async (el) => {
+    const view = await getSelectedDeputyViewModel();
     const state = getState();
 
-    if (!deputy) {
+    if (!view) {
       el.innerHTML = `<p>No data available for this Deputy.</p>`;
       return;
     }
 
-    const total = getSelectedDeputyBubbleRow()?.value ?? 0;
+    const total = view.count ?? 0;
 
     const questionLabel =
       total === 1
@@ -800,7 +671,7 @@ display(
     if (total === 0) {
       el.innerHTML = `
         <p>
-          <strong>Deputy ${deputy.label}</strong>  asked 
+          <strong>Deputy ${view.label}</strong> asked 
           <strong>0 ${questionLabel}</strong> 
           in this period, which covers <strong>${state.year}</strong>.
         </p>
@@ -812,6 +683,8 @@ display(
       return;
     }
 
+    const insights = view.insights;
+
     if (!insights) {
       el.innerHTML = `<p>No data available for this Deputy.</p>`;
       return;
@@ -819,7 +692,7 @@ display(
 
     el.innerHTML = `
       <p>
-        <strong>Deputy ${deputy.label}</strong>  asked 
+        <strong>Deputy ${view.label}</strong> asked 
         <strong>${total.toLocaleString("en-IE")} ${questionLabel}</strong> 
         in this period, which covers <strong>${state.year}</strong>.
       </p>
@@ -845,10 +718,11 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const data = getSelectedDeputyPackedData();
+  mountReactive("", async (el) => {
+    const view = await getSelectedDeputyViewModel();
+    const data = view?.packed;
 
-    if (!data || !data.children.length) {
+    if (!data || !data.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
       return;
     }
@@ -860,35 +734,36 @@ display(
       })
     );
   }, {
-    loadingHtml: `<p class="chart-loading">Updating…</p>`,
-    loadingDelayMs: 100
+    loadingHtml: chartPlaceholder(700),
+    loadingDelayMs: 80
   })
 );
 ```
 </div>
-<div class="chart-caption">
-  Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
-</div>
-
 
 <div class="prose-block">
+  <p class="chart-caption">
+    Large circles denote Departments to which the selected Deputy directed questions. Smaller circles denote question headings, sized by the number of questions.
+  </p>
+</div>
 
-  ## Explore further
+<div class="prose-block">
+  <h2>Explore further</h2>
 
-**Click through the squares to drill down** to the Department to which the question is directed, the question topic, date, text of the question and reply as published.
+  <p><strong>Click through the squares to drill down</strong> to the Department to which the question is directed, the question topic, date, text of the question and reply as published.</p>
 
-Click on the top panel to zoom out again.
-
+  <p>Click on the top panel to zoom out again.</p>
 </div>
 
 <div class="chart-block">
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const data = getSelectedDeputyTreemapData();
+  mountReactive("", async (el) => {
+    const view = await getSelectedDeputyViewModel();
+    const data = view?.treemap;
 
-    if (!data || !data.children.length) {
+    if (!data || !data.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
       return;
     }
@@ -900,8 +775,8 @@ display(
       })
     );
   }, {
-    loadingHtml: `<p class="chart-loading">Updating…</p>`,
-    loadingDelayMs: 100
+    loadingHtml: chartPlaceholder(520),
+    loadingDelayMs: 80
   })
 );
 ```
@@ -920,7 +795,7 @@ Refine your search further by question topics raised by the Deputy. Check the re
 {
   const wrap = document.createElement("div");
 
-  function renderHeadingSelect() {
+  async function renderHeadingSelect() {
     wrap.replaceChildren();
 
     const label = document.createElement("label");
@@ -933,8 +808,9 @@ Refine your search further by question topics raised by the Deputy. Check the re
     const select = document.createElement("select");
     select.className = "control-input";
 
-    const options = getHeadingOptions();
-    const selected = ensureValidHeadingSelection();
+    const view = await getSelectedDeputyViewModel();
+    const options = view?.headingOptions ?? [];
+    const selected = await ensureValidHeadingSelection();
 
     if (!options.length) {
       const option = document.createElement("option");
@@ -943,11 +819,11 @@ Refine your search further by question topics raised by the Deputy. Check the re
       select.appendChild(option);
       select.disabled = true;
     } else {
-      for (const optionData of options) {
+      for (const heading of options) {
         const option = document.createElement("option");
-        option.value = optionData.value;
-        option.textContent = truncateLabel(optionData.label);
-        option.selected = optionData.value === selected;
+        option.value = heading;
+        option.textContent = truncateLabel(heading);
+        option.selected = heading === selected;
         select.appendChild(option);
       }
 
@@ -960,7 +836,6 @@ Refine your search further by question topics raised by the Deputy. Check the re
     label.appendChild(labelText);
     label.appendChild(select);
     wrap.appendChild(label);
-
   }
 
   renderHeadingSelect();
@@ -976,20 +851,20 @@ Refine your search further by question topics raised by the Deputy. Check the re
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const rows = getSelectedDeputyTableRows();
+  mountReactive("prose-block reactive-prose", async (el) => {
+    const rows = await getSelectedDeputyTableRows();
     const state = getState();
-    const deputy = getSelectedDeputy();
+    const view = await getSelectedDeputyViewModel();
 
     const count = rows.length;
     const topic = state.selectedHeading || null;
 
-    if (!topic || !deputy) {
+    if (!topic || !view) {
       el.innerHTML = "";
       return;
     }
 
-    const isOral = normaliseQuestionType(state.questionType) === "oral";
+    const isOral = getVariantKey() === "oral";
     const label =
       count === 1
         ? isOral
@@ -1001,7 +876,7 @@ display(
 
     el.innerHTML = `
       <p>
-        <strong>Deputy ${deputy.label}</strong> has asked <strong>${count.toLocaleString("en-IE")} ${label}</strong>
+        <strong>Deputy ${view.label}</strong> has asked <strong>${count.toLocaleString("en-IE")} ${label}</strong>
         about <strong>${topic}</strong>.
       </p>
     `;
@@ -1013,8 +888,8 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const rows = getSelectedDeputyTableRows();
+  mountReactive("", async (el) => {
+    const rows = await getSelectedDeputyTableRows();
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No questions available for this selection.</p>`;
@@ -1071,6 +946,7 @@ display(
   })
 );
 ```
+
 <div class="prose-block">
   All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
       dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
@@ -1080,21 +956,22 @@ display(
 
 ```js
 display(
-  mountReactive("download-block", (el) => {
-    const rows = getSelectedDeputyDownloadRows();
-    const deputy = getSelectedDeputy();
+  mountReactive("download-block", async (el) => {
+    const view = await getSelectedDeputyViewModel();
 
-    if (!rows.length || !deputy) {
+    if (!view?.questions?.length) {
       el.innerHTML = "";
       return;
     }
 
-    const filename = `pq_${deputy.label
+    const filename = `pq_${view.label
       .replace(/\s+/g, "_")
       .toLowerCase()}_${getState().year}.csv`;
 
     el.replaceChildren(
-      downloadButton(rows, filename)
+      downloadButton(view.questions, filename, {
+        label: `Download dataset for ${view.label}`
+      })
     );
   }, {
     debounceMs: 20
@@ -1116,7 +993,7 @@ display(
 
       <a class="explore-tile" href="./constituencies">
         <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore:  Constituencies</span>
+          <span class="explore-tile-title">Explore: Constituencies</span>
           <span class="explore-tile-arrow" aria-hidden="true">↗</span>
         </div>
       </a>
@@ -1126,7 +1003,7 @@ display(
           <span class="explore-tile-title">Explore: Parties</span>
           <span class="explore-tile-arrow" aria-hidden="true">↗</span>
         </div>
-              </a>
+      </a>
     </div>
   `;
 

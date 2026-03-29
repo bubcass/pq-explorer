@@ -118,7 +118,21 @@ function getDownloadHref() {
 }
 
 function getDownloadFilename() {
-  return `parliamentary_questions_dataset_${getState().year}.csv`;
+  return `parliamentary_questions_${getState().year}.csv`;
+}
+
+function chartPlaceholder(height = 320, text = "Updating…") {
+  const wrap = document.createElement("div");
+  wrap.className = "chart-loading";
+  wrap.style.minHeight = `${height}px`;
+  wrap.style.display = "grid";
+  wrap.style.alignItems = "center";
+  wrap.style.justifyItems = "center";
+  wrap.style.border = "1px solid var(--border)";
+  wrap.style.background = "rgba(255,255,255,0.55)";
+  wrap.style.padding = "1rem";
+  wrap.textContent = text;
+  return wrap;
 }
 
 function mountReactive(className, renderFn, options = {}) {
@@ -134,7 +148,11 @@ function mountReactive(className, renderFn, options = {}) {
 
     const loadingTimer = setTimeout(() => {
       if (!didRender && loadingHtml) {
-        el.innerHTML = loadingHtml;
+        if (typeof loadingHtml === "string") {
+          el.innerHTML = loadingHtml;
+        } else {
+          el.replaceChildren(loadingHtml.cloneNode(true));
+        }
       }
     }, loadingDelayMs);
 
@@ -235,8 +253,8 @@ display(
       )
     );
   }, {
-    loadingHtml: `<p class="chart-loading">Updating…</p>`,
-    loadingDelayMs: 100
+    loadingHtml: chartPlaceholder(600),
+    loadingDelayMs: 80
   })
 );
 ```
@@ -292,8 +310,8 @@ display(
       packedCircleChart(packed, { width: 800, height: 700 })
     );
   }, {
-    loadingHtml: `<p class="chart-loading">Updating…</p>`,
-    loadingDelayMs: 100
+    loadingHtml: chartPlaceholder(700),
+    loadingDelayMs: 80
   })
 );
 ```
@@ -334,8 +352,8 @@ display(
       zoomableTreemap(treemap, { width: 650, height: 520 })
     );
   }, {
-    loadingHtml: `<p class="chart-loading">Updating…</p>`,
-    loadingDelayMs: 100
+    loadingHtml: chartPlaceholder(520),
+    loadingDelayMs: 80
   })
 );
 ```

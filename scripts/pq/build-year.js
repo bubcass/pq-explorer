@@ -1,5 +1,6 @@
 import { buildFlatPQs } from "./build-flat-pqs.js";
 import { buildMembersLookup } from "./build-members-lookup.js";
+import { buildDeputyDetailUrls } from "./build-deputy-detail-urls.js";
 import { buildFlatPQsEnriched } from "./build-flat-pqs-enriched.js";
 import { buildSummary } from "./build-summary.js";
 import { buildRollupDeputies } from "./rollup-deputies.js";
