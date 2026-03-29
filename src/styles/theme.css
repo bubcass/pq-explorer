@@ -53,12 +53,31 @@ main,
     padding: var(--space-5) var(--space-5) var(--space-7);
 }
 
+/* Reset Observable block padding only for our custom rendered blocks */
+
+.observablehq--block:has(> .hero),
+.observablehq--block:has(> .reactive-prose),
+.observablehq--block:has(> .chart-caption),
+.observablehq--block:has(> .explore-links-block),
+.observablehq--block:has(> .download-block),
+.observablehq--block:has(> .controls-block),
+.observablehq--block:has(.hero),
+.observablehq--block:has(.reactive-prose),
+.observablehq--block:has(.chart-caption),
+.observablehq--block:has(.explore-links-block),
+.observablehq--block:has(.download-block),
+.observablehq--block:has(.controls-block) {
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 /* Hero */
 
 .hero {
     position: relative;
-    width: 100%;
-    margin: 0 0 var(--space-7);
+    max-width: var(--text-max);
+    margin: 0 0 var(--space-7) 0;
     overflow: hidden;
     border-bottom: 1px solid var(--border);
 }
@@ -66,7 +85,7 @@ main,
 .hero__media {
     position: relative;
     width: 100%;
-    height: 320px;
+    height: 280px;
     background: #000;
 }
 
@@ -75,7 +94,7 @@ main,
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.88;
+    opacity: 0.78;
 }
 
 .hero__overlay {
@@ -86,9 +105,9 @@ main,
     align-items: flex-end;
     background: linear-gradient(
         to top,
-        rgba(0, 0, 0, 0.58),
-        rgba(0, 0, 0, 0.22),
-        rgba(0, 0, 0, 0)
+        rgba(0, 0, 0, 0.72),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.05)
     );
     pointer-events: none;
 }
@@ -97,7 +116,10 @@ main,
     max-width: var(--text-max);
     width: 100%;
     margin: 0 auto;
-    padding: var(--space-6) 0;
+
+    /* 👇 ADD THIS */
+    padding: var(--space-6) var(--space-5);
+
     box-sizing: border-box;
     color: #fff;
 }
@@ -229,13 +251,6 @@ a:focus-visible {
     margin-bottom: 0;
 }
 
-/* Neutralise Observable wrapper spacing more reliably */
-.observablehq--block:has(> .reactive-prose),
-.observablehq--block:has(.reactive-prose) {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
 /* Ensure headings inside reactive prose behave like normal prose headings */
 .reactive-prose h2,
 .reactive-prose h3,
@@ -304,12 +319,6 @@ a:focus-visible {
     margin: 0.25rem 0 0.75rem 0;
     color: var(--text-muted);
     font-size: 0.92rem;
-}
-
-/* Make chart captions behave like prose blocks */
-.observablehq--block:has(.chart-caption) {
-    margin: 0 !important;
-    padding: 0 !important;
 }
 
 /* Controls */
@@ -755,11 +764,6 @@ a:focus-visible {
     color: #fff;
 }
 
-.observablehq--block:has(.explore-links-block) {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
 .explore-links-block,
 .explore-links-block * {
     font-family: inherit;
@@ -802,13 +806,13 @@ nav a {
 
 /* Mobile */
 
-@media (max-width: 900px) {
+@media (max-width: 720px) {
     .hero__media {
         height: 240px;
     }
 
     .hero__content {
-        padding: var(--space-5) 0;
+        padding: var(--space-5) var(--space-4);
     }
 
     .hero__title {

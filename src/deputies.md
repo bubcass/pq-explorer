@@ -23,6 +23,7 @@ if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
 }
 
 const format = d3.format(",d");
+const heroVideo = await FileAttachment("media/PQs.mp4").url();
 
 const deputyRollups = {
   2025: await FileAttachment("data/pq/2025/rollup-deputies.json").json(),
@@ -447,6 +448,38 @@ function mountDeferred(className, renderFn, options = {}) {
   }
 
   return el;
+}
+```
+
+```js
+{
+  const hero = document.createElement("section");
+  hero.className = "hero";
+
+  hero.innerHTML = `
+    <div class="hero__media">
+      <video
+        class="hero__video"
+        src="${heroVideo}"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
+    </div>
+
+    <div class="hero__overlay">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Stór | Open data insights</p>
+        <h1 class="hero__title">PQ Explorer</h1>
+        <p class="hero__subtitle">
+          A data-driven perspective on the questions asked in Parliament.
+        </p>
+      </div>
+    </div>
+  `;
+
+  display(hero);
 }
 ```
 

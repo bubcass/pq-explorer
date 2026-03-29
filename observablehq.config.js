@@ -12,7 +12,7 @@ export default {
   theme: null, // disables built-in theme so yours takes full control
 
   // Optional tidy-ups (you can keep or remove)
-  sidebar: true,
+  sidebar: false,
   toc: false,
   pager: false,
   footer: "© Houses of the Oireachtas",
