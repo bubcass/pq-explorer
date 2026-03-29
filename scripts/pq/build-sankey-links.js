@@ -1,40 +1,20 @@
-import fs from "fs/promises";
+import { buildSankeyLinks, filterRowsByType, readJson, writeJson } from "./utils.js";
 
-function rollupLinks(rows, sourceKey, targetKey) {
-  const counts = new Map();
-
-  for (const row of rows) {
-    const source = row?.[sourceKey];
-    const target = row?.[targetKey];
-
-    if (!source || !target) continue;
-
-    const key = `${source}|||${target}`;
-    counts.set(key, (counts.get(key) ?? 0) + 1);
-  }
-
-  return [...counts.entries()].map(([key, value]) => {
-    const [source, target] = key.split("|||");
-    return { source, target, value };
-  });
-}
-
-export async function buildSankeyLinks(year) {
+export async function buildSankeyLinksForYear(year) {
   const inPath = `src/data/pq/${year}/flat-enriched.json`;
-  const outPath = `src/data/pq/${year}/sankey-links.json`;
 
-  console.log(`Building sankey-links.json for ${year}...`);
+  console.log(`Building sankey links from ${inPath}...`);
 
-  const raw = await fs.readFile(inPath, "utf8");
-  const rows = JSON.parse(raw);
+  const rows = await readJson(inPath);
 
-  const sankeyData1 = rollupLinks(rows, "constituency", "party");
-  const sankeyData2 = rollupLinks(rows, "party", "questionType");
-  const sankeyData3 = rollupLinks(rows, "questionType", "department");
+  const allLinks = buildSankeyLinks(rows);
+  const oralLinks = buildSankeyLinks(filterRowsByType(rows, "oral"));
 
-  const combined = [...sankeyData1, ...sankeyData2, ...sankeyData3];
+  await writeJson(`src/data/pq/${year}/sankey-links.json`, allLinks);
+  await writeJson(`src/data/pq/${year}/sankey-links-all.json`, allLinks);
+  await writeJson(`src/data/pq/${year}/sankey-links-oral.json`, oralLinks);
 
-  await fs.writeFile(outPath, JSON.stringify(combined, null, 2));
-
-  console.log(`✓ sankey-links.json written for ${year}`);
+  console.log(`✓ sankey link files written for ${year}`);
 }
+
+export { buildSankeyLinksForYear as buildSankeyLinks };

@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+import { writeJson } from "./utils.js";
 
 function getLastMembership(member) {
   const memberships = member?.memberships ?? [];
@@ -66,10 +66,7 @@ export async function buildMembersLookup() {
 
   const lookup = buildLookup(rows);
 
-  await fs.writeFile(
-    "src/data/pq/members-lookup.json",
-    JSON.stringify(lookup, null, 2),
-  );
+  await writeJson("src/data/pq/members-lookup.json", lookup);
 
   console.log("✓ members-lookup.json written");
 }

@@ -1,14 +1,14 @@
-import fs from "fs/promises";
+import { writeJson } from "./utils.js";
 
 function toISODate(value) {
   if (typeof value !== "string") return null;
-  const m = value.match(/^(\d{4}-\d{2}-\d{2})/);
-  return m ? m[1] : null;
+  const match = value.match(/^(\d{4}-\d{2}-\d{2})/);
+  return match ? match[1] : null;
 }
 
-function buildURL(date_iso, questionNumber) {
-  if (!date_iso || !questionNumber) return null;
-  return `https://www.oireachtas.ie/en/debates/question/${date_iso}/${questionNumber}/`;
+function buildURL(dateIso, questionNumber) {
+  if (!dateIso || !questionNumber) return null;
+  return `https://www.oireachtas.ie/en/debates/question/${dateIso}/${questionNumber}/`;
 }
 
 export async function buildFlatPQs(year) {
@@ -28,7 +28,6 @@ export async function buildFlatPQs(year) {
 
   const flat = rows.map((d) => {
     const date_iso = toISODate(d?.contextDate);
-
     const questionNumber = d?.question?.questionNumber ?? null;
 
     return {
@@ -46,8 +45,7 @@ export async function buildFlatPQs(year) {
   });
 
   const outPath = `src/data/pq/${year}/flat.json`;
-
-  await fs.writeFile(outPath, JSON.stringify(flat, null, 2));
+  await writeJson(outPath, flat);
 
   console.log(`✓ flat.json written for ${year}`);
 }

@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+import { readJson, writeJson } from "./utils.js";
 
 export async function buildFlatPQsEnriched(year) {
   const flatPath = `src/data/pq/${year}/flat.json`;
@@ -7,11 +7,8 @@ export async function buildFlatPQsEnriched(year) {
 
   console.log(`Building flat-enriched.json for ${year}...`);
 
-  const flatRaw = await fs.readFile(flatPath, "utf8");
-  const lookupRaw = await fs.readFile(lookupPath, "utf8");
-
-  const rows = JSON.parse(flatRaw);
-  const lookup = JSON.parse(lookupRaw);
+  const rows = await readJson(flatPath);
+  const lookup = await readJson(lookupPath);
 
   const enriched = rows.map((row) => {
     const member = row?.memberCode ? lookup[row.memberCode] : null;
@@ -27,7 +24,7 @@ export async function buildFlatPQsEnriched(year) {
     };
   });
 
-  await fs.writeFile(outPath, JSON.stringify(enriched, null, 2));
+  await writeJson(outPath, enriched);
 
   console.log(`✓ flat-enriched.json written for ${year}`);
 }

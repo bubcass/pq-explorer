@@ -1,9 +1,4 @@
-import fs from "fs/promises";
-
-function normaliseQuestionType(value) {
-  if (!value) return null;
-  return String(value).trim().toLowerCase();
-}
+import { filterRowsByType, normaliseQuestionType, readJson, writeJson } from "./utils.js";
 
 function mostPopularHeading(rows) {
   const counts = new Map();
@@ -34,24 +29,13 @@ function median(values) {
     : sorted[mid];
 }
 
-export async function buildSummary(year) {
-  const inPath = `src/data/pq/${year}/flat.json`;
-  const outPath = `src/data/pq/${year}/summary.json`;
-
-  console.log(`Building summary from ${inPath}...`);
-
-  const raw = await fs.readFile(inPath, "utf8");
-  const rows = JSON.parse(raw);
-
+function buildSummaryForRows(year, rows, questionType) {
   const yearlyTotal = rows.length;
 
   const sittingDaySet = new Set(rows.map((d) => d?.date_iso).filter(Boolean));
   const sittingDays = sittingDaySet.size;
 
-  const oralPQs = rows.filter((d) => {
-    const qt = normaliseQuestionType(d?.questionType);
-    return qt === "oral";
-  }).length;
+  const oralPQs = rows.filter((d) => normaliseQuestionType(d?.questionType) === "oral").length;
 
   const averagePerSittingDay =
     sittingDays > 0 ? Math.round(yearlyTotal / sittingDays) : 0;
@@ -69,8 +53,9 @@ export async function buildSummary(year) {
 
   const countsArray = [...deputyCounts.values()];
 
-  const summary = {
+  return {
     year: Number(year),
+    questionType,
     yearlyTotal,
     sittingDays,
     oralPQs,
@@ -80,8 +65,22 @@ export async function buildSummary(year) {
     medianQuestionsPerDeputy: median(countsArray),
     meanQuestionsPerDeputy: Number(mean(countsArray).toFixed(2)),
   };
+}
 
-  await fs.writeFile(outPath, JSON.stringify(summary, null, 2));
+export async function buildSummary(year) {
+  const inPath = `src/data/pq/${year}/flat-enriched.json`;
 
-  console.log(`✓ summary.json written for ${year}`);
+  console.log(`Building summaries from ${inPath}...`);
+
+  const rows = await readJson(inPath);
+
+  const allSummary = buildSummaryForRows(year, rows, "all");
+  const oralRows = filterRowsByType(rows, "oral");
+  const oralSummary = buildSummaryForRows(year, oralRows, "oral");
+
+  await writeJson(`src/data/pq/${year}/summary.json`, allSummary);
+  await writeJson(`src/data/pq/${year}/summary-all.json`, allSummary);
+  await writeJson(`src/data/pq/${year}/summary-oral.json`, oralSummary);
+
+  console.log(`✓ summary files written for ${year}`);
 }
