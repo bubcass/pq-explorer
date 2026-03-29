@@ -474,6 +474,41 @@ display(
 );
 ```
 
+<div class="chart-block">
+
+```js
+display(
+  mountReactive("", (el) => {
+    const rows = getBubbleRows();
+    const selectedDeputy = getState().selectedDeputy;
+
+    if (!rows.length) {
+      el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
+      return;
+    }
+
+    el.replaceChildren(
+      bubbleChart(rows, {
+        width: 620,
+        height: 620,
+        selectedId: selectedDeputy,
+        label: (d) => [d.name, d.value.toLocaleString("en-IE")].join("\n"),
+        value: (d) => d.value,
+        group: (d) => d.id,
+        title: (d) =>
+          `${d.name} has asked ${d.value.toLocaleString("en-IE")} parliamentary questions in ${getState().year}`,
+        link: (d) => `https://www.oireachtas.ie/en/members/member/${d.id}`
+      })
+    );
+  }, {
+    loadingHtml: chartPlaceholder(620),
+    loadingDelayMs: 80
+  })
+);
+```
+
+</div>
+
 <div class="prose-block controls-block">
 
 ```js
@@ -669,45 +704,6 @@ display(
 
 </div>
 
-<div class="chart-block">
-
-```js
-display(
-  mountReactive("", (el) => {
-    const rows = getBubbleRows();
-    const selectedDeputy = getState().selectedDeputy;
-
-    if (!rows.length) {
-      el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
-      return;
-    }
-
-    el.replaceChildren(
-      bubbleChart(rows, {
-        width: 620,
-        height: 620,
-        selectedId: selectedDeputy,
-        label: (d) => [d.name, d.value.toLocaleString("en-IE")].join("\n"),
-        value: (d) => d.value,
-        group: (d) => d.id,
-        title: (d) =>
-          `${d.name} has asked ${d.value.toLocaleString("en-IE")} parliamentary questions in ${getState().year}`,
-        link: (d) => `https://www.oireachtas.ie/en/members/member/${d.id}`
-      })
-    );
-  }, {
-    loadingHtml: chartPlaceholder(620),
-    loadingDelayMs: 80
-  })
-);
-```
-
-<div class="prose-block">
-
-## Explore by Department
-
-</div>
-
 ```js
 display(
   mountReactive("prose-block reactive-prose", async (el) => {
@@ -733,13 +729,7 @@ display(
     if (total === 0) {
       el.innerHTML = `
         <p>
-          <strong>Deputy ${view.label}</strong> asked 
-          <strong>0 ${questionLabel}</strong> 
-          in this period, which covers <strong>${state.year}</strong>.
-        </p>
-
-        <p>
-          This Deputy did not ask any ${state.questionType === "oral" ? "oral questions" : "questions"} in this period.
+          This Deputy <strong>did not ask any ${state.questionType === "oral" ? "oral questions" : "questions"} in this period</strong>.
         </p>
       `;
       return;
@@ -760,7 +750,7 @@ display(
       </p>
 
       <p>
-        In this period, the Deputy most frequently raised matters under the heading 
+        The Deputy most frequently raised matters under the heading 
         <strong>${insights.topHeading}</strong>, accounting for 
         <strong>${insights.topHeadingCount.toLocaleString("en-IE")} ${
           insights.topHeadingCount === 1 ? "question" : "questions"

@@ -58,7 +58,7 @@ export function downloadButton(
     ? `Download dataset for ${name} (${state.year})`
     : `Download parliamentary question dataset ${state.year}`;
 
-  button.textContent = `${label ?? defaultLabel} (~${sizeLabel})`;
+  button.textContent = `${label ?? defaultLabel}`;
 
   button.addEventListener("click", () => {
     const url = URL.createObjectURL(blob);
