@@ -400,6 +400,54 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
+
+function mountDeferred(className, renderFn, options = {}) {
+  const {
+    rootMargin = "200px",
+    loading = () => chartPlaceholder(320),
+    eventName = null
+  } = options;
+
+  const eventNames = Array.isArray(eventName)
+    ? eventName
+    : eventName
+    ? [eventName]
+    : [];
+
+  const el = document.createElement("div");
+  if (className) el.className = className;
+
+  let hasRendered = false;
+
+  const run = () => {
+    Promise.resolve(renderFn(el));
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0]?.isIntersecting && !hasRendered) {
+        hasRendered = true;
+        observer.disconnect();
+        run();
+      }
+    },
+    { rootMargin }
+  );
+
+  el.replaceChildren(
+    typeof loading === "function" ? loading() : loading
+  );
+
+  observer.observe(el);
+
+  for (const name of eventNames) {
+    window.addEventListener(name, () => {
+      if (hasRendered) run();
+    });
+  }
+
+  return el;
+}
 ```
 
 ```js
@@ -732,7 +780,7 @@ display(
 
 ```js
 display(
-  mountReactive("", async (el) => {
+  mountDeferred("", async (el) => {
     const view = await getSelectedDeputyViewModel();
     const data = view?.packed;
 
@@ -748,8 +796,8 @@ display(
       })
     );
   }, {
-    loadingHtml: chartPlaceholder(700),
-    loadingDelayMs: 80
+    loading: () => chartPlaceholder(700),
+    eventName: "pq-deputies:change"
   })
 );
 ```
@@ -773,7 +821,7 @@ display(
 
 ```js
 display(
-  mountReactive("", async (el) => {
+  mountDeferred("", async (el) => {
     const view = await getSelectedDeputyViewModel();
     const data = view?.treemap;
 
@@ -789,8 +837,8 @@ display(
       })
     );
   }, {
-    loadingHtml: chartPlaceholder(520),
-    loadingDelayMs: 80
+    loading: () => chartPlaceholder(520),
+    eventName: "pq-deputies:change"
   })
 );
 ```
@@ -902,7 +950,7 @@ display(
 
 ```js
 display(
-  mountReactive("", async (el) => {
+  mountDeferred("", async (el) => {
     const rows = await getSelectedDeputyTableRows();
 
     if (!rows.length) {
@@ -956,6 +1004,7 @@ display(
 
     el.replaceChildren(table);
   }, {
+    loading: () => chartPlaceholder(360, "Loading results…"),
     eventName: ["pq-deputies:change", "pq-deputies-table:change"]
   })
 );

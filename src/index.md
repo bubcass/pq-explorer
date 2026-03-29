@@ -174,6 +174,54 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
+
+function mountDeferred(className, renderFn, options = {}) {
+  const {
+    rootMargin = "200px",
+    loading = () => chartPlaceholder(320),
+    eventName = null
+  } = options;
+
+  const eventNames = Array.isArray(eventName)
+    ? eventName
+    : eventName
+    ? [eventName]
+    : [];
+
+  const el = document.createElement("div");
+  if (className) el.className = className;
+
+  let hasRendered = false;
+
+  const run = () => {
+    Promise.resolve(renderFn(el));
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0]?.isIntersecting && !hasRendered) {
+        hasRendered = true;
+        observer.disconnect();
+        run();
+      }
+    },
+    { rootMargin }
+  );
+
+  el.replaceChildren(
+    typeof loading === "function" ? loading() : loading
+  );
+
+  observer.observe(el);
+
+  for (const name of eventNames) {
+    window.addEventListener(name, () => {
+      if (hasRendered) run();
+    });
+  }
+
+  return el;
+}
 ```
 
 <div class="prose-block">
@@ -298,7 +346,7 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
+  mountDeferred("", (el) => {
     const packed = getPackedData();
 
     if (!packed?.children?.length) {
@@ -310,8 +358,8 @@ display(
       packedCircleChart(packed, { width: 800, height: 700 })
     );
   }, {
-    loadingHtml: chartPlaceholder(700),
-    loadingDelayMs: 80
+    loading: () => chartPlaceholder(700),
+    eventName: "pq:change"
   })
 );
 ```
@@ -340,7 +388,7 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
+  mountDeferred("", (el) => {
     const treemap = getTreemapData();
 
     if (!treemap?.children?.length) {
@@ -352,8 +400,8 @@ display(
       zoomableTreemap(treemap, { width: 650, height: 520 })
     );
   }, {
-    loadingHtml: chartPlaceholder(520),
-    loadingDelayMs: 80
+    loading: () => chartPlaceholder(520),
+    eventName: "pq:change"
   })
 );
 ```
