@@ -218,7 +218,10 @@ function getDeputyDetailUrl(year, memberCode) {
   const manifestUrl = deputyDetailUrls?.[year]?.[memberCode];
   if (manifestUrl) return manifestUrl;
 
-  return `${import.meta.env.BASE_URL}data/pq/${year}/deputies/${encodeURIComponent(memberCode)}.json`;
+  return new URL(
+    `data/pq/${year}/deputies/${encodeURIComponent(memberCode)}.json`,
+    document.baseURI
+  ).toString();
 }
 
 async function getDeputyDetail(year, memberCode) {
