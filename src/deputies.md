@@ -214,14 +214,15 @@ function getSelectedDeputyBubbleRow() {
   return getBubbleRows().find((d) => d.id === selected) ?? null;
 }
 
-function getDeputyDetailUrl(year, memberCode) {
-  const manifestUrl = deputyDetailUrls?.[year]?.[memberCode];
-  if (manifestUrl) return manifestUrl;
-
-  return new URL(
+function getDeputyDetailUrls(year, memberCode) {
+  const rawUrl = new URL(
     `data/pq/${year}/deputies/${encodeURIComponent(memberCode)}.json`,
     document.baseURI
   ).toString();
+
+  const manifestUrl = deputyDetailUrls?.[year]?.[memberCode] ?? null;
+
+  return [rawUrl, manifestUrl].filter(Boolean);
 }
 
 async function getDeputyDetail(year, memberCode) {
@@ -230,26 +231,33 @@ async function getDeputyDetail(year, memberCode) {
     return deputyDetailCache.get(cacheKey);
   }
 
-  const url = getDeputyDetailUrl(year, memberCode);
-  if (!url) {
-    console.error("No deputy detail URL found", { year, memberCode });
-    return null;
+  const urls = getDeputyDetailUrls(year, memberCode);
+
+  for (const url of urls) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) continue;
+
+      const json = await response.json();
+      deputyDetailCache.set(cacheKey, json);
+      return json;
+    } catch (error) {
+      console.error("Deputy detail fetch attempt failed", {
+        year,
+        memberCode,
+        url,
+        error
+      });
+    }
   }
 
-  const response = await fetch(url);
-  if (!response.ok) {
-    console.error("Deputy detail fetch failed", {
-      year,
-      memberCode,
-      url,
-      status: response.status
-    });
-    return null;
-  }
+  console.error("All deputy detail fetch attempts failed", {
+    year,
+    memberCode,
+    urls
+  });
 
-  const json = await response.json();
-  deputyDetailCache.set(cacheKey, json);
-  return json;
+  return null;
 }
 
 async function getSelectedDeputyDetail() {
