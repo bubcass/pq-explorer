@@ -291,6 +291,7 @@ pqControls({
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
+    const isOral = getVariantKey() === "oral";
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -299,7 +300,9 @@ display(
 
     el.innerHTML = `
       <p>
-        In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+        In <strong>${summary.year}</strong>, the total number of ${
+          isOral ? "oral " : ""
+        }parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
       </p>
       <p>
         See the breakdown by constituency, party, question type and Department.
@@ -344,13 +347,16 @@ display(
 </div>
 
 <div class="prose-block">
-  <h2>Explore by Department</h2>
+
+## Explore by Department
+
 </div>
 
 ```js
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
+    const isOral = getVariantKey() === "oral";
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -358,12 +364,19 @@ display(
     }
 
     el.innerHTML = `
-      <p>
-        This period covers <strong>${summary.year}</strong>, when the total number of <strong>parliamentary questions submitted, replied to and published to the web</strong> was <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.
-      </p>
+      ${
+        !isOral
+          ? `<p>This period covers <strong>${summary.year}</strong>, when the total number of <strong>parliamentary questions submitted, replied to and published to the web</strong> is <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.</p>`
+          : ""
+      }
 
       <p>
-        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The most popular question topic this year for the selected options is <strong>${summary.mostPopularHeading}</strong>.
+        ${
+          isOral
+            ? `This period covers <strong>${summary.year}</strong>, when the total number of <strong>oral parliamentary questions submitted, replied to and published to the web</strong> is <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.`
+            : `Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>.`
+        }
+        The most popular question topic this year for the selected options is <strong>${summary.mostPopularHeading}</strong>.
       </p>
 
       <p>
