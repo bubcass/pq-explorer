@@ -27,6 +27,7 @@ jobs:
       - run: npm ci
       - run: npm run build:data
       - run: npm run build
+      - run: node scripts/pq/copy-deputy-json-to-dist.js
 
       - uses: actions/configure-pages@v4
 
