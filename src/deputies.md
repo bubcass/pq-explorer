@@ -215,7 +215,10 @@ function getSelectedDeputyBubbleRow() {
 }
 
 function getDeputyDetailUrl(year, memberCode) {
-  return deputyDetailUrls?.[year]?.[memberCode] ?? null;
+  const manifestUrl = deputyDetailUrls?.[year]?.[memberCode];
+  if (manifestUrl) return manifestUrl;
+
+  return `${import.meta.env.BASE_URL}data/pq/${year}/deputies/${encodeURIComponent(memberCode)}.json`;
 }
 
 async function getDeputyDetail(year, memberCode) {
