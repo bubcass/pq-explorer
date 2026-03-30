@@ -192,7 +192,7 @@ function mountReactive(className, renderFn, options = {}) {
     <div class="hero__overlay">
       <div class="hero__content">
         <p class="hero__eyebrow">Stór | Open data insights</p>
-        <h1 class="hero__title">PQ Explorer | Parties</h1>
+        <h1 class="hero__title">PQ Explorer: Parties</h1>
         <p class="hero__subtitle">
           A data-driven perspective on the questions asked in Parliament.
         </p>

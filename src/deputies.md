@@ -141,9 +141,27 @@ function getBubbleRows() {
   const variant = getVariantKey();
 
   if (variant === "all") {
+    const allRows = rows.filter(
+      (d) => String(d.questionType ?? "").trim().toLowerCase() === "all"
+    );
+
+    if (allRows.length) {
+      return allRows
+        .map((d) => ({
+          id: d.id,
+          name: d.name,
+          party: d.party,
+          value: d.value
+        }))
+        .sort((a, b) => d3.ascending(a.name, b.name));
+    }
+
     return Array.from(
       d3.rollup(
-        rows,
+        rows.filter((d) => {
+          const q = String(d.questionType ?? "").trim().toLowerCase();
+          return q === "oral" || q === "written";
+        }),
         (group) => ({
           id: group[0].id,
           name: group[0].name,
@@ -471,7 +489,7 @@ function mountDeferred(className, renderFn, options = {}) {
     <div class="hero__overlay">
       <div class="hero__content">
         <p class="hero__eyebrow">Stór | Open data insights</p>
-        <h1 class="hero__title">PQ Explorer | Deputies</h1>
+        <h1 class="hero__title">PQ Explorer: Deputies</h1>
         <p class="hero__subtitle">
           A data-driven perspective on the questions asked in Parliament.
         </p>
