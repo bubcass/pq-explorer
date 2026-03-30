@@ -1,3 +1,4 @@
+/* institutional gold
 :root {
     --page-bg: #f6f3ea;
 
@@ -12,6 +13,36 @@
     --border: #ddd5c2;
     --button-border: #b39841;
     --chip-hover: #efe7cd;
+
+    --page-max: 1040px;
+    --text-max: 78ch;
+    --chart-max: 78ch;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.75rem;
+    --space-7: 2.25rem;
+    --space-8: 3rem;
+}
+*/
+
+:root {
+    --page-bg: #f6f3ea;
+
+    --text: #666666;
+    --text-soft: #5f5a50;
+    --text-muted: #7a7468;
+
+    --accent: #666666;
+    --link: #666666;
+    --link-hover: #666666;
+
+    --border: #ddd5c2;
+    --button-border: #666666;
+    --chip-hover: #e6e0d3;
 
     --page-max: 1040px;
     --text-max: 78ch;
@@ -658,7 +689,7 @@ a:focus-visible {
     appearance: none;
     -webkit-appearance: none;
     border-radius: 0;
-    border: 3px solid #b39841;
+    border: 3px solid #666666;
     background: transparent;
     color: #555;
     margin: 0;
@@ -685,7 +716,7 @@ a:focus-visible {
 
 .download-block .pq-download:hover,
 .download-block .pq-download:focus-visible {
-    background: #b39841;
+    background: #666666;
     color: #fff;
     text-decoration: none;
     outline: none;
