@@ -9,6 +9,7 @@ toc: false
 import * as d3 from "npm:d3";
 import { bubbleChart } from "./components/bubble-chart.js";
 import { pqControls } from "./components/pq-controls.js";
+import { zoomableTreemap } from "./components/zoomable-treemap.js";
 
 if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
   window.__pqPartiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -34,6 +35,17 @@ const summaries = {
   2026: {
     all: await FileAttachment("data/pq/2026/summary-all.json").json(),
     oral: await FileAttachment("data/pq/2026/summary-oral.json").json()
+  }
+};
+
+const partyTreemapData = {
+  2025: {
+    all: await FileAttachment("data/pq/2025/treemap-parties-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/treemap-parties-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/treemap-parties-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/treemap-parties-oral.json").json()
   }
 };
 
@@ -74,16 +86,37 @@ function getYearRows() {
   return partyRollups[getState().year] ?? [];
 }
 
+function getPartyTreemapData() {
+  return (
+    partyTreemapData[getState().year]?.[getVariantKey()] ?? {
+      name: "Parliamentary Questions",
+      children: []
+    }
+  );
+}
+
 function getPartyRows() {
   const rows = getYearRows();
   const variant = getVariantKey();
 
-  const filtered =
-    variant === "all"
-      ? rows
-      : rows.filter(
-          (d) => String(d.questionType ?? "").trim().toLowerCase() === variant
-        );
+  let filtered;
+
+  if (variant === "all") {
+    const allRows = rows.filter(
+      (d) => String(d.questionType ?? "").trim().toLowerCase() === "all"
+    );
+
+    filtered = allRows.length
+      ? allRows
+      : rows.filter((d) => {
+          const q = String(d.questionType ?? "").trim().toLowerCase();
+          return q === "oral" || q === "written";
+        });
+  } else {
+    filtered = rows.filter(
+      (d) => String(d.questionType ?? "").trim().toLowerCase() === variant
+    );
+  }
 
   return Array.from(
     d3.rollup(
@@ -283,6 +316,45 @@ display(
   <p class="chart-caption">
     Circles denote political parties, sized by the number of parliamentary questions asked by Members belonging to each party in the selected year and question type.
   </p>
+</div>
+
+<div class="prose-block">
+    <h3>Explore to topic and question level</h3>
+
+  <p>
+    <strong>Click through the squares to drill down</strong> by party, question topic, Deputy, date and the text of each parliamentary question as published.
+  </p>
+
+  <p>
+    Click on the top panel to zoom out again.
+  </p>
+</div>
+
+<div class="chart-block">
+
+```js
+display(
+  mountReactive("", (el) => {
+    const data = getPartyTreemapData();
+
+    if (!data?.children?.length) {
+      el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
+      return;
+    }
+
+    el.replaceChildren(
+      zoomableTreemap(data, {
+        width: 650,
+        height: 520
+      })
+    );
+  }, {
+    loadingHtml: chartPlaceholder(520),
+    loadingDelayMs: 80
+  })
+);
+```
+
 </div>
 
 <div class="prose-block">
