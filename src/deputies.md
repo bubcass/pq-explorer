@@ -505,6 +505,7 @@ function mountDeferred(className, renderFn, options = {}) {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
+    const isOral = getVariantKey() === "oral";
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -512,9 +513,18 @@ display(
     }
 
     el.innerHTML = `
-      <p>In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.</p>
       <p>
-        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.
+        In <strong>${summary.year}</strong>, the total number of ${
+          isOral ? "oral " : ""
+        }parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+      </p>
+      <p>
+        ${
+          isOral
+            ? `This is an average of <strong>${format(summary.averageOralPerSittingDay)}</strong> questions per sitting day originally designated for <strong>oral reply</strong>.`
+            : `Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)}</strong> for each sitting day, were questions originally designated for <strong>oral reply</strong>.`
+        }
+        The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.
       </p>
       <h2>Explore by Deputy</h2>
       <p>

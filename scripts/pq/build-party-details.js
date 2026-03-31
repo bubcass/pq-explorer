@@ -51,7 +51,7 @@ function createPartyDetails(rows) {
       topHeadingCount: topHeading.count,
       topDepartment: topDepartment.key,
       topDepartmentCount: topDepartment.count,
-      topHeadings: headingCounts.slice(0, 20).map((d) => ({
+      topHeadings: headingCounts.slice().map((d) => ({
         heading: d.key,
         count: d.count,
       })),

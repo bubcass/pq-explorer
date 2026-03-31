@@ -11,15 +11,18 @@ export function downloadButton(
 
   const { label = null } = options;
 
-  const normalised = data.map((d) => ({
-    department: (d.department ?? "").trim(),
-    heading: (d.heading ?? "").trim(),
-    deputy: (d.deputy ?? d.memberName ?? "").trim(),
-    type: (d.questionType ?? "").trim().toLowerCase(),
-    question: (d.question ?? "").replace(/\s+/g, " ").trim(),
-    url: d.url ?? "",
-    date: d.date_iso ?? "",
-  }));
+  // Keep rows flexible for derived datasets, but normalise string values
+  const normalised = data.map((row) =>
+    Object.fromEntries(
+      Object.entries(row ?? {}).map(([key, value]) => {
+        if (value == null) return [key, ""];
+        if (typeof value === "string") {
+          return [key, value.replace(/\s+/g, " ").trim()];
+        }
+        return [key, value];
+      }),
+    ),
+  );
 
   let blob;
 
@@ -34,31 +37,26 @@ export function downloadButton(
     });
   }
 
-  const sizeBytes = blob.size;
-  let sizeLabel;
-
-  if (sizeBytes < 1024 * 1024) {
-    sizeLabel = `${(sizeBytes / 1024).toFixed(0)} KB`;
-  } else {
-    sizeLabel = `${(sizeBytes / (1024 * 1024)).toFixed(1)} MB`;
-  }
-
   const button = document.createElement("button");
   button.className = "pq-download";
   button.type = "button";
 
-  const state = window.pqDeputiesState ?? window.pqState;
+  const state =
+    window.pqDeputiesState ?? window.pqPartiesState ?? window.pqState ?? {};
 
   const uniqueDeputies = [
-    ...new Set(normalised.map((d) => d.deputy).filter(Boolean)),
+    ...new Set(
+      normalised.map((d) => d.deputy ?? d.memberName ?? "").filter(Boolean),
+    ),
   ];
+
   const name = uniqueDeputies.length === 1 ? uniqueDeputies[0] : null;
 
   const defaultLabel = name
-    ? `Download dataset for ${name} (${state.year})`
-    : `Download parliamentary question dataset ${state.year}`;
+    ? `Download dataset for ${name}${state.year ? ` (${state.year})` : ""}`
+    : `Download dataset${state.year ? ` ${state.year}` : ""}`;
 
-  button.textContent = `${label ?? defaultLabel}`;
+  button.textContent = label ?? defaultLabel;
 
   button.addEventListener("click", () => {
     const url = URL.createObjectURL(blob);

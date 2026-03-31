@@ -1,4 +1,9 @@
-import { filterRowsByType, normaliseQuestionType, readJson, writeJson } from "./utils.js";
+import {
+  filterRowsByType,
+  normaliseQuestionType,
+  readJson,
+  writeJson,
+} from "./utils.js";
 
 function mostPopularHeading(rows) {
   const counts = new Map();
@@ -29,13 +34,17 @@ function median(values) {
     : sorted[mid];
 }
 
-function buildSummaryForRows(year, rows, questionType) {
+function buildSummaryForRows(year, rows, questionType, sittingDayRows = rows) {
   const yearlyTotal = rows.length;
 
-  const sittingDaySet = new Set(rows.map((d) => d?.date_iso).filter(Boolean));
+  const sittingDaySet = new Set(
+    sittingDayRows.map((d) => d?.date_iso).filter(Boolean),
+  );
   const sittingDays = sittingDaySet.size;
 
-  const oralPQs = rows.filter((d) => normaliseQuestionType(d?.questionType) === "oral").length;
+  const oralPQs = rows.filter(
+    (d) => normaliseQuestionType(d?.questionType) === "oral",
+  ).length;
 
   const averagePerSittingDay =
     sittingDays > 0 ? Math.round(yearlyTotal / sittingDays) : 0;
@@ -74,9 +83,9 @@ export async function buildSummary(year) {
 
   const rows = await readJson(inPath);
 
-  const allSummary = buildSummaryForRows(year, rows, "all");
+  const allSummary = buildSummaryForRows(year, rows, "all", rows);
   const oralRows = filterRowsByType(rows, "oral");
-  const oralSummary = buildSummaryForRows(year, oralRows, "oral");
+  const oralSummary = buildSummaryForRows(year, oralRows, "oral", rows);
 
   await writeJson(`src/data/pq/${year}/summary.json`, allSummary);
   await writeJson(`src/data/pq/${year}/summary-all.json`, allSummary);

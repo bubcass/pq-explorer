@@ -10,6 +10,7 @@ import * as d3 from "npm:d3";
 import { bubbleChart } from "./components/bubble-chart.js";
 import { pqControls } from "./components/pq-controls.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
+import { downloadButton } from "./components/download-button.js";
 
 if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
   window.__pqPartiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -310,11 +311,19 @@ display(
     }
 
     el.innerHTML = `
-      <p>In <strong>${summary.year}</strong>, the total number of ${
-        isOral ? "oral " : ""
-      }parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.</p>
       <p>
-        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.
+        In <strong>${summary.year}</strong>, the total number of ${
+          isOral ? "oral " : ""
+        }parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+      </p>
+      
+      <p>
+        ${
+          isOral
+            ? `This is an average of <strong>${format(summary.averageOralPerSittingDay)}</strong> questions per sitting day originally designated for <strong>oral reply</strong>.`
+            : `Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)}</strong> for each sitting day, were questions originally designated for <strong>oral reply</strong>.`
+        }
+        The number of questions asked by Deputies may vary considerably and some, such as those holding Cabinet or ministerial positions, may not ask any questions.
       </p>
       <h2>Explore by party</h2>
       <p>
@@ -418,7 +427,6 @@ display(
 ```
 
 </div>
-
 <div class="prose-block">
   <h2>Explore further</h2>
 </div>
@@ -499,17 +507,17 @@ display(
 
     el.innerHTML = `
       <p>
-        <strong>${detail.party}</strong> has <strong>${format(detail.memberCount)}</strong> ${
+        In this period, <strong>${format(detail.memberCount)}</strong> <strong>${detail.party}</strong> ${
           detail.memberCount === 1 ? "Member" : "Members"
-        } asking <strong>${format(detail.questionCount)}</strong> <strong>${questionLabel}</strong> in this period for the selection.
+        } asked <strong>${format(detail.questionCount)}</strong> <strong>${questionLabel}</strong> across <strong>${format(detail.topHeadings?.length ?? 0)} topic headings</strong>.
       </p>
 
       <p>
-        The most popular ${questionLabel}  heading from Members in this party is <strong>${detail.topHeading}</strong>, with <strong>${format(detail.topHeadingCount)}</strong> ${questionLabel} asked about the topic.
+        The most popular question heading from Members in this party is <strong>${detail.topHeading}</strong>, with <strong>${format(detail.topHeadingCount)} ${questionLabel}</strong> asked about the topic.
       </p>
 
       <p>
-        The Department receiving the most ${questionLabel} from the party is <strong>${detail.topDepartment}</strong>, which responded to <strong>${format(detail.topDepartmentCount)}</strong> questions.
+        The Department dealing with the most ${questionLabel} from the party is <strong>${detail.topDepartment}</strong>, with the Minister responding to <strong>${format(detail.topDepartmentCount)}</strong> ${questionLabel} in this period.
       </p>
     `;
   }, {
@@ -564,13 +572,47 @@ display(
 );
 ```
 
-
 <div class="prose-block">
   All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
       dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
     Oireachtas open data API
   </a>.
 </div>
+
+```js
+display(
+  mountReactive("download-block", (el) => {
+    const detail = getSelectedPartyDetail();
+
+    if (!detail?.topHeadings?.length) {
+      el.innerHTML = "";
+      return;
+    }
+
+    const rows = detail.topHeadings.map((d, i) => ({
+      rank: i + 1,
+      party: detail.party,
+      heading: d.heading,
+      count: d.count,
+      year: getState().year,
+      question_type: getVariantKey()
+    }));
+
+    const filename = `pq_topic_summary_${detail.party
+      .replace(/\s+/g, "_")
+      .toLowerCase()}_${getState().year}_${getVariantKey()}.csv`;
+
+    el.replaceChildren(
+      downloadButton(rows, filename, {
+        label: `Download topic summary for ${detail.party}`
+      })
+    );
+  }, {
+    eventName: ["pq-parties:change", "pq-parties:party-change"],
+    debounceMs: 20
+  })
+);
+```
 
 ```js
 {
