@@ -49,6 +49,17 @@ const partyTreemapData = {
   }
 };
 
+const partyDetailsData = {
+  2025: {
+    all: await FileAttachment("data/pq/2025/party-details-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/party-details-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/party-details-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/party-details-oral.json").json()
+  }
+};
+
 const partyColorMap = new Map([
   ["Fianna Fáil", "#2c8737"],
   ["Sinn Féin", "#088460"],
@@ -66,7 +77,8 @@ const partyColorMap = new Map([
 if (!window.pqPartiesState) {
   window.pqPartiesState = {
     year: 2026,
-    questionType: "all"
+    questionType: "all",
+    selectedParty: null
   };
 }
 
@@ -93,6 +105,10 @@ function getPartyTreemapData() {
       children: []
     }
   );
+}
+
+function getPartyDetailsRows() {
+  return partyDetailsData[getState().year]?.[getVariantKey()] ?? [];
 }
 
 function getPartyRows() {
@@ -132,12 +148,57 @@ function getPartyRows() {
   ).sort((a, b) => d3.descending(a.value, b.value));
 }
 
+function getPartyOptions() {
+  return getPartyRows().map((d) => ({
+    value: d.party,
+    label: d.party
+  }));
+}
+
+function ensureValidPartySelection() {
+  const state = getState();
+  const options = getPartyOptions();
+
+  if (!options.length) {
+    state.selectedParty = null;
+    return null;
+  }
+
+  if (state.selectedParty && options.some((d) => d.value === state.selectedParty)) {
+    return state.selectedParty;
+  }
+
+  state.selectedParty = options[0].value;
+  return state.selectedParty;
+}
+
+function getSelectedPartyDetail() {
+  const selected = ensureValidPartySelection();
+  if (!selected) return null;
+  return getPartyDetailsRows().find((d) => d.party === selected) ?? null;
+}
+
 function getPartyOrder(rows) {
   return rows.map((d) => d.party);
 }
 
 function getPartyColors(rows) {
   return rows.map((d) => partyColorMap.get(d.party) ?? "#666666");
+}
+
+function dispatchChange() {
+  window.dispatchEvent(new CustomEvent("pq-parties:change"));
+}
+
+function dispatchPartyChange() {
+  window.dispatchEvent(new CustomEvent("pq-parties:party-change"));
+}
+
+function withPreservedScroll(fn) {
+  const x = window.scrollX;
+  const y = window.scrollY;
+  fn();
+  requestAnimationFrame(() => window.scrollTo(x, y));
 }
 
 function chartPlaceholder(height = 320, text = "Updating…") {
@@ -270,7 +331,8 @@ display(
 pqControls({
   state: window.pqPartiesState,
   onChange: () => {
-    window.dispatchEvent(new CustomEvent("pq-parties:change"));
+    window.pqPartiesState.selectedParty = null;
+    dispatchChange();
   }
 })
 ```
@@ -319,7 +381,7 @@ display(
 </div>
 
 <div class="prose-block">
-    <h3>Explore to topic and question level</h3>
+  <h3>Explore to topic and question level</h3>
 
   <p>
     <strong>Click through the squares to drill down</strong> by party, question topic, Deputy, date and the text of each parliamentary question as published.
@@ -356,6 +418,152 @@ display(
 ```
 
 </div>
+
+<div class="prose-block">
+  <h2>Explore further</h2>
+</div>
+
+<div class="prose-block controls-block">
+
+```js
+{
+  const wrap = document.createElement("div");
+
+  function renderPartySelect() {
+    wrap.replaceChildren();
+
+    const label = document.createElement("label");
+    label.className = "control";
+
+    const labelText = document.createElement("span");
+    labelText.className = "control-label";
+    labelText.textContent = "Select a party";
+
+    const select = document.createElement("select");
+    select.className = "control-input";
+
+    const options = getPartyOptions();
+    const selected = ensureValidPartySelection();
+
+    if (!options.length) {
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = "No parties available";
+      select.appendChild(option);
+      select.disabled = true;
+    } else {
+      for (const optionData of options) {
+        const option = document.createElement("option");
+        option.value = optionData.value;
+        option.textContent = optionData.label;
+        option.selected = optionData.value === selected;
+        select.appendChild(option);
+      }
+
+      select.addEventListener("change", (event) => {
+        window.pqPartiesState.selectedParty = event.target.value || null;
+        dispatchPartyChange();
+      });
+    }
+
+    label.appendChild(labelText);
+    label.appendChild(select);
+    wrap.appendChild(label);
+  }
+
+  renderPartySelect();
+
+  window.addEventListener("pq-parties:change", () => {
+    withPreservedScroll(() => {
+      renderPartySelect();
+    });
+  });
+
+  display(wrap);
+}
+```
+
+</div>
+
+```js
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const detail = getSelectedPartyDetail();
+    const isOral = getVariantKey() === "oral";
+    const questionLabel = isOral ? "oral questions" : "questions";
+
+    if (!detail) {
+      el.innerHTML = `<p>No data available for this party.</p>`;
+      return;
+    }
+
+    el.innerHTML = `
+      <p>
+        <strong>${detail.party}</strong> has <strong>${format(detail.memberCount)}</strong> ${
+          detail.memberCount === 1 ? "Member" : "Members"
+        } asking <strong>${format(detail.questionCount)}</strong> <strong>${questionLabel}</strong> in this period for the selection.
+      </p>
+
+      <p>
+        The most popular ${questionLabel}  heading from Members in this party is <strong>${detail.topHeading}</strong>, with <strong>${format(detail.topHeadingCount)}</strong> ${questionLabel} asked about the topic.
+      </p>
+
+      <p>
+        The Department receiving the most ${questionLabel} from the party is <strong>${detail.topDepartment}</strong>, which responded to <strong>${format(detail.topDepartmentCount)}</strong> questions.
+      </p>
+    `;
+  }, {
+    eventName: ["pq-parties:change", "pq-parties:party-change"]
+  })
+);
+```
+
+```js
+display(
+  mountReactive("", (el) => {
+    const detail = getSelectedPartyDetail();
+    const rows = detail?.topHeadings?.slice(0, 20) ?? [];
+
+    if (!rows.length) {
+      el.innerHTML = `<p class="chart-loading">No heading data available for this party.</p>`;
+      return;
+    }
+
+    const table = document.createElement("table");
+
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Question heading</th>
+          <th>Number of questions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    `;
+
+    const tbody = table.querySelector("tbody");
+
+    for (const row of rows) {
+      const tr = document.createElement("tr");
+
+      const tdHeading = document.createElement("td");
+      tdHeading.textContent = row.heading ?? "";
+
+      const tdCount = document.createElement("td");
+      tdCount.textContent = format(row.count ?? 0);
+
+      tr.appendChild(tdHeading);
+      tr.appendChild(tdCount);
+      tbody.appendChild(tr);
+    }
+
+    el.replaceChildren(table);
+  }, {
+    eventName: ["pq-parties:change", "pq-parties:party-change"]
+  })
+);
+```
+
 
 <div class="prose-block">
   All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">

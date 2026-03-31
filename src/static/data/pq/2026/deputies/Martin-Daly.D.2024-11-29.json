@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Martin-Daly.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 130,
+      "count": 131,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -30,6 +30,7 @@
         "Disability Services",
         "Education Policy",
         "Educational Disadvantage",
+        "Electricity Grid",
         "Energy Usage",
         "Family Reunification",
         "Farm Inspections",
@@ -412,6 +413,19 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Usage",
+                "value": 1
+              },
+              {
+                "name": "Electricity Grid",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -433,15 +447,6 @@
               },
               {
                 "name": "Farm Inspections",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Usage",
                 "value": 1
               }
             ]
@@ -1990,6 +1995,43 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Usage",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "248. Deputy Martin Daly asked the Minister for Climate, Energy and the Environment the number of households in electricity and gas arrears in 2025, as reported by the Commission for Regulation of Utilities, and the level of disconnections carried out. [5676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/248/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electricity Grid",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "253. Deputy Martin Daly asked the Minister for Climate, Energy and the Environment the level of capital investment allocated to electricity grid resilience and storm hardening measures in the Roscommon-Galway constituency in 2024, 2025 and 2026. [22322/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/253/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -2056,27 +2098,6 @@
                         "name": "782. Deputy Martin Daly asked the Minister for Agriculture, Food and the Marine the number of farm inspections carried out in the Roscommon-Galway constituency in 2025 and 2026 to date; and the backlog currently outstanding, in tabular form. [22326/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/782/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Usage",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "248. Deputy Martin Daly asked the Minister for Climate, Energy and the Environment the number of households in electricity and gas arrears in 2025, as reported by the Commission for Regulation of Utilities, and the level of disconnections carried out. [5676/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/248/"
                       }
                     ]
                   }
@@ -3012,6 +3033,15 @@
           "heading": "Health Services Waiting Lists",
           "question": "1866. Deputy Martin Daly asked the Minister for Health the current waiting times for outpatient appointments in ENT, orthopaedics and cardiology for patients referred from the Castlerea area; and the actions being taken to reduce delays for these specialties. [19319/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1866/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-03-24",
+          "questionNumber": 253,
+          "department": "Climate",
+          "heading": "Electricity Grid",
+          "question": "253. Deputy Martin Daly asked the Minister for Climate, Energy and the Environment the level of capital investment allocated to electricity grid resilience and storm hardening measures in the Roscommon-Galway constituency in 2024, 2025 and 2026. [22322/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/253/",
           "questionType": "written"
         },
         {

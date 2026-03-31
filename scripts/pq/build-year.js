@@ -11,6 +11,7 @@ import { buildTreemapHierarchy } from "./build-treemap-hierarchy.js";
 import { buildDeputyDetails } from "./build-deputy-details.js";
 import { buildDownloadCsv } from "./build-download-csv.js";
 import { buildTreemapParties } from "./build-treemap-parties.js";
+import { buildPartyDetails } from "./build-party-details.js";
 
 const year = process.argv[2];
 
@@ -32,6 +33,7 @@ async function run() {
   await buildTreemapHierarchy(year);
   await buildDeputyDetails(year);
   await buildTreemapParties(year);
+  await buildPartyDetails(year);
 }
 
 run();
