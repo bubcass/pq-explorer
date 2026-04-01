@@ -2,15 +2,19 @@ name: Nightly Data Refresh
 
 on:
   schedule:
-    - cron: "0 5 * * *" # 5:00 AM Dublin time (UTC caveat below)
+    - cron: "0 5 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  update-data:
+  update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
 
     steps:
       - name: Checkout repo
@@ -30,16 +34,41 @@ jobs:
       - name: Build data
         run: npm run build:data
 
-      - name: Commit changes (if any)
+      - name: Commit refreshed data if needed
+        id: commit_data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
           git add src/data src/generated || true
 
           if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit"
           else
             git commit -m "Nightly PQ data refresh"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Build site
+        if: steps.commit_data.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Copy deputy JSON to dist
+        if: steps.commit_data.outputs.changed == 'true'
+        run: node scripts/pq/copy-deputy-json-to-dist.js
+
+      - name: Configure Pages
+        if: steps.commit_data.outputs.changed == 'true'
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        if: steps.commit_data.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit_data.outputs.changed == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
