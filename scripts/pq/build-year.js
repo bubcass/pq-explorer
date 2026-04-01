@@ -12,6 +12,8 @@ import { buildDeputyDetails } from "./build-deputy-details.js";
 import { buildDownloadCsv } from "./build-download-csv.js";
 import { buildTreemapParties } from "./build-treemap-parties.js";
 import { buildPartyDetails } from "./build-party-details.js";
+import { buildConstituencySummary } from "./build-constituency-summary.js";
+import { buildConstituencyMembers } from "./build-constituency-members.js";
 
 const year = process.argv[2];
 
@@ -34,6 +36,8 @@ async function run() {
   await buildDeputyDetails(year);
   await buildTreemapParties(year);
   await buildPartyDetails(year);
+  await buildConstituencySummary(year);
+  await buildConstituencyMembers(year);
 }
 
 run();

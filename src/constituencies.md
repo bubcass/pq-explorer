@@ -5,14 +5,62 @@ sidebar: false
 footer: false
 toc: false
 ---
+
 ```js
 import * as d3 from "npm:d3";
 import { pqControls } from "./components/pq-controls.js";
+import { constituencyMap } from "./components/constituency-map.js";
+
+async function ensureLeafletCss() {
+  if (typeof document === "undefined") return;
+
+  const existing = document.getElementById("leaflet-css-cdn");
+  if (existing) {
+    if (existing.dataset.loaded === "true") return;
+
+    await new Promise((resolve, reject) => {
+      existing.addEventListener(
+        "load",
+        () => {
+          existing.dataset.loaded = "true";
+          resolve();
+        },
+        { once: true }
+      );
+      existing.addEventListener("error", reject, { once: true });
+    });
+
+    return;
+  }
+
+  await new Promise((resolve, reject) => {
+    const link = document.createElement("link");
+    link.id = "leaflet-css-cdn";
+    link.rel = "stylesheet";
+    link.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+    link.addEventListener(
+      "load",
+      () => {
+        link.dataset.loaded = "true";
+        resolve();
+      },
+      { once: true }
+    );
+
+    link.addEventListener("error", reject, { once: true });
+
+    document.head.appendChild(link);
+  });
+}
+
+await ensureLeafletCss();
 
 if (typeof window !== "undefined" && !window.__pqConstituenciesResizeObserver) {
   window.__pqConstituenciesResizeObserver = new ResizeObserver(([entry]) => {
     parent.postMessage({ height: entry.target.scrollHeight }, "*");
   });
+
   window.__pqConstituenciesResizeObserver.observe(document.body);
 }
 
@@ -30,52 +78,167 @@ const summaries = {
   }
 };
 
+const constituencyMembersData = {
+  2025: {
+    all: await FileAttachment("data/pq/2025/constituency-members-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/constituency-members-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/constituency-members-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/constituency-members-oral.json").json()
+  }
+};
+
+const constituencySummaryData = {
+  2025: {
+    all: await FileAttachment("data/pq/2025/constituency-summary-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/constituency-summary-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/constituency-summary-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/constituency-summary-oral.json").json()
+  }
+};
+
+const constituenciesGeo = await FileAttachment("data/geo/constituencies.json").json();
+
+const partyColorMap = new Map([
+  ["Fianna Fáil", "#2c8737"],
+  ["Sinn Féin", "#088460"],
+  ["Fine Gael", "#303591"],
+  ["Independent", "#666666"],
+  ["Labour Party", "#c82832"],
+  ["Social Democrats", "#782b81"],
+  ["Independent Ireland", "#087b87"],
+  ["People Before Profit-Solidarity", "#be417d"],
+  ["Aontú", "#b35400"],
+  ["100% RDR", "#985564"],
+  ["Green Party", "#6c7e26"]
+]);
+
 if (!window.pqConstituenciesState) {
-  window.pqConstituenciesState = { year: 2026, questionType: "all" };
+  window.pqConstituenciesState = {
+    year: 2026,
+    questionType: "all",
+    selectedConstituency: null
+  };
 }
 
-function getState() { return window.pqConstituenciesState; }
-function getVariantKey() { return getState().questionType === "oral" ? "oral" : "all"; }
-function getSummary() { return summaries[getState().year]?.[getVariantKey()] ?? null; }
+function getState() {
+  return window.pqConstituenciesState;
+}
 
-function chartPlaceholder(height = 320, text = "Chart coming soon…") {
-  const wrap = document.createElement("div");
-  wrap.className = "chart-loading";
-  wrap.style.minHeight = `${height}px`;
-  wrap.style.display = "grid";
-  wrap.style.alignItems = "center";
-  wrap.style.justifyItems = "center";
-  wrap.style.border = "1px solid var(--border)";
-  wrap.style.background = "rgba(255,255,255,0.55)";
-  wrap.style.padding = "1rem";
-  wrap.textContent = text;
-  return wrap;
+function getVariantKey() {
+  return getState().questionType === "oral" ? "oral" : "all";
+}
+
+function getMembersData() {
+  return constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
+}
+
+function getConstituencySummaryRows() {
+  return constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
+}
+
+function clean(value) {
+  return String(value ?? "").replace(/\s+/g, " ").trim();
+}
+
+function cleanConstituencyName(name) {
+  return clean(name).replace(/\s*\(\d+\)\s*$/, "");
+}
+
+function getConstituencyOptions() {
+  return [
+    ...new Set(
+      constituenciesGeo.features
+        .map((d) => cleanConstituencyName(d?.properties?.ENG_NAME_VALUE))
+        .filter(Boolean)
+    )
+  ].sort(d3.ascending);
+}
+
+function ensureValidConstituencySelection() {
+  const options = getConstituencyOptions();
+  const state = getState();
+
+  if (!options.length) {
+    state.selectedConstituency = null;
+    return null;
+  }
+
+  if (state.selectedConstituency && options.includes(state.selectedConstituency)) {
+    return state.selectedConstituency;
+  }
+
+  state.selectedConstituency = options[0];
+  return state.selectedConstituency;
+}
+
+function getFilteredMembers() {
+  const selected = ensureValidConstituencySelection();
+  if (!selected) return [];
+
+  return getMembersData()
+    .filter((d) => cleanConstituencyName(d.constituency) === selected)
+    .sort((a, b) => d3.ascending(a.memberName ?? "", b.memberName ?? ""));
+}
+
+function getSelectedConstituencySummary() {
+  const selected = ensureValidConstituencySelection();
+  if (!selected) return null;
+
+  return (
+    getConstituencySummaryRows().find(
+      (d) => cleanConstituencyName(d.constituency) === selected
+    ) ?? null
+  );
+}
+
+function getFilteredConstituencyGeo() {
+  const selected = ensureValidConstituencySelection();
+
+  return {
+    type: "FeatureCollection",
+    features: constituenciesGeo.features.filter(
+      (feature) =>
+        cleanConstituencyName(feature?.properties?.ENG_NAME_VALUE) === selected
+    )
+  };
+}
+
+function dispatchChange() {
+  window.dispatchEvent(new CustomEvent("pq-constituencies:change"));
+}
+
+function dispatchConstituencyChange() {
+  window.dispatchEvent(new CustomEvent("pq-constituencies:constituency-change"));
 }
 
 function mountReactive(className, renderFn, options = {}) {
-  const { debounceMs = 50, eventName = "pq-constituencies:change" } = options;
-  const eventNames = Array.isArray(eventName) ? eventName : [eventName];
+  const { eventName = "pq-constituencies:change" } = options;
+  const events = Array.isArray(eventName) ? eventName : [eventName];
+
   const el = document.createElement("div");
   if (className) el.className = className;
-  let timeoutId = null;
 
-  const run = () => requestAnimationFrame(() => Promise.resolve(renderFn(el)));
+  const run = () => requestAnimationFrame(() => renderFn(el));
   run();
 
-  const onChange = () => {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(run, debounceMs);
-  };
+  for (const event of events) {
+    window.addEventListener(event, run);
+  }
 
-  for (const name of eventNames) window.addEventListener(name, onChange);
   return el;
 }
 ```
+
 
 ```js
 {
   const hero = document.createElement("section");
   hero.className = "hero";
+
   hero.innerHTML = `
     <div class="hero__media">
       <video class="hero__video" src="${heroVideo}" autoplay muted loop playsinline></video>
@@ -84,7 +247,7 @@ function mountReactive(className, renderFn, options = {}) {
       <div class="hero__content">
         <p class="hero__eyebrow">Stór | Open data insights</p>
         <h1 class="hero__title">PQ Explorer: Constituencies</h1>
-        <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
+        <p class="hero__subtitle">A geographic perspective on the questions asked in Parliament.</p>
       </div>
     </div>
   `;
@@ -95,59 +258,213 @@ function mountReactive(className, renderFn, options = {}) {
 ```js
 display(
   mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+    const summary = summaries[getState().year]?.[getVariantKey()] ?? null;
     const isOral = getVariantKey() === "oral";
+
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
       return;
     }
 
     el.innerHTML = `
-      <p>In <strong>${summary.year}</strong>, the total number of ${isOral ? "oral " : ""}parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.</p>
-      <p>Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The number of questions asked by Deputies may vary considerably between constituencies.</p>
-      <h2>Explore by Constituency</h2>
-      <p>Select a year and question type. This page will explore how parliamentary questions are distributed across constituencies, using custom visualisations built from the Oireachtas open data API.</p>
+      <p>
+        In <strong>${summary.year}</strong>, the total number of ${
+          isOral ? "oral " : ""
+        }parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+      </p>
+      <p>
+        ${
+          isOral
+            ? `This is an average of <strong>${format(summary.averageOralPerSittingDay)}</strong> questions per sitting day originally designated for <strong>oral reply</strong>.`
+            : `Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)}</strong> for each sitting day, were questions originally designated for <strong>oral reply</strong>.`
+        }
+        This page explores how parliamentary question activity varies across constituencies and the Members who represent them.
+      </p>
+      <h2>Explore by constituency</h2>
+      <p>
+        Select a constituency to explore how different parts of the State are represented in parliamentary questioning activity.
+      </p>
     `;
   })
 );
 ```
+
+
+<div class="prose-block controls-block">
+
+```js
+{
+  const wrap = document.createElement("div");
+
+  function renderConstituencySelect() {
+    wrap.replaceChildren();
+
+    const label = document.createElement("label");
+    label.className = "control";
+
+    const labelText = document.createElement("span");
+    labelText.className = "control-label";
+    labelText.textContent = "Constituency";
+
+    const select = document.createElement("select");
+    select.className = "control-input";
+
+    const options = getConstituencyOptions();
+    const selected = ensureValidConstituencySelection();
+
+    for (const value of options) {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      option.selected = value === selected;
+      select.appendChild(option);
+    }
+
+    select.addEventListener("change", (event) => {
+      window.pqConstituenciesState.selectedConstituency =
+        event.target.value || null;
+      dispatchConstituencyChange();
+    });
+
+    label.appendChild(labelText);
+    label.appendChild(select);
+    wrap.appendChild(label);
+  }
+
+  renderConstituencySelect();
+
+  window.addEventListener("pq-constituencies:change", renderConstituencySelect);
+
+  display(wrap);
+}
+```
+
+</div>
 
 <div class="prose-block controls-block">
 
 ```js
 pqControls({
   state: window.pqConstituenciesState,
-  onChange: () => window.dispatchEvent(new CustomEvent("pq-constituencies:change"))
+  onChange: dispatchChange
 })
 ```
 
 </div>
 
-<div class="chart-block">
 
 ```js
 display(
-  mountReactive("", (el) => {
-    el.replaceChildren(chartPlaceholder(520, "Constituency visualisation coming soon…"));
+  mountReactive("constituency-map-block", (el) => {
+    el.replaceChildren(
+      constituencyMap(getFilteredConstituencyGeo(), { height: 420 })
+    );
+  }, {
+    eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
   })
 );
 ```
 
-</div>
 
-<div class="prose-block">
-  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">Oireachtas open data API</a>.
-</div>
+```js
+display(
+  mountReactive("constituency-members-grid", (el) => {
+    const members = getFilteredMembers();
+
+    const grid = document.createElement("div");
+    grid.className = "constituency-members-grid__inner";
+
+    for (const member of members) {
+      const party = member.party || "Independent";
+      const color = partyColorMap.get(party) ?? "#666666";
+
+      const link = document.createElement("a");
+      link.className = "constituency-member-card-link";
+      link.href = member.memberUrl;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+
+      link.innerHTML = `
+        <article class="constituency-member-card">
+          <div class="constituency-member-card__media" style="--party-color:${color}">
+            <div class="constituency-member-card__ring">
+              <img
+                class="constituency-member-card__image"
+                src="https://data.oireachtas.ie/ie/oireachtas/member/id/${member.memberCode}/image/large"
+                alt="${member.memberName}"
+              />
+            </div>
+          </div>
+          <div class="constituency-member-card__body">
+            <div class="constituency-member-card__name">${member.memberName}</div>
+            <div class="constituency-member-card__meta">
+              <div>${party}</div>
+              <div>${format(member.questionCount ?? 0)} questions</div>
+            </div>
+          </div>
+        </article>
+      `;
+
+      grid.appendChild(link);
+    }
+
+    el.replaceChildren(grid);
+  }, {
+    eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
+  })
+);
+```
+
+```js
+display(
+  mountReactive("prose-block reactive-prose", (el) => {
+    const selected = ensureValidConstituencySelection();
+    const members = getFilteredMembers();
+    const summary = getSelectedConstituencySummary();
+
+    el.innerHTML = `
+      <p>
+        <strong>${selected}</strong> has <strong>${format(members.length)}</strong> TD${
+          members.length === 1 ? "" : "s"
+        } in the Thirty-fourth Dáil.
+        Together they asked <strong>${format(summary?.questionCount ?? 0)}</strong>
+        parliamentary questions in this period.
+        The most common topic was
+        <strong>${summary?.topHeading ?? "—"}</strong>.
+      </p>
+    `;
+  }, {
+    eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
+  })
+);
+```
+
 
 ```js
 {
   const wrap = document.createElement("div");
   wrap.className = "explore-links-block";
+
   wrap.innerHTML = `
     <div class="explore-links-grid">
-      <a class="explore-tile" href="./"><div class="explore-tile-head"><span class="explore-tile-title">Explore: Overview</span><span class="explore-tile-arrow" aria-hidden="true">↗</span></div></a>
-      <a class="explore-tile" href="./deputies"><div class="explore-tile-head"><span class="explore-tile-title">Explore: Deputies</span><span class="explore-tile-arrow" aria-hidden="true">↗</span></div></a>
-      <a class="explore-tile" href="./parties"><div class="explore-tile-head"><span class="explore-tile-title">Explore: Parties</span><span class="explore-tile-arrow" aria-hidden="true">↗</span></div></a>
+      <a class="explore-tile" href="./">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Overview</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+      <a class="explore-tile" href="./deputies">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Deputies</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+      <a class="explore-tile" href="./parties">
+        <div class="explore-tile-head">
+          <span class="explore-tile-title">Explore: Parties</span>
+          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
     </div>
   `;
   display(wrap);
