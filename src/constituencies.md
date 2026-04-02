@@ -483,13 +483,32 @@ display(
     for (const member of members) {
       const party = member.party || "Independent";
       const color = partyColorMap.get(party) ?? "#666666";
-
+    
       const link = document.createElement("a");
       link.className = "constituency-member-card-link";
       link.href = member.memberUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
-
+    
+      const metaRows = [
+        ["Party", party],
+        ["Questions asked", format(member.questionCount ?? 0)],
+        ...(member.endDate
+          ? [["Served until", formatIrishDate(member.endDate)]]
+          : [])
+      ];
+    
+      const metaHtml = metaRows
+        .map(
+          ([label, value]) => `
+            <div class="constituency-member-card__meta-item">
+              <span class="constituency-member-card__meta-label">${label}</span>
+              <span class="constituency-member-card__meta-value">${value}</span>
+            </div>
+          `
+        )
+        .join("");
+    
       link.innerHTML = `
         <article class="constituency-member-card">
           <div class="constituency-member-card__media" style="--party-color:${color}">
@@ -504,19 +523,12 @@ display(
           <div class="constituency-member-card__body">
             <div class="constituency-member-card__name">${member.memberName}</div>
             <div class="constituency-member-card__meta-grid">
-              <div class="constituency-member-card__meta-item">
-                <span class="constituency-member-card__meta-label">Party</span>
-                <span class="constituency-member-card__meta-value">${party}</span>
-              </div>
-              <div class="constituency-member-card__meta-item">
-                <span class="constituency-member-card__meta-label">Questions asked</span>
-                <span class="constituency-member-card__meta-value">${format(member.questionCount ?? 0)}</span>
-              </div>
+              ${metaHtml}
             </div>
           </div>
         </article>
       `;
-
+    
       grid.appendChild(link);
     }
 

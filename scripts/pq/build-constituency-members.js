@@ -17,7 +17,6 @@ function getRowMemberCode(row) {
       row?.by_memberCode ??
       row?.member?.memberCode ??
       row?.question?.by?.memberCode ??
-      row?.question?.by?.memberCode ??
       row?.question?.by?.["@id"],
   );
 }
@@ -29,6 +28,32 @@ function getMemberName(member) {
       member?.name ??
       member?.fullName ??
       member?.showAs,
+  );
+}
+
+function parseDate(value) {
+  const v = clean(value);
+  if (!v) return null;
+
+  const d = new Date(v);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function getMemberEndDate(member) {
+  return clean(
+    member?.endDate ??
+      member?.membershipEndDate ??
+      member?.end_date ??
+      member?.to,
+  );
+}
+
+function getMemberStartDate(member) {
+  return clean(
+    member?.startDate ??
+      member?.membershipStartDate ??
+      member?.start_date ??
+      member?.from,
   );
 }
 
@@ -47,28 +72,42 @@ function buildRows(membersLookup, rows) {
     : Object.values(membersLookup ?? {});
 
   return members
-    .map((d) => {
-      const memberCode = clean(d?.memberCode ?? d?.code ?? d?.MemberCode);
+    .map((member) => {
+      const memberCode = clean(
+        member?.memberCode ?? member?.code ?? member?.MemberCode,
+      );
       if (!memberCode) return null;
+
+      const questionCount = counts.get(memberCode) ?? 0;
+      const startDate = getMemberStartDate(member);
+      const endDate = getMemberEndDate(member);
 
       return {
         memberCode,
-        memberName: getMemberName(d),
-        party: clean(d?.party ?? d?.Party) || "Independent",
+        memberName: getMemberName(member),
+        party: clean(member?.party ?? member?.Party) || "Independent",
         constituency: cleanConstituencyName(
-          d?.constituency ??
-            d?.Constituency ??
-            d?.newConstituency ??
-            d?.["NEW CONSTITUENCY"],
+          member?.constituency ??
+            member?.Constituency ??
+            member?.newConstituency ??
+            member?.["NEW CONSTITUENCY"],
         ),
         memberUrl:
-          d?.memberUrl ??
+          member?.memberUrl ??
           `https://www.oireachtas.ie/en/members/member/${memberCode}`,
-        questionCount: counts.get(memberCode) ?? 0,
+        questionCount,
+        startDate,
+        endDate,
+        isFormerMember: Boolean(parseDate(endDate)),
       };
     })
     .filter(Boolean)
-    .filter((d) => d.memberName && d.constituency)
+    .filter((member) => member.memberName && member.constituency)
+    .filter((member) => {
+      if (member.questionCount > 0) return true;
+      if (parseDate(member.endDate)) return false;
+      return true;
+    })
     .sort((a, b) => a.memberName.localeCompare(b.memberName, "en"));
 }
 
