@@ -39,6 +39,11 @@ function parseDate(value) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
+function getYearNumber(value) {
+  const d = parseDate(value);
+  return d ? d.getFullYear() : null;
+}
+
 function getMemberEndDate(member) {
   return clean(
     member?.endDate ??
@@ -57,7 +62,22 @@ function getMemberStartDate(member) {
   );
 }
 
-function buildRows(membersLookup, rows) {
+function memberServedInYear(member, year) {
+  const selectedYear = Number(year);
+  const startYear = getYearNumber(member.startDate);
+  const endYear = getYearNumber(member.endDate);
+
+  // If we know they started after the selected year, do not show them.
+  if (startYear && startYear > selectedYear) return false;
+
+  // If they ended before the selected year, do not show them.
+  if (endYear && endYear < selectedYear) return false;
+
+  // Otherwise, they served in that year.
+  return true;
+}
+
+function buildRows(membersLookup, rows, year) {
   const counts = new Map();
 
   for (const row of rows) {
@@ -81,6 +101,8 @@ function buildRows(membersLookup, rows) {
       const questionCount = counts.get(memberCode) ?? 0;
       const startDate = getMemberStartDate(member);
       const endDate = getMemberEndDate(member);
+      const endYear = getYearNumber(endDate);
+      const selectedYear = Number(year);
 
       return {
         memberCode,
@@ -99,15 +121,12 @@ function buildRows(membersLookup, rows) {
         startDate,
         endDate,
         isFormerMember: Boolean(parseDate(endDate)),
+        showServedUntil: Boolean(endYear && endYear === selectedYear),
       };
     })
     .filter(Boolean)
     .filter((member) => member.memberName && member.constituency)
-    .filter((member) => {
-      if (member.questionCount > 0) return true;
-      if (parseDate(member.endDate)) return false;
-      return true;
-    })
+    .filter((member) => memberServedInYear(member, year))
     .sort((a, b) => a.memberName.localeCompare(b.memberName, "en"));
 }
 
@@ -120,8 +139,12 @@ export async function buildConstituencyMembers(year) {
   const membersLookup = await readJson(membersPath);
   const rows = await readJson(pqPath);
 
-  const allRows = buildRows(membersLookup, rows);
-  const oralRows = buildRows(membersLookup, filterRowsByType(rows, "oral"));
+  const allRows = buildRows(membersLookup, rows, year);
+  const oralRows = buildRows(
+    membersLookup,
+    filterRowsByType(rows, "oral"),
+    year,
+  );
 
   await writeJson(`src/data/pq/${year}/constituency-members-all.json`, allRows);
   await writeJson(

@@ -493,7 +493,7 @@ display(
       const metaRows = [
         ["Party", party],
         ["Questions asked", format(member.questionCount ?? 0)],
-        ...(member.endDate
+        ...(member.showServedUntil
           ? [["Served until", formatIrishDate(member.endDate)]]
           : [])
       ];
