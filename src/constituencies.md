@@ -655,7 +655,8 @@ display(
           y: "heading",
           inset: 0.8,
           rx: 0,
-          fill: "#1f77b4"
+          fill: "#1f77b4",
+          ariaHidden: true
         }),
         Plot.text(data, {
           x: "count",
@@ -667,7 +668,7 @@ display(
           fontSize: 12,
           fill: "#666666"
         }),
-        Plot.ruleX([0])
+        Plot.ruleX([0], {ariaHidden: true})
       ]
     });
 
