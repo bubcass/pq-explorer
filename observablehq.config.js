@@ -1,11 +1,9 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
-  title: "PQ Explorer | Overview",
-
+  title: "PQ Explorer",
   head: '<link rel="icon" href="logo.svg" type="image/png" sizes="32x32">',
-
+  lang: "en-IE",
   root: "src",
-
   style: "style.css",
 
   // Optional but recommended for your use case

@@ -28,17 +28,18 @@
 
 :root {
     --page-bg: #f6f3ea;
-    --text: #666666;
+    --text: #4a463d;
     --text-soft: #5f5a50;
-    --text-muted: #7a7468;
-    --accent: #666666;
-    --link: #666666;
-    --link-hover: #666666;
-    --border: #ddd5c2;
-    --button-border: #666666;
-    --chip-hover: #e6e0d3;
-    --gold: #7f6c2e;
-    --gold-hover: #5f4f1f;
+    --text-muted: #5c5649;
+    --accent: #4a463d;
+    --link: #5f4f1f;
+    --link-hover: #7f6c2e;
+    --border: #d4ccb8;
+    --button-border: #6b5922;
+    --chip-hover: #dedbd4;
+    --gold: #6b5922;
+    --gold-hover: #473a16;
+    --focus-ring: #3f3414;
     --page-max: 1040px;
     --text-max: 78ch;
     --chart-max: 78ch;
@@ -155,13 +156,13 @@ main,
 .hero__eyebrow {
     margin: 0 0 0.35rem 0;
     max-width: none;
-    color: #ffffff;
+    color: #f1df9b;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    opacity: 0.96;
+    opacity: 1;
 }
 
 .hero__title {
@@ -372,7 +373,7 @@ a:focus-visible {
 .controls-block .control {
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
+    gap: 0.4rem;
     min-width: 0;
 }
 
@@ -380,10 +381,11 @@ a:focus-visible {
 .control-label {
     display: block;
     margin: 0;
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    font-weight: 500;
-    line-height: 1.3;
+    font-size: 0.92rem;
+    color: var(--gold);
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: 0.01em;
 }
 
 .controls-block select,
@@ -396,7 +398,7 @@ a:focus-visible {
     padding: 0.75rem 2.4rem 0.75rem 0.75rem;
     min-height: 54px;
     width: 100%;
-    background-color: transparent;
+    background-color: #fffdf8;
     color: var(--text);
     font: inherit;
     line-height: 1.2;
@@ -404,13 +406,14 @@ a:focus-visible {
     transition:
         border-color 0.25s ease,
         background-color 0.25s ease,
-        color 0.25s ease;
+        color 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
 .controls-block select {
     background-image:
-        linear-gradient(45deg, transparent 50%, var(--text-muted) 50%),
-        linear-gradient(135deg, var(--text-muted) 50%, transparent 50%);
+        linear-gradient(45deg, transparent 50%, var(--accent) 50%),
+        linear-gradient(135deg, var(--accent) 50%, transparent 50%);
     background-position:
         calc(100% - 18px) calc(50% - 3px),
         calc(100% - 12px) calc(50% - 3px);
@@ -421,13 +424,19 @@ a:focus-visible {
 }
 
 .controls-block select:hover,
-.controls-block select:focus,
 .controls-block input[type="search"]:hover,
-.controls-block input[type="search"]:focus,
-.controls-block input[type="text"]:hover,
-.controls-block input[type="text"]:focus {
-    outline: none;
+.controls-block input[type="text"]:hover {
     border-color: var(--accent);
+    background-color: #fff;
+}
+
+.controls-block select:focus,
+.controls-block input[type="search"]:focus,
+.controls-block input[type="text"]:focus {
+    outline: 2px solid transparent;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(107, 89, 34, 0.18);
+    background-color: #fff;
 }
 
 .controls-block .radio-group {
@@ -447,23 +456,25 @@ a:focus-visible {
     min-height: 50px;
     padding: 0 0.8rem;
     border: 1.5px solid var(--button-border);
-    background: transparent;
-    color: #555;
+    background: #fffdf8;
+    color: var(--#444);
     font-size: 0.95rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
     cursor: pointer;
     transition:
         background-color 0.25s ease,
         color 0.25s ease,
-        border-color 0.25s ease;
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
     box-sizing: border-box;
     margin: 0;
     white-space: normal;
 }
 
 .controls-block .radio-group label:hover {
-    background: rgba(230, 224, 211, 0.55);
+    background: var(--chip-hover);
+    border-color: var(--accent);
 }
 
 .controls-block .radio-group input[type="radio"] {
@@ -476,13 +487,13 @@ a:focus-visible {
 }
 
 .controls-block .radio-group label:has(input[type="radio"]:checked) {
-    background: var(--button-border);
+    background: var(--accent);
     color: #fff;
-    border-color: var(--button-border);
+    border-color: var(--accent);
 }
 
 .controls-block .radio-group label:has(input[type="radio"]:focus-visible) {
-    outline: 2px solid var(--accent);
+    outline: 2px solid var(--focus-ring);
     outline-offset: 2px;
 }
 
@@ -676,9 +687,9 @@ a:focus-visible {
     appearance: none;
     -webkit-appearance: none;
     border-radius: 0;
-    border: 2px solid #666666;
-    background: transparent;
-    color: #555;
+    border: 1.5px solid var(--button-border);
+    background: #fffdf8;
+    color: var(--text);
     margin: 0;
     font-family:
         "IBM Plex Sans",
@@ -697,17 +708,19 @@ a:focus-visible {
     transition:
         background-color 0.25s ease,
         color 0.25s ease,
-        border-color 0.25s ease;
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
     cursor: pointer;
 }
 
 .download-block .pq-download:hover,
 .download-block .pq-download:focus-visible {
-    background: rgba(102, 102, 102, 0.08);
+    background: var(--chip-hover);
     color: var(--text);
     text-decoration: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(107, 89, 34, 0.12);
     outline: none;
-    border-color: #666666;
 }
 
 /* Explore links */
@@ -734,7 +747,7 @@ a:focus-visible {
     padding: 0.75rem 0.9rem;
     min-height: 0;
     border: 1.5px solid var(--button-border);
-    background: transparent;
+    background: #fffdf8;
     color: var(--text);
     text-decoration: none;
     box-sizing: border-box;
@@ -742,16 +755,18 @@ a:focus-visible {
         background-color 0.25s ease,
         border-color 0.25s ease,
         color 0.25s ease,
-        transform 0.2s ease;
+        transform 0.2s ease,
+        box-shadow 0.25s ease;
 }
 
 .explore-tile:hover,
 .explore-tile:focus-visible {
-    background: rgba(102, 102, 102, 0.08);
+    background: var(--chip-hover);
     color: var(--text);
     text-decoration: none;
     outline: none;
-    border-color: var(--button-border);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(107, 89, 34, 0.12);
     transform: translateY(-1px);
 }
 
@@ -763,14 +778,14 @@ a:focus-visible {
 }
 
 .explore-tile-title {
-    color: var(--accent);
+    color: var(--text);
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.2;
 }
 
 .explore-tile-arrow {
-    color: var(--accent);
+    color: var(--text-soft);
     font-size: 0.95rem;
     line-height: 1;
     transition: transform 0.2s ease;
@@ -782,7 +797,9 @@ a:focus-visible {
 }
 
 .explore-tile:hover .explore-tile-title,
-.explore-tile:hover .explore-tile-arrow {
+.explore-tile:hover .explore-tile-arrow,
+.explore-tile:focus-visible .explore-tile-title,
+.explore-tile:focus-visible .explore-tile-arrow {
     color: var(--text);
 }
 
@@ -1015,8 +1032,8 @@ nav a {
 
 .plot-tooltip rect,
 .plot-tip rect {
-    fill: rgba(255, 255, 255, 0.96);
-    stroke: var(--border);
+    fill: #ffffff;
+    stroke: #d8d1c2;
     stroke-width: 1px;
     rx: 4;
 }
@@ -1027,13 +1044,6 @@ nav a {
 .plot-tip tspan {
     fill: var(--text);
     font-size: 12px;
-}
-
-.plot-tooltip rect,
-.plot-tip rect {
-    fill: #ffffff;
-    stroke: #d8d1c2;
-    stroke-width: 1px;
 }
 
 /* Responsive */
