@@ -8,6 +8,7 @@ toc: false
 
 ```js
 import * as d3 from "npm:d3";
+import * as Plot from "npm:@observablehq/plot";
 import { pqControls } from "./components/pq-controls.js";
 import { constituencyMap } from "./components/constituency-map.js";
 
@@ -158,6 +159,11 @@ function getConstituencyOptions() {
   ].sort(d3.ascending);
 }
 
+function getSelectedConstituencyTopHeadings(limit = 15) {
+  const summary = getSelectedConstituencySummary();
+  return (summary?.topHeadings ?? []).slice(0, limit);
+}
+
 function ensureValidConstituencySelection() {
   const options = getConstituencyOptions();
   const state = getState();
@@ -245,9 +251,9 @@ function mountReactive(className, renderFn, options = {}) {
     </div>
     <div class="hero__overlay">
       <div class="hero__content">
-        <p class="hero__eyebrow">Stór | Open data insights</p>
+        <p class="hero__eyebrow">Open data insights</p>
         <h1 class="hero__title">PQ Explorer: Constituencies</h1>
-        <p class="hero__subtitle">A geographic perspective on the questions asked in Parliament.</p>
+        <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
       </div>
     </div>
   `;
@@ -397,9 +403,15 @@ display(
           </div>
           <div class="constituency-member-card__body">
             <div class="constituency-member-card__name">${member.memberName}</div>
-            <div class="constituency-member-card__meta">
-              <div>${party}</div>
-              <div>${format(member.questionCount ?? 0)} questions</div>
+            <div class="constituency-member-card__meta-grid">
+              <div class="constituency-member-card__meta-item">
+                <span class="constituency-member-card__meta-label">Party</span>
+                <span class="constituency-member-card__meta-value">${party}</span>
+              </div>
+              <div class="constituency-member-card__meta-item">
+                <span class="constituency-member-card__meta-label">Questions asked</span>
+                <span class="constituency-member-card__meta-value">${format(member.questionCount ?? 0)}</span>
+              </div>
             </div>
           </div>
         </article>
@@ -421,6 +433,10 @@ display(
     const selected = ensureValidConstituencySelection();
     const members = getFilteredMembers();
     const summary = getSelectedConstituencySummary();
+    const isOral = getVariantKey() === "oral";
+    const questionLabel = isOral ? "oral questions" : "parliamentary questions";
+    const topicQuestionLabel = isOral ? "oral questions" : "questions";
+    const year = getState().year;
 
     el.innerHTML = `
       <p>
@@ -428,9 +444,18 @@ display(
           members.length === 1 ? "" : "s"
         } in the Thirty-fourth Dáil.
         Together they asked <strong>${format(summary?.questionCount ?? 0)}</strong>
-        parliamentary questions in this period.
-        The most common topic was
-        <strong>${summary?.topHeading ?? "—"}</strong>.
+        <strong>${questionLabel}</strong> in <strong>${year}</strong>, although the number of questions asked by Deputies may vary considerably.
+        Some, such as those holding Cabinet, ministerial or official positions, may not ask any questions.
+      </p>
+      <p>
+        In <strong>${year}</strong>, the most common topic for ${
+          isOral ? "oral questions" : "questions"
+        } was <strong>${summary?.topHeading ?? "—"}</strong>, which was asked about
+        <strong>${summary?.topHeadingCount ?? "—"}</strong> times.
+        Deputies in the constituency asked questions of the Department dealing with
+        <strong>${summary?.topDepartment ?? "—"}</strong> matters most often, directing
+        <strong>${summary?.topDepartmentCount ?? "—"}</strong>
+        <strong>${topicQuestionLabel}</strong> to it.
       </p>
     `;
   }, {
@@ -439,6 +464,138 @@ display(
 );
 ```
 
+<div class="prose-block">
+  <h2>Explore further</h2>
+  <p>
+    Take a look at the most common parliamentary question topics raised by Deputies representing the constituency.
+  </p>
+</div>
+
+```js
+display(
+  mountReactive("chart-block", (el) => {
+    const summary = getSelectedConstituencySummary();
+    const isOral = getVariantKey() === "oral";
+    const rows = (summary?.topHeadings ?? []).slice(0, 15);
+
+    if (!rows.length) {
+      el.innerHTML = `<p class="chart-loading">No topic data available for this constituency.</p>`;
+      return;
+    }
+
+    const data = rows
+      .map((d) => ({
+        heading: d.heading,
+        count: d.count,
+        questionLabel:
+          isOral
+            ? d.count === 1
+              ? "oral question"
+              : "oral questions"
+            : d.count === 1
+            ? "question"
+            : "questions"
+      }))
+      .sort((a, b) => b.count - a.count || a.heading.localeCompare(b.heading, "en"));
+
+    const wrap = document.createElement("div");
+    wrap.style.position = "relative";
+
+    const tooltip = document.createElement("div");
+    tooltip.style.position = "absolute";
+    tooltip.style.pointerEvents = "none";
+    tooltip.style.opacity = "0";
+    tooltip.style.background = "#fff";
+    tooltip.style.border = "1px solid #ddd5c2";
+    tooltip.style.padding = "8px 10px";
+    tooltip.style.font = '12px "IBM Plex Sans", system-ui, sans-serif';
+    tooltip.style.color = "#666666";
+    tooltip.style.boxShadow = "0 2px 8px rgba(0,0,0,0.08)";
+    tooltip.style.zIndex = "10";
+    tooltip.style.maxWidth = "260px";
+    tooltip.style.lineHeight = "1.35";
+
+    const chart = Plot.plot({
+      width: 860,
+      height: Math.max(420, data.length * 34 + 90),
+      marginTop: 10,
+      marginRight: 30,
+      marginBottom: 46,
+      marginLeft: 260,
+      x: {
+        label: isOral ? "Number of oral questions" : "Number of questions",
+        tickSize: 0,
+        labelOffset: 40
+      },
+      y: {
+        label: null,
+        domain: data.map((d) => d.heading),
+        tickSize: 0
+      },
+      style: {
+        fontSize: "14px",
+        fontFamily: "IBM Plex Sans, system-ui, sans-serif",
+        background: "transparent"
+      },
+      marks: [
+        Plot.barX(data, {
+          x: "count",
+          y: "heading",
+          inset: 0.8,
+          rx: 0,
+          fill: "#1f77b4"
+        }),
+        Plot.text(data, {
+          x: "count",
+          y: "heading",
+          text: (d) => d.count.toLocaleString("en-IE"),
+          dx: 8,
+          textAnchor: "start",
+          lineAnchor: "middle",
+          fontSize: 12,
+          fill: "#666666"
+        }),
+        Plot.ruleX([0])
+      ]
+    });
+
+    wrap.appendChild(chart);
+    wrap.appendChild(tooltip);
+    el.replaceChildren(wrap);
+
+    const bars = chart.querySelectorAll("rect");
+    const barCount = data.length;
+    const targetBars = Array.from(bars).slice(-barCount);
+
+    targetBars.forEach((bar, i) => {
+      const d = data[i];
+
+      bar.style.cursor = "pointer";
+
+      bar.addEventListener("mousemove", (event) => {
+        tooltip.innerHTML = `
+          <div><strong>${d.heading}</strong></div>
+          <div>${d.count.toLocaleString("en-IE")} ${d.questionLabel}</div>
+        `;
+        tooltip.style.opacity = "1";
+
+        const wrapRect = wrap.getBoundingClientRect();
+        const x = event.clientX - wrapRect.left + 12;
+        const y = event.clientY - wrapRect.top - 12;
+
+        tooltip.style.left = `${x}px`;
+        tooltip.style.top = `${y}px`;
+      });
+
+      bar.addEventListener("mouseleave", () => {
+        tooltip.style.opacity = "0";
+      });
+    });
+  }, {
+    eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
+  })
+);
+```
 
 ```js
 {

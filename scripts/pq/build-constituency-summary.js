@@ -10,6 +10,15 @@ function cleanConstituencyName(name) {
   return clean(name).replace(/\s*\(\d+\)\s*$/, "");
 }
 
+function sortCountsMap(map) {
+  return [...map.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "en"))
+    .map(([name, count]) => ({
+      heading: name,
+      count,
+    }));
+}
+
 function rollupConstituencies(rows) {
   const byConstituency = new Map();
 
@@ -59,13 +68,13 @@ function rollupConstituencies(rows) {
 
   return [...byConstituency.values()]
     .map((item) => {
-      const topHeading = [...item.topHeadingCounts.entries()].sort(
+      const topHeadings = sortCountsMap(item.topHeadingCounts);
+      const topDepartments = [...item.topDepartmentCounts.entries()].sort(
         (a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "en"),
-      )[0] ?? [null, 0];
+      );
 
-      const topDepartment = [...item.topDepartmentCounts.entries()].sort(
-        (a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "en"),
-      )[0] ?? [null, 0];
+      const topHeading = topHeadings[0] ?? { heading: null, count: 0 };
+      const topDepartment = topDepartments[0] ?? [null, 0];
 
       return {
         constituency: item.constituency,
@@ -75,8 +84,9 @@ function rollupConstituencies(rows) {
           a.localeCompare(b, "en"),
         ),
         parties: [...item.parties].sort((a, b) => a.localeCompare(b, "en")),
-        topHeading: topHeading[0],
-        topHeadingCount: topHeading[1],
+        topHeading: topHeading.heading,
+        topHeadingCount: topHeading.count,
+        topHeadings,
         topDepartment: topDepartment[0],
         topDepartmentCount: topDepartment[1],
       };

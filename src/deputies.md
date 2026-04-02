@@ -488,7 +488,7 @@ function mountDeferred(className, renderFn, options = {}) {
 
     <div class="hero__overlay">
       <div class="hero__content">
-        <p class="hero__eyebrow">Stór | Open data insights</p>
+        <p class="hero__eyebrow">Open data insights</p>
         <h1 class="hero__title">PQ Explorer: Deputies</h1>
         <p class="hero__subtitle">
           A data-driven perspective on the questions asked in Parliament.
