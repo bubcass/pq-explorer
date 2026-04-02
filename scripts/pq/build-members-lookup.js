@@ -1,9 +1,23 @@
 import { writeJson } from "./utils.js";
 
-function getLastMembership(member) {
+function clean(value) {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getDail34Memberships(member) {
   const memberships = member?.memberships ?? [];
+  return memberships
+    .map((item) => item?.membership ?? null)
+    .filter(Boolean)
+    .filter((membership) => clean(membership?.house?.showAs) === "34th Dáil");
+}
+
+function getLatest34thDailMembership(member) {
+  const memberships = getDail34Memberships(member);
   if (!memberships.length) return null;
-  return memberships[memberships.length - 1]?.membership ?? null;
+  return memberships[memberships.length - 1];
 }
 
 function buildCommitteeList(membership) {
@@ -21,7 +35,7 @@ function buildLookup(rows) {
 
   for (const row of rows) {
     const member = row?.member;
-    const membership = getLastMembership(member);
+    const membership = getLatest34thDailMembership(member);
     if (!member || !membership) continue;
 
     const memberCode = member?.memberCode;
@@ -34,6 +48,9 @@ function buildLookup(rows) {
     const party = membership?.parties?.at(-1)?.party?.showAs ?? null;
     const partyCode = membership?.parties?.at(-1)?.party?.partyCode ?? null;
 
+    const startDate = membership?.dateRange?.start ?? null;
+    const endDate = membership?.dateRange?.end ?? null;
+
     lookup[memberCode] = {
       memberCode,
       memberName: member?.fullName ?? null,
@@ -42,6 +59,8 @@ function buildLookup(rows) {
       constituencyCode,
       party,
       partyCode,
+      startDate,
+      endDate,
       committees: buildCommitteeList(membership),
       memberUrl: `https://www.oireachtas.ie/en/members/member/${memberCode}/`,
     };
