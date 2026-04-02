@@ -101,6 +101,17 @@ const constituencySummaryData = {
   }
 };
 
+const constituencyDownloadData = {
+  2025: {
+    all: await FileAttachment("data/pq/2025/constituency-download-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/constituency-download-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/constituency-download-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/constituency-download-oral.json").json()
+  }
+};
+
 const constituenciesGeo = await FileAttachment("data/geo/constituencies.json").json();
 
 const partyColorMap = new Map([
@@ -116,6 +127,17 @@ const partyColorMap = new Map([
   ["100% RDR", "#985564"],
   ["Green Party", "#6c7e26"]
 ]);
+
+const constituencyRecentQuestionsData = {
+  2025: {
+    all: await FileAttachment("data/pq/2025/constituency-recent-questions-all.json").json(),
+    oral: await FileAttachment("data/pq/2025/constituency-recent-questions-oral.json").json()
+  },
+  2026: {
+    all: await FileAttachment("data/pq/2026/constituency-recent-questions-all.json").json(),
+    oral: await FileAttachment("data/pq/2026/constituency-recent-questions-oral.json").json()
+  }
+};
 
 if (!window.pqConstituenciesState) {
   window.pqConstituenciesState = {
@@ -157,6 +179,19 @@ function getConstituencyOptions() {
         .filter(Boolean)
     )
   ].sort(d3.ascending);
+}
+
+function formatIrishDate(isoDate) {
+  if (!isoDate) return "—";
+
+  const d = new Date(`${isoDate}T00:00:00`);
+  if (Number.isNaN(d.getTime())) return isoDate;
+
+  return new Intl.DateTimeFormat("en-IE", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(d);
 }
 
 function getSelectedConstituencyTopHeadings(limit = 15) {
@@ -219,6 +254,71 @@ function dispatchChange() {
 
 function dispatchConstituencyChange() {
   window.dispatchEvent(new CustomEvent("pq-constituencies:constituency-change"));
+}
+
+function getRecentQuestionsForSelectedConstituency() {
+  const selected = ensureValidConstituencySelection();
+  const rows =
+    constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
+
+  return (
+    rows.find(
+      (d) => cleanConstituencyName(d.constituency) === selected
+    )?.questions ?? []
+  );
+}
+
+function getDownloadRowsForSelectedConstituency() {
+  const selected = ensureValidConstituencySelection();
+  if (!selected) return [];
+
+  const rows =
+    constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
+
+  return (
+    rows.find((d) => cleanConstituencyName(d.constituency) === selected)
+      ?.questions ?? []
+  );
+}
+
+function csvEscape(value) {
+  const str = String(value ?? "");
+  if (str.includes('"') || str.includes(",") || str.includes("\n")) {
+    return `"${str.replace(/"/g, '""')}"`;
+  }
+  return str;
+}
+
+function buildConstituencyCsv(rows) {
+  const headers = [
+    "date",
+    "deputy",
+    "department",
+    "heading",
+    "question",
+    "url"
+  ];
+
+  const lines = [
+    headers.join(","),
+    ...rows.map((row) =>
+      headers.map((header) => csvEscape(row[header])).join(",")
+    )
+  ];
+
+  return `\uFEFF${lines.join("\n")}`;
+}
+
+function downloadTextFile(filename, content, mimeType) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
 }
 
 function mountReactive(className, renderFn, options = {}) {
@@ -591,6 +691,124 @@ display(
         tooltip.style.opacity = "0";
       });
     });
+  }, {
+    eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
+  })
+);
+```
+
+```js
+display(
+  mountReactive("prose-block", (el) => {
+    const selected = ensureValidConstituencySelection();
+
+    el.innerHTML = `
+      <p>
+        Take a closer look at some of the most recent questions asked by representatives in
+        <strong>${selected}</strong>, or see all questions on our
+        <a
+          href="https://www.oireachtas.ie/en/debates/questions/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          dedicated questions page
+        </a>.
+      </p>
+    `;
+  }, {
+    eventName: [
+      "pq-constituencies:change",
+      "pq-constituencies:constituency-change"
+    ]
+  })
+);
+```
+
+```js
+display(
+  mountReactive("chart-block", (el) => {
+    const rows = getRecentQuestionsForSelectedConstituency();
+
+    if (!rows.length) {
+      el.innerHTML = `<p class="chart-loading">No recent questions available.</p>`;
+      return;
+    }
+
+    const table = document.createElement("table");
+    table.className = "observablehq";
+
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Deputy</th>
+          <th>Heading</th>
+          <th>Question</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows
+          .map(
+            (d) => `
+              <tr>
+                <td>${formatIrishDate(d.date)}</td>
+                <td>${d.deputy}</td>
+                <td><strong>${d.heading}</strong></td>
+                <td>
+                  <a href="${d.url}" target="_blank" rel="noreferrer">
+                    ${d.question}
+                  </a>
+                </td>
+              </tr>
+            `
+          )
+          .join("")}
+      </tbody>
+    `;
+
+    el.replaceChildren(table);
+  }, {
+    eventName: [
+      "pq-constituencies:change",
+      "pq-constituencies:constituency-change"
+    ]
+  })
+);
+```
+
+<div class="prose-block">
+  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
+      dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
+    Oireachtas open data API
+  </a>.
+</div>
+
+```js
+display(
+  mountReactive("download-block", (el) => {
+    const selected = ensureValidConstituencySelection();
+    const rows = getDownloadRowsForSelectedConstituency();
+
+    if (!selected || !rows.length) {
+      el.innerHTML = "";
+      return;
+    }
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "pq-download";
+    button.textContent = `Download the data for ${selected} TDs`;
+
+    button.addEventListener("click", () => {
+      const csv = buildConstituencyCsv(rows);
+      const filename = `pq_${selected
+        .replace(/\s+/g, "_")
+        .toLowerCase()}_${getState().year}_${getVariantKey()}.csv`;
+
+      downloadTextFile(filename, csv, "text/csv;charset=utf-8;");
+    });
+
+    el.replaceChildren(button);
   }, {
     eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
   })
