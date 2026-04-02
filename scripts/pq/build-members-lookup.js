@@ -1,3 +1,4 @@
+import { pathToFileURL } from "node:url";
 import { writeJson } from "./utils.js";
 
 function clean(value) {
@@ -88,4 +89,11 @@ export async function buildMembersLookup() {
   await writeJson("src/data/pq/members-lookup.json", lookup);
 
   console.log("✓ members-lookup.json written");
+}
+
+const isDirectRun =
+  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isDirectRun) {
+  await buildMembersLookup();
 }
