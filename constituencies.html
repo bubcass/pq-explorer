@@ -100,7 +100,7 @@ registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-
 registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.167afbf8.json","lastModified":1775152641196,"size":282});
 registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.6c4c866e.mp4","lastModified":1764524117110,"size":4926913});
 
-define({id: "425583fd", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","Plot","pqControls","constituencyMap","ensureLeafletCss","format","heroVideo","summaries","constituencyMembersData","constituencySummaryData","constituencyDownloadData","constituenciesGeo","partyColorMap","constituencyRecentQuestionsData","getState","getVariantKey","getMembersData","getConstituencySummaryRows","clean","cleanConstituencyName","getConstituencyOptions","formatIrishDate","getSelectedConstituencyTopHeadings","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getFilteredConstituencyGeo","dispatchChange","dispatchConstituencyChange","getRecentQuestionsForSelectedConstituency","getDownloadRowsForSelectedConstituency","csvEscape","buildConstituencyCsv","downloadTextFile","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
+define({id: "d2aa61d6", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","Plot","pqControls","constituencyMap","ensureLeafletCss","format","heroVideo","summaries","constituencyMembersData","constituencySummaryData","constituencyDownloadData","constituenciesGeo","partyColorMap","constituencyRecentQuestionsData","getState","getVariantKey","getMembersData","getConstituencySummaryRows","clean","cleanConstituencyName","getConstituencyOptions","formatIrishDate","getSelectedConstituencyTopHeadings","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getFilteredConstituencyGeo","dispatchChange","dispatchConstituencyChange","getRecentQuestionsForSelectedConstituency","getDownloadRowsForSelectedConstituency","csvEscape","buildConstituencyCsv","downloadTextFile","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
 const [d3, Plot, {pqControls}, {constituencyMap}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_npm/@observablehq/plot@0.6.17/a96a6bbb.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/constituency-map.ad263a74.js")]);
 
 async function ensureLeafletCss() {
@@ -161,45 +161,45 @@ const heroVideo = await FileAttachment("./media/PQs.mp4").url();
 
 const summaries = {
   2025: {
-    all: FileAttachment("./data/pq/2025/summary-all.json").json(),
-    oral: FileAttachment("./data/pq/2025/summary-oral.json").json()
+    all: await FileAttachment("./data/pq/2025/summary-all.json").json(),
+    oral: await FileAttachment("./data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: FileAttachment("./data/pq/2026/summary-all.json").json(),
-    oral: FileAttachment("./data/pq/2026/summary-oral.json").json()
+    all: await FileAttachment("./data/pq/2026/summary-all.json").json(),
+    oral: await FileAttachment("./data/pq/2026/summary-oral.json").json()
   }
 };
 
 const constituencyMembersData = {
   2025: {
-    all: FileAttachment("./data/pq/2025/constituency-members-all.json").json(),
-    oral: FileAttachment("./data/pq/2025/constituency-members-oral.json").json()
+    all: await FileAttachment("./data/pq/2025/constituency-members-all.json").json(),
+    oral: await FileAttachment("./data/pq/2025/constituency-members-oral.json").json()
   },
   2026: {
-    all: FileAttachment("./data/pq/2026/constituency-members-all.json").json(),
-    oral: FileAttachment("./data/pq/2026/constituency-members-oral.json").json()
+    all: await FileAttachment("./data/pq/2026/constituency-members-all.json").json(),
+    oral: await FileAttachment("./data/pq/2026/constituency-members-oral.json").json()
   }
 };
 
 const constituencySummaryData = {
   2025: {
-    all: FileAttachment("./data/pq/2025/constituency-summary-all.json").json(),
-    oral: FileAttachment("./data/pq/2025/constituency-summary-oral.json").json()
+    all: await FileAttachment("./data/pq/2025/constituency-summary-all.json").json(),
+    oral: await FileAttachment("./data/pq/2025/constituency-summary-oral.json").json()
   },
   2026: {
-    all: FileAttachment("./data/pq/2026/constituency-summary-all.json").json(),
-    oral: FileAttachment("./data/pq/2026/constituency-summary-oral.json").json()
+    all: await FileAttachment("./data/pq/2026/constituency-summary-all.json").json(),
+    oral: await FileAttachment("./data/pq/2026/constituency-summary-oral.json").json()
   }
 };
 
 const constituencyDownloadData = {
   2025: {
-    all: FileAttachment("./data/pq/2025/constituency-download-all.json").json(),
-    oral: FileAttachment("./data/pq/2025/constituency-download-oral.json").json()
+    all: await FileAttachment("./data/pq/2025/constituency-download-all.json").json(),
+    oral: await FileAttachment("./data/pq/2025/constituency-download-oral.json").json()
   },
   2026: {
-    all: FileAttachment("./data/pq/2026/constituency-download-all.json").json(),
-    oral: FileAttachment("./data/pq/2026/constituency-download-oral.json").json()
+    all: await FileAttachment("./data/pq/2026/constituency-download-all.json").json(),
+    oral: await FileAttachment("./data/pq/2026/constituency-download-oral.json").json()
   }
 };
 
@@ -221,12 +221,12 @@ const partyColorMap = new Map([
 
 const constituencyRecentQuestionsData = {
   2025: {
-    all: FileAttachment("./data/pq/2025/constituency-recent-questions-all.json").json(),
-    oral: FileAttachment("./data/pq/2025/constituency-recent-questions-oral.json").json()
+    all: await FileAttachment("./data/pq/2025/constituency-recent-questions-all.json").json(),
+    oral: await FileAttachment("./data/pq/2025/constituency-recent-questions-oral.json").json()
   },
   2026: {
-    all: FileAttachment("./data/pq/2026/constituency-recent-questions-all.json").json(),
-    oral: FileAttachment("./data/pq/2026/constituency-recent-questions-oral.json").json()
+    all: await FileAttachment("./data/pq/2026/constituency-recent-questions-all.json").json(),
+    oral: await FileAttachment("./data/pq/2026/constituency-recent-questions-oral.json").json()
   }
 };
 
@@ -246,12 +246,12 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-async function getMembersData() {
-  return await constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
+function getMembersData() {
+  return constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
 }
 
-async function getConstituencySummaryRows() {
-  return await constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
+function getConstituencySummaryRows() {
+  return constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
 }
 
 function clean(value) {
@@ -285,8 +285,8 @@ function formatIrishDate(isoDate) {
   }).format(d);
 }
 
-async function getSelectedConstituencyTopHeadings(limit = 15) {
-  const summary = await getSelectedConstituencySummary();
+function getSelectedConstituencyTopHeadings(limit = 15) {
+  const summary = getSelectedConstituencySummary();
   return (summary?.topHeadings ?? []).slice(0, limit);
 }
 
@@ -307,25 +307,21 @@ function ensureValidConstituencySelection() {
   return state.selectedConstituency;
 }
 
-async function getFilteredMembers() {
+function getFilteredMembers() {
   const selected = ensureValidConstituencySelection();
   if (!selected) return [];
 
-  const members = await getMembersData();
-
-  return members
+  return getMembersData()
     .filter((d) => cleanConstituencyName(d.constituency) === selected)
     .sort((a, b) => d3.ascending(a.memberName ?? "", b.memberName ?? ""));
 }
 
-async function getSelectedConstituencySummary() {
+function getSelectedConstituencySummary() {
   const selected = ensureValidConstituencySelection();
   if (!selected) return null;
 
-  const rows = await getConstituencySummaryRows();
-
   return (
-    rows.find(
+    getConstituencySummaryRows().find(
       (d) => cleanConstituencyName(d.constituency) === selected
     ) ?? null
   );
@@ -351,10 +347,10 @@ function dispatchConstituencyChange() {
   window.dispatchEvent(new CustomEvent("pq-constituencies:constituency-change"));
 }
 
-async function getRecentQuestionsForSelectedConstituency() {
+function getRecentQuestionsForSelectedConstituency() {
   const selected = ensureValidConstituencySelection();
   const rows =
-    await constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
+    constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
 
   return (
     rows.find(
@@ -363,12 +359,12 @@ async function getRecentQuestionsForSelectedConstituency() {
   );
 }
 
-async function getDownloadRowsForSelectedConstituency() {
+function getDownloadRowsForSelectedConstituency() {
   const selected = ensureValidConstituencySelection();
   if (!selected) return [];
 
   const rows =
-    await constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
+    constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
 
   return (
     rows.find((d) => cleanConstituencyName(d.constituency) === selected)
@@ -423,17 +419,7 @@ function mountReactive(className, renderFn, options = {}) {
   const el = document.createElement("div");
   if (className) el.className = className;
 
-  let runId = 0;
-
-  const run = () => {
-    const currentRun = ++runId;
-
-    requestAnimationFrame(async () => {
-      const isCurrent = () => currentRun === runId;
-      await renderFn(el, { isCurrent });
-    });
-  };
-
+  const run = () => requestAnimationFrame(() => renderFn(el));
   run();
 
   for (const event of events) {
@@ -466,22 +452,11 @@ define({id: "0cfce92f", inputs: ["heroVideo","display"], body: (heroVideo,displa
 }
 }});
 
-define({id: "5e711bc0", inputs: ["display","mountReactive","summaries","getState","getVariantKey","format"], body: (display,mountReactive,summaries,getState,getVariantKey,format) => {
+define({id: "17fb658b", inputs: ["display","mountReactive","summaries","getState","getVariantKey","format"], body: (display,mountReactive,summaries,getState,getVariantKey,format) => {
 display(
-  mountReactive("prose-block reactive-prose", async (el, { isCurrent }) => {
-    el.innerHTML = `
-      <div class="text-skeleton">
-        <div class="text-skeleton__line text-skeleton__line--lg text-skeleton__line--w100 skeleton-shimmer"></div>
-        <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
-        <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
-        <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
-      </div>
-    `;
-
-    const summary = await summaries[getState().year]?.[getVariantKey()] ?? null;
+  mountReactive("prose-block reactive-prose", (el) => {
+    const summary = summaries[getState().year]?.[getVariantKey()] ?? null;
     const isOral = getVariantKey() === "oral";
-
-    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -567,15 +542,9 @@ pqControls({
 ))
 }});
 
-define({id: "2450e7ad", inputs: ["display","mountReactive","constituencyMap","getFilteredConstituencyGeo"], body: (display,mountReactive,constituencyMap,getFilteredConstituencyGeo) => {
+define({id: "8f68e0c3", inputs: ["display","mountReactive","constituencyMap","getFilteredConstituencyGeo"], body: (display,mountReactive,constituencyMap,getFilteredConstituencyGeo) => {
 display(
-  mountReactive("constituency-map-block", async (el, { isCurrent }) => {
-    el.innerHTML = `<div class="map-skeleton skeleton-shimmer"></div>`;
-
-    await Promise.resolve();
-
-    if (!isCurrent()) return;
-
+  mountReactive("constituency-map-block", (el) => {
     el.replaceChildren(
       constituencyMap(getFilteredConstituencyGeo(), { height: 420 })
     );
@@ -585,28 +554,10 @@ display(
 );
 }});
 
-define({id: "e4c97cd3", inputs: ["display","mountReactive","getFilteredMembers","partyColorMap","format","formatIrishDate"], body: (display,mountReactive,getFilteredMembers,partyColorMap,format,formatIrishDate) => {
+define({id: "151c8700", inputs: ["display","mountReactive","getFilteredMembers","partyColorMap","format","formatIrishDate"], body: (display,mountReactive,getFilteredMembers,partyColorMap,format,formatIrishDate) => {
 display(
-  mountReactive("constituency-members-grid", async (el, { isCurrent }) => {
-    el.innerHTML = `
-      <div class="cards-skeleton">
-        <div class="cards-skeleton__inner">
-          ${Array.from({ length: 3 }).map(() => `
-            <div class="cards-skeleton__card">
-              <div class="cards-skeleton__avatar skeleton-shimmer"></div>
-              <div class="cards-skeleton__line cards-skeleton__line--name skeleton-shimmer"></div>
-              <div class="cards-skeleton__line skeleton-shimmer"></div>
-              <div class="cards-skeleton__line cards-skeleton__line--short skeleton-shimmer"></div>
-              <div class="cards-skeleton__line skeleton-shimmer"></div>
-            </div>
-          `).join("")}
-        </div>
-      </div>
-    `;
-
-    const members = await getFilteredMembers();
-
-    if (!isCurrent()) return;
+  mountReactive("constituency-members-grid", (el) => {
+    const members = getFilteredMembers();
 
     const grid = document.createElement("div");
     grid.className = "constituency-members-grid__inner";
@@ -614,13 +565,13 @@ display(
     for (const member of members) {
       const party = member.party || "Independent";
       const color = partyColorMap.get(party) ?? "#666666";
-
+    
       const link = document.createElement("a");
       link.className = "constituency-member-card-link";
       link.href = member.memberUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
-
+    
       const metaRows = [
         ["Party", party],
         ["Questions asked", format(member.questionCount ?? 0)],
@@ -628,7 +579,7 @@ display(
           ? [["Served until", formatIrishDate(member.endDate)]]
           : [])
       ];
-
+    
       const metaHtml = metaRows
         .map(
           ([label, value]) => `
@@ -639,7 +590,7 @@ display(
           `
         )
         .join("");
-
+    
       link.innerHTML = `
         <article class="constituency-member-card">
           <div class="constituency-member-card__media" style="--party-color:${color}">
@@ -659,7 +610,7 @@ display(
           </div>
         </article>
       `;
-
+    
       grid.appendChild(link);
     }
 
@@ -670,26 +621,16 @@ display(
 );
 }});
 
-define({id: "a03a4e58", inputs: ["display","mountReactive","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getVariantKey","getState","format"], body: (display,mountReactive,ensureValidConstituencySelection,getFilteredMembers,getSelectedConstituencySummary,getVariantKey,getState,format) => {
+define({id: "1e46815e", inputs: ["display","mountReactive","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getVariantKey","getState","format"], body: (display,mountReactive,ensureValidConstituencySelection,getFilteredMembers,getSelectedConstituencySummary,getVariantKey,getState,format) => {
 display(
-  mountReactive("prose-block reactive-prose", async (el, { isCurrent }) => {
-    el.innerHTML = `
-      <div class="text-skeleton">
-        <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
-        <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
-        <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
-      </div>
-    `;
-
+  mountReactive("prose-block reactive-prose", (el) => {
     const selected = ensureValidConstituencySelection();
-    const members = await getFilteredMembers();
-    const summary = await getSelectedConstituencySummary();
+    const members = getFilteredMembers();
+    const summary = getSelectedConstituencySummary();
     const isOral = getVariantKey() === "oral";
     const questionLabel = isOral ? "oral questions" : "parliamentary questions";
     const topicQuestionLabel = isOral ? "oral questions" : "questions";
     const year = getState().year;
-
-    if (!isCurrent()) return;
 
     el.innerHTML = `
       <p>
@@ -717,25 +658,12 @@ display(
 );
 }});
 
-define({id: "c62418ff", inputs: ["display","mountReactive","getSelectedConstituencySummary","getVariantKey","Plot"], body: (display,mountReactive,getSelectedConstituencySummary,getVariantKey,Plot) => {
+define({id: "995990bf", inputs: ["display","mountReactive","getSelectedConstituencySummary","getVariantKey","Plot"], body: (display,mountReactive,getSelectedConstituencySummary,getVariantKey,Plot) => {
 display(
-  mountReactive("chart-block", async (el, { isCurrent }) => {
-    el.innerHTML = `
-      <div class="chart-skeleton chart-skeleton--bars">
-        <div class="chart-skeleton__bar skeleton-shimmer"></div>
-        <div class="chart-skeleton__bar skeleton-shimmer"></div>
-        <div class="chart-skeleton__bar skeleton-shimmer"></div>
-        <div class="chart-skeleton__bar skeleton-shimmer"></div>
-        <div class="chart-skeleton__bar skeleton-shimmer"></div>
-        <div class="chart-skeleton__bar skeleton-shimmer"></div>
-      </div>
-    `;
-
-    const summary = await getSelectedConstituencySummary();
+  mountReactive("chart-block", (el) => {
+    const summary = getSelectedConstituencySummary();
     const isOral = getVariantKey() === "oral";
     const rows = (summary?.topHeadings ?? []).slice(0, 15);
-
-    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No topic data available for this constituency.</p>`;
@@ -884,25 +812,10 @@ display(
 );
 }});
 
-define({id: "51ca207d", inputs: ["display","mountReactive","getRecentQuestionsForSelectedConstituency","formatIrishDate"], body: (display,mountReactive,getRecentQuestionsForSelectedConstituency,formatIrishDate) => {
+define({id: "9f6de4ab", inputs: ["display","mountReactive","getRecentQuestionsForSelectedConstituency","formatIrishDate"], body: (display,mountReactive,getRecentQuestionsForSelectedConstituency,formatIrishDate) => {
 display(
-  mountReactive("chart-block", async (el, { isCurrent }) => {
-    el.innerHTML = `
-      <div class="table-skeleton">
-        ${Array.from({ length: 6 }).map(() => `
-          <div class="table-skeleton__row">
-            <div class="table-skeleton__cell skeleton-shimmer"></div>
-            <div class="table-skeleton__cell skeleton-shimmer"></div>
-            <div class="table-skeleton__cell skeleton-shimmer"></div>
-            <div class="table-skeleton__cell skeleton-shimmer"></div>
-          </div>
-        `).join("")}
-      </div>
-    `;
-
-    const rows = await getRecentQuestionsForSelectedConstituency();
-
-    if (!isCurrent()) return;
+  mountReactive("chart-block", (el) => {
+    const rows = getRecentQuestionsForSelectedConstituency();
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No recent questions available.</p>`;
@@ -951,13 +864,11 @@ display(
 );
 }});
 
-define({id: "755f3a4f", inputs: ["display","mountReactive","ensureValidConstituencySelection","getDownloadRowsForSelectedConstituency","buildConstituencyCsv","getState","getVariantKey","downloadTextFile"], body: (display,mountReactive,ensureValidConstituencySelection,getDownloadRowsForSelectedConstituency,buildConstituencyCsv,getState,getVariantKey,downloadTextFile) => {
+define({id: "55b0a1c7", inputs: ["display","mountReactive","ensureValidConstituencySelection","getDownloadRowsForSelectedConstituency","buildConstituencyCsv","getState","getVariantKey","downloadTextFile"], body: (display,mountReactive,ensureValidConstituencySelection,getDownloadRowsForSelectedConstituency,buildConstituencyCsv,getState,getVariantKey,downloadTextFile) => {
 display(
-  mountReactive("download-block", async (el, { isCurrent }) => {
+  mountReactive("download-block", (el) => {
     const selected = ensureValidConstituencySelection();
-    const rows = await getDownloadRowsForSelectedConstituency();
-
-    if (!isCurrent()) return;
+    const rows = getDownloadRowsForSelectedConstituency();
 
     if (!selected || !rows.length) {
       el.innerHTML = "";
@@ -1021,27 +932,27 @@ define({id: "586f983d", inputs: ["display"], body: (display) => {
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:425583fd:--></div>
+<div class="observablehq observablehq--block"><!--:d2aa61d6:--></div>
 <div class="observablehq observablehq--block"><!--:0cfce92f:--></div>
-<div class="observablehq observablehq--block"><!--:5e711bc0:--></div>
+<div class="observablehq observablehq--block"><!--:17fb658b:--></div>
 <div class="prose-block controls-block">
 <div class="observablehq observablehq--block"><!--:9270efbf:--></div>
 </div>
 <div class="prose-block controls-block">
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:6b421b20:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:2450e7ad:--></div>
-<div class="observablehq observablehq--block"><!--:e4c97cd3:--></div>
-<div class="observablehq observablehq--block"><!--:a03a4e58:--></div>
+<div class="observablehq observablehq--block"><!--:8f68e0c3:--></div>
+<div class="observablehq observablehq--block"><!--:151c8700:--></div>
+<div class="observablehq observablehq--block"><!--:1e46815e:--></div>
 <div class="prose-block">
   <h2>Explore further</h2>
   <p>
     Take a look at the most common parliamentary question topics raised by Deputies representing the constituency.
   </p>
 </div>
-<div class="observablehq observablehq--block"><!--:c62418ff:--></div>
+<div class="observablehq observablehq--block"><!--:995990bf:--></div>
 <div class="observablehq observablehq--block"><!--:08d3d532:--></div>
-<div class="observablehq observablehq--block"><!--:51ca207d:--></div>
+<div class="observablehq observablehq--block"><!--:9f6de4ab:--></div>
 <div class="prose-block">
   All parliamentary questions can be searched on a
   <a class="link-arrow" href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
@@ -1052,7 +963,7 @@ define({id: "586f983d", inputs: ["display"], body: (display) => {
     Oireachtas open data API
   </a>.
 </div>
-<div class="observablehq observablehq--block"><!--:755f3a4f:--></div>
+<div class="observablehq observablehq--block"><!--:55b0a1c7:--></div>
 <div class="observablehq observablehq--block"><!--:586f983d:--></div>
 </main>
 </div>
