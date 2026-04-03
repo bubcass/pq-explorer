@@ -4,20 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="generator" content="Observable Framework v1.13.4">
-<title>PQ Explorer | Overview</title>
+<title>PQ Explorer | Overview | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.d8fec356.css">
+<link rel="preload" as="style" href="./_import/style.8a0cf35a.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.d8fec356.css">
-<link rel="modulepreload" href="./_observablehq/client.d3a3c34b.js">
+<link rel="stylesheet" type="text/css" href="./_import/style.8a0cf35a.css">
+<link rel="modulepreload" href="./_observablehq/client.0ba6a596.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
 <link rel="modulepreload" href="./_import/components/sankey-chart.69b83394.js">
 <link rel="modulepreload" href="./_import/components/packed-circle-chart.8c317a95.js">
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
-<link rel="modulepreload" href="./_import/components/pq-controls.460341b5.js">
+<link rel="modulepreload" href="./_import/components/pq-controls.6cfd96bb.js">
 <link rel="modulepreload" href="./_npm/d3-sankey@0.12.3/4d634262.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
@@ -56,36 +56,54 @@
 <link rel="modulepreload" href="./_npm/internmap@1.0.1/b4c0ca9e.js">
 <link rel="modulepreload" href="./_npm/d3-path@1.0.9/b57ea69b.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
-<link rel="icon" href="./_file/logo.be2bef67.svg" type="image/png" sizes="32x32">
+
+    <link rel="icon" href="./_file/logo.be2bef67.svg" type="image/png" sizes="32x32">
+    <script>
+      document.documentElement.lang = "en-IE";
+
+      const viewport = document.querySelector('meta[name="viewport"]');
+      if (viewport) {
+        viewport.setAttribute("content", "width=device-width, initial-scale=1");
+      } else {
+        const meta = document.createElement("meta");
+        meta.name = "viewport";
+        meta.content = "width=device-width, initial-scale=1";
+        document.head.appendChild(meta);
+      }
+    </script>
+  
 <script type="module">
 
-import {define} from "./_observablehq/client.d3a3c34b.js";
+import {define} from "./_observablehq/client.0ba6a596.js";
 import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
 
-registerFile("./data/pq/2025/packed-circle-hierarchy-all.json", {"name":"./data/pq/2025/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-all.2eebaf92.json","lastModified":1774784725424,"size":329431});
-registerFile("./data/pq/2025/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2025/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-oral.7f736a8a.json","lastModified":1774784725424,"size":45350});
-registerFile("./data/pq/2025/parliamentary_questions_2025.csv", {"name":"./data/pq/2025/parliamentary_questions_2025.csv","mimeType":"text/csv","path":"./_file/data/pq/2025/parliamentary_questions_2025.f35d7c68.csv","lastModified":1774784724651,"size":28773589});
-registerFile("./data/pq/2025/sankey-links-all.json", {"name":"./data/pq/2025/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-all.ce1b0005.json","lastModified":1774784725614,"size":16939});
-registerFile("./data/pq/2025/sankey-links-oral.json", {"name":"./data/pq/2025/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-oral.5b1fbe6c.json","lastModified":1774784725614,"size":12072});
-registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1774784724839,"size":290});
-registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.6b4fd4ac.json","lastModified":1774784724839,"size":286});
-registerFile("./data/pq/2025/treemap-hierarchy-all.json", {"name":"./data/pq/2025/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-all.6fcd88d9.json","lastModified":1774784728312,"size":44317624});
-registerFile("./data/pq/2025/treemap-hierarchy-oral.json", {"name":"./data/pq/2025/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-oral.22e157de.json","lastModified":1774784728317,"size":1372283});
-registerFile("./data/pq/2026/packed-circle-hierarchy-all.json", {"name":"./data/pq/2026/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-all.fedf631a.json","lastModified":1774784732396,"size":184874});
-registerFile("./data/pq/2026/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2026/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-oral.053a8508.json","lastModified":1774784732397,"size":20935});
-registerFile("./data/pq/2026/parliamentary_questions_2026.csv", {"name":"./data/pq/2026/parliamentary_questions_2026.csv","mimeType":"text/csv","path":"./_file/data/pq/2026/parliamentary_questions_2026.8c8c6fb5.csv","lastModified":1774784732157,"size":9600954});
-registerFile("./data/pq/2026/sankey-links-all.json", {"name":"./data/pq/2026/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-all.d96c633c.json","lastModified":1774784732458,"size":15787});
-registerFile("./data/pq/2026/sankey-links-oral.json", {"name":"./data/pq/2026/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-oral.d689b314.json","lastModified":1774784732458,"size":11200});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.e34bab44.json","lastModified":1774784732211,"size":294});
-registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.09115652.json","lastModified":1774784732212,"size":282});
-registerFile("./data/pq/2026/treemap-hierarchy-all.json", {"name":"./data/pq/2026/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-all.e3df9fc8.json","lastModified":1774784733163,"size":14494386});
-registerFile("./data/pq/2026/treemap-hierarchy-oral.json", {"name":"./data/pq/2026/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-oral.cdcf9c3d.json","lastModified":1774784733170,"size":436572});
+registerFile("./data/pq/2025/packed-circle-hierarchy-all.json", {"name":"./data/pq/2025/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-all.2eebaf92.json","lastModified":1775152627893,"size":329431});
+registerFile("./data/pq/2025/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2025/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-oral.7f736a8a.json","lastModified":1775152627894,"size":45350});
+registerFile("./data/pq/2025/parliamentary_questions_2025.csv", {"name":"./data/pq/2025/parliamentary_questions_2025.csv","mimeType":"text/csv","path":"./_file/data/pq/2025/parliamentary_questions_2025.f35d7c68.csv","lastModified":1775152627142,"size":28773589});
+registerFile("./data/pq/2025/sankey-links-all.json", {"name":"./data/pq/2025/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-all.ce1b0005.json","lastModified":1775152628169,"size":16939});
+registerFile("./data/pq/2025/sankey-links-oral.json", {"name":"./data/pq/2025/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-oral.5b1fbe6c.json","lastModified":1775152628169,"size":12072});
+registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1775152627386,"size":290});
+registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1775152627386,"size":286});
+registerFile("./data/pq/2025/treemap-hierarchy-all.json", {"name":"./data/pq/2025/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-all.6fcd88d9.json","lastModified":1775152630723,"size":44317624});
+registerFile("./data/pq/2025/treemap-hierarchy-oral.json", {"name":"./data/pq/2025/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-oral.22e157de.json","lastModified":1775152630729,"size":1372283});
+registerFile("./data/pq/2026/packed-circle-hierarchy-all.json", {"name":"./data/pq/2026/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-all.4e2c6126.json","lastModified":1775152641369,"size":185506});
+registerFile("./data/pq/2026/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2026/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-oral.053a8508.json","lastModified":1775152641370,"size":20935});
+registerFile("./data/pq/2026/parliamentary_questions_2026.csv", {"name":"./data/pq/2026/parliamentary_questions_2026.csv","mimeType":"text/csv","path":"./_file/data/pq/2026/parliamentary_questions_2026.34763f7d.csv","lastModified":1775152641126,"size":9634616});
+registerFile("./data/pq/2026/sankey-links-all.json", {"name":"./data/pq/2026/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-all.04d71826.json","lastModified":1775152641448,"size":15787});
+registerFile("./data/pq/2026/sankey-links-oral.json", {"name":"./data/pq/2026/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-oral.d689b314.json","lastModified":1775152641448,"size":11200});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.1433b758.json","lastModified":1775152641196,"size":294});
+registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.167afbf8.json","lastModified":1775152641196,"size":282});
+registerFile("./data/pq/2026/treemap-hierarchy-all.json", {"name":"./data/pq/2026/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-all.af661433.json","lastModified":1775152642158,"size":14548971});
+registerFile("./data/pq/2026/treemap-hierarchy-oral.json", {"name":"./data/pq/2026/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-oral.cdcf9c3d.json","lastModified":1775152642159,"size":436572});
+registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.6c4c866e.mp4","lastModified":1764524117110,"size":4926913});
 
-define({id: "0fd4d375", inputs: ["FileAttachment","ResizeObserver","parent"], outputs: ["d3","SankeyChart","packedCircleChart","zoomableTreemap","pqControls","format","formatMean","summaries","sankeyData","packedData","treemapData","downloadUrls","getState","getVariantKey","getSummary","getSankeyLinks","getPackedData","getTreemapData","getDownloadHref","getDownloadFilename","chartPlaceholder","mountReactive"], body: async (FileAttachment,ResizeObserver,parent) => {
-const [d3, {SankeyChart}, {packedCircleChart}, {zoomableTreemap}, {pqControls}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/sankey-chart.69b83394.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/pq-controls.460341b5.js")]);
+define({id: "99dde47b", inputs: ["FileAttachment","ResizeObserver","parent","IntersectionObserver"], outputs: ["d3","SankeyChart","packedCircleChart","zoomableTreemap","pqControls","format","formatMean","heroVideo","summaries","sankeyData","packedData","treemapData","downloadUrls","getState","getVariantKey","getSummary","getSankeyLinks","getPackedData","getTreemapData","getDownloadHref","getDownloadFilename","chartPlaceholder","mountReactive","mountDeferred"], body: async (FileAttachment,ResizeObserver,parent,IntersectionObserver) => {
+const [d3, {SankeyChart}, {packedCircleChart}, {zoomableTreemap}, {pqControls}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/sankey-chart.69b83394.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/pq-controls.6cfd96bb.js")]);
 
 const format = d3.format(",d");
 const formatMean = d3.format(".2f");
+
+const heroVideo = await FileAttachment("./media/PQs.mp4").url();
 
 const summaries = {
   2025: {
@@ -246,7 +264,87 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,SankeyChart,packedCircleChart,zoomableTreemap,pqControls,format,formatMean,summaries,sankeyData,packedData,treemapData,downloadUrls,getState,getVariantKey,getSummary,getSankeyLinks,getPackedData,getTreemapData,getDownloadHref,getDownloadFilename,chartPlaceholder,mountReactive};
+
+function mountDeferred(className, renderFn, options = {}) {
+  const {
+    rootMargin = "200px",
+    loading = () => chartPlaceholder(320),
+    eventName = null
+  } = options;
+
+  const eventNames = Array.isArray(eventName)
+    ? eventName
+    : eventName
+    ? [eventName]
+    : [];
+
+  const el = document.createElement("div");
+  if (className) el.className = className;
+
+  let hasRendered = false;
+
+  const run = () => {
+    Promise.resolve(renderFn(el));
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0]?.isIntersecting && !hasRendered) {
+        hasRendered = true;
+        observer.disconnect();
+        run();
+      }
+    },
+    { rootMargin }
+  );
+
+  el.replaceChildren(
+    typeof loading === "function" ? loading() : loading
+  );
+
+  observer.observe(el);
+
+  for (const name of eventNames) {
+    window.addEventListener(name, () => {
+      if (hasRendered) run();
+    });
+  }
+
+  return el;
+}
+return {d3,SankeyChart,packedCircleChart,zoomableTreemap,pqControls,format,formatMean,heroVideo,summaries,sankeyData,packedData,treemapData,downloadUrls,getState,getVariantKey,getSummary,getSankeyLinks,getPackedData,getTreemapData,getDownloadHref,getDownloadFilename,chartPlaceholder,mountReactive,mountDeferred};
+}});
+
+define({id: "b2c90fb6", inputs: ["heroVideo","display"], body: (heroVideo,display) => {
+{
+  const hero = document.createElement("section");
+  hero.className = "hero";
+
+  hero.innerHTML = `
+    <div class="hero__media">
+      <video
+        class="hero__video"
+        src="${heroVideo}"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
+    </div>
+
+    <div class="hero__overlay">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Open data insights</p>
+        <h1 class="hero__title">PQ Explorer</h1>
+        <p class="hero__subtitle">
+          A data-driven perspective on the questions asked in Parliament.
+        </p>
+      </div>
+    </div>
+  `;
+
+  display(hero);
+}
 }});
 
 define({id: "26e75849", inputs: ["pqControls","display"], body: async (pqControls,display) => {
@@ -260,10 +358,11 @@ pqControls({
 ))
 }});
 
-define({id: "91054180", inputs: ["display","mountReactive","getSummary","format"], body: (display,mountReactive,getSummary,format) => {
+define({id: "df3ee81f", inputs: ["display","mountReactive","getSummary","getVariantKey","format"], body: (display,mountReactive,getSummary,getVariantKey,format) => {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
+    const isOral = getVariantKey() === "oral";
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -272,7 +371,9 @@ display(
 
     el.innerHTML = `
       <p>
-        In <strong>${summary.year}</strong>, the total number of parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
+        In <strong>${summary.year}</strong>, the total number of ${
+          isOral ? "oral " : ""
+        }parliamentary questions submitted, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
       </p>
       <p>
         See the breakdown by constituency, party, question type and Department.
@@ -312,10 +413,11 @@ display(
 );
 }});
 
-define({id: "286fc364", inputs: ["display","mountReactive","getSummary","format","formatMean"], body: (display,mountReactive,getSummary,format,formatMean) => {
+define({id: "aa6ead06", inputs: ["display","mountReactive","getSummary","getVariantKey","format","formatMean"], body: (display,mountReactive,getSummary,getVariantKey,format,formatMean) => {
 display(
   mountReactive("prose-block reactive-prose", (el) => {
     const summary = getSummary();
+    const isOral = getVariantKey() === "oral";
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -323,12 +425,19 @@ display(
     }
 
     el.innerHTML = `
-      <p>
-        This period covers <strong>${summary.year}</strong>, when the total number of <strong>parliamentary questions submitted, replied to and published to the web</strong> was <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.
-      </p>
+      ${
+        !isOral
+          ? `<p>This period covers <strong>${summary.year}</strong>, when the total number of <strong>parliamentary questions submitted, replied to and published to the web</strong> is <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.</p>`
+          : ""
+      }
 
       <p>
-        Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>. The most popular question topic this year for the selected options is <strong>${summary.mostPopularHeading}</strong>.
+        ${
+          isOral
+            ? `This period covers <strong>${summary.year}</strong>, when the total number of <strong>oral parliamentary questions submitted, replied to and published to the web</strong> is <strong>${format(summary.yearlyTotal)}</strong>. This equates to an <strong>average of ${format(summary.averagePerSittingDay)} being published for each sitting day</strong>.`
+            : `Of the total, <strong>${format(summary.oralPQs)}</strong>, or an average of <strong>${format(summary.averageOralPerSittingDay)} for each sitting day</strong>, were questions originally designated for <strong>oral reply</strong>.`
+        }
+        The most popular question topic this year for the selected options is <strong>${summary.mostPopularHeading}</strong>.
       </p>
 
       <p>
@@ -341,9 +450,9 @@ display(
 );
 }});
 
-define({id: "f07f9283", inputs: ["display","mountReactive","getPackedData","packedCircleChart","chartPlaceholder"], body: (display,mountReactive,getPackedData,packedCircleChart,chartPlaceholder) => {
+define({id: "9a8f412f", inputs: ["display","mountDeferred","getPackedData","packedCircleChart","chartPlaceholder"], body: (display,mountDeferred,getPackedData,packedCircleChart,chartPlaceholder) => {
 display(
-  mountReactive("", (el) => {
+  mountDeferred("", (el) => {
     const packed = getPackedData();
 
     if (!packed?.children?.length) {
@@ -355,15 +464,15 @@ display(
       packedCircleChart(packed, { width: 800, height: 700 })
     );
   }, {
-    loadingHtml: chartPlaceholder(700),
-    loadingDelayMs: 80
+    loading: () => chartPlaceholder(700),
+    eventName: "pq:change"
   })
 );
 }});
 
-define({id: "45a29d8e", inputs: ["display","mountReactive","getTreemapData","zoomableTreemap","chartPlaceholder"], body: (display,mountReactive,getTreemapData,zoomableTreemap,chartPlaceholder) => {
+define({id: "b2ae3501", inputs: ["display","mountDeferred","getTreemapData","zoomableTreemap","chartPlaceholder"], body: (display,mountDeferred,getTreemapData,zoomableTreemap,chartPlaceholder) => {
 display(
-  mountReactive("", (el) => {
+  mountDeferred("", (el) => {
     const treemap = getTreemapData();
 
     if (!treemap?.children?.length) {
@@ -375,8 +484,8 @@ display(
       zoomableTreemap(treemap, { width: 650, height: 520 })
     );
   }, {
-    loadingHtml: chartPlaceholder(520),
-    loadingDelayMs: 80
+    loading: () => chartPlaceholder(520),
+    eventName: "pq:change"
   })
 );
 }});
@@ -437,28 +546,29 @@ display(
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:0fd4d375:--></div>
+<div class="observablehq observablehq--block"><!--:99dde47b:--></div>
+<div class="observablehq observablehq--block"><!--:b2c90fb6:--></div>
 <div class="prose-block">
 <p><a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noopener noreferrer">Parliamentary questions</a> are an intrinsic part of Parliament and each year tens of thousands of questions are asked by Members. They are directed to each Department and answered by the appropriate Minister or Minister of State.</p>
 </div>
 <div class="prose-block">
-<h2 id="parliamentary-questions" tabindex="-1"><a class="observablehq-header-anchor" href="#parliamentary-questions">Parliamentary questions</a></h2>
+<h2> Parliamentary questions</h2>
 <p>Questions are directed to all Departments but some Departments get more than others. Questions designated for oral reply may be heard in plenary sessions of the Dáil but the vast majority of questions are answered in written replies.</p>
 <p>Take a look with our interactive overview of the questions asked by Members for each year. Visuals are rendered in real time using information from the Oireachtas open data API.</p>
 </div>
 <div class="prose-block controls-block">
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:26e75849:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:91054180:--></div>
+<div class="observablehq observablehq--block"><!--:df3ee81f:--></div>
 <div class="chart-block">
 <div class="observablehq observablehq--block"><!--:76af5b5f:--></div>
 </div>
 <div class="prose-block">
-  <h2>Explore by Department</h2>
+<h2 id="explore-by-department" tabindex="-1"><a class="observablehq-header-anchor" href="#explore-by-department">Explore by Department</a></h2>
 </div>
-<div class="observablehq observablehq--block"><!--:286fc364:--></div>
+<div class="observablehq observablehq--block"><!--:aa6ead06:--></div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:f07f9283:--></div>
+<div class="observablehq observablehq--block"><!--:9a8f412f:--></div>
 </div>
 <div class="prose-block">
   <p class="chart-caption">
@@ -475,11 +585,15 @@ display(
   </p>
 </div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:45a29d8e:--></div>
+<div class="observablehq observablehq--block"><!--:b2ae3501:--></div>
 </div>
 <div class="prose-block">
-  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
-      dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
+  All parliamentary questions can be searched on a
+  <a class="link-arrow" href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
+    dedicated questions page
+  </a>.
+  All data are from the
+  <a class="link-arrow" href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
     Oireachtas open data API
   </a>.
 </div>
