@@ -528,7 +528,7 @@ display(
       </p>
       <h2>Explore by Deputy</h2>
       <p>
-        Select a Deputy or take a look at the range below by hovering over circles, sized by question count. You can also click through to <a href="https://www.oireachtas.ie/en/members/" target="_blank" rel="noreferrer">Member profiles</a>.
+        Select a Deputy or take a look at the range below by hovering over circles, sized by question count. You can also click through to <a href="https://www.oireachtas.ie/en/members/" class="link-arrow" target="_blank" rel="noreferrer">Member profiles</a>.
       </p>
     `;
   })
@@ -1062,8 +1062,22 @@ display(
 ```
 
 <div class="prose-block">
-  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
-      dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
+  All parliamentary questions can be searched on a
+  <a
+    class="link-arrow"
+    href="https://www.oireachtas.ie/en/debates/questions/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    dedicated questions page
+  </a>.
+  All data are from the
+  <a
+    class="link-arrow"
+    href="https://api.oireachtas.ie/"
+    target="_blank"
+    rel="noreferrer"
+  >
     Oireachtas open data API
   </a>.
 </div>

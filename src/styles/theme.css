@@ -666,6 +666,17 @@ a:focus-visible {
     font-size: 0.98rem;
 }
 
+.link-arrow::after {
+    content: " ↗";
+    font-size: 0.85em;
+    color: var(--text-muted);
+}
+
+.link-arrow:hover::after,
+.link-arrow:focus-visible::after {
+    color: var(--link-hover);
+}
+
 /* Download */
 
 .download-block {

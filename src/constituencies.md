@@ -790,8 +790,22 @@ display(
 ```
 
 <div class="prose-block">
-  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
-      dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
+  All parliamentary questions can be searched on a
+  <a
+    class="link-arrow"
+    href="https://www.oireachtas.ie/en/debates/questions/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    dedicated questions page
+  </a>.
+  All data are from the
+  <a
+    class="link-arrow"
+    href="https://api.oireachtas.ie/"
+    target="_blank"
+    rel="noreferrer"
+  >
     Oireachtas open data API
   </a>.
 </div>

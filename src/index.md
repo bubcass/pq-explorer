@@ -266,11 +266,11 @@ function mountDeferred(className, renderFn, options = {}) {
 
 <div class="prose-block">
 
-## Parliamentary questions
+<h2> Parliamentary questions</h2>
 
-Questions are directed to all Departments but some Departments get more than others. Questions designated for oral reply may be heard in plenary sessions of the Dáil but the vast majority of questions are answered in written replies.
+<p>Questions are directed to all Departments but some Departments get more than others. Questions designated for oral reply may be heard in plenary sessions of the Dáil but the vast majority of questions are answered in written replies.</p>
 
-Take a look with our interactive overview of the questions asked by Members for each year. Visuals are rendered in real time using information from the Oireachtas open data API.
+<p>Take a look with our interactive overview of the questions asked by Members for each year. Visuals are rendered in real time using information from the Oireachtas open data API.</p>
 
 </div>
 
@@ -456,8 +456,22 @@ display(
 </div>
 
 <div class="prose-block">
-  All parliamentary questions can be searched on a <a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
-      dedicated questions page</a>. All data are from the <a href="https://api.oireachtas.ie/" target="_blank" rel="noreferrer">
+  All parliamentary questions can be searched on a
+  <a
+    class="link-arrow"
+    href="https://www.oireachtas.ie/en/debates/questions/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    dedicated questions page
+  </a>.
+  All data are from the
+  <a
+    class="link-arrow"
+    href="https://api.oireachtas.ie/"
+    target="_blank"
+    rel="noreferrer"
+  >
     Oireachtas open data API
   </a>.
 </div>
