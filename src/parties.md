@@ -230,6 +230,7 @@ function mountReactive(className, renderFn, options = {}) {
 
   let timeoutId = null;
   let runId = 0;
+  let hasRenderedOnce = false;
 
   const run = () => {
     const currentRun = ++runId;
@@ -237,12 +238,18 @@ function mountReactive(className, renderFn, options = {}) {
     requestAnimationFrame(async () => {
       const isCurrent = () => currentRun === runId;
 
-      await renderFn(el, { skeletonOnly: true, isCurrent });
-      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
 
-      if (!isCurrent()) return;
+        if (!isCurrent()) return;
+      }
 
       await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
     });
   };
 
@@ -461,6 +468,7 @@ display(
 ```js
 {
   const wrap = document.createElement("div");
+  let lastOptionsKey = "";
 
   async function renderPartySelect() {
     wrap.replaceChildren();
@@ -502,14 +510,21 @@ display(
     label.appendChild(labelText);
     label.appendChild(select);
     wrap.appendChild(label);
+
+    lastOptionsKey = options.map((d) => d.value).join("||");
   }
 
   renderPartySelect();
 
-  window.addEventListener("pq-parties:change", () => {
-    withPreservedScroll(() => {
-      renderPartySelect();
-    });
+  window.addEventListener("pq-parties:change", async () => {
+    const options = await getPartyOptions();
+    const nextOptionsKey = options.map((d) => d.value).join("||");
+
+    if (nextOptionsKey !== lastOptionsKey) {
+      withPreservedScroll(() => {
+        renderPartySelect();
+      });
+    }
   });
 
   display(wrap);
@@ -713,7 +728,6 @@ display(
       </a>
     </div>
   `;
-
   display(wrap);
 }
 ```

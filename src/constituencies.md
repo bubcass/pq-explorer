@@ -327,6 +327,13 @@ function downloadTextFile(filename, content, mimeType) {
   URL.revokeObjectURL(url);
 }
 
+function withPreservedScroll(fn) {
+  const x = window.scrollX;
+  const y = window.scrollY;
+  fn();
+  requestAnimationFrame(() => window.scrollTo(x, y));
+}
+
 function mountReactive(className, renderFn, options = {}) {
   const {
     eventName = "pq-constituencies:change",
@@ -338,6 +345,7 @@ function mountReactive(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let runId = 0;
+  let hasRenderedOnce = false;
 
   const run = () => {
     const currentRun = ++runId;
@@ -345,12 +353,18 @@ function mountReactive(className, renderFn, options = {}) {
     requestAnimationFrame(async () => {
       const isCurrent = () => currentRun === runId;
 
-      await renderFn(el, { isCurrent, skeletonOnly: true });
-      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+      if (!hasRenderedOnce) {
+        await renderFn(el, { isCurrent, skeletonOnly: true });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
 
-      if (!isCurrent()) return;
+        if (!isCurrent()) return;
+      }
 
       await renderFn(el, { isCurrent, skeletonOnly: false });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
     });
   };
 
@@ -445,6 +459,7 @@ display(
 ```js
 {
   const wrap = document.createElement("div");
+  let lastOptionsKey = "";
 
   async function renderConstituencySelect() {
     wrap.replaceChildren();
@@ -479,11 +494,22 @@ display(
     label.appendChild(labelText);
     label.appendChild(select);
     wrap.appendChild(label);
+
+    lastOptionsKey = options.join("||");
   }
 
   renderConstituencySelect();
 
-  window.addEventListener("pq-constituencies:change", renderConstituencySelect);
+  window.addEventListener("pq-constituencies:change", async () => {
+    const options = await getConstituencyOptions();
+    const nextOptionsKey = options.join("||");
+
+    if (nextOptionsKey !== lastOptionsKey) {
+      withPreservedScroll(() => {
+        renderConstituencySelect();
+      });
+    }
+  });
 
   display(wrap);
 }

@@ -384,6 +384,7 @@ function mountReactive(className, renderFn, options = {}) {
 
   let timeoutId = null;
   let runId = 0;
+  let hasRenderedOnce = false;
 
   const run = () => {
     const currentRun = ++runId;
@@ -391,12 +392,18 @@ function mountReactive(className, renderFn, options = {}) {
     requestAnimationFrame(async () => {
       const isCurrent = () => currentRun === runId;
 
-      await renderFn(el, { skeletonOnly: true, isCurrent });
-      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
 
-      if (!isCurrent()) return;
+        if (!isCurrent()) return;
+      }
 
       await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
     });
   };
 
@@ -418,7 +425,8 @@ function mountDeferred(className, renderFn, options = {}) {
   const {
     rootMargin = "200px",
     loading = () => chartPlaceholder(320),
-    eventName = null
+    eventName = null,
+    skeletonDelay = 120
   } = options;
 
   const eventNames = Array.isArray(eventName)
@@ -431,16 +439,27 @@ function mountDeferred(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let hasRendered = false;
+  let hasRenderedOnce = false;
   let runId = 0;
 
   const run = () => {
     const currentRun = ++runId;
+
     requestAnimationFrame(async () => {
       const isCurrent = () => currentRun === runId;
-      await renderFn(el, { skeletonOnly: true, isCurrent });
-      await new Promise((resolve) => setTimeout(resolve, 120));
-      if (!isCurrent()) return;
+
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+        if (!isCurrent()) return;
+      }
+
       await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
     });
   };
 
