@@ -1,7 +1,7 @@
 export default {
-  title: null,
+  title: "PQ Explorer",
   head: `
-    <link rel="icon" href="logo.svg" type="image/png" sizes="32x32">
+    <link rel="icon" href="logo.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
 

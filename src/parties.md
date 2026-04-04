@@ -1,5 +1,5 @@
 ---
-title: PQ Explorer | Parties
+title: Parties
 header: false
 sidebar: false
 footer: false
@@ -195,11 +195,24 @@ function dispatchPartyChange() {
   window.dispatchEvent(new CustomEvent("pq-parties:party-change"));
 }
 
-function withPreservedScroll(fn) {
+async function withPreservedScroll(fn) {
   const x = window.scrollX;
   const y = window.scrollY;
-  fn();
-  requestAnimationFrame(() => window.scrollTo(x, y));
+
+  await fn();
+
+  const restore = () => window.scrollTo(x, y);
+
+  restore();
+  requestAnimationFrame(() => {
+    restore();
+    requestAnimationFrame(() => {
+      restore();
+      setTimeout(restore, 0);
+      setTimeout(restore, 60);
+      setTimeout(restore, 150);
+    });
+  });
 }
 
 function chartPlaceholder(height = 320, text = "Updating…") {
@@ -359,9 +372,11 @@ display(
 ```js
 pqControls({
   state: window.pqPartiesState,
-  onChange: () => {
-    window.pqPartiesState.selectedParty = null;
-    dispatchChange();
+  onChange: async () => {
+    await withPreservedScroll(async () => {
+      window.pqPartiesState.selectedParty = null;
+      dispatchChange();
+    });
   }
 })
 ```
@@ -468,7 +483,6 @@ display(
 ```js
 {
   const wrap = document.createElement("div");
-  let lastOptionsKey = "";
 
   async function renderPartySelect() {
     wrap.replaceChildren();
@@ -501,30 +515,26 @@ display(
         select.appendChild(option);
       }
 
-      select.addEventListener("change", (event) => {
+      select.addEventListener("change", async (event) => {
         window.pqPartiesState.selectedParty = event.target.value || null;
-        dispatchPartyChange();
+
+        await withPreservedScroll(async () => {
+          dispatchPartyChange();
+        });
       });
     }
 
     label.appendChild(labelText);
     label.appendChild(select);
     wrap.appendChild(label);
-
-    lastOptionsKey = options.map((d) => d.value).join("||");
   }
 
   renderPartySelect();
 
   window.addEventListener("pq-parties:change", async () => {
-    const options = await getPartyOptions();
-    const nextOptionsKey = options.map((d) => d.value).join("||");
-
-    if (nextOptionsKey !== lastOptionsKey) {
-      withPreservedScroll(() => {
-        renderPartySelect();
-      });
-    }
+    await withPreservedScroll(async () => {
+      await renderPartySelect();
+    });
   });
 
   display(wrap);

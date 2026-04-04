@@ -1,5 +1,5 @@
 ---
-title: PQ Explorer | Overview
+title: Overview
 header: false
 sidebar: false
 footer: false

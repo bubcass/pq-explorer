@@ -1,5 +1,5 @@
 ---
-title: PQ Explorer | Deputies
+title: Deputies
 header: false
 sidebar: false
 footer: false

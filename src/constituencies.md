@@ -1,5 +1,5 @@
 ---
-title: PQ Explorer | Constituencies
+title: Constituencies
 header: false
 sidebar: false
 footer: false
@@ -312,7 +312,7 @@ function buildConstituencyCsv(rows) {
     )
   ];
 
-  return `\uFEFF${lines.join("\n")}`;
+  return `\uFEFF\${lines.join("\n")}`;
 }
 
 function downloadTextFile(filename, content, mimeType) {
@@ -327,11 +327,24 @@ function downloadTextFile(filename, content, mimeType) {
   URL.revokeObjectURL(url);
 }
 
-function withPreservedScroll(fn) {
+async function withPreservedScroll(fn) {
   const x = window.scrollX;
   const y = window.scrollY;
-  fn();
-  requestAnimationFrame(() => window.scrollTo(x, y));
+
+  await fn();
+
+  const restore = () => window.scrollTo(x, y);
+
+  restore();
+  requestAnimationFrame(() => {
+    restore();
+    requestAnimationFrame(() => {
+      restore();
+      setTimeout(restore, 0);
+      setTimeout(restore, 60);
+      setTimeout(restore, 150);
+    });
+  });
 }
 
 function mountReactive(className, renderFn, options = {}) {
@@ -485,10 +498,13 @@ display(
       select.appendChild(option);
     }
 
-    select.addEventListener("change", (event) => {
+    select.addEventListener("change", async (event) => {
       window.pqConstituenciesState.selectedConstituency =
         event.target.value || null;
-      dispatchConstituencyChange();
+
+      await withPreservedScroll(async () => {
+        dispatchConstituencyChange();
+      });
     });
 
     label.appendChild(labelText);
@@ -505,8 +521,8 @@ display(
     const nextOptionsKey = options.join("||");
 
     if (nextOptionsKey !== lastOptionsKey) {
-      withPreservedScroll(() => {
-        renderConstituencySelect();
+      await withPreservedScroll(async () => {
+        await renderConstituencySelect();
       });
     }
   });
@@ -522,7 +538,11 @@ display(
 ```js
 pqControls({
   state: window.pqConstituenciesState,
-  onChange: dispatchChange
+  onChange: async () => {
+    await withPreservedScroll(async () => {
+      dispatchChange();
+    });
+  }
 })
 ```
 
