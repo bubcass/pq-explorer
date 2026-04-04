@@ -312,7 +312,7 @@ function buildConstituencyCsv(rows) {
     )
   ];
 
-  return `\uFEFF\${lines.join("\n")}`;
+  return `\uFEFF${lines.join("\n")}`;
 }
 
 function downloadTextFile(filename, content, mimeType) {
