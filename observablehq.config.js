@@ -1,5 +1,5 @@
 export default {
-  title: "PQ Explorer",
+  title: null,
   head: `
     <link rel="icon" href="logo.svg" type="image/png" sizes="32x32">
     <script>
