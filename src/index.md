@@ -15,55 +15,55 @@ import { pqControls } from "./components/pq-controls.js";
 const format = d3.format(",d");
 const formatMean = d3.format(".2f");
 
-const heroVideo = await FileAttachment("media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("media/PQs.mp4").url();
 
 const summaries = {
   2025: {
-    all: await FileAttachment("data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2026/summary-oral.json").json()
   }
 };
 
 const sankeyData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/sankey-links-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/sankey-links-oral.json").json()
+    all: FileAttachment("data/pq/2025/sankey-links-all.json").json(),
+    oral: FileAttachment("data/pq/2025/sankey-links-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/sankey-links-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/sankey-links-oral.json").json()
+    all: FileAttachment("data/pq/2026/sankey-links-all.json").json(),
+    oral: FileAttachment("data/pq/2026/sankey-links-oral.json").json()
   }
 };
 
 const packedData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/packed-circle-hierarchy-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/packed-circle-hierarchy-oral.json").json()
+    all: FileAttachment("data/pq/2025/packed-circle-hierarchy-all.json").json(),
+    oral: FileAttachment("data/pq/2025/packed-circle-hierarchy-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/packed-circle-hierarchy-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/packed-circle-hierarchy-oral.json").json()
+    all: FileAttachment("data/pq/2026/packed-circle-hierarchy-all.json").json(),
+    oral: FileAttachment("data/pq/2026/packed-circle-hierarchy-oral.json").json()
   }
 };
 
 const treemapData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/treemap-hierarchy-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/treemap-hierarchy-oral.json").json()
+    all: FileAttachment("data/pq/2025/treemap-hierarchy-all.json").json(),
+    oral: FileAttachment("data/pq/2025/treemap-hierarchy-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/treemap-hierarchy-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/treemap-hierarchy-oral.json").json()
+    all: FileAttachment("data/pq/2026/treemap-hierarchy-all.json").json(),
+    oral: FileAttachment("data/pq/2026/treemap-hierarchy-oral.json").json()
   }
 };
 
 const downloadUrls = {
-  2025: await FileAttachment("data/pq/2025/parliamentary_questions_2025.csv").url(),
-  2026: await FileAttachment("data/pq/2026/parliamentary_questions_2026.csv").url()
+  2025: FileAttachment("data/pq/2025/parliamentary_questions_2025.csv").url(),
+  2026: FileAttachment("data/pq/2026/parliamentary_questions_2026.csv").url()
 };
 
 if (typeof window !== "undefined" && !window.__pqOverviewResizeObserver) {
@@ -89,34 +89,34 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getSummary() {
-  return summaries[getState().year]?.[getVariantKey()] ?? null;
+async function getSummary() {
+  return await summaries[getState().year]?.[getVariantKey()] ?? null;
 }
 
-function getSankeyLinks() {
-  return sankeyData[getState().year]?.[getVariantKey()] ?? [];
+async function getSankeyLinks() {
+  return await sankeyData[getState().year]?.[getVariantKey()] ?? [];
 }
 
-function getPackedData() {
+async function getPackedData() {
   return (
-    packedData[getState().year]?.[getVariantKey()] ?? {
+    await packedData[getState().year]?.[getVariantKey()] ?? {
       name: "Parliamentary Questions",
       children: []
     }
   );
 }
 
-function getTreemapData() {
+async function getTreemapData() {
   return (
-    treemapData[getState().year]?.[getVariantKey()] ?? {
+    await treemapData[getState().year]?.[getVariantKey()] ?? {
       name: "Parliamentary Questions",
       children: []
     }
   );
 }
 
-function getDownloadHref() {
-  return downloadUrls[getState().year] ?? "";
+async function getDownloadHref() {
+  return await downloadUrls[getState().year] ?? "";
 }
 
 function getDownloadFilename() {
@@ -138,30 +138,26 @@ function chartPlaceholder(height = 320, text = "Updating…") {
 }
 
 function mountReactive(className, renderFn, options = {}) {
-  const { debounceMs = 50, loadingHtml = "", loadingDelayMs = 100 } = options;
+  const { debounceMs = 50, skeletonDelay = 120 } = options;
 
   const el = document.createElement("div");
   if (className) el.className = className;
 
   let timeoutId = null;
+  let runId = 0;
 
   const run = () => {
-    let didRender = false;
+    const currentRun = ++runId;
 
-    const loadingTimer = setTimeout(() => {
-      if (!didRender && loadingHtml) {
-        if (typeof loadingHtml === "string") {
-          el.innerHTML = loadingHtml;
-        } else {
-          el.replaceChildren(loadingHtml.cloneNode(true));
-        }
-      }
-    }, loadingDelayMs);
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
 
-    requestAnimationFrame(() => {
-      renderFn(el);
-      didRender = true;
-      clearTimeout(loadingTimer);
+      await renderFn(el, { skeletonOnly: true, isCurrent });
+      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+      if (!isCurrent()) return;
+
+      await renderFn(el, { skeletonOnly: false, isCurrent });
     });
   };
 
@@ -194,9 +190,17 @@ function mountDeferred(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let hasRendered = false;
+  let runId = 0;
 
   const run = () => {
-    Promise.resolve(renderFn(el));
+    const currentRun = ++runId;
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+      await renderFn(el, { skeletonOnly: true, isCurrent });
+      await new Promise((resolve) => setTimeout(resolve, 120));
+      if (!isCurrent()) return;
+      await renderFn(el, { skeletonOnly: false, isCurrent });
+    });
   };
 
   const observer = new IntersectionObserver(
@@ -227,35 +231,40 @@ function mountDeferred(className, renderFn, options = {}) {
 ```
 
 ```js
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
+display(
+  mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
 
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video
-        class="hero__video"
-        src="${heroVideo}"
-        autoplay
-        muted
-        loop
-        playsinline
-      ></video>
-    </div>
+    const heroVideo = await heroVideoPromise;
+    if (!isCurrent()) return;
 
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer</h1>
-        <p class="hero__subtitle">
-          A data-driven perspective on the questions asked in Parliament.
-        </p>
+    el.innerHTML = `
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          src="${heroVideo}"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
       </div>
-    </div>
-  `;
 
-  display(hero);
-}
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer</h1>
+          <p class="hero__subtitle">
+            A data-driven perspective on the questions asked in Parliament.
+          </p>
+        </div>
+      </div>
+    `;
+  })
+);
 ```
 
 <div class="prose-block">
@@ -289,9 +298,21 @@ pqControls({
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -316,8 +337,24 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const links = getSankeyLinks();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="chart-skeleton chart-skeleton--bars">
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const links = await getSankeyLinks();
+
+    if (!isCurrent()) return;
 
     if (!links.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -338,8 +375,7 @@ display(
       )
     );
   }, {
-    loadingHtml: chartPlaceholder(600),
-    loadingDelayMs: 80
+    debounceMs: 50
   })
 );
 ```
@@ -354,9 +390,23 @@ display(
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -393,8 +443,15 @@ display(
 
 ```js
 display(
-  mountDeferred("", (el) => {
-    const packed = getPackedData();
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:700px"></div>`;
+      return;
+    }
+
+    const packed = await getPackedData();
+
+    if (!isCurrent()) return;
 
     if (!packed?.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -435,8 +492,15 @@ display(
 
 ```js
 display(
-  mountDeferred("", (el) => {
-    const treemap = getTreemapData();
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--blocks skeleton-shimmer" style="height:520px"></div>`;
+      return;
+    }
+
+    const treemap = await getTreemapData();
+
+    if (!isCurrent()) return;
 
     if (!treemap?.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -478,9 +542,20 @@ display(
 
 ```js
 display(
-  mountReactive("download-block", (el) => {
-    const href = getDownloadHref();
+  mountReactive("download-block", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const href = await getDownloadHref();
     const filename = getDownloadFilename();
+
+    if (!isCurrent()) return;
 
     const link = document.createElement("a");
     link.className = "pq-download";

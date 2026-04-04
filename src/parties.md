@@ -21,43 +21,43 @@ if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
 }
 
 const format = d3.format(",d");
-const heroVideo = await FileAttachment("media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("media/PQs.mp4").url();
 
 const partyRollups = {
-  2025: await FileAttachment("data/pq/2025/rollup-deputies.json").json(),
-  2026: await FileAttachment("data/pq/2026/rollup-deputies.json").json()
+  2025: FileAttachment("data/pq/2025/rollup-deputies.json").json(),
+  2026: FileAttachment("data/pq/2026/rollup-deputies.json").json()
 };
 
 const summaries = {
   2025: {
-    all: await FileAttachment("data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2026/summary-oral.json").json()
   }
 };
 
 const partyTreemapData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/treemap-parties-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/treemap-parties-oral.json").json()
+    all: FileAttachment("data/pq/2025/treemap-parties-all.json").json(),
+    oral: FileAttachment("data/pq/2025/treemap-parties-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/treemap-parties-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/treemap-parties-oral.json").json()
+    all: FileAttachment("data/pq/2026/treemap-parties-all.json").json(),
+    oral: FileAttachment("data/pq/2026/treemap-parties-oral.json").json()
   }
 };
 
 const partyDetailsData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/party-details-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/party-details-oral.json").json()
+    all: FileAttachment("data/pq/2025/party-details-all.json").json(),
+    oral: FileAttachment("data/pq/2025/party-details-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/party-details-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/party-details-oral.json").json()
+    all: FileAttachment("data/pq/2026/party-details-all.json").json(),
+    oral: FileAttachment("data/pq/2026/party-details-oral.json").json()
   }
 };
 
@@ -91,29 +91,29 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getSummary() {
-  return summaries[getState().year]?.[getVariantKey()] ?? null;
+async function getSummary() {
+  return await summaries[getState().year]?.[getVariantKey()] ?? null;
 }
 
-function getYearRows() {
-  return partyRollups[getState().year] ?? [];
+async function getYearRows() {
+  return await partyRollups[getState().year] ?? [];
 }
 
-function getPartyTreemapData() {
+async function getPartyTreemapData() {
   return (
-    partyTreemapData[getState().year]?.[getVariantKey()] ?? {
+    await partyTreemapData[getState().year]?.[getVariantKey()] ?? {
       name: "Parliamentary Questions",
       children: []
     }
   );
 }
 
-function getPartyDetailsRows() {
-  return partyDetailsData[getState().year]?.[getVariantKey()] ?? [];
+async function getPartyDetailsRows() {
+  return await partyDetailsData[getState().year]?.[getVariantKey()] ?? [];
 }
 
-function getPartyRows() {
-  const rows = getYearRows();
+async function getPartyRows() {
+  const rows = await getYearRows();
   const variant = getVariantKey();
 
   let filtered;
@@ -149,16 +149,16 @@ function getPartyRows() {
   ).sort((a, b) => d3.descending(a.value, b.value));
 }
 
-function getPartyOptions() {
-  return getPartyRows().map((d) => ({
+async function getPartyOptions() {
+  return (await getPartyRows()).map((d) => ({
     value: d.party,
     label: d.party
   }));
 }
 
-function ensureValidPartySelection() {
+async function ensureValidPartySelection() {
   const state = getState();
-  const options = getPartyOptions();
+  const options = await getPartyOptions();
 
   if (!options.length) {
     state.selectedParty = null;
@@ -173,10 +173,10 @@ function ensureValidPartySelection() {
   return state.selectedParty;
 }
 
-function getSelectedPartyDetail() {
-  const selected = ensureValidPartySelection();
+async function getSelectedPartyDetail() {
+  const selected = await ensureValidPartySelection();
   if (!selected) return null;
-  return getPartyDetailsRows().find((d) => d.party === selected) ?? null;
+  return (await getPartyDetailsRows()).find((d) => d.party === selected) ?? null;
 }
 
 function getPartyOrder(rows) {
@@ -219,9 +219,8 @@ function chartPlaceholder(height = 320, text = "Updating…") {
 function mountReactive(className, renderFn, options = {}) {
   const {
     debounceMs = 50,
-    loadingHtml = "",
-    loadingDelayMs = 100,
-    eventName = "pq-parties:change"
+    eventName = "pq-parties:change",
+    skeletonDelay = 120
   } = options;
 
   const eventNames = Array.isArray(eventName) ? eventName : [eventName];
@@ -230,25 +229,20 @@ function mountReactive(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let timeoutId = null;
+  let runId = 0;
 
   const run = () => {
-    let didRender = false;
+    const currentRun = ++runId;
 
-    const loadingTimer = setTimeout(() => {
-      if (!didRender && loadingHtml) {
-        if (typeof loadingHtml === "string") {
-          el.innerHTML = loadingHtml;
-        } else {
-          el.replaceChildren(loadingHtml.cloneNode(true));
-        }
-      }
-    }, loadingDelayMs);
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
 
-    requestAnimationFrame(() => {
-      Promise.resolve(renderFn(el)).finally(() => {
-        didRender = true;
-        clearTimeout(loadingTimer);
-      });
+      await renderFn(el, { skeletonOnly: true, isCurrent });
+      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+      if (!isCurrent()) return;
+
+      await renderFn(el, { skeletonOnly: false, isCurrent });
     });
   };
 
@@ -268,42 +262,61 @@ function mountReactive(className, renderFn, options = {}) {
 ```
 
 ```js
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
+display(
+  mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
 
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video
-        class="hero__video"
-        src="${heroVideo}"
-        autoplay
-        muted
-        loop
-        playsinline
-      ></video>
-    </div>
+    const heroVideo = await heroVideoPromise;
 
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer: Parties</h1>
-        <p class="hero__subtitle">
-          A data-driven perspective on the questions asked in Parliament.
-        </p>
+    if (!isCurrent()) return;
+
+    el.innerHTML = `
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          src="${heroVideo}"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
       </div>
-    </div>
-  `;
 
-  display(hero);
-}
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer: Parties</h1>
+          <p class="hero__subtitle">
+            A data-driven perspective on the questions asked in Parliament.
+          </p>
+        </div>
+      </div>
+    `;
+  })
+);
 ```
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -316,7 +329,7 @@ display(
           isOral ? "oral " : ""
         }parliamentary questions submitted by Deputies, replied to and published to the web is <strong>${format(summary.yearlyTotal)}</strong>.
       </p>
-      
+
       <p>
         ${
           isOral
@@ -352,8 +365,15 @@ pqControls({
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const rows = getPartyRows();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:620px"></div>`;
+      return;
+    }
+
+    const rows = await getPartyRows();
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -375,8 +395,7 @@ display(
       })
     );
   }, {
-    loadingHtml: chartPlaceholder(620),
-    loadingDelayMs: 80
+    debounceMs: 50
   })
 );
 ```
@@ -405,8 +424,15 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const data = getPartyTreemapData();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--blocks skeleton-shimmer" style="height:520px"></div>`;
+      return;
+    }
+
+    const data = await getPartyTreemapData();
+
+    if (!isCurrent()) return;
 
     if (!data?.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -420,8 +446,7 @@ display(
       })
     );
   }, {
-    loadingHtml: chartPlaceholder(520),
-    loadingDelayMs: 80
+    debounceMs: 50
   })
 );
 ```
@@ -437,7 +462,7 @@ display(
 {
   const wrap = document.createElement("div");
 
-  function renderPartySelect() {
+  async function renderPartySelect() {
     wrap.replaceChildren();
 
     const label = document.createElement("label");
@@ -450,8 +475,8 @@ display(
     const select = document.createElement("select");
     select.className = "control-input";
 
-    const options = getPartyOptions();
-    const selected = ensureValidPartySelection();
+    const options = await getPartyOptions();
+    const selected = await ensureValidPartySelection();
 
     if (!options.length) {
       const option = document.createElement("option");
@@ -495,10 +520,23 @@ display(
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const detail = getSelectedPartyDetail();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const detail = await getSelectedPartyDetail();
     const isOral = getVariantKey() === "oral";
     const questionLabel = isOral ? "oral questions" : "questions";
+
+    if (!isCurrent()) return;
 
     if (!detail) {
       el.innerHTML = `<p>No data available for this party.</p>`;
@@ -528,9 +566,20 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const detail = getSelectedPartyDetail();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="table-skeleton">${Array.from({ length: 8 }).map(() => `
+        <div class="table-skeleton__row">
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+        </div>`).join("")}</div>`;
+      return;
+    }
+
+    const detail = await getSelectedPartyDetail();
     const rows = detail?.topHeadings?.slice(0, 20) ?? [];
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No heading data available for this party.</p>`;
@@ -595,8 +644,15 @@ display(
 
 ```js
 display(
-  mountReactive("download-block", (el) => {
-    const detail = getSelectedPartyDetail();
+  mountReactive("download-block", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="text-skeleton"><div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div></div>`;
+      return;
+    }
+
+    const detail = await getSelectedPartyDetail();
+
+    if (!isCurrent()) return;
 
     if (!detail?.topHeadings?.length) {
       el.innerHTML = "";

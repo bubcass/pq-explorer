@@ -23,21 +23,21 @@ if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
 }
 
 const format = d3.format(",d");
-const heroVideo = await FileAttachment("media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("media/PQs.mp4").url();
 
 const deputyRollups = {
-  2025: await FileAttachment("data/pq/2025/rollup-deputies.json").json(),
-  2026: await FileAttachment("data/pq/2026/rollup-deputies.json").json()
+  2025: FileAttachment("data/pq/2025/rollup-deputies.json").json(),
+  2026: FileAttachment("data/pq/2026/rollup-deputies.json").json()
 };
 
 const summaries = {
   2025: {
-    all: await FileAttachment("data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2026/summary-oral.json").json()
   }
 };
 
@@ -74,8 +74,8 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getSummary() {
-  return summaries[getState().year]?.[getVariantKey()] ?? null;
+async function getSummary() {
+  return await summaries[getState().year]?.[getVariantKey()] ?? null;
 }
 
 function getSurname(name) {
@@ -132,12 +132,12 @@ function chartPlaceholder(height = 320, text = "Updating…") {
   return wrap;
 }
 
-function getYearRows() {
-  return deputyRollups[getState().year] ?? [];
+async function getYearRows() {
+  return await deputyRollups[getState().year] ?? [];
 }
 
-function getBubbleRows() {
-  const rows = getYearRows();
+async function getBubbleRows() {
+  const rows = await getYearRows();
   const variant = getVariantKey();
 
   if (variant === "all") {
@@ -185,10 +185,10 @@ function getBubbleRows() {
     .sort((a, b) => d3.ascending(a.name, b.name));
 }
 
-function getDeputyOptions() {
+async function getDeputyOptions() {
   return Array.from(
     d3.rollup(
-      getYearRows(),
+      await getYearRows(),
       (group) => ({
         value: group[0].id,
         label: group[0].name,
@@ -204,9 +204,9 @@ function getDeputyOptions() {
   });
 }
 
-function ensureValidDeputySelection() {
+async function ensureValidDeputySelection() {
   const state = getState();
-  const options = getDeputyOptions();
+  const options = await getDeputyOptions();
 
   if (!options.length) {
     state.selectedDeputy = null;
@@ -221,16 +221,16 @@ function ensureValidDeputySelection() {
   return state.selectedDeputy;
 }
 
-function getSelectedDeputyOption() {
-  const selected = ensureValidDeputySelection();
+async function getSelectedDeputyOption() {
+  const selected = await ensureValidDeputySelection();
   if (!selected) return null;
-  return getDeputyOptions().find((d) => d.value === selected) ?? null;
+  return (await getDeputyOptions()).find((d) => d.value === selected) ?? null;
 }
 
-function getSelectedDeputyBubbleRow() {
-  const selected = ensureValidDeputySelection();
+async function getSelectedDeputyBubbleRow() {
+  const selected = await ensureValidDeputySelection();
   if (!selected) return null;
-  return getBubbleRows().find((d) => d.id === selected) ?? null;
+  return (await getBubbleRows()).find((d) => d.id === selected) ?? null;
 }
 
 function getDeputyDetailUrls(year, memberCode) {
@@ -280,7 +280,7 @@ async function getDeputyDetail(year, memberCode) {
 }
 
 async function getSelectedDeputyDetail() {
-  const selected = ensureValidDeputySelection();
+  const selected = await ensureValidDeputySelection();
   if (!selected) return null;
   return await getDeputyDetail(getState().year, selected);
 }
@@ -290,7 +290,7 @@ function getVariantDetail(detail) {
 }
 
 async function getSelectedDeputyViewModel() {
-  const option = getSelectedDeputyOption();
+  const option = await getSelectedDeputyOption();
   if (!option) return null;
 
   const detail = await getSelectedDeputyDetail();
@@ -311,7 +311,7 @@ async function getSelectedDeputyViewModel() {
     memberUrl:
       detail.memberUrl ??
       `https://www.oireachtas.ie/en/members/member/${option.value}`,
-    count: variant.count ?? getSelectedDeputyBubbleRow()?.value ?? questions.length,
+    count: variant.count ?? (await getSelectedDeputyBubbleRow())?.value ?? questions.length,
     headingOptions: (variant.headingOptions ?? []).slice().sort((a, b) => d3.ascending(a, b)),
     insights: variant.insights ?? null,
     packed: variant.packed ?? { name: "Parliamentary Questions", children: [] },
@@ -373,9 +373,8 @@ function withPreservedScroll(fn) {
 function mountReactive(className, renderFn, options = {}) {
   const {
     debounceMs = 50,
-    loadingHtml = "",
-    loadingDelayMs = 100,
-    eventName = "pq-deputies:change"
+    eventName = "pq-deputies:change",
+    skeletonDelay = 120
   } = options;
 
   const eventNames = Array.isArray(eventName) ? eventName : [eventName];
@@ -384,25 +383,20 @@ function mountReactive(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let timeoutId = null;
+  let runId = 0;
 
   const run = () => {
-    let didRender = false;
+    const currentRun = ++runId;
 
-    const loadingTimer = setTimeout(() => {
-      if (!didRender && loadingHtml) {
-        if (typeof loadingHtml === "string") {
-          el.innerHTML = loadingHtml;
-        } else {
-          el.replaceChildren(loadingHtml.cloneNode(true));
-        }
-      }
-    }, loadingDelayMs);
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
 
-    requestAnimationFrame(() => {
-      Promise.resolve(renderFn(el)).finally(() => {
-        didRender = true;
-        clearTimeout(loadingTimer);
-      });
+      await renderFn(el, { skeletonOnly: true, isCurrent });
+      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+      if (!isCurrent()) return;
+
+      await renderFn(el, { skeletonOnly: false, isCurrent });
     });
   };
 
@@ -437,9 +431,17 @@ function mountDeferred(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let hasRendered = false;
+  let runId = 0;
 
   const run = () => {
-    Promise.resolve(renderFn(el));
+    const currentRun = ++runId;
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+      await renderFn(el, { skeletonOnly: true, isCurrent });
+      await new Promise((resolve) => setTimeout(resolve, 120));
+      if (!isCurrent()) return;
+      await renderFn(el, { skeletonOnly: false, isCurrent });
+    });
   };
 
   const observer = new IntersectionObserver(
@@ -470,42 +472,61 @@ function mountDeferred(className, renderFn, options = {}) {
 ```
 
 ```js
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
+display(
+  mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
 
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video
-        class="hero__video"
-        src="${heroVideo}"
-        autoplay
-        muted
-        loop
-        playsinline
-      ></video>
-    </div>
+    const heroVideo = await heroVideoPromise;
 
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer: Deputies</h1>
-        <p class="hero__subtitle">
-          A data-driven perspective on the questions asked in Parliament.
-        </p>
+    if (!isCurrent()) return;
+
+    el.innerHTML = `
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          src="${heroVideo}"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
       </div>
-    </div>
-  `;
 
-  display(hero);
-}
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer: Deputies</h1>
+          <p class="hero__subtitle">
+            A data-driven perspective on the questions asked in Parliament.
+          </p>
+        </div>
+      </div>
+    `;
+  })
+);
 ```
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -539,9 +560,16 @@ display(
 
 ```js
 display(
-  mountReactive("", (el) => {
-    const rows = getBubbleRows();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:620px"></div>`;
+      return;
+    }
+
+    const rows = await getBubbleRows();
     const selectedDeputy = getState().selectedDeputy;
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -562,8 +590,7 @@ display(
       })
     );
   }, {
-    loadingHtml: chartPlaceholder(620),
-    loadingDelayMs: 80
+    debounceMs: 50
   })
 );
 ```
@@ -585,8 +612,8 @@ display(
 
   const controls = pqControls({
     state: window.pqDeputiesState,
-    onChange: () => {
-      ensureValidDeputySelection();
+    onChange: async () => {
+      await ensureValidDeputySelection();
       window.pqDeputiesState.selectedHeading = null;
       dispatchChange();
     }
@@ -597,7 +624,7 @@ display(
   const deputyWrap = document.createElement("div");
   deputyWrap.className = "deputy-select-wrap";
 
-  function renderDeputySelect() {
+  async function renderDeputySelect() {
     deputyWrap.replaceChildren();
 
     const label = document.createElement("label");
@@ -610,8 +637,8 @@ display(
     const select = document.createElement("select");
     select.className = "control-input deputy-select-input";
 
-    const options = getDeputyOptions();
-    const selected = ensureValidDeputySelection();
+    const options = await getDeputyOptions();
+    const selected = await ensureValidDeputySelection();
 
     if (!options.length) {
       const option = document.createElement("option");
@@ -643,10 +670,10 @@ display(
   async function renderDeputyCard() {
     cardCol.replaceChildren(cardPlaceholder());
 
-    const currentSelection = ensureValidDeputySelection();
+    const currentSelection = await ensureValidDeputySelection();
     const view = await getSelectedDeputyViewModel();
 
-    if (currentSelection !== ensureValidDeputySelection()) return;
+    if (currentSelection !== await ensureValidDeputySelection()) return;
 
     cardCol.replaceChildren();
 
@@ -767,9 +794,22 @@ display(
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", async (el) => {
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
     const state = getState();
+
+    if (!isCurrent()) return;
 
     if (!view) {
       el.innerHTML = `<p>No data available for this Deputy.</p>`;
@@ -831,9 +871,16 @@ display(
 
 ```js
 display(
-  mountDeferred("", async (el) => {
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:700px"></div>`;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
     const data = view?.packed;
+
+    if (!isCurrent()) return;
 
     if (!data || !data.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -872,9 +919,16 @@ display(
 
 ```js
 display(
-  mountDeferred("", async (el) => {
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--blocks skeleton-shimmer" style="height:520px"></div>`;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
     const data = view?.treemap;
+
+    if (!isCurrent()) return;
 
     if (!data || !data.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -964,10 +1018,21 @@ Refine your search further by question topics raised by the Deputy. Check the re
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", async (el) => {
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
     const rows = await getSelectedDeputyTableRows();
     const state = getState();
     const view = await getSelectedDeputyViewModel();
+
+    if (!isCurrent()) return;
 
     const count = rows.length;
     const topic = state.selectedHeading || null;
@@ -1001,8 +1066,21 @@ display(
 
 ```js
 display(
-  mountDeferred("", async (el) => {
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="table-skeleton">${Array.from({ length: 6 }).map(() => `
+        <div class="table-skeleton__row">
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+        </div>`).join("")}</div>`;
+      return;
+    }
+
     const rows = await getSelectedDeputyTableRows();
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No questions available for this selection.</p>`;
@@ -1084,8 +1162,15 @@ display(
 
 ```js
 display(
-  mountReactive("download-block", async (el) => {
+  mountReactive("download-block", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="text-skeleton"><div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div></div>`;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
+
+    if (!isCurrent()) return;
 
     if (!view?.questions?.length) {
       el.innerHTML = "";
