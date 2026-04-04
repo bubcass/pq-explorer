@@ -55,7 +55,7 @@ async function ensureLeafletCss() {
   });
 }
 
-await ensureLeafletCss();
+ensureLeafletCss();
 
 if (typeof window !== "undefined" && !window.__pqConstituenciesResizeObserver) {
   window.__pqConstituenciesResizeObserver = new ResizeObserver(([entry]) => {
@@ -66,53 +66,52 @@ if (typeof window !== "undefined" && !window.__pqConstituenciesResizeObserver) {
 }
 
 const format = d3.format(",d");
-const heroVideo = await FileAttachment("media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("media/PQs.mp4").url();
+const constituenciesGeoPromise = FileAttachment("data/geo/constituencies.json").json();
 
 const summaries = {
   2025: {
-    all: await FileAttachment("data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("data/pq/2026/summary-oral.json").json()
   }
 };
 
 const constituencyMembersData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/constituency-members-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/constituency-members-oral.json").json()
+    all: FileAttachment("data/pq/2025/constituency-members-all.json").json(),
+    oral: FileAttachment("data/pq/2025/constituency-members-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/constituency-members-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/constituency-members-oral.json").json()
+    all: FileAttachment("data/pq/2026/constituency-members-all.json").json(),
+    oral: FileAttachment("data/pq/2026/constituency-members-oral.json").json()
   }
 };
 
 const constituencySummaryData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/constituency-summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/constituency-summary-oral.json").json()
+    all: FileAttachment("data/pq/2025/constituency-summary-all.json").json(),
+    oral: FileAttachment("data/pq/2025/constituency-summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/constituency-summary-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/constituency-summary-oral.json").json()
+    all: FileAttachment("data/pq/2026/constituency-summary-all.json").json(),
+    oral: FileAttachment("data/pq/2026/constituency-summary-oral.json").json()
   }
 };
 
 const constituencyDownloadData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/constituency-download-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/constituency-download-oral.json").json()
+    all: FileAttachment("data/pq/2025/constituency-download-all.json").json(),
+    oral: FileAttachment("data/pq/2025/constituency-download-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/constituency-download-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/constituency-download-oral.json").json()
+    all: FileAttachment("data/pq/2026/constituency-download-all.json").json(),
+    oral: FileAttachment("data/pq/2026/constituency-download-oral.json").json()
   }
 };
-
-const constituenciesGeo = await FileAttachment("data/geo/constituencies.json").json();
 
 const partyColorMap = new Map([
   ["Fianna Fáil", "#2c8737"],
@@ -130,12 +129,12 @@ const partyColorMap = new Map([
 
 const constituencyRecentQuestionsData = {
   2025: {
-    all: await FileAttachment("data/pq/2025/constituency-recent-questions-all.json").json(),
-    oral: await FileAttachment("data/pq/2025/constituency-recent-questions-oral.json").json()
+    all: FileAttachment("data/pq/2025/constituency-recent-questions-all.json").json(),
+    oral: FileAttachment("data/pq/2025/constituency-recent-questions-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("data/pq/2026/constituency-recent-questions-all.json").json(),
-    oral: await FileAttachment("data/pq/2026/constituency-recent-questions-oral.json").json()
+    all: FileAttachment("data/pq/2026/constituency-recent-questions-all.json").json(),
+    oral: FileAttachment("data/pq/2026/constituency-recent-questions-oral.json").json()
   }
 };
 
@@ -155,12 +154,12 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getMembersData() {
-  return constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
+async function getMembersData() {
+  return await constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
 }
 
-function getConstituencySummaryRows() {
-  return constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
+async function getConstituencySummaryRows() {
+  return await constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
 }
 
 function clean(value) {
@@ -171,7 +170,13 @@ function cleanConstituencyName(name) {
   return clean(name).replace(/\s*\(\d+\)\s*$/, "");
 }
 
-function getConstituencyOptions() {
+async function getConstituenciesGeo() {
+  return await constituenciesGeoPromise;
+}
+
+async function getConstituencyOptions() {
+  const constituenciesGeo = await getConstituenciesGeo();
+
   return [
     ...new Set(
       constituenciesGeo.features
@@ -194,13 +199,13 @@ function formatIrishDate(isoDate) {
   }).format(d);
 }
 
-function getSelectedConstituencyTopHeadings(limit = 15) {
-  const summary = getSelectedConstituencySummary();
+async function getSelectedConstituencyTopHeadings(limit = 15) {
+  const summary = await getSelectedConstituencySummary();
   return (summary?.topHeadings ?? []).slice(0, limit);
 }
 
-function ensureValidConstituencySelection() {
-  const options = getConstituencyOptions();
+async function ensureValidConstituencySelection() {
+  const options = await getConstituencyOptions();
   const state = getState();
 
   if (!options.length) {
@@ -216,28 +221,29 @@ function ensureValidConstituencySelection() {
   return state.selectedConstituency;
 }
 
-function getFilteredMembers() {
-  const selected = ensureValidConstituencySelection();
+async function getFilteredMembers() {
+  const selected = await ensureValidConstituencySelection();
   if (!selected) return [];
 
-  return getMembersData()
+  return (await getMembersData())
     .filter((d) => cleanConstituencyName(d.constituency) === selected)
     .sort((a, b) => d3.ascending(a.memberName ?? "", b.memberName ?? ""));
 }
 
-function getSelectedConstituencySummary() {
-  const selected = ensureValidConstituencySelection();
+async function getSelectedConstituencySummary() {
+  const selected = await ensureValidConstituencySelection();
   if (!selected) return null;
 
   return (
-    getConstituencySummaryRows().find(
+    (await getConstituencySummaryRows()).find(
       (d) => cleanConstituencyName(d.constituency) === selected
     ) ?? null
   );
 }
 
-function getFilteredConstituencyGeo() {
-  const selected = ensureValidConstituencySelection();
+async function getFilteredConstituencyGeo() {
+  const selected = await ensureValidConstituencySelection();
+  const constituenciesGeo = await getConstituenciesGeo();
 
   return {
     type: "FeatureCollection",
@@ -256,10 +262,10 @@ function dispatchConstituencyChange() {
   window.dispatchEvent(new CustomEvent("pq-constituencies:constituency-change"));
 }
 
-function getRecentQuestionsForSelectedConstituency() {
-  const selected = ensureValidConstituencySelection();
+async function getRecentQuestionsForSelectedConstituency() {
+  const selected = await ensureValidConstituencySelection();
   const rows =
-    constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
+    await constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
 
   return (
     rows.find(
@@ -268,12 +274,12 @@ function getRecentQuestionsForSelectedConstituency() {
   );
 }
 
-function getDownloadRowsForSelectedConstituency() {
-  const selected = ensureValidConstituencySelection();
+async function getDownloadRowsForSelectedConstituency() {
+  const selected = await ensureValidConstituencySelection();
   if (!selected) return [];
 
   const rows =
-    constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
+    await constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
 
   return (
     rows.find((d) => cleanConstituencyName(d.constituency) === selected)
@@ -322,13 +328,32 @@ function downloadTextFile(filename, content, mimeType) {
 }
 
 function mountReactive(className, renderFn, options = {}) {
-  const { eventName = "pq-constituencies:change" } = options;
+  const {
+    eventName = "pq-constituencies:change",
+    skeletonDelay = 120
+  } = options;
   const events = Array.isArray(eventName) ? eventName : [eventName];
 
   const el = document.createElement("div");
   if (className) el.className = className;
 
-  const run = () => requestAnimationFrame(() => renderFn(el));
+  let runId = 0;
+
+  const run = () => {
+    const currentRun = ++runId;
+
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+
+      await renderFn(el, { isCurrent, skeletonOnly: true });
+      await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+      if (!isCurrent()) return;
+
+      await renderFn(el, { isCurrent, skeletonOnly: false });
+    });
+  };
+
   run();
 
   for (const event of events) {
@@ -339,33 +364,53 @@ function mountReactive(className, renderFn, options = {}) {
 }
 ```
 
-
 ```js
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
+display(
+  mountReactive("hero", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
 
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video class="hero__video" src="${heroVideo}" autoplay muted loop playsinline></video>
-    </div>
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer: Constituencies</h1>
-        <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
+    const heroVideo = await heroVideoPromise;
+
+    if (!isCurrent()) return;
+
+    el.innerHTML = `
+      <div class="hero__media">
+        <video class="hero__video" src="${heroVideo}" autoplay muted loop playsinline></video>
       </div>
-    </div>
-  `;
-  display(hero);
-}
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer: Constituencies</h1>
+          <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
+        </div>
+      </div>
+    `;
+  }, { skeletonDelay: 120 })
+);
 ```
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = summaries[getState().year]?.[getVariantKey()] ?? null;
+  mountReactive("prose-block reactive-prose", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--lg text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await summaries[getState().year]?.[getVariantKey()] ?? null;
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -395,14 +440,13 @@ display(
 );
 ```
 
-
 <div class="prose-block controls-block">
 
 ```js
 {
   const wrap = document.createElement("div");
 
-  function renderConstituencySelect() {
+  async function renderConstituencySelect() {
     wrap.replaceChildren();
 
     const label = document.createElement("label");
@@ -415,8 +459,8 @@ display(
     const select = document.createElement("select");
     select.className = "control-input";
 
-    const options = getConstituencyOptions();
-    const selected = ensureValidConstituencySelection();
+    const options = await getConstituencyOptions();
+    const selected = await ensureValidConstituencySelection();
 
     for (const value of options) {
       const option = document.createElement("option");
@@ -458,12 +502,20 @@ pqControls({
 
 </div>
 
-
 ```js
 display(
-  mountReactive("constituency-map-block", (el) => {
+  mountReactive("constituency-map-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="map-skeleton skeleton-shimmer"></div>`;
+      return;
+    }
+
+    const geo = await getFilteredConstituencyGeo();
+
+    if (!isCurrent()) return;
+
     el.replaceChildren(
-      constituencyMap(getFilteredConstituencyGeo(), { height: 420 })
+      constituencyMap(geo, { height: 420 })
     );
   }, {
     eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
@@ -471,11 +523,31 @@ display(
 );
 ```
 
-
 ```js
 display(
-  mountReactive("constituency-members-grid", (el) => {
-    const members = getFilteredMembers();
+  mountReactive("constituency-members-grid", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="cards-skeleton">
+          <div class="cards-skeleton__inner">
+            ${Array.from({ length: 3 }).map(() => `
+              <div class="cards-skeleton__card">
+                <div class="cards-skeleton__avatar skeleton-shimmer"></div>
+                <div class="cards-skeleton__line cards-skeleton__line--name skeleton-shimmer"></div>
+                <div class="cards-skeleton__line skeleton-shimmer"></div>
+                <div class="cards-skeleton__line cards-skeleton__line--short skeleton-shimmer"></div>
+                <div class="cards-skeleton__line skeleton-shimmer"></div>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const members = await getFilteredMembers();
+
+    if (!isCurrent()) return;
 
     const grid = document.createElement("div");
     grid.className = "constituency-members-grid__inner";
@@ -483,13 +555,13 @@ display(
     for (const member of members) {
       const party = member.party || "Independent";
       const color = partyColorMap.get(party) ?? "#666666";
-    
+
       const link = document.createElement("a");
       link.className = "constituency-member-card-link";
       link.href = member.memberUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
-    
+
       const metaRows = [
         ["Party", party],
         ["Questions asked", format(member.questionCount ?? 0)],
@@ -497,7 +569,7 @@ display(
           ? [["Served until", formatIrishDate(member.endDate)]]
           : [])
       ];
-    
+
       const metaHtml = metaRows
         .map(
           ([label, value]) => `
@@ -508,7 +580,7 @@ display(
           `
         )
         .join("");
-    
+
       link.innerHTML = `
         <article class="constituency-member-card">
           <div class="constituency-member-card__media" style="--party-color:${color}">
@@ -528,7 +600,7 @@ display(
           </div>
         </article>
       `;
-    
+
       grid.appendChild(link);
     }
 
@@ -541,14 +613,27 @@ display(
 
 ```js
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const selected = ensureValidConstituencySelection();
-    const members = getFilteredMembers();
-    const summary = getSelectedConstituencySummary();
+  mountReactive("prose-block reactive-prose", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const selected = await ensureValidConstituencySelection();
+    const members = await getFilteredMembers();
+    const summary = await getSelectedConstituencySummary();
     const isOral = getVariantKey() === "oral";
     const questionLabel = isOral ? "oral questions" : "parliamentary questions";
     const topicQuestionLabel = isOral ? "oral questions" : "questions";
     const year = getState().year;
+
+    if (!isCurrent()) return;
 
     el.innerHTML = `
       <p>
@@ -585,10 +670,26 @@ display(
 
 ```js
 display(
-  mountReactive("chart-block", (el) => {
-    const summary = getSelectedConstituencySummary();
+  mountReactive("chart-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="chart-skeleton chart-skeleton--bars">
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSelectedConstituencySummary();
     const isOral = getVariantKey() === "oral";
     const rows = (summary?.topHeadings ?? []).slice(0, 15);
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No topic data available for this constituency.</p>`;
@@ -712,8 +813,20 @@ display(
 
 ```js
 display(
-  mountReactive("prose-block", (el) => {
-    const selected = ensureValidConstituencySelection();
+  mountReactive("prose-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const selected = await ensureValidConstituencySelection();
+
+    if (!isCurrent()) return;
 
     el.innerHTML = `
       <p>
@@ -739,8 +852,26 @@ display(
 
 ```js
 display(
-  mountReactive("chart-block", (el) => {
-    const rows = getRecentQuestionsForSelectedConstituency();
+  mountReactive("chart-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="table-skeleton">
+          ${Array.from({ length: 6 }).map(() => `
+            <div class="table-skeleton__row">
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      return;
+    }
+
+    const rows = await getRecentQuestionsForSelectedConstituency();
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No recent questions available.</p>`;
@@ -812,9 +943,16 @@ display(
 
 ```js
 display(
-  mountReactive("download-block", (el) => {
-    const selected = ensureValidConstituencySelection();
-    const rows = getDownloadRowsForSelectedConstituency();
+  mountReactive("download-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="text-skeleton"><div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div></div>`;
+      return;
+    }
+
+    const selected = await ensureValidConstituencySelection();
+    const rows = await getDownloadRowsForSelectedConstituency();
+
+    if (!isCurrent()) return;
 
     if (!selected || !rows.length) {
       el.innerHTML = "";
