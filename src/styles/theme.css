@@ -1,5 +1,6 @@
 @import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://unpkg.com/leaflet.fullscreen@3.0.0/Control.FullScreen.css");
 
 /* institutional gold
 :root {
@@ -41,9 +42,9 @@
     --gold: #6b5922;
     --gold-hover: #473a16;
     --focus-ring: #3f3414;
-    --page-max: 1040px;
+    --page-max: 1100px;
     --text-max: 78ch;
-    --chart-max: 78ch;
+    --chart-max: 92ch;
     --space-1: 0.25rem;
     --space-2: 0.5rem;
     --space-3: 0.75rem;
@@ -110,7 +111,7 @@ main,
 .hero {
     position: relative;
     max-width: var(--text-max);
-    margin: 0 0 var(--space-7) 0;
+    margin: 0 auto var(--space-7);
     overflow: hidden;
     border-bottom: 1px solid var(--border);
 }
@@ -245,11 +246,13 @@ a:focus-visible {
 
 .max-text {
     max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .prose-block {
     max-width: var(--text-max);
-    margin: 0.75rem 0 1rem 0;
+    margin: 0.75rem auto 1rem;
 }
 
 .prose-block p:last-child {
@@ -261,14 +264,14 @@ a:focus-visible {
     font-size: 1.15rem;
     color: var(--text-soft);
     line-height: 1.5;
-    margin: 0.25rem 0 1rem 0;
+    margin: 0.25rem auto 1rem;
 }
 
 /* Reactive prose */
 
 .reactive-prose {
     max-width: var(--text-max);
-    margin: 0.75rem 0 1rem 0;
+    margin: 0.75rem auto 1rem;
     padding: 0;
 }
 
@@ -309,8 +312,8 @@ a:focus-visible {
 /* Charts */
 
 .chart-block {
-    max-width: var(--text-max);
-    margin: 0;
+    max-width: var(--chart-max);
+    margin: 0 auto;
     padding: 0;
     background: transparent !important;
     border: 0 !important;
@@ -330,13 +333,13 @@ a:focus-visible {
     display: block;
     width: 100%;
     height: auto;
-    max-width: var(--text-max);
+    max-width: 100%;
 }
 
 .chart-caption {
     display: block;
     max-width: var(--text-max);
-    margin: 0 0 1.1rem 0;
+    margin: 0 auto 1.1rem;
     color: var(--text-muted);
     font-size: 0.92rem;
     line-height: 1.45;
@@ -344,7 +347,7 @@ a:focus-visible {
 
 .chart-loading {
     max-width: var(--text-max);
-    margin: 0.25rem 0 0.75rem 0;
+    margin: 0.25rem auto 0.75rem;
     color: var(--text-muted);
     font-size: 0.92rem;
 }
@@ -379,7 +382,7 @@ a:focus-visible {
 
 .text-skeleton {
     max-width: var(--text-max);
-    margin: 0.75rem 0 1rem 0;
+    margin: 0.75rem auto 1rem;
     display: grid;
     gap: 0.55rem;
 }
@@ -411,6 +414,8 @@ a:focus-visible {
 
 .map-skeleton {
     max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
     min-height: 420px;
     border: 1px solid var(--border);
     border-radius: 4px;
@@ -418,7 +423,9 @@ a:focus-visible {
 }
 
 .chart-skeleton {
-    max-width: var(--text-max);
+    max-width: var(--chart-max);
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
     background: #f1ede3;
 }
@@ -457,6 +464,8 @@ a:focus-visible {
 
 .cards-skeleton {
     max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards-skeleton__inner {
@@ -506,6 +515,8 @@ a:focus-visible {
 
 .table-skeleton {
     max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 0.6rem;
 }
@@ -545,7 +556,7 @@ a:focus-visible {
 
 .prose-block.controls-block {
     max-width: var(--text-max);
-    margin: 0.75rem 0 1.25rem 0;
+    margin: 0.75rem auto 1.25rem;
 }
 
 .controls-block .observablehq,
@@ -698,6 +709,8 @@ a:focus-visible {
     gap: 1rem 1.5rem;
     align-items: stretch;
     max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
     border: 1px solid var(--border);
     border-radius: 4px;
@@ -874,7 +887,7 @@ a:focus-visible {
 
 .download-block {
     max-width: var(--text-max);
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem auto 1.5rem;
 }
 
 .download-block .observablehq,
@@ -931,7 +944,7 @@ a:focus-visible {
 
 .explore-links-block {
     max-width: var(--text-max);
-    margin: 1.25rem 0 2rem 0;
+    margin: 1.25rem auto 2rem;
 }
 
 .explore-links-block h2 {
@@ -1016,7 +1029,7 @@ a:focus-visible {
 
 nav {
     max-width: var(--text-max);
-    margin: var(--space-5) 0 0;
+    margin: var(--space-5) auto 0;
     padding-top: 0;
     border-top: 0 !important;
     color: var(--text-muted);
@@ -1033,6 +1046,8 @@ nav a {
     border-collapse: collapse;
     width: 100%;
     max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .observablehq th,
@@ -1051,7 +1066,7 @@ nav a {
 
 .constituency-map-block {
     max-width: var(--text-max);
-    margin: 0 0 1.25rem 0;
+    margin: 0 auto 1.25rem;
 }
 
 .constituency-map {
@@ -1085,7 +1100,7 @@ nav a {
 
 .constituency-members-grid {
     max-width: var(--text-max);
-    margin: 0 0 1.5rem 0;
+    margin: 0 auto 1.5rem;
 }
 
 .constituency-members-grid__inner {
@@ -1253,22 +1268,16 @@ nav a {
 /* Responsive */
 
 @media (max-width: 900px) {
+    .cards-skeleton__card {
+        flex: 1 1 calc((100% - 16px) / 2);
+        min-width: calc((100% - 16px) / 2);
+        max-width: calc((100% - 16px) / 2);
+    }
+
     .constituency-member-card-link {
         flex: 1 1 calc((100% - 16px) / 2);
         max-width: calc((100% - 16px) / 2);
         min-width: calc((100% - 16px) / 2);
-    }
-}
-
-@media (max-width: 560px) {
-    .constituency-member-card-link {
-        flex: 1 1 100%;
-        max-width: 100%;
-        min-width: 100%;
-    }
-
-    .constituency-map {
-        min-height: 360px;
     }
 }
 
@@ -1346,6 +1355,18 @@ nav a {
 
     .deputy-card-meta-grid {
         width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+    .cards-skeleton__card {
+        flex: 1 1 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .table-skeleton__row {
+        grid-template-columns: 1fr;
     }
 }
 

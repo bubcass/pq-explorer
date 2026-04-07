@@ -1,4 +1,5 @@
 import L from "npm:leaflet";
+import "npm:leaflet.fullscreen";
 
 const BLANK_TILE =
   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
@@ -11,18 +12,18 @@ function cleanConstituencyLabel(name) {
 
 function constituencyStyle() {
   return {
-    fillColor: "green",
+    fillColor: "#7f6c2e",
     weight: 2,
     opacity: 1,
-    color: "grey",
+    color: "#8a8a8a",
     dashArray: 1,
-    fillOpacity: 0.2,
+    fillOpacity: 0.16,
   };
 }
 
 export function constituencyMap(featureCollection, options = {}) {
   const {
-    height = 420,
+    height = 540,
     popupFormatter = (feature) => {
       const raw = feature?.properties?.ENG_NAME_VALUE ?? "Constituency";
       const cleaned = cleanConstituencyLabel(raw);
@@ -51,9 +52,18 @@ export function constituencyMap(featureCollection, options = {}) {
   container.appendChild(cleanupStyle);
 
   const map = L.map(container, {
-    zoomControl: true,
-    scrollWheelZoom: false,
+    zoomControl: false,
+    fullscreenControl: true,
+    fullscreenControlOptions: {
+      position: "topright",
+      title: "Full screen",
+      titleCancel: "Exit full screen",
+    },
   });
+
+  map.attributionControl.setPrefix(
+    '<a href="https://leafletjs.com">Leaflet</a>',
+  );
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
@@ -89,7 +99,7 @@ export function constituencyMap(featureCollection, options = {}) {
       if (bounds.isValid()) {
         map.fitBounds(bounds, {
           padding: [28, 28],
-          maxZoom: 12,
+          maxZoom: 11,
         });
       }
 
@@ -102,6 +112,19 @@ export function constituencyMap(featureCollection, options = {}) {
       map.setView([53.4, -8.0], 6);
     });
   }
+
+  map.on("fullscreenchange", () => {
+    setTimeout(() => {
+      map.invalidateSize();
+      const bounds = geoLayer.getBounds();
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, {
+          padding: [28, 28],
+          maxZoom: 11,
+        });
+      }
+    }, 120);
+  });
 
   return container;
 }
