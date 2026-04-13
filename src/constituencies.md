@@ -11,6 +11,7 @@ import * as d3 from "npm:d3";
 import * as Plot from "npm:@observablehq/plot";
 import { pqControls } from "./components/pq-controls.js";
 import { constituencyMap } from "./components/constituency-map.js";
+import * as turf from "npm:@turf/turf";
 
 async function ensureLeafletCss() {
   if (typeof document === "undefined") return;
@@ -168,6 +169,81 @@ function clean(value) {
 
 function cleanConstituencyName(name) {
   return clean(name).replace(/\s*\(\d+\)\s*$/, "");
+}
+
+function pointInFeature(feature, lon, lat) {
+  try {
+    const pt = turf.point([lon, lat]);
+
+    if (turf.booleanPointInPolygon(pt, feature)) return true;
+
+    const buffered = turf.buffer(feature, 0.01, { units: "kilometers" });
+    return turf.booleanPointInPolygon(pt, buffered);
+  } catch {
+    return false;
+  }
+}
+
+async function detectUserConstituencyFromLocation() {
+  if (typeof window === "undefined" || !navigator.geolocation) return null;
+
+  const geo = await getConstituenciesGeo();
+  const features = geo?.features ?? [];
+  if (!features.length) return null;
+
+  const position = await new Promise((resolve) => {
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        console.log("Geolocation success:", pos.coords.latitude, pos.coords.longitude);
+        resolve(pos);
+      },
+      (err) => {
+        console.warn("Geolocation error:", err);
+        resolve(null);
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 15000,
+        maximumAge: 300000
+      }
+    );
+  });
+
+  if (!position) return null;
+
+  const lat = position.coords.latitude;
+  const lon = position.coords.longitude;
+
+  const matched = features.find((feature) =>
+    pointInFeature(feature, lon, lat)
+  );
+
+  console.log("Matched constituency feature:", matched);
+
+  if (!matched) return null;
+
+  return cleanConstituencyName(matched?.properties?.ENG_NAME_VALUE);
+}
+
+async function initialiseConstituencySelection() {
+  const options = await getConstituencyOptions();
+  const state = getState();
+
+  if (!options.length) {
+    state.selectedConstituency = null;
+    return;
+  }
+
+  const detected = await detectUserConstituencyFromLocation();
+
+  if (detected && options.includes(detected)) {
+    state.selectedConstituency = detected;
+    return;
+  }
+
+  if (!state.selectedConstituency || !options.includes(state.selectedConstituency)) {
+    state.selectedConstituency = options[0];
+  }
 }
 
 async function getConstituenciesGeo() {
@@ -389,6 +465,9 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
+
+await initialiseConstituencySelection();
+
 ```
 
 ```js
@@ -516,15 +595,23 @@ display(
 
   renderConstituencySelect();
 
-  window.addEventListener("pq-constituencies:change", async () => {
+  async function rerenderConstituencySelectIfNeeded(force = false) {
     const options = await getConstituencyOptions();
     const nextOptionsKey = options.join("||");
-
-    if (nextOptionsKey !== lastOptionsKey) {
+  
+    if (force || nextOptionsKey !== lastOptionsKey) {
       await withPreservedScroll(async () => {
         await renderConstituencySelect();
       });
     }
+  }
+  
+  window.addEventListener("pq-constituencies:change", async () => {
+    await rerenderConstituencySelectIfNeeded(false);
+  });
+  
+  window.addEventListener("pq-constituencies:constituency-change", async () => {
+    await rerenderConstituencySelectIfNeeded(true);
   });
 
   display(wrap);
@@ -561,7 +648,34 @@ display(
     if (!isCurrent()) return;
 
     el.replaceChildren(
-      constituencyMap(geo, { height: 420 })
+      constituencyMap(geo, {
+        height: 420,
+        onLocate: async ({ ok, lon, lat }) => {
+          if (!ok) return;
+
+          const geoAll = await getConstituenciesGeo();
+          const features = geoAll?.features ?? [];
+
+          const matched = features.find((feature) =>
+            pointInFeature(feature, lon, lat)
+          );
+
+          if (!matched) return;
+
+          const nextConstituency = cleanConstituencyName(
+            matched?.properties?.ENG_NAME_VALUE
+          );
+
+          if (!nextConstituency) return;
+          if (window.pqConstituenciesState.selectedConstituency === nextConstituency) return;
+
+          window.pqConstituenciesState.selectedConstituency = nextConstituency;
+
+          await withPreservedScroll(async () => {
+            dispatchConstituencyChange();
+          });
+        }
+      })
     );
   }, {
     eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]

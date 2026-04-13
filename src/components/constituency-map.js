@@ -1,4 +1,5 @@
 import L from "npm:leaflet";
+import * as turf from "npm:@turf/turf";
 
 const BLANK_TILE =
   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
@@ -20,9 +21,41 @@ function constituencyStyle() {
   };
 }
 
+function polygonsOnly(input) {
+  const out = [];
+
+  const visit = (obj, props = {}) => {
+    if (!obj) return;
+
+    switch (obj.type) {
+      case "FeatureCollection":
+        obj.features?.forEach((f) => visit(f));
+        break;
+      case "Feature":
+        visit(obj.geometry, obj.properties || {});
+        break;
+      case "GeometryCollection":
+        (obj.geometries || []).forEach((g) => visit(g, props));
+        break;
+      case "Polygon":
+        out.push(turf.polygon(obj.coordinates, props));
+        break;
+      case "MultiPolygon":
+        out.push(turf.multiPolygon(obj.coordinates, props));
+        break;
+    }
+  };
+
+  visit(input);
+  return out;
+}
+
 export function constituencyMap(featureCollection, options = {}) {
   const {
     height = 540,
+    enableGeolocation = true,
+    geolocationBufferMetres = 10,
+    onLocate = null,
     popupFormatter = (feature) => {
       const raw = feature?.properties?.ENG_NAME_VALUE ?? "Constituency";
       const cleaned = cleanConstituencyLabel(raw);
@@ -49,7 +82,8 @@ export function constituencyMap(featureCollection, options = {}) {
       vector-effect: non-scaling-stroke;
     }
 
-    .leaflet-control-fullscreen.leaflet-bar a {
+    .leaflet-control-fullscreen.leaflet-bar a,
+    .leaflet-control-geolocate.leaflet-bar button {
       width: 34px;
       height: 34px;
       line-height: 34px;
@@ -57,6 +91,14 @@ export function constituencyMap(featureCollection, options = {}) {
       font-size: 18px;
       text-decoration: none;
       background: #fff;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      display: block;
+    }
+
+    .leaflet-control-geolocate.leaflet-bar button:hover {
+      background: #f5f5f5;
     }
 
     .constituency-map:fullscreen {
@@ -79,6 +121,21 @@ export function constituencyMap(featureCollection, options = {}) {
     }
   `;
   container.appendChild(cleanupStyle);
+
+  const status = document.createElement("div");
+  status.style.cssText = `
+    position:absolute;
+    top:8px;
+    left:8px;
+    background:rgba(255,255,255,0.95);
+    padding:6px 8px;
+    border-radius:8px;
+    font:12px "IBM Plex Sans", sans-serif;
+    box-shadow:0 1px 3px rgba(0,0,0,0.15);
+    z-index:500;
+  `;
+  status.innerHTML = "<strong>Location:</strong> constituency view";
+  container.appendChild(status);
 
   const map = L.map(container, {
     zoomControl: false,
@@ -106,6 +163,165 @@ export function constituencyMap(featureCollection, options = {}) {
     },
   }).addTo(map);
 
+  let polygons = polygonsOnly(featureCollection);
+
+  if (geolocationBufferMetres > 0 && polygons.length) {
+    polygons = polygons.map((p) =>
+      turf.buffer(p, geolocationBufferMetres, { units: "meters" }),
+    );
+  }
+
+  const userLayer = L.layerGroup().addTo(map);
+
+  function refitMap() {
+    setTimeout(() => {
+      map.invalidateSize();
+      const bounds = geoLayer.getBounds();
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, {
+          padding: [28, 28],
+          maxZoom: 11,
+        });
+      }
+    }, 120);
+  }
+
+  function clearUserLocation() {
+    userLayer.clearLayers();
+  }
+
+  function locateUser() {
+    if (!navigator.geolocation) {
+      status.innerHTML = "<strong>Location:</strong> unavailable";
+
+      if (typeof onLocate === "function") {
+        onLocate({
+          ok: false,
+          reason: "unsupported",
+        });
+      }
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        clearUserLocation();
+
+        const lat = position.coords.latitude;
+        const lon = position.coords.longitude;
+        const accuracy = position.coords.accuracy ?? 0;
+        const latlng = L.latLng(lat, lon);
+
+        const accuracyCircle = L.circle(latlng, {
+          radius: accuracy,
+          color: "#4a463d",
+          weight: 1,
+          opacity: 0.7,
+          fillColor: "#4a463d",
+          fillOpacity: 0.12,
+        });
+
+        const userMarker = L.circleMarker(latlng, {
+          radius: 7,
+          color: "#ffffff",
+          weight: 2,
+          fillColor: "#4a463d",
+          fillOpacity: 1,
+        }).bindTooltip("Your location", {
+          direction: "top",
+          offset: [0, -4],
+        });
+
+        userLayer.addLayer(accuracyCircle);
+        userLayer.addLayer(userMarker);
+
+        const pt = turf.point([lon, lat]);
+        const inside = polygons.some((poly) =>
+          turf.booleanPointInPolygon(pt, poly),
+        );
+
+        status.innerHTML = inside
+          ? "<strong>Location:</strong> inside constituency"
+          : "<strong>Location:</strong> outside constituency";
+
+        const bounds = geoLayer.getBounds();
+        if (bounds.isValid()) {
+          const combined = L.latLngBounds(bounds);
+          combined.extend(latlng);
+
+          map.fitBounds(combined, {
+            padding: [28, 28],
+            maxZoom: 11,
+          });
+        } else {
+          map.setView(latlng, 11);
+        }
+
+        if (typeof onLocate === "function") {
+          onLocate({
+            ok: true,
+            lat,
+            lon,
+            accuracy,
+            inside,
+          });
+        }
+      },
+      (error) => {
+        let message = "unavailable";
+
+        if (error?.code === 1) message = "permission denied";
+        else if (error?.code === 2) message = "position unavailable";
+        else if (error?.code === 3) message = "timed out";
+
+        status.innerHTML = `<strong>Location:</strong> ${message}`;
+
+        if (typeof onLocate === "function") {
+          onLocate({
+            ok: false,
+            reason: "error",
+            error,
+          });
+        }
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 15000,
+        maximumAge: 300000,
+      },
+    );
+  }
+
+  if (enableGeolocation) {
+    const GeolocateControl = L.Control.extend({
+      options: { position: "bottomright" },
+      onAdd: () => {
+        const ctl = L.DomUtil.create(
+          "div",
+          "leaflet-control-geolocate leaflet-bar",
+        );
+
+        const button = L.DomUtil.create("button", "", ctl);
+        button.type = "button";
+        button.title = "Show my location";
+        button.setAttribute("aria-label", "Show my location");
+        button.textContent = "⌖";
+
+        L.DomEvent.disableClickPropagation(ctl);
+        L.DomEvent.disableScrollPropagation(ctl);
+
+        L.DomEvent.on(button, "click", (e) => {
+          L.DomEvent.stop(e);
+          locateUser();
+        });
+
+        return ctl;
+      },
+    });
+
+    new GeolocateControl().addTo(map);
+  }
+
   const FullscreenControl = L.Control.extend({
     options: { position: "bottomright" },
     onAdd: () => {
@@ -118,19 +334,6 @@ export function constituencyMap(featureCollection, options = {}) {
       link.title = "Toggle fullscreen";
       link.setAttribute("aria-label", "Toggle fullscreen");
       link.innerHTML = "⛶";
-
-      const refitMap = () => {
-        setTimeout(() => {
-          map.invalidateSize();
-          const bounds = geoLayer.getBounds();
-          if (bounds.isValid()) {
-            map.fitBounds(bounds, {
-              padding: [28, 28],
-              maxZoom: 11,
-            });
-          }
-        }, 120);
-      };
 
       const isFsAPI = () =>
         document.fullscreenElement === container ||
