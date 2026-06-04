@@ -230,6 +230,13 @@ export async function buildDeputyDetails(year) {
   );
   const outDir = path.join(
     "src",
+    "data",
+    "pq",
+    String(year),
+    "deputies",
+  );
+  const staticOutDir = path.join(
+    "src",
     "static",
     "data",
     "pq",
@@ -243,6 +250,7 @@ export async function buildDeputyDetails(year) {
   const rows = JSON.parse(raw);
 
   await fs.mkdir(outDir, { recursive: true });
+  await fs.mkdir(staticOutDir, { recursive: true });
 
   const byDeputy = groupRows(rows, (d) => d.memberCode);
 
@@ -279,8 +287,11 @@ export async function buildDeputyDetails(year) {
     };
 
     const filename = `${sanitizeFilename(memberCode)}.json`;
+    const json = JSON.stringify(payload, null, 2);
     const outPath = path.join(outDir, filename);
-    await fs.writeFile(outPath, JSON.stringify(payload, null, 2), "utf8");
+    const staticOutPath = path.join(staticOutDir, filename);
+    await fs.writeFile(outPath, json, "utf8");
+    await fs.writeFile(staticOutPath, json, "utf8");
   }
 
   console.log(`✓ deputy detail files written for ${year}`);

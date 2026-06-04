@@ -1,5 +1,5 @@
 {
-  "year": "2026",
+  "year": 2026,
   "memberCode": "Paul-McAuliffe.D.2020-02-08",
   "memberName": "Paul McAuliffe",
   "deputy": "Paul McAuliffe",
@@ -9,16 +9,19 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paul-McAuliffe.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 90,
+      "count": 180,
       "headingOptions": [
         "An Garda Síochána",
         "Assisted Human Reproduction",
         "Bus Services",
         "Cabinet Committees",
+        "Care Services",
+        "Childcare Services",
         "Community Development Projects",
         "Defence Forces",
         "Departmental Correspondence",
         "Departmental Data",
+        "Departmental Funding",
         "Departmental Inquiries",
         "Departmental Programmes",
         "Departmental Reviews",
@@ -28,57 +31,116 @@
         "Driver Test",
         "Dublin Bus",
         "Education and Training Boards",
+        "Education Schemes",
         "Education Welfare Service",
+        "Educational Disadvantage",
+        "Energy Policy",
+        "General Practitioner Services",
+        "Health Services",
         "Health Strategies",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
         "Hospital Appointments Status",
+        "Hospital Equipment",
         "Hospital Services",
         "Housing Policy",
         "Housing Provision",
         "Medical Cards",
         "Medicinal Products",
         "Middle East",
+        "Office of Public Works",
         "Parking Provision",
         "Passport Services",
+        "Pension Provisions",
         "Pensions Reform",
         "Planning Issues",
         "Primary Care Centres",
         "Primary Care Services",
         "Private Security Authority",
+        "Programme for Government",
+        "Public Expenditure Policy",
         "Public Sector Pensions",
+        "Public Services Provision",
         "Public Transport",
         "Rail Network",
         "Re-interment of Volunteers",
         "Residential Institutions",
         "Rights of People with Disabilities",
+        "Road Projects",
         "School Attendance",
+        "Social Insurance",
         "Social Welfare Benefits",
         "Social Welfare Eligibility",
+        "Social Welfare Payments",
         "Social Welfare Schemes",
         "Special Educational Needs",
         "Sports Facilities",
         "Sports Funding",
+        "State Bodies",
+        "Substance Misuse",
         "Tax Code",
         "Taxi Licences",
+        "Tourism Policy",
+        "Trade Agreements",
         "Transport Policy",
-        "Urban Development"
+        "United Nations",
+        "Urban Development",
+        "Visa Applications",
+        "Wind Energy Generation",
+        "Youth Services"
       ],
       "insights": {
-        "topHeading": "Special Educational Needs",
-        "topHeadingCount": 12,
-        "topDepartment": "Education",
-        "topDepartmentCount": 19
+        "topHeading": "Disability Services",
+        "topHeadingCount": 27,
+        "topDepartment": "Children",
+        "topDepartmentCount": 32
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "value": 24
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 2
+              },
+              {
+                "name": "Residential Institutions",
+                "value": 2
+              },
+              {
+                "name": "Programme for Government",
+                "value": 2
+              },
+              {
+                "name": "Care Services",
+                "value": 1
+              },
+              {
+                "name": "Childcare Services",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Education",
             "children": [
               {
                 "name": "Special Educational Needs",
-                "value": 12
+                "value": 18
+              },
+              {
+                "name": "Educational Disadvantage",
+                "value": 3
+              },
+              {
+                "name": "Youth Services",
+                "value": 2
               },
               {
                 "name": "Education and Training Boards",
@@ -107,6 +169,10 @@
               {
                 "name": "School Attendance",
                 "value": 1
+              },
+              {
+                "name": "Education Schemes",
+                "value": 1
               }
             ]
           },
@@ -115,6 +181,14 @@
             "children": [
               {
                 "name": "Primary Care Centres",
+                "value": 4
+              },
+              {
+                "name": "Healthcare Policy",
+                "value": 4
+              },
+              {
+                "name": "Hospital Services",
                 "value": 3
               },
               {
@@ -122,19 +196,15 @@
                 "value": 3
               },
               {
-                "name": "Healthcare Policy",
-                "value": 2
-              },
-              {
-                "name": "Hospital Services",
-                "value": 1
-              },
-              {
-                "name": "Health Strategies",
-                "value": 1
+                "name": "Hospital Equipment",
+                "value": 3
               },
               {
                 "name": "Disability Services",
+                "value": 2
+              },
+              {
+                "name": "Health Strategies",
                 "value": 1
               },
               {
@@ -160,6 +230,18 @@
               {
                 "name": "Primary Care Services",
                 "value": 1
+              },
+              {
+                "name": "General Practitioner Services",
+                "value": 1
+              },
+              {
+                "name": "Substance Misuse",
+                "value": 1
+              },
+              {
+                "name": "Health Services",
+                "value": 1
               }
             ]
           },
@@ -168,15 +250,19 @@
             "children": [
               {
                 "name": "Bus Services",
+                "value": 6
+              },
+              {
+                "name": "Rail Network",
                 "value": 3
               },
               {
                 "name": "Public Transport",
-                "value": 1
+                "value": 2
               },
               {
-                "name": "Rail Network",
-                "value": 1
+                "name": "Road Projects",
+                "value": 2
               },
               {
                 "name": "Transport Policy",
@@ -205,19 +291,52 @@
             ]
           },
           {
-            "name": "Children",
+            "name": "Foreign",
             "children": [
               {
-                "name": "Disability Services",
-                "value": 5
+                "name": "Passport Services",
+                "value": 11
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Middle East",
+                "value": 3
+              },
+              {
+                "name": "Trade Agreements",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "value": 4
+              },
+              {
+                "name": "Social Welfare Schemes",
                 "value": 2
               },
               {
-                "name": "Residential Institutions",
+                "name": "Social Welfare Eligibility",
                 "value": 2
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Payments",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Social Insurance",
+                "value": 1
               }
             ]
           },
@@ -226,7 +345,7 @@
             "children": [
               {
                 "name": "Housing Provision",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Housing Policy",
@@ -239,6 +358,10 @@
               {
                 "name": "Re-interment of Volunteers",
                 "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
               }
             ]
           },
@@ -248,36 +371,56 @@
               {
                 "name": "Defence Forces",
                 "value": 5
+              },
+              {
+                "name": "United Nations",
+                "value": 1
               }
             ]
           },
           {
-            "name": "Social",
+            "name": "Justice",
             "children": [
               {
-                "name": "Social Welfare Benefits",
+                "name": "An Garda Síochána",
                 "value": 3
               },
               {
-                "name": "Social Welfare Schemes",
+                "name": "Private Security Authority",
                 "value": 1
               },
               {
-                "name": "Social Welfare Eligibility",
+                "name": "Disability Services",
+                "value": 1
+              },
+              {
+                "name": "Visa Applications",
                 "value": 1
               }
             ]
           },
           {
-            "name": "Foreign",
+            "name": "Public Expenditure",
             "children": [
               {
-                "name": "Passport Services",
+                "name": "Public Sector Pensions",
                 "value": 2
               },
               {
-                "name": "Middle East",
-                "value": 2
+                "name": "Public Expenditure Policy",
+                "value": 1
+              },
+              {
+                "name": "Public Services Provision",
+                "value": 1
+              },
+              {
+                "name": "Office of Public Works",
+                "value": 1
+              },
+              {
+                "name": "State Bodies",
+                "value": 1
               }
             ]
           },
@@ -285,11 +428,11 @@
             "name": "Culture",
             "children": [
               {
-                "name": "Pensions Reform",
-                "value": 1
+                "name": "Sports Funding",
+                "value": 2
               },
               {
-                "name": "Sports Funding",
+                "name": "Pensions Reform",
                 "value": 1
               },
               {
@@ -302,32 +445,15 @@
             "name": "Rural",
             "children": [
               {
+                "name": "Departmental Programmes",
+                "value": 2
+              },
+              {
                 "name": "Community Development Projects",
                 "value": 1
               },
               {
                 "name": "Disadvantaged Status",
-                "value": 1
-              },
-              {
-                "name": "Departmental Programmes",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              },
-              {
-                "name": "Private Security Authority",
-                "value": 1
-              },
-              {
-                "name": "Disability Services",
                 "value": 1
               }
             ]
@@ -336,20 +462,33 @@
             "name": "Taoiseach",
             "children": [
               {
-                "name": "Urban Development",
-                "value": 1
+                "name": "Cabinet Committees",
+                "value": 2
               },
               {
-                "name": "Cabinet Committees",
+                "name": "Urban Development",
                 "value": 1
               }
             ]
           },
           {
-            "name": "Public Expenditure",
+            "name": "Climate",
             "children": [
               {
-                "name": "Public Sector Pensions",
+                "name": "Wind Energy Generation",
+                "value": 1
+              },
+              {
+                "name": "Energy Policy",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Tourism Policy",
                 "value": 2
               }
             ]
@@ -368,6 +507,279 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2551. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the transport cost coverage options available for the parents of a child (details supplied). [26189/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2551/"
+                      },
+                      {
+                        "name": "2552. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the future of care options available to a person (details supplied). [26190/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2552/"
+                      },
+                      {
+                        "name": "2581. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if she is aware of the number of adults with intellectual disabilities’ that will require residential care as a result of their parents, who currently act as their carers, no longer being able to care for them within the next five years; and if she will make a statement on the matter. [27135/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2581/"
+                      },
+                      {
+                        "name": "2582. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the number of residential places that are available at present for adults with intellectual disabilities who are in need full time care; and if she will make a statement on the matter. [27136/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2582/"
+                      },
+                      {
+                        "name": "2583. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the way in which care is currently provided, including the services available for aging adults with an intellectual disability; and if she will make a statement on the matter. [27137/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2583/"
+                      },
+                      {
+                        "name": "2584. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide a current list of the organisations through her Department that provide care to adults with intellectual disabilities; and if she will make a statement on the matter. [27138/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2584/"
+                      },
+                      {
+                        "name": "2585. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if she or her Department plan to increase the number of residential places available over next five years for adults with an intellectual disability; and if she will make a statement on the matter. [27139/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2585/"
+                      },
+                      {
+                        "name": "2586. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if her Department funds any organisation or provide direct advice for ageing parents of children with intellectual disabilities about the availability of fulltime placement and care; and if she will make a statement on the matter. [27140/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2586/"
+                      },
+                      {
+                        "name": "2587. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the way in which her Department allocates residential places for adults with an intellectual disability; if the current geographic location of a person is given express consideration when a place is allocated; if her Department or agencies within give consideration to keep people within their own familial area; and if she will make a statement on the matter. [27141/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2587/"
+                      },
+                      {
+                        "name": "2588. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the reason the process currently exists whereby adults with an intellectual disability who wish to seek full time residential care or placement are required to submit a housing application to a local authority when the local authority does not provide full-time residential care for such adults; and if she will make a statement on the matter. [27142/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2588/"
+                      },
+                      {
+                        "name": "2589. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the steps in place or available to a parent of a child with an intellectual disability to provide emergency residential care following illness or death; if the familial or geographic location of an individual is considered in this regard for the purposes of maintaining a structured routine; and if she will make a statement on the matter. [27144/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2589/"
+                      },
+                      {
+                        "name": "2590. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the steps her Department is taking to ensure there is future planning for the care of adults with an intellectual disability; and if she will make a statement on the matter. [27145/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2590/"
+                      },
+                      {
+                        "name": "2591. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if there is cross-departmental co-ordination between her Department and the Department of Housing, Local Government and Heritage for the long-term planning of residential places for adults with an intellectual disability; and if she will make a statement on the matter. [27146/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2591/"
+                      },
+                      {
+                        "name": "2592. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if her Department has assessed the way in which the policy of de-congregation has been applied for residential care where adults with an intellectual disability may benefit from being in a communal setting as opposed to being isolated in an apartment or other place; and if she will make a statement on the matter. [27147/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2592/"
+                      },
+                      {
+                        "name": "2593. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the person or body that determines the allocation of registered residential places, nationally; in Dublin north-west; the way in which is the assessment determined; and if she will make a statement on the matter. [27148/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2593/"
+                      },
+                      {
+                        "name": "2594. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the number of people allocated to the disability services integrated health area Dublin north city and west (IHA DNCW) section; and the number of cases each person undertakes within a year. [27149/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2594/"
+                      },
+                      {
+                        "name": "2595. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the number of adults with an intellectual disability that are in need to a long-term place in Dublin north-west; and if she will make a statement on the matter. [27150/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2595/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "106. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if she plans to increase supports available to assist with ageing parents of adult children with intellectual disabilities; and if she will make a statement on the matter. [13272/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/106/"
+                      },
+                      {
+                        "name": "158. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if there are additional supports available to assist with ageing parents of adult children with intellectual disabilities, as represented by the Before We Die campaign; and if she will make a statement on the matter. [13271/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/158/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1509. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding increasing respite for the parents of a person (details supplied) with a view to securing a residential placement following a transition period. [18644/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1509/"
+                      },
+                      {
+                        "name": "1553. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding the assessment of need appointment of a person (details supplied). [19517/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1553/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1030. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide an update on securing a residential placement for a person (details supplied) [12435/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1030/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "161. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress made on the issues raised by a group (details supplied) since meeting with the group in January 2026; and if she will make a statement on the matter. [29150/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/161/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "983. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide an update on increasing respite for parents of a person (details supplied) with a view securing a supported residential placement following a transition period. [34754/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/983/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1878. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding an assessment of need appointment for a person (details supplied). [73922/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1878/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "734. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the status of speech and language assessment for a child (details supplied). [16378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/734/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Residential Institutions",
+                "children": [
+                  {
+                    "name": "Wednesday, 21 January",
+                    "date_iso": "2026-01-21",
+                    "children": [
+                      {
+                        "name": "246. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the reason a home (details supplied) is not included in the redress scheme; and if she will make a statement on the matter. [4706/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/246/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1508. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding increasing respite for the parents of a person (details supplied) with a view to securing a residential placement following a transition period. [18643/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1508/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "232. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress to date on the Programme for Government commitment to introduce paid surrogacy leave; and if she will make a statement on the matter. [31159/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/232/"
+                      },
+                      {
+                        "name": "233. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the latest engagements she had with the Minister for Social Protection and the Minster for Health on the Programme for Government commitment to introduce paid surrogacy leave; and if she will make a statement on the matter. [31160/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/233/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Care Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2343. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide an update on increasing respite for the parents of a person (details supplied) with a view securing a residential placement following a transition period. [23674/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2343/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "129. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress to reduce the cost of childcare to €200 per month per child through the national childcare scheme, as set out in the programme for Government; and if she will make a statement on the matter. [29145/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/129/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Education",
             "children": [
@@ -402,6 +814,32 @@
                         "name": "552. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the special school place for a student (details supplied); the engagement with the NCSE to secure a place; and if she will make a statement on the matter. [3912/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/552/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "491. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28169/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/491/"
+                      },
+                      {
+                        "name": "492. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/492/"
+                      },
+                      {
+                        "name": "493. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/493/"
+                      },
+                      {
+                        "name": "494. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/494/"
                       }
                     ]
                   },
@@ -473,6 +911,81 @@
                         "name": "117. Deputy Paul McAuliffe asked the Minister for Education and Youth the position regarding a situation (details supplied) which has arisen in a number of schools; and if she will make a statement on the matter. [22782/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/117/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "315. Deputy Paul McAuliffe asked the Minister for Education and Youth the status of and timeline on the progress on the new ASD class for a school (details supplied); and if she will make a statement on the matter. [31919/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/315/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "547. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide a list of schools with special classes in Dublin 9 and 11, as this list is not available anywhere on the Department's or the NCSE's website. [34094/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/547/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Educational Disadvantage",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "26. Deputy Paul McAuliffe asked the Minister for Education and Youth given the criteria that has been published for DEIS Plus, the reasoning schools (details supplied) did not qualify for this new scheme; and if she will make a statement on the matter. [29136/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/26/"
+                      },
+                      {
+                        "name": "114. Deputy Paul McAuliffe asked the Minister for Education and Youth further to the Parliamentary Question No. 1345 of 14 April 2026, in reference to the criteria for DEIS Plus, the numerical threshold in each of the categories that enable schools to qualify for DEIS Plus; and if she will make a statement on the matter. [29135/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/114/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "500. Deputy Paul McAuliffe asked the Minister for Education and Youth if all schools under the DEIS Plus scheme will have access to the Junior Certificate school programme for students at risk of leaving school without formal qualifications, given that schools under the scheme have now been identified; and if she will make a statement on the matter. [28317/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/500/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Youth Services",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "131. Deputy Paul McAuliffe asked the Minister for Education and Youth the funding provided to date in 2026 for independent youth projects in Dublin; and if she will make a statement on the matter. [40663/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/131/"
+                      },
+                      {
+                        "name": "149. Deputy Paul McAuliffe asked the Minister for Education and Youth if her Department is aware of financial constraints currently being experienced by independent youth projects in Dublin in 2026; and if she will make a statement on the matter. [40664/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/149/"
                       }
                     ]
                   }
@@ -589,6 +1102,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Education Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1345. Deputy Paul McAuliffe asked the Minister for Education and Youth the criteria used for categorising DEIS plus schools; and if she will make a statement on the matter. [25019/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1345/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -622,6 +1151,86 @@
                         "name": "129. Deputy Paul McAuliffe asked the Minister for Health following the latest funding announcement in the HSE Capital Plan 2026, when the next stage of the Finglas primary care centre is expected to progress; if the new funding will in any way expedite the delivery of the centre; and if she will make a statement on the matter. [17516/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/129/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "230. Deputy Paul McAuliffe asked the Minister for Health further to Parliamentary Question of No. 129 of 5 March 2026, if a contractor has been appointed to deliver Phase 1 works for the Finglas primary care centre; and if the project remains on track for works to commence in Q2 2026. [28228/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/230/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Healthcare Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "1192. Deputy Paul McAuliffe asked the Minister for Health if she or her Department intend to introduce a 'no wait card' or similar scheme to entitle customers with certain medical conditions to make use of staff toilet facilities in establishments; and if she will make a statement on the matter. [10336/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1192/"
+                      },
+                      {
+                        "name": "1193. Deputy Paul McAuliffe asked the Minister for Health to outline her plans to expand supports for those with epidermolysis bullosa and their families; and if she will make a statement on the matter. [10344/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1193/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "479. Deputy Paul McAuliffe asked the Minister for Health if she or her Department have given consideration to targeted financial supports for parents who must rely on feeding formula for babies due medical or other reasons that prevent the safe administration of breastfeeding; and if she will make a statement on the matter. [33527/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/479/"
+                      },
+                      {
+                        "name": "481. Deputy Paul McAuliffe asked the Minister for Health the measures she and her Department have taken to advocate at an EU level for flexibility in the regulation of breastfeeding and the use and sale of baby formula, which can impact vulnerable families that cannot otherwise safely breastfeed; and if she will make a statement on the matter. [33530/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/481/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2782. Deputy Paul McAuliffe asked the Minister for Health the average time for the first pregnancy scan in the Rotunda Hospital; and if she will make a statement on the matter. [24183/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2782/"
+                      },
+                      {
+                        "name": "2783. Deputy Paul McAuliffe asked the Minister for Health her plans to ensure that the that the first pregnancy scan takes place between 12-14 weeks in the Rotunda Hospital; and if she will make a statement on the matter. [24184/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2783/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "529. Deputy Paul McAuliffe asked the Minister for Health to provide an update on the operation for a child (details supplied). [3036/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/529/"
                       }
                     ]
                   }
@@ -660,53 +1269,26 @@
                 ]
               },
               {
-                "name": "Healthcare Policy",
+                "name": "Hospital Equipment",
                 "children": [
                   {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
                     "children": [
                       {
-                        "name": "1192. Deputy Paul McAuliffe asked the Minister for Health if she or her Department intend to introduce a 'no wait card' or similar scheme to entitle customers with certain medical conditions to make use of staff toilet facilities in establishments; and if she will make a statement on the matter. [10336/26]",
+                        "name": "1016. Deputy Paul McAuliffe asked the Minister for Health if she is aware of the recent reporting that over 80% of Ireland's radiotherapy machines require immediate or imminent replacement; and if she will make a statement on the matter. [33982/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1192/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1016/"
                       },
                       {
-                        "name": "1193. Deputy Paul McAuliffe asked the Minister for Health to outline her plans to expand supports for those with epidermolysis bullosa and their families; and if she will make a statement on the matter. [10344/26]",
+                        "name": "1017. Deputy Paul McAuliffe asked the Minister for Health her plans to ensure there is adequate provision for cancer patients seeking radiotherapy given recent reports that over 80% of Ireland's radiotherapy machines require immediate or imminent replacement; and if she will make a statement on the matter. [33983/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1193/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Services",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1017/"
+                      },
                       {
-                        "name": "529. Deputy Paul McAuliffe asked the Minister for Health to provide an update on the operation for a child (details supplied). [3036/26]",
+                        "name": "1018. Deputy Paul McAuliffe asked the Minister for Health her plans to upgrade radiotherapy machines nationwide; and if she will make a statement on the matter. [33984/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/529/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Strategies",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1090. Deputy Paul McAuliffe asked the Minister for Health if she is aware of a strategy (details supplied); and if she will make a statement on the matter. [8125/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1090/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1018/"
                       }
                     ]
                   }
@@ -723,6 +1305,33 @@
                         "name": "1009. Deputy Paul McAuliffe asked the Minister for Health to provide an update on a speech and language assessment for a child (details supplied). [14587/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/1009/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2693. Deputy Paul McAuliffe asked the Minister for Health to review the refusal of the request for additional disability support hours in the case of a person (details supplied). [23862/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2693/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Strategies",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1090. Deputy Paul McAuliffe asked the Minister for Health if she is aware of a strategy (details supplied); and if she will make a statement on the matter. [8125/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1090/"
                       }
                     ]
                   }
@@ -823,6 +1432,54 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "General Practitioner Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "170. Deputy Paul McAuliffe asked the Minister for Health the measures her Department has taken to ensure there is sufficient general practitioner access for people living in Dublin north-west; and if she will make a statement on the matter. [28229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/170/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Substance Misuse",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "1229. Deputy Paul McAuliffe asked the Minister for Health if she is aware of a shortage of librium medication that is impacting detox and stabilisation services; and if she will make a statement on the matter. [33227/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1229/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "480. Deputy Paul McAuliffe asked the Minister for Health if she will review early intervention services, such as tongue tie treatment and other early services for those who might have difficulty in breastfeeding as a means to prevent avoidable barriers to breastfeeding; and if she will make a statement on the matter. [33529/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/480/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -849,6 +1506,22 @@
                     ]
                   },
                   {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "260. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the construction of the Ballymun to city centre core bus corridor; and if he will make a statement on the matter. [41406/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/260/"
+                      },
+                      {
+                        "name": "261. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the Swords to city centre core bus corridor; and if he will make a statement on the matter. [41407/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/261/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Thursday, 26 February",
                     "date_iso": "2026-02-26",
                     "children": [
@@ -856,6 +1529,49 @@
                         "name": "97. Deputy Paul McAuliffe asked the Minister for Transport if there are plans to ensure that the NTA and service providers such as Dublin Bus are adhering to punctuality standards for buses across Dublin city, given that, as per the public service obligation contracts annual performance report, many low-frequency Dublin Bus routes did not experience punctuality of above 80%. [15297/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/97/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "160. Deputy Paul McAuliffe asked the Minister for Transport to provide the latest update on the implementation of the A spine of the BusConnects programme in Dublin; if he will ensure there is adequate resources for service delivery to prevent similar staffing and scheduling issues that arose with the introduction of the F spine of the BusConnects Programme; and if he will make a statement on the matter. [31270/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/160/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "213. Deputy Paul McAuliffe asked the Minister for Transport the position regarding the progression of approval gate two for the Luas Finglas project; and if he will make a statement on the matter. [40819/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/213/"
+                      },
+                      {
+                        "name": "214. Deputy Paul McAuliffe asked the Minister for Transport the position regarding the pre-qualification questionnaire for the Luas Finglas project; and if he will make a statement on the matter. [40820/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/214/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "172. Deputy Paul McAuliffe asked the Minister for Transport to provide an updated timeline of construction for the MetroLink project following the judicial review and subsequent mediation between parties; and if he will make a statement on the matter. [2877/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/172/"
                       }
                     ]
                   }
@@ -874,20 +1590,36 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/121/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "142. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the timeline of construction for the Finglas Luas extension project, given the recent legal action has now been resolved; and if he will make a statement on the matter. [31269/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/142/"
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "name": "Rail Network",
+                "name": "Road Projects",
                 "children": [
                   {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "172. Deputy Paul McAuliffe asked the Minister for Transport to provide an updated timeline of construction for the MetroLink project following the judicial review and subsequent mediation between parties; and if he will make a statement on the matter. [2877/26]",
+                        "name": "224. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the five arm junction project in Finglas village, including a timeline. [40960/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/172/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/224/"
+                      },
+                      {
+                        "name": "225. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the Jamestown roundabout scheme; and if he will make a statement on the matter. [40961/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/225/"
                       }
                     ]
                   }
@@ -992,105 +1724,337 @@
             ]
           },
           {
-            "name": "Children",
+            "name": "Foreign",
             "children": [
               {
-                "name": "Disability Services",
+                "name": "Passport Services",
                 "children": [
                   {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
                     "children": [
                       {
-                        "name": "106. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if she plans to increase supports available to assist with ageing parents of adult children with intellectual disabilities; and if she will make a statement on the matter. [13272/26]",
+                        "name": "32. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if passports will be issued for persons (details supplied).; and if she will make a statement on the matter. [32363/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/106/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/32/"
                       },
                       {
-                        "name": "158. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if there are additional supports available to assist with ageing parents of adult children with intellectual disabilities, as represented by the Before We Die campaign; and if she will make a statement on the matter. [13271/26]",
+                        "name": "42. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade to provide an update on when a passport will be issued for a person (details supplied). [32798/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/158/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/42/"
+                      },
+                      {
+                        "name": "43. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be issued for a person (details supplied). [32810/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/43/"
                       }
                     ]
                   },
                   {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
                     "children": [
                       {
-                        "name": "1509. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding increasing respite for the parents of a person (details supplied) with a view to securing a residential placement following a transition period. [18644/26]",
+                        "name": "154. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade when a passport will be issued for a person (details supplied). [7449/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1509/"
-                      },
-                      {
-                        "name": "1553. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding the assessment of need appointment of a person (details supplied). [19517/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1553/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/154/"
                       }
                     ]
                   },
                   {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
                     "children": [
                       {
-                        "name": "1030. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide an update on securing a residential placement for a person (details supplied) [12435/26]",
+                        "name": "146. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade when a passport will issue for a person (details supplied). [8968/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1030/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/146/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "243. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport for persons (details supplied) can be expedited. [30332/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/243/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "6. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be issued to a person (details supplied).; and if she will make a statement on the matter. [31096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/6/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "293. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport can be expedited for a person (details supplied).; and if she will make a statement on the matter. [37683/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/293/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "3. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be issued to a person (details supplied).; and if she will make a statement on the matter. [37949/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/3/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "157. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be expedited in the case of a person (details supplied). [38458/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/157/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 27 May",
+                    "date_iso": "2026-05-27",
+                    "children": [
+                      {
+                        "name": "11. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport application for a person (details supplied) will be expedited.; and if she will make a statement on the matter. [40666/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/11/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Middle East",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
                     "children": [
                       {
-                        "name": "1878. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding an assessment of need appointment for a person (details supplied). [73922/25]",
+                        "name": "48. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the total cost of the recent repatriation flight from Oman to Dublin; and if she will make a statement on the matter. [19665/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1878/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/48/"
+                      },
+                      {
+                        "name": "49. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the way in which the charge incurred by passengers on the recent repatriation flight was calculated; the reason for the charge; and if she will make a statement on the matter. [19666/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/49/"
                       }
                     ]
                   },
                   {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
                     "children": [
                       {
-                        "name": "734. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the status of speech and language assessment for a child (details supplied). [16378/26]",
+                        "name": "62. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade her views on the situation in the West Bank and the recent measures adopted by the Israeli Government; and if she will make a statement on the matter. [38024/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/734/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/62/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Residential Institutions",
+                "name": "Trade Agreements",
                 "children": [
                   {
-                    "name": "Wednesday, 21 January",
-                    "date_iso": "2026-01-21",
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
                     "children": [
                       {
-                        "name": "246. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the reason a home (details supplied) is not included in the redress scheme; and if she will make a statement on the matter. [4706/26]",
+                        "name": "36. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the action she is pursuing at EU level with regard to the growing violence and the expansion of settlements in the West Bank; and if she will make a statement on the matter. [38025/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/246/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/36/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "727. Deputy Paul McAuliffe asked the Minister for Social Protection to carry out a full review of the partial capacity benefit claim of a person (details supplied). [8079/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/727/"
                       }
                     ]
                   },
                   {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
                     "children": [
                       {
-                        "name": "1508. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the position regarding increasing respite for the parents of a person (details supplied) with a view to securing a residential placement following a transition period. [18643/26]",
+                        "name": "407. Deputy Paul McAuliffe asked the Minister for Social Protection if he will review a jobseekers benefit payment for a person (details supplied). [15729/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1508/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/407/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "200. Deputy Paul McAuliffe asked the Minister for Social Protection to provide an update on the illness benefit payment for a person (details supplied); and if he will make a statement on the matter. [17428/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/200/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "352. Deputy Paul McAuliffe asked the Minister for Social Protection to carry out a review of the disallowance of fuel allowance for a person (details supplied). [33552/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/352/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "714. Deputy Paul McAuliffe asked the Minister for Social Protection to review the amount awarded in jobseeker's benefit for a person (details supplied). [14670/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/714/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "92. Deputy Paul McAuliffe asked the Minister for Social Protection if he plans to change the income thresholds for those over the age of 66 in receipt of the fuel allowance, for both single individuals and couples; and if he will make a statement on the matter. [31243/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/92/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "721. Deputy Paul McAuliffe asked the Minister for Social Protection to provide an update on a carers allowance application (details supplied). [14978/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/721/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "737. Deputy Paul McAuliffe asked the Minister for Social Protection his position regarding the carer's allowance application by a person (details supplied).; and if he will make a statement on the matter. [38803/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/737/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1908. Deputy Paul McAuliffe asked the Minister for Social Protection the funding mechanisms available to an organisation (details supplied) through his Department; if there are sustainable funding options available for the organisation through his Department; and if he will make a statement on the matter. [25600/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1908/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "703. Deputy Paul McAuliffe asked the Minister for Social Protection to reinstate the disability allowance payment of a person (details supplied). [37638/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/703/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "771. Deputy Paul McAuliffe asked the Minister for Social Protection if a full review of the pension entitlement of a person (details supplied) could be carried out [40172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/771/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Insurance",
+                "children": [
+                  {
+                    "name": "Wednesday, 27 May",
+                    "date_iso": "2026-05-27",
+                    "children": [
+                      {
+                        "name": "139. Deputy Paul McAuliffe asked the Minister for Social Protection if a review of PRSI will be carried out in relation to a person (details supplied); and if he will make a statement on the matter. [40366/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/139/"
                       }
                     ]
                   }
@@ -1123,6 +2087,17 @@
                         "name": "153. Deputy Paul McAuliffe asked the Minister for Housing, Local Government and Heritage to provide an update on the PPP bundle 3 and 4 sites in Dublin north-west, including an updated timeline; and if he will make a statement on the matter. [17492/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/153/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "486. Deputy Paul McAuliffe asked the Minister for Housing, Local Government and Heritage the latest update on discussions his Department has had with Dublin City Council or the Land Development Agency in relation to the Ballymun Shopping Centre site; and if he will make a statement on the matter. [31856/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/486/"
                       }
                     ]
                   }
@@ -1186,6 +2161,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1621. Deputy Paul McAuliffe asked the Minister for Housing, Local Government and Heritage given that a housing form/application is required to request a long-term residential place for an adult with an intellectual disability, the number of people in this category; the number of people on such a list in each county; and if he will make a statement on the matter. [27143/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1621/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1227,236 +2218,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "727. Deputy Paul McAuliffe asked the Minister for Social Protection to carry out a full review of the partial capacity benefit claim of a person (details supplied). [8079/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/727/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "407. Deputy Paul McAuliffe asked the Minister for Social Protection if he will review a jobseekers benefit payment for a person (details supplied). [15729/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/407/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "200. Deputy Paul McAuliffe asked the Minister for Social Protection to provide an update on the illness benefit payment for a person (details supplied); and if he will make a statement on the matter. [17428/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/200/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "Social Welfare Schemes",
+                "name": "United Nations",
                 "children": [
                   {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
                     "children": [
                       {
-                        "name": "714. Deputy Paul McAuliffe asked the Minister for Social Protection to review the amount awarded in jobseeker's benefit for a person (details supplied). [14670/26]",
+                        "name": "141. Deputy Paul McAuliffe asked the Minister for Defence if there will be a continued partnership between Ireland and the people of Lebanon, given our longstanding commitment to peace keeping in Lebanon. [32845/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/714/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "721. Deputy Paul McAuliffe asked the Minister for Social Protection to provide an update on a carers allowance application (details supplied). [14978/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/721/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Passport Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "154. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade when a passport will be issued for a person (details supplied). [7449/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/154/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "146. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade when a passport will issue for a person (details supplied). [8968/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/146/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Middle East",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "48. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the total cost of the recent repatriation flight from Oman to Dublin; and if she will make a statement on the matter. [19665/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/48/"
-                      },
-                      {
-                        "name": "49. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the way in which the charge incurred by passengers on the recent repatriation flight was calculated; the reason for the charge; and if she will make a statement on the matter. [19666/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/49/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Pensions Reform",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1349. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the progress to date on ensuring that pensioners (details supplied) receive their pension increase due since January 2025; and if he will make a statement on the matter. [2508/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1349/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "181. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport to outline the expected budget for the Large-Scale Sport Infrastructure Fund; when he expects this fund to open for applications for the next round of funding; and if he will make a statement on the matter. [3766/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/181/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Facilities",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "378. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the amount of funding received in the constituency of Dublin north-west through sports capital and large-scale sports infrastructure fund for the years 2020 to 2025; and if he will make a statement on the matter. [11132/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/378/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Community Development Projects",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "36. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht if he is aware of the funding difficulties being experienced by the Fingal centre in Finglas, following his visit to the centre in 2025; and if he has given further consideration to open the Community Services Programme for applications to allow centres such as this to apply. [8385/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/36/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disadvantaged Status",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "518. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 65 of 4 December 2025, if he or his Department is considering a reintroduction of the RAPID programme in 2026; and if he will make a statement on the matter. [23218/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/518/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Programmes",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "519. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 2168 of 4 November 2025, when he expects Community Services Programme to open for funding; and if he will make a statement on the matter. [23219/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/519/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/141/"
                       }
                     ]
                   }
@@ -1478,6 +2251,28 @@
                         "name": "857. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration to outline the number of Garda vetting applicants processed for those aged 16 in 2025; and if he will make a statement on the matter. [10319/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/857/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "20. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration further to the recent roll-out of high-visibility policing in south and west Dublin, if he will consider a further roll-out of this model to districts K and H, including the urban villages across north Dublin, including Santry, Beaumont, Finglas and Ballymun; and if he will make a statement on the matter. [35729/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/20/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 27 May",
+                    "date_iso": "2026-05-27",
+                    "children": [
+                      {
+                        "name": "152. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration the number of Garda reserves recruited in 2024, 2025 and to date in 2026; the areas that they have been allocated to; and if he will make a statement on the matter. [40489/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/152/"
                       }
                     ]
                   }
@@ -1514,39 +2309,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Taoiseach",
-            "children": [
-              {
-                "name": "Urban Development",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "3. Deputy Paul McAuliffe asked the Taoiseach for an update on the implementation of the Dublin city task force report. [67575/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/3/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "Cabinet Committees",
+                "name": "Visa Applications",
                 "children": [
                   {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
                     "children": [
                       {
-                        "name": "117. Deputy Paul McAuliffe asked the Taoiseach when the Cabinet Committee on Justice, Migration and Social Affairs will next meet. [3783/26]",
+                        "name": "1963. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration the role that a service (details supplied) has in processing visa applications in the Irish Embassy in India; and if he will make a statement on the matter. [23905/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/117/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1963/"
                       }
                     ]
                   }
@@ -1573,6 +2347,309 @@
                         "name": "518. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the estimated cost of paying a supplementary pension until a uniformed employee reaches the State pension age of 66; given members can retire after 40 years of service; and if he will make a statement on the matter. [11918/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/518/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "30. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he or his Department have considered a change to budgetary practice whereby supplementary budgets to support increased expenditure in areas such as education will now be sourced through other means; and if he will make a statement on the matter. [27465/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/30/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Services Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "71. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the cost to date for the Government Digital Wallet project; and if he will make a statement on the matter. [27466/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/71/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Office of Public Works",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "497. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the future plans for Shanowen Lands, Dublin 9, given it is currently owned by the OPW; and if he will make a statement on the matter. [38837/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/497/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Bodies",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "19. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he or his Department are providing guidance to any additional State agencies for projects that are potentially being written down, given the recent reporting of the €50 million write off of the IT system at Irish Rail; and if he will make a statement on the matter. [40671/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/19/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "181. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport to outline the expected budget for the Large-Scale Sport Infrastructure Fund; when he expects this fund to open for applications for the next round of funding; and if he will make a statement on the matter. [3766/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/181/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "8. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the engagements he and his Department have had with local authorities and national sporting bodies to ensure local sports clubs are supported in applying for available grants; and if he will make a statement on the matter. [32806/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/8/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pensions Reform",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1349. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the progress to date on ensuring that pensioners (details supplied) receive their pension increase due since January 2025; and if he will make a statement on the matter. [2508/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1349/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Facilities",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "378. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the amount of funding received in the constituency of Dublin north-west through sports capital and large-scale sports infrastructure fund for the years 2020 to 2025; and if he will make a statement on the matter. [11132/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/378/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "519. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 2168 of 4 November 2025, when he expects Community Services Programme to open for funding; and if he will make a statement on the matter. [23219/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/519/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "97. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 518 of 26 March 2026, if he will outline when the new programme will launch to succeed the RAPID programme; and if he will make a statement on the matter. [38009/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/97/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Development Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "36. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht if he is aware of the funding difficulties being experienced by the Fingal centre in Finglas, following his visit to the centre in 2025; and if he has given further consideration to open the Community Services Programme for applications to allow centres such as this to apply. [8385/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/36/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disadvantaged Status",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "518. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 65 of 4 December 2025, if he or his Department is considering a reintroduction of the RAPID programme in 2026; and if he will make a statement on the matter. [23218/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/518/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Taoiseach",
+            "children": [
+              {
+                "name": "Cabinet Committees",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "117. Deputy Paul McAuliffe asked the Taoiseach when the Cabinet Committee on Justice, Migration and Social Affairs will next meet. [3783/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/117/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "15. Deputy Paul McAuliffe asked the Taoiseach when the Cabinet committee on justice, migration and social affairs will next meet. [14274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/15/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Urban Development",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "3. Deputy Paul McAuliffe asked the Taoiseach for an update on the implementation of the Dublin city task force report. [67575/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/3/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Wind Energy Generation",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "117. Deputy Paul McAuliffe asked the Minister for Climate, Energy and the Environment to outline the current progress on the Government strategy to develop offshore wind energy; and if he will make a statement on the matter. [27458/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/117/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "121. Deputy Paul McAuliffe asked the Minister for Climate, Energy and the Environment in the context of the ongoing situation in the Middle East, if he or his Department has given further consideration to implementing a comprehensive strategy for the utilisation of surplus renewable energy to help reduce energy poverty, as in the Energy Poverty Reduction (Use of Surplus Renewable Energy) Bill 2025; and if he will make a statement on the matter. [27457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/121/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Tourism Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "177. Deputy Paul McAuliffe asked the Minister for Enterprise, Tourism and Employment if he and the Minister for Housing, Local Government and Heritage have considered the introduction of a visitor accommodation levy/hotel bed tax or similar levies for the Dublin area for the generation of additional revenue to support our growing tourism sector; and if he will make a statement on the matter. [26487/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/177/"
+                      },
+                      {
+                        "name": "203. Deputy Paul McAuliffe asked the Minister for Enterprise, Tourism and Employment if he and the Minister for Housing, Local Government and Heritage have considered the introduction of a visitor accommodation levy, hotel bed tax or similar levies, nationally for the generation of additional revenue to support the growing tourism sector; and if he will make a statement on the matter. [26486/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/203/"
                       }
                     ]
                   }
@@ -2413,20 +3490,835 @@
           "question": "519. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 2168 of 4 November 2025, when he expects Community Services Programme to open for funding; and if he will make a statement on the matter. [23219/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/519/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1345,
+          "department": "Education",
+          "heading": "Education Schemes",
+          "question": "1345. Deputy Paul McAuliffe asked the Minister for Education and Youth the criteria used for categorising DEIS plus schools; and if she will make a statement on the matter. [25019/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1345/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1621,
+          "department": "Housing",
+          "heading": "Departmental Data",
+          "question": "1621. Deputy Paul McAuliffe asked the Minister for Housing, Local Government and Heritage given that a housing form/application is required to request a long-term residential place for an adult with an intellectual disability, the number of people in this category; the number of people on such a list in each county; and if he will make a statement on the matter. [27143/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1621/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1908,
+          "department": "Social",
+          "heading": "Departmental Funding",
+          "question": "1908. Deputy Paul McAuliffe asked the Minister for Social Protection the funding mechanisms available to an organisation (details supplied) through his Department; if there are sustainable funding options available for the organisation through his Department; and if he will make a statement on the matter. [25600/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1908/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1963,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "1963. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration the role that a service (details supplied) has in processing visa applications in the Irish Embassy in India; and if he will make a statement on the matter. [23905/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1963/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2343,
+          "department": "Children",
+          "heading": "Care Services",
+          "question": "2343. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide an update on increasing respite for the parents of a person (details supplied) with a view securing a residential placement following a transition period. [23674/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2343/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2551,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2551. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the transport cost coverage options available for the parents of a child (details supplied). [26189/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2551/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2552,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2552. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the future of care options available to a person (details supplied). [26190/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2552/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2581,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2581. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if she is aware of the number of adults with intellectual disabilities’ that will require residential care as a result of their parents, who currently act as their carers, no longer being able to care for them within the next five years; and if she will make a statement on the matter. [27135/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2581/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2582,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2582. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the number of residential places that are available at present for adults with intellectual disabilities who are in need full time care; and if she will make a statement on the matter. [27136/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2582/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2583,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2583. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the way in which care is currently provided, including the services available for aging adults with an intellectual disability; and if she will make a statement on the matter. [27137/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2583/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2584,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2584. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide a current list of the organisations through her Department that provide care to adults with intellectual disabilities; and if she will make a statement on the matter. [27138/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2584/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2585,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2585. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if she or her Department plan to increase the number of residential places available over next five years for adults with an intellectual disability; and if she will make a statement on the matter. [27139/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2585/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2586,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2586. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if her Department funds any organisation or provide direct advice for ageing parents of children with intellectual disabilities about the availability of fulltime placement and care; and if she will make a statement on the matter. [27140/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2586/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2587,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2587. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the way in which her Department allocates residential places for adults with an intellectual disability; if the current geographic location of a person is given express consideration when a place is allocated; if her Department or agencies within give consideration to keep people within their own familial area; and if she will make a statement on the matter. [27141/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2587/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2588,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2588. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the reason the process currently exists whereby adults with an intellectual disability who wish to seek full time residential care or placement are required to submit a housing application to a local authority when the local authority does not provide full-time residential care for such adults; and if she will make a statement on the matter. [27142/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2588/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2589,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2589. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the steps in place or available to a parent of a child with an intellectual disability to provide emergency residential care following illness or death; if the familial or geographic location of an individual is considered in this regard for the purposes of maintaining a structured routine; and if she will make a statement on the matter. [27144/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2589/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2590,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2590. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the steps her Department is taking to ensure there is future planning for the care of adults with an intellectual disability; and if she will make a statement on the matter. [27145/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2590/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2591,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2591. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if there is cross-departmental co-ordination between her Department and the Department of Housing, Local Government and Heritage for the long-term planning of residential places for adults with an intellectual disability; and if she will make a statement on the matter. [27146/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2591/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2592,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2592. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality if her Department has assessed the way in which the policy of de-congregation has been applied for residential care where adults with an intellectual disability may benefit from being in a communal setting as opposed to being isolated in an apartment or other place; and if she will make a statement on the matter. [27147/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2592/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2593,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2593. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the person or body that determines the allocation of registered residential places, nationally; in Dublin north-west; the way in which is the assessment determined; and if she will make a statement on the matter. [27148/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2593/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2594,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2594. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the number of people allocated to the disability services integrated health area Dublin north city and west (IHA DNCW) section; and the number of cases each person undertakes within a year. [27149/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2594/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2595,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2595. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the number of adults with an intellectual disability that are in need to a long-term place in Dublin north-west; and if she will make a statement on the matter. [27150/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2595/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2693,
+          "department": "Health",
+          "heading": "Disability Services",
+          "question": "2693. Deputy Paul McAuliffe asked the Minister for Health to review the refusal of the request for additional disability support hours in the case of a person (details supplied). [23862/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2693/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2782,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "2782. Deputy Paul McAuliffe asked the Minister for Health the average time for the first pregnancy scan in the Rotunda Hospital; and if she will make a statement on the matter. [24183/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2782/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2783,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "2783. Deputy Paul McAuliffe asked the Minister for Health her plans to ensure that the that the first pregnancy scan takes place between 12-14 weeks in the Rotunda Hospital; and if she will make a statement on the matter. [24184/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2783/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-15",
+          "questionNumber": 15,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "15. Deputy Paul McAuliffe asked the Taoiseach when the Cabinet committee on justice, migration and social affairs will next meet. [14274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/15/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 30,
+          "department": "Public Expenditure",
+          "heading": "Public Expenditure Policy",
+          "question": "30. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he or his Department have considered a change to budgetary practice whereby supplementary budgets to support increased expenditure in areas such as education will now be sourced through other means; and if he will make a statement on the matter. [27465/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/30/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 71,
+          "department": "Public Expenditure",
+          "heading": "Public Services Provision",
+          "question": "71. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the cost to date for the Government Digital Wallet project; and if he will make a statement on the matter. [27466/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/71/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 117,
+          "department": "Climate",
+          "heading": "Wind Energy Generation",
+          "question": "117. Deputy Paul McAuliffe asked the Minister for Climate, Energy and the Environment to outline the current progress on the Government strategy to develop offshore wind energy; and if he will make a statement on the matter. [27458/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/117/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 121,
+          "department": "Climate",
+          "heading": "Energy Policy",
+          "question": "121. Deputy Paul McAuliffe asked the Minister for Climate, Energy and the Environment in the context of the ongoing situation in the Middle East, if he or his Department has given further consideration to implementing a comprehensive strategy for the utilisation of surplus renewable energy to help reduce energy poverty, as in the Energy Poverty Reduction (Use of Surplus Renewable Energy) Bill 2025; and if he will make a statement on the matter. [27457/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/121/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 170,
+          "department": "Health",
+          "heading": "General Practitioner Services",
+          "question": "170. Deputy Paul McAuliffe asked the Minister for Health the measures her Department has taken to ensure there is sufficient general practitioner access for people living in Dublin north-west; and if she will make a statement on the matter. [28229/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/170/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 230,
+          "department": "Health",
+          "heading": "Primary Care Centres",
+          "question": "230. Deputy Paul McAuliffe asked the Minister for Health further to Parliamentary Question of No. 129 of 5 March 2026, if a contractor has been appointed to deliver Phase 1 works for the Finglas primary care centre; and if the project remains on track for works to commence in Q2 2026. [28228/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/230/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 491,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "491. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28169/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/491/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 492,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "492. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28170/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/492/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 493,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "493. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28171/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/493/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 494,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "494. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on the progress regarding a special school place for a child (details supplied); the engagement there has been with the NCSE to secure a place; and if she will make a statement on the matter. [28172/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/494/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 500,
+          "department": "Education",
+          "heading": "Educational Disadvantage",
+          "question": "500. Deputy Paul McAuliffe asked the Minister for Education and Youth if all schools under the DEIS Plus scheme will have access to the Junior Certificate school programme for students at risk of leaving school without formal qualifications, given that schools under the scheme have now been identified; and if she will make a statement on the matter. [28317/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/500/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 26,
+          "department": "Education",
+          "heading": "Educational Disadvantage",
+          "question": "26. Deputy Paul McAuliffe asked the Minister for Education and Youth given the criteria that has been published for DEIS Plus, the reasoning schools (details supplied) did not qualify for this new scheme; and if she will make a statement on the matter. [29136/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/26/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 114,
+          "department": "Education",
+          "heading": "Educational Disadvantage",
+          "question": "114. Deputy Paul McAuliffe asked the Minister for Education and Youth further to the Parliamentary Question No. 1345 of 14 April 2026, in reference to the criteria for DEIS Plus, the numerical threshold in each of the categories that enable schools to qualify for DEIS Plus; and if she will make a statement on the matter. [29135/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/114/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 129,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "129. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress to reduce the cost of childcare to €200 per month per child through the national childcare scheme, as set out in the programme for Government; and if she will make a statement on the matter. [29145/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/129/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 161,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "161. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress made on the issues raised by a group (details supplied) since meeting with the group in January 2026; and if she will make a statement on the matter. [29150/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/161/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 177,
+          "department": "Enterprise",
+          "heading": "Tourism Policy",
+          "question": "177. Deputy Paul McAuliffe asked the Minister for Enterprise, Tourism and Employment if he and the Minister for Housing, Local Government and Heritage have considered the introduction of a visitor accommodation levy/hotel bed tax or similar levies for the Dublin area for the generation of additional revenue to support our growing tourism sector; and if he will make a statement on the matter. [26487/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/177/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 203,
+          "department": "Enterprise",
+          "heading": "Tourism Policy",
+          "question": "203. Deputy Paul McAuliffe asked the Minister for Enterprise, Tourism and Employment if he and the Minister for Housing, Local Government and Heritage have considered the introduction of a visitor accommodation levy, hotel bed tax or similar levies, nationally for the generation of additional revenue to support the growing tourism sector; and if he will make a statement on the matter. [26486/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/203/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 243,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "243. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport for persons (details supplied) can be expedited. [30332/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/243/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-29",
+          "questionNumber": 6,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "6. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be issued to a person (details supplied).; and if she will make a statement on the matter. [31096/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/6/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-29",
+          "questionNumber": 232,
+          "department": "Children",
+          "heading": "Programme for Government",
+          "question": "232. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress to date on the Programme for Government commitment to introduce paid surrogacy leave; and if she will make a statement on the matter. [31159/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/232/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-29",
+          "questionNumber": 233,
+          "department": "Children",
+          "heading": "Programme for Government",
+          "question": "233. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the latest engagements she had with the Minister for Social Protection and the Minster for Health on the Programme for Government commitment to introduce paid surrogacy leave; and if she will make a statement on the matter. [31160/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/233/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 92,
+          "department": "Social",
+          "heading": "Social Welfare Schemes",
+          "question": "92. Deputy Paul McAuliffe asked the Minister for Social Protection if he plans to change the income thresholds for those over the age of 66 in receipt of the fuel allowance, for both single individuals and couples; and if he will make a statement on the matter. [31243/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/92/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 142,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "142. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the timeline of construction for the Finglas Luas extension project, given the recent legal action has now been resolved; and if he will make a statement on the matter. [31269/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/142/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 160,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "160. Deputy Paul McAuliffe asked the Minister for Transport to provide the latest update on the implementation of the A spine of the BusConnects programme in Dublin; if he will ensure there is adequate resources for service delivery to prevent similar staffing and scheduling issues that arose with the introduction of the F spine of the BusConnects Programme; and if he will make a statement on the matter. [31270/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/160/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 32,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "32. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if passports will be issued for persons (details supplied).; and if she will make a statement on the matter. [32363/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/32/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 42,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "42. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade to provide an update on when a passport will be issued for a person (details supplied). [32798/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/42/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 43,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "43. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be issued for a person (details supplied). [32810/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/43/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 315,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "315. Deputy Paul McAuliffe asked the Minister for Education and Youth the status of and timeline on the progress on the new ASD class for a school (details supplied); and if she will make a statement on the matter. [31919/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/315/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 486,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "486. Deputy Paul McAuliffe asked the Minister for Housing, Local Government and Heritage the latest update on discussions his Department has had with Dublin City Council or the Land Development Agency in relation to the Ballymun Shopping Centre site; and if he will make a statement on the matter. [31856/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/486/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 1229,
+          "department": "Health",
+          "heading": "Substance Misuse",
+          "question": "1229. Deputy Paul McAuliffe asked the Minister for Health if she is aware of a shortage of librium medication that is impacting detox and stabilisation services; and if she will make a statement on the matter. [33227/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1229/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 8,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "8. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the engagements he and his Department have had with local authorities and national sporting bodies to ensure local sports clubs are supported in applying for available grants; and if he will make a statement on the matter. [32806/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/8/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 141,
+          "department": "Defence",
+          "heading": "United Nations",
+          "question": "141. Deputy Paul McAuliffe asked the Minister for Defence if there will be a continued partnership between Ireland and the people of Lebanon, given our longstanding commitment to peace keeping in Lebanon. [32845/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/141/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 352,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "352. Deputy Paul McAuliffe asked the Minister for Social Protection to carry out a review of the disallowance of fuel allowance for a person (details supplied). [33552/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/352/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 479,
+          "department": "Health",
+          "heading": "Healthcare Policy",
+          "question": "479. Deputy Paul McAuliffe asked the Minister for Health if she or her Department have given consideration to targeted financial supports for parents who must rely on feeding formula for babies due medical or other reasons that prevent the safe administration of breastfeeding; and if she will make a statement on the matter. [33527/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/479/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 480,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "480. Deputy Paul McAuliffe asked the Minister for Health if she will review early intervention services, such as tongue tie treatment and other early services for those who might have difficulty in breastfeeding as a means to prevent avoidable barriers to breastfeeding; and if she will make a statement on the matter. [33529/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/480/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 481,
+          "department": "Health",
+          "heading": "Healthcare Policy",
+          "question": "481. Deputy Paul McAuliffe asked the Minister for Health the measures she and her Department have taken to advocate at an EU level for flexibility in the regulation of breastfeeding and the use and sale of baby formula, which can impact vulnerable families that cannot otherwise safely breastfeed; and if she will make a statement on the matter. [33530/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/481/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 547,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "547. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide a list of schools with special classes in Dublin 9 and 11, as this list is not available anywhere on the Department's or the NCSE's website. [34094/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/547/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 983,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "983. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality to provide an update on increasing respite for parents of a person (details supplied) with a view securing a supported residential placement following a transition period. [34754/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/983/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 1016,
+          "department": "Health",
+          "heading": "Hospital Equipment",
+          "question": "1016. Deputy Paul McAuliffe asked the Minister for Health if she is aware of the recent reporting that over 80% of Ireland's radiotherapy machines require immediate or imminent replacement; and if she will make a statement on the matter. [33982/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1016/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 1017,
+          "department": "Health",
+          "heading": "Hospital Equipment",
+          "question": "1017. Deputy Paul McAuliffe asked the Minister for Health her plans to ensure there is adequate provision for cancer patients seeking radiotherapy given recent reports that over 80% of Ireland's radiotherapy machines require immediate or imminent replacement; and if she will make a statement on the matter. [33983/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1017/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 1018,
+          "department": "Health",
+          "heading": "Hospital Equipment",
+          "question": "1018. Deputy Paul McAuliffe asked the Minister for Health her plans to upgrade radiotherapy machines nationwide; and if she will make a statement on the matter. [33984/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1018/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-14",
+          "questionNumber": 20,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "20. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration further to the recent roll-out of high-visibility policing in south and west Dublin, if he will consider a further roll-out of this model to districts K and H, including the urban villages across north Dublin, including Santry, Beaumont, Finglas and Ballymun; and if he will make a statement on the matter. [35729/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/20/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 293,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "293. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport can be expedited for a person (details supplied).; and if she will make a statement on the matter. [37683/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/293/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 703,
+          "department": "Social",
+          "heading": "Social Welfare Payments",
+          "question": "703. Deputy Paul McAuliffe asked the Minister for Social Protection to reinstate the disability allowance payment of a person (details supplied). [37638/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/703/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-20",
+          "questionNumber": 3,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "3. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be issued to a person (details supplied).; and if she will make a statement on the matter. [37949/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/3/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 36,
+          "department": "Foreign",
+          "heading": "Trade Agreements",
+          "question": "36. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the action she is pursuing at EU level with regard to the growing violence and the expansion of settlements in the West Bank; and if she will make a statement on the matter. [38025/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/36/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 62,
+          "department": "Foreign",
+          "heading": "Middle East",
+          "question": "62. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade her views on the situation in the West Bank and the recent measures adopted by the Israeli Government; and if she will make a statement on the matter. [38024/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/62/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 97,
+          "department": "Rural",
+          "heading": "Departmental Programmes",
+          "question": "97. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 518 of 26 March 2026, if he will outline when the new programme will launch to succeed the RAPID programme; and if he will make a statement on the matter. [38009/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/97/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 157,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "157. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport will be expedited in the case of a person (details supplied). [38458/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/157/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 497,
+          "department": "Public Expenditure",
+          "heading": "Office of Public Works",
+          "question": "497. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the future plans for Shanowen Lands, Dublin 9, given it is currently owned by the OPW; and if he will make a statement on the matter. [38837/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/497/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 737,
+          "department": "Social",
+          "heading": "Social Welfare Eligibility",
+          "question": "737. Deputy Paul McAuliffe asked the Minister for Social Protection his position regarding the carer's allowance application by a person (details supplied).; and if he will make a statement on the matter. [38803/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/737/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 771,
+          "department": "Social",
+          "heading": "Pension Provisions",
+          "question": "771. Deputy Paul McAuliffe asked the Minister for Social Protection if a full review of the pension entitlement of a person (details supplied) could be carried out [40172/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/771/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-27",
+          "questionNumber": 11,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "11. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade if a passport application for a person (details supplied) will be expedited.; and if she will make a statement on the matter. [40666/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/11/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-27",
+          "questionNumber": 139,
+          "department": "Social",
+          "heading": "Social Insurance",
+          "question": "139. Deputy Paul McAuliffe asked the Minister for Social Protection if a review of PRSI will be carried out in relation to a person (details supplied); and if he will make a statement on the matter. [40366/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/139/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-27",
+          "questionNumber": 152,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "152. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration the number of Garda reserves recruited in 2024, 2025 and to date in 2026; the areas that they have been allocated to; and if he will make a statement on the matter. [40489/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/152/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 19,
+          "department": "Public Expenditure",
+          "heading": "State Bodies",
+          "question": "19. Deputy Paul McAuliffe asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he or his Department are providing guidance to any additional State agencies for projects that are potentially being written down, given the recent reporting of the €50 million write off of the IT system at Irish Rail; and if he will make a statement on the matter. [40671/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/19/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 131,
+          "department": "Education",
+          "heading": "Youth Services",
+          "question": "131. Deputy Paul McAuliffe asked the Minister for Education and Youth the funding provided to date in 2026 for independent youth projects in Dublin; and if she will make a statement on the matter. [40663/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/131/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 149,
+          "department": "Education",
+          "heading": "Youth Services",
+          "question": "149. Deputy Paul McAuliffe asked the Minister for Education and Youth if her Department is aware of financial constraints currently being experienced by independent youth projects in Dublin in 2026; and if she will make a statement on the matter. [40664/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/149/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 213,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "213. Deputy Paul McAuliffe asked the Minister for Transport the position regarding the progression of approval gate two for the Luas Finglas project; and if he will make a statement on the matter. [40819/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 214,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "214. Deputy Paul McAuliffe asked the Minister for Transport the position regarding the pre-qualification questionnaire for the Luas Finglas project; and if he will make a statement on the matter. [40820/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/214/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 224,
+          "department": "Transport",
+          "heading": "Road Projects",
+          "question": "224. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the five arm junction project in Finglas village, including a timeline. [40960/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/224/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 225,
+          "department": "Transport",
+          "heading": "Road Projects",
+          "question": "225. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the Jamestown roundabout scheme; and if he will make a statement on the matter. [40961/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/225/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 260,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "260. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the construction of the Ballymun to city centre core bus corridor; and if he will make a statement on the matter. [41406/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/260/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 261,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "261. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the Swords to city centre core bus corridor; and if he will make a statement on the matter. [41407/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/261/",
+          "questionType": "written"
         }
       ]
     },
     "oral": {
-      "count": 2,
+      "count": 7,
       "headingOptions": [
         "Bus Services",
+        "Cabinet Committees",
+        "Childcare Services",
+        "Departmental Programmes",
+        "Sports Funding",
+        "Trade Agreements",
         "Urban Development"
       ],
       "insights": {
         "topHeading": "Urban Development",
         "topHeadingCount": 1,
         "topDepartment": "Taoiseach",
-        "topDepartmentCount": 1
+        "topDepartmentCount": 2
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -2437,6 +4329,10 @@
               {
                 "name": "Urban Development",
                 "value": 1
+              },
+              {
+                "name": "Cabinet Committees",
+                "value": 1
               }
             ]
           },
@@ -2445,6 +4341,42 @@
             "children": [
               {
                 "name": "Bus Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Trade Agreements",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Programmes",
                 "value": 1
               }
             ]
@@ -2472,6 +4404,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Cabinet Committees",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "15. Deputy Paul McAuliffe asked the Taoiseach when the Cabinet committee on justice, migration and social affairs will next meet. [14274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/15/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2489,6 +4437,90 @@
                         "name": "97. Deputy Paul McAuliffe asked the Minister for Transport if there are plans to ensure that the NTA and service providers such as Dublin Bus are adhering to punctuality standards for buses across Dublin city, given that, as per the public service obligation contracts annual performance report, many low-frequency Dublin Bus routes did not experience punctuality of above 80%. [15297/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/97/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "129. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress to reduce the cost of childcare to €200 per month per child through the national childcare scheme, as set out in the programme for Government; and if she will make a statement on the matter. [29145/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/129/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "8. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the engagements he and his Department have had with local authorities and national sporting bodies to ensure local sports clubs are supported in applying for available grants; and if he will make a statement on the matter. [32806/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/8/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Trade Agreements",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "36. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the action she is pursuing at EU level with regard to the growing violence and the expansion of settlements in the West Bank; and if she will make a statement on the matter. [38025/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/36/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "97. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 518 of 26 March 2026, if he will outline when the new programme will launch to succeed the RAPID programme; and if he will make a statement on the matter. [38009/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/97/"
                       }
                     ]
                   }
@@ -2515,6 +4547,51 @@
           "heading": "Bus Services",
           "question": "97. Deputy Paul McAuliffe asked the Minister for Transport if there are plans to ensure that the NTA and service providers such as Dublin Bus are adhering to punctuality standards for buses across Dublin city, given that, as per the public service obligation contracts annual performance report, many low-frequency Dublin Bus routes did not experience punctuality of above 80%. [15297/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/97/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-04-15",
+          "questionNumber": 15,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "15. Deputy Paul McAuliffe asked the Taoiseach when the Cabinet committee on justice, migration and social affairs will next meet. [14274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/15/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 129,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "129. Deputy Paul McAuliffe asked the Minister for Children, Disability and Equality the progress to reduce the cost of childcare to €200 per month per child through the national childcare scheme, as set out in the programme for Government; and if she will make a statement on the matter. [29145/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/129/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 8,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "8. Deputy Paul McAuliffe asked the Minister for Culture, Communications and Sport the engagements he and his Department have had with local authorities and national sporting bodies to ensure local sports clubs are supported in applying for available grants; and if he will make a statement on the matter. [32806/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/8/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 36,
+          "department": "Foreign",
+          "heading": "Trade Agreements",
+          "question": "36. Deputy Paul McAuliffe asked the Minister for Foreign Affairs and Trade the action she is pursuing at EU level with regard to the growing violence and the expansion of settlements in the West Bank; and if she will make a statement on the matter. [38025/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/36/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 97,
+          "department": "Rural",
+          "heading": "Departmental Programmes",
+          "question": "97. Deputy Paul McAuliffe asked the Minister for Rural and Community Development and the Gaeltacht further to Parliamentary Question No. 518 of 26 March 2026, if he will outline when the new programme will launch to succeed the RAPID programme; and if he will make a statement on the matter. [38009/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/97/",
           "questionType": "oral"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "year": "2026",
+  "year": 2026,
   "memberCode": "Séamus-McGrath.D.2024-11-29",
   "memberName": "Séamus McGrath",
   "deputy": "Séamus McGrath",
@@ -9,12 +9,14 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Séamus-McGrath.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 69,
+      "count": 114,
       "headingOptions": [
         "Ambulance Service",
         "An Garda Síochána",
         "Animal Slaughtering",
+        "Apprenticeship Programmes",
         "Bus Services",
+        "Cabinet Committees",
         "Córas Iompair Éireann",
         "Covid-19 Pandemic",
         "Crime Prevention",
@@ -22,12 +24,17 @@
         "Departmental Data",
         "Departmental Funding",
         "Departmental Reports",
+        "Departmental Reviews",
         "Departmental Schemes",
+        "Disability Services",
         "Driver Licences",
         "Electric Vehicles",
+        "Electricity Grid",
         "Employment Support Services",
+        "Energy Policy",
         "Flood Relief Schemes",
         "Flood Risk Management",
+        "Food Industry",
         "Foreign Conflicts",
         "Foreign Policy",
         "Grant Payments",
@@ -37,39 +44,52 @@
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
         "Hospital Services",
+        "Hospital Staff",
         "Housing Policy",
         "Housing Schemes",
         "Insurance Coverage",
         "Land Development Agency",
         "Legislative Measures",
+        "Legislative Process",
         "Medical Aids and Appliances",
+        "Medical Cards",
         "National Security",
+        "Naturalisation Applications",
+        "Naval Service",
         "Passport Services",
+        "Pension Provisions",
         "Programme for Government",
+        "Public Appointments Service",
         "Public Sector Pensions",
+        "Public Services Provision",
         "Question Heading for question(s)  680",
         "Revenue Commissioners",
         "Road Safety",
         "School Facilities",
+        "School Staff",
         "School Textbooks",
         "Schools Building Projects",
         "Social Welfare Benefits",
+        "Social Welfare Code",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
         "Special Educational Needs",
         "Sports Funding",
         "Swimming Pools",
         "Tax Code",
+        "Tax Collection",
         "Tax Reliefs",
         "Tax Yield",
+        "Transport Policy",
         "Urban Development",
+        "Vaccination Programme",
         "Work Permits"
       ],
       "insights": {
         "topHeading": "Housing Schemes",
-        "topHeadingCount": 6,
+        "topHeadingCount": 7,
         "topDepartment": "Health",
-        "topDepartmentCount": 15
+        "topDepartmentCount": 22
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -78,8 +98,12 @@
             "name": "Health",
             "children": [
               {
+                "name": "Health Services",
+                "value": 4
+              },
+              {
                 "name": "Hospital Services",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Healthcare Infrastructure Provision",
@@ -95,10 +119,6 @@
               },
               {
                 "name": "Legislative Measures",
-                "value": 1
-              },
-              {
-                "name": "Health Services",
                 "value": 1
               },
               {
@@ -124,6 +144,18 @@
               {
                 "name": "Driver Licences",
                 "value": 1
+              },
+              {
+                "name": "Vaccination Programme",
+                "value": 1
+              },
+              {
+                "name": "Hospital Staff",
+                "value": 1
+              },
+              {
+                "name": "Medical Cards",
+                "value": 1
               }
             ]
           },
@@ -131,16 +163,20 @@
             "name": "Finance",
             "children": [
               {
+                "name": "Tax Reliefs",
+                "value": 4
+              },
+              {
+                "name": "Tax Code",
+                "value": 2
+              },
+              {
                 "name": "Housing Schemes",
                 "value": 2
               },
               {
-                "name": "Tax Reliefs",
+                "name": "Departmental Data",
                 "value": 2
-              },
-              {
-                "name": "Tax Code",
-                "value": 1
               },
               {
                 "name": "Revenue Commissioners",
@@ -155,32 +191,15 @@
                 "value": 1
               },
               {
-                "name": "Departmental Data",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "value": 4
-              },
-              {
-                "name": "Grant Payments",
+                "name": "Departmental Schemes",
                 "value": 1
               },
               {
-                "name": "Housing Policy",
+                "name": "Departmental Reviews",
                 "value": 1
               },
               {
-                "name": "Land Development Agency",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Eligibility",
+                "name": "Tax Collection",
                 "value": 1
               }
             ]
@@ -190,7 +209,11 @@
             "children": [
               {
                 "name": "Schools Building Projects",
-                "value": 3
+                "value": 6
+              },
+              {
+                "name": "Special Educational Needs",
+                "value": 2
               },
               {
                 "name": "School Textbooks",
@@ -205,7 +228,36 @@
                 "value": 1
               },
               {
-                "name": "Special Educational Needs",
+                "name": "School Staff",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "value": 5
+              },
+              {
+                "name": "Housing Policy",
+                "value": 2
+              },
+              {
+                "name": "Grant Payments",
+                "value": 1
+              },
+              {
+                "name": "Land Development Agency",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -214,11 +266,15 @@
             "name": "Transport",
             "children": [
               {
-                "name": "Departmental Schemes",
-                "value": 1
+                "name": "Bus Services",
+                "value": 2
               },
               {
-                "name": "Bus Services",
+                "name": "Transport Policy",
+                "value": 2
+              },
+              {
+                "name": "Departmental Schemes",
                 "value": 1
               },
               {
@@ -236,6 +292,10 @@
               {
                 "name": "Driver Licences",
                 "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
               }
             ]
           },
@@ -244,7 +304,7 @@
             "children": [
               {
                 "name": "Sports Funding",
-                "value": 1
+                "value": 3
               },
               {
                 "name": "Swimming Pools",
@@ -256,6 +316,65 @@
               },
               {
                 "name": "Departmental Funding",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Flood Relief Schemes",
+                "value": 2
+              },
+              {
+                "name": "Flood Risk Management",
+                "value": 1
+              },
+              {
+                "name": "Public Services Provision",
+                "value": 1
+              },
+              {
+                "name": "Public Appointments Service",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "value": 1
+              },
+              {
+                "name": "Employment Support Services",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Code",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Work Permits",
+                "value": 2
+              },
+              {
+                "name": "Legislative Process",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
                 "value": 1
               }
             ]
@@ -273,6 +392,65 @@
               },
               {
                 "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Cabinet Committees",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "value": 2
+              },
+              {
+                "name": "Crime Prevention",
+                "value": 1
+              },
+              {
+                "name": "Naturalisation Applications",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 2
+              },
+              {
+                "name": "National Security",
+                "value": 1
+              },
+              {
+                "name": "Naval Service",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "Grant Payments",
+                "value": 1
+              },
+              {
+                "name": "Energy Policy",
+                "value": 1
+              },
+              {
+                "name": "Electricity Grid",
                 "value": 1
               }
             ]
@@ -295,88 +473,32 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Flood Relief Schemes",
-                "value": 2
-              },
-              {
-                "name": "Flood Risk Management",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Payments",
-                "value": 1
-              },
-              {
-                "name": "Employment Support Services",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Crime Prevention",
-                "value": 1
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 1
-              },
-              {
-                "name": "National Security",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Departmental Schemes",
-                "value": 1
-              },
-              {
-                "name": "Grant Payments",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Work Permits",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
                 "name": "Animal Slaughtering",
+                "value": 1
+              },
+              {
+                "name": "Food Industry",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Apprenticeship Programmes",
                 "value": 1
               }
             ]
@@ -389,6 +511,43 @@
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2747. Deputy Séamus McGrath asked the Minister for Health if her attention has been drawn to the barriers currently faced by patients living with lipoedema, including the absence of a published national HSE care pathway, limited access to conservative management such as compression therapy and manual lymphatic drainage, and delays or difficulties accessing treatment through the cross-Border healthcare directive; the steps her Department and the HSE are taking to address these issues; and if she will make a statement on the matter. [23992/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2747/"
+                      },
+                      {
+                        "name": "2748. Deputy Séamus McGrath asked the Minister for Health whether the HSE working group established in 2023 to develop a national care pathway for lipoedema has completed its work; when the pathway is expected to be published; and whether patient advocacy organisations, including the Lipoedema Support Network Ireland, will be included in the development and implementation of this pathway. [23993/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2748/"
+                      },
+                      {
+                        "name": "2749. Deputy Séamus McGrath asked the Minister for Health if her Department intends to review the operation of private health insurers in relation to coverage for medically indicated liposuction procedures for lipoedema patients, in light of concerns regarding inconsistent decision-making, the use of criteria designed for lymphoedema rather than lipoedema, and practices that may result in patients being forced to rely on the cross-Border directive for treatment. [23994/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2749/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "95. Deputy Séamus McGrath asked the Minister for Health the number of procedures funded through the cross-Border directive scheme in 2025, by the countries in which the procedures were carried out, the categorisation of the procedure type and the amount spent in each country. [17510/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/95/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Hospital Services",
                 "children": [
@@ -411,6 +570,17 @@
                         "name": "352. Deputy Séamus McGrath asked the Minister for Health to provide an update on the provision of an autologous stem cell transplant centre for Cork University Hospital, Cork. [22616/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/352/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "215. Deputy Séamus McGrath asked the Minister for Health the plans in place to expand acute bed capacity at Cork University Hospital; and if she will make a statement on the matter. [28380/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/215/"
                       }
                     ]
                   }
@@ -497,22 +667,6 @@
                         "name": "291. Deputy Séamus McGrath asked the Minister for Health when it is intended to fully implement the Health (Assisted Human Reproduction) Act 2024; and if she will make a statement on the matter. [13186/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/291/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "95. Deputy Séamus McGrath asked the Minister for Health the number of procedures funded through the cross-Border directive scheme in 2025, by the countries in which the procedures were carried out, the categorisation of the procedure type and the amount spent in each country. [17510/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/95/"
                       }
                     ]
                   }
@@ -613,6 +767,54 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Vaccination Programme",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2770. Deputy Séamus McGrath asked the Minister for Health her plans to assist the small number of people who may have had adverse reactions to Covid-19 vaccines; and whether there have been any discussions with vaccine manufacturers or indemnities provided in relation to adverse reactions from those vaccines. [24117/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2770/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2935. Deputy Séamus McGrath asked the Minister for Health the number of staff (WTE) employed in Cork University Maternity Hospital in February 2026 and for December 2019 in the following three categories, Medical/Dental; Nursing/Midwifery, in tabular form. [24844/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2935/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medical Cards",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "189. Deputy Séamus McGrath asked the Minister for Health the number of persons currently availing of GP cards in Cork South Lee; the way this compares to 2020; and if she will make a statement on the matter. [28379/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/189/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -620,35 +822,24 @@
             "name": "Finance",
             "children": [
               {
-                "name": "Housing Schemes",
+                "name": "Tax Reliefs",
                 "children": [
                   {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
                     "children": [
                       {
-                        "name": "407. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to consider amending the help-to-buy scheme to reduce the 70% rule whereby a purchaser must be borrowing 70% of the purchase price of the house (details supplied). [4370/26]",
+                        "name": "404. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to provide an update on the reform of the disabled driver's and disabled passengers (tax concessions) scheme including a timeline on when a new scheme will be put in place. [30313/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/407/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/404/"
+                      },
+                      {
+                        "name": "405. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance if he will review the primary medical certificate scheme, and the impact it has on children with lifelong neurological conditions; and if he will make a statement on the matter. [30343/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/405/"
                       }
                     ]
                   },
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "205. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance if he will increase the house price ceiling to qualify for the help-to-buy-scheme. [10093/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/205/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Reliefs",
-                "children": [
                   {
                     "name": "Tuesday, 10 February",
                     "date_iso": "2026-02-10",
@@ -684,6 +875,71 @@
                         "name": "851. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance if the Revenue Commissioners insist on the 1% stamp duty rate on new residential properties being applied to the selling price of the new property as opposed to the selling price minus the 13.5% VAT rate (details supplied); and the procedure that is in place to ensure reimbursement of the overpayment of stamp duty. [1350/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/851/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "247. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to allow the Fresh Start principle to apply to the help-to-buy scheme. [26358/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/247/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "407. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to consider amending the help-to-buy scheme to reduce the 70% rule whereby a purchaser must be borrowing 70% of the purchase price of the house (details supplied). [4370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/407/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "205. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance if he will increase the house price ceiling to qualify for the help-to-buy-scheme. [10093/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/205/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "400. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to provide details in relation to levies applied to ESB worker pensions during the financial crash; whether these levies are still being applied; and if it is intended to end them at a future point. [9393/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/400/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 13 May",
+                    "date_iso": "2026-05-13",
+                    "children": [
+                      {
+                        "name": "41. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to outline the current value of the national debt; the amount the debt has reduced in the past three years; and how much interest has been paid servicing the debt in each of the years 2023, 2024 and 2025. [35471/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/41/"
                       }
                     ]
                   }
@@ -738,16 +994,209 @@
                 ]
               },
               {
-                "name": "Departmental Data",
+                "name": "Departmental Schemes",
                 "children": [
                   {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
                     "children": [
                       {
-                        "name": "400. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to provide details in relation to levies applied to ESB worker pensions during the financial crash; whether these levies are still being applied; and if it is intended to end them at a future point. [9393/26]",
+                        "name": "413. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance the number of help-to-buy claims approved since July 2020, by county; the number of applicants associated with these claims; the number of claims by homebuyers excluding self-builds, by county; and the number of these claims relating to purchases [29813/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/400/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/413/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "403. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to immediately review and expand the applicable area for the Living City Initiative in Cork city. [37439/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/403/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Collection",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "186. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance the amount that was collected in USC in 2025, broken down by income brackets with a range of ten thousand, for example, €10,000 - €20,000, €20,000 to €30,000 and so on. [39797/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/186/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "455. Deputy Séamus McGrath asked the Minister for Education and Youth for an update regarding the proposed building extension for a school (details supplied). [33310/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/455/"
+                      },
+                      {
+                        "name": "456. Deputy Séamus McGrath asked the Minister for Education and Youth to provide an update in relation to a new school building project (details supplied); and if the Stage 1 Addendum Report has been fully assessed. [33313/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/456/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "570. Deputy Séamus McGrath asked the Minister for Education and Youth for an update on the commencement of building works for the new Cork Educate Together Secondary School. [4292/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/570/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "719. Deputy Séamus McGrath asked the Minister for Education and Youth the position regarding the proposed building extension for a school (details supplied). [18994/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/719/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "89. Deputy Séamus McGrath asked the Minister for Education and Youth for an update on the proposed building extension for a school (details supplied) [22613/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/89/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "537. Deputy Séamus McGrath asked the Minister for Education and Youth for an update on the proposed building extension for a school (details supplied). [33985/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/537/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "874. Deputy Séamus McGrath asked the Minister for Education and Youth the position regarding a school in Cork City to accommodate children with additional educational needs (details supplied). [20240/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/874/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "551. Deputy Séamus McGrath asked the Minister for Education and Youth to review the education approach or policy regarding neurodivergent children in relation to points highlighted in correspondence (details supplied). [34120/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/551/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Textbooks",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1233. Deputy Séamus McGrath asked the Minister for Education and Youth if the schoolbooks scheme can be examined to take account of schools, particularly post-primary schools, that use chromebooks; and if she will make a statement on the matter. [1691/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1233/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Facilities",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "341. Deputy Séamus McGrath asked the Minister for Education and Youth if she will provide an update on the approved modular buildings for a school in Cork city (details supplied); and if she will make a statement on the matter. [11120/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/341/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Question Heading for question(s)  680",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "680. Deputy Séamus McGrath asked the Minister for Education and Youth to provide an update on the issues raised in relation to a school (details supplied). [12554/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/680/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "554. Deputy Séamus McGrath asked the Minister for Education and Youth if a decision to remove a teaching post for the school year 2026/2027 from a school (details supplied) can be reversed. [34176/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/554/"
                       }
                     ]
                   }
@@ -804,20 +1253,15 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1068/"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "Grant Payments",
-                "children": [
+                  },
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
                     "children": [
                       {
-                        "name": "1408. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage in view of the ban on new boilers under the older person grant, if he will revise the grant scheme to allow for other forms of heating systems, such as electric heaters, to be installed. [74861/25]",
+                        "name": "212. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to undertake a fundamental review of the Local Authority Home Loan to make it more widely accessible. [37497/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1408/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/212/"
                       }
                     ]
                   }
@@ -834,6 +1278,33 @@
                         "name": "219. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to review upwards the social housing qualifying income limits. [4550/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/219/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "167. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to outline a timeframe for the upward revision of social housing qualifying income limits. [37496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/167/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Grant Payments",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1408. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage in view of the ban on new boilers under the older person grant, if he will revise the grant scheme to allow for other forms of heating systems, such as electric heaters, to be installed. [74861/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1408/"
                       }
                     ]
                   }
@@ -870,109 +1341,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Schools Building Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "570. Deputy Séamus McGrath asked the Minister for Education and Youth for an update on the commencement of building works for the new Cork Educate Together Secondary School. [4292/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/570/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "719. Deputy Séamus McGrath asked the Minister for Education and Youth the position regarding the proposed building extension for a school (details supplied). [18994/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/719/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "89. Deputy Séamus McGrath asked the Minister for Education and Youth for an update on the proposed building extension for a school (details supplied) [22613/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/89/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "School Textbooks",
+                "name": "Departmental Schemes",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
                     "children": [
                       {
-                        "name": "1233. Deputy Séamus McGrath asked the Minister for Education and Youth if the schoolbooks scheme can be examined to take account of schools, particularly post-primary schools, that use chromebooks; and if she will make a statement on the matter. [1691/26]",
+                        "name": "595. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to clarify the treatment of AVC pension contributions in the calculation of rent under the differential rent scheme (details supplied). [36752/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1233/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Facilities",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "341. Deputy Séamus McGrath asked the Minister for Education and Youth if she will provide an update on the approved modular buildings for a school in Cork city (details supplied); and if she will make a statement on the matter. [11120/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/341/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Question Heading for question(s)  680",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "680. Deputy Séamus McGrath asked the Minister for Education and Youth to provide an update on the issues raised in relation to a school (details supplied). [12554/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/680/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "874. Deputy Séamus McGrath asked the Minister for Education and Youth the position regarding a school in Cork City to accommodate children with additional educational needs (details supplied). [20240/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/874/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/595/"
                       }
                     ]
                   }
@@ -984,22 +1364,6 @@
             "name": "Transport",
             "children": [
               {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "53. Deputy Séamus McGrath asked the Minister for Transport to reform the application system under the electric small public service vehicle (eSPSV25) grant scheme; and to prioritise applications based on the age of the vehicle being replaced. [10912/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/53/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Bus Services",
                 "children": [
                   {
@@ -1010,6 +1374,60 @@
                         "name": "133. Deputy Séamus McGrath asked the Minister for Transport to provide a full update on Cork BusConnects, and the shorter term plans to improve the reliability of the bus service in Cork city and suburbs. [15514/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/133/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "223. Deputy Séamus McGrath asked the Minister for Transport the details of his engagement with the NTA in relation to the ongoing reliability issues with the local bus service in Cork; and the plans to address these longstanding issues. [31531/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/223/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "224. Deputy Séamus McGrath asked the Minister for Transport to provide an update on plans to establish a strategic, integrated transport office in Cork. [31532/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/224/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "326. Deputy Séamus McGrath asked the Minister for Transport if he intends to formulate a policy on the use of drones for delivery purposes [34183/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/326/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "53. Deputy Séamus McGrath asked the Minister for Transport to reform the application system under the electric small public service vehicle (eSPSV25) grant scheme; and to prioritise applications based on the age of the vehicle being replaced. [10912/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/53/"
                       }
                     ]
                   }
@@ -1078,6 +1496,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "197. Deputy Séamus McGrath asked the Minister for Transport to provide an up to date status on the CIÉ superannuation scheme, in particular in relation to the governance procedures in Circular 16/21 of 30/07/2021 (details supplied) on Code of Practice for the governance of State Bodies. [27689/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/197/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1095,6 +1529,28 @@
                         "name": "170. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when the next Large Scale Sport Infrastructure Fund application process will commence. [4067/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/170/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "144. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport the funding streams available for a young chess player (details supplied [22750/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/144/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "16. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when he hopes to open up the community sport facilities fund and the large-scale sports infrastructure fund for applications. [33164/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/16/"
                       }
                     ]
                   }
@@ -1151,6 +1607,224 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Flood Relief Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "461. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to outline the full set of stages of a flood relief scheme from inception to construction; the total number of projects at a point between stage 1 and the final stage, including all schemes managed by the OPW or local authorities; the estimated cost of the entirety of these projects; and the average timeline from stage 1 to construction. [9849/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/461/"
+                      },
+                      {
+                        "name": "462. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a full update on the Ballinhassig flood relief scheme; the estimated timeline for the commencement of the planning process; and the estimated cost of the project. [9881/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/462/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flood Risk Management",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "57. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to consider the establishment of a national flood agency to have a sole focus on the State's approach to flood management and progressing flood relief schemes. [10780/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/57/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Services Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "20. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to review the accessibility of public services for older people, particularly those with limited IT literacy given that increasingly services are moving online with limited telephone or face-to-face contact available. [26361/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/20/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Appointments Service",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "263. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to clarify the procedure when the Commission for Public Service Appointments finds that the Public Appointments Service has made a flawed decision (details supplied). [32587/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/263/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "9. Deputy Séamus McGrath asked the Minister for Social Protection to increase the living alone allowance in recognition of the significantly lower income available to qualifying single householders relative to couples. [15159/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/9/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "351. Deputy Séamus McGrath asked the Minister for Social Protection to provide an update on the plans to introduce the higher qualifying income limits for carer’s allowance from July 2026; and when and the way in which applications should be submitted. [31538/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/351/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "743. Deputy Séamus McGrath asked the Minister for Social Protection if the homeowner's once-off payment will be open for applications this year (details supplied). [9356/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/743/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Employment Support Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1173. Deputy Séamus McGrath asked the Minister for Social Protection to provide an update on the funding of a training course for a person (details supplied) by her Department and Turas Nua. [18857/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1173/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "751. Deputy Séamus McGrath asked the Minister for Social Protection to review the impact of leave in addition to maternity leave [34182/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/751/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Work Permits",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "140. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment for an update on the review in relation to work visa arrangements for individuals in high-demand roles, such as in the STEM area - in particular, the rule that an employer must employ at least 50% of non-national workers from the EEA; and if he will make a statement on the matter. [1717/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/140/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "139. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment his plans to review the work visa arrangements for persons in high demand roles, such as in the STEM area, in particular, the rule that an employer must employ at least 50% of non-national workers from the EEA. [30075/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/139/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Process",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "234. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment when the Employment (Contractual Retirement Ages) Act 2025 will commence. [27692/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/234/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "279. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment to provide an update on the Industrial Relations Provisions in Respect of Pension Entitlements of Retired Workers Bill 2021 (details supplied). [33236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/279/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Taoiseach",
             "children": [
               {
@@ -1196,6 +1870,219 @@
                         "name": "3. Deputy Séamus McGrath asked the Taoiseach for an update regarding the programme for Government. [71593/25]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/3/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cabinet Committees",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "1. Deputy Séamus McGrath asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [12360/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "40. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration the number of civilian staff employed by An Garda Síochána in each of the years 2023 to 2025; and to provide an update on recruitment for 2026 given civilian staff can play a significant role in keeping Garda stations open and accessible. [20578/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/40/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "62. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration the current number of members of An Garda Síochána; the overall number at the end of 2023, 2024 and 2025; and the equivalent figures for civilian support staff. [35702/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/62/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Crime Prevention",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "212. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration for an update on the commitment in the Programme for Government to introduce stronger laws to combat the spiking of drinks. [6089/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/212/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naturalisation Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "820. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration to provide an update on a certificate of naturalisation application (details supplied); the reason the applicant was recently advised that their application has been closed because they failed to submit documents which his Department says were requested, though the applicant maintains they received no such request. [30025/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/820/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "184. Deputy Séamus McGrath asked the Minister for Defence the current shortfall in staffing levels across the Defence Forces; the timeframe to reach the targeting staffing levels; and the way in which the staffing shortfall impacts on our national security. [12370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/184/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "334. Deputy Séamus McGrath asked the Minister for Defence to amend the regulations governing entry to the first line reserve Defence Forces to address the issues in correspondence (details supplied) [30942/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/334/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Security",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "227. Deputy Séamus McGrath asked the Minister for Defence the threat level to our maritime security; and the plans in place to defend against this threat. [12371/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/227/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naval Service",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "179. Deputy Séamus McGrath asked the Minister for Defence if she will review and outline the process for joining the First Line Reserve of the Naval Service, in particular in relation to the regulation governing age limits for entry to the First Line Reserve and if these can be amended; and if she will make a statement on the matter. [27708/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/179/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "175. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment the total number of applicants for the warner homes scheme; the current average wait time from application date to completion of works; and to also outline these figures specifically for the Cork region. [14628/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/175/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Grant Payments",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "84. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment if he would support the continuation of the reverse vending machine grants under the Re-Turn scheme for retailers who set up business after the end of 2025 deadline. [18996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/84/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "108. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment for an update on his work on the Programme for Government commitment to explore if legislation could be enacted to divert surplus renewable energy that would otherwise be wasted to homes in fuel poverty; and if he will make a statement on the matter. [27349/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/108/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electricity Grid",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "135. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment if he has had discussions with his Spanish counterpart in relation to the possibility of an interconnection project between our two countries; and if he will make a statement on the matter. [27348/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/135/"
                       }
                     ]
                   }
@@ -1257,233 +2144,6 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Flood Relief Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "461. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to outline the full set of stages of a flood relief scheme from inception to construction; the total number of projects at a point between stage 1 and the final stage, including all schemes managed by the OPW or local authorities; the estimated cost of the entirety of these projects; and the average timeline from stage 1 to construction. [9849/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/461/"
-                      },
-                      {
-                        "name": "462. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a full update on the Ballinhassig flood relief scheme; the estimated timeline for the commencement of the planning process; and the estimated cost of the project. [9881/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/462/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Flood Risk Management",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "57. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to consider the establishment of a national flood agency to have a sole focus on the State's approach to flood management and progressing flood relief schemes. [10780/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/57/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "743. Deputy Séamus McGrath asked the Minister for Social Protection if the homeowner's once-off payment will be open for applications this year (details supplied). [9356/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/743/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "9. Deputy Séamus McGrath asked the Minister for Social Protection to increase the living alone allowance in recognition of the significantly lower income available to qualifying single householders relative to couples. [15159/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/9/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Employment Support Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1173. Deputy Séamus McGrath asked the Minister for Social Protection to provide an update on the funding of a training course for a person (details supplied) by her Department and Turas Nua. [18857/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1173/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Crime Prevention",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "212. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration for an update on the commitment in the Programme for Government to introduce stronger laws to combat the spiking of drinks. [6089/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/212/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "40. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration the number of civilian staff employed by An Garda Síochána in each of the years 2023 to 2025; and to provide an update on recruitment for 2026 given civilian staff can play a significant role in keeping Garda stations open and accessible. [20578/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/40/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "184. Deputy Séamus McGrath asked the Minister for Defence the current shortfall in staffing levels across the Defence Forces; the timeframe to reach the targeting staffing levels; and the way in which the staffing shortfall impacts on our national security. [12370/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/184/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Security",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "227. Deputy Séamus McGrath asked the Minister for Defence the threat level to our maritime security; and the plans in place to defend against this threat. [12371/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/227/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "175. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment the total number of applicants for the warner homes scheme; the current average wait time from application date to completion of works; and to also outline these figures specifically for the Cork region. [14628/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/175/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Grant Payments",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "84. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment if he would support the continuation of the reverse vending machine grants under the Re-Turn scheme for retailers who set up business after the end of 2025 deadline. [18996/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/84/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Work Permits",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "140. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment for an update on the review in relation to work visa arrangements for individuals in high-demand roles, such as in the STEM area - in particular, the rule that an employer must employ at least 50% of non-national workers from the EEA; and if he will make a statement on the matter. [1717/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/140/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -1497,6 +2157,64 @@
                         "name": "265. Deputy Séamus McGrath asked the Minister for Agriculture, Food and the Marine to clarify if non-stun slaughter is permitted in Ireland; and if so, the circumstances; and his plans to ban non-stun slaughter outright in Ireland. [10893/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/265/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2197. Deputy Séamus McGrath asked the Minister for Agriculture, Food and the Marine regarding the derogation on religious grounds under article 4 of EU Regulation 1099/2009, whereby animals may be slaughtered using non-stun methods in Ireland, whether a specific permission was sought on each occasion; and the number of times this derogation has been used/invoked in the year 2025. [24187/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2197/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "205. Deputy Séamus McGrath asked the Minister for Children, Disability and Equality the waiting list in each area for residential care places for adults with disabilities; the average waiting times; and the plan in place to significantly increase availability. [17511/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/205/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Apprenticeship Programmes",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "1250. Deputy Séamus McGrath asked the Minister for Further and Higher Education, Research, Innovation and Science the way in which a young self-employed landscaper can become a fully qualified arborist (details supplied) ; if they can be allowed to avail of the State-funded grants and training pathways such as Solas/ETB; and if he will make a statement on the matter. [33270/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1250/"
                       }
                     ]
                   }
@@ -2121,30 +2839,438 @@
         },
         {
           "date_iso": "2026-03-25",
+          "questionNumber": 144,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "144. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport the funding streams available for a young chess player (details supplied [22750/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/144/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-03-25",
           "questionNumber": 352,
           "department": "Health",
           "heading": "Hospital Services",
           "question": "352. Deputy Séamus McGrath asked the Minister for Health to provide an update on the provision of an autologous stem cell transplant centre for Cork University Hospital, Cork. [22616/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/352/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2197,
+          "department": "Agriculture",
+          "heading": "Food Industry",
+          "question": "2197. Deputy Séamus McGrath asked the Minister for Agriculture, Food and the Marine regarding the derogation on religious grounds under article 4 of EU Regulation 1099/2009, whereby animals may be slaughtered using non-stun methods in Ireland, whether a specific permission was sought on each occasion; and the number of times this derogation has been used/invoked in the year 2025. [24187/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2197/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2747,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "2747. Deputy Séamus McGrath asked the Minister for Health if her attention has been drawn to the barriers currently faced by patients living with lipoedema, including the absence of a published national HSE care pathway, limited access to conservative management such as compression therapy and manual lymphatic drainage, and delays or difficulties accessing treatment through the cross-Border healthcare directive; the steps her Department and the HSE are taking to address these issues; and if she will make a statement on the matter. [23992/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2747/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2748,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "2748. Deputy Séamus McGrath asked the Minister for Health whether the HSE working group established in 2023 to develop a national care pathway for lipoedema has completed its work; when the pathway is expected to be published; and whether patient advocacy organisations, including the Lipoedema Support Network Ireland, will be included in the development and implementation of this pathway. [23993/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2748/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2749,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "2749. Deputy Séamus McGrath asked the Minister for Health if her Department intends to review the operation of private health insurers in relation to coverage for medically indicated liposuction procedures for lipoedema patients, in light of concerns regarding inconsistent decision-making, the use of criteria designed for lymphoedema rather than lipoedema, and practices that may result in patients being forced to rely on the cross-Border directive for treatment. [23994/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2749/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2770,
+          "department": "Health",
+          "heading": "Vaccination Programme",
+          "question": "2770. Deputy Séamus McGrath asked the Minister for Health her plans to assist the small number of people who may have had adverse reactions to Covid-19 vaccines; and whether there have been any discussions with vaccine manufacturers or indemnities provided in relation to adverse reactions from those vaccines. [24117/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2770/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2935,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "2935. Deputy Séamus McGrath asked the Minister for Health the number of staff (WTE) employed in Cork University Maternity Hospital in February 2026 and for December 2019 in the following three categories, Medical/Dental; Nursing/Midwifery, in tabular form. [24844/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2935/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-15",
+          "questionNumber": 197,
+          "department": "Transport",
+          "heading": "Pension Provisions",
+          "question": "197. Deputy Séamus McGrath asked the Minister for Transport to provide an up to date status on the CIÉ superannuation scheme, in particular in relation to the governance procedures in Circular 16/21 of 30/07/2021 (details supplied) on Code of Practice for the governance of State Bodies. [27689/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/197/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-15",
+          "questionNumber": 234,
+          "department": "Enterprise",
+          "heading": "Legislative Process",
+          "question": "234. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment when the Employment (Contractual Retirement Ages) Act 2025 will commence. [27692/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/234/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 20,
+          "department": "Public Expenditure",
+          "heading": "Public Services Provision",
+          "question": "20. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to review the accessibility of public services for older people, particularly those with limited IT literacy given that increasingly services are moving online with limited telephone or face-to-face contact available. [26361/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/20/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 108,
+          "department": "Climate",
+          "heading": "Energy Policy",
+          "question": "108. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment for an update on his work on the Programme for Government commitment to explore if legislation could be enacted to divert surplus renewable energy that would otherwise be wasted to homes in fuel poverty; and if he will make a statement on the matter. [27349/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/108/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 135,
+          "department": "Climate",
+          "heading": "Electricity Grid",
+          "question": "135. Deputy Séamus McGrath asked the Minister for Climate, Energy and the Environment if he has had discussions with his Spanish counterpart in relation to the possibility of an interconnection project between our two countries; and if he will make a statement on the matter. [27348/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/135/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-16",
+          "questionNumber": 179,
+          "department": "Defence",
+          "heading": "Naval Service",
+          "question": "179. Deputy Séamus McGrath asked the Minister for Defence if she will review and outline the process for joining the First Line Reserve of the Naval Service, in particular in relation to the regulation governing age limits for entry to the First Line Reserve and if these can be amended; and if she will make a statement on the matter. [27708/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/179/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 189,
+          "department": "Health",
+          "heading": "Medical Cards",
+          "question": "189. Deputy Séamus McGrath asked the Minister for Health the number of persons currently availing of GP cards in Cork South Lee; the way this compares to 2020; and if she will make a statement on the matter. [28379/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/189/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 215,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "215. Deputy Séamus McGrath asked the Minister for Health the plans in place to expand acute bed capacity at Cork University Hospital; and if she will make a statement on the matter. [28380/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/215/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 247,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "247. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to allow the Fresh Start principle to apply to the help-to-buy scheme. [26358/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/247/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 205,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "205. Deputy Séamus McGrath asked the Minister for Children, Disability and Equality the waiting list in each area for residential care places for adults with disabilities; the average waiting times; and the plan in place to significantly increase availability. [17511/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/205/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 139,
+          "department": "Enterprise",
+          "heading": "Work Permits",
+          "question": "139. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment his plans to review the work visa arrangements for persons in high demand roles, such as in the STEM area, in particular, the rule that an employer must employ at least 50% of non-national workers from the EEA. [30075/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/139/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 334,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "334. Deputy Séamus McGrath asked the Minister for Defence to amend the regulations governing entry to the first line reserve Defence Forces to address the issues in correspondence (details supplied) [30942/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/334/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 404,
+          "department": "Finance",
+          "heading": "Tax Reliefs",
+          "question": "404. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to provide an update on the reform of the disabled driver's and disabled passengers (tax concessions) scheme including a timeline on when a new scheme will be put in place. [30313/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/404/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 405,
+          "department": "Finance",
+          "heading": "Tax Reliefs",
+          "question": "405. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance if he will review the primary medical certificate scheme, and the impact it has on children with lifelong neurological conditions; and if he will make a statement on the matter. [30343/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/405/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 413,
+          "department": "Finance",
+          "heading": "Departmental Schemes",
+          "question": "413. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance the number of help-to-buy claims approved since July 2020, by county; the number of applicants associated with these claims; the number of claims by homebuyers excluding self-builds, by county; and the number of these claims relating to purchases [29813/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/413/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 820,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "820. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration to provide an update on a certificate of naturalisation application (details supplied); the reason the applicant was recently advised that their application has been closed because they failed to submit documents which his Department says were requested, though the applicant maintains they received no such request. [30025/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/820/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 223,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "223. Deputy Séamus McGrath asked the Minister for Transport the details of his engagement with the NTA in relation to the ongoing reliability issues with the local bus service in Cork; and the plans to address these longstanding issues. [31531/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/223/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 224,
+          "department": "Transport",
+          "heading": "Transport Policy",
+          "question": "224. Deputy Séamus McGrath asked the Minister for Transport to provide an update on plans to establish a strategic, integrated transport office in Cork. [31532/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/224/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 351,
+          "department": "Social",
+          "heading": "Social Welfare Payments",
+          "question": "351. Deputy Séamus McGrath asked the Minister for Social Protection to provide an update on the plans to introduce the higher qualifying income limits for carer’s allowance from July 2026; and when and the way in which applications should be submitted. [31538/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/351/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 263,
+          "department": "Public Expenditure",
+          "heading": "Public Appointments Service",
+          "question": "263. Deputy Séamus McGrath asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to clarify the procedure when the Commission for Public Service Appointments finds that the Public Appointments Service has made a flawed decision (details supplied). [32587/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/263/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 279,
+          "department": "Enterprise",
+          "heading": "Pension Provisions",
+          "question": "279. Deputy Séamus McGrath asked the Minister for Enterprise, Tourism and Employment to provide an update on the Industrial Relations Provisions in Respect of Pension Entitlements of Retired Workers Bill 2021 (details supplied). [33236/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/279/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 455,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "455. Deputy Séamus McGrath asked the Minister for Education and Youth for an update regarding the proposed building extension for a school (details supplied). [33310/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/455/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 456,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "456. Deputy Séamus McGrath asked the Minister for Education and Youth to provide an update in relation to a new school building project (details supplied); and if the Stage 1 Addendum Report has been fully assessed. [33313/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/456/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 1250,
+          "department": "Further and Higher Education",
+          "heading": "Apprenticeship Programmes",
+          "question": "1250. Deputy Séamus McGrath asked the Minister for Further and Higher Education, Research, Innovation and Science the way in which a young self-employed landscaper can become a fully qualified arborist (details supplied) ; if they can be allowed to avail of the State-funded grants and training pathways such as Solas/ETB; and if he will make a statement on the matter. [33270/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1250/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 16,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "16. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when he hopes to open up the community sport facilities fund and the large-scale sports infrastructure fund for applications. [33164/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/16/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 326,
+          "department": "Transport",
+          "heading": "Transport Policy",
+          "question": "326. Deputy Séamus McGrath asked the Minister for Transport if he intends to formulate a policy on the use of drones for delivery purposes [34183/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/326/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 537,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "537. Deputy Séamus McGrath asked the Minister for Education and Youth for an update on the proposed building extension for a school (details supplied). [33985/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/537/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 551,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "551. Deputy Séamus McGrath asked the Minister for Education and Youth to review the education approach or policy regarding neurodivergent children in relation to points highlighted in correspondence (details supplied). [34120/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/551/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 554,
+          "department": "Education",
+          "heading": "School Staff",
+          "question": "554. Deputy Séamus McGrath asked the Minister for Education and Youth if a decision to remove a teaching post for the school year 2026/2027 from a school (details supplied) can be reversed. [34176/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/554/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 751,
+          "department": "Social",
+          "heading": "Social Welfare Code",
+          "question": "751. Deputy Séamus McGrath asked the Minister for Social Protection to review the impact of leave in addition to maternity leave [34182/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/751/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-13",
+          "questionNumber": 41,
+          "department": "Finance",
+          "heading": "Departmental Data",
+          "question": "41. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to outline the current value of the national debt; the amount the debt has reduced in the past three years; and how much interest has been paid servicing the debt in each of the years 2023, 2024 and 2025. [35471/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/41/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-14",
+          "questionNumber": 62,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "62. Deputy Séamus McGrath asked the Minister for Justice, Home Affairs and Migration the current number of members of An Garda Síochána; the overall number at the end of 2023, 2024 and 2025; and the equivalent figures for civilian support staff. [35702/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/62/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 167,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "167. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to outline a timeframe for the upward revision of social housing qualifying income limits. [37496/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/167/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 212,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "212. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to undertake a fundamental review of the Local Authority Home Loan to make it more widely accessible. [37497/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/212/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 403,
+          "department": "Finance",
+          "heading": "Departmental Reviews",
+          "question": "403. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance to immediately review and expand the applicable area for the Living City Initiative in Cork city. [37439/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/403/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 595,
+          "department": "Housing",
+          "heading": "Departmental Schemes",
+          "question": "595. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to clarify the treatment of AVC pension contributions in the calculation of rent under the differential rent scheme (details supplied). [36752/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/595/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 1,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "1. Deputy Séamus McGrath asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [12360/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 186,
+          "department": "Finance",
+          "heading": "Tax Collection",
+          "question": "186. Deputy Séamus McGrath asked the Tánaiste and Minister for Finance the amount that was collected in USC in 2025, broken down by income brackets with a range of ten thousand, for example, €10,000 - €20,000, €20,000 to €30,000 and so on. [39797/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/186/",
+          "questionType": "written"
         }
       ]
     },
     "oral": {
-      "count": 6,
+      "count": 9,
       "headingOptions": [
+        "Cabinet Committees",
         "Departmental Funding",
         "Departmental Reports",
         "Foreign Conflicts",
+        "Housing Policy",
         "Programme for Government",
         "Social Welfare Payments",
+        "Sports Funding",
         "Urban Development"
       ],
       "insights": {
         "topHeading": "Urban Development",
         "topHeadingCount": 1,
         "topDepartment": "Taoiseach",
-        "topDepartmentCount": 3
+        "topDepartmentCount": 4
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -2162,6 +3288,23 @@
               },
               {
                 "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Cabinet Committees",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Sports Funding",
                 "value": 1
               }
             ]
@@ -2185,10 +3328,10 @@
             ]
           },
           {
-            "name": "Culture",
+            "name": "Housing",
             "children": [
               {
-                "name": "Departmental Funding",
+                "name": "Housing Policy",
                 "value": 1
               }
             ]
@@ -2248,6 +3391,59 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Cabinet Committees",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "1. Deputy Séamus McGrath asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [12360/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "140. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when the large-scale sports infrastructure fund, LSSIF, is likely to open for applications. [16500/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/140/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "16. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when he hopes to open up the community sport facilities fund and the large-scale sports infrastructure fund for applications. [33164/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/16/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2294,19 +3490,19 @@
             ]
           },
           {
-            "name": "Culture",
+            "name": "Housing",
             "children": [
               {
-                "name": "Departmental Funding",
+                "name": "Housing Policy",
                 "children": [
                   {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
                     "children": [
                       {
-                        "name": "140. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when the large-scale sports infrastructure fund, LSSIF, is likely to open for applications. [16500/26]",
+                        "name": "167. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to outline a timeframe for the upward revision of social housing qualifying income limits. [37496/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/140/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/167/"
                       }
                     ]
                   }
@@ -2369,6 +3565,33 @@
           "heading": "Departmental Funding",
           "question": "140. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when the large-scale sports infrastructure fund, LSSIF, is likely to open for applications. [16500/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/140/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 16,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "16. Deputy Séamus McGrath asked the Minister for Culture, Communications and Sport when he hopes to open up the community sport facilities fund and the large-scale sports infrastructure fund for applications. [33164/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/16/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 167,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "167. Deputy Séamus McGrath asked the Minister for Housing, Local Government and Heritage to outline a timeframe for the upward revision of social housing qualifying income limits. [37496/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/167/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 1,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "1. Deputy Séamus McGrath asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [12360/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1/",
           "questionType": "oral"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "year": "2026",
+  "year": 2026,
   "memberCode": "James-O'Connor.D.2020-02-08",
   "memberName": "James O'Connor",
   "deputy": "James O'Connor",
@@ -9,52 +9,80 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/James-O'Connor.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 72,
+      "count": 129,
       "headingOptions": [
         "Agriculture Industry",
         "Agriculture Schemes",
         "Agriculture Supports",
         "Ambulance Service",
+        "An Garda Síochána",
         "Apprenticeship Programmes",
         "Beef Sector",
         "Bus Services",
         "Business Supports",
+        "Cabinet Committees",
         "Childcare Services",
         "Coastal Erosion",
         "Coastal Protection",
+        "Common Agricultural Policy",
+        "Community Development Projects",
         "Community Welfare Services",
         "Defence Forces",
         "Departmental Bodies",
         "Departmental Data",
+        "Departmental Meetings",
+        "Departmental Policies",
         "Departmental Projects",
         "Departmental Schemes",
+        "Departmental Strategies",
         "Disability Services",
+        "Educational Disadvantage",
         "Energy Policy",
+        "Enterprise Policy",
+        "Enterprise Support Services",
         "Flood Relief Schemes",
         "Further and Higher Education",
         "Health Services",
         "Healthcare Infrastructure Provision",
         "Hospital Facilities",
+        "Hospital Staff",
         "Housing Provision",
         "Industrial Development",
+        "Library Projects",
         "Medicinal Products",
         "National Development Plan",
+        "Naval Service",
         "Office of Public Works",
         "Pension Provisions",
+        "Pharmacy Services",
         "Post Office Network",
         "Primary Care Centres",
         "Public Spending Code",
+        "Public Transport",
         "Rail Network",
+        "Regeneration Projects",
         "Regional Development",
+        "Renewable Energy Generation",
+        "Road Projects",
         "Rural Recreation Policy",
         "Rural Schemes",
+        "School Accommodation",
         "School Facilities",
+        "School Funding",
+        "School Transport",
         "Schools Building Projects",
         "Site Acquisitions",
+        "Small and Medium Enterprises",
         "Social Welfare Payments",
         "Special Educational Needs",
         "Sport and Recreational Development",
         "Sports Funding",
+        "Student Accommodation",
+        "Swimming Pools",
+        "Tax Code",
+        "Tax Credits",
+        "Tax Exemptions",
+        "Third Level Costs",
         "Tourism Policy",
         "Trade Promotion",
         "Trade Relations",
@@ -63,79 +91,33 @@
       "insights": {
         "topHeading": "Public Spending Code",
         "topHeadingCount": 17,
-        "topDepartment": "Health",
-        "topDepartmentCount": 10
+        "topDepartment": "Education",
+        "topDepartmentCount": 24
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
           {
-            "name": "Health",
-            "children": [
-              {
-                "name": "Medicinal Products",
-                "value": 3
-              },
-              {
-                "name": "Health Services",
-                "value": 2
-              },
-              {
-                "name": "Public Spending Code",
-                "value": 1
-              },
-              {
-                "name": "Primary Care Centres",
-                "value": 1
-              },
-              {
-                "name": "Hospital Facilities",
-                "value": 1
-              },
-              {
-                "name": "Ambulance Service",
-                "value": 1
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Agriculture Supports",
-                "value": 2
-              },
-              {
-                "name": "Departmental Projects",
-                "value": 1
-              },
-              {
-                "name": "Beef Sector",
-                "value": 1
-              },
-              {
-                "name": "Agriculture Schemes",
-                "value": 1
-              },
-              {
-                "name": "Agriculture Industry",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Education",
             "children": [
               {
+                "name": "Schools Building Projects",
+                "value": 6
+              },
+              {
                 "name": "Special Educational Needs",
+                "value": 5
+              },
+              {
+                "name": "School Accommodation",
+                "value": 3
+              },
+              {
+                "name": "Educational Disadvantage",
+                "value": 2
+              },
+              {
+                "name": "School Transport",
                 "value": 2
               },
               {
@@ -151,7 +133,52 @@
                 "value": 1
               },
               {
-                "name": "Schools Building Projects",
+                "name": "Departmental Meetings",
+                "value": 1
+              },
+              {
+                "name": "School Funding",
+                "value": 1
+              },
+              {
+                "name": "Departmental Projects",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Health",
+            "children": [
+              {
+                "name": "Medicinal Products",
+                "value": 3
+              },
+              {
+                "name": "Health Services",
+                "value": 2
+              },
+              {
+                "name": "Ambulance Service",
+                "value": 2
+              },
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Primary Care Centres",
+                "value": 1
+              },
+              {
+                "name": "Hospital Facilities",
+                "value": 1
+              },
+              {
+                "name": "Healthcare Infrastructure Provision",
+                "value": 1
+              },
+              {
+                "name": "Hospital Staff",
                 "value": 1
               }
             ]
@@ -178,26 +205,58 @@
               {
                 "name": "Industrial Development",
                 "value": 1
+              },
+              {
+                "name": "Social Welfare Payments",
+                "value": 1
+              },
+              {
+                "name": "Enterprise Support Services",
+                "value": 1
+              },
+              {
+                "name": "Enterprise Policy",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Pharmacy Services",
+                "value": 1
               }
             ]
           },
           {
-            "name": "Foreign",
+            "name": "Agriculture",
             "children": [
               {
-                "name": "Trade Relations",
+                "name": "Agriculture Schemes",
                 "value": 2
               },
               {
-                "name": "Public Spending Code",
+                "name": "Agriculture Supports",
+                "value": 2
+              },
+              {
+                "name": "Departmental Projects",
                 "value": 1
               },
               {
-                "name": "Trade Promotion",
+                "name": "Beef Sector",
                 "value": 1
               },
               {
-                "name": "Departmental Bodies",
+                "name": "Agriculture Industry",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Common Agricultural Policy",
                 "value": 1
               }
             ]
@@ -206,19 +265,19 @@
             "name": "Public Expenditure",
             "children": [
               {
+                "name": "Flood Relief Schemes",
+                "value": 3
+              },
+              {
+                "name": "Office of Public Works",
+                "value": 2
+              },
+              {
                 "name": "Public Spending Code",
                 "value": 1
               },
               {
-                "name": "Office of Public Works",
-                "value": 1
-              },
-              {
                 "name": "Coastal Protection",
-                "value": 1
-              },
-              {
-                "name": "Flood Relief Schemes",
                 "value": 1
               },
               {
@@ -249,6 +308,39 @@
               {
                 "name": "Community Welfare Services",
                 "value": 1
+              },
+              {
+                "name": "Library Projects",
+                "value": 1
+              },
+              {
+                "name": "Regeneration Projects",
+                "value": 1
+              },
+              {
+                "name": "Community Development Projects",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Trade Promotion",
+                "value": 3
+              },
+              {
+                "name": "Trade Relations",
+                "value": 2
+              },
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Departmental Bodies",
+                "value": 1
               }
             ]
           },
@@ -260,11 +352,19 @@
                 "value": 2
               },
               {
+                "name": "Bus Services",
+                "value": 2
+              },
+              {
                 "name": "Public Spending Code",
                 "value": 1
               },
               {
-                "name": "Bus Services",
+                "name": "Public Transport",
+                "value": 1
+              },
+              {
+                "name": "Road Projects",
                 "value": 1
               }
             ]
@@ -272,6 +372,10 @@
           {
             "name": "Culture",
             "children": [
+              {
+                "name": "Sports Funding",
+                "value": 2
+              },
               {
                 "name": "Public Spending Code",
                 "value": 1
@@ -281,11 +385,145 @@
                 "value": 1
               },
               {
-                "name": "Sports Funding",
+                "name": "Post Office Network",
                 "value": 1
               },
               {
-                "name": "Post Office Network",
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Swimming Pools",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 3
+              },
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Disability Services",
+                "value": 1
+              },
+              {
+                "name": "Health Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Tax Credits",
+                "value": 1
+              },
+              {
+                "name": "Tax Exemptions",
+                "value": 1
+              },
+              {
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Small and Medium Enterprises",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Payments",
+                "value": 1
+              },
+              {
+                "name": "Departmental Strategies",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Apprenticeship Programmes",
+                "value": 1
+              },
+              {
+                "name": "Further and Higher Education",
+                "value": 1
+              },
+              {
+                "name": "Third Level Costs",
+                "value": 1
+              },
+              {
+                "name": "Student Accommodation",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Policy",
+                "value": 2
+              },
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Renewable Energy Generation",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 2
+              },
+              {
+                "name": "Public Spending Code",
+                "value": 1
+              },
+              {
+                "name": "Naval Service",
                 "value": 1
               }
             ]
@@ -312,96 +550,14 @@
             ]
           },
           {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Policy",
-                "value": 2
-              },
-              {
-                "name": "Public Spending Code",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Payments",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "value": 1
-              },
-              {
-                "name": "Childcare Services",
-                "value": 1
-              },
-              {
-                "name": "Disability Services",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Further and Higher Education",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "value": 1
-              },
-              {
-                "name": "Apprenticeship Programmes",
-                "value": 1
-              },
-              {
-                "name": "Further and Higher Education",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "value": 1
-              },
-              {
-                "name": "Defence Forces",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Taoiseach",
             "children": [
               {
                 "name": "Public Spending Code",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
+              },
               {
-                "name": "Public Spending Code",
+                "name": "Cabinet Committees",
                 "value": 1
               }
             ]
@@ -412,6 +568,10 @@
               {
                 "name": "Public Spending Code",
                 "value": 1
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 1
               }
             ]
           }
@@ -420,6 +580,300 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1350. Deputy James O'Connor asked the Minister for Education and Youth her Department’s plans for a site in County Cork (details supplied); and if she will make a statement on the matter. [25083/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1350/"
+                      },
+                      {
+                        "name": "1528. Deputy James O'Connor asked the Minister for Education and Youth if she will consider adding a special class to a school extension project per request of a school (details supplied); and if she will make a statement on the matter. [27160/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1528/"
+                      },
+                      {
+                        "name": "1530. Deputy James O'Connor asked the Minister for Education and Youth the position regarding emergency works application for a school (details supplied); and if she will make a statement on the matter. [27162/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1530/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "535. Deputy James O'Connor asked the Minister for Education and Youth if her Department has considered a Stage 2b report for a school (details supplied); and if she will make a statement on the matter. [22274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/535/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "536. Deputy James O'Connor asked the Minister for Education and Youth further to Parliamentary Question No. 229 of 5 February 2026, if she will provide an update on her Department’s considerations on the site identified; if she will outline her Department’s plans for the potential uses of this land; if there are no plans, if she will instruct her Department’s officials to engage with school management to discuss the matter further; and if she will make a statement on the matter. [37612/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/536/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "120. Deputy James O'Connor asked the Minister for Education and Youth the status of all school building projects in County Cork; the timeline since the last stage was entered into for each project; and if she will make a statement on the matter. [40790/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/120/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1537. Deputy James O'Connor asked the Minister for Education and Youth the position regarding an application for a fifth special class at a school (details supplied); and if she will make a statement on the matter. [27171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1537/"
+                      },
+                      {
+                        "name": "1538. Deputy James O'Connor asked the Minister for Education and Youth the position regarding the ASA scheme application lodged by a school (details supplied); if the project can be prioritised based on the need for SEN places in the school's catchment area; and if she will make a statement on the matter. [27172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1538/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "138. Deputy James O'Connor asked the Minister for Education and Youth to outline her engagement with an organisation (details supplied) Youghal; and if she will make a statement on the matter. [11070/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/138/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "62. Deputy James O'Connor asked the Minister for Education and Youth to address correspondence from a school (details supplied); and if she will make a statement on the matter. [12969/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/62/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "36. Deputy James O'Connor asked the Minister for Education and Youth for an update on the rollout of special classes in Cork east. [29170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/36/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1529. Deputy James O'Connor asked the Minister for Education and Youth the position regarding an ASA scheme application for a school (details supplied); and if she will make a statement on the matter. [27161/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1529/"
+                      },
+                      {
+                        "name": "1533. Deputy James O'Connor asked the Minister for Education and Youth if she will engage with a school (details supplied) regarding additional requirements identified in respect of an ASA scheme application; if her Department will engage with the school authority on the way in which to address its requirements in respect of special education provision; and if she will make a statement on the matter. [27167/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1533/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "453. Deputy James O'Connor asked the Minister for Education and Youth the supports her Department will provide to a primary school (details supplied) considering the large increase incoming for the junior infants in September 2026 and lack of accommodation available on site; and if she will make a statement on the matter. [33230/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/453/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Educational Disadvantage",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1531. Deputy James O'Connor asked the Minister for Education and Youth if she has investigated the possibility of extending DEIS/DEIS Plus supports to special schools; and if she will make a statement on the matter. [27164/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1531/"
+                      },
+                      {
+                        "name": "1532. Deputy James O'Connor asked the Minister for Education and Youth the criteria being used to identify and include schools in DEIS/DEIS Plus; if the criteria is circulated to schools prior to final assessment process; and if she will make a statement on the matter. [27166/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1532/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "17. Deputy James O'Connor asked the Minister for Education and Youth if additional transport to school routes will be considered for Cork east; and if she will make a statement on the matter. [29171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/17/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "118. Deputy James O'Connor asked the Minister for Education and Youth the number of applications made for the school transport scheme for the 2026-2027 school year; and if she will make a statement on the matter. [40789/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/118/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1172. Deputy James O'Connor asked the Minister for Education and Youth the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75107/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1172/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Site Acquisitions",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "229. Deputy James O'Connor asked the Minister for Education and Youth further to Parliamentary Question No. 560 of 12 November 2025, if she will provide an update on her Department’s plans on the site identified; if there are no plans, if she will instruct her Department’s officials to engage with school management to discuss the matter further; and if she will make a statement on the matter. [8820/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/229/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Facilities",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "192. Deputy James O'Connor asked the Minister for Education and Youth for an update on works and repairs in a school (details supplied); and if she will make a statement on the matter. [11071/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/192/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Meetings",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1534. Deputy James O'Connor asked the Minister for Education and Youth the position regarding a meeting request from the principal to discuss outstanding remedial works (details supplied); the details of the meetings which have taken place with both schools and their patron bodies in 2026, since receiving correspondence in relation to remedial works for the schools; and if she will make a statement on the matter. [27168/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1534/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1535. Deputy James O'Connor asked the Minister for Education and Youth the way in which a school (details supplied) can secure funding from her Department to set up a sensory garden; and if she will make a statement on the matter. [27169/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1535/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1536. Deputy James O'Connor asked the Minister for Education and Youth the position regarding a small school's pilot project application for a school (details supplied); and if she will make a statement on the matter. [27170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1536/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Health",
             "children": [
@@ -477,6 +931,33 @@
                 ]
               },
               {
+                "name": "Ambulance Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "833. Deputy James O'Connor asked the Minister for Health further to Parliamentary Question No. 145 of 20 November 2025, if she will provide an update on the project (details supplied); and if she will make a statement on the matter. [16483/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/833/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "1097. Deputy James O'Connor asked the Minister for Health her position regarding the new national ambulance training college for the southern region; the location of the new site; the timeline for completion; and if she will make a statement on the matter. [38705/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1097/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Public Spending Code",
                 "children": [
                   {
@@ -525,22 +1006,6 @@
                 ]
               },
               {
-                "name": "Ambulance Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "833. Deputy James O'Connor asked the Minister for Health further to Parliamentary Question No. 145 of 20 November 2025, if she will provide an update on the project (details supplied); and if she will make a statement on the matter. [16483/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/833/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "children": [
                   {
@@ -555,210 +1020,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Agriculture Supports",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "269. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 709 of 25 November 2025 if he will stand over a statement (details supplied) that was put on the record of the house; to confirm that all outstanding payments were made in the last week of November; and if he will make a statement on the matter. [10994/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/269/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "451. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the reason a full payment has not been made to a person (details supplied) for TB in their herd; the timeline for when the farmer will be paid; and if he will make a statement on the matter. [13441/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/451/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "Departmental Projects",
+                "name": "Hospital Staff",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
                     "children": [
                       {
-                        "name": "1817. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75102/25]",
+                        "name": "1158. Deputy James O'Connor asked the Minister for Health the position regarding the number of consultant rheumatologists serving Cork University Hospital (CUH) and South Infirmary - Victoria University Hospital (SIVUH); the position regarding current waiting lists for patients; and if she will make a statement on the matter. [37295/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1817/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Beef Sector",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "20. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the procedures in place for testing imported beef for banned hormones; if he is satisfied that this procedure is working sufficiently; and if he will make a statement on the matter. [7003/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/20/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "29. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if his Department has supports available for farmers who want to install solar panels on sheds and other farm buildings; and if he will make a statement on the matter. [7004/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/29/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Industry",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "367. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if he has had engagement with the agricultural sector regarding emission reductions plans; and if he will make a statement on the matter. [73267/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/367/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "268. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if he will outline the number of farmers that have submitted applications for TB reactor compensation; the number that are still under consideration; those refused; those accepted; the timeframe of those waiting for payment 0- three weeks, three-six weeks, six-nine weeks, nine-12 weeks, 12 + weeks, by county, in tabular form; and if he will make a statement on the matter. [10992/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/268/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "138. Deputy James O'Connor asked the Minister for Education and Youth to outline her engagement with an organisation (details supplied) Youghal; and if she will make a statement on the matter. [11070/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/138/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "62. Deputy James O'Connor asked the Minister for Education and Youth to address correspondence from a school (details supplied); and if she will make a statement on the matter. [12969/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/62/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Spending Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1172. Deputy James O'Connor asked the Minister for Education and Youth the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75107/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1172/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Site Acquisitions",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "229. Deputy James O'Connor asked the Minister for Education and Youth further to Parliamentary Question No. 560 of 12 November 2025, if she will provide an update on her Department’s plans on the site identified; if there are no plans, if she will instruct her Department’s officials to engage with school management to discuss the matter further; and if she will make a statement on the matter. [8820/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/229/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Facilities",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "192. Deputy James O'Connor asked the Minister for Education and Youth for an update on works and repairs in a school (details supplied); and if she will make a statement on the matter. [11071/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/192/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Schools Building Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "535. Deputy James O'Connor asked the Minister for Education and Youth if her Department has considered a Stage 2b report for a school (details supplied); and if she will make a statement on the matter. [22274/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/535/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1158/"
                       }
                     ]
                   }
@@ -848,76 +1121,221 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Foreign",
-            "children": [
+              },
               {
-                "name": "Trade Relations",
+                "name": "Social Welfare Payments",
                 "children": [
                   {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
                     "children": [
                       {
-                        "name": "130. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade her trade priorities for 2026; and if she will make a statement on the matter. [8635/26]",
+                        "name": "1098. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment the position regarding the introduction of any leave for miscarriage or pregnancy loss, beyond that already covered in line with a previous PQ response (details supplied); and if he will make a statement on the matter. [27163/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/130/"
-                      },
-                      {
-                        "name": "136. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade for an update on the work of the Government trade forum; and if she will make a statement on the matter. [8634/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/136/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1098/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Public Spending Code",
+                "name": "Enterprise Support Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "145. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment the initiatives that are being taken to increase the contribution of indigenous enterprises to Ireland's exports; and if he will make a statement on the matter. [30515/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/145/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Enterprise Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "202. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment the action he is taking to help increase productivity in indigenous enterprises; and if he will make a statement on the matter. [30514/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/202/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "496. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment if he will report on the implementation of the Action Plan on Competitiveness and Productivity which is being overseen by a senior officials group chaired by his Department. [22419/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/496/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pharmacy Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "275. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment to provide an update on the efforts being made to establish an EU pharmaceutical taskforce by his Department; and if he will make a statement on the matter. [32941/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/275/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "29. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if his Department has supports available for farmers who want to install solar panels on sheds and other farm buildings; and if he will make a statement on the matter. [7004/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/29/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "124. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the number of applications received for the fuel income support scheme to date; and if he will make a statement on the matter. [35739/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/124/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Supports",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "269. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 709 of 25 November 2025 if he will stand over a statement (details supplied) that was put on the record of the house; to confirm that all outstanding payments were made in the last week of November; and if he will make a statement on the matter. [10994/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/269/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "451. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the reason a full payment has not been made to a person (details supplied) for TB in their herd; the timeline for when the farmer will be paid; and if he will make a statement on the matter. [13441/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/451/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
                 "children": [
                   {
                     "name": "Tuesday, 13 January",
                     "date_iso": "2026-01-13",
                     "children": [
                       {
-                        "name": "251. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75109/25]",
+                        "name": "1817. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75102/25]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/251/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1817/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Trade Promotion",
+                "name": "Beef Sector",
                 "children": [
                   {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
                     "children": [
                       {
-                        "name": "75. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the role her Department plays in the action plan on market diversification; and if she will make a statement on the matter. [23046/26]",
+                        "name": "20. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the procedures in place for testing imported beef for banned hormones; if he is satisfied that this procedure is working sufficiently; and if he will make a statement on the matter. [7003/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/75/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/20/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Bodies",
+                "name": "Agriculture Industry",
                 "children": [
                   {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
                     "children": [
                       {
-                        "name": "136. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade if she will report on her engagement with stakeholders in relation to international trade; her assessment of the impact of the current geopolitical situation in relation to this; and if she will make a statement on the matter. [23047/26]",
+                        "name": "367. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if he has had engagement with the agricultural sector regarding emission reductions plans; and if he will make a statement on the matter. [73267/25]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/136/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/367/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "268. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if he will outline the number of farmers that have submitted applications for TB reactor compensation; the number that are still under consideration; those refused; those accepted; the timeframe of those waiting for payment 0- three weeks, three-six weeks, six-nine weeks, nine-12 weeks, 12 + weeks, by county, in tabular form; and if he will make a statement on the matter. [10992/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/268/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Common Agricultural Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "92. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if he will prioritise farm succession and young farmers in the negotiations for the Common Agricultural Policy post 2027; and if he will make a statement on the matter. [35738/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/92/"
                       }
                     ]
                   }
@@ -929,16 +1347,32 @@
             "name": "Public Expenditure",
             "children": [
               {
-                "name": "Public Spending Code",
+                "name": "Flood Relief Schemes",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "909. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of projects that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75080/25]",
+                        "name": "24. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on the flood projects in the east Cork area; the expected timeline for completion of the same projects; and if he will make a statement on the matter. [40794/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/909/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/24/"
+                      },
+                      {
+                        "name": "28. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the timeline when his Department will publish the terms and conditions for the expanded minor works scheme following his announcement in August 2025; and if he will make a statement on the matter. [40793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/28/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "35. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on proposed flood relief schemes in east Cork; and if he will make a statement on the matter. [11098/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/35/"
                       }
                     ]
                   }
@@ -957,6 +1391,33 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/417/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "267. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the confirmed details for the expanded minor works scheme for the OPW; when he expects the final terms and conditions of the scheme to be published and circulated among Local Authorities; and if he will make a statement on the matter. [33178/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/267/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "909. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of projects that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75080/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/909/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -971,22 +1432,6 @@
                         "name": "465. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he is aware of serious coastal erosion at Pilmore Beach, Youghal, County Cork; the action the OPW will take as a result; the funding that is available for the local authority to slow down coastal erosion; and if he will make a statement on the matter. [10323/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/465/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Flood Relief Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "35. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on proposed flood relief schemes in east Cork; and if he will make a statement on the matter. [11098/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/35/"
                       }
                     ]
                   }
@@ -1092,6 +1537,144 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Library Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "588. Deputy James O'Connor asked the Minister for Rural and Community Development and the Gaeltacht the status of a project (details supplied); and if he will make a statement on the matter. [33468/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/588/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Regeneration Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "138. Deputy James O'Connor asked the Minister for Rural and Community Development and the Gaeltacht if applications have been received from east Cork for the newly opened building and land acquisition measure under the town and village renewal scheme; and if he will make a statement on the matter. [38380/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/138/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Development Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "153. Deputy James O'Connor asked the Minister for Rural and Community Development and the Gaeltacht the number of applications received to date for the Community Centre Investment Fund; and if he will make a statement on the matter. [38381/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/153/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Trade Promotion",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "28. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the key priorities for trade under her Department’s new Statement of Strategy; and if she will make a statement on the matter. [38379/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/28/"
+                      },
+                      {
+                        "name": "31. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade when the Government trade forum will next meet; and if she will make a statement on the matter. [38378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/31/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "75. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the role her Department plays in the action plan on market diversification; and if she will make a statement on the matter. [23046/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/75/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Trade Relations",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "130. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade her trade priorities for 2026; and if she will make a statement on the matter. [8635/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/130/"
+                      },
+                      {
+                        "name": "136. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade for an update on the work of the Government trade forum; and if she will make a statement on the matter. [8634/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/136/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "251. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75109/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/251/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "136. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade if she will report on her engagement with stakeholders in relation to international trade; her assessment of the impact of the current geopolitical situation in relation to this; and if she will make a statement on the matter. [23047/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/136/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1120,6 +1703,33 @@
                 ]
               },
               {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "241. Deputy James O'Connor asked the Minister for Transport his Department's plan to purchase new buses for the BusConnects Cork plan; and if he will make a statement on the matter. [15659/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/241/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "868. Deputy James O'Connor asked the Minister for Transport the position regarding bereavement days in the event of deaths of immediate family members for employees of a semi State bus company (details supplied; and if he will make a statement on the matter. [27173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/868/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Public Spending Code",
                 "children": [
                   {
@@ -1136,16 +1746,32 @@
                 ]
               },
               {
-                "name": "Bus Services",
+                "name": "Public Transport",
                 "children": [
                   {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
                     "children": [
                       {
-                        "name": "241. Deputy James O'Connor asked the Minister for Transport his Department's plan to purchase new buses for the BusConnects Cork plan; and if he will make a statement on the matter. [15659/26]",
+                        "name": "147. Deputy James O'Connor asked the Minister for Transport if he will provide an update on the Cork Metropolitan Area Transport Strategy that is currently under construction; if the plan is ahead of schedule considering the volume of commuters wishing to utilise public transport; if his Department is considering the inclusion of the Midleton-Youghal rail line on future railway plans or another mode of transport on the same corridor to coincide with the Greenway; and if he will make a statement on the matter. [31433/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/241/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/147/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "184. Deputy James O'Connor asked the Minister for Transport if he will provide an update on the N25 Midleton to Youghal scheme following the recent appointment of the design consultant for the project; if the Lakeview roundabout will be taken into consideration following the recent upgrades of the R630; if his Department have considered signalising the roundabout to help with traffic flow; and if he will make a statement on the matter. [31432/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/184/"
                       }
                     ]
                   }
@@ -1156,6 +1782,33 @@
           {
             "name": "Culture",
             "children": [
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "163. Deputy James O'Connor asked the Minister for Culture, Communications and Sport if he has discussed the potential total funding that will be available for the next round of the community sports facilities fund; if his Department has completed the review of the last round of the same fund; the timeline for the next round of the scheme; and if he will make a statement on the matter. [16720/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/163/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "15. Deputy James O'Connor asked the Minister for Culture, Communications and Sport when the next round of sports capital grants will be opened for applications; and if he will make a statement on the matter. [33161/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/15/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Public Spending Code",
                 "children": [
@@ -1189,22 +1842,6 @@
                 ]
               },
               {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "163. Deputy James O'Connor asked the Minister for Culture, Communications and Sport if he has discussed the potential total funding that will be available for the next round of the community sports facilities fund; if his Department has completed the review of the last round of the same fund; the timeline for the next round of the scheme; and if he will make a statement on the matter. [16720/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/163/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Post Office Network",
                 "children": [
                   {
@@ -1215,6 +1852,500 @@
                         "name": "175. Deputy James O'Connor asked the Minister for Culture, Communications and Sport the steps his Department is taking to support the Post Office network across rural Ireland; and if he will make a statement on the matter. [16721/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/175/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1612. Deputy James O'Connor asked the Minister for Culture, Communications and Sport the position regarding the recently issued Revenue Guidelines for Determining Employment Status for Taxation Purposes and the unintended consequences/harmful implications for the delivery of sport and physical activity in the not-for-profit sector, specifically within local sports partnerships; if he will consider the requests of local sports partnership (details supplied); and if he will make a statement on the matter. [27174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1612/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Swimming Pools",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "47. Deputy James O'Connor asked the Minister for Culture, Communications and Sport the progress he has made on the Programme for Government commitment to implement the New National Swimming Strategy by investing in pools and swimming facilities allowing everyone an opportunity to swim. [33162/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/47/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "156. Deputy James O'Connor asked the Minister for Children, Disability and Equality if her Department is progressing a plan to provide State-run childcare. [29154/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/156/"
+                      },
+                      {
+                        "name": "203. Deputy James O'Connor asked the Minister for Children, Disability and Equality for an update on the progression towards €200 per month childcare. [29153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/203/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "110. Deputy James O'Connor asked the Minister for Children, Disability and Equality the efforts her Department is making to address the shortage of childcare places in Cork east. [13389/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/110/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1956. Deputy James O'Connor asked the Minister for Children, Disability and Equality the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75103/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1956/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "166. Deputy James O'Connor asked the Minister for Children, Disability and Equality the efforts her Department is making to address the shortage of respite places for children with disabilities in Cork. [13388/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/166/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2596. Deputy James O'Connor asked the Minister for Children, Disability and Equality the position regarding speech and language therapists serving the Dungarvan area; the position regarding current waiting lists due to maternity leave; the efforts being undertaken to ensure appointments are available in a timely manner; and if she will make a statement on the matter. [27159/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2596/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "840. Deputy James O'Connor asked the Tánaiste and Minister for Finance the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75110/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/840/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Credits",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1007. Deputy James O'Connor asked the Tánaiste and Minister for Finance if he has investigated the possibility of allowing an alternative proof of tenancy, such as lease agreements and bank transfers for tenants seeking to avail of the rent tax credit (RTC) in situations where a landlord has failed to register the tenancy with the RTB, and the tenant has taken all reasonable steps to initiate enforcement; the position regarding protections for tenants who cannot provide an RTB registration number to confirm eligibility for RTC due to landlord not being registered; and if he will make a statement on the matter. [27165/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1007/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Exemptions",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "406. Deputy James O'Connor asked the Tánaiste and Minister for Finance the action he will take to increase the six-month time limit for income tax exemption to complete a retraining course paid for by the employer as part of a redundancy package; and if he will make a statement on the matter. [29579/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/406/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "141. Deputy James O'Connor asked the Tánaiste and Minister for Finance if he is considering new taxation measures to strengthen Ireland's competitiveness to support the growth of the indigenous sector and encourage retail investment; and if he will make a statement on the matter. [39878/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/141/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Small and Medium Enterprises",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "195. Deputy James O'Connor asked the Tánaiste and Minister for Finance his plans to simplify tax administration for the SME sector; and if he will make a statement on the matter. [39879/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/195/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1554. Deputy James O'Connor asked the Minister for Social Protection the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75116/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1554/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "9. Deputy James O'Connor asked the Minister for Social Protection the number of employees in County Cork registered with My Future Fund; and if he will make a statement on the matter. [2683/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/9/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "41. Deputy James O'Connor asked the Minister for Social Protection the number of people who received the newborn baby grant in County Cork in 2025, and so far in 2026; and if he will make a statement on the matter. [2684/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/41/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "33. Deputy James O'Connor asked the Minister for Social Protection his plans for a new employment strategy focused on intensive engagement and supports to help those most distant from the labour market into the workforce; and if he will make a statement on the matter. [31409/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/33/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "49. Deputy James O'Connor asked the Minister for Social Protection the way in which he is ensuring that every effort is made to support individuals to transition from welfare into further education/training and work, especially in relation to how to avoid a cliff edge when people take up work; and if he will make a statement on the matter. [31410/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/49/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2594. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75111/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2594/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Apprenticeship Programmes",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "133. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science the steps he is taking to make apprenticeships more accessible across the country. [7011/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/133/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Further and Higher Education",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "165. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science if he will provide an update on the work that Irish institutes are involved in with CERN. [7010/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/165/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Costs",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "232. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science his plans to make the cost of third level education more affordable for families. [22103/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/232/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Student Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "274. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science his plans to increase the number of student beds in Munster. [22104/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/274/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "9. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment if he will consider supporting pilot projects that demonstrate more efficient use of the existing electricity grid by large energy users where such projects align with national decarbonisation objectives; if he will consider the development of a virtual ‘single site’ energy sharing model for multi-site industrial users in Ireland in this regard; and if he will make a statement on the matter. [2748/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/9/"
+                      },
+                      {
+                        "name": "10. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment if he plans to modernise electricity charging structures for energy intensive industries (details supplied); and if he will make a statement on the matter. [2749/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/10/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "363. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75104/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/363/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Renewable Energy Generation",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "305. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment the current position regarding the timeline for the installation of solar panels for the medically vulnerable under the SEAI medically vulnerable (MV) solar PV scheme; and if he will make a statement on the matter. [39634/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/305/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "154. Deputy James O'Connor asked the Minister for Defence her plans to achieve a greater balance of numbers across the three services in the Defence Forces; the measures to be taken in this regard, specifically for the Naval Service; and if she will make a statement on the matter. [12501/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/154/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "106. Deputy James O'Connor asked the Minister for Defence if she will outline any improvements to pay and working conditions for members of the Defence Forces; and if she will make a statement on the matter. [32728/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/106/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Spending Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "424. Deputy James O'Connor asked the Minister for Defence the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75106/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/424/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naval Service",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "138. Deputy James O'Connor asked the Minister for Defence if she will provide an update on the staffing shortages in the Naval Service; the progress made with the on-going recruitment campaign within the Naval Service; and if she will make a statement on the matter. [32727/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/138/"
                       }
                     ]
                   }
@@ -1292,244 +2423,6 @@
             ]
           },
           {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Policy",
-                "children": [
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "9. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment if he will consider supporting pilot projects that demonstrate more efficient use of the existing electricity grid by large energy users where such projects align with national decarbonisation objectives; if he will consider the development of a virtual ‘single site’ energy sharing model for multi-site industrial users in Ireland in this regard; and if he will make a statement on the matter. [2748/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/9/"
-                      },
-                      {
-                        "name": "10. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment if he plans to modernise electricity charging structures for energy intensive industries (details supplied); and if he will make a statement on the matter. [2749/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/10/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Spending Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "363. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75104/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/363/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1554. Deputy James O'Connor asked the Minister for Social Protection the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75116/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1554/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "9. Deputy James O'Connor asked the Minister for Social Protection the number of employees in County Cork registered with My Future Fund; and if he will make a statement on the matter. [2683/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/9/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "41. Deputy James O'Connor asked the Minister for Social Protection the number of people who received the newborn baby grant in County Cork in 2025, and so far in 2026; and if he will make a statement on the matter. [2684/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/41/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1956. Deputy James O'Connor asked the Minister for Children, Disability and Equality the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75103/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1956/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "110. Deputy James O'Connor asked the Minister for Children, Disability and Equality the efforts her Department is making to address the shortage of childcare places in Cork east. [13389/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/110/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "166. Deputy James O'Connor asked the Minister for Children, Disability and Equality the efforts her Department is making to address the shortage of respite places for children with disabilities in Cork. [13388/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/166/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Further and Higher Education",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2594. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75111/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2594/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Apprenticeship Programmes",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "133. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science the steps he is taking to make apprenticeships more accessible across the country. [7011/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/133/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Further and Higher Education",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "165. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science if he will provide an update on the work that Irish institutes are involved in with CERN. [7010/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/165/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Public Spending Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "424. Deputy James O'Connor asked the Minister for Defence the number of projects in her Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if she will make a statement on the matter. [75106/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/424/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "154. Deputy James O'Connor asked the Minister for Defence her plans to achieve a greater balance of numbers across the three services in the Defence Forces; the measures to be taken in this regard, specifically for the Naval Service; and if she will make a statement on the matter. [12501/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/154/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Taoiseach",
             "children": [
               {
@@ -1547,23 +2440,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
+              },
               {
-                "name": "Public Spending Code",
+                "name": "Cabinet Committees",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
                     "children": [
                       {
-                        "name": "840. Deputy James O'Connor asked the Tánaiste and Minister for Finance the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75110/25]",
+                        "name": "4. Deputy James O'Connor asked the Taoiseach when the Cabinet Committee on the economy, trade and competitiveness will next meet. [9934/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/840/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/4/"
                       }
                     ]
                   }
@@ -1585,6 +2473,22 @@
                         "name": "1684. Deputy James O'Connor asked the Minister for Justice, Home Affairs and Migration the number of projects in his Department that were delayed in 2023 and 2024 due to the change of document from the Public Spending Code to the Infrastructure Guidelines, in tabular form; and if he will make a statement on the matter. [75114/25]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1684/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "61. Deputy James O'Connor asked the Minister for Justice, Home Affairs and Migration for an update on the Garda numbers in Cork county, in particular the Midleton District. [35714/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/61/"
                       }
                     ]
                   }
@@ -2242,25 +3146,558 @@
           "question": "136. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade if she will report on her engagement with stakeholders in relation to international trade; her assessment of the impact of the current geopolitical situation in relation to this; and if she will make a statement on the matter. [23047/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/136/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 868,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "868. Deputy James O'Connor asked the Minister for Transport the position regarding bereavement days in the event of deaths of immediate family members for employees of a semi State bus company (details supplied; and if he will make a statement on the matter. [27173/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/868/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1007,
+          "department": "Finance",
+          "heading": "Tax Credits",
+          "question": "1007. Deputy James O'Connor asked the Tánaiste and Minister for Finance if he has investigated the possibility of allowing an alternative proof of tenancy, such as lease agreements and bank transfers for tenants seeking to avail of the rent tax credit (RTC) in situations where a landlord has failed to register the tenancy with the RTB, and the tenant has taken all reasonable steps to initiate enforcement; the position regarding protections for tenants who cannot provide an RTB registration number to confirm eligibility for RTC due to landlord not being registered; and if he will make a statement on the matter. [27165/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1007/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1098,
+          "department": "Enterprise",
+          "heading": "Social Welfare Payments",
+          "question": "1098. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment the position regarding the introduction of any leave for miscarriage or pregnancy loss, beyond that already covered in line with a previous PQ response (details supplied); and if he will make a statement on the matter. [27163/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1098/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1350,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "1350. Deputy James O'Connor asked the Minister for Education and Youth her Department’s plans for a site in County Cork (details supplied); and if she will make a statement on the matter. [25083/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1350/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1528,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "1528. Deputy James O'Connor asked the Minister for Education and Youth if she will consider adding a special class to a school extension project per request of a school (details supplied); and if she will make a statement on the matter. [27160/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1528/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1529,
+          "department": "Education",
+          "heading": "School Accommodation",
+          "question": "1529. Deputy James O'Connor asked the Minister for Education and Youth the position regarding an ASA scheme application for a school (details supplied); and if she will make a statement on the matter. [27161/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1529/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1530,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "1530. Deputy James O'Connor asked the Minister for Education and Youth the position regarding emergency works application for a school (details supplied); and if she will make a statement on the matter. [27162/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1530/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1531,
+          "department": "Education",
+          "heading": "Educational Disadvantage",
+          "question": "1531. Deputy James O'Connor asked the Minister for Education and Youth if she has investigated the possibility of extending DEIS/DEIS Plus supports to special schools; and if she will make a statement on the matter. [27164/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1531/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1532,
+          "department": "Education",
+          "heading": "Educational Disadvantage",
+          "question": "1532. Deputy James O'Connor asked the Minister for Education and Youth the criteria being used to identify and include schools in DEIS/DEIS Plus; if the criteria is circulated to schools prior to final assessment process; and if she will make a statement on the matter. [27166/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1532/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1533,
+          "department": "Education",
+          "heading": "School Accommodation",
+          "question": "1533. Deputy James O'Connor asked the Minister for Education and Youth if she will engage with a school (details supplied) regarding additional requirements identified in respect of an ASA scheme application; if her Department will engage with the school authority on the way in which to address its requirements in respect of special education provision; and if she will make a statement on the matter. [27167/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1533/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1534,
+          "department": "Education",
+          "heading": "Departmental Meetings",
+          "question": "1534. Deputy James O'Connor asked the Minister for Education and Youth the position regarding a meeting request from the principal to discuss outstanding remedial works (details supplied); the details of the meetings which have taken place with both schools and their patron bodies in 2026, since receiving correspondence in relation to remedial works for the schools; and if she will make a statement on the matter. [27168/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1534/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1535,
+          "department": "Education",
+          "heading": "School Funding",
+          "question": "1535. Deputy James O'Connor asked the Minister for Education and Youth the way in which a school (details supplied) can secure funding from her Department to set up a sensory garden; and if she will make a statement on the matter. [27169/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1535/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1536,
+          "department": "Education",
+          "heading": "Departmental Projects",
+          "question": "1536. Deputy James O'Connor asked the Minister for Education and Youth the position regarding a small school's pilot project application for a school (details supplied); and if she will make a statement on the matter. [27170/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1536/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1537,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "1537. Deputy James O'Connor asked the Minister for Education and Youth the position regarding an application for a fifth special class at a school (details supplied); and if she will make a statement on the matter. [27171/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1537/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1538,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "1538. Deputy James O'Connor asked the Minister for Education and Youth the position regarding the ASA scheme application lodged by a school (details supplied); if the project can be prioritised based on the need for SEN places in the school's catchment area; and if she will make a statement on the matter. [27172/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1538/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1612,
+          "department": "Culture",
+          "heading": "Tax Code",
+          "question": "1612. Deputy James O'Connor asked the Minister for Culture, Communications and Sport the position regarding the recently issued Revenue Guidelines for Determining Employment Status for Taxation Purposes and the unintended consequences/harmful implications for the delivery of sport and physical activity in the not-for-profit sector, specifically within local sports partnerships; if he will consider the requests of local sports partnership (details supplied); and if he will make a statement on the matter. [27174/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1612/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2596,
+          "department": "Children",
+          "heading": "Health Services",
+          "question": "2596. Deputy James O'Connor asked the Minister for Children, Disability and Equality the position regarding speech and language therapists serving the Dungarvan area; the position regarding current waiting lists due to maternity leave; the efforts being undertaken to ensure appointments are available in a timely manner; and if she will make a statement on the matter. [27159/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2596/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 17,
+          "department": "Education",
+          "heading": "School Transport",
+          "question": "17. Deputy James O'Connor asked the Minister for Education and Youth if additional transport to school routes will be considered for Cork east; and if she will make a statement on the matter. [29171/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/17/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 36,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "36. Deputy James O'Connor asked the Minister for Education and Youth for an update on the rollout of special classes in Cork east. [29170/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/36/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 156,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "156. Deputy James O'Connor asked the Minister for Children, Disability and Equality if her Department is progressing a plan to provide State-run childcare. [29154/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/156/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 203,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "203. Deputy James O'Connor asked the Minister for Children, Disability and Equality for an update on the progression towards €200 per month childcare. [29153/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/203/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 232,
+          "department": "Further and Higher Education",
+          "heading": "Third Level Costs",
+          "question": "232. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science his plans to make the cost of third level education more affordable for families. [22103/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/232/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 274,
+          "department": "Further and Higher Education",
+          "heading": "Student Accommodation",
+          "question": "274. Deputy James O'Connor asked the Minister for Further and Higher Education, Research, Innovation and Science his plans to increase the number of student beds in Munster. [22104/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/274/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 145,
+          "department": "Enterprise",
+          "heading": "Enterprise Support Services",
+          "question": "145. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment the initiatives that are being taken to increase the contribution of indigenous enterprises to Ireland's exports; and if he will make a statement on the matter. [30515/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/145/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 202,
+          "department": "Enterprise",
+          "heading": "Enterprise Policy",
+          "question": "202. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment the action he is taking to help increase productivity in indigenous enterprises; and if he will make a statement on the matter. [30514/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/202/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 406,
+          "department": "Finance",
+          "heading": "Tax Exemptions",
+          "question": "406. Deputy James O'Connor asked the Tánaiste and Minister for Finance the action he will take to increase the six-month time limit for income tax exemption to complete a retraining course paid for by the employer as part of a redundancy package; and if he will make a statement on the matter. [29579/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/406/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 496,
+          "department": "Enterprise",
+          "heading": "Departmental Policies",
+          "question": "496. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment if he will report on the implementation of the Action Plan on Competitiveness and Productivity which is being overseen by a senior officials group chaired by his Department. [22419/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/496/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 33,
+          "department": "Social",
+          "heading": "Departmental Strategies",
+          "question": "33. Deputy James O'Connor asked the Minister for Social Protection his plans for a new employment strategy focused on intensive engagement and supports to help those most distant from the labour market into the workforce; and if he will make a statement on the matter. [31409/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/33/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 49,
+          "department": "Social",
+          "heading": "Departmental Policies",
+          "question": "49. Deputy James O'Connor asked the Minister for Social Protection the way in which he is ensuring that every effort is made to support individuals to transition from welfare into further education/training and work, especially in relation to how to avoid a cliff edge when people take up work; and if he will make a statement on the matter. [31410/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/49/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 147,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "147. Deputy James O'Connor asked the Minister for Transport if he will provide an update on the Cork Metropolitan Area Transport Strategy that is currently under construction; if the plan is ahead of schedule considering the volume of commuters wishing to utilise public transport; if his Department is considering the inclusion of the Midleton-Youghal rail line on future railway plans or another mode of transport on the same corridor to coincide with the Greenway; and if he will make a statement on the matter. [31433/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/147/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 184,
+          "department": "Transport",
+          "heading": "Road Projects",
+          "question": "184. Deputy James O'Connor asked the Minister for Transport if he will provide an update on the N25 Midleton to Youghal scheme following the recent appointment of the design consultant for the project; if the Lakeview roundabout will be taken into consideration following the recent upgrades of the R630; if his Department have considered signalising the roundabout to help with traffic flow; and if he will make a statement on the matter. [31432/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/184/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 267,
+          "department": "Public Expenditure",
+          "heading": "Office of Public Works",
+          "question": "267. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the confirmed details for the expanded minor works scheme for the OPW; when he expects the final terms and conditions of the scheme to be published and circulated among Local Authorities; and if he will make a statement on the matter. [33178/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/267/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 275,
+          "department": "Enterprise",
+          "heading": "Pharmacy Services",
+          "question": "275. Deputy James O'Connor asked the Minister for Enterprise, Tourism and Employment to provide an update on the efforts being made to establish an EU pharmaceutical taskforce by his Department; and if he will make a statement on the matter. [32941/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/275/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 453,
+          "department": "Education",
+          "heading": "School Accommodation",
+          "question": "453. Deputy James O'Connor asked the Minister for Education and Youth the supports her Department will provide to a primary school (details supplied) considering the large increase incoming for the junior infants in September 2026 and lack of accommodation available on site; and if she will make a statement on the matter. [33230/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/453/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 15,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "15. Deputy James O'Connor asked the Minister for Culture, Communications and Sport when the next round of sports capital grants will be opened for applications; and if he will make a statement on the matter. [33161/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/15/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 47,
+          "department": "Culture",
+          "heading": "Swimming Pools",
+          "question": "47. Deputy James O'Connor asked the Minister for Culture, Communications and Sport the progress he has made on the Programme for Government commitment to implement the New National Swimming Strategy by investing in pools and swimming facilities allowing everyone an opportunity to swim. [33162/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/47/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 106,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "106. Deputy James O'Connor asked the Minister for Defence if she will outline any improvements to pay and working conditions for members of the Defence Forces; and if she will make a statement on the matter. [32728/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/106/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 138,
+          "department": "Defence",
+          "heading": "Naval Service",
+          "question": "138. Deputy James O'Connor asked the Minister for Defence if she will provide an update on the staffing shortages in the Naval Service; the progress made with the on-going recruitment campaign within the Naval Service; and if she will make a statement on the matter. [32727/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/138/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 588,
+          "department": "Rural",
+          "heading": "Library Projects",
+          "question": "588. Deputy James O'Connor asked the Minister for Rural and Community Development and the Gaeltacht the status of a project (details supplied); and if he will make a statement on the matter. [33468/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/588/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 4,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "4. Deputy James O'Connor asked the Taoiseach when the Cabinet Committee on the economy, trade and competitiveness will next meet. [9934/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/4/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-14",
+          "questionNumber": 61,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "61. Deputy James O'Connor asked the Minister for Justice, Home Affairs and Migration for an update on the Garda numbers in Cork county, in particular the Midleton District. [35714/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/61/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-14",
+          "questionNumber": 92,
+          "department": "Agriculture",
+          "heading": "Common Agricultural Policy",
+          "question": "92. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine if he will prioritise farm succession and young farmers in the negotiations for the Common Agricultural Policy post 2027; and if he will make a statement on the matter. [35738/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/92/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-14",
+          "questionNumber": 124,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "124. Deputy James O'Connor asked the Minister for Agriculture, Food and the Marine the number of applications received for the fuel income support scheme to date; and if he will make a statement on the matter. [35739/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/124/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 536,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "536. Deputy James O'Connor asked the Minister for Education and Youth further to Parliamentary Question No. 229 of 5 February 2026, if she will provide an update on her Department’s considerations on the site identified; if she will outline her Department’s plans for the potential uses of this land; if there are no plans, if she will instruct her Department’s officials to engage with school management to discuss the matter further; and if she will make a statement on the matter. [37612/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/536/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 1158,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "1158. Deputy James O'Connor asked the Minister for Health the position regarding the number of consultant rheumatologists serving Cork University Hospital (CUH) and South Infirmary - Victoria University Hospital (SIVUH); the position regarding current waiting lists for patients; and if she will make a statement on the matter. [37295/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1158/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 28,
+          "department": "Foreign",
+          "heading": "Trade Promotion",
+          "question": "28. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the key priorities for trade under her Department’s new Statement of Strategy; and if she will make a statement on the matter. [38379/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/28/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 31,
+          "department": "Foreign",
+          "heading": "Trade Promotion",
+          "question": "31. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade when the Government trade forum will next meet; and if she will make a statement on the matter. [38378/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/31/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 138,
+          "department": "Rural",
+          "heading": "Regeneration Projects",
+          "question": "138. Deputy James O'Connor asked the Minister for Rural and Community Development and the Gaeltacht if applications have been received from east Cork for the newly opened building and land acquisition measure under the town and village renewal scheme; and if he will make a statement on the matter. [38380/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/138/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 153,
+          "department": "Rural",
+          "heading": "Community Development Projects",
+          "question": "153. Deputy James O'Connor asked the Minister for Rural and Community Development and the Gaeltacht the number of applications received to date for the Community Centre Investment Fund; and if he will make a statement on the matter. [38381/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/153/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 141,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "141. Deputy James O'Connor asked the Tánaiste and Minister for Finance if he is considering new taxation measures to strengthen Ireland's competitiveness to support the growth of the indigenous sector and encourage retail investment; and if he will make a statement on the matter. [39878/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/141/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 195,
+          "department": "Finance",
+          "heading": "Small and Medium Enterprises",
+          "question": "195. Deputy James O'Connor asked the Tánaiste and Minister for Finance his plans to simplify tax administration for the SME sector; and if he will make a statement on the matter. [39879/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/195/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 305,
+          "department": "Climate",
+          "heading": "Renewable Energy Generation",
+          "question": "305. Deputy James O'Connor asked the Minister for Climate, Energy and the Environment the current position regarding the timeline for the installation of solar panels for the medically vulnerable under the SEAI medically vulnerable (MV) solar PV scheme; and if he will make a statement on the matter. [39634/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/305/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 1097,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "1097. Deputy James O'Connor asked the Minister for Health her position regarding the new national ambulance training college for the southern region; the location of the new site; the timeline for completion; and if she will make a statement on the matter. [38705/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1097/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 24,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "24. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on the flood projects in the east Cork area; the expected timeline for completion of the same projects; and if he will make a statement on the matter. [40794/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/24/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 28,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "28. Deputy James O'Connor asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the timeline when his Department will publish the terms and conditions for the expanded minor works scheme following his announcement in August 2025; and if he will make a statement on the matter. [40793/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/28/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 118,
+          "department": "Education",
+          "heading": "School Transport",
+          "question": "118. Deputy James O'Connor asked the Minister for Education and Youth the number of applications made for the school transport scheme for the 2026-2027 school year; and if she will make a statement on the matter. [40789/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/118/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 120,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "120. Deputy James O'Connor asked the Minister for Education and Youth the status of all school building projects in County Cork; the timeline since the last stage was entered into for each project; and if she will make a statement on the matter. [40790/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/120/",
+          "questionType": "written"
         }
       ]
     },
     "oral": {
-      "count": 3,
+      "count": 7,
       "headingOptions": [
+        "Cabinet Committees",
         "Pension Provisions",
         "Sports Funding",
+        "Tax Code",
         "Trade Promotion"
       ],
       "insights": {
-        "topHeading": "Pension Provisions",
-        "topHeadingCount": 1,
-        "topDepartment": "Social",
-        "topDepartmentCount": 1
+        "topHeading": "Sports Funding",
+        "topHeadingCount": 2,
+        "topDepartment": "Culture",
+        "topDepartmentCount": 2
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Trade Promotion",
+                "value": 2
+              }
+            ]
+          },
           {
             "name": "Social",
             "children": [
@@ -2271,19 +3708,19 @@
             ]
           },
           {
-            "name": "Culture",
+            "name": "Taoiseach",
             "children": [
               {
-                "name": "Sports Funding",
+                "name": "Cabinet Committees",
                 "value": 1
               }
             ]
           },
           {
-            "name": "Foreign",
+            "name": "Finance",
             "children": [
               {
-                "name": "Trade Promotion",
+                "name": "Tax Code",
                 "value": 1
               }
             ]
@@ -2293,6 +3730,70 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "163. Deputy James O'Connor asked the Minister for Culture, Communications and Sport if he has discussed the potential total funding that will be available for the next round of the community sports facilities fund; if his Department has completed the review of the last round of the same fund; the timeline for the next round of the scheme; and if he will make a statement on the matter. [16720/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/163/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "15. Deputy James O'Connor asked the Minister for Culture, Communications and Sport when the next round of sports capital grants will be opened for applications; and if he will make a statement on the matter. [33161/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/15/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Trade Promotion",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "75. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the role her Department plays in the action plan on market diversification; and if she will make a statement on the matter. [23046/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/75/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "31. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade when the Government trade forum will next meet; and if she will make a statement on the matter. [38378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/31/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Social",
             "children": [
@@ -2315,19 +3816,19 @@
             ]
           },
           {
-            "name": "Culture",
+            "name": "Taoiseach",
             "children": [
               {
-                "name": "Sports Funding",
+                "name": "Cabinet Committees",
                 "children": [
                   {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
                     "children": [
                       {
-                        "name": "163. Deputy James O'Connor asked the Minister for Culture, Communications and Sport if he has discussed the potential total funding that will be available for the next round of the community sports facilities fund; if his Department has completed the review of the last round of the same fund; the timeline for the next round of the scheme; and if he will make a statement on the matter. [16720/26]",
+                        "name": "4. Deputy James O'Connor asked the Taoiseach when the Cabinet Committee on the economy, trade and competitiveness will next meet. [9934/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/163/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/4/"
                       }
                     ]
                   }
@@ -2336,19 +3837,19 @@
             ]
           },
           {
-            "name": "Foreign",
+            "name": "Finance",
             "children": [
               {
-                "name": "Trade Promotion",
+                "name": "Tax Code",
                 "children": [
                   {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
                     "children": [
                       {
-                        "name": "75. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the role her Department plays in the action plan on market diversification; and if she will make a statement on the matter. [23046/26]",
+                        "name": "141. Deputy James O'Connor asked the Tánaiste and Minister for Finance if he is considering new taxation measures to strengthen Ireland's competitiveness to support the growth of the indigenous sector and encourage retail investment; and if he will make a statement on the matter. [39878/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/75/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/141/"
                       }
                     ]
                   }
@@ -2384,6 +3885,42 @@
           "heading": "Trade Promotion",
           "question": "75. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade the role her Department plays in the action plan on market diversification; and if she will make a statement on the matter. [23046/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/75/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-07",
+          "questionNumber": 15,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "15. Deputy James O'Connor asked the Minister for Culture, Communications and Sport when the next round of sports capital grants will be opened for applications; and if he will make a statement on the matter. [33161/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/15/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 4,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "4. Deputy James O'Connor asked the Taoiseach when the Cabinet Committee on the economy, trade and competitiveness will next meet. [9934/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/4/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 31,
+          "department": "Foreign",
+          "heading": "Trade Promotion",
+          "question": "31. Deputy James O'Connor asked the Minister for Foreign Affairs and Trade when the Government trade forum will next meet; and if she will make a statement on the matter. [38378/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/31/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 141,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "141. Deputy James O'Connor asked the Tánaiste and Minister for Finance if he is considering new taxation measures to strengthen Ireland's competitiveness to support the growth of the indigenous sector and encourage retail investment; and if he will make a statement on the matter. [39878/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/141/",
           "questionType": "oral"
         }
       ]

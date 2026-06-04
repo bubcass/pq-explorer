@@ -1,5 +1,5 @@
 {
-  "year": "2026",
+  "year": 2026,
   "memberCode": "John-McGuinness.D.1997-06-26",
   "memberName": "John McGuinness",
   "deputy": "John McGuinness",
@@ -9,45 +9,66 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-McGuinness.D.1997-06-26/image/large",
   "types": {
     "all": {
-      "count": 47,
+      "count": 80,
       "headingOptions": [
         "Adoption Services",
         "Agriculture Industry",
         "Agriculture Schemes",
         "Care Services",
         "Child and Family Agency",
+        "Commonage Land Use",
         "Defective Building Materials",
+        "Departmental Bodies",
+        "Departmental Correspondence",
+        "Departmental Reviews",
         "Disabilities Assessments",
         "Disability Services",
+        "Education Schemes",
         "Employment Rights",
+        "Family Law Cases",
         "Farm Inspections",
+        "Fiscal Policy",
         "Flood Relief Schemes",
+        "Grant Payments",
         "Health Service Executive",
         "Health Services",
         "Health Services Staff",
         "Healthcare Infrastructure Provision",
+        "Home Care Packages",
         "Home Help Service",
+        "Home Schooling",
+        "Horse Racing Industry",
+        "Hospital Appointments Status",
         "Hospital Services",
         "Hospital Waiting Lists",
+        "Housing Policy",
+        "Housing Provision",
+        "Legislative Measures",
         "Local Drugs Task Forces",
         "Medicinal Products",
         "National Archives",
         "Pension Provisions",
+        "Probate Applications",
+        "Public Sector Pensions",
+        "School Accommodation",
+        "School Meals Programme",
         "Schools Amalgamation",
         "Schools Building Projects",
+        "Social Welfare Code",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
         "Special Educational Needs",
         "State Examinations",
         "State Pensions",
+        "Third Level Costs",
         "Ukraine War",
         "Wind Energy Guidelines"
       ],
       "insights": {
         "topHeading": "Schools Building Projects",
-        "topHeadingCount": 5,
+        "topHeadingCount": 6,
         "topDepartment": "Health",
-        "topDepartmentCount": 15
+        "topDepartmentCount": 21
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -56,11 +77,11 @@
             "name": "Health",
             "children": [
               {
-                "name": "Health Service Executive",
-                "value": 2
+                "name": "Health Services",
+                "value": 4
               },
               {
-                "name": "Health Services",
+                "name": "Health Service Executive",
                 "value": 2
               },
               {
@@ -98,6 +119,22 @@
               {
                 "name": "Care Services",
                 "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Home Care Packages",
+                "value": 1
+              },
+              {
+                "name": "Housing Provision",
+                "value": 1
+              },
+              {
+                "name": "Hospital Appointments Status",
+                "value": 1
               }
             ]
           },
@@ -106,11 +143,11 @@
             "children": [
               {
                 "name": "Schools Building Projects",
-                "value": 5
+                "value": 6
               },
               {
                 "name": "Special Educational Needs",
-                "value": 2
+                "value": 4
               },
               {
                 "name": "Schools Amalgamation",
@@ -118,6 +155,63 @@
               },
               {
                 "name": "State Examinations",
+                "value": 1
+              },
+              {
+                "name": "Education Schemes",
+                "value": 1
+              },
+              {
+                "name": "Home Schooling",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "School Accommodation",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Agriculture Schemes",
+                "value": 3
+              },
+              {
+                "name": "Farm Inspections",
+                "value": 1
+              },
+              {
+                "name": "Agriculture Industry",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
+                "value": 1
+              },
+              {
+                "name": "Horse Racing Industry",
+                "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Commonage Land Use",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Pensions",
                 "value": 1
               }
             ]
@@ -148,27 +242,6 @@
             ]
           },
           {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Farm Inspections",
-                "value": 1
-              },
-              {
-                "name": "Agriculture Industry",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Agriculture Schemes",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -185,6 +258,69 @@
               },
               {
                 "name": "State Pensions",
+                "value": 1
+              },
+              {
+                "name": "Departmental Reviews",
+                "value": 1
+              },
+              {
+                "name": "Housing Policy",
+                "value": 1
+              },
+              {
+                "name": "School Meals Programme",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Code",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Wind Energy Guidelines",
+                "value": 2
+              },
+              {
+                "name": "Defective Building Materials",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Ukraine War",
+                "value": 1
+              },
+              {
+                "name": "Probate Applications",
+                "value": 1
+              },
+              {
+                "name": "Family Law Cases",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Third Level Costs",
+                "value": 1
+              },
+              {
+                "name": "Grant Payments",
                 "value": 1
               }
             ]
@@ -203,32 +339,14 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Defective Building Materials",
-                "value": 1
-              },
-              {
-                "name": "Wind Energy Guidelines",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
                 "name": "Flood Relief Schemes",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
+              },
               {
-                "name": "Ukraine War",
+                "name": "Fiscal Policy",
                 "value": 1
               }
             ]
@@ -238,6 +356,19 @@
             "children": [
               {
                 "name": "National Archives",
+                "value": 1
+              },
+              {
+                "name": "Departmental Bodies",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Grant Payments",
                 "value": 1
               }
             ]
@@ -250,33 +381,6 @@
           {
             "name": "Health",
             "children": [
-              {
-                "name": "Health Service Executive",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "1022. Deputy John McGuinness asked the Minister for Health if she will provide a report that includes all maps and drawings on the findings and outcomes of the extensive public consultation process undertaken by the estates management section of the HSE (details supplied); the committee or entity that made the decision; and if she will make a statement on the matter. [4274/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/1022/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "1041. Deputy John McGuinness asked the Minister for Health if she will provide details of the circumstances surrounding the removal, without notice, of the personal effects belonging to a resident (details supplied); if proper procedures were followed; if the person's family were informed of this significant change prior to any action being taken. [5935/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1041/"
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "name": "Health Services",
                 "children": [
@@ -299,6 +403,55 @@
                         "name": "1990. Deputy John McGuinness asked the Minister for Health if she will provide a detailed account of the efforts made to identify an appropriate service provider regarding the care needs of a child (details supplied). [19876/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1990/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "1289. Deputy John McGuinness asked the Minister for Health further to Parliamentary Question No. 1990 of 18 March 2026, if she will request a comprehensive report from the HSE, TUSLA and the Gardaí relative to the current urgent care needs of the person, as the response to the PQ is inadequate and does not address the dire circumstances faced by the family on a daily basis; if she will provide a name and contact details for service management referenced by the HSE in their reply so the parents can liaise as suggested; if a place in an ASD unit will be provided; if the full range of services will be made available based on their diagnosis of Autism; and if she will make a statement on the matter. [30943/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1289/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "1352. Deputy John McGuinness asked the Minister for Health if the medical report submitted by a consultant (details supplied) will be urgently reconsidered with a view to approving a patient for CGM via a dexcom device; if the patient's consultants recommendation to approve the device will be fast tracked; and if she will expedite a positive response. [39439/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1352/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Service Executive",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "1022. Deputy John McGuinness asked the Minister for Health if she will provide a report that includes all maps and drawings on the findings and outcomes of the extensive public consultation process undertaken by the estates management section of the HSE (details supplied); the committee or entity that made the decision; and if she will make a statement on the matter. [4274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/1022/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "1041. Deputy John McGuinness asked the Minister for Health if she will provide details of the circumstances surrounding the removal, without notice, of the personal effects belonging to a resident (details supplied); if proper procedures were followed; if the person's family were informed of this significant change prior to any action being taken. [5935/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1041/"
                       }
                     ]
                   }
@@ -463,6 +616,70 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2854. Deputy John McGuinness asked the Minister for Health if a hospital appointment will be expedited for a person (details supplied). [24550/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2854/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Home Care Packages",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2856. Deputy John McGuinness asked the Minister for Health if a full home care package currently being provided for a person (details supplied) will be transferred to their new address. [24584/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2856/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "1026. Deputy John McGuinness asked the Minister for Health the number of the 77 planned residential places nationwide that are earmarked for Kilkenny; and if she will make a statement on the matter. [34043/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1026/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Appointments Status",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "1205. Deputy John McGuinness asked the Minister for Health further to Parliamentary Questions Nos. 482 of 24 September 2024 and 2415 of 8 September 2025, the progress made in arranging an operation for a patient (details supplied); if she will expedite the matter; if she will request a comprehensive report to explain this unacceptable delay; if she will intervene directly with the hospital and establish a date for the operation that will not be changed; and if she will make a statement on the matter. [37643/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1205/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -508,6 +725,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/462/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "87. Deputy John McGuinness asked the Minister for Education and Youth her plans to provide the funding to allow all school building projects in Carlow and Kilkenny to move to the next phase of the process; and if she will make a statement on the matter. [40603/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/87/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -533,6 +761,28 @@
                         "name": "485. Deputy John McGuinness asked the Minister for Education and Youth the reason a school (details supplied) has no SNA support, given the school has submitted an application and an appeal; and if she will make a statement on the matter. [16892/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/485/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1332. Deputy John McGuinness asked the Minister for Education and Youth when an extra classroom will be provided as part of the special class provision for 2026/ 2027 for a DEIS school in County Kilkenny (details supplied) [24874/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1332/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "524. Deputy John McGuinness asked the Minister for Education and Youth the reason approval was not granted for a modular build extension to accommodate special needs students on the waiting list for a school (details supplied) who have not been allocated a school place; and if she will expedite a positive response. [38703/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/524/"
                       }
                     ]
                   }
@@ -565,6 +815,241 @@
                         "name": "141. Deputy John McGuinness asked the Minister for Education and Youth the reason fees are being reintroduced for the 2026 State examinations, particularly given the ongoing cost-of-living crisis affecting many families; the reason parents and students are only being notified during the school year; the reason the payment window is so short, placing additional pressure on households already managing significant expenses; and if she will make a statement on the matter. [23035/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/141/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1311. Deputy John McGuinness asked the Minister for Education and Youth the number of site visits undertaken by her Department officials to a DEIS school in County Kilkenny in each of the past ten years; if the reports compiled after each visit will be made available; if the issues highlighted in each report requiring urgent attention will be set out in the response to this PQ; the amount of funding provided in each of the past ten years to carry out maintenance, repairs and other urgent works to the fabric of the building; if an immediate inspection of the school will be undertaken to prioritise the urgent work required to deal with the dangerous health and safety issues faced on a daily basis by the school community (details supplied); and if she will make a statement on the matter. [24456/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1311/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Home Schooling",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1522. Deputy John McGuinness asked the Minister for Education and Youth her views on whether it is acceptable that 14 year old child (details supplied) has been without any educational provision since December 2025; her further views on whether denying this child private tuition due to the fact that they did not meet the attendance threshold requirement when it clearly was not the child's fault is acceptable; if she believes the medical opinion of a chartered psychologist recommending home tuition for this child should be ignored; if this matter will be investigated to find a solution; and if she will make a statement on the matter. [27083/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1522/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "252. Deputy John McGuinness asked the Minister for Education and Youth her views on whether it is fair and right to deny a pension recipient (details supplied) a posted monthly payslip, given that the recipient is 83 years of age and completely unable to use computers; and if she will make a statement on the matter. [38496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/252/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "137. Deputy John McGuinness asked the Minister for Education and Youth if she will request the Health and Safety Authority and the local fire chief to provide a comprehensive report to her Department on the condition of each prefab used by a school (details supplied); and if she will make a statement on the matter. [40609/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/137/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "384. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if he will review an application under TAMS, YFCIS TAMS 3 (details supplied) with a view to approving the application; if he will explain the marking details relative to this application; and confirm when the next assessment will take place. [21269/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/384/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "382. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine when the next assessment for the SCIS, TAMS3 scheme will take place; if an applicant (details supplied) will continue to be automatically entered into each subsequent assessment or if they will have to apply again in the future; if retention of this scheme is part of the CAP negotiations; and if he will make a statement on the matter. [23128/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/382/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "309. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if he will provide an update on an SCIS TAMS 3 application for solar panels in the name of a person (details supplied); and if he will expedite a positive outcome [38476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/309/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Farm Inspections",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "796. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine the status of an appeal in the name of a person (details supplied); if the penalty applied will be reduced; the outcome of the inspection carried out on the 12 December 2025; and the penalty to be applied. [3757/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/796/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Industry",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "211. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine the status of the investigation being undertaken by his Department into the concerns raised by a person (details supplied) concerning the welfare of his animals, and other matters, during a specific timeframe; and if he will make a statement on the matter. [15211/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/211/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1462. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if a person (details supplied) is entitled to a pension and lump sum payment; if the matter will be expedited. [20572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1462/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2216. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if it is his intention to provide regulations or legislation to allow for alkaline hydrolysis as a disposal method for category 1 animal by products (ABPs); if an application to his Department will be considered under Irish law or regulations rather than article 12 of the EC regulation 1069/2009 (details supplied); and if he will make a statement on the matter. [24888/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2216/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Horse Racing Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2249. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine the level of funding given to Horse Sport (HSI) Ireland in each of the past five years; the extent of the oversight that his Department has relative to how the funding is spent; if there is a formal memorandum of understanding is in place; if his attention has been drawn to the serious disquiet and lack of trust that exists amongst some stakeholders; if he will investigate the issues raised by stakeholders in correspondence to his office and to which no response has been issued; the reason HSI imposed a mandatory levy of €45 on Irish riders as a condition for access to FEI international competitions; if this levy constitutes an abuse of the HSIs dominant position; and if he will make a statement on the matter. [25183/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2249/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "884. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if he will outline the reason applications (details supplied) were not successful; if the outcome can be reversed as the applicant has invested heavily in the preparatory works for the project; and if he will make a statement on the matter. [34755/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/884/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Commonage Land Use",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "895. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if the issues concerning 19 shares of commonage relative to lands at a location (details supplied) and recorded under a number of herd numbers, have now been resolved; and if all payments due to those involved are up to date. [35046/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/895/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Pensions",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "310. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 1462 of 18 March 2026, and a commitment given in the response to contact the individual concerned (details supplied), if he will confirm the action that was taken; if the lump sum due to the person and the full pension entitlements have now been paid; and if he will make a statement on the matter. [38616/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/310/"
                       }
                     ]
                   }
@@ -685,75 +1170,6 @@
             ]
           },
           {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Farm Inspections",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "796. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine the status of an appeal in the name of a person (details supplied); if the penalty applied will be reduced; the outcome of the inspection carried out on the 12 December 2025; and the penalty to be applied. [3757/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/796/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Industry",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "211. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine the status of the investigation being undertaken by his Department into the concerns raised by a person (details supplied) concerning the welfare of his animals, and other matters, during a specific timeframe; and if he will make a statement on the matter. [15211/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/211/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1462. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if a person (details supplied) is entitled to a pension and lump sum payment; if the matter will be expedited. [20572/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1462/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "384. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if he will review an application under TAMS, YFCIS TAMS 3 (details supplied) with a view to approving the application; if he will explain the marking details relative to this application; and confirm when the next assessment will take place. [21269/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/384/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -819,6 +1235,224 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1874. Deputy John McGuinness asked the Minister for Social Protection if he will review the case of a person (details supplied); and if he will make a statement on the matter. [25020/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1874/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "606. Deputy John McGuinness asked the Minister for Social Protection if he will investigate a case (details supplied) where a landlord has been housing a Ukrainian couple since November 2024 under the accommodation and recognition payment, but has never received any payment; and if he will make a statement on the matter. [28266/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/606/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Meals Programme",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "654. Deputy John McGuinness asked the Minister for Social Protection the number of free school meal providers nationwide; the breakdown of schools and their providers; the source of the meat and chicken for these meals; and if he will make a statement on the matter. [37119/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/654/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "655. Deputy John McGuinness asked the Minister for Social Protection if he will consider for the upcoming Budget 2027 amending the living alone allowance scheme to include single (never married) retired civil and public servants employed prior to 1995, given that the current scheme discriminates against such employees; his views on whether these people are being discriminated against; if he will further consider the fact that those in this cohort of State employees who are widowed qualify for the scheme, thereby adding to the discriminatory nature of the scheme; and if he will make a statement on the matter. [36831/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/655/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Wind Energy Guidelines",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "162. Deputy John McGuinness asked the Minister for Housing, Local Government and Heritage if and when he became aware that the HSE 2017 position paper; Wind Turbines and Public Health had been withdrawn; if he is aware that developers continue to rely on this now-withdrawn document in planning applications; the steps he will take to address the resulting regulatory gap to maintain public confidence in the planning process; and if he will make a statement on the matter. [15430/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/162/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "638. Deputy John McGuinness asked the Minister for Housing, Local Government and Heritage if he will provide an update on the regulations and guidelines being considered relative to the development of on shore wind farms; and if an indicative timeframe will be provided for their implementation [37644/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/638/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defective Building Materials",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "641. Deputy John McGuinness asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 1133 of 4 November 2025, if he has been given the completed report and recommendations from the housing agency which commenced drafting in May 2025 , relative to the concrete block test results from properties sampled in County Carlow, in 2024; if the individual reports and recommendations will be made available to the property owners in Carlow following his consideration; if County Kilkenny has been included in the scheme arising from their submission on 23 June 2025; and if he will make a statement on the matter. [7427/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/641/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Ukraine War",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "753. Deputy John McGuinness asked the Minister for Justice, Home Affairs and Migration the measure in place for Ukrainians being housed by local families given that his Department is due to cease monthly payments on 26 March 2026; and if he will make a statement on the matter. [7459/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/753/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Probate Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2086. Deputy John McGuinness asked the Minister for Justice, Home Affairs and Migration the way in which the progress in reduced probate processing times outlined (and the most up-to-date figures) have been achieved; if he has information on the minimum and maximum probate processing times for each area; an up-to-date figure for the average time (nationwide) for probate applications to complete; the latest developments/progress on the Government plans which he is leading to speed up the process of probate processing times, including the introduction of an eProject process as part of a broader modernization of the court system; and if he will make a statement on the matter. [25428/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2086/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Family Law Cases",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "869. Deputy John McGuinness asked the Minister for Justice, Home Affairs and Migration if he has given consideration to much-needed reform of the family court system, and the child-centred decisions; and his views on specific policy proposals (details supplied); and if he will make a statement on the matter. [30886/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/869/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3464. Deputy John McGuinness asked the Minister for Further and Higher Education, Research, Innovation and Science if the case of a person (details supplied) will be reviewed; and if he will make a statement on the matter. [25005/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3464/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Costs",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "1324. Deputy John McGuinness asked the Minister for Further and Higher Education, Research, Innovation and Science his views on whether it is right for SUSI to refuse a grant to a student who is a member of the Reserve Defence Forces but is not employed by the RDF (details supplied); and if he will make a statement on the matter. [36881/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1324/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Grant Payments",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "328. Deputy John McGuinness asked the Minister for Further and Higher Education, Research, Innovation and Science his views on the decision to refuse a SUSI grant to a student (details supplied) who is a member of the Reserve Defence Force but is not employed by the RDF; and if he will make a statement on the matter. [38132/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/328/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -860,43 +1494,6 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Defective Building Materials",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "641. Deputy John McGuinness asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 1133 of 4 November 2025, if he has been given the completed report and recommendations from the housing agency which commenced drafting in May 2025 , relative to the concrete block test results from properties sampled in County Carlow, in 2024; if the individual reports and recommendations will be made available to the property owners in Carlow following his consideration; if County Kilkenny has been included in the scheme arising from their submission on 23 June 2025; and if he will make a statement on the matter. [7427/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/641/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wind Energy Guidelines",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "162. Deputy John McGuinness asked the Minister for Housing, Local Government and Heritage if and when he became aware that the HSE 2017 position paper; Wind Turbines and Public Health had been withdrawn; if he is aware that developers continue to rely on this now-withdrawn document in planning applications; the steps he will take to address the resulting regulatory gap to maintain public confidence in the planning process; and if he will make a statement on the matter. [15430/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/162/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -914,23 +1511,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
+              },
               {
-                "name": "Ukraine War",
+                "name": "Fiscal Policy",
                 "children": [
                   {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "753. Deputy John McGuinness asked the Minister for Justice, Home Affairs and Migration the measure in place for Ukrainians being housed by local families given that his Department is due to cease monthly payments on 26 March 2026; and if he will make a statement on the matter. [7459/26]",
+                        "name": "70. Deputy John McGuinness asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the measures he is implementing to minimise the waste of public funds and ensure that greater value-for-money is achieved by every Government department and agency. [40600/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/753/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/70/"
                       }
                     ]
                   }
@@ -952,6 +1544,43 @@
                         "name": "566. Deputy John McGuinness asked the Minister for Culture, Communications and Sport if all documents, minute books and any other items relative to the history of The Kilkenny Design Workshops currently being stored uncatalogued in the National Archives will be transferred to an organisation (details supplied); and if he will make a statement on the matter. [22477/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/566/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1570. Deputy John McGuinness asked the Minister for Culture, Communications and Sport the level of funding given to Horse Sport Ireland (HSI) in each of the past five years; the extent of the oversight that his Department has relative to how the funding is spent; if there is a formal memorandum of understanding is in place; if his attention has been drawn to the serious disquiet and lack of trust that exists amongst some stakeholders; and if he will make a statement on the matter. [25184/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1570/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Grant Payments",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "305. Deputy John McGuinness asked the Minister for Defence her views on the refusal of a SUSI grant for a person (details supplied); and if she will make a statement on the matter. [35039/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/305/"
                       }
                     ]
                   }
@@ -1378,28 +2007,374 @@
         },
         {
           "date_iso": "2026-03-26",
+          "questionNumber": 382,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "382. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine when the next assessment for the SCIS, TAMS3 scheme will take place; if an applicant (details supplied) will continue to be automatically entered into each subsequent assessment or if they will have to apply again in the future; if retention of this scheme is part of the CAP negotiations; and if he will make a statement on the matter. [23128/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/382/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-03-26",
           "questionNumber": 446,
           "department": "Health",
           "heading": "Care Services",
           "question": "446. Deputy John McGuinness asked the Minister for Health further to Parliamentary Question No.1040 of 27 January 2026, if she investigate a matter (details supplied) and respond in full. [23209/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/446/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1311,
+          "department": "Education",
+          "heading": "Education Schemes",
+          "question": "1311. Deputy John McGuinness asked the Minister for Education and Youth the number of site visits undertaken by her Department officials to a DEIS school in County Kilkenny in each of the past ten years; if the reports compiled after each visit will be made available; if the issues highlighted in each report requiring urgent attention will be set out in the response to this PQ; the amount of funding provided in each of the past ten years to carry out maintenance, repairs and other urgent works to the fabric of the building; if an immediate inspection of the school will be undertaken to prioritise the urgent work required to deal with the dangerous health and safety issues faced on a daily basis by the school community (details supplied); and if she will make a statement on the matter. [24456/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1311/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1332,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "1332. Deputy John McGuinness asked the Minister for Education and Youth when an extra classroom will be provided as part of the special class provision for 2026/ 2027 for a DEIS school in County Kilkenny (details supplied) [24874/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1332/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1522,
+          "department": "Education",
+          "heading": "Home Schooling",
+          "question": "1522. Deputy John McGuinness asked the Minister for Education and Youth her views on whether it is acceptable that 14 year old child (details supplied) has been without any educational provision since December 2025; her further views on whether denying this child private tuition due to the fact that they did not meet the attendance threshold requirement when it clearly was not the child's fault is acceptable; if she believes the medical opinion of a chartered psychologist recommending home tuition for this child should be ignored; if this matter will be investigated to find a solution; and if she will make a statement on the matter. [27083/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1522/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1570,
+          "department": "Culture",
+          "heading": "Departmental Bodies",
+          "question": "1570. Deputy John McGuinness asked the Minister for Culture, Communications and Sport the level of funding given to Horse Sport Ireland (HSI) in each of the past five years; the extent of the oversight that his Department has relative to how the funding is spent; if there is a formal memorandum of understanding is in place; if his attention has been drawn to the serious disquiet and lack of trust that exists amongst some stakeholders; and if he will make a statement on the matter. [25184/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1570/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1874,
+          "department": "Social",
+          "heading": "Departmental Reviews",
+          "question": "1874. Deputy John McGuinness asked the Minister for Social Protection if he will review the case of a person (details supplied); and if he will make a statement on the matter. [25020/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1874/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2086,
+          "department": "Justice",
+          "heading": "Probate Applications",
+          "question": "2086. Deputy John McGuinness asked the Minister for Justice, Home Affairs and Migration the way in which the progress in reduced probate processing times outlined (and the most up-to-date figures) have been achieved; if he has information on the minimum and maximum probate processing times for each area; an up-to-date figure for the average time (nationwide) for probate applications to complete; the latest developments/progress on the Government plans which he is leading to speed up the process of probate processing times, including the introduction of an eProject process as part of a broader modernization of the court system; and if he will make a statement on the matter. [25428/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2086/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2216,
+          "department": "Agriculture",
+          "heading": "Legislative Measures",
+          "question": "2216. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if it is his intention to provide regulations or legislation to allow for alkaline hydrolysis as a disposal method for category 1 animal by products (ABPs); if an application to his Department will be considered under Irish law or regulations rather than article 12 of the EC regulation 1069/2009 (details supplied); and if he will make a statement on the matter. [24888/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2216/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2249,
+          "department": "Agriculture",
+          "heading": "Horse Racing Industry",
+          "question": "2249. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine the level of funding given to Horse Sport (HSI) Ireland in each of the past five years; the extent of the oversight that his Department has relative to how the funding is spent; if there is a formal memorandum of understanding is in place; if his attention has been drawn to the serious disquiet and lack of trust that exists amongst some stakeholders; if he will investigate the issues raised by stakeholders in correspondence to his office and to which no response has been issued; the reason HSI imposed a mandatory levy of €45 on Irish riders as a condition for access to FEI international competitions; if this levy constitutes an abuse of the HSIs dominant position; and if he will make a statement on the matter. [25183/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2249/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2854,
+          "department": "Health",
+          "heading": "Departmental Correspondence",
+          "question": "2854. Deputy John McGuinness asked the Minister for Health if a hospital appointment will be expedited for a person (details supplied). [24550/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2854/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2856,
+          "department": "Health",
+          "heading": "Home Care Packages",
+          "question": "2856. Deputy John McGuinness asked the Minister for Health if a full home care package currently being provided for a person (details supplied) will be transferred to their new address. [24584/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2856/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 3464,
+          "department": "Further and Higher Education",
+          "heading": "Departmental Correspondence",
+          "question": "3464. Deputy John McGuinness asked the Minister for Further and Higher Education, Research, Innovation and Science if the case of a person (details supplied) will be reviewed; and if he will make a statement on the matter. [25005/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3464/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-21",
+          "questionNumber": 606,
+          "department": "Social",
+          "heading": "Housing Policy",
+          "question": "606. Deputy John McGuinness asked the Minister for Social Protection if he will investigate a case (details supplied) where a landlord has been housing a Ukrainian couple since November 2024 under the accommodation and recognition payment, but has never received any payment; and if he will make a statement on the matter. [28266/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/606/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 869,
+          "department": "Justice",
+          "heading": "Family Law Cases",
+          "question": "869. Deputy John McGuinness asked the Minister for Justice, Home Affairs and Migration if he has given consideration to much-needed reform of the family court system, and the child-centred decisions; and his views on specific policy proposals (details supplied); and if he will make a statement on the matter. [30886/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/869/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 1289,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "1289. Deputy John McGuinness asked the Minister for Health further to Parliamentary Question No. 1990 of 18 March 2026, if she will request a comprehensive report from the HSE, TUSLA and the Gardaí relative to the current urgent care needs of the person, as the response to the PQ is inadequate and does not address the dire circumstances faced by the family on a daily basis; if she will provide a name and contact details for service management referenced by the HSE in their reply so the parents can liaise as suggested; if a place in an ASD unit will be provided; if the full range of services will be made available based on their diagnosis of Autism; and if she will make a statement on the matter. [30943/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1289/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 305,
+          "department": "Defence",
+          "heading": "Grant Payments",
+          "question": "305. Deputy John McGuinness asked the Minister for Defence her views on the refusal of a SUSI grant for a person (details supplied); and if she will make a statement on the matter. [35039/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/305/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 884,
+          "department": "Agriculture",
+          "heading": "Departmental Correspondence",
+          "question": "884. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if he will outline the reason applications (details supplied) were not successful; if the outcome can be reversed as the applicant has invested heavily in the preparatory works for the project; and if he will make a statement on the matter. [34755/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/884/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 895,
+          "department": "Agriculture",
+          "heading": "Commonage Land Use",
+          "question": "895. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if the issues concerning 19 shares of commonage relative to lands at a location (details supplied) and recorded under a number of herd numbers, have now been resolved; and if all payments due to those involved are up to date. [35046/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/895/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 1026,
+          "department": "Health",
+          "heading": "Housing Provision",
+          "question": "1026. Deputy John McGuinness asked the Minister for Health the number of the 77 planned residential places nationwide that are earmarked for Kilkenny; and if she will make a statement on the matter. [34043/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1026/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 638,
+          "department": "Housing",
+          "heading": "Wind Energy Guidelines",
+          "question": "638. Deputy John McGuinness asked the Minister for Housing, Local Government and Heritage if he will provide an update on the regulations and guidelines being considered relative to the development of on shore wind farms; and if an indicative timeframe will be provided for their implementation [37644/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/638/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 654,
+          "department": "Social",
+          "heading": "School Meals Programme",
+          "question": "654. Deputy John McGuinness asked the Minister for Social Protection the number of free school meal providers nationwide; the breakdown of schools and their providers; the source of the meat and chicken for these meals; and if he will make a statement on the matter. [37119/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/654/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 655,
+          "department": "Social",
+          "heading": "Social Welfare Code",
+          "question": "655. Deputy John McGuinness asked the Minister for Social Protection if he will consider for the upcoming Budget 2027 amending the living alone allowance scheme to include single (never married) retired civil and public servants employed prior to 1995, given that the current scheme discriminates against such employees; his views on whether these people are being discriminated against; if he will further consider the fact that those in this cohort of State employees who are widowed qualify for the scheme, thereby adding to the discriminatory nature of the scheme; and if he will make a statement on the matter. [36831/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/655/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 1205,
+          "department": "Health",
+          "heading": "Hospital Appointments Status",
+          "question": "1205. Deputy John McGuinness asked the Minister for Health further to Parliamentary Questions Nos. 482 of 24 September 2024 and 2415 of 8 September 2025, the progress made in arranging an operation for a patient (details supplied); if she will expedite the matter; if she will request a comprehensive report to explain this unacceptable delay; if she will intervene directly with the hospital and establish a date for the operation that will not be changed; and if she will make a statement on the matter. [37643/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1205/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 1324,
+          "department": "Further and Higher Education",
+          "heading": "Third Level Costs",
+          "question": "1324. Deputy John McGuinness asked the Minister for Further and Higher Education, Research, Innovation and Science his views on whether it is right for SUSI to refuse a grant to a student who is a member of the Reserve Defence Forces but is not employed by the RDF (details supplied); and if he will make a statement on the matter. [36881/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1324/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-20",
+          "questionNumber": 328,
+          "department": "Further and Higher Education",
+          "heading": "Grant Payments",
+          "question": "328. Deputy John McGuinness asked the Minister for Further and Higher Education, Research, Innovation and Science his views on the decision to refuse a SUSI grant to a student (details supplied) who is a member of the Reserve Defence Force but is not employed by the RDF; and if he will make a statement on the matter. [38132/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/328/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 252,
+          "department": "Education",
+          "heading": "Pension Provisions",
+          "question": "252. Deputy John McGuinness asked the Minister for Education and Youth her views on whether it is fair and right to deny a pension recipient (details supplied) a posted monthly payslip, given that the recipient is 83 years of age and completely unable to use computers; and if she will make a statement on the matter. [38496/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/252/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 309,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "309. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine if he will provide an update on an SCIS TAMS 3 application for solar panels in the name of a person (details supplied); and if he will expedite a positive outcome [38476/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/309/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 310,
+          "department": "Agriculture",
+          "heading": "Public Sector Pensions",
+          "question": "310. Deputy John McGuinness asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 1462 of 18 March 2026, and a commitment given in the response to contact the individual concerned (details supplied), if he will confirm the action that was taken; if the lump sum due to the person and the full pension entitlements have now been paid; and if he will make a statement on the matter. [38616/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/310/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 524,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "524. Deputy John McGuinness asked the Minister for Education and Youth the reason approval was not granted for a modular build extension to accommodate special needs students on the waiting list for a school (details supplied) who have not been allocated a school place; and if she will expedite a positive response. [38703/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/524/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 1352,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "1352. Deputy John McGuinness asked the Minister for Health if the medical report submitted by a consultant (details supplied) will be urgently reconsidered with a view to approving a patient for CGM via a dexcom device; if the patient's consultants recommendation to approve the device will be fast tracked; and if she will expedite a positive response. [39439/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1352/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 70,
+          "department": "Public Expenditure",
+          "heading": "Fiscal Policy",
+          "question": "70. Deputy John McGuinness asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the measures he is implementing to minimise the waste of public funds and ensure that greater value-for-money is achieved by every Government department and agency. [40600/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/70/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 87,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "87. Deputy John McGuinness asked the Minister for Education and Youth her plans to provide the funding to allow all school building projects in Carlow and Kilkenny to move to the next phase of the process; and if she will make a statement on the matter. [40603/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/87/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 137,
+          "department": "Education",
+          "heading": "School Accommodation",
+          "question": "137. Deputy John McGuinness asked the Minister for Education and Youth if she will request the Health and Safety Authority and the local fire chief to provide a comprehensive report to her Department on the condition of each prefab used by a school (details supplied); and if she will make a statement on the matter. [40609/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/137/",
+          "questionType": "written"
         }
       ]
     },
     "oral": {
-      "count": 0,
-      "headingOptions": [],
-      "insights": null,
+      "count": 1,
+      "headingOptions": [
+        "Schools Building Projects"
+      ],
+      "insights": {
+        "topHeading": "Schools Building Projects",
+        "topHeadingCount": 1,
+        "topDepartment": "Education",
+        "topDepartmentCount": 1
+      },
       "packed": {
         "name": "Parliamentary Questions",
-        "children": []
+        "children": [
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Schools Building Projects",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       "treemap": {
         "name": "Parliamentary Questions",
-        "children": []
+        "children": [
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "87. Deputy John McGuinness asked the Minister for Education and Youth her plans to provide the funding to allow all school building projects in Carlow and Kilkenny to move to the next phase of the process; and if she will make a statement on the matter. [40603/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/87/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
-      "questions": []
+      "questions": [
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 87,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "87. Deputy John McGuinness asked the Minister for Education and Youth her plans to provide the funding to allow all school building projects in Carlow and Kilkenny to move to the next phase of the process; and if she will make a statement on the matter. [40603/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/87/",
+          "questionType": "oral"
+        }
+      ]
     }
   }
 }

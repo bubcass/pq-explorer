@@ -1,5 +1,5 @@
 {
-  "year": "2026",
+  "year": 2026,
   "memberCode": "Michael-Fitzmaurice.D.2014-10-10",
   "memberName": "Michael Fitzmaurice",
   "deputy": "Michael Fitzmaurice",
@@ -9,12 +9,14 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Michael-Fitzmaurice.D.2014-10-10/image/large",
   "types": {
     "all": {
-      "count": 80,
+      "count": 126,
       "headingOptions": [
         "Agriculture Industry",
         "Agriculture Schemes",
+        "Agriculture Supports",
         "Animal Sales",
         "Beef Sector",
+        "Bus Services",
         "Charitable and Voluntary Organisations",
         "Child Protection",
         "Citizenship Applications",
@@ -23,43 +25,60 @@
         "Departmental Correspondence",
         "Departmental Data",
         "Departmental Expenditure",
+        "Departmental Funding",
         "Departmental Inquiries",
         "Departmental Meetings",
         "Departmental Schemes",
         "Disability Issues",
         "Disability Services",
+        "Driver Licences",
         "Driver Test",
         "Education and Training Boards",
+        "Energy Policy",
+        "Energy Production",
+        "EU Regulations",
+        "Financial Services",
         "Food Industry",
         "Food Safety",
         "Forestry Sector",
+        "Fuel Prices",
         "Health and Safety",
         "Health Services",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
         "Hospital Equipment",
+        "Hospital Staff",
         "Housing Policy",
+        "International Protection",
         "Live Exports",
         "Livestock Issues",
         "Medical Aids and Appliances",
         "Medicinal Products",
+        "National Oil Reserves Agency",
         "National Treatment Purchase Fund",
+        "Passport Services",
         "Pension Provisions",
+        "Primary Care Centres",
         "Public Sector Pensions",
         "Public Spending Code",
+        "School Management",
+        "School Transport",
         "Sheepmeat Sector",
+        "Social Welfare Eligibility",
         "Social Welfare Offices",
         "Special Educational Needs",
         "Sports Organisations",
         "Tax Code",
+        "Tax Yield",
         "Transport Policy",
-        "Vacant Properties"
+        "Vacant Properties",
+        "Women's Health"
       ],
       "insights": {
-        "topHeading": "Sports Organisations",
-        "topHeadingCount": 6,
+        "topHeading": "Departmental Data",
+        "topHeadingCount": 8,
         "topDepartment": "Agriculture",
-        "topDepartmentCount": 41
+        "topDepartmentCount": 49
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -68,15 +87,19 @@
             "name": "Agriculture",
             "children": [
               {
+                "name": "Agriculture Industry",
+                "value": 6
+              },
+              {
                 "name": "Sports Organisations",
                 "value": 6
               },
               {
-                "name": "Animal Sales",
+                "name": "Agriculture Schemes",
                 "value": 5
               },
               {
-                "name": "Agriculture Industry",
+                "name": "Animal Sales",
                 "value": 5
               },
               {
@@ -88,11 +111,15 @@
                 "value": 4
               },
               {
-                "name": "Food Safety",
+                "name": "Departmental Expenditure",
+                "value": 4
+              },
+              {
+                "name": "Departmental Data",
                 "value": 3
               },
               {
-                "name": "Agriculture Schemes",
+                "name": "Food Safety",
                 "value": 3
               },
               {
@@ -102,14 +129,6 @@
               {
                 "name": "Food Industry",
                 "value": 2
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 2
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
               },
               {
                 "name": "Departmental Bodies",
@@ -126,6 +145,10 @@
               {
                 "name": "Departmental Meetings",
                 "value": 1
+              },
+              {
+                "name": "Agriculture Supports",
+                "value": 1
               }
             ]
           },
@@ -133,28 +156,36 @@
             "name": "Health",
             "children": [
               {
+                "name": "Health Services",
+                "value": 4
+              },
+              {
+                "name": "Hospital Equipment",
+                "value": 4
+              },
+              {
+                "name": "Medicinal Products",
+                "value": 3
+              },
+              {
                 "name": "Beef Sector",
                 "value": 3
               },
               {
-                "name": "Health Services",
-                "value": 2
+                "name": "Departmental Data",
+                "value": 3
               },
               {
                 "name": "Food Safety",
                 "value": 2
               },
               {
-                "name": "Medicinal Products",
-                "value": 2
-              },
-              {
-                "name": "Hospital Equipment",
-                "value": 2
-              },
-              {
                 "name": "Healthcare Policy",
-                "value": 1
+                "value": 2
+              },
+              {
+                "name": "Women's Health",
+                "value": 2
               },
               {
                 "name": "National Treatment Purchase Fund",
@@ -167,12 +198,28 @@
               {
                 "name": "Medical Aids and Appliances",
                 "value": 1
+              },
+              {
+                "name": "Hospital Staff",
+                "value": 1
+              },
+              {
+                "name": "Primary Care Centres",
+                "value": 1
               }
             ]
           },
           {
             "name": "Transport",
             "children": [
+              {
+                "name": "Energy Policy",
+                "value": 2
+              },
+              {
+                "name": "School Transport",
+                "value": 2
+              },
               {
                 "name": "Public Spending Code",
                 "value": 1
@@ -183,6 +230,43 @@
               },
               {
                 "name": "Driver Test",
+                "value": 1
+              },
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Driver Licences",
+                "value": 1
+              },
+              {
+                "name": "Fuel Prices",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "National Oil Reserves Agency",
+                "value": 3
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 2
+              },
+              {
+                "name": "Forestry Sector",
+                "value": 1
+              },
+              {
+                "name": "EU Regulations",
+                "value": 1
+              },
+              {
+                "name": "Energy Production",
                 "value": 1
               }
             ]
@@ -195,7 +279,70 @@
                 "value": 2
               },
               {
+                "name": "Tax Yield",
+                "value": 2
+              },
+              {
                 "name": "Vacant Properties",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Offices",
+                "value": 2
+              },
+              {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "School Management",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Child Protection",
+                "value": 1
+              },
+              {
+                "name": "Citizenship Applications",
+                "value": 1
+              },
+              {
+                "name": "International Protection",
                 "value": 1
               }
             ]
@@ -218,45 +365,15 @@
             ]
           },
           {
-            "name": "Education",
+            "name": "Finance",
             "children": [
               {
-                "name": "Special Educational Needs",
-                "value": 1
-              },
-              {
-                "name": "Departmental Schemes",
-                "value": 1
-              },
-              {
-                "name": "Departmental Correspondence",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Child Protection",
-                "value": 1
-              },
-              {
-                "name": "Citizenship Applications",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Offices",
+                "name": "Tax Code",
                 "value": 2
+              },
+              {
+                "name": "Financial Services",
+                "value": 1
               }
             ]
           },
@@ -274,19 +391,14 @@
             ]
           },
           {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Culture",
             "children": [
               {
                 "name": "Public Sector Pensions",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -301,19 +413,19 @@
             ]
           },
           {
-            "name": "Climate",
+            "name": "Further and Higher Education",
             "children": [
               {
-                "name": "Forestry Sector",
+                "name": "Education and Training Boards",
                 "value": 1
               }
             ]
           },
           {
-            "name": "Further and Higher Education",
+            "name": "Foreign",
             "children": [
               {
-                "name": "Education and Training Boards",
+                "name": "Passport Services",
                 "value": 1
               }
             ]
@@ -326,6 +438,53 @@
           {
             "name": "Agriculture",
             "children": [
+              {
+                "name": "Agriculture Industry",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1443. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine if his Department considers import controls to be effective where sanitary and phytosanitary, SPS, checks are not documented on TRACES NT; the measures in place to ensure completeness and reliability of control records; and if he will make a statement on the matter. [19167/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1443/"
+                      },
+                      {
+                        "name": "1444. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the frequency of SPS checks recorded on TRACES NT at border control posts for high-risk third countries in 2024, 2025 and to date in 2026; if the frequency applied accords with EU requirements; if any change in frequency has been implemented over this period; and if he will make a statement on the matter. [19168/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1444/"
+                      },
+                      {
+                        "name": "1445. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number and type of follow-up actions taken under Part III of the CHED-P procedures for consignments entering the State in 2024, 2025 and to date in 2026, particularly regarding detained consignments, consignments subject to RASFF notification, re dispatched goods, and shipments destroyed; and if he will make a statement on the matter. [19169/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1445/"
+                      },
+                      {
+                        "name": "1447. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine , further to his reply of 5 February, in which he stated that all consignments were subject to sanitary and phytosanitary, SPS, checks, if he will clarify whether this is fully documented on TRACES NT; if not, why not; and if he will make a statement on the matter. [19171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1447/"
+                      },
+                      {
+                        "name": "1448. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the quality assurance processes in place within his Department to validate statistical data on CHED-Ps and gross tonnage of imported products of animal origin prior to publication; and if he will make a statement on the matter. [19172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1448/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "448. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine when will a herd number issue to a person (details supplied); and if he will make a statement on the matter. [35857/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/448/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Sports Organisations",
                 "children": [
@@ -374,6 +533,48 @@
                 ]
               },
               {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1429. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the date bovine viral diarrhoea, BVD, sampling, which started as a three-year scheme in 2012, will cease; and if he will make a statement on the matter. [18930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1429/"
+                      },
+                      {
+                        "name": "1430. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of calves detected under the BVD sampling scheme per year; if a farm with no detections in the past five to ten years could opt out; and if he will make a statement on the matter. [18931/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1430/"
+                      },
+                      {
+                        "name": "1431. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine when a person (details supplied ) will receive BVD compensation for a number of animals culled in 2025; and if he will make a statement on the matter. [18932/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1431/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "899. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of applications under the BISS scheme that were received from 2022 to 2025, inclusive; and if he will make a statement on the matter. [39331/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/899/"
+                      },
+                      {
+                        "name": "900. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of applications under the BISS scheme that were received from 2022 to 2025, inclusive; and the number of applications that were received under the equivalent schemes in the years 2009 and 2015; and if he will make a statement on the matter. [39334/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/900/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Animal Sales",
                 "children": [
                   {
@@ -404,42 +605,6 @@
                         "name": "1446. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the reason only two Irish establishments appear on the TRACES NT establishment directory for imports of products of animal origin; whether this reflects the actual number of approved importers; and if he will make a statement on the matter. [19170/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1446/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Industry",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1443. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine if his Department considers import controls to be effective where sanitary and phytosanitary, SPS, checks are not documented on TRACES NT; the measures in place to ensure completeness and reliability of control records; and if he will make a statement on the matter. [19167/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1443/"
-                      },
-                      {
-                        "name": "1444. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the frequency of SPS checks recorded on TRACES NT at border control posts for high-risk third countries in 2024, 2025 and to date in 2026; if the frequency applied accords with EU requirements; if any change in frequency has been implemented over this period; and if he will make a statement on the matter. [19168/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1444/"
-                      },
-                      {
-                        "name": "1445. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number and type of follow-up actions taken under Part III of the CHED-P procedures for consignments entering the State in 2024, 2025 and to date in 2026, particularly regarding detained consignments, consignments subject to RASFF notification, re dispatched goods, and shipments destroyed; and if he will make a statement on the matter. [19169/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1445/"
-                      },
-                      {
-                        "name": "1447. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine , further to his reply of 5 February, in which he stated that all consignments were subject to sanitary and phytosanitary, SPS, checks, if he will clarify whether this is fully documented on TRACES NT; if not, why not; and if he will make a statement on the matter. [19171/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1447/"
-                      },
-                      {
-                        "name": "1448. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the quality assurance processes in place within his Department to validate statistical data on CHED-Ps and gross tonnage of imported products of animal origin prior to publication; and if he will make a statement on the matter. [19172/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1448/"
                       }
                     ]
                   }
@@ -514,6 +679,75 @@
                 ]
               },
               {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "777. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of staff employed directly by an organisation (details supplied) with funding provided by his Department; the salary bracket of said staff in each of the years from 2022 to 2025; the amount of travel expenses claimed in each year from 2022 to 2025; the total funding available each year from his Department to fund salary, travel and marketing of the sport horse industry in each of the years from 2023 to 2026; and if he will make a statement on the matter. [22173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/777/"
+                      },
+                      {
+                        "name": "778. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of third party contractors engaged directly by an organisation (details supplied) with funding provided by his Department each year since 2022; the functions provided by each contractor; the contract value of each awarded contract and duration; and if he will make a statement on the matter. [22174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/778/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2255. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2255/"
+                      },
+                      {
+                        "name": "2259. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025; and if he will make a statement on the matter. [25361/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2259/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2261. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 338 of 5 February 2026, to disaggregate the 625 CHEDPs processed by his Department in 2025 for products of Brazilian origin at the border control post (BCP) of Dublin Port, terminal 10 by CN code/product type; including the gross tonnage of each; and if he will make a statement on the matter. [25597/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2261/"
+                      },
+                      {
+                        "name": "2262. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 338 of 5 February 2026, to disaggregate the 57 CHEDPs processed by his Department in 2026 for products of Brazilian origin at the border control post (BCP) of Dublin Port, terminal 10 by CN code/product type; including the gross tonnage of each; and if he will make a statement on the matter. [25598/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2262/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "793. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of applicants for funding through the support fund for anaerobic digestors, which closed in December 2025; the number of applications that were successful; and if he will make a statement on the matter. [6040/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/793/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Food Safety",
                 "children": [
                   {
@@ -534,32 +768,6 @@
                         "name": "979. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the quantity of third country imports of products of animal origin that went to each of the approved/registered meat establishments disaggregated by species and activity; and if he will make a statement on the matter. [12622/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/979/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Schemes",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1429. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the date bovine viral diarrhoea, BVD, sampling, which started as a three-year scheme in 2012, will cease; and if he will make a statement on the matter. [18930/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1429/"
-                      },
-                      {
-                        "name": "1430. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of calves detected under the BVD sampling scheme per year; if a farm with no detections in the past five to ten years could opt out; and if he will make a statement on the matter. [18931/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1430/"
-                      },
-                      {
-                        "name": "1431. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine when a person (details supplied ) will receive BVD compensation for a number of animals culled in 2025; and if he will make a statement on the matter. [18932/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1431/"
                       }
                     ]
                   }
@@ -608,43 +816,6 @@
                         "name": "465. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine if there is a specific law that prohibits the FSAI from giving information to a member of the public enquiring from a human health perspective about which food business operators and retailers are processing animal products for human consumption imported from outside the EU; and if he will make a statement on the matter. [13669/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/465/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "777. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of staff employed directly by an organisation (details supplied) with funding provided by his Department; the salary bracket of said staff in each of the years from 2022 to 2025; the amount of travel expenses claimed in each year from 2022 to 2025; the total funding available each year from his Department to fund salary, travel and marketing of the sport horse industry in each of the years from 2023 to 2026; and if he will make a statement on the matter. [22173/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/777/"
-                      },
-                      {
-                        "name": "778. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of third party contractors engaged directly by an organisation (details supplied) with funding provided by his Department each year since 2022; the functions provided by each contractor; the contract value of each awarded contract and duration; and if he will make a statement on the matter. [22174/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/778/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "793. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of applicants for funding through the support fund for anaerobic digestors, which closed in December 2025; the number of applications that were successful; and if he will make a statement on the matter. [6040/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/793/"
                       }
                     ]
                   }
@@ -713,12 +884,140 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Agriculture Supports",
+                "children": [
+                  {
+                    "name": "Wednesday, 13 May",
+                    "date_iso": "2026-05-13",
+                    "children": [
+                      {
+                        "name": "169. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the category under which a small scale agricultural contractor who is not VAT registered as his annual turnover does not meet the threshold, and who does not hold a herd number, can qualify for the fuel income support scheme; and if he will make a statement on the matter. [35394/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/169/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "279. Deputy Michael Fitzmaurice asked the Minister for Health the steps her Department is taking to address the gaps in neurological services identified in the recent report by an organisation (details supplied); and if she will make a statement on the matter. [31171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/279/"
+                      },
+                      {
+                        "name": "280. Deputy Michael Fitzmaurice asked the Minister for Health the actions planned to improve equitable and timely access to specialist neurological services across the country; and the timeline for the implementation of these measures. [31172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/280/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2211. Deputy Michael Fitzmaurice asked the Minister for Health if confirmation will be given for funding for 2026 to unlock essential bank support for a charity (details supplied); and if she will make a statement on the matter. [74674/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2211/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1938. Deputy Michael Fitzmaurice asked the Minister for Health if she will provide a detailed list of public hospital sites, providing CR; the number of WTE allocated to each site; to identify which locations were providing phase 3 CR; and if she will make a statement on the matter. [19664/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1938/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Equipment",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "443. Deputy Michael Fitzmaurice asked the Minister for Health the model 4 hospitals that have a PET scanner; and if she will make a statement on the matter. [21058/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/443/"
+                      },
+                      {
+                        "name": "444. Deputy Michael Fitzmaurice asked the Minister for Health if University Hospital Galway has a PET scanner; and if she will make a statement on the matter. [21059/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/444/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2955. Deputy Michael Fitzmaurice asked the Minister for Health the cost of a PET scan to the HSE in CHO2, to other hospitals /private hospitals for patients in the west; the cost for the past ten years; and if she will make a statement on the matter. [24943/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2955/"
+                      },
+                      {
+                        "name": "2956. Deputy Michael Fitzmaurice asked the Minister for Health the cost of a PET scanning machine; and if she will make a statement on the matter. [24944/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2956/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medicinal Products",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2091. Deputy Michael Fitzmaurice asked the Minister for Health the steps being taken to ensure that the HSE recognises and responds to the time-critical nature of Friedreich's ataxia during the current price negotiations for Skyclarys; and if she will make a statement on the matter. [20251/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2091/"
+                      },
+                      {
+                        "name": "2092. Deputy Michael Fitzmaurice asked the Minister for Health the way in which the commitments outlined in the National Rare Disease Strategy 2025-2030, and the 2026 IPHA Framework Agreement, which aims for a 180-day decision timeline, being applied in this case to prevent further delays in addressing this clear unmet need; and if she will make a statement on the matter. [20252/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2092/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "441. Deputy Michael Fitzmaurice asked the Minister for Health when brensocatib, although approved will be made available in Ireland; and if she will make a statement on the matter. [31571/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/441/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Beef Sector",
                 "children": [
@@ -746,27 +1045,32 @@
                 ]
               },
               {
-                "name": "Health Services",
+                "name": "Departmental Data",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Wednesday, 22 April",
+                    "date_iso": "2026-04-22",
                     "children": [
                       {
-                        "name": "2211. Deputy Michael Fitzmaurice asked the Minister for Health if confirmation will be given for funding for 2026 to unlock essential bank support for a charity (details supplied); and if she will make a statement on the matter. [74674/25]",
+                        "name": "230. Deputy Michael Fitzmaurice asked the Minister for Health the cost incurred annually by University Hospital Galway to have Pet scans completed over the past five years; and if she will make a statement on the matter. [28966/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2211/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/230/"
+                      },
+                      {
+                        "name": "231. Deputy Michael Fitzmaurice asked the Minister for Health the cost incurred annually by University Hospital Galway to have Pet scans completed externally; and if she will make a statement on the matter. [28967/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/231/"
                       }
                     ]
                   },
                   {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
                     "children": [
                       {
-                        "name": "1938. Deputy Michael Fitzmaurice asked the Minister for Health if she will provide a detailed list of public hospital sites, providing CR; the number of WTE allocated to each site; to identify which locations were providing phase 3 CR; and if she will make a statement on the matter. [19664/26]",
+                        "name": "1214. Deputy Michael Fitzmaurice asked the Minister for Health the number of persons that attended the minor injuries clinic at Roscommon University Hospital for each month of 2025 and to-date in 2026, in tabular form; and if she will make a statement on the matter. [30289/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1938/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1214/"
                       }
                     ]
                   }
@@ -800,48 +1104,6 @@
                 ]
               },
               {
-                "name": "Medicinal Products",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2091. Deputy Michael Fitzmaurice asked the Minister for Health the steps being taken to ensure that the HSE recognises and responds to the time-critical nature of Friedreich's ataxia during the current price negotiations for Skyclarys; and if she will make a statement on the matter. [20251/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2091/"
-                      },
-                      {
-                        "name": "2092. Deputy Michael Fitzmaurice asked the Minister for Health the way in which the commitments outlined in the National Rare Disease Strategy 2025-2030, and the 2026 IPHA Framework Agreement, which aims for a 180-day decision timeline, being applied in this case to prevent further delays in addressing this clear unmet need; and if she will make a statement on the matter. [20252/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2092/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Equipment",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "443. Deputy Michael Fitzmaurice asked the Minister for Health the model 4 hospitals that have a PET scanner; and if she will make a statement on the matter. [21058/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/443/"
-                      },
-                      {
-                        "name": "444. Deputy Michael Fitzmaurice asked the Minister for Health if University Hospital Galway has a PET scanner; and if she will make a statement on the matter. [21059/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/444/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Healthcare Policy",
                 "children": [
                   {
@@ -852,6 +1114,38 @@
                         "name": "987. Deputy Michael Fitzmaurice asked the Minister for Health if a person (details supplied) will be considered for funding for surgery in the USA; and if she will make a statement on the matter. [9265/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/987/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "534. Deputy Michael Fitzmaurice asked the Minister for Health if she will remove the specific criteria of \"insulin initiation from the start\" that is preventing 500-700 people with a clinical diagnosis of Type 1 diabetes from accessing continuous glucose monitoring (CGM) which clinical evidence overwhelmingly supports as the first-choice glucose monitoring device for all people with type 1 diabetic; and if she will make a statement on the matter. [29345/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/534/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Women's Health",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "532. Deputy Michael Fitzmaurice asked the Minister for Health if she accepts that the provision of continuous glucose monitoring (CGM) to women with type 2 diabetes during pregnancy provides better glycaemic control than invasive blood glucose testing (finger prick testing) for both mother and baby over the duration of pregnancy; if she will make CGM available to women with type 2 diabetes during their pregnancy (approximately 300 per year); and if she will make a statement on the matter. [29343/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/532/"
+                      },
+                      {
+                        "name": "533. Deputy Michael Fitzmaurice asked the Minister for Health if she accepts that the cost of providing continuous glucose monitoring (CGM) to women with Type 2 diabetes during pregnancy is cost neutral when compared to providing them with invasive blood glucose testing (finger prick testing) strips over the duration of pregnancy; if she will make CGM available to women with Type 2 diabetes during their pregnancy (approximately 300 per year); and if she will make a statement on the matter. [29344/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/533/"
                       }
                     ]
                   }
@@ -904,12 +1198,92 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Hospital Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "1213. Deputy Michael Fitzmaurice asked the Minister for Health the number of WTE emergency medicine registrars and advanced nurse practitioners posts filled within minor injuries clinics at Roscommon University Hospital as of 21 April 2026, in tabular form; and if she will make a statement on the matter. [30288/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1213/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Primary Care Centres",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "1164. Deputy Michael Fitzmaurice asked the Minister for Health to outline the proposal for progressing the primary care centre for Ballaghaderreen, County Roscommon which the HSE was given planning permission for 2021; and if she will make a statement on the matter. [37332/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1164/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "name": "Transport",
             "children": [
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "725. Deputy Michael Fitzmaurice asked the Minister for Transport the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/725/"
+                      },
+                      {
+                        "name": "727. Deputy Michael Fitzmaurice asked the Minister for Transport the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25362/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/727/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "205. Deputy Michael Fitzmaurice asked the Minister for Transport if the RTSS is open to private commercial passenger transport operators, whose work consists of privately contracted school runs (details supplied); where or to whom will such operators apply; and if he will make a statement on the matter. [33438/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/205/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "353. Deputy Michael Fitzmaurice asked the Minister for Transport further to Parliamentary Question No. 205 of 6 May 2026, to state plainly the circumstances where passenger service vehicles that do not fall under the scope of supports provided by the NTA or DEY may be eligible for support under the RTSS; and if he will make a statement on the matter. [37010/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/353/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Public Spending Code",
                 "children": [
@@ -957,6 +1331,154 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "701. Deputy Michael Fitzmaurice asked the Minister for Transport if TFI Local Link will provide a door-to-door service for people with disabilities who are unable to travel to a local pick-up point in nearest village; and if he will make a statement on the matter. [25079/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/701/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Driver Licences",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "148. Deputy Michael Fitzmaurice asked the Minister for Transport when he plans to introduce a reciprocal driving licence exchange agreement between Ireland and the United States of America, Australia and Canada; the timeline for when such an agreement is expected to be implemented; and if he will make a statement on the matter. [32179/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/148/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fuel Prices",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "206. Deputy Michael Fitzmaurice asked the Minister for Transport if all fuel costs of private passenger transport operators eligible for rebate; and if he will make a statement on the matter. [33440/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/206/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "National Oil Reserves Agency",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "466. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the current level of national fuel reserves held in the State; the number of days' supply this represents based on average consumption; and the way in which this compares to the 90-day requirement funded through the NORA levy; and if he will make a statement on the matter. [25479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/466/"
+                      },
+                      {
+                        "name": "467. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment if there are sufficient fuel reserves available to meet national demand over the next 90-days; if contingency measures are in place to ensure continuity of supply; and if he will make a statement on the matter. [25480/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/467/"
+                      },
+                      {
+                        "name": "468. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the steps are being taken to guarantee adequate fuel availability for essential sectors, including agriculture; to confirm that agricultural contractors will have sufficient access to fuel during critical periods such as crop sowing and silage operations; and if he will make a statement on the matter. [25481/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/468/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "451. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25273/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/451/"
+                      },
+                      {
+                        "name": "453. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25359/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/453/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Forestry Sector",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "159. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment when the proposed forestry legislation that he is intending to introduce on forestry corridors along overhead electricity infrastructure will be ready; and if he will make a statement on the matter. [21010/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/159/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Regulations",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "452. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the outcome of the EU Commission's assessment of Ireland's derogation notification to be exempted from the obligation on regulated entities to surrender ETS II allowances for the years 2027-2030; and if he will make a statement on the matter. [25358/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/452/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Production",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "169. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment with Ireland relying on imports for over 80% of its energy needs in 2026, the way in which he considers blocking a fully funded development of the 300 million barrel Barryroe field, which could provide domestic energy security and reduce emissions associated with importing fuel, serve the national interest, particularly now facing a 100-million-dollar compensation claim from a company (details supplied); and if he will make a statement on the matter. [38544/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/169/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -991,6 +1513,27 @@
                 ]
               },
               {
+                "name": "Tax Yield",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1724. Deputy Michael Fitzmaurice asked the Minister for Housing, Local Government and Heritage the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1724/"
+                      },
+                      {
+                        "name": "1728. Deputy Michael Fitzmaurice asked the Minister for Housing, Local Government and Heritage the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25363/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1728/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Vacant Properties",
                 "children": [
                   {
@@ -1001,6 +1544,207 @@
                         "name": "645. Deputy Michael Fitzmaurice asked the Minister for Housing, Local Government and Heritage if a house constructed in 2009 and not completed or lived in would be considered eligible for the vacant property grant; and if he will make a statement on the matter. [6026/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/645/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Offices",
+                "children": [
+                  {
+                    "name": "Wednesday, 21 January",
+                    "date_iso": "2026-01-21",
+                    "children": [
+                      {
+                        "name": "180. Deputy Michael Fitzmaurice asked the Minister for Social Protection the reason no social welfare inspector or community welfare officer is available in the Castlerea office, County Roscommon; if and when these positions will be filled; and if he will make a statement on the matter. [4784/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/180/"
+                      },
+                      {
+                        "name": "181. Deputy Michael Fitzmaurice asked the Minister for Social Protection if a community welfare officer could be assigned to attend the Castlerea office, County Roscommon, one day per week to meet with local people in need of this service for appointments; and if he will make a statement on the matter. [4785/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/181/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1884. Deputy Michael Fitzmaurice asked the Minister for Social Protection the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1884/"
+                      },
+                      {
+                        "name": "1887. Deputy Michael Fitzmaurice asked the Minister for Social Protection the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25360/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1887/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "708. Deputy Michael Fitzmaurice asked the Minister for Social Protection if he will review the eligibility criteria for disability allowance with regard to the current means test where a partner's or spouse's means is also taken into account, and only assess the disabled person in their own right, giving them independence; and if he will make a statement on the matter. [37735/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/708/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "544. Deputy Michael Fitzmaurice asked the Minister for Education and Youth when her Department will provide an update on the establishment of a special class in a school (details supplied); and if she will make a statement on the matter. [3885/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/544/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "587. Deputy Michael Fitzmaurice asked the Minister for Education and Youth if full payment can be made to a person (details supplied) for hours worked under the 2025 Home Based Summer Programme; and if she will make a statement on the matter. [8534/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/587/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "876. Deputy Michael Fitzmaurice asked the Minister for Education and Youth when a school (details supplied) will receive correspondence from her Department regarding an application; and if she will make a statement on the matter. [20256/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/876/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Management",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "332. Deputy Michael Fitzmaurice asked the Minister for Education and Youth when a decision will be made on the application submitted by the board of management of a school (details supplied); and if she will make a statement on the matter. [40981/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/332/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Departmental Inquiries",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "332. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration when a certificate submitted for correction by a person (details supplied) will be processed; and if he will make a statement on the matter. [7088/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/332/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Child Protection",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "299. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration if a review can be conducted to ensure that legislation respects, within reason, that where children who do not want to see a parent as a result of a case of abuse or intimidation, their rights are respected; and if he will make a statement on the matter. [8782/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/299/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "920. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration if an application for citizenship will be reviewed (details supplied); and if he will make a statement on the matter. [12630/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/920/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "837. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration when will a decision will be made regarding International Protection Accommodation Centres currently based in hotels; when they will return to their original purpose; if there will be a list available of such hotels; and if he will make a statement on the matter. [34654/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/837/"
                       }
                     ]
                   }
@@ -1062,130 +1806,46 @@
             ]
           },
           {
-            "name": "Education",
+            "name": "Finance",
             "children": [
               {
-                "name": "Special Educational Needs",
+                "name": "Tax Code",
                 "children": [
                   {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
                     "children": [
                       {
-                        "name": "544. Deputy Michael Fitzmaurice asked the Minister for Education and Youth when her Department will provide an update on the establishment of a special class in a school (details supplied); and if she will make a statement on the matter. [3885/26]",
+                        "name": "374. Deputy Michael Fitzmaurice asked the Tánaiste and Minister for Finance the changes in VAT for farmers that sell livestock in marts; and if the funding from same is going to the Exchequer; and if he will make a statement on the matter. [5450/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/544/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/374/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "909. Deputy Michael Fitzmaurice asked the Tánaiste and Minister for Finance which European Union law provides the statutory basis for the carbon taxes; it's interaction with domestic Irish law; to detail the obligation Ireland has to implement carbon tax; and if he will make a statement on the matter. [24494/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/909/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Schemes",
+                "name": "Financial Services",
                 "children": [
                   {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
                     "children": [
                       {
-                        "name": "587. Deputy Michael Fitzmaurice asked the Minister for Education and Youth if full payment can be made to a person (details supplied) for hours worked under the 2025 Home Based Summer Programme; and if she will make a statement on the matter. [8534/26]",
+                        "name": "67. Deputy Michael Fitzmaurice asked the Tánaiste and Minister for Finance if a company (details supplied) which is commonly called a vulture fund is a licensed credit servicer, licenced by the Central Bank and is acting as a credit purchaser whereby it purchases distressed loans from the banks, if it is not a licensed credit purchaser, if it is breaking the law; and if he will make a statement on the matter. [38097/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/587/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "876. Deputy Michael Fitzmaurice asked the Minister for Education and Youth when a school (details supplied) will receive correspondence from her Department regarding an application; and if she will make a statement on the matter. [20256/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/876/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Departmental Inquiries",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "332. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration when a certificate submitted for correction by a person (details supplied) will be processed; and if he will make a statement on the matter. [7088/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/332/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Child Protection",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "299. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration if a review can be conducted to ensure that legislation respects, within reason, that where children who do not want to see a parent as a result of a case of abuse or intimidation, their rights are respected; and if he will make a statement on the matter. [8782/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/299/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Citizenship Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "920. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration if an application for citizenship will be reviewed (details supplied); and if he will make a statement on the matter. [12630/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/920/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Offices",
-                "children": [
-                  {
-                    "name": "Wednesday, 21 January",
-                    "date_iso": "2026-01-21",
-                    "children": [
-                      {
-                        "name": "180. Deputy Michael Fitzmaurice asked the Minister for Social Protection the reason no social welfare inspector or community welfare officer is available in the Castlerea office, County Roscommon; if and when these positions will be filled; and if he will make a statement on the matter. [4784/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/180/"
-                      },
-                      {
-                        "name": "181. Deputy Michael Fitzmaurice asked the Minister for Social Protection if a community welfare officer could be assigned to attend the Castlerea office, County Roscommon, one day per week to meet with local people in need of this service for appointments; and if he will make a statement on the matter. [4785/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/181/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/67/"
                       }
                     ]
                   }
@@ -1231,27 +1891,6 @@
             ]
           },
           {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "374. Deputy Michael Fitzmaurice asked the Tánaiste and Minister for Finance the changes in VAT for farmers that sell livestock in marts; and if the funding from same is going to the Exchequer; and if he will make a statement on the matter. [5450/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/374/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Culture",
             "children": [
               {
@@ -1265,6 +1904,22 @@
                         "name": "755. Deputy Michael Fitzmaurice asked the Minister for Culture, Communications and Sport when he will approve the agreed increases to retired staff of Eir; and if he will make a statement on the matter. [13469/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/755/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "645. Deputy Michael Fitzmaurice asked the Minister for Culture, Communications and Sport to allow for a person (details supplied) to make a change to their application for the basic income for artists in light of the criteria being changed after the applicant had made their application; and if he will make a statement on the matter. [30018/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/645/"
                       }
                     ]
                   }
@@ -1294,27 +1949,6 @@
             ]
           },
           {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Forestry Sector",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "159. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment when the proposed forestry legislation that he is intending to introduce on forestry corridors along overhead electricity infrastructure will be ready; and if he will make a statement on the matter. [21010/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/159/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -1328,6 +1962,27 @@
                         "name": "1039. Deputy Michael Fitzmaurice asked the Minister for Further and Higher Education, Research, Innovation and Science if he will honour the contract between GRETB and a person (details supplied) that was to run until 20 June 2026; and if he will make a statement on the matter. [21469/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/1039/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Passport Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "284. Deputy Michael Fitzmaurice asked the Minister for Foreign Affairs and Trade the plans to implement a change to the application process for widowed parents to renew their child's passport so that a once off verification process of death would protect safeguards while showing basic compassion to bereaved families; and if she will make a statement on the matter. [37239/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/284/"
                       }
                     ]
                   }
@@ -2056,6 +2711,420 @@
           "heading": "Sports Organisations",
           "question": "399. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 1456 of March 18, 2026, the financial supports made available to an organisation (details supplied) since 2023; the marketing and promotion efforts made by his Department or agencies supported by his Department since 2023 to market and promote the traditional Irish horse; if sufficient marketing and promotion of the traditional Irish horse has been undertaken on behalf of the organisation's breeders in the past five years; if his Department plans to increase the marketing and promotion of traditional Irish horses; and if he will make a statement on the matter. [23484/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/399/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 451,
+          "department": "Climate",
+          "heading": "Departmental Funding",
+          "question": "451. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25273/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/451/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 452,
+          "department": "Climate",
+          "heading": "EU Regulations",
+          "question": "452. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the outcome of the EU Commission's assessment of Ireland's derogation notification to be exempted from the obligation on regulated entities to surrender ETS II allowances for the years 2027-2030; and if he will make a statement on the matter. [25358/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/452/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 453,
+          "department": "Climate",
+          "heading": "Departmental Funding",
+          "question": "453. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25359/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/453/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 466,
+          "department": "Climate",
+          "heading": "National Oil Reserves Agency",
+          "question": "466. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the current level of national fuel reserves held in the State; the number of days' supply this represents based on average consumption; and the way in which this compares to the 90-day requirement funded through the NORA levy; and if he will make a statement on the matter. [25479/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/466/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 467,
+          "department": "Climate",
+          "heading": "National Oil Reserves Agency",
+          "question": "467. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment if there are sufficient fuel reserves available to meet national demand over the next 90-days; if contingency measures are in place to ensure continuity of supply; and if he will make a statement on the matter. [25480/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/467/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 468,
+          "department": "Climate",
+          "heading": "National Oil Reserves Agency",
+          "question": "468. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment the steps are being taken to guarantee adequate fuel availability for essential sectors, including agriculture; to confirm that agricultural contractors will have sufficient access to fuel during critical periods such as crop sowing and silage operations; and if he will make a statement on the matter. [25481/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/468/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 701,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "701. Deputy Michael Fitzmaurice asked the Minister for Transport if TFI Local Link will provide a door-to-door service for people with disabilities who are unable to travel to a local pick-up point in nearest village; and if he will make a statement on the matter. [25079/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/701/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 725,
+          "department": "Transport",
+          "heading": "Energy Policy",
+          "question": "725. Deputy Michael Fitzmaurice asked the Minister for Transport the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25276/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/725/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 727,
+          "department": "Transport",
+          "heading": "Energy Policy",
+          "question": "727. Deputy Michael Fitzmaurice asked the Minister for Transport the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25362/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/727/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 909,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "909. Deputy Michael Fitzmaurice asked the Tánaiste and Minister for Finance which European Union law provides the statutory basis for the carbon taxes; it's interaction with domestic Irish law; to detail the obligation Ireland has to implement carbon tax; and if he will make a statement on the matter. [24494/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/909/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1724,
+          "department": "Housing",
+          "heading": "Tax Yield",
+          "question": "1724. Deputy Michael Fitzmaurice asked the Minister for Housing, Local Government and Heritage the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25277/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1724/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1728,
+          "department": "Housing",
+          "heading": "Tax Yield",
+          "question": "1728. Deputy Michael Fitzmaurice asked the Minister for Housing, Local Government and Heritage the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25363/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1728/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1884,
+          "department": "Social",
+          "heading": "Departmental Data",
+          "question": "1884. Deputy Michael Fitzmaurice asked the Minister for Social Protection the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1884/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 1887,
+          "department": "Social",
+          "heading": "Departmental Data",
+          "question": "1887. Deputy Michael Fitzmaurice asked the Minister for Social Protection the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025, in tabular form; and if he will make a statement on the matter. [25360/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1887/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2255,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2255. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the initial estimated allocation compared to the actual outturn for the period of carbon tax to his Department, disaggregated by the programme or measure funded, for each of the years 2020, 2021, 2022, 2023, 2024 and 2025, in tabular form; and if he will make a statement on the matter. [25275/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2255/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2259,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2259. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the amount of allocated carbon tax funding that remained unspent at year end; the amount surrendered back to the Exchequer via the Central Fund; the amount carried over via formal arrangements for deferred surrender; and whether amounts carried over were retained for the specific programme/measure originally allocated or transferred to other named programmes/measures, disaggregated by the programme or measure originally funded, for each of the years 2020 to 2025; and if he will make a statement on the matter. [25361/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2259/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2261,
+          "department": "Agriculture",
+          "heading": "Departmental Data",
+          "question": "2261. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 338 of 5 February 2026, to disaggregate the 625 CHEDPs processed by his Department in 2025 for products of Brazilian origin at the border control post (BCP) of Dublin Port, terminal 10 by CN code/product type; including the gross tonnage of each; and if he will make a statement on the matter. [25597/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2261/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2262,
+          "department": "Agriculture",
+          "heading": "Departmental Data",
+          "question": "2262. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 338 of 5 February 2026, to disaggregate the 57 CHEDPs processed by his Department in 2026 for products of Brazilian origin at the border control post (BCP) of Dublin Port, terminal 10 by CN code/product type; including the gross tonnage of each; and if he will make a statement on the matter. [25598/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2262/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2955,
+          "department": "Health",
+          "heading": "Hospital Equipment",
+          "question": "2955. Deputy Michael Fitzmaurice asked the Minister for Health the cost of a PET scan to the HSE in CHO2, to other hospitals /private hospitals for patients in the west; the cost for the past ten years; and if she will make a statement on the matter. [24943/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2955/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-14",
+          "questionNumber": 2956,
+          "department": "Health",
+          "heading": "Hospital Equipment",
+          "question": "2956. Deputy Michael Fitzmaurice asked the Minister for Health the cost of a PET scanning machine; and if she will make a statement on the matter. [24944/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2956/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-22",
+          "questionNumber": 230,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "230. Deputy Michael Fitzmaurice asked the Minister for Health the cost incurred annually by University Hospital Galway to have Pet scans completed over the past five years; and if she will make a statement on the matter. [28966/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/230/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-22",
+          "questionNumber": 231,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "231. Deputy Michael Fitzmaurice asked the Minister for Health the cost incurred annually by University Hospital Galway to have Pet scans completed externally; and if she will make a statement on the matter. [28967/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/231/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 532,
+          "department": "Health",
+          "heading": "Women's Health",
+          "question": "532. Deputy Michael Fitzmaurice asked the Minister for Health if she accepts that the provision of continuous glucose monitoring (CGM) to women with type 2 diabetes during pregnancy provides better glycaemic control than invasive blood glucose testing (finger prick testing) for both mother and baby over the duration of pregnancy; if she will make CGM available to women with type 2 diabetes during their pregnancy (approximately 300 per year); and if she will make a statement on the matter. [29343/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/532/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 533,
+          "department": "Health",
+          "heading": "Women's Health",
+          "question": "533. Deputy Michael Fitzmaurice asked the Minister for Health if she accepts that the cost of providing continuous glucose monitoring (CGM) to women with Type 2 diabetes during pregnancy is cost neutral when compared to providing them with invasive blood glucose testing (finger prick testing) strips over the duration of pregnancy; if she will make CGM available to women with Type 2 diabetes during their pregnancy (approximately 300 per year); and if she will make a statement on the matter. [29344/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/533/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-23",
+          "questionNumber": 534,
+          "department": "Health",
+          "heading": "Healthcare Policy",
+          "question": "534. Deputy Michael Fitzmaurice asked the Minister for Health if she will remove the specific criteria of \"insulin initiation from the start\" that is preventing 500-700 people with a clinical diagnosis of Type 1 diabetes from accessing continuous glucose monitoring (CGM) which clinical evidence overwhelmingly supports as the first-choice glucose monitoring device for all people with type 1 diabetic; and if she will make a statement on the matter. [29345/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/534/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 645,
+          "department": "Culture",
+          "heading": "Departmental Schemes",
+          "question": "645. Deputy Michael Fitzmaurice asked the Minister for Culture, Communications and Sport to allow for a person (details supplied) to make a change to their application for the basic income for artists in light of the criteria being changed after the applicant had made their application; and if he will make a statement on the matter. [30018/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/645/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 1213,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "1213. Deputy Michael Fitzmaurice asked the Minister for Health the number of WTE emergency medicine registrars and advanced nurse practitioners posts filled within minor injuries clinics at Roscommon University Hospital as of 21 April 2026, in tabular form; and if she will make a statement on the matter. [30288/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-28",
+          "questionNumber": 1214,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "1214. Deputy Michael Fitzmaurice asked the Minister for Health the number of persons that attended the minor injuries clinic at Roscommon University Hospital for each month of 2025 and to-date in 2026, in tabular form; and if she will make a statement on the matter. [30289/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1214/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-29",
+          "questionNumber": 279,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "279. Deputy Michael Fitzmaurice asked the Minister for Health the steps her Department is taking to address the gaps in neurological services identified in the recent report by an organisation (details supplied); and if she will make a statement on the matter. [31171/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/279/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-29",
+          "questionNumber": 280,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "280. Deputy Michael Fitzmaurice asked the Minister for Health the actions planned to improve equitable and timely access to specialist neurological services across the country; and the timeline for the implementation of these measures. [31172/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/280/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-04-30",
+          "questionNumber": 441,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "441. Deputy Michael Fitzmaurice asked the Minister for Health when brensocatib, although approved will be made available in Ireland; and if she will make a statement on the matter. [31571/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/441/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 148,
+          "department": "Transport",
+          "heading": "Driver Licences",
+          "question": "148. Deputy Michael Fitzmaurice asked the Minister for Transport when he plans to introduce a reciprocal driving licence exchange agreement between Ireland and the United States of America, Australia and Canada; the timeline for when such an agreement is expected to be implemented; and if he will make a statement on the matter. [32179/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/148/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 205,
+          "department": "Transport",
+          "heading": "School Transport",
+          "question": "205. Deputy Michael Fitzmaurice asked the Minister for Transport if the RTSS is open to private commercial passenger transport operators, whose work consists of privately contracted school runs (details supplied); where or to whom will such operators apply; and if he will make a statement on the matter. [33438/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/205/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-06",
+          "questionNumber": 206,
+          "department": "Transport",
+          "heading": "Fuel Prices",
+          "question": "206. Deputy Michael Fitzmaurice asked the Minister for Transport if all fuel costs of private passenger transport operators eligible for rebate; and if he will make a statement on the matter. [33440/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/206/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-12",
+          "questionNumber": 837,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "837. Deputy Michael Fitzmaurice asked the Minister for Justice, Home Affairs and Migration when will a decision will be made regarding International Protection Accommodation Centres currently based in hotels; when they will return to their original purpose; if there will be a list available of such hotels; and if he will make a statement on the matter. [34654/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/837/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-13",
+          "questionNumber": 169,
+          "department": "Agriculture",
+          "heading": "Agriculture Supports",
+          "question": "169. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the category under which a small scale agricultural contractor who is not VAT registered as his annual turnover does not meet the threshold, and who does not hold a herd number, can qualify for the fuel income support scheme; and if he will make a statement on the matter. [35394/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/169/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-14",
+          "questionNumber": 448,
+          "department": "Agriculture",
+          "heading": "Agriculture Industry",
+          "question": "448. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine when will a herd number issue to a person (details supplied); and if he will make a statement on the matter. [35857/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/448/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 284,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "284. Deputy Michael Fitzmaurice asked the Minister for Foreign Affairs and Trade the plans to implement a change to the application process for widowed parents to renew their child's passport so that a once off verification process of death would protect safeguards while showing basic compassion to bereaved families; and if she will make a statement on the matter. [37239/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/284/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 353,
+          "department": "Transport",
+          "heading": "School Transport",
+          "question": "353. Deputy Michael Fitzmaurice asked the Minister for Transport further to Parliamentary Question No. 205 of 6 May 2026, to state plainly the circumstances where passenger service vehicles that do not fall under the scope of supports provided by the NTA or DEY may be eligible for support under the RTSS; and if he will make a statement on the matter. [37010/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/353/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 708,
+          "department": "Social",
+          "heading": "Social Welfare Eligibility",
+          "question": "708. Deputy Michael Fitzmaurice asked the Minister for Social Protection if he will review the eligibility criteria for disability allowance with regard to the current means test where a partner's or spouse's means is also taken into account, and only assess the disabled person in their own right, giving them independence; and if he will make a statement on the matter. [37735/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/708/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-19",
+          "questionNumber": 1164,
+          "department": "Health",
+          "heading": "Primary Care Centres",
+          "question": "1164. Deputy Michael Fitzmaurice asked the Minister for Health to outline the proposal for progressing the primary care centre for Ballaghaderreen, County Roscommon which the HSE was given planning permission for 2021; and if she will make a statement on the matter. [37332/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1164/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-20",
+          "questionNumber": 67,
+          "department": "Finance",
+          "heading": "Financial Services",
+          "question": "67. Deputy Michael Fitzmaurice asked the Tánaiste and Minister for Finance if a company (details supplied) which is commonly called a vulture fund is a licensed credit servicer, licenced by the Central Bank and is acting as a credit purchaser whereby it purchases distressed loans from the banks, if it is not a licensed credit purchaser, if it is breaking the law; and if he will make a statement on the matter. [38097/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/67/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-21",
+          "questionNumber": 169,
+          "department": "Climate",
+          "heading": "Energy Production",
+          "question": "169. Deputy Michael Fitzmaurice asked the Minister for Climate, Energy and the Environment with Ireland relying on imports for over 80% of its energy needs in 2026, the way in which he considers blocking a fully funded development of the 300 million barrel Barryroe field, which could provide domestic energy security and reduce emissions associated with importing fuel, serve the national interest, particularly now facing a 100-million-dollar compensation claim from a company (details supplied); and if he will make a statement on the matter. [38544/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/169/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 899,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "899. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of applications under the BISS scheme that were received from 2022 to 2025, inclusive; and if he will make a statement on the matter. [39331/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/899/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-26",
+          "questionNumber": 900,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "900. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the number of applications under the BISS scheme that were received from 2022 to 2025, inclusive; and the number of applications that were received under the equivalent schemes in the years 2009 and 2015; and if he will make a statement on the matter. [39334/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/900/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-05-28",
+          "questionNumber": 332,
+          "department": "Education",
+          "heading": "School Management",
+          "question": "332. Deputy Michael Fitzmaurice asked the Minister for Education and Youth when a decision will be made on the application submitted by the board of management of a school (details supplied); and if she will make a statement on the matter. [40981/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/332/",
           "questionType": "written"
         }
       ]
