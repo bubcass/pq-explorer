@@ -12,6 +12,7 @@ import * as Plot from "npm:@observablehq/plot";
 import { pqControls } from "./components/pq-controls.js";
 import { constituencyMap } from "./components/constituency-map.js";
 import * as turf from "npm:@turf/turf";
+import { renderSectionNav } from "./components/section-nav.js";
 
 async function ensureLeafletCss() {
   if (typeof document === "undefined") return;
@@ -496,6 +497,10 @@ display(
     `;
   }, { skeletonDelay: 120 })
 );
+```
+
+```js
+display(renderSectionNav("constituencies"));
 ```
 
 ```js
@@ -1148,35 +1153,4 @@ display(
     eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
   })
 );
-```
-
-```js
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Overview</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-      <a class="explore-tile" href="./deputies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Deputies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-  display(wrap);
-}
 ```

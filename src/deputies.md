@@ -13,6 +13,7 @@ import { packedCircleChart } from "./components/packed-circle-chart.js";
 import { downloadButton } from "./components/download-button.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 import { deputyDetailUrls } from "./generated/deputy-detail-urls.js";
+import { renderSectionNav } from "./components/section-nav.js";
 
 if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
   window.__pqDeputiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -526,6 +527,10 @@ display(
     `;
   })
 );
+```
+
+```js
+display(renderSectionNav("deputies"));
 ```
 
 ```js
@@ -1226,35 +1231,4 @@ display(
   })
 );
 
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Overview</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./constituencies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Constituencies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-
-  display(wrap);
-}
 ```

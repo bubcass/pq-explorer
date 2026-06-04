@@ -11,6 +11,7 @@ import { SankeyChart } from "./components/sankey-chart.js";
 import { packedCircleChart } from "./components/packed-circle-chart.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 import { pqControls } from "./components/pq-controls.js";
+import { renderSectionNav } from "./components/section-nav.js";
 
 const format = d3.format(",d");
 const formatMean = d3.format(".2f");
@@ -284,6 +285,10 @@ display(
     `;
   })
 );
+```
+
+```js
+display(renderSectionNav("overview"));
 ```
 
 <div class="prose-block">
@@ -588,35 +593,4 @@ display(
   })
 );
 
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./deputies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Deputies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./constituencies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Constituencies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-
-  display(wrap);
-}
 ```

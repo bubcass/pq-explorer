@@ -11,6 +11,7 @@ import { bubbleChart } from "./components/bubble-chart.js";
 import { pqControls } from "./components/pq-controls.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 import { downloadButton } from "./components/download-button.js";
+import { renderSectionNav } from "./components/section-nav.js";
 
 if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
   window.__pqPartiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -317,6 +318,10 @@ display(
     `;
   })
 );
+```
+
+```js
+display(renderSectionNav("parties"));
 ```
 
 ```js
@@ -714,37 +719,4 @@ display(
     debounceMs: 20
   })
 );
-```
-
-```js
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Overview</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./deputies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Deputies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./constituencies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Constituencies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-  display(wrap);
-}
 ```
