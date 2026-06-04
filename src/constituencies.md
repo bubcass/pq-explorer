@@ -1038,10 +1038,19 @@ display(
       return;
     }
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrap";
+
     const table = document.createElement("table");
-    table.className = "observablehq";
+    table.className = "pq-table pq-table--constituencies";
 
     table.innerHTML = `
+      <colgroup>
+        <col style="width: 9rem" />
+        <col style="width: 14rem" />
+        <col style="width: 12rem" />
+        <col style="width: 34rem" />
+      </colgroup>
       <thead>
         <tr>
           <th>Date</th>
@@ -1055,11 +1064,11 @@ display(
           .map(
             (d) => `
               <tr>
-                <td>${formatIrishDate(d.date)}</td>
-                <td>${d.deputy}</td>
-                <td><strong>${d.heading}</strong></td>
-                <td>
-                  <a href="${d.url}" target="_blank" rel="noreferrer">
+                <td data-label="Date">${formatIrishDate(d.date)}</td>
+                <td data-label="Deputy">${d.deputy}</td>
+                <td data-label="Heading"><strong>${d.heading}</strong></td>
+                <td data-label="Question">
+                  <a class="link-arrow" href="${d.url}" target="_blank" rel="noreferrer">
                     ${d.question}
                   </a>
                 </td>
@@ -1070,7 +1079,8 @@ display(
       </tbody>
     `;
 
-    el.replaceChildren(table);
+    wrapper.appendChild(table);
+    el.replaceChildren(wrapper);
   }, {
     eventName: [
       "pq-constituencies:change",

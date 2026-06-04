@@ -1106,9 +1106,19 @@ display(
       return;
     }
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrap";
+
     const table = document.createElement("table");
+    table.className = "pq-table pq-table--deputies";
 
     table.innerHTML = `
+      <colgroup>
+        <col style="width: 9rem" />
+        <col style="width: 14rem" />
+        <col style="width: 34rem" />
+        <col style="width: 8rem" />
+      </colgroup>
       <thead>
         <tr>
           <th>Date</th>
@@ -1126,19 +1136,24 @@ display(
       const tr = document.createElement("tr");
 
       const tdDate = document.createElement("td");
+      tdDate.dataset.label = "Date";
       tdDate.textContent = formatDisplayDate(row.date_iso);
 
       const tdDept = document.createElement("td");
+      tdDept.dataset.label = "Department";
       tdDept.textContent = row.department ?? "";
 
       const tdQuestion = document.createElement("td");
+      tdQuestion.dataset.label = "Question";
       tdQuestion.textContent = (row.question ?? "").replace(/\s+/g, " ").trim();
 
       const tdReply = document.createElement("td");
+      tdReply.dataset.label = "Reply";
       const a = document.createElement("a");
       a.href = row.url ?? "#";
       a.target = "_blank";
       a.rel = "noreferrer";
+      a.className = "link-arrow";
       a.textContent = "Read reply";
       tdReply.appendChild(a);
 
@@ -1150,7 +1165,8 @@ display(
       tbody.appendChild(tr);
     }
 
-    el.replaceChildren(table);
+    wrapper.appendChild(table);
+    el.replaceChildren(wrapper);
   }, {
     loading: () => chartPlaceholder(360, "Loading results…"),
     eventName: ["pq-deputies:change", "pq-deputies-table:change"]

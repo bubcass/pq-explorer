@@ -611,7 +611,11 @@ display(
       return;
     }
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrap";
+
     const table = document.createElement("table");
+    table.className = "pq-table";
 
     table.innerHTML = `
       <thead>
@@ -629,9 +633,11 @@ display(
       const tr = document.createElement("tr");
 
       const tdHeading = document.createElement("td");
+      tdHeading.dataset.label = "Question heading";
       tdHeading.textContent = row.heading ?? "";
 
       const tdCount = document.createElement("td");
+      tdCount.dataset.label = "Number of questions";
       tdCount.textContent = format(row.count ?? 0);
 
       tr.appendChild(tdHeading);
@@ -639,7 +645,8 @@ display(
       tbody.appendChild(tr);
     }
 
-    el.replaceChildren(table);
+    wrapper.appendChild(table);
+    el.replaceChildren(wrapper);
   }, {
     eventName: ["pq-parties:change", "pq-parties:party-change"]
   })

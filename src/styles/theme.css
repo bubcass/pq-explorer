@@ -549,6 +549,7 @@
 
 .download-block .pq-download {
     display: block;
+    position: relative;
     width: 100%;
     box-sizing: border-box;
     appearance: none;
@@ -571,13 +572,27 @@
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.01em;
-    padding: 18px 20px;
+    padding: 18px 56px 18px 20px;
     transition:
         background-color 0.25s ease,
         color 0.25s ease,
         border-color 0.25s ease,
         box-shadow 0.25s ease;
     cursor: pointer;
+}
+
+.download-block .pq-download::after {
+    content: "↗";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-soft);
+    font-size: 0.95rem;
+    line-height: 1;
+    transition:
+        color 0.25s ease,
+        transform 0.2s ease;
 }
 
 .download-block .pq-download:hover,
@@ -588,6 +603,12 @@
     border-color: var(--accent);
     box-shadow: 0 0 0 3px rgba(107, 89, 34, 0.12);
     outline: none;
+}
+
+.download-block .pq-download:hover::after,
+.download-block .pq-download:focus-visible::after {
+    color: var(--text);
+    transform: translate(3px, calc(-50% - 1px));
 }
 
 /* Explore links */
@@ -692,7 +713,16 @@ nav a {
 
 /* Tables */
 
-.observablehq table {
+.table-wrap {
+    max-width: var(--text-max);
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.observablehq table,
+.pq-table {
     border-collapse: collapse;
     width: 100%;
     max-width: var(--text-max);
@@ -701,15 +731,85 @@ nav a {
 }
 
 .observablehq th,
-.observablehq td {
+.observablehq td,
+.pq-table th,
+.pq-table td {
     padding: 0.55rem 0.75rem;
     border-bottom: 1px solid var(--border);
     text-align: left;
+    vertical-align: top;
 }
 
-.observablehq th {
+.observablehq th,
+.pq-table th {
     color: var(--text-soft);
     font-weight: 600;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+.pq-table td::before {
+    content: none;
+}
+
+.pq-table td[data-label="Date"],
+.pq-table td[data-label="Department"],
+.pq-table td[data-label="Deputy"],
+.pq-table td[data-label="Reply"] {
+    white-space: nowrap;
+}
+
+.pq-table td[data-label="Question"],
+.pq-table td[data-label="Heading"] {
+    overflow-wrap: anywhere;
+}
+
+.pq-table td[data-label="Question heading"],
+.pq-table td[data-label="Heading"] {
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: auto;
+}
+
+.pq-table td[data-label="Reply"] a {
+    white-space: nowrap;
+}
+
+.pq-table--deputies,
+.pq-table--constituencies {
+    min-width: 980px;
+}
+
+.pq-table--deputies th:nth-child(1),
+.pq-table--deputies td:nth-child(1),
+.pq-table--constituencies th:nth-child(1),
+.pq-table--constituencies td:nth-child(1) {
+    width: 9rem;
+}
+
+.pq-table--deputies th:nth-child(2),
+.pq-table--deputies td:nth-child(2),
+.pq-table--constituencies th:nth-child(2),
+.pq-table--constituencies td:nth-child(2) {
+    width: 14rem;
+}
+
+.pq-table--constituencies th:nth-child(3),
+.pq-table--constituencies td:nth-child(3) {
+    width: 12rem;
+}
+
+.pq-table--deputies th:nth-child(3),
+.pq-table--deputies td:nth-child(3),
+.pq-table--constituencies th:nth-child(4),
+.pq-table--constituencies td:nth-child(4) {
+    width: 34rem;
+    min-width: 34rem;
+}
+
+.pq-table--deputies th:nth-child(4),
+.pq-table--deputies td:nth-child(4) {
+    width: 8rem;
 }
 
 /* Constituency map */
@@ -1005,6 +1105,85 @@ nav a {
 
     .deputy-card-meta-grid {
         width: 100%;
+    }
+
+    .table-wrap {
+        overflow-x: visible;
+    }
+
+    .pq-table,
+    .pq-table tbody,
+    .pq-table tr,
+    .pq-table td {
+        display: block;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .pq-table colgroup,
+    .pq-table col {
+        display: none;
+    }
+
+    .pq-table thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    .pq-table tr {
+        margin-bottom: 0.9rem;
+        padding: 0.9rem 1rem;
+        border: 1px solid var(--border);
+        background: #fffdf8;
+    }
+
+    .pq-table tbody tr:last-child {
+        margin-bottom: 0;
+    }
+
+    .pq-table td {
+        padding: 0.35rem 0;
+        border-bottom: 0;
+    }
+
+    .pq-table td::before {
+        content: attr(data-label);
+        display: block;
+        margin-bottom: 0.18rem;
+        color: var(--gold);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+
+    .pq-table--deputies,
+    .pq-table--constituencies,
+    .pq-table--deputies th:nth-child(1),
+    .pq-table--deputies td:nth-child(1),
+    .pq-table--deputies th:nth-child(2),
+    .pq-table--deputies td:nth-child(2),
+    .pq-table--deputies th:nth-child(3),
+    .pq-table--deputies td:nth-child(3),
+    .pq-table--deputies th:nth-child(4),
+    .pq-table--deputies td:nth-child(4),
+    .pq-table--constituencies th:nth-child(1),
+    .pq-table--constituencies td:nth-child(1),
+    .pq-table--constituencies th:nth-child(2),
+    .pq-table--constituencies td:nth-child(2),
+    .pq-table--constituencies th:nth-child(3),
+    .pq-table--constituencies td:nth-child(3),
+    .pq-table--constituencies th:nth-child(4),
+    .pq-table--constituencies td:nth-child(4) {
+        width: auto;
+        min-width: 0;
     }
 }
 
