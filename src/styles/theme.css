@@ -717,8 +717,6 @@ nav a {
     max-width: var(--text-max);
     margin-left: auto;
     margin-right: auto;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 .observablehq table,
@@ -775,11 +773,6 @@ nav a {
     white-space: nowrap;
 }
 
-.pq-table--deputies,
-.pq-table--constituencies {
-    min-width: 980px;
-}
-
 .pq-table--deputies th:nth-child(1),
 .pq-table--deputies td:nth-child(1),
 .pq-table--constituencies th:nth-child(1),
@@ -804,7 +797,6 @@ nav a {
 .pq-table--constituencies th:nth-child(4),
 .pq-table--constituencies td:nth-child(4) {
     width: 34rem;
-    min-width: 34rem;
 }
 
 .pq-table--deputies th:nth-child(4),
@@ -1138,6 +1130,7 @@ nav a {
     }
 
     .pq-table tr {
+        box-sizing: border-box;
         margin-bottom: 0.9rem;
         padding: 0.9rem 1rem;
         border: 1px solid var(--border);
