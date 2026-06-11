@@ -290,6 +290,7 @@ export const deputyDetailUrls = {
     "Seán-Canney.D.2016-10-03": import.meta.resolve("../data/pq/2026/deputies/Seán-Canney.D.2016-10-03.json"),
     "Seán-Crowe.D.2002-06-06": import.meta.resolve("../data/pq/2026/deputies/Seán-Crowe.D.2002-06-06.json"),
     "Seán-Fleming.D.1997-06-26": import.meta.resolve("../data/pq/2026/deputies/Seán-Fleming.D.1997-06-26.json"),
+    "Seán-Kyne.D.2011-03-09": import.meta.resolve("../data/pq/2026/deputies/Seán-Kyne.D.2011-03-09.json"),
     "Seán-Ó-Fearghaíl.S.2000-06-09": import.meta.resolve("../data/pq/2026/deputies/Seán-Ó-Fearghaíl.S.2000-06-09.json"),
     "Shane-Moynihan.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/Shane-Moynihan.D.2024-11-29.json"),
     "Shay-Brennan.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/Shay-Brennan.D.2024-11-29.json"),
