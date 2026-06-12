@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Shónagh-Ní-Raghallaigh.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 342,
+      "count": 367,
       "headingOptions": [
         "Active Travel",
         "Agriculture Industry",
@@ -22,6 +22,7 @@
         "An Teanga Gaeilge",
         "Animal Welfare",
         "Apprenticeship Programmes",
+        "Artificial Intelligence",
         "Assisted Human Reproduction",
         "Bord Bia",
         "Building Regulations",
@@ -31,6 +32,7 @@
         "Childcare Services",
         "Climate Action Plan",
         "Community Welfare Services",
+        "Company Closures",
         "Cycling Policy",
         "Data Centres",
         "Defence Forces",
@@ -50,11 +52,14 @@
         "Disability Issues",
         "Disability Services",
         "Disease Management",
+        "Driver Test",
         "Early Childhood Care and Education",
         "Education Costs",
         "Education Policy",
         "Education Schemes",
         "Educational Disadvantage",
+        "Electric Vehicles",
+        "Electricity Grid",
         "Emergency Accommodation",
         "Emergency Services",
         "Employment Rights",
@@ -105,6 +110,7 @@
         "Public Transport",
         "Rail Network",
         "Road Projects",
+        "Road Safety",
         "Scéimeanna Rannacha",
         "School Accommodation",
         "School Admissions",
@@ -284,16 +290,16 @@
                 "value": 11
               },
               {
+                "name": "Mental Health Services",
+                "value": 10
+              },
+              {
                 "name": "Health Services",
                 "value": 10
               },
               {
-                "name": "Mental Health Services",
-                "value": 9
-              },
-              {
                 "name": "Hospital Staff",
-                "value": 9
+                "value": 10
               },
               {
                 "name": "Hospital Waiting Lists",
@@ -308,12 +314,16 @@
                 "value": 3
               },
               {
+                "name": "Health Services Waiting Lists",
+                "value": 2
+              },
+              {
                 "name": "Healthcare Policy",
                 "value": 2
               },
               {
-                "name": "Health Services Waiting Lists",
-                "value": 1
+                "name": "Dental Services",
+                "value": 2
               },
               {
                 "name": "Departmental Strategies",
@@ -349,10 +359,6 @@
               },
               {
                 "name": "Insurance Coverage",
-                "value": 1
-              },
-              {
-                "name": "Dental Services",
                 "value": 1
               },
               {
@@ -415,6 +421,63 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Rail Network",
+                "value": 8
+              },
+              {
+                "name": "Public Transport",
+                "value": 7
+              },
+              {
+                "name": "Bus Services",
+                "value": 3
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 2
+              },
+              {
+                "name": "Electric Vehicles",
+                "value": 2
+              },
+              {
+                "name": "Road Safety",
+                "value": 2
+              },
+              {
+                "name": "Road Projects",
+                "value": 1
+              },
+              {
+                "name": "Bus Éireann",
+                "value": 1
+              },
+              {
+                "name": "Cycling Policy",
+                "value": 1
+              },
+              {
+                "name": "Transport Costs",
+                "value": 1
+              },
+              {
+                "name": "Water Pollution",
+                "value": 1
+              },
+              {
+                "name": "Active Travel",
+                "value": 1
+              },
+              {
+                "name": "Driver Test",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -468,51 +531,6 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Rail Network",
-                "value": 8
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 2
-              },
-              {
-                "name": "Bus Services",
-                "value": 2
-              },
-              {
-                "name": "Public Transport",
-                "value": 2
-              },
-              {
-                "name": "Road Projects",
-                "value": 1
-              },
-              {
-                "name": "Bus Éireann",
-                "value": 1
-              },
-              {
-                "name": "Cycling Policy",
-                "value": 1
-              },
-              {
-                "name": "Transport Costs",
-                "value": 1
-              },
-              {
-                "name": "Water Pollution",
-                "value": 1
-              },
-              {
-                "name": "Active Travel",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -521,10 +539,14 @@
               },
               {
                 "name": "Further and Higher Education",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Student Accommodation",
+                "value": 2
+              },
+              {
+                "name": "Artificial Intelligence",
                 "value": 2
               },
               {
@@ -603,6 +625,51 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Business Supports",
+                "value": 2
+              },
+              {
+                "name": "Artificial Intelligence",
+                "value": 2
+              },
+              {
+                "name": "St. Patrick's Day Celebrations",
+                "value": 1
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "value": 1
+              },
+              {
+                "name": "Departmental Bodies",
+                "value": 1
+              },
+              {
+                "name": "Gender Balance",
+                "value": 1
+              },
+              {
+                "name": "Workplace Relations Commission",
+                "value": 1
+              },
+              {
+                "name": "Employment Rights",
+                "value": 1
+              },
+              {
+                "name": "Enterprise Support Services",
+                "value": 1
+              },
+              {
+                "name": "Company Closures",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Social",
             "children": [
               {
@@ -673,43 +740,6 @@
             ]
           },
           {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Business Supports",
-                "value": 2
-              },
-              {
-                "name": "St. Patrick's Day Celebrations",
-                "value": 1
-              },
-              {
-                "name": "Public Expenditure Policy",
-                "value": 1
-              },
-              {
-                "name": "Departmental Bodies",
-                "value": 1
-              },
-              {
-                "name": "Gender Balance",
-                "value": 1
-              },
-              {
-                "name": "Workplace Relations Commission",
-                "value": 1
-              },
-              {
-                "name": "Employment Rights",
-                "value": 1
-              },
-              {
-                "name": "Enterprise Support Services",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Foreign",
             "children": [
               {
@@ -772,6 +802,27 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Flood Relief Schemes",
+                "value": 5
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Office of Government Procurement",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -793,6 +844,10 @@
               {
                 "name": "Marine Protected Areas",
                 "value": 1
+              },
+              {
+                "name": "Electricity Grid",
+                "value": 1
               }
             ]
           },
@@ -805,27 +860,6 @@
               },
               {
                 "name": "Air Corps",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Flood Relief Schemes",
-                "value": 2
-              },
-              {
-                "name": "Public Expenditure Policy",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Office of Government Procurement",
                 "value": 1
               }
             ]
@@ -1895,6 +1929,97 @@
                 ]
               },
               {
+                "name": "Mental Health Services",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "564. Deputy Shónagh Ní Raghallaigh asked the Minister for Health her plans to institute a mandatory transition pathway from CAMHS to AMHS for patients with diagnosed eating disorders, given that many patients currently experience a lapse in care in moving between the services; and if she will make a statement on the matter. [18040/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/564/"
+                      },
+                      {
+                        "name": "565. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of specialist WTE posts dealing with eating disorders are currently vacant across the HSE; where those posts located; and if she will make a statement on the matter. [18041/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/565/"
+                      },
+                      {
+                        "name": "566. Deputy Shónagh Ní Raghallaigh asked the Minister for Health her plans to expand existing services to tackle eating disorders, especially with a view to achieving an equitable regional distribution in service provision; and if she will make a statement on the matter. [18042/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/566/"
+                      },
+                      {
+                        "name": "567. Deputy Shónagh Ní Raghallaigh asked the Minister for Health her plans to review the 2018 Model of Care treating Eating Disorders; and if she will make a statement on the matter. [18043/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/567/"
+                      },
+                      {
+                        "name": "568. Deputy Shónagh Ní Raghallaigh asked the Minister for Health if she will collect comprehensive national data on patients presenting with eating disorders, including those at emergency departments and at GP clinics; and if she will make a statement on the matter. [18044/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/568/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2222. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the mental health supports available locally to residents of Thurles, including community counselling and specialist services; waiting times for access; if plans are in place to expand mental health resources in the Thurles area; and if she will make a statement on the matter. [74731/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2222/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1067. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the steps she is undertaking to promote infant mental health and positive attachment relationships between caregivers and infants; if she is considering resourcing further targeted interventions in this area; and if she will make a statement on the matter. [11697/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1067/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3006. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the average waiting time for an initial appointment with CAMHS in Kildare; the number of young people waiting over a year for an initial appointment; and if she will make a statement on the matter. [25288/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3006/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2261. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the current average waiting time for children and adolescents in County Kildare to access CAMHS; the measures being taken to reduce waiting lists; and if she will make a statement on the matter. [43484/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2261/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "215. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of children currently waiting more than 12 months for an initial assessment by a Child and Adolescent Mental Health Service (CAMHS), by CHO area; and if she will make a statement on the matter. [44219/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/215/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Services",
                 "children": [
                   {
@@ -2004,86 +2129,6 @@
                 ]
               },
               {
-                "name": "Mental Health Services",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "564. Deputy Shónagh Ní Raghallaigh asked the Minister for Health her plans to institute a mandatory transition pathway from CAMHS to AMHS for patients with diagnosed eating disorders, given that many patients currently experience a lapse in care in moving between the services; and if she will make a statement on the matter. [18040/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/564/"
-                      },
-                      {
-                        "name": "565. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of specialist WTE posts dealing with eating disorders are currently vacant across the HSE; where those posts located; and if she will make a statement on the matter. [18041/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/565/"
-                      },
-                      {
-                        "name": "566. Deputy Shónagh Ní Raghallaigh asked the Minister for Health her plans to expand existing services to tackle eating disorders, especially with a view to achieving an equitable regional distribution in service provision; and if she will make a statement on the matter. [18042/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/566/"
-                      },
-                      {
-                        "name": "567. Deputy Shónagh Ní Raghallaigh asked the Minister for Health her plans to review the 2018 Model of Care treating Eating Disorders; and if she will make a statement on the matter. [18043/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/567/"
-                      },
-                      {
-                        "name": "568. Deputy Shónagh Ní Raghallaigh asked the Minister for Health if she will collect comprehensive national data on patients presenting with eating disorders, including those at emergency departments and at GP clinics; and if she will make a statement on the matter. [18044/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/568/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2222. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the mental health supports available locally to residents of Thurles, including community counselling and specialist services; waiting times for access; if plans are in place to expand mental health resources in the Thurles area; and if she will make a statement on the matter. [74731/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2222/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "1067. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the steps she is undertaking to promote infant mental health and positive attachment relationships between caregivers and infants; if she is considering resourcing further targeted interventions in this area; and if she will make a statement on the matter. [11697/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1067/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "3006. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the average waiting time for an initial appointment with CAMHS in Kildare; the number of young people waiting over a year for an initial appointment; and if she will make a statement on the matter. [25288/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3006/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2261. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the current average waiting time for children and adolescents in County Kildare to access CAMHS; the measures being taken to reduce waiting lists; and if she will make a statement on the matter. [43484/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2261/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Hospital Staff",
                 "children": [
                   {
@@ -2152,6 +2197,17 @@
                         "name": "1233. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of WTE consultants in infectious diseases based at St. James's Hospital as of 20 April 2026, in tabular form. [30435/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1233/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "217. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of consultant posts approved but unfilled for more than six months, by hospital group; and the measures being taken to address persistent recruitment challenges. [44280/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/217/"
                       }
                     ]
                   }
@@ -2277,6 +2333,33 @@
                 ]
               },
               {
+                "name": "Health Services Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "1090. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the steps she is taking to shorten the dietetics weight management waitlist; and if she will make a statement on the matter. [9785/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1090/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "223. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of persons currently waiting for community-based speech and language therapy services, occupational therapy services and physiotherapy services; the average waiting time for each service; and by-county. [44345/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/223/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Healthcare Policy",
                 "children": [
                   {
@@ -2298,16 +2381,27 @@
                 ]
               },
               {
-                "name": "Health Services Waiting Lists",
+                "name": "Dental Services ",
                 "children": [
                   {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
                     "children": [
                       {
-                        "name": "1090. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the steps she is taking to shorten the dietetics weight management waitlist; and if she will make a statement on the matter. [9785/26]",
+                        "name": "2263. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of people in County Kildare currently awaiting orthodontic treatment through the public system; the average waiting time for treatment; and if she will make a statement on the matter. [43492/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1090/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2263/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "210. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of children in CHO 7 currently awaiting a first appointment under the HSE school dental screening service; the number of those who have progressed to secondary school without ever being seen; and if she will make a statement on the matter. [44207/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/210/"
                       }
                     ]
                   }
@@ -2452,22 +2546,6 @@
                         "name": "1737. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the measures she is taking to combat the reported trend of reduced health insurance cover for older people in the context of rising premium costs; and if she will make a statement on the matter. [43816/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1737/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dental Services ",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2263. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of people in County Kildare currently awaiting orthodontic treatment through the public system; the average waiting time for treatment; and if she will make a statement on the matter. [43492/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2263/"
                       }
                     ]
                   }
@@ -2909,6 +2987,339 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "454. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the cost of building a new train station in Kildangan, County Kildare; and if he will make a statement on the matter. [42605/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/454/"
+                      },
+                      {
+                        "name": "467. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if he will commission a feasibility study into the reopening of the Kildangan train station in the medium term to alleviate pressure infrastructure pressures in neighbouring towns; and if he will make a statement on the matter. [42768/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/467/"
+                      },
+                      {
+                        "name": "499. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the status of plans to improve accessibility at railway stations serving County Kildare; and the stations identified for upgrades over the next three years. [43749/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/499/"
+                      },
+                      {
+                        "name": "502. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport whether his Department, the National Transport Authority or Iarnród Éireann has undertaken any assessment of the feasibility of reopening Kildangan railway station; whether passenger demand modelling has been conducted; whether the station is included in any current or planned rail investment strategies; and if he will make a statement on the matter. [43829/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/502/"
+                      },
+                      {
+                        "name": "503. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the actions being taken to improve signalling resilience and service reliability across the national rail network following recent service disruptions; the investment planned in signalling infrastructure during 2026 and 2027; and if he will make a statement on the matter. [43830/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/503/"
+                      },
+                      {
+                        "name": "504. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the estimated timeline for the completion of the Navan DART Plus route; and if he will make a statement on the matter. [43833/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/504/"
+                      },
+                      {
+                        "name": "505. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the estimated timeline for the completion of the Metrolink project; the estimated cost for same; and if he will make a statement on the matter. [43834/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/505/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "110. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to increase train capacity to alleviate overcrowding for Kildare commuters; and if he will make a statement on the matter. [15358/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/110/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "31. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the level of public transport service provision currently available to villages in south Kildare with populations of fewer than 2,000 persons; the criteria used by the National Transport Authority in determining service levels; and whether any service enhancements are planned. [44242/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/31/"
+                      },
+                      {
+                        "name": "32. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of new or expanded Local Link services introduced in County Kildare since 2020; the passenger numbers recorded on those services; and any proposals currently under consideration for additional routes serving south Kildare. [44243/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/32/"
+                      },
+                      {
+                        "name": "33. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport whether the National Transport Authority has undertaken an assessment of public transport connectivity between south Kildare and major employment centres including Naas, Newbridge and Dublin; and if he will provide details of any planned improvements arising from that assessment. [44244/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/33/"
+                      },
+                      {
+                        "name": "34. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to expand bike capacity on Kildare-Dublin commuter trains; and if he will make a statement on the matter. [44300/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/34/"
+                      },
+                      {
+                        "name": "35. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the measures being taken to improve accessibility on Kildare commuter trains; innovative digital solutions being explored regarding same; and if he will make a statement on the matter. [44302/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/35/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "223. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to expand public transport serving the Kildare south area over the coming year; and if he will make a statement on the matter. [40934/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/223/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "493. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the plans in place to improve public transport connectivity between towns and villages in south Kildare and major employment centres including Naas, Newbridge and Dublin; and if he will make a statement on the matter. [43486/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/493/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 27 May",
+                    "date_iso": "2026-05-27",
+                    "children": [
+                      {
+                        "name": "34. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if his attention has been drawn to capacity issues with the 120 Bus service from Edenderry/Newbridge to Prosperous and Dublin; the steps he will take to increase frequency and capacity on this line; and if he will make a statement on the matter. [40482/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/34/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "438. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if Dublin Airport Authority intends to install portable toilets beside coach and bus pick up areas at Terminal 2 at Dublin Airport. [42339/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/438/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "27. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if he is aware of the proposed reduction of bus services to Castledermot (details supplied); if the NTA plans to provide an alternative service; and if he will make a statement on the matter. [44210/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/27/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "12. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if any funding has been formally approved for the second Newbridge bridge; and if he will make a statement on the matter. [10969/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/12/"
+                      },
+                      {
+                        "name": "13. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the position regarding the second Newbridge bridge project; and if he will make a statement on the matter. [10970/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/13/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "26. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of public electric vehicle chargers currently in operation in County Kildare; the measures are being taken to increase this number; and if he will make a statement on the matter. [44205/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/26/"
+                      },
+                      {
+                        "name": "37. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of public electric vehicle charging points currently in operation in each county; the number planned for delivery over the next three years; and his views on regional disparities in charging infrastructure. [44351/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/37/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "29. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if his Department has identified any sections of the N78 in County Kildare as requiring safety improvement works; the nature of any such works planned or under consideration; the estimated timelines for delivery; and if he will make a statement on the matter. [44236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/29/"
+                      },
+                      {
+                        "name": "30. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number and value of road safety improvement projects approved for County Kildare under specific road improvement and safety funding programmes in each of the past five years; the locations concerned; and if he will make a statement on the matter. [44237/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/30/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "575. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if the Thurles inner relief road has been submitted for tender; if not, when it is expected to be advertised for tender; to provide a detailed timeline of key project milestones from planning through to construction; and if he will make a statement on the matter. [74729/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/575/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Éireann",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "59. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of meetings with Bus Éireann he has had since June 2025; the subject of each meeting, in tabular form. [15339/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/59/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cycling Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "182. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans for the pilot cycle lane between Moone and Timolin; and if he will make a statement on the matter. [15359/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/182/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Costs",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "616. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to support coach operators who are increasingly unable to meet the costs of delivering Local Link services due to the ongoing crisis in the Middle East; and if he will make a statement on the matter. [23673/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/616/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Water Pollution",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "455. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the measures he is taking to clean up diesel spilled into the River Liffey by Irish Rail since March 2025; and if he will make a statement on the matter. [42620/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/455/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Active Travel",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "500. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of applications received and approved under the Active Travel Programme in County Kildare in 2025 and 2026; and the projects currently awaiting funding decisions. [43750/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/500/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "28. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of driving test applicants currently waiting longer than the RSA target waiting time for a driving test in each test centre; and the measures being taken to reduce waiting times. [44221/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/28/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -3227,239 +3638,6 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Rail Network",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "454. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the cost of building a new train station in Kildangan, County Kildare; and if he will make a statement on the matter. [42605/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/454/"
-                      },
-                      {
-                        "name": "467. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if he will commission a feasibility study into the reopening of the Kildangan train station in the medium term to alleviate pressure infrastructure pressures in neighbouring towns; and if he will make a statement on the matter. [42768/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/467/"
-                      },
-                      {
-                        "name": "499. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the status of plans to improve accessibility at railway stations serving County Kildare; and the stations identified for upgrades over the next three years. [43749/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/499/"
-                      },
-                      {
-                        "name": "502. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport whether his Department, the National Transport Authority or Iarnród Éireann has undertaken any assessment of the feasibility of reopening Kildangan railway station; whether passenger demand modelling has been conducted; whether the station is included in any current or planned rail investment strategies; and if he will make a statement on the matter. [43829/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/502/"
-                      },
-                      {
-                        "name": "503. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the actions being taken to improve signalling resilience and service reliability across the national rail network following recent service disruptions; the investment planned in signalling infrastructure during 2026 and 2027; and if he will make a statement on the matter. [43830/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/503/"
-                      },
-                      {
-                        "name": "504. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the estimated timeline for the completion of the Navan DART Plus route; and if he will make a statement on the matter. [43833/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/504/"
-                      },
-                      {
-                        "name": "505. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the estimated timeline for the completion of the Metrolink project; the estimated cost for same; and if he will make a statement on the matter. [43834/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/505/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "110. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to increase train capacity to alleviate overcrowding for Kildare commuters; and if he will make a statement on the matter. [15358/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/110/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "12. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if any funding has been formally approved for the second Newbridge bridge; and if he will make a statement on the matter. [10969/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/12/"
-                      },
-                      {
-                        "name": "13. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the position regarding the second Newbridge bridge project; and if he will make a statement on the matter. [10970/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/13/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 27 May",
-                    "date_iso": "2026-05-27",
-                    "children": [
-                      {
-                        "name": "34. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if his attention has been drawn to capacity issues with the 120 Bus service from Edenderry/Newbridge to Prosperous and Dublin; the steps he will take to increase frequency and capacity on this line; and if he will make a statement on the matter. [40482/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/34/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "438. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if Dublin Airport Authority intends to install portable toilets beside coach and bus pick up areas at Terminal 2 at Dublin Airport. [42339/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/438/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Transport",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "223. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to expand public transport serving the Kildare south area over the coming year; and if he will make a statement on the matter. [40934/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/223/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "493. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the plans in place to improve public transport connectivity between towns and villages in south Kildare and major employment centres including Naas, Newbridge and Dublin; and if he will make a statement on the matter. [43486/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/493/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "575. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if the Thurles inner relief road has been submitted for tender; if not, when it is expected to be advertised for tender; to provide a detailed timeline of key project milestones from planning through to construction; and if he will make a statement on the matter. [74729/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/575/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Éireann",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "59. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of meetings with Bus Éireann he has had since June 2025; the subject of each meeting, in tabular form. [15339/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/59/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Cycling Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "182. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans for the pilot cycle lane between Moone and Timolin; and if he will make a statement on the matter. [15359/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/182/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Transport Costs",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "616. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to support coach operators who are increasingly unable to meet the costs of delivering Local Link services due to the ongoing crisis in the Middle East; and if he will make a statement on the matter. [23673/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/616/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Water Pollution",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "455. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the measures he is taking to clean up diesel spilled into the River Liffey by Irish Rail since March 2025; and if he will make a statement on the matter. [42620/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/455/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Active Travel",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "500. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of applications received and approved under the Active Travel Programme in County Kildare in 2025 and 2026; and the projects currently awaiting funding decisions. [43750/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/500/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -3523,6 +3701,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1253/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "280. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science the number of students who have withdrawn from higher education courses during their first year of study in each of the past five academic years; the reasons identified; and the measures being taken to improve retention rates. [44353/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/280/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -3548,6 +3737,27 @@
                         "name": "215. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science his views on the way his student accommodation plan will address the question of affordability in the short and medium term to relieve overburdened families; and if he will make a statement on the matter. [29029/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/215/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artificial Intelligence",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "275. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science the measures being taken to support workers whose roles may be affected by the adoption of artificial intelligence technologies; and whether any national reskilling or workforce transition strategy is under development. [44277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/275/"
+                      },
+                      {
+                        "name": "278. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science the number of courses, training programmes or apprenticeships that specifically address artificial intelligence skills currently supported by his Department; the number of participants enrolled; and if he will make a statement on the matter. [44278/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/278/"
                       }
                     ]
                   }
@@ -3870,6 +4080,181 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Business Supports",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "711. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the measures being taken to support small and medium-sized enterprises facing increased operating costs; and if he will make a statement on the matter. [43491/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/711/"
+                      },
+                      {
+                        "name": "720. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the measures being taken to support small retailers and hospitality businesses experiencing increased operating costs. [43754/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/720/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artificial Intelligence",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "68. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment whether his Department has undertaken any assessment of the potential impact of artificial intelligence and automation on employment across the State; the sectors identified as most at risk of job displacement; and if he will make a statement on the matter. [44276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/68/"
+                      },
+                      {
+                        "name": "69. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment whether his Department has estimated the number or proportion of jobs in the State that may be significantly altered, displaced or augmented by artificial intelligence technologies over the next ten years; the sectors expected to experience the greatest impact; and the measures being taken to prepare workers and employers for these changes. [44282/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/69/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "St. Patrick's Day Celebrations",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "427. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment If Tourism Ireland plans to re-establish the Global Greening Initiative for the upcoming St. Patrick's day events. [5838/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/427/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "467. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the estimated cost of the most recent bank holiday to the Irish economy. [9652/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/467/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "108. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of female WTE accounts executive and senior accounts executive posts employed by IDA Ireland as of 17 February 2026, in tabular form. [15340/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/108/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Gender Balance",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "109. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of female WTE accounts executive and senior accounts executive posts employed by Enterprise Ireland as of 17 February 2026, in tabular form. [15341/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/109/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Workplace Relations Commission",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "440. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of vacant WTE staff, by job title, at the Workplace Relations Commission; and the estimated timeframe for filling each of those vacancies, in tabular form. [22138/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/440/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Employment Rights",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1178. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment if he will commit to review the sick pay legislation to ensure that care sector workers, who are disproportionately reliant on shift allowances, overtime and unsocial hours pay, are not faced with a perverse inventive to work while unwell, given the associated health and safety risks and workers' rights concerns; and if he will make a statement on the matter. [26281/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1178/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Enterprise Support Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "719. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of businesses in County Kildare that have availed of supports through local enterprise offices in 2025 and to date in 2026; and the value of funding approved. [43753/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/719/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Company Closures",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "67. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of businesses that have ceased trading in each county in the past 12 months; the sectors most affected; the trends in business closures; and if he will make a statement on the matter. [44222/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/67/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Social",
             "children": [
               {
@@ -4152,144 +4537,6 @@
             ]
           },
           {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Business Supports",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "711. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the measures being taken to support small and medium-sized enterprises facing increased operating costs; and if he will make a statement on the matter. [43491/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/711/"
-                      },
-                      {
-                        "name": "720. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the measures being taken to support small retailers and hospitality businesses experiencing increased operating costs. [43754/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/720/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "St. Patrick's Day Celebrations",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "427. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment If Tourism Ireland plans to re-establish the Global Greening Initiative for the upcoming St. Patrick's day events. [5838/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/427/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Expenditure Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "467. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the estimated cost of the most recent bank holiday to the Irish economy. [9652/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/467/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Bodies",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "108. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of female WTE accounts executive and senior accounts executive posts employed by IDA Ireland as of 17 February 2026, in tabular form. [15340/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/108/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Gender Balance",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "109. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of female WTE accounts executive and senior accounts executive posts employed by Enterprise Ireland as of 17 February 2026, in tabular form. [15341/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/109/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Workplace Relations Commission",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "440. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of vacant WTE staff, by job title, at the Workplace Relations Commission; and the estimated timeframe for filling each of those vacancies, in tabular form. [22138/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/440/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Employment Rights",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1178. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment if he will commit to review the sick pay legislation to ensure that care sector workers, who are disproportionately reliant on shift allowances, overtime and unsocial hours pay, are not faced with a perverse inventive to work while unwell, given the associated health and safety risks and workers' rights concerns; and if he will make a statement on the matter. [26281/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1178/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Enterprise Support Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "719. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of businesses in County Kildare that have availed of supports through local enterprise offices in 2025 and to date in 2026; and the value of funding approved. [43753/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/719/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Foreign",
             "children": [
               {
@@ -4540,6 +4787,107 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Flood Relief Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "57. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the flood relief projects currently planned, under development or under construction in County Kildare; the stage each project has reached; the estimated completion dates; and if he will make a statement on the matter. [44239/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/57/"
+                      },
+                      {
+                        "name": "58. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of properties in County Kildare identified as being at significant risk of flooding under the Catchment Flood Risk Assessment and Management (CFRAM) Programme; and the measures proposed to reduce flood risk in those communities. [44240/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/58/"
+                      },
+                      {
+                        "name": "59. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the funding allocated for flood prevention, drainage maintenance and flood mitigation works in County Kildare in each of the past five years; the projects supported; and if he will make a statement on the matter. [44241/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/59/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "294. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if the design for a flood relief scheme for Athy, County Kildare is progressing on schedule; if funding for the project will be prioritised; and if he will make a statement on the matter. [11126/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/294/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "94. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the flood relief projects currently under construction and funded by OPW; when each of those projects will be completed, in tabular form. [15335/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/94/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "452. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he believes in the need for good-quality, publicly-available financial information of the non-profit sector in the interest of identifying funding gaps, analysing performance and promoting transparency; if he will consider reinstating funding for an organisation with such a mandate; and if he will make a statement on the matter. [9664/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/452/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "528. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the reason the 7% increase for An Post pensioners has not been paid out; and if he will make a statement on the matter. [12157/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/528/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Office of Government Procurement",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "543. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the rationale for the Office of Government Procurement’s decision not to permit any adjustment to hourly rates under the Managed Security Services Framework to reflect the introduction of the statutory auto-enrolment pension scheme; whether any mechanism exists, or is being considered, to accommodate statutory employment cost increases introduced after tender submission deadlines within OGP frameworks; and if he will make a statement on the matter. [12799/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/543/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -4621,6 +4969,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Electricity Grid",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "17. Deputy Shónagh Ní Raghallaigh asked the Minister for Climate, Energy and the Environment the number of households disconnected from electricity supply in each of the past five years due to non-payment of bills; if he will report on trends in energy poverty; and if he will make a statement on the matter. [44348/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/17/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4687,86 +5051,6 @@
                         "name": "271. Deputy Shónagh Ní Raghallaigh asked the Minister for Defence if all Air Corps helicopters are fully capable of night time reconnaissance during heavy intensive poor weather conditions, such as snow and so on. [5834/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/271/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Flood Relief Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "294. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if the design for a flood relief scheme for Athy, County Kildare is progressing on schedule; if funding for the project will be prioritised; and if he will make a statement on the matter. [11126/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/294/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "94. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the flood relief projects currently under construction and funded by OPW; when each of those projects will be completed, in tabular form. [15335/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/94/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Expenditure Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "452. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he believes in the need for good-quality, publicly-available financial information of the non-profit sector in the interest of identifying funding gaps, analysing performance and promoting transparency; if he will consider reinstating funding for an organisation with such a mandate; and if he will make a statement on the matter. [9664/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/452/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "528. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the reason the 7% increase for An Post pensioners has not been paid out; and if he will make a statement on the matter. [12157/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/528/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Office of Government Procurement",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "543. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the rationale for the Office of Government Procurement’s decision not to permit any adjustment to hourly rates under the Managed Security Services Framework to reflect the introduction of the statutory auto-enrolment pension scheme; whether any mechanism exists, or is being considered, to accommodate statutory employment cost increases introduced after tender submission deadlines within OGP frameworks; and if he will make a statement on the matter. [12799/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/543/"
                       }
                     ]
                   }
@@ -7911,6 +8195,231 @@
           "heading": "Departmental Data",
           "question": "2516. Deputy Shónagh Ní Raghallaigh asked the Minister for Rural and Community Development and the Gaeltacht the supports and incentives available for entrepreneurs and small/medium enterprises to develop business structures operating and serving through the medium of Irish; and if he will make a statement on the matter. [42376/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2516/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 17,
+          "department": "Climate",
+          "heading": "Electricity Grid",
+          "question": "17. Deputy Shónagh Ní Raghallaigh asked the Minister for Climate, Energy and the Environment the number of households disconnected from electricity supply in each of the past five years due to non-payment of bills; if he will report on trends in energy poverty; and if he will make a statement on the matter. [44348/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/17/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 26,
+          "department": "Transport",
+          "heading": "Electric Vehicles",
+          "question": "26. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of public electric vehicle chargers currently in operation in County Kildare; the measures are being taken to increase this number; and if he will make a statement on the matter. [44205/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/26/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 27,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "27. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if he is aware of the proposed reduction of bus services to Castledermot (details supplied); if the NTA plans to provide an alternative service; and if he will make a statement on the matter. [44210/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/27/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 28,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "28. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of driving test applicants currently waiting longer than the RSA target waiting time for a driving test in each test centre; and the measures being taken to reduce waiting times. [44221/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/28/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 29,
+          "department": "Transport",
+          "heading": "Road Safety",
+          "question": "29. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport if his Department has identified any sections of the N78 in County Kildare as requiring safety improvement works; the nature of any such works planned or under consideration; the estimated timelines for delivery; and if he will make a statement on the matter. [44236/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/29/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 30,
+          "department": "Transport",
+          "heading": "Road Safety",
+          "question": "30. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number and value of road safety improvement projects approved for County Kildare under specific road improvement and safety funding programmes in each of the past five years; the locations concerned; and if he will make a statement on the matter. [44237/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/30/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 31,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "31. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the level of public transport service provision currently available to villages in south Kildare with populations of fewer than 2,000 persons; the criteria used by the National Transport Authority in determining service levels; and whether any service enhancements are planned. [44242/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/31/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 32,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "32. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of new or expanded Local Link services introduced in County Kildare since 2020; the passenger numbers recorded on those services; and any proposals currently under consideration for additional routes serving south Kildare. [44243/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/32/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 33,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "33. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport whether the National Transport Authority has undertaken an assessment of public transport connectivity between south Kildare and major employment centres including Naas, Newbridge and Dublin; and if he will provide details of any planned improvements arising from that assessment. [44244/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/33/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 34,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "34. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport his plans to expand bike capacity on Kildare-Dublin commuter trains; and if he will make a statement on the matter. [44300/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/34/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 35,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "35. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the measures being taken to improve accessibility on Kildare commuter trains; innovative digital solutions being explored regarding same; and if he will make a statement on the matter. [44302/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/35/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 37,
+          "department": "Transport",
+          "heading": "Electric Vehicles",
+          "question": "37. Deputy Shónagh Ní Raghallaigh asked the Minister for Transport the number of public electric vehicle charging points currently in operation in each county; the number planned for delivery over the next three years; and his views on regional disparities in charging infrastructure. [44351/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/37/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 57,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "57. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the flood relief projects currently planned, under development or under construction in County Kildare; the stage each project has reached; the estimated completion dates; and if he will make a statement on the matter. [44239/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/57/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 58,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "58. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of properties in County Kildare identified as being at significant risk of flooding under the Catchment Flood Risk Assessment and Management (CFRAM) Programme; and the measures proposed to reduce flood risk in those communities. [44240/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/58/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 59,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "59. Deputy Shónagh Ní Raghallaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the funding allocated for flood prevention, drainage maintenance and flood mitigation works in County Kildare in each of the past five years; the projects supported; and if he will make a statement on the matter. [44241/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/59/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 67,
+          "department": "Enterprise",
+          "heading": "Company Closures",
+          "question": "67. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment the number of businesses that have ceased trading in each county in the past 12 months; the sectors most affected; the trends in business closures; and if he will make a statement on the matter. [44222/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/67/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 68,
+          "department": "Enterprise",
+          "heading": "Artificial Intelligence",
+          "question": "68. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment whether his Department has undertaken any assessment of the potential impact of artificial intelligence and automation on employment across the State; the sectors identified as most at risk of job displacement; and if he will make a statement on the matter. [44276/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/68/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 69,
+          "department": "Enterprise",
+          "heading": "Artificial Intelligence",
+          "question": "69. Deputy Shónagh Ní Raghallaigh asked the Minister for Enterprise, Tourism and Employment whether his Department has estimated the number or proportion of jobs in the State that may be significantly altered, displaced or augmented by artificial intelligence technologies over the next ten years; the sectors expected to experience the greatest impact; and the measures being taken to prepare workers and employers for these changes. [44282/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/69/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 210,
+          "department": "Health",
+          "heading": "Dental Services ",
+          "question": "210. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of children in CHO 7 currently awaiting a first appointment under the HSE school dental screening service; the number of those who have progressed to secondary school without ever being seen; and if she will make a statement on the matter. [44207/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/210/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 215,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "215. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of children currently waiting more than 12 months for an initial assessment by a Child and Adolescent Mental Health Service (CAMHS), by CHO area; and if she will make a statement on the matter. [44219/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/215/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 217,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "217. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of consultant posts approved but unfilled for more than six months, by hospital group; and the measures being taken to address persistent recruitment challenges. [44280/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/217/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 223,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "223. Deputy Shónagh Ní Raghallaigh asked the Minister for Health the number of persons currently waiting for community-based speech and language therapy services, occupational therapy services and physiotherapy services; the average waiting time for each service; and by-county. [44345/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/223/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 275,
+          "department": "Further and Higher Education",
+          "heading": "Artificial Intelligence",
+          "question": "275. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science the measures being taken to support workers whose roles may be affected by the adoption of artificial intelligence technologies; and whether any national reskilling or workforce transition strategy is under development. [44277/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/275/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 278,
+          "department": "Further and Higher Education",
+          "heading": "Artificial Intelligence",
+          "question": "278. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science the number of courses, training programmes or apprenticeships that specifically address artificial intelligence skills currently supported by his Department; the number of participants enrolled; and if he will make a statement on the matter. [44278/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/278/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 280,
+          "department": "Further and Higher Education",
+          "heading": "Further and Higher Education",
+          "question": "280. Deputy Shónagh Ní Raghallaigh asked the Minister for Further and Higher Education, Research, Innovation and Science the number of students who have withdrawn from higher education courses during their first year of study in each of the past five academic years; the reasons identified; and the measures being taken to improve retention rates. [44353/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/280/",
           "questionType": "written"
         }
       ]

@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-Connolly.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 296,
+      "count": 301,
       "headingOptions": [
         "Addiction Treatment Services",
         "Agriculture Schemes",
@@ -27,6 +27,7 @@
         "Child Poverty",
         "Childcare Services",
         "Civil Registration Service",
+        "Community Care",
         "Consular Services",
         "Courts Service",
         "Cuanta agus Céanna",
@@ -44,6 +45,7 @@
         "Departmental Strategies",
         "Disabilities Assessments",
         "Disability Services",
+        "Disease Management",
         "Driver Licences",
         "Driver Test",
         "Early Childhood Care and Education",
@@ -59,6 +61,7 @@
         "Fishing Communities",
         "Flood Relief Schemes",
         "Flood Risk Management",
+        "Forbairt Pobal",
         "Further and Higher Education",
         "Grant Payments",
         "Greenways Provision",
@@ -69,6 +72,7 @@
         "Health Services Staff",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
+        "Home Help Service",
         "Hospital Facilities",
         "Hospital Procedures",
         "Housing Policy",
@@ -148,7 +152,7 @@
         "topHeading": "Bus Services",
         "topHeadingCount": 16,
         "topDepartment": "Health",
-        "topDepartmentCount": 55
+        "topDepartmentCount": 58
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -239,6 +243,18 @@
               {
                 "name": "Health Promotion",
                 "value": 1
+              },
+              {
+                "name": "Disease Management",
+                "value": 1
+              },
+              {
+                "name": "Home Help Service",
+                "value": 1
+              },
+              {
+                "name": "Community Care",
+                "value": 1
               }
             ]
           },
@@ -278,6 +294,10 @@
                 "value": 2
               },
               {
+                "name": "Driver Test",
+                "value": 2
+              },
+              {
                 "name": "Tax Rebates",
                 "value": 1
               },
@@ -291,10 +311,6 @@
               },
               {
                 "name": "Local Authorities",
-                "value": 1
-              },
-              {
-                "name": "Driver Test",
                 "value": 1
               },
               {
@@ -369,6 +385,55 @@
             ]
           },
           {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Schemes",
+                "value": 6
+              },
+              {
+                "name": "Departmental Programmes",
+                "value": 3
+              },
+              {
+                "name": "Departmental Projects",
+                "value": 2
+              },
+              {
+                "name": "Harbours and Piers",
+                "value": 2
+              },
+              {
+                "name": "Seirbhísí Oileán",
+                "value": 1
+              },
+              {
+                "name": "Scéimeanna Tacaíochta",
+                "value": 1
+              },
+              {
+                "name": "Údarás na Gaeltachta",
+                "value": 1
+              },
+              {
+                "name": "Cuanta agus Céanna",
+                "value": 1
+              },
+              {
+                "name": "Scéimeanna Fostaíochta",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Forbairt Pobal",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -417,51 +482,6 @@
               },
               {
                 "name": "Postal Voting",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Departmental Schemes",
-                "value": 6
-              },
-              {
-                "name": "Departmental Programmes",
-                "value": 3
-              },
-              {
-                "name": "Departmental Projects",
-                "value": 2
-              },
-              {
-                "name": "Harbours and Piers",
-                "value": 2
-              },
-              {
-                "name": "Seirbhísí Oileán",
-                "value": 1
-              },
-              {
-                "name": "Scéimeanna Tacaíochta",
-                "value": 1
-              },
-              {
-                "name": "Údarás na Gaeltachta",
-                "value": 1
-              },
-              {
-                "name": "Cuanta agus Céanna",
-                "value": 1
-              },
-              {
-                "name": "Scéimeanna Fostaíochta",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
                 "value": 1
               }
             ]
@@ -1426,6 +1446,54 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Disease Management",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "213. Deputy John Connolly asked the Minister for Health the services that are available for people diagnosed with dementia or Alzheimer’s disease in the Clifden area; the details of how these services can be accessed; and if she will make a statement on the matter. [44212/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/213/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Home Help Service",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "214. Deputy John Connolly asked the Minister for Health the reason Alzheimer’s disease is not considered a disability by the HSE for the purposes of accessing home help services for people under 66 years of age; whether consideration is being given to including Alzheimer’s disease as a recognised disability for these services; and if she will make a statement on the matter. [44213/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/214/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Care",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "225. Deputy John Connolly asked the Minister for Health the plans in place to increase the number of community nursing beds in County Galway; and if she will make a statement on the matter. [44363/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/225/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1862,6 +1930,33 @@
                 ]
               },
               {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "200. Deputy John Connolly asked the Minister for Transport whether he can provide the waiting list timeline in respect of each test centre in County Galway, in tabular form; and if he will make a statement on the matter. [18337/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/200/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "40. Deputy John Connolly asked the Minister for Transport if he is aware of third-party software or commercial services which, for a fee, automatically monitor and book driving test cancellations through the Road Safety Authority (RSA) online booking system; whether his Department or the RSA has examined the operation of such services; if such services are considered compliant with the RSA’s terms and conditions of use; whether he has concerns regarding the potential unfair advantage these services may confer on those who are able to pay for them; and the measures being considered to ensure equitable access to driving test appointments (details supplied). [44408/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/40/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Tax Rebates",
                 "children": [
                   {
@@ -1920,22 +2015,6 @@
                         "name": "300. Deputy John Connolly asked the Minister for Transport the total funding allocated to each local authority under the 2025 bus stop enhancement programme; the total amount of that allocation that was drawn down or spent by each local authority, in tabular form; and if he will make a statement on the matter. [16533/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/300/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Driver Test",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "200. Deputy John Connolly asked the Minister for Transport whether he can provide the waiting list timeline in respect of each test centre in County Galway, in tabular form; and if he will make a statement on the matter. [18337/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/200/"
                       }
                     ]
                   }
@@ -2339,6 +2418,238 @@
             ]
           },
           {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "665. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when an opportunity might next exist for organisations to apply for funding under the outdoor recreational investment scheme; the categories of schemes which might apply; and if he will make a statement on the matter. [16063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/665/"
+                      },
+                      {
+                        "name": "666. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when an opportunity might next exist for organisations to apply for funding under the CLÁR scheme; the categories of schemes which might apply; and if he will make a statement on the matter. [16064/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/666/"
+                      },
+                      {
+                        "name": "667. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when an opportunity might next exist for organisations to apply for funding under the town and village renewal scheme; the categories of schemes which might apply; and if he will make a statement on the matter. [16065/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/667/"
+                      },
+                      {
+                        "name": "668. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the list of projects in County Galway funded under the town and village renewal scheme in 2024 and 2025; and if he will make a statement on the matter. [16066/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/668/"
+                      },
+                      {
+                        "name": "669. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the list of projects in County Galway funded under the CLÁR scheme in 2024 and 2025; and if he will make a statement on the matter. [16067/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/669/"
+                      },
+                      {
+                        "name": "670. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the list of projects in County Galway funded under the outdoor recreation investment scheme in 2024 and 2025; and if he will make a statement on the matter. [16068/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/670/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2315. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding the Islands Minor Capital Works Programme in Galway West constituency; the progress made under the programme; the forthcoming phases and expected timelines for delivery; and the estimated cost range associated with the programme; and if he will make a statement on the matter. [20675/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2315/"
+                      },
+                      {
+                        "name": "2316. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding Údarás na Gaeltachta capital works and business supports programme in Galway West constituency; the progress made under the programme; the forthcoming programme stages and expected timelines for delivery; and the estimated cost range associated with the programme; and if he will make a statement on the matter. [20676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2316/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "1176. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when applications will open for the community centre enhancement programme; and if he will make a statement on the matter. [5758/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1176/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2313. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding the Inis Oírr Pier Redevelopment project; the progress made to date; the forthcoming stages of the project lifecycle and the expected timelines for their completion; and the estimated cost range for the project; and if he will make a statement on the matter. [20673/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2313/"
+                      },
+                      {
+                        "name": "2314. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding the Ionad Oideachais agus Óige Indreabhán; the progress made to date; the forthcoming stages of the project lifecycle and the expected timelines for completion; and the estimated cost range for the project; and if he will make a statement on the matter. [20674/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2314/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Harbours and Piers",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3502. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht for an update on his Department’s involvement in the assessment, planning or development of pier infrastructure on Inis Meáin, including any interdepartmental engagement to date; and if he will make a statement on the matter. [25395/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3502/"
+                      },
+                      {
+                        "name": "3504. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht for an update on the assessment and development of accessibility measures at the Cill Rónáin Pier on Inis Mór; if his Department has engaged with Galway County Council on this matter, in light of recent discussions referenced in Departmental correspondence; the current status of the Council’s engagement with stakeholders; and if he will make a statement on the matter. [25518/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3504/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Seirbhísí Oileán",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "1172. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén uair a bheidh freagra á eisiúint ar cheist a d’ardaigh mé leis an Roinn tamall ó shin maidir leis an tseirbhís bus ó Chéibh Ros an Mhíl chuig Cathair na Gaillimhe atá mar chuid den chonradh farantóireachta do na hOileáin Árann: is é sin, an bhfuil sé ar an eolas nach bhfuil an tseirbhís bus sin ag stopadh níos mó ag barr bhóthar an aerfoirt in Indreabhán agus faoin drochthionchar atá ag an gcinneadh sin ar phobal na nOileán Árann;; agus an ndéanfaidh sé ráiteas ina thaobh. [5489/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1172/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Scéimeanna Tacaíochta",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1217. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an bhfuil sé i gceist aige Scéim na mBóithre Áise a athbhunú le go bhféadfaí caoi a chur ar bhóithre nach bóithre Comhairle Contae iad; má tá sé i gceist an Scéim sin a athbhunú, cén uair a bheidh an scéim oscailte le haghaidh iarratas; agus an ndéanfaidh sé ráiteas ina thaobh. [7458/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1217/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Údarás na Gaeltachta",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "8. D'fhiafraigh Deputy John Connolly den Minister for Rural and Community Development and the Gaeltacht nuashonrú a thabhairt maidir leis na hiarrachtaí atá Údarás na Gaeltachta ag déanamh chun tacú le forbairt tithíochta cónaithe sna réigiúin Ghaeltachta; agus an ndéanfaidh sé ráiteas ina thaobh. [7697/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/8/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cuanta agus Céanna",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "395. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén dul chun cinn atá déanta ar fhorbairt bonneagair fheabhsaithe na cé ar Inis Meáin; agus an ndéanfaidh sé ráiteas ina thaobh. [10928/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/395/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Scéimeanna Fostaíochta",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "1148. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén uair a bheidh an Clár Seirbhísí Pobail (Community Services Programme) oscailte arís le haghaidh iarratas, cén uair a bheidh foirmeacha iarratais agus sonraí an Chláir nua ar fáil; agus an ndéanfaidh sé ráiteas ina thaobh. [14992/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/1148/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2505. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht to outline all the community-based organisations based on our off-shore islands that benefit from the Community Services Programme; and if he will make a statement on the matter. [41601/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2505/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Forbairt Pobal",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "283. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén dul chun cinn atá déanta maidir le tuarascáil RPS, an bhfuil an tuarascáil ag an Roinn agus muna bhfuil, an bhféadfaidh an tAire soiléiriú a thabhairt maidir le cén uair atá sé beartaithe an tuarascáil a fhoilsiú [44387/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/283/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -2587,222 +2898,6 @@
                         "name": "267. Deputy John Connolly asked the Minister for Housing, Local Government and Heritage if he will review the current eligibility criteria for postal voting in elections, particularly in cases where registered electors are unable to vote in person due to pre-arranged personal travel; whether consideration is being given to expanding access to postal or alternative voting methods to ensure greater participation in elections (details supplied); and if he will make a statement on the matter. [38517/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/267/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "665. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when an opportunity might next exist for organisations to apply for funding under the outdoor recreational investment scheme; the categories of schemes which might apply; and if he will make a statement on the matter. [16063/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/665/"
-                      },
-                      {
-                        "name": "666. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when an opportunity might next exist for organisations to apply for funding under the CLÁR scheme; the categories of schemes which might apply; and if he will make a statement on the matter. [16064/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/666/"
-                      },
-                      {
-                        "name": "667. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when an opportunity might next exist for organisations to apply for funding under the town and village renewal scheme; the categories of schemes which might apply; and if he will make a statement on the matter. [16065/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/667/"
-                      },
-                      {
-                        "name": "668. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the list of projects in County Galway funded under the town and village renewal scheme in 2024 and 2025; and if he will make a statement on the matter. [16066/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/668/"
-                      },
-                      {
-                        "name": "669. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the list of projects in County Galway funded under the CLÁR scheme in 2024 and 2025; and if he will make a statement on the matter. [16067/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/669/"
-                      },
-                      {
-                        "name": "670. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the list of projects in County Galway funded under the outdoor recreation investment scheme in 2024 and 2025; and if he will make a statement on the matter. [16068/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/670/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Programmes",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2315. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding the Islands Minor Capital Works Programme in Galway West constituency; the progress made under the programme; the forthcoming phases and expected timelines for delivery; and the estimated cost range associated with the programme; and if he will make a statement on the matter. [20675/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2315/"
-                      },
-                      {
-                        "name": "2316. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding Údarás na Gaeltachta capital works and business supports programme in Galway West constituency; the progress made under the programme; the forthcoming programme stages and expected timelines for delivery; and the estimated cost range associated with the programme; and if he will make a statement on the matter. [20676/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2316/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "1176. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht when applications will open for the community centre enhancement programme; and if he will make a statement on the matter. [5758/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1176/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Projects",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2313. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding the Inis Oírr Pier Redevelopment project; the progress made to date; the forthcoming stages of the project lifecycle and the expected timelines for their completion; and the estimated cost range for the project; and if he will make a statement on the matter. [20673/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2313/"
-                      },
-                      {
-                        "name": "2314. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht the position regarding the Ionad Oideachais agus Óige Indreabhán; the progress made to date; the forthcoming stages of the project lifecycle and the expected timelines for completion; and the estimated cost range for the project; and if he will make a statement on the matter. [20674/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2314/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Harbours and Piers",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "3502. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht for an update on his Department’s involvement in the assessment, planning or development of pier infrastructure on Inis Meáin, including any interdepartmental engagement to date; and if he will make a statement on the matter. [25395/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3502/"
-                      },
-                      {
-                        "name": "3504. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht for an update on the assessment and development of accessibility measures at the Cill Rónáin Pier on Inis Mór; if his Department has engaged with Galway County Council on this matter, in light of recent discussions referenced in Departmental correspondence; the current status of the Council’s engagement with stakeholders; and if he will make a statement on the matter. [25518/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3504/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Seirbhísí Oileán",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "1172. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén uair a bheidh freagra á eisiúint ar cheist a d’ardaigh mé leis an Roinn tamall ó shin maidir leis an tseirbhís bus ó Chéibh Ros an Mhíl chuig Cathair na Gaillimhe atá mar chuid den chonradh farantóireachta do na hOileáin Árann: is é sin, an bhfuil sé ar an eolas nach bhfuil an tseirbhís bus sin ag stopadh níos mó ag barr bhóthar an aerfoirt in Indreabhán agus faoin drochthionchar atá ag an gcinneadh sin ar phobal na nOileán Árann;; agus an ndéanfaidh sé ráiteas ina thaobh. [5489/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1172/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Scéimeanna Tacaíochta",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1217. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an bhfuil sé i gceist aige Scéim na mBóithre Áise a athbhunú le go bhféadfaí caoi a chur ar bhóithre nach bóithre Comhairle Contae iad; má tá sé i gceist an Scéim sin a athbhunú, cén uair a bheidh an scéim oscailte le haghaidh iarratas; agus an ndéanfaidh sé ráiteas ina thaobh. [7458/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1217/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Údarás na Gaeltachta",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "8. D'fhiafraigh Deputy John Connolly den Minister for Rural and Community Development and the Gaeltacht nuashonrú a thabhairt maidir leis na hiarrachtaí atá Údarás na Gaeltachta ag déanamh chun tacú le forbairt tithíochta cónaithe sna réigiúin Ghaeltachta; agus an ndéanfaidh sé ráiteas ina thaobh. [7697/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/8/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Cuanta agus Céanna",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "395. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén dul chun cinn atá déanta ar fhorbairt bonneagair fheabhsaithe na cé ar Inis Meáin; agus an ndéanfaidh sé ráiteas ina thaobh. [10928/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/395/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Scéimeanna Fostaíochta",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "1148. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén uair a bheidh an Clár Seirbhísí Pobail (Community Services Programme) oscailte arís le haghaidh iarratas, cén uair a bheidh foirmeacha iarratais agus sonraí an Chláir nua ar fáil; agus an ndéanfaidh sé ráiteas ina thaobh. [14992/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/1148/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2505. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht to outline all the community-based organisations based on our off-shore islands that benefit from the Community Services Programme; and if he will make a statement on the matter. [41601/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2505/"
                       }
                     ]
                   }
@@ -7168,6 +7263,51 @@
           "heading": "Departmental Data",
           "question": "2505. Deputy John Connolly asked the Minister for Rural and Community Development and the Gaeltacht to outline all the community-based organisations based on our off-shore islands that benefit from the Community Services Programme; and if he will make a statement on the matter. [41601/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2505/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 40,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "40. Deputy John Connolly asked the Minister for Transport if he is aware of third-party software or commercial services which, for a fee, automatically monitor and book driving test cancellations through the Road Safety Authority (RSA) online booking system; whether his Department or the RSA has examined the operation of such services; if such services are considered compliant with the RSA’s terms and conditions of use; whether he has concerns regarding the potential unfair advantage these services may confer on those who are able to pay for them; and the measures being considered to ensure equitable access to driving test appointments (details supplied). [44408/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/40/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 213,
+          "department": "Health",
+          "heading": "Disease Management",
+          "question": "213. Deputy John Connolly asked the Minister for Health the services that are available for people diagnosed with dementia or Alzheimer’s disease in the Clifden area; the details of how these services can be accessed; and if she will make a statement on the matter. [44212/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 214,
+          "department": "Health",
+          "heading": "Home Help Service",
+          "question": "214. Deputy John Connolly asked the Minister for Health the reason Alzheimer’s disease is not considered a disability by the HSE for the purposes of accessing home help services for people under 66 years of age; whether consideration is being given to including Alzheimer’s disease as a recognised disability for these services; and if she will make a statement on the matter. [44213/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/214/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 225,
+          "department": "Health",
+          "heading": "Community Care",
+          "question": "225. Deputy John Connolly asked the Minister for Health the plans in place to increase the number of community nursing beds in County Galway; and if she will make a statement on the matter. [44363/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/225/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-10",
+          "questionNumber": 283,
+          "department": "Rural",
+          "heading": "Forbairt Pobal",
+          "question": "283. D'fhiafraigh Deputy John Connolly den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén dul chun cinn atá déanta maidir le tuarascáil RPS, an bhfuil an tuarascáil ag an Roinn agus muna bhfuil, an bhféadfaidh an tAire soiléiriú a thabhairt maidir le cén uair atá sé beartaithe an tuarascáil a fhoilsiú [44387/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/283/",
           "questionType": "written"
         }
       ]
