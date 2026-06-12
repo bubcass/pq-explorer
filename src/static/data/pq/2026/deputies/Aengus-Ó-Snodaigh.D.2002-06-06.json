@@ -1,5 +1,5 @@
 {
-  "year": 2026,
+  "year": "2026",
   "memberCode": "Aengus-Ó-Snodaigh.D.2002-06-06",
   "memberName": "Aengus Ó Snodaigh",
   "deputy": "Aengus Ó Snodaigh",
@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06/image/large",
   "types": {
     "all": {
-      "count": 216,
+      "count": 231,
       "headingOptions": [
         "Acht na dTeangacha Oifigiúla",
         "Air Corps",
@@ -86,7 +86,9 @@
         "Passport Services",
         "Plean Forbartha Náisiúnta",
         "Psychological Assessments",
+        "Public Transport",
         "Raidió Teilifís Éireann",
+        "Rail Network",
         "Regeneration Projects",
         "Scéimeanna Teanga",
         "School Accommodation",
@@ -112,7 +114,8 @@
         "Údarás na Gaeltachta",
         "United Nations",
         "Visa Applications",
-        "Wildlife Conservation"
+        "Wildlife Conservation",
+        "Wildlife Protection"
       ],
       "insights": {
         "topHeading": "Air Corps",
@@ -204,6 +207,10 @@
                 "value": 4
               },
               {
+                "name": "Health Services Staff",
+                "value": 3
+              },
+              {
                 "name": "Health Service Executive",
                 "value": 3
               },
@@ -212,15 +219,15 @@
                 "value": 3
               },
               {
+                "name": "Medicinal Products",
+                "value": 3
+              },
+              {
                 "name": "Health Services",
                 "value": 3
               },
               {
                 "name": "Healthcare Infrastructure Provision",
-                "value": 2
-              },
-              {
-                "name": "Health Services Staff",
                 "value": 2
               },
               {
@@ -252,10 +259,6 @@
                 "value": 1
               },
               {
-                "name": "Medicinal Products",
-                "value": 1
-              },
-              {
                 "name": "Healthcare Policy",
                 "value": 1
               },
@@ -274,72 +277,6 @@
             ]
           },
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Air Corps",
-                "value": 12
-              },
-              {
-                "name": "Defence Forces",
-                "value": 5
-              },
-              {
-                "name": "United Nations",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Legislative Measures",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Údarás na Gaeltachta",
-                "value": 7
-              },
-              {
-                "name": "Acht na dTeangacha Oifigiúla",
-                "value": 3
-              },
-              {
-                "name": "An Teanga Gaeilge",
-                "value": 2
-              },
-              {
-                "name": "Seirbhísí trí Ghaeilge",
-                "value": 2
-              },
-              {
-                "name": "Scéimeanna Teanga",
-                "value": 1
-              },
-              {
-                "name": "Soláthar Tithíochta",
-                "value": 1
-              },
-              {
-                "name": "Cúrsaí Tithíochta",
-                "value": 1
-              },
-              {
-                "name": "Oideachas trí Ghaeilge",
-                "value": 1
-              },
-              {
-                "name": "Gaeltacht Policy",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Culture",
             "children": [
               {
@@ -347,11 +284,11 @@
                 "value": 3
               },
               {
-                "name": "Ceisteanna Craolacháin",
-                "value": 2
+                "name": "Arts Funding",
+                "value": 3
               },
               {
-                "name": "Arts Funding",
+                "name": "Ceisteanna Craolacháin",
                 "value": 2
               },
               {
@@ -397,6 +334,76 @@
               {
                 "name": "EU Presidency",
                 "value": 1
+              },
+              {
+                "name": "An Ghaeltacht",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Údarás na Gaeltachta",
+                "value": 7
+              },
+              {
+                "name": "Acht na dTeangacha Oifigiúla",
+                "value": 3
+              },
+              {
+                "name": "Seirbhísí trí Ghaeilge",
+                "value": 3
+              },
+              {
+                "name": "An Teanga Gaeilge",
+                "value": 2
+              },
+              {
+                "name": "Scéimeanna Teanga",
+                "value": 1
+              },
+              {
+                "name": "Soláthar Tithíochta",
+                "value": 1
+              },
+              {
+                "name": "Cúrsaí Tithíochta",
+                "value": 1
+              },
+              {
+                "name": "Oideachas trí Ghaeilge",
+                "value": 1
+              },
+              {
+                "name": "Gaeltacht Policy",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Air Corps",
+                "value": 12
+              },
+              {
+                "name": "Defence Forces",
+                "value": 5
+              },
+              {
+                "name": "United Nations",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
+                "value": 1
               }
             ]
           },
@@ -437,6 +444,39 @@
               },
               {
                 "name": "Regeneration Projects",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Public Transport",
+                "value": 4
+              },
+              {
+                "name": "Electric Vehicles",
+                "value": 3
+              },
+              {
+                "name": "Bus Services",
+                "value": 2
+              },
+              {
+                "name": "Rail Network",
+                "value": 2
+              },
+              {
+                "name": "Córas Iompair Éireann",
+                "value": 1
+              },
+              {
+                "name": "Seirbhísí Iompair",
+                "value": 1
+              },
+              {
+                "name": "Traffic Management",
                 "value": 1
               }
             ]
@@ -540,6 +580,10 @@
             "name": "Foreign",
             "children": [
               {
+                "name": "Passport Services",
+                "value": 2
+              },
+              {
                 "name": "Middle East",
                 "value": 2
               },
@@ -548,40 +592,11 @@
                 "value": 2
               },
               {
-                "name": "Passport Services",
-                "value": 1
-              },
-              {
                 "name": "Imeachtaí Comóraidh",
                 "value": 1
               },
               {
                 "name": "International Bodies",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Electric Vehicles",
-                "value": 3
-              },
-              {
-                "name": "Bus Services",
-                "value": 1
-              },
-              {
-                "name": "Córas Iompair Éireann",
-                "value": 1
-              },
-              {
-                "name": "Seirbhísí Iompair",
-                "value": 1
-              },
-              {
-                "name": "Traffic Management",
                 "value": 1
               }
             ]
@@ -641,6 +656,10 @@
               },
               {
                 "name": "Wildlife Conservation",
+                "value": 1
+              },
+              {
+                "name": "Wildlife Protection",
                 "value": 1
               }
             ]
@@ -1243,6 +1262,38 @@
                 ]
               },
               {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 28 January",
+                    "date_iso": "2026-01-28",
+                    "children": [
+                      {
+                        "name": "191. Deputy Aengus Ó Snodaigh asked the Minister for Health if, as a result of understaffing in public health nurse services in Dublin, follow-up checks on infants at three months and at nine to 11 months are not being conducted, and follow-up checks promised within 48-hours of hospitalisation of infants are also not taking place within that timeframe; and if she will make a statement on the matter. [6728/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/191/"
+                      },
+                      {
+                        "name": "192. Deputy Aengus Ó Snodaigh asked the Minister for Health the appropriate staffing numbers and actual staffing numbers for public health nurse services in Dublin; and the measures she intends to take to address understaffing in these services. [6729/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/192/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2164. Deputy Aengus Ó Snodaigh asked the Minister for Health given the significant waiting lists for autism assessments, disability services and psychological supports, what the current policy position is regarding the role of chartered behavioural psychologists within HSE services; if her Department and the HSE have considered how appropriately qualified chartered behavioural psychologists could contribute more fully to reducing those waiting times and increasing service capacity; and if she will make a statement on the matter. [43055/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2164/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Service Executive",
                 "children": [
                   {
@@ -1307,6 +1358,38 @@
                 ]
               },
               {
+                "name": "Medicinal Products",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2390. Deputy Aengus Ó Snodaigh asked the Minister for Health if she will intervene to ensure that the HSE prioritises a conclusion to the skyclarys reimbursement negotiations, given that it is the only available treatment for this progressive disease, which currently can be classed as having an ‘unmet need’ as outlined in the National Rare Disease Strategy 2025-2030. [43946/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2390/"
+                      },
+                      {
+                        "name": "2391. Deputy Aengus Ó Snodaigh asked the Minister for Health her views on whether the current delay aligns with the \"equitable access\" promised in the newly launched National Rare Disease Strategy 2025-2030, given that persons in the Friedreich’s ataxia community in Ireland are being left behind waiting for a decision regarding the skyclarys reimbursement, while patients across Europe gain access to skyclarys (details supplied). [43947/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2391/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2221. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason access to Friedreich's Ataxia is not available on the medical card or licenced for the drug reimbursement scheme for patients in the State; and if she will make a statement on the matter. [20816/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2221/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Services",
                 "children": [
                   {
@@ -1354,27 +1437,6 @@
                         "name": "136. Deputy Aengus Ó Snodaigh asked the Minister for Health the plans for the soon to be vacated children's hospitals at Temple Street and in Drimnagh; and if she will make a statement on the matter. [4445/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/136/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services Staff",
-                "children": [
-                  {
-                    "name": "Wednesday, 28 January",
-                    "date_iso": "2026-01-28",
-                    "children": [
-                      {
-                        "name": "191. Deputy Aengus Ó Snodaigh asked the Minister for Health if, as a result of understaffing in public health nurse services in Dublin, follow-up checks on infants at three months and at nine to 11 months are not being conducted, and follow-up checks promised within 48-hours of hospitalisation of infants are also not taking place within that timeframe; and if she will make a statement on the matter. [6728/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/191/"
-                      },
-                      {
-                        "name": "192. Deputy Aengus Ó Snodaigh asked the Minister for Health the appropriate staffing numbers and actual staffing numbers for public health nurse services in Dublin; and the measures she intends to take to address understaffing in these services. [6729/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/192/"
                       }
                     ]
                   }
@@ -1509,22 +1571,6 @@
                 ]
               },
               {
-                "name": "Medicinal Products",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2221. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason access to Friedreich's Ataxia is not available on the medical card or licenced for the drug reimbursement scheme for patients in the State; and if she will make a statement on the matter. [20816/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2221/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Healthcare Policy",
                 "children": [
                   {
@@ -1583,6 +1629,540 @@
                         "name": "237. Deputy Aengus Ó Snodaigh asked the Minister for Health for an update in relation to an assessment of needs request (details supplied). [40540/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/237/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Imeachtaí Comóraidh",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "565. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt in ainneoin go bhfuil cinneadh déanta aige gan comóradh Stáit a eagrú i gcuimhne ar éalú an tseisir Fíníní ó Charcair Fremantle in Iarthar na hAstráile 150 bliain ó shin ar bord an long Catalpa, an bhfuil sé i gceist ag an Stát an t-éacht cróga seo a chomóradh le hócáid ar bith i bhforas cultúrtha náisiúnta ar dháta an éalaithe i mí Aibreáin nó ar an dáta a tháinig siad i dtír i Nua Eabhrac i mí Lúnasa 1876; agus an ndéanfaidh sé ráiteas ina thaobh. [17151/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/565/"
+                      },
+                      {
+                        "name": "566. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt an bhfuil sé ar an eolas i dtaobh cad a tharla don bhratach, nó cá bhfuil an bhratach, a bhí ar foluain ar an long Catalpa le linn na heachtra agus í agus an criú ag saoradh seisear Fíníní Míleata óna bpríosúnacht i gCarcair Fremantle in Iarthar na hAstráile agus á dtógáil slán go Nua Eabhrac, SAM, in 1876, agus ar bratach í a bhronn duine d’Óglaigh 1916, Joe Clarke, ar Ard-Mhúsaem na hÉireann thar ceann Chlann na nGael Philidelphia, SAM, i mí Dheireadh Fómhair 1972 le bheith ar taispeáint mar chuid den bhailiúchán náisiúnta [17152/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/566/"
+                      },
+                      {
+                        "name": "567. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt an eol dó an bhfuil an Leabharlann Náisiúnta chun na doiciméid atá ina seilbh agus a bhaineann leis eachtra dhána ina ndearna na Fíníní an long Catalpa a chur go hIarthar na hAstráile chun seisear ' Fíníní Míleata' a shaoradh óna bpríosúnacht i gCarcair Fremantle agus iad a thionlacan slán go Nua Eabhrac, SAM, 150 bliain ó shin in 1876 a chur ar taispeáint sa Leabharlann nó taispeántas taistil a dhéanamh [17154/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/567/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "142. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he has spoken, or plans to speak, with the Arts Council to ascertain whether or not recipients of core funding for strategic funding are required, as a condition of such funding, to demonstrate compliance with employment law and correct worker classification; whether or not his Department or the Arts Council conduct audits or oversight to ensure that individuals engaged by funding recipients are not incorrectly classified as self-employed where the applicable legal test would indicate employee status; and whether he has considered introducing specific conditions to prevent publicly-funded cultural bodies from engaging in or facilitating bogus self-employment. [31125/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/142/"
+                      },
+                      {
+                        "name": "143. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he has spoken, or plans to speak, with the Arts Council to ascertain whether or not recipients of core funding for strategic funding are required, as a condition of such funding, to demonstrate compliance with the guidance issued by the Revenue Commissioners regarding the correct classification of employees and self-employed persons, including the recent disclosure opportunity relating to worker misclassification; and if not, whether he plans to introduce such compliance as a condition of public arts funding. [31126/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/143/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "114. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport the number of applications that were received for the basic income for the arts; and when recipients will be informed and begin to receive payment if they are successful. [43460/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/114/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ceisteanna Craolacháin",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "185. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt cén dearcadh atá aige faoi mholadh an Choimisiúin um Thodhchaí na Meán go mbeadh neamhspleáchas eagarthóireachta ag TG4 maidir lena sheirbhís nuachta féin; agus an ndéanfaidh sé ráiteas ina thaobh. [4123/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/185/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "167. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt cén dul chun cinn agus cén maoiniú atá curtha ar leataobh i mbliana chun stáisiún raidió Gaeilge dírithe ar déagóirí a chuir ag craoladh go náisiúnta; agus an ndéanfaidh sé ráiteas ina thaobh. [17731/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/167/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Council",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "133. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport when he will publish the report of Professor Niamh Brennan into governance and culture at the Arts Council; and the timetable for the implementation of the recommendations within that report. [4113/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/133/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "143. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he is concerned by the lack of space for arts and culture in Dublin city centre; the efforts, if any, and his plans to support a space for arts and culture in the area in light of recent developments affecting The Complex venue; and if he will make a statement on the matter. [4121/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/143/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Culture Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "188. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport when the advisory committee on the restitution of cultural heritage last met; when it is expected to publish national guidelines; the requests, if any, that have been received by the national cultural institutions for the restitution of cultural heritage to other states; and the requests, if any, which have been made by him or his Department to institutions in other states for the restitution of Irish heritage since he became Minister; and if he will make a statement on the matter. [4122/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/188/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Meetings",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "616. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport the number of liaison meetings that took place between the Arts Council and his Department since 2020 which were not clearly minuted as described by the Brennan Report; and if this practice has been replaced by detailed minuting. [4149/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/616/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cistiúchán Roinne",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "135. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport an bhfuil sé i gceist aige ciste caipitil ealaíon a bhunú ar mhúnla an chiste caipitil spóirt chun freastal ar riachtanais spáis d’ealaíontóirí agus taispeántais, agus an ndéanfaidh sé ráiteas ina thaobh [17092/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/135/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cúrsaí Oidhreachta",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "166. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt cathain agus cá háit a bhéas an comóradh Stáit in Éirinn agus go h-idirnáisiúnta ar An Gorta Mór i mbliana. [17730/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/166/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "381. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport following the EU ban on the sale of rubber crumb infill in artificial grass pitches from 2032, to confirm if all projects involving artificial grass pitches being grant-aided by the State, through a Sports Capital Grant or directly by his Department or another department, will be conditional on another safer infill product being used; and if he will make a statement on the matter. [18127/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/381/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "3. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport his plans to improve accessibility for artists to apply for the 2026 basic income for the arts, BIA, scheme. [33423/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/3/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Heritage Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "5. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he is aware of the law adopted by the French National Assembly in April 2026 with regard to the repatriation of heritage objects taken as part of colonial plunder; if he plans to establish a similar framework for cultural heritage objects in this State; when the advisory committee on the restitution and repatriation of cultural heritage last met; and the recommendations made. [33424/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/5/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Raidió Teilifís Éireann",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "12. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport an bhfuil sé ar an eolas faoi gheo-bhlocáil a chuireann isteach ar chláracha Gaeilge ó chraoltóirí seirbhíse poiblí a bheith ar fáil don lucht féachana sna Sé Chontae, ar sheirbhís bheo agus ar sheinnteoirí ar líne araon, agus an bhfuil sé i gceist aige aon ghníomh a chur i gcrích chun a chinntiú go bhfuil fáil ag an lucht féachana fud fad na hÉireann ar ábhar sa teanga náisiúnta. [33400/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/12/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Presidency",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "61. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport his plans to avail of the opportunity of Ireland’s Presidency of the European Union to draw attention to the cultural sector, particularly in the context of challenges posed by artificial intelligence; if he will organise a conference during the Presidency on this issue; and if he plans to engage with the Minister for Enterprise, Tourism and Employment. [33401/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/61/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Ghaeltacht",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "64. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport cén plean atá ag a Roinn agus ag na hInstitiúidí Náisiúnta Cultúir chun comóradh agus ceiliúradh a dhéanamh ar 100 bliain ó tugadh aitheantas oifigiúil don Ghaeltacht den chéad uair. [43393/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/64/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Údarás na Gaeltachta",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "1269. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta sonraí a thabhairt maidir leis an €5.218 milliún a thug Údarás na Gaeltachta ar ais don Státchiste sa bhliain 2023 mar thoradh ar dhíolachán scaireanna; cén chuideachta lenar bhain na scaireanna seo; agus cé chomh fada is a bhí na scaireanna ag an Údarás sular dhíol sé iad. [9201/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1269/"
+                      },
+                      {
+                        "name": "1270. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta liosta a thabhairt i bhfoirm tábla de na cuideachtaí a bhfuil scaireanna ag an Údarás iontu agus cad é luach na scaireanna sin. [9202/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1270/"
+                      },
+                      {
+                        "name": "1271. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an ndearna Údarás na Gaeltachta iarratas nó éileamh riamh go gcuirfeadh an Rialtas airgead arna thuilleamh ar dhíolacháin scaireanna a bhí déanta ag an Údarás a chur ar leataobh chun tacú leis an Údarás. [9203/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1271/"
+                      },
+                      {
+                        "name": "1272. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta ar labhair sé nó a oifigigh le hÚdarás na Gaeltachta riamh chun míniú a lorg maidir leis an rúndacht faoina mbíonn cúrsaí gnó á riaradh acu; an bhfuil sé sásta leis an rúndacht seo, go háirithe i gcás díolachán Arramara; agus an ndéanfaidh sé ráiteas ina thaobh.; agus an ndéanfaidh sé ráiteas ina thaobh. [9204/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1272/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1216. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén scrúdú a dhéanfar ar an bhféidearthacht go n-oibreodh Údarás na Gaeltachta le hUisce Éireann agus le húdaráis áitiúla chun tacú le tógáil tithíochta do phobail na Gaeilge, cén amlíne atá leis an scrúdú sin, an bhfuil tús curtha leis an scrúdú agus cathain a bheidh toradh an scrúdaithe ar fáil don phobal. [7833/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1216/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "394. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta buiséad caipitil Údarás na Gaeltachta a chur i bhfoirm tábla do gach bliain ó 2008 go dtí anois. [10699/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/394/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "337. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an dtabharfaidh sé soiléiriú maidir le cén ról lárnach a bheidh ag Údarás na Gaeltachta chun seirbhísí fuíolluisce a chur ar fáil sa Ghaeltacht, i gcomhthéacs an mhéid a dúirt Treoraí an tSeanaid ar an gclár The Week in Politics de chuid RTÉ ar an 10ú Bealtaine. [38275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/337/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Acht na dTeangacha Oifigiúla",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1228. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an bhfuil ar údaráis áitiúla ar a laghad duine amháin ar bhonn coibhéis lánaimseartha a bheith fostaithe acu chun obair ar fhorbairt na Gaeilge faoi Acht na dTeangacha Oifigiúla; agus an ndéanfaidh sé ráiteas ina thaobh. [8517/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1228/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "26. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an dáta faoina mbeidh comhlachtaí poiblí forordaithe de réir fhorálacha Acht na dTeangacha Oifigiúla (Leasú) 2021 ionas go mbeidh dualgais orthu maidir le taifead agus úsáid cheart ainmneacha daoine le síntí fada; an bhfuil dearcadh ag a Roinn maidir le Bille na dTeangacha Oifigiúla (Ceart chun an Ghaeilge a Úsáid) (Leasú), 2026, a tionscnaíodh ag tús mhí an Mhárta. [22302/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/26/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "339. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cad é an dáta faoina ndéanfar comhlachtaí poiblí a fhorordú de réir Alt 9A d’Acht na dTeangacha Oifigiúla, 2003 ionas go mbeidh dualgas orthu ainm agus seoladh duine i nGaeilge ina mbeidh síntí fada a úsáid agus a thaifeadadh i gceart, an bhfuil aon chomhlachtaí poiblí nach bhfuil sé i gceist aige iad a fhorordú faoi alt 9A, agus an dtacóidh sé leis an mBille um Ainm agus Seoladh Gaeilge an Duine (Síneadh Fada), 2026. [38277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/339/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Seirbhísí trí Ghaeilge",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "338. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cathain atá sé i gceist aige na caighdeáin maidir le seirbhísí Gaeilge na ranna rialtais, agus na gcomhlachtaí Stáit, a fhoilsiú mar a bhí le tarla déanamh laistigh de mhíonna gairide ó i ndiaidh dháta achtaithe Acht na dTeangacha Oifigiúla (Leasú), 2021. [38276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/338/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "87. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht cad é an dáta faoina ndéanfar na seirbhísí go léir a sholáthraíonn comhlachtaí poiblí sa Ghaeltacht a sholáthar trí mheán na Gaeilge. [38272/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/87/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2520. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta maidir leis an sainmhíniú reachtúil leasaithe i mBille Údarás na Gaeltachta, 2024, don sprioc earcaíochta nua in Acht na dTeangacha Oifigiúla (Leasú), 2021, an bhfuil céatadán oibrithe amach ag an Roinn Forbartha Tuaithe, Pobail agus Gaeltachta ar an méid den 20% a bheidh déanta suas d'earcaigh nua agus d'arduithe céime, agus mura bhfuil, canathaobh; cad iad na meicníochtaí lena mbainfear amach an sprioc earcaíochta (thuasluaite) agus an mbeidh bonnlíne córasach bliantúil ar an gcéatadán seo as seo go dtí 2030; agus nuair a earcófar nó nuair a thabharfar ardú céime do Státseirbhíseach mar oibrí a chomhlíonann an 20% de dhaoine leis an gcaighdeán cuí Gaelainne, an bhfanfadh an coinníoll teanga oibre leo go dtí deireadh a ngairme, is é sin, an mbeidh siad áirithe mar chuid don 20% chomh fada is go bhfuil siad ag obair sa Státchóras, agus dá réir, go mbeifear ag súil go dtabharfaidís seirbhís tré mheán na Gaelainne mar chuid dá saol oibre. [43094/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2520/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Teanga Gaeilge",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "15. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an nglacann sé leis an athbhreithniú ar phleananna teanga sa Ghaeltacht go bhfuil staid \"éigeandála sa Ghaeltacht\" agus géarghá le gníomh \"práinneach\" le dul i ngleic le meath na teanga sa phobal; an gcuirfidh an Rialtas moltaí an athbhreithnithe i bhfeidhm ina n-iomlán; an féidir leis na botúin a bhí le ceartú tar éis foilsiúcháin na tuarascála a chur in iúl agus a mhíniú. [8765/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/15/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "472. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén tacaíocht ón Ciste Oileán Roinnte atá tar éis bheith dáilithe aige ar fiontair Gaeilge aige, de réir méid agus céadatán den iomlán sa bhuiséad sa Choiste chuile bliain ó bhunaigh sé é maidir leis and Ghaeilge. [23930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/472/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Scéimeanna Teanga",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "3. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an nglacann sé le focail an Bhreithimh Humphreys san Ard-Chúirt sa bhreithiúnas maidir le cás Wild Ireland Defence CLG in aghaidh an Choimisiúin Pleanála, an Aire Tithíochta, Rialtais Áitiúil agus Oidhreachta, an Ard-Aighne, agus an Aire turasóireachta, cultúir, ealaíon, Gaeltachta, spóirt agus meán, go bhfuil sé “seafóideach” agus “áiféiseach” a rá go bhfuil feidhm dhlíthiúil fós ag na scéimeanna teanga; an aithníonn sé nach bhfuil dualgas ar na comhlachtaí poiblí na scéimeanna teanga a chur i bhfeidhm a thuilleadh; agus cathain a fhoilseofar na caighdeáin teanga atá le teacht i gcomharbas orthu. [8767/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/3/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Soláthar Tithíochta",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "40. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht cén freagra atá aige ar an litir curtha isteach chuige ag grúpa agóide thar cheann BÁNÚ ar an Luan 26ú Eanáir 2026 ag oifigí na Roinne sna Forbacha. [8766/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/40/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cúrsaí Tithíochta",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "1. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an nglacann sé leis an gcáineadh ar chur chuige na Roinne sa rún a d’aontaigh an Dáil maidir le cúrsaí tithíochta sa Ghaeltacht ag tús mhí an Mhárta, agus an bhfuil sé i gceist aige gníomhú dá réir; agus an ndéanfaidh sé ráiteas ina thaobh. [22301/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/1/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Oideachas trí Ghaeilge",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "50. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an bhfuil sé fós den tuairim nach dteastaíonn cúrsaí ollscoile breise trí Ghaeilge chun an sprioc 20% earcaíochta a bhaint amach don státseirbhís, i gcomhthéacs an méid atá ráite ag an gCoimisinéir Teanga; an bhfuil sé ar an eolas faoi thoil na n-institiúidí tríú leibhéal cúrsaí breise a sholáthar trí Ghaeilge má tá maoiniú ar fáil; an bhfuil sé i gceist aige maoiniú na Roinne i dtreo ardoideachas trí Ghaeilge a ardú nó straitéis a ullmhú i gcomhar leis an Roinn Breisoideachais, Ardoideachais, Taighde, Nuálaíochta agus Eolaíochta; agus an ndéanfaidh sé ráiteas ina thaobh. [22303/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/50/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Gaeltacht Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "151. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an bhfuil sé ar an eolas faoin bhfeachtas chun an tseanscoil ar an Trá Bháin i gCeantar na nOileán a choimeád mar áis don phobal, an bhfuil a Roinn tar éis dul i mbun teagmhála leis an bhfeachtas sin, agus an bhfuil aon phlean ag a Roinn chun a chinntiú go gcoimeádfar an spás ríthábhachtach sin don phobal Gaeltachta, agus ráiteas a thabhairt ina leith sin. [38273/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/151/"
                       }
                     ]
                   }
@@ -1761,502 +2341,6 @@
                         "name": "568. Deputy Aengus Ó Snodaigh asked the Minister for Defence the changes she intends to make to legislation (details supplied) in relation to the aid to the civil power; and the regulations made under the Defence Act 1954 that currently authorise the use of the Defence Forces as aid to the civil power. [25228/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/568/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Údarás na Gaeltachta",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "1269. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta sonraí a thabhairt maidir leis an €5.218 milliún a thug Údarás na Gaeltachta ar ais don Státchiste sa bhliain 2023 mar thoradh ar dhíolachán scaireanna; cén chuideachta lenar bhain na scaireanna seo; agus cé chomh fada is a bhí na scaireanna ag an Údarás sular dhíol sé iad. [9201/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1269/"
-                      },
-                      {
-                        "name": "1270. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta liosta a thabhairt i bhfoirm tábla de na cuideachtaí a bhfuil scaireanna ag an Údarás iontu agus cad é luach na scaireanna sin. [9202/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1270/"
-                      },
-                      {
-                        "name": "1271. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an ndearna Údarás na Gaeltachta iarratas nó éileamh riamh go gcuirfeadh an Rialtas airgead arna thuilleamh ar dhíolacháin scaireanna a bhí déanta ag an Údarás a chur ar leataobh chun tacú leis an Údarás. [9203/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1271/"
-                      },
-                      {
-                        "name": "1272. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta ar labhair sé nó a oifigigh le hÚdarás na Gaeltachta riamh chun míniú a lorg maidir leis an rúndacht faoina mbíonn cúrsaí gnó á riaradh acu; an bhfuil sé sásta leis an rúndacht seo, go háirithe i gcás díolachán Arramara; agus an ndéanfaidh sé ráiteas ina thaobh.; agus an ndéanfaidh sé ráiteas ina thaobh. [9204/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1272/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1216. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén scrúdú a dhéanfar ar an bhféidearthacht go n-oibreodh Údarás na Gaeltachta le hUisce Éireann agus le húdaráis áitiúla chun tacú le tógáil tithíochta do phobail na Gaeilge, cén amlíne atá leis an scrúdú sin, an bhfuil tús curtha leis an scrúdú agus cathain a bheidh toradh an scrúdaithe ar fáil don phobal. [7833/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1216/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "394. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta buiséad caipitil Údarás na Gaeltachta a chur i bhfoirm tábla do gach bliain ó 2008 go dtí anois. [10699/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/394/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "337. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an dtabharfaidh sé soiléiriú maidir le cén ról lárnach a bheidh ag Údarás na Gaeltachta chun seirbhísí fuíolluisce a chur ar fáil sa Ghaeltacht, i gcomhthéacs an mhéid a dúirt Treoraí an tSeanaid ar an gclár The Week in Politics de chuid RTÉ ar an 10ú Bealtaine. [38275/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/337/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Acht na dTeangacha Oifigiúla",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1228. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta an bhfuil ar údaráis áitiúla ar a laghad duine amháin ar bhonn coibhéis lánaimseartha a bheith fostaithe acu chun obair ar fhorbairt na Gaeilge faoi Acht na dTeangacha Oifigiúla; agus an ndéanfaidh sé ráiteas ina thaobh. [8517/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1228/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "26. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an dáta faoina mbeidh comhlachtaí poiblí forordaithe de réir fhorálacha Acht na dTeangacha Oifigiúla (Leasú) 2021 ionas go mbeidh dualgais orthu maidir le taifead agus úsáid cheart ainmneacha daoine le síntí fada; an bhfuil dearcadh ag a Roinn maidir le Bille na dTeangacha Oifigiúla (Ceart chun an Ghaeilge a Úsáid) (Leasú), 2026, a tionscnaíodh ag tús mhí an Mhárta. [22302/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/26/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "339. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cad é an dáta faoina ndéanfar comhlachtaí poiblí a fhorordú de réir Alt 9A d’Acht na dTeangacha Oifigiúla, 2003 ionas go mbeidh dualgas orthu ainm agus seoladh duine i nGaeilge ina mbeidh síntí fada a úsáid agus a thaifeadadh i gceart, an bhfuil aon chomhlachtaí poiblí nach bhfuil sé i gceist aige iad a fhorordú faoi alt 9A, agus an dtacóidh sé leis an mBille um Ainm agus Seoladh Gaeilge an Duine (Síneadh Fada), 2026. [38277/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/339/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Teanga Gaeilge",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "15. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an nglacann sé leis an athbhreithniú ar phleananna teanga sa Ghaeltacht go bhfuil staid \"éigeandála sa Ghaeltacht\" agus géarghá le gníomh \"práinneach\" le dul i ngleic le meath na teanga sa phobal; an gcuirfidh an Rialtas moltaí an athbhreithnithe i bhfeidhm ina n-iomlán; an féidir leis na botúin a bhí le ceartú tar éis foilsiúcháin na tuarascála a chur in iúl agus a mhíniú. [8765/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/15/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "472. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cén tacaíocht ón Ciste Oileán Roinnte atá tar éis bheith dáilithe aige ar fiontair Gaeilge aige, de réir méid agus céadatán den iomlán sa bhuiséad sa Choiste chuile bliain ó bhunaigh sé é maidir leis and Ghaeilge. [23930/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/472/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Seirbhísí trí Ghaeilge",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "338. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta cathain atá sé i gceist aige na caighdeáin maidir le seirbhísí Gaeilge na ranna rialtais, agus na gcomhlachtaí Stáit, a fhoilsiú mar a bhí le tarla déanamh laistigh de mhíonna gairide ó i ndiaidh dháta achtaithe Acht na dTeangacha Oifigiúla (Leasú), 2021. [38276/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/338/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 21 May",
-                    "date_iso": "2026-05-21",
-                    "children": [
-                      {
-                        "name": "87. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht cad é an dáta faoina ndéanfar na seirbhísí go léir a sholáthraíonn comhlachtaí poiblí sa Ghaeltacht a sholáthar trí mheán na Gaeilge. [38272/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/87/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Scéimeanna Teanga",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "3. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an nglacann sé le focail an Bhreithimh Humphreys san Ard-Chúirt sa bhreithiúnas maidir le cás Wild Ireland Defence CLG in aghaidh an Choimisiúin Pleanála, an Aire Tithíochta, Rialtais Áitiúil agus Oidhreachta, an Ard-Aighne, agus an Aire turasóireachta, cultúir, ealaíon, Gaeltachta, spóirt agus meán, go bhfuil sé “seafóideach” agus “áiféiseach” a rá go bhfuil feidhm dhlíthiúil fós ag na scéimeanna teanga; an aithníonn sé nach bhfuil dualgas ar na comhlachtaí poiblí na scéimeanna teanga a chur i bhfeidhm a thuilleadh; agus cathain a fhoilseofar na caighdeáin teanga atá le teacht i gcomharbas orthu. [8767/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/3/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Soláthar Tithíochta",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "40. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht cén freagra atá aige ar an litir curtha isteach chuige ag grúpa agóide thar cheann BÁNÚ ar an Luan 26ú Eanáir 2026 ag oifigí na Roinne sna Forbacha. [8766/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/40/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Cúrsaí Tithíochta",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "1. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an nglacann sé leis an gcáineadh ar chur chuige na Roinne sa rún a d’aontaigh an Dáil maidir le cúrsaí tithíochta sa Ghaeltacht ag tús mhí an Mhárta, agus an bhfuil sé i gceist aige gníomhú dá réir; agus an ndéanfaidh sé ráiteas ina thaobh. [22301/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/1/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Oideachas trí Ghaeilge",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "50. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an bhfuil sé fós den tuairim nach dteastaíonn cúrsaí ollscoile breise trí Ghaeilge chun an sprioc 20% earcaíochta a bhaint amach don státseirbhís, i gcomhthéacs an méid atá ráite ag an gCoimisinéir Teanga; an bhfuil sé ar an eolas faoi thoil na n-institiúidí tríú leibhéal cúrsaí breise a sholáthar trí Ghaeilge má tá maoiniú ar fáil; an bhfuil sé i gceist aige maoiniú na Roinne i dtreo ardoideachas trí Ghaeilge a ardú nó straitéis a ullmhú i gcomhar leis an Roinn Breisoideachais, Ardoideachais, Taighde, Nuálaíochta agus Eolaíochta; agus an ndéanfaidh sé ráiteas ina thaobh. [22303/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/50/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Gaeltacht Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 21 May",
-                    "date_iso": "2026-05-21",
-                    "children": [
-                      {
-                        "name": "151. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht an bhfuil sé ar an eolas faoin bhfeachtas chun an tseanscoil ar an Trá Bháin i gCeantar na nOileán a choimeád mar áis don phobal, an bhfuil a Roinn tar éis dul i mbun teagmhála leis an bhfeachtas sin, agus an bhfuil aon phlean ag a Roinn chun a chinntiú go gcoimeádfar an spás ríthábhachtach sin don phobal Gaeltachta, agus ráiteas a thabhairt ina leith sin. [38273/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/151/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Imeachtaí Comóraidh",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "565. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt in ainneoin go bhfuil cinneadh déanta aige gan comóradh Stáit a eagrú i gcuimhne ar éalú an tseisir Fíníní ó Charcair Fremantle in Iarthar na hAstráile 150 bliain ó shin ar bord an long Catalpa, an bhfuil sé i gceist ag an Stát an t-éacht cróga seo a chomóradh le hócáid ar bith i bhforas cultúrtha náisiúnta ar dháta an éalaithe i mí Aibreáin nó ar an dáta a tháinig siad i dtír i Nua Eabhrac i mí Lúnasa 1876; agus an ndéanfaidh sé ráiteas ina thaobh. [17151/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/565/"
-                      },
-                      {
-                        "name": "566. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt an bhfuil sé ar an eolas i dtaobh cad a tharla don bhratach, nó cá bhfuil an bhratach, a bhí ar foluain ar an long Catalpa le linn na heachtra agus í agus an criú ag saoradh seisear Fíníní Míleata óna bpríosúnacht i gCarcair Fremantle in Iarthar na hAstráile agus á dtógáil slán go Nua Eabhrac, SAM, in 1876, agus ar bratach í a bhronn duine d’Óglaigh 1916, Joe Clarke, ar Ard-Mhúsaem na hÉireann thar ceann Chlann na nGael Philidelphia, SAM, i mí Dheireadh Fómhair 1972 le bheith ar taispeáint mar chuid den bhailiúchán náisiúnta [17152/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/566/"
-                      },
-                      {
-                        "name": "567. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt an eol dó an bhfuil an Leabharlann Náisiúnta chun na doiciméid atá ina seilbh agus a bhaineann leis eachtra dhána ina ndearna na Fíníní an long Catalpa a chur go hIarthar na hAstráile chun seisear ' Fíníní Míleata' a shaoradh óna bpríosúnacht i gCarcair Fremantle agus iad a thionlacan slán go Nua Eabhrac, SAM, 150 bliain ó shin in 1876 a chur ar taispeáint sa Leabharlann nó taispeántas taistil a dhéanamh [17154/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/567/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ceisteanna Craolacháin",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "185. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt cén dearcadh atá aige faoi mholadh an Choimisiúin um Thodhchaí na Meán go mbeadh neamhspleáchas eagarthóireachta ag TG4 maidir lena sheirbhís nuachta féin; agus an ndéanfaidh sé ráiteas ina thaobh. [4123/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/185/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "167. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt cén dul chun cinn agus cén maoiniú atá curtha ar leataobh i mbliana chun stáisiún raidió Gaeilge dírithe ar déagóirí a chuir ag craoladh go náisiúnta; agus an ndéanfaidh sé ráiteas ina thaobh. [17731/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/167/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Wednesday, 29 April",
-                    "date_iso": "2026-04-29",
-                    "children": [
-                      {
-                        "name": "142. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he has spoken, or plans to speak, with the Arts Council to ascertain whether or not recipients of core funding for strategic funding are required, as a condition of such funding, to demonstrate compliance with employment law and correct worker classification; whether or not his Department or the Arts Council conduct audits or oversight to ensure that individuals engaged by funding recipients are not incorrectly classified as self-employed where the applicable legal test would indicate employee status; and whether he has considered introducing specific conditions to prevent publicly-funded cultural bodies from engaging in or facilitating bogus self-employment. [31125/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/142/"
-                      },
-                      {
-                        "name": "143. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he has spoken, or plans to speak, with the Arts Council to ascertain whether or not recipients of core funding for strategic funding are required, as a condition of such funding, to demonstrate compliance with the guidance issued by the Revenue Commissioners regarding the correct classification of employees and self-employed persons, including the recent disclosure opportunity relating to worker misclassification; and if not, whether he plans to introduce such compliance as a condition of public arts funding. [31126/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/143/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Council",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "133. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport when he will publish the report of Professor Niamh Brennan into governance and culture at the Arts Council; and the timetable for the implementation of the recommendations within that report. [4113/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/133/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "143. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he is concerned by the lack of space for arts and culture in Dublin city centre; the efforts, if any, and his plans to support a space for arts and culture in the area in light of recent developments affecting The Complex venue; and if he will make a statement on the matter. [4121/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/143/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Culture Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "188. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport when the advisory committee on the restitution of cultural heritage last met; when it is expected to publish national guidelines; the requests, if any, that have been received by the national cultural institutions for the restitution of cultural heritage to other states; and the requests, if any, which have been made by him or his Department to institutions in other states for the restitution of Irish heritage since he became Minister; and if he will make a statement on the matter. [4122/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/188/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Meetings",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "616. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport the number of liaison meetings that took place between the Arts Council and his Department since 2020 which were not clearly minuted as described by the Brennan Report; and if this practice has been replaced by detailed minuting. [4149/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/616/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Cistiúchán Roinne",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "135. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport an bhfuil sé i gceist aige ciste caipitil ealaíon a bhunú ar mhúnla an chiste caipitil spóirt chun freastal ar riachtanais spáis d’ealaíontóirí agus taispeántais, agus an ndéanfaidh sé ráiteas ina thaobh [17092/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/135/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Cúrsaí Oidhreachta",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "166. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Cultúir, Cumarsáide agus Spóirt cathain agus cá háit a bhéas an comóradh Stáit in Éirinn agus go h-idirnáisiúnta ar An Gorta Mór i mbliana. [17730/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/166/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "381. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport following the EU ban on the sale of rubber crumb infill in artificial grass pitches from 2032, to confirm if all projects involving artificial grass pitches being grant-aided by the State, through a Sports Capital Grant or directly by his Department or another department, will be conditional on another safer infill product being used; and if he will make a statement on the matter. [18127/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/381/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "3. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport his plans to improve accessibility for artists to apply for the 2026 basic income for the arts, BIA, scheme. [33423/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/3/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Heritage Projects",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "5. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport if he is aware of the law adopted by the French National Assembly in April 2026 with regard to the repatriation of heritage objects taken as part of colonial plunder; if he plans to establish a similar framework for cultural heritage objects in this State; when the advisory committee on the restitution and repatriation of cultural heritage last met; and the recommendations made. [33424/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/5/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Raidió Teilifís Éireann",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "12. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport an bhfuil sé ar an eolas faoi gheo-bhlocáil a chuireann isteach ar chláracha Gaeilge ó chraoltóirí seirbhíse poiblí a bheith ar fáil don lucht féachana sna Sé Chontae, ar sheirbhís bheo agus ar sheinnteoirí ar líne araon, agus an bhfuil sé i gceist aige aon ghníomh a chur i gcrích chun a chinntiú go bhfuil fáil ag an lucht féachana fud fad na hÉireann ar ábhar sa teanga náisiúnta. [33400/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/12/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EU Presidency",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "61. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport his plans to avail of the opportunity of Ireland’s Presidency of the European Union to draw attention to the cultural sector, particularly in the context of challenges posed by artificial intelligence; if he will organise a conference during the Presidency on this issue; and if he plans to engage with the Minister for Enterprise, Tourism and Employment. [33401/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/61/"
                       }
                     ]
                   }
@@ -2449,6 +2533,170 @@
                         "name": "626. Deputy Aengus Ó Snodaigh asked the Minister for Housing, Local Government and Heritage if his Department will reinstate funding to the Oliver Bond Regeneration Forum which ended in August 2025. [37606/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/626/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "431. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised by Dublin Bus services on ordinary ticket fares collected from passengers (via Leap card and cash) and through standard fare penalties for the year 2025, with each figure provided separately. [42325/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/431/"
+                      },
+                      {
+                        "name": "432. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised a company (details supplied) in Dublin and Wicklow on ordinary ticket fares collected from passengers via Leap card and cash and through standard fare penalties respectively in 2025. [42326/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/432/"
+                      },
+                      {
+                        "name": "433. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised by DART services on ordinary ticket fares collected from passengers via Leap card, bankcard and cash and through standard fare penalties respectively, in 2025. [42327/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/433/"
+                      },
+                      {
+                        "name": "434. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised by LUAS services on ordinary ticket fares collected from passengers via Leap card, bankcard and cash and through standard fare penalties, respectively, in 2025. [42328/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/434/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "604. Deputy Aengus Ó Snodaigh asked the Minister for Transport if he is aware that “Dublin City Council does not support the installation of on-street EV charging” for homes which do not have off-street parking, thus creating a barrier for owners and potential owners of EVs; and the steps he will take to address this matter with Dublin City Council and other local authorities around the State. [27089/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/604/"
+                      },
+                      {
+                        "name": "867. Deputy Aengus Ó Snodaigh asked the Minister for Transport the steps being taken to address the need to support and provide on-street EV charging for those EV owners who cannot charge at home as they do not have off-street parking; and if he will make a statement on the matter. [27103/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/867/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "140. Deputy Aengus Ó Snodaigh asked the Minister for Transport if he is aware that “Dublin City Council does not support the installation of on-street EV charging” for homes which do not have off-street parking, thus creating a barrier for owners/potential owners of EVs; and the steps he will take to address this matter all local authorities to ensure a continuing transition from fossil fuel vehicle to electric vehicles. [27096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/140/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "248. Deputy Aengus Ó Snodaigh asked the Minister for Transport the current status of a compulsory purchase order for the bus corridor scheme in Dublin 12 (details supplied); the date of commencement and timeline for the CPO process and associated construction works; the compensation arrangements for land acquisition; whether affected homes will be provided with a front driveway given the loss of off-street parking; and whether any measures are planned to address additional noise arising from buses and traffic passing closer to the home and property [15732/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/248/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "437. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total cost involved in collecting and processing ticket payments on Dublin Bus services for the year 2025. [42331/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/437/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "435. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total cost spent on maintenance of LUAS ticket machines in 2025. [42329/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/435/"
+                      },
+                      {
+                        "name": "436. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total cost spent on maintenance of DART ticket machines in 2025. [42330/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/436/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Córas Iompair Éireann",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "63. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Iompair cén uair a bhéas ceannteidil a bhille maidir le fórsa poilínteacht ar córais taisteal na tíre ullamh; cad iad na bun coincheapanna atá san smaoineamh aige; agus an mbeadh sé sásta trácht ar an an gceist. [17716/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/63/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Seirbhísí Iompair",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "69. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Iompair cad é an am chlár a bhainneann le dúnadh Bóthar an Choill Mhóir agus Bóthar Le Fanu i mBaile Átha Cliath 10 chun uasghrádú a dhéanamh ar línte traenach agus ar na droichead mar chuid den tógra Dart +, agus ar féidir leis trácht ar an ábhair [17794/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/69/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Traffic Management",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "642. Deputy Aengus Ó Snodaigh asked the Minister for Transport to address the safety and legal implications of inconsistent traffic management on the Grand Canal and Royal Canal Greenways (details supplied); if will he seek the opinion of the Attorney General or the State Claims Agency on the State's exposure to personal injury claims should a user be injured while following the 'Keep Left' advice provided by these two government bodies; and if he will issue a directive to ensure all Greenways-regardless of whether they are on-road or off-road, adhere to the standard 'Rules of the Road' to provide clarity and safety for pedestrians and cyclists alike. [24182/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/642/"
                       }
                     ]
                   }
@@ -2832,6 +3080,33 @@
             "name": "Foreign",
             "children": [
               {
+                "name": "Passport Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "229. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the status of a passport application for an Irish citizen (details supplied) residing in America; and if she will make a statement on the matter. [4007/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/229/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "244. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade for assistance in relation to a passport query (details supplied) [42950/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/244/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Middle East",
                 "children": [
                   {
@@ -2880,22 +3155,6 @@
                 ]
               },
               {
-                "name": "Passport Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "229. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the status of a passport application for an Irish citizen (details supplied) residing in America; and if she will make a statement on the matter. [4007/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/229/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Imeachtaí Comóraidh",
                 "children": [
                   {
@@ -2922,107 +3181,6 @@
                         "name": "122. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the measures she intends to take to nullify the effect within the State of foreign sanctions targeting judges of international courts or special rapporteurs of the United Nations, including by use of the Blocking Statute of the European Union; if she intends to seek use of the Blocking Statute at EU level; and if she will make a statement on the matter. [22305/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/122/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Electric Vehicles",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "604. Deputy Aengus Ó Snodaigh asked the Minister for Transport if he is aware that “Dublin City Council does not support the installation of on-street EV charging” for homes which do not have off-street parking, thus creating a barrier for owners and potential owners of EVs; and the steps he will take to address this matter with Dublin City Council and other local authorities around the State. [27089/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/604/"
-                      },
-                      {
-                        "name": "867. Deputy Aengus Ó Snodaigh asked the Minister for Transport the steps being taken to address the need to support and provide on-street EV charging for those EV owners who cannot charge at home as they do not have off-street parking; and if he will make a statement on the matter. [27103/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/867/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "140. Deputy Aengus Ó Snodaigh asked the Minister for Transport if he is aware that “Dublin City Council does not support the installation of on-street EV charging” for homes which do not have off-street parking, thus creating a barrier for owners/potential owners of EVs; and the steps he will take to address this matter all local authorities to ensure a continuing transition from fossil fuel vehicle to electric vehicles. [27096/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/140/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "248. Deputy Aengus Ó Snodaigh asked the Minister for Transport the current status of a compulsory purchase order for the bus corridor scheme in Dublin 12 (details supplied); the date of commencement and timeline for the CPO process and associated construction works; the compensation arrangements for land acquisition; whether affected homes will be provided with a front driveway given the loss of off-street parking; and whether any measures are planned to address additional noise arising from buses and traffic passing closer to the home and property [15732/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/248/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Córas Iompair Éireann",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "63. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Iompair cén uair a bhéas ceannteidil a bhille maidir le fórsa poilínteacht ar córais taisteal na tíre ullamh; cad iad na bun coincheapanna atá san smaoineamh aige; agus an mbeadh sé sásta trácht ar an an gceist. [17716/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/63/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Seirbhísí Iompair",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "69. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Iompair cad é an am chlár a bhainneann le dúnadh Bóthar an Choill Mhóir agus Bóthar Le Fanu i mBaile Átha Cliath 10 chun uasghrádú a dhéanamh ar línte traenach agus ar na droichead mar chuid den tógra Dart +, agus ar féidir leis trácht ar an ábhair [17794/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/69/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Traffic Management",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "642. Deputy Aengus Ó Snodaigh asked the Minister for Transport to address the safety and legal implications of inconsistent traffic management on the Grand Canal and Royal Canal Greenways (details supplied); if will he seek the opinion of the Attorney General or the State Claims Agency on the State's exposure to personal injury claims should a user be injured while following the 'Keep Left' advice provided by these two government bodies; and if he will issue a directive to ensure all Greenways-regardless of whether they are on-road or off-road, adhere to the standard 'Rules of the Road' to provide clarity and safety for pedestrians and cyclists alike. [24182/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/642/"
                       }
                     ]
                   }
@@ -3240,6 +3398,22 @@
                         "name": "786. Deputy Aengus Ó Snodaigh asked the Minister for Agriculture, Food and the Marine the steps he has taken to address the plight of Irelands only native honey bee apis mellifera mellifera which is endangered due to the importation of more dominant non-native species of bees, and the loss of habitat; if there is a specific source of funding which would help establish areas with more robust protection and larger colonies which would sustain the increase of the Irish black bee population; and if he will make a statement on the matter. [36910/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/786/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wildlife Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1506. Deputy Aengus Ó Snodaigh asked the Minister for Agriculture, Food and the Marine when the independent scientific assessment report (details supplied) of the health of the Irish honeybee which was commissioned by his Department and submitted to him in October 2023 will be published; and if he will make a statement on the matter. [43045/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1506/"
                       }
                     ]
                   }
@@ -5329,13 +5503,150 @@
           "question": "142. Deputy Aengus Ó Snodaigh asked the Minister for Education and Youth to list the schools with Deis status in Dublin 8, 10 and 12 which applied and were refused Deis plus status; the reason they were refused; and the additional steps that will be taken to address the underlying issues for those schools. [40808/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/142/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 244,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "244. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade for assistance in relation to a passport query (details supplied) [42950/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/244/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 431,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "431. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised by Dublin Bus services on ordinary ticket fares collected from passengers (via Leap card and cash) and through standard fare penalties for the year 2025, with each figure provided separately. [42325/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/431/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 432,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "432. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised a company (details supplied) in Dublin and Wicklow on ordinary ticket fares collected from passengers via Leap card and cash and through standard fare penalties respectively in 2025. [42326/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/432/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 433,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "433. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised by DART services on ordinary ticket fares collected from passengers via Leap card, bankcard and cash and through standard fare penalties respectively, in 2025. [42327/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/433/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 434,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "434. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total amount raised by LUAS services on ordinary ticket fares collected from passengers via Leap card, bankcard and cash and through standard fare penalties, respectively, in 2025. [42328/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/434/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 435,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "435. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total cost spent on maintenance of LUAS ticket machines in 2025. [42329/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/435/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 436,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "436. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total cost spent on maintenance of DART ticket machines in 2025. [42330/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/436/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 437,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "437. Deputy Aengus Ó Snodaigh asked the Minister for Transport the total cost involved in collecting and processing ticket payments on Dublin Bus services for the year 2025. [42331/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/437/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1506,
+          "department": "Agriculture",
+          "heading": "Wildlife Protection",
+          "question": "1506. Deputy Aengus Ó Snodaigh asked the Minister for Agriculture, Food and the Marine when the independent scientific assessment report (details supplied) of the health of the Irish honeybee which was commissioned by his Department and submitted to him in October 2023 will be published; and if he will make a statement on the matter. [43045/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1506/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 2164,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "2164. Deputy Aengus Ó Snodaigh asked the Minister for Health given the significant waiting lists for autism assessments, disability services and psychological supports, what the current policy position is regarding the role of chartered behavioural psychologists within HSE services; if her Department and the HSE have considered how appropriately qualified chartered behavioural psychologists could contribute more fully to reducing those waiting times and increasing service capacity; and if she will make a statement on the matter. [43055/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2164/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 2390,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "2390. Deputy Aengus Ó Snodaigh asked the Minister for Health if she will intervene to ensure that the HSE prioritises a conclusion to the skyclarys reimbursement negotiations, given that it is the only available treatment for this progressive disease, which currently can be classed as having an ‘unmet need’ as outlined in the National Rare Disease Strategy 2025-2030. [43946/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2390/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 2391,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "2391. Deputy Aengus Ó Snodaigh asked the Minister for Health her views on whether the current delay aligns with the \"equitable access\" promised in the newly launched National Rare Disease Strategy 2025-2030, given that persons in the Friedreich’s ataxia community in Ireland are being left behind waiting for a decision regarding the skyclarys reimbursement, while patients across Europe gain access to skyclarys (details supplied). [43947/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2391/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 2520,
+          "department": "Rural",
+          "heading": "Seirbhísí trí Ghaeilge",
+          "question": "2520. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta maidir leis an sainmhíniú reachtúil leasaithe i mBille Údarás na Gaeltachta, 2024, don sprioc earcaíochta nua in Acht na dTeangacha Oifigiúla (Leasú), 2021, an bhfuil céatadán oibrithe amach ag an Roinn Forbartha Tuaithe, Pobail agus Gaeltachta ar an méid den 20% a bheidh déanta suas d'earcaigh nua agus d'arduithe céime, agus mura bhfuil, canathaobh; cad iad na meicníochtaí lena mbainfear amach an sprioc earcaíochta (thuasluaite) agus an mbeidh bonnlíne córasach bliantúil ar an gcéatadán seo as seo go dtí 2030; agus nuair a earcófar nó nuair a thabharfar ardú céime do Státseirbhíseach mar oibrí a chomhlíonann an 20% de dhaoine leis an gcaighdeán cuí Gaelainne, an bhfanfadh an coinníoll teanga oibre leo go dtí deireadh a ngairme, is é sin, an mbeidh siad áirithe mar chuid don 20% chomh fada is go bhfuil siad ag obair sa Státchóras, agus dá réir, go mbeifear ag súil go dtabharfaidís seirbhís tré mheán na Gaelainne mar chuid dá saol oibre. [43094/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2520/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 64,
+          "department": "Culture",
+          "heading": "An Ghaeltacht",
+          "question": "64. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport cén plean atá ag a Roinn agus ag na hInstitiúidí Náisiúnta Cultúir chun comóradh agus ceiliúradh a dhéanamh ar 100 bliain ó tugadh aitheantas oifigiúil don Ghaeltacht den chéad uair. [43393/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/64/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 114,
+          "department": "Culture",
+          "heading": "Arts Funding",
+          "question": "114. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport the number of applications that were received for the basic income for the arts; and when recipients will be informed and begin to receive payment if they are successful. [43460/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/114/",
+          "questionType": "oral"
         }
       ]
     },
     "oral": {
-      "count": 12,
+      "count": 14,
       "headingOptions": [
+        "An Ghaeltacht",
         "Arts Council",
+        "Arts Funding",
         "Arts Policy",
         "Cistiúchán Roinne",
         "Cúrsaí Tithíochta",
@@ -5352,7 +5663,7 @@
         "topHeading": "Arts Council",
         "topHeadingCount": 1,
         "topDepartment": "Culture",
-        "topDepartmentCount": 6
+        "topDepartmentCount": 8
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -5382,6 +5693,14 @@
               },
               {
                 "name": "Raidió Teilifís Éireann",
+                "value": 1
+              },
+              {
+                "name": "An Ghaeltacht",
+                "value": 1
+              },
+              {
+                "name": "Arts Funding",
                 "value": 1
               }
             ]
@@ -5524,6 +5843,38 @@
                         "name": "12. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport an bhfuil sé ar an eolas faoi gheo-bhlocáil a chuireann isteach ar chláracha Gaeilge ó chraoltóirí seirbhíse poiblí a bheith ar fáil don lucht féachana sna Sé Chontae, ar sheirbhís bheo agus ar sheinnteoirí ar líne araon, agus an bhfuil sé i gceist aige aon ghníomh a chur i gcrích chun a chinntiú go bhfuil fáil ag an lucht féachana fud fad na hÉireann ar ábhar sa teanga náisiúnta. [33400/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/12/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Ghaeltacht",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "64. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport cén plean atá ag a Roinn agus ag na hInstitiúidí Náisiúnta Cultúir chun comóradh agus ceiliúradh a dhéanamh ar 100 bliain ó tugadh aitheantas oifigiúil don Ghaeltacht den chéad uair. [43393/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/64/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "114. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport the number of applications that were received for the basic income for the arts; and when recipients will be informed and begin to receive payment if they are successful. [43460/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/114/"
                       }
                     ]
                   }
@@ -5751,6 +6102,24 @@
           "heading": "Seirbhísí trí Ghaeilge",
           "question": "87. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Rural and Community Development and the Gaeltacht cad é an dáta faoina ndéanfar na seirbhísí go léir a sholáthraíonn comhlachtaí poiblí sa Ghaeltacht a sholáthar trí mheán na Gaeilge. [38272/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/87/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 64,
+          "department": "Culture",
+          "heading": "An Ghaeltacht",
+          "question": "64. D'fhiafraigh Deputy Aengus Ó Snodaigh den Minister for Culture, Communications and Sport cén plean atá ag a Roinn agus ag na hInstitiúidí Náisiúnta Cultúir chun comóradh agus ceiliúradh a dhéanamh ar 100 bliain ó tugadh aitheantas oifigiúil don Ghaeltacht den chéad uair. [43393/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/64/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 114,
+          "department": "Culture",
+          "heading": "Arts Funding",
+          "question": "114. Deputy Aengus Ó Snodaigh asked the Minister for Culture, Communications and Sport the number of applications that were received for the basic income for the arts; and when recipients will be informed and begin to receive payment if they are successful. [43460/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/114/",
           "questionType": "oral"
         }
       ]

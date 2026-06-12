@@ -1,5 +1,5 @@
 import { pathToFileURL } from "node:url";
-import { writeJson } from "./utils.js";
+import { fetchOireachtasApiPaginated, writeJson } from "./utils.js";
 
 function clean(value) {
   return String(value ?? "")
@@ -71,18 +71,10 @@ function buildLookup(rows) {
 }
 
 export async function buildMembersLookup() {
-  const url =
-    "https://api.oireachtas.ie/v1/members?date_start=2024-11-15&chamber=dail&house_no=34&skip=0&limit=5000";
+  const url = "https://api.oireachtas.ie/v1/members?date_start=2024-11-15&chamber=dail&house_no=34";
 
   console.log("Fetching members API data...");
-
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`Failed to fetch members API: ${res.status}`);
-  }
-
-  const json = await res.json();
-  const rows = json?.results ?? [];
+  const rows = await fetchOireachtasApiPaginated(url);
 
   const lookup = buildLookup(rows);
 

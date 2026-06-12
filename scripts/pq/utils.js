@@ -26,6 +26,54 @@ export async function writeJson(filePath, data) {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2));
 }
 
+export async function fetchOireachtasApiPaginated(
+  baseUrl,
+  {
+    limit = 1000,
+    maxPages = 100,
+  } = {},
+) {
+  if (!baseUrl) {
+    throw new Error("A base URL is required");
+  }
+
+  const rows = [];
+  let totalExpected = null;
+
+  for (let page = 0, skip = 0; page < maxPages; page += 1, skip += limit) {
+    const url = new URL(baseUrl);
+    url.searchParams.set("limit", String(limit));
+    url.searchParams.set("skip", String(skip));
+
+    const res = await fetch(url);
+    if (!res.ok) {
+      throw new Error(`Failed to fetch ${url}: ${res.status}`);
+    }
+
+    const json = await res.json();
+    const batch = Array.isArray(json?.results) ? json.results : [];
+    const count = Number(json?.head?.counts?.resultCount);
+
+    if (Number.isFinite(count)) {
+      totalExpected = count;
+    }
+
+    rows.push(...batch);
+
+    if (!batch.length) break;
+    if (totalExpected !== null && rows.length >= totalExpected) break;
+    if (batch.length < limit) break;
+  }
+
+  if (totalExpected !== null && rows.length < totalExpected) {
+    throw new Error(
+      `Incomplete paginated fetch for ${baseUrl}: expected ${totalExpected} rows, got ${rows.length}`,
+    );
+  }
+
+  return rows;
+}
+
 export function formatDateLabel(dateIso) {
   if (!dateIso) return null;
 
