@@ -9,13 +9,14 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Sorca-Clarke.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 495,
+      "count": 525,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
         "An Garda Síochána",
         "Animal Welfare",
         "Anti-Racism Measures",
+        "Arts Funding",
         "Broadband Infrastructure",
         "Bus Services",
         "Business Supports",
@@ -28,6 +29,7 @@
         "Community Development Projects",
         "Company Registration",
         "Consular Services",
+        "Cost of Living Issues",
         "Data Centres",
         "Defence Forces",
         "Dental Services",
@@ -50,6 +52,7 @@
         "Disabilities Assessments",
         "Disability Issues",
         "Disability Services",
+        "Domestic Violence",
         "Domestic, Sexual and Gender-based Violence",
         "Driver Licences",
         "Eating Disorders",
@@ -76,6 +79,7 @@
         "Healthcare Policy",
         "Home Care Packages",
         "Home Schooling",
+        "Homeless Persons Supports",
         "Hospice Services",
         "Hospital Appointments Status",
         "Hospital Facilities",
@@ -86,6 +90,7 @@
         "Hospital Waiting Lists",
         "Housing Provision",
         "Illegal Israeli Imports",
+        "Immigration Status",
         "International Protection",
         "International Relations",
         "Irish Aid",
@@ -120,23 +125,31 @@
         "Road Traffic Accidents",
         "Rural Schemes",
         "School Admissions",
+        "School Enrolments",
+        "School Staff",
         "School Transport",
         "Schools Building Projects",
+        "Social Welfare Appeals",
+        "Social Welfare Benefits",
         "Social Welfare Payments",
         "Special Educational Needs",
         "Sports Facilities",
+        "Sports Funding",
         "State Examinations",
         "Suicide Prevention",
         "Teacher Training",
         "Teaching Council of Ireland",
         "Teaching Qualifications",
+        "Telecommunications Infrastructure",
         "Tourism Funding",
         "Tourism Promotion",
         "Trade Missions",
         "Transport Infrastructure Ireland",
         "Transport Policy",
         "Traveller Community",
+        "Vacant Properties",
         "Vaccination Programme",
+        "Visa Applications",
         "Waste Management",
         "Waterways Ireland",
         "Wildlife Protection",
@@ -326,7 +339,7 @@
             "children": [
               {
                 "name": "Special Educational Needs",
-                "value": 8
+                "value": 10
               },
               {
                 "name": "Schools Building Projects",
@@ -353,15 +366,15 @@
                 "value": 2
               },
               {
+                "name": "School Transport",
+                "value": 2
+              },
+              {
                 "name": "Departmental Consultations",
                 "value": 1
               },
               {
                 "name": "Residential Institutions",
-                "value": 1
-              },
-              {
-                "name": "School Transport",
                 "value": 1
               },
               {
@@ -391,6 +404,22 @@
               {
                 "name": "Public Sector Pay",
                 "value": 1
+              },
+              {
+                "name": "School Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "School Enrolments",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
               }
             ]
           },
@@ -399,7 +428,7 @@
             "children": [
               {
                 "name": "An Garda Síochána",
-                "value": 14
+                "value": 16
               },
               {
                 "name": "Domestic, Sexual and Gender-based Violence",
@@ -410,12 +439,16 @@
                 "value": 5
               },
               {
+                "name": "Departmental Data",
+                "value": 4
+              },
+              {
                 "name": "Prison Service",
                 "value": 4
               },
               {
-                "name": "Departmental Data",
-                "value": 3
+                "name": "Departmental Expenditure",
+                "value": 2
               },
               {
                 "name": "Departmental Consultations",
@@ -442,15 +475,23 @@
                 "value": 1
               },
               {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
                 "name": "Departmental Policies",
                 "value": 1
               },
               {
                 "name": "Anti-Racism Measures",
+                "value": 1
+              },
+              {
+                "name": "Domestic Violence",
+                "value": 1
+              },
+              {
+                "name": "Visa Applications",
+                "value": 1
+              },
+              {
+                "name": "Immigration Status",
                 "value": 1
               }
             ]
@@ -471,6 +512,10 @@
                 "value": 4
               },
               {
+                "name": "Childcare Services",
+                "value": 3
+              },
+              {
                 "name": "Disability Issues",
                 "value": 2
               },
@@ -488,10 +533,6 @@
               },
               {
                 "name": "Disability Services",
-                "value": 2
-              },
-              {
-                "name": "Childcare Services",
                 "value": 2
               },
               {
@@ -594,6 +635,67 @@
               {
                 "name": "Rail Accidents",
                 "value": 1
+              },
+              {
+                "name": "Road Safety",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Provision",
+                "value": 4
+              },
+              {
+                "name": "Local Authorities",
+                "value": 3
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 3
+              },
+              {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "Vacant Properties",
+                "value": 2
+              },
+              {
+                "name": "Wildlife Protection",
+                "value": 2
+              },
+              {
+                "name": "Departmental Consultations",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Staff",
+                "value": 1
+              },
+              {
+                "name": "Fire Service",
+                "value": 1
+              },
+              {
+                "name": "Rail Network",
+                "value": 1
+              },
+              {
+                "name": "Waterways Ireland",
+                "value": 1
+              },
+              {
+                "name": "National Parks and Wildlife Service",
+                "value": 1
+              },
+              {
+                "name": "Homeless Persons Supports",
+                "value": 1
               }
             ]
           },
@@ -638,55 +740,6 @@
               },
               {
                 "name": "Departmental Contracts",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Local Authorities",
-                "value": 3
-              },
-              {
-                "name": "Departmental Correspondence",
-                "value": 3
-              },
-              {
-                "name": "Departmental Data",
-                "value": 2
-              },
-              {
-                "name": "Wildlife Protection",
-                "value": 2
-              },
-              {
-                "name": "Departmental Consultations",
-                "value": 1
-              },
-              {
-                "name": "Housing Provision",
-                "value": 1
-              },
-              {
-                "name": "Public Sector Staff",
-                "value": 1
-              },
-              {
-                "name": "Fire Service",
-                "value": 1
-              },
-              {
-                "name": "Rail Network",
-                "value": 1
-              },
-              {
-                "name": "Waterways Ireland",
-                "value": 1
-              },
-              {
-                "name": "National Parks and Wildlife Service",
                 "value": 1
               }
             ]
@@ -848,6 +901,72 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Facilities",
+                "value": 6
+              },
+              {
+                "name": "Sports Funding",
+                "value": 2
+              },
+              {
+                "name": "Departmental Consultations",
+                "value": 1
+              },
+              {
+                "name": "Arts Funding",
+                "value": 1
+              },
+              {
+                "name": "Telecommunications Infrastructure",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "value": 2
+              },
+              {
+                "name": "Departmental Consultations",
+                "value": 1
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Contracts",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Cost of Living Issues",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Appeals",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -889,48 +1008,6 @@
               },
               {
                 "name": "Departmental Correspondence",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Sports Facilities",
-                "value": 6
-              },
-              {
-                "name": "Departmental Consultations",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Payments",
-                "value": 2
-              },
-              {
-                "name": "Departmental Consultations",
-                "value": 1
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
                 "value": 1
               }
             ]
@@ -2979,6 +3056,22 @@
                     ]
                   },
                   {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "832. Deputy Sorca Clarke asked the Minister for Education and Youth whether her Department has conducted an assessment of the availability of autism class places and special school capacity at primary and post-primary level in Longford and Westmeath ahead of the upcoming school year; and if gaps identified will be addressed. [42243/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/832/"
+                      },
+                      {
+                        "name": "835. Deputy Sorca Clarke asked the Minister for Education and Youth the number of students in Longford-Westmeath currently awaiting school places in special classes or special schools ahead of the upcoming academic year. [42297/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/835/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Thursday, 19 February",
                     "date_iso": "2026-02-19",
                     "children": [
@@ -3214,6 +3307,33 @@
                 ]
               },
               {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "782. Deputy Sorca Clarke asked the Minister for Education and Youth if her attention has been drawn to children in the Tullamore/Killina pilot online schools admission system who are being accepted to school in Killina but advised that they will have to charter a private bus due to the nearest school rule; if the Minister will consider eliminating the 'nearest school' rule for schools in the Tullamore/Killina pilot online schools admission system; and if she will make a statement on the matter. [19464/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/782/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "837. Deputy Sorca Clarke asked the Minister for Education and Youth whether her Department has assessed the impact of rising school transport demand in rural parts of Longford and Westmeath; and whether additional Bus Éireann school transport capacity is planned. [42299/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/837/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Consultations",
                 "children": [
                   {
@@ -3240,22 +3360,6 @@
                         "name": "462. Deputy Sorca Clarke asked the Minister for Education and Youth the number of people who have applied for redress in respect of institutional abuse in each year since the establishment of the redress scheme; and the number of applicants who have received redress; and in what form, broken down by category. [7718/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/462/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Transport",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "782. Deputy Sorca Clarke asked the Minister for Education and Youth if her attention has been drawn to children in the Tullamore/Killina pilot online schools admission system who are being accepted to school in Killina but advised that they will have to charter a private bus due to the nearest school rule; if the Minister will consider eliminating the 'nearest school' rule for schools in the Tullamore/Killina pilot online schools admission system; and if she will make a statement on the matter. [19464/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/782/"
                       }
                     ]
                   }
@@ -3368,6 +3472,70 @@
                         "name": "361. Deputy Sorca Clarke asked the Minister for Education and Youth her plans for expenditure regarding the remaining funding in phase one of the local bargaining fund. [41122/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/361/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "836. Deputy Sorca Clarke asked the Minister for Education and Youth the number of teaching vacancies currently unfilled across primary and post-primary schools in Longford and Westmeath; and the measures being taken to address recruitment difficulties. [42298/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/836/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "838. Deputy Sorca Clarke asked the Minister for Education and Youth the level of funding allocated for school building upgrades and extensions in Longford and Westmeath over the past three years; and the projects currently awaiting approval [42300/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/838/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Enrolments",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "839. Deputy Sorca Clarke asked the Minister for Education and Youth whether consideration is being given to reducing class sizes in rural schools in Longford and Westmeath experiencing increased enrolment pressures. [42301/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/839/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "913. Deputy Sorca Clarke asked the Minister for Education and Youth if details of the pilot Schools Energy Inventory Project which included Kildare, Meath, Offaly, Wexford and Wicklow have been published; and if she will make a statement on the matter. [43312/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/913/"
                       }
                     ]
                   }
@@ -3486,6 +3654,28 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/720/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1349. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the current Garda staffing levels at each Garda station across Longford-Westmeath; and the number of vacancies currently unfilled. [42316/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1349/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "248. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of fixed charge notices, prosecutions and other enforcement actions relating to breaches of the statutory speed limit for electric scooters that have been issued; the mechanisms currently available to An Garda Síochána to detect and enforce speed limit breaches by electric scooter users; and if he will make a statement on the matter. [44709/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/248/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -3562,6 +3752,43 @@
                 ]
               },
               {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1763. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of domestic abuse-related calls that were recorded by An Garda Síochána in 2025.; and if he will make a statement on the matter. [2172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1763/"
+                      },
+                      {
+                        "name": "1764. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of reported incidents of gender-based violence recorded in 2025, broken down by month and by county. [2179/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1764/"
+                      },
+                      {
+                        "name": "1765. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of incidents of Gender-Based Violence reported in 2025 that have resulted in arrests, prosecutions and convictions; the average time taken for cases to progress through the criminal justice system, in tabular form; and if he will make a statement on the matter. [2180/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1765/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1350. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of reported burglaries, thefts, and assaults recorded in counties Longford and Westmeath over the past five years; and the measures being taken to address rural crime concerns. [42317/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1350/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Prison Service",
                 "children": [
                   {
@@ -3593,26 +3820,27 @@
                 ]
               },
               {
-                "name": "Departmental Data",
+                "name": "Departmental Expenditure",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
                     "children": [
                       {
-                        "name": "1763. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of domestic abuse-related calls that were recorded by An Garda Síochána in 2025.; and if he will make a statement on the matter. [2172/26]",
+                        "name": "2126. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the percentage of his Department's Capital Budget allocation that has been spent in Q1 2026; and if he will provide the figures for the same period in 2025, in tabular form. [26080/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1763/"
-                      },
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2126/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
                       {
-                        "name": "1764. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of reported incidents of gender-based violence recorded in 2025, broken down by month and by county. [2179/26]",
+                        "name": "1312. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question Number 2126 of 14 April 2026, if he has received the relevant information from Garda Authorities to answer this PQ. [41796/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1764/"
-                      },
-                      {
-                        "name": "1765. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of incidents of Gender-Based Violence reported in 2025 that have resulted in arrests, prosecutions and convictions; the average time taken for cases to progress through the criminal justice system, in tabular form; and if he will make a statement on the matter. [2180/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1765/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1312/"
                       }
                     ]
                   }
@@ -3715,22 +3943,6 @@
                 ]
               },
               {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2126. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the percentage of his Department's Capital Budget allocation that has been spent in Q1 2026; and if he will provide the figures for the same period in 2025, in tabular form. [26080/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2126/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Departmental Policies",
                 "children": [
                   {
@@ -3757,6 +3969,54 @@
                         "name": "440. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the steps he is taking to tackle rising hate crime, racism, online extremism and social division in Ireland; the progress made under the National Action Plan Against Racism 2023-2027; the way such progress is being measured; the measures being taken with An Garda Síochána, schools, local authorities and social media platforms to prevent radicalisation and community tensions; and if he will make a statement on the matter. [40945/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/440/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Domestic Violence",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1344. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of domestic violence refuge spaces currently available across the Midlands region, including Longford and Westmeath; whether additional refuge or family support accommodation is planned; and if he will make a statement on the matter. [42244/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1344/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1348. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of humanitarian visa or family reunification cases involving residents of Longford and Westmeath currently being processed by his Department. [42311/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1348/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Immigration Status",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1351. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the average waiting time for immigration and citizenship applications; and whether additional processing capacity is being provide (details supplied). [42318/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1351/"
                       }
                     ]
                   }
@@ -3939,6 +4199,44 @@
                 ]
               },
               {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "488. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality whether the current funding model for the Early Years Access and Inclusion Model (AIM), will be extended into the 2026 academic year; if a decision has been made regarding a continuation or redesign of the scheme; the timeline which applies to the announcement of any extension; the changes, if any, are proposed to eligibility criteria, capitation rates, Level 7 supports, or administrative processes; and if she will make a statement on the matter. [18027/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/488/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1594. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality the current average response time for Garda vetting applications relating to employment in childcare settings; the number of applications currently awaiting processing; and the measures being taken to reduce delays, in view of reports from childcare providers that staff recruitment is being significantly impacted, including one provider with 14 employees currently unable to commence work pending vetting clearance. [42511/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1594/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "275. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality the number of children in Longford-Westmeath who are currently without an available childcare place; the number of children on waiting lists for crèche, preschool and early years services in each county; the number of childcare places currently available; the number of additional places projected to be delivered over the next five years; and if she will make a statement on the matter. [44680/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/275/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Disability Issues",
                 "children": [
                   {
@@ -4056,33 +4354,6 @@
                         "name": "1577. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality the number of families across Longford-Westmeath currently awaiting respite services or emergency respite supports for children with disabilities; and whether additional funding is being considered to expand capacity locally. [42242/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1577/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "488. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality whether the current funding model for the Early Years Access and Inclusion Model (AIM), will be extended into the 2026 academic year; if a decision has been made regarding a continuation or redesign of the scheme; the timeline which applies to the announcement of any extension; the changes, if any, are proposed to eligibility criteria, capitation rates, Level 7 supports, or administrative processes; and if she will make a statement on the matter. [18027/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/488/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1594. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality the current average response time for Garda vetting applications relating to employment in childcare settings; the number of applications currently awaiting processing; and the measures being taken to reduce delays, in view of reports from childcare providers that staff recruitment is being significantly impacted, including one provider with 14 employees currently unable to commence work pending vetting clearance. [42511/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1594/"
                       }
                     ]
                   }
@@ -4658,6 +4929,309 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "160. Deputy Sorca Clarke asked the Minister for Transport whether his Department is considering the introduction of a mandatory helmet requirement for users of electric scooters; whether any assessment has been carried out regarding the potential road safety benefits of such a measure; and if he will make a statement on the matter. [44733/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/160/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1020. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of social housing units delivered in Longford-Westmeath in each of the past five years, by local authority area and delivery mechanism; and if he will make a statement on the matter. [41593/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1020/"
+                      },
+                      {
+                        "name": "1021. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of affordable purchase and cost-rental homes currently planned for Longford-Westmeath; the projected delivery timelines for same; and if he will make a statement on the matter. [41594/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1021/"
+                      },
+                      {
+                        "name": "1022. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of households currently on the social housing waiting list in Longford and Westmeath respectively; the average waiting time; and if he will make a statement on the matter. [41595/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1022/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1488. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of people on housing waiting lists in 2025 in each county, in tabular form. [2199/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1488/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Local Authorities",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1365. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage to provide additional information and clarity on eligibility regarding the local authority engineers, who are qualified and experienced, that are being deemed ineligible for progression under revised eligibility criteria, despite having previously been assessed, appointed, and in many cases promoted based on those same qualifications; to provide confirmation of who is responsible for reviewing and addressing this issue and an indication of the steps are being taken to resolve this matter. [74095/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1365/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "639. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether, prior to the introduction of revised engineering qualification requirements for local authority staff on 25 July 2025, any assessment was carried out to determine how many serving local authority engineers would be affected by these changes, including loss of eligibility for promotion; whether workforce retention and service delivery impacts were considered; and if he will make a statement on the matter. [8828/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/639/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "760. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the schemes available to local authority to retrofit solar panels on to existing social housing stock. [11590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/760/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1371. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if he is aware of ongoing difficulties experienced by elected members of local authorities, including Mullingar Kinnegad Municipal District of Westmeath County Council, in receiving timely responses from his Department to formal representations; if he has issued any guidance or protocols regarding engagement with local authorities. [74251/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1371/"
+                      },
+                      {
+                        "name": "1372. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the steps being taken to improve inter-departmental responsiveness to correspondence from local authorities and their elected members, particularly where issues relating to childcare provision, transport, healthcare and integration are concerned. [74252/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1372/"
+                      },
+                      {
+                        "name": "1373. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage his views on the adequacy of current engagement between Government departments and local authorities and their elected members; whether his Department has received representations from local authorities regarding non-responses from other Departments; and if he will make a statement on the matter. [74253/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1373/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1489. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of social, affordable and cost-rental homes completed in 2025, broken down by local authority; how these figures compare with annual targets set out in Government housing plans; the number of projects delayed or that have not commenced; and if he will make a statement on the matter. [2200/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1489/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "583. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage to provide a list of all designated conservation areas across the State, by location and the local authority under whose remit they fall. [16384/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/583/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vacant Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1023. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of vacant and derelict properties; the number of applications approved to date; and if he will make a statement on the matter. [41596/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1023/"
+                      },
+                      {
+                        "name": "1028. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the measures being taken to tackle vacancy and dereliction in town centres including Mullingar, Athlone, Longford Town and Granard; and if he will make a statement on the matter. [41639/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1028/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wildlife Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1140. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage to provide on all actions and commitments relating to the NPWS set-down in the active Memorandum of Understanding between an organisation (details supplied) and NPWS, in tabular form. [43872/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1140/"
+                      },
+                      {
+                        "name": "1141. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if he will provide an update on correspondence issued by an organisation (details supplied) to his Department on 30 April 2026 in relation to matters concerning engagement with his Department; when the organisation can expect a response; and if he will make a statement on the matter. [43873/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1141/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Consultations",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1374. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74257/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1374/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "211. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether he accepts that, given his Department does not collect or hold data on the qualifications of serving local authority engineers, no quantified assessment was carried out prior to July 2025 to determine how many existing engineers-whose qualifications had been assessed and accepted at the time of appointment-would lose eligibility for promotion as a result of the revised engineering qualification requirements; whether responsibility for assessing this impact was assigned to any body as part of the Working Group's review; how the Working Group could credibly \"have regard\" to the position of existing staff in the absence of such data; whether he accepts that introducing national qualification standards without assessing their impact on serving staff represents a failure of workforce planning; and if he will make a statement on the matter. [10960/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/211/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fire Service",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1032. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if Clara fire station, County Offaly will be included in the new priority fire service infrastructural projects 2026-2030, given the inadequacy of the existing very old building which is not fit for purpose; and if he will make a statement on the matter. [19067/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1032/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1042. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether his Department has assessed the potential role of reopening the Mullingar–Athlone rail line in supporting housing delivery and compact growth in towns and villages along the corridor, including Moate, Streamstown and Castletown Geoghegan. [19124/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1042/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Waterways Ireland",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "582. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage for an update on the implementation of the Waterways Ireland Climate Action Plan 2030 and in particular the progress on Key Result 4.3 relating to the installation of electric vehicle charging infrastructure, and active travel options for employees and waterway users, to be achieved by the end of 2026. [28630/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/582/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Parks and Wildlife Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "606. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether the RAPTOR (Recording and Addressing Persecution and Threats to Our Raptors) protocol and associated system for recording and investigating raptor (bird of prey) persecution and mortality incidents remains operational within the National Parks and Wildlife Service; if so, the reason annual RAPTOR reports and associated data have not been publicly published since 2019; whether the protocol or reporting arrangements have been discontinued, reduced, or replaced since 2019; and whether there are plans to resume regular public reporting of such data. [37347/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/606/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Homeless Persons Supports",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1029. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the current number of individuals and families accessing emergency accommodation in Longford and Westmeath; the supports available to them; and if he will make a statement on the matter. [41641/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1029/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4870,235 +5444,6 @@
                         "name": "1264. Deputy Sorca Clarke asked the Minister for Rural and Community Development and the Gaeltacht the number of contracts a firm (details supplied) has had with his Department in 2025 and to-date in 2026; the nature of services the company provided to his Department in each of those years, in tabular form. [32826/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1264/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Local Authorities",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1365. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage to provide additional information and clarity on eligibility regarding the local authority engineers, who are qualified and experienced, that are being deemed ineligible for progression under revised eligibility criteria, despite having previously been assessed, appointed, and in many cases promoted based on those same qualifications; to provide confirmation of who is responsible for reviewing and addressing this issue and an indication of the steps are being taken to resolve this matter. [74095/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1365/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "639. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether, prior to the introduction of revised engineering qualification requirements for local authority staff on 25 July 2025, any assessment was carried out to determine how many serving local authority engineers would be affected by these changes, including loss of eligibility for promotion; whether workforce retention and service delivery impacts were considered; and if he will make a statement on the matter. [8828/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/639/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "760. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the schemes available to local authority to retrofit solar panels on to existing social housing stock. [11590/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/760/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1371. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if he is aware of ongoing difficulties experienced by elected members of local authorities, including Mullingar Kinnegad Municipal District of Westmeath County Council, in receiving timely responses from his Department to formal representations; if he has issued any guidance or protocols regarding engagement with local authorities. [74251/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1371/"
-                      },
-                      {
-                        "name": "1372. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the steps being taken to improve inter-departmental responsiveness to correspondence from local authorities and their elected members, particularly where issues relating to childcare provision, transport, healthcare and integration are concerned. [74252/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1372/"
-                      },
-                      {
-                        "name": "1373. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage his views on the adequacy of current engagement between Government departments and local authorities and their elected members; whether his Department has received representations from local authorities regarding non-responses from other Departments; and if he will make a statement on the matter. [74253/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1373/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1489. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of social, affordable and cost-rental homes completed in 2025, broken down by local authority; how these figures compare with annual targets set out in Government housing plans; the number of projects delayed or that have not commenced; and if he will make a statement on the matter. [2200/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1489/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "583. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage to provide a list of all designated conservation areas across the State, by location and the local authority under whose remit they fall. [16384/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/583/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wildlife Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1140. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage to provide on all actions and commitments relating to the NPWS set-down in the active Memorandum of Understanding between an organisation (details supplied) and NPWS, in tabular form. [43872/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1140/"
-                      },
-                      {
-                        "name": "1141. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if he will provide an update on correspondence issued by an organisation (details supplied) to his Department on 30 April 2026 in relation to matters concerning engagement with his Department; when the organisation can expect a response; and if he will make a statement on the matter. [43873/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1141/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Consultations",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1374. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74257/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1374/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Provision",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1488. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of people on housing waiting lists in 2025 in each county, in tabular form. [2199/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1488/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Sector Staff",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "211. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether he accepts that, given his Department does not collect or hold data on the qualifications of serving local authority engineers, no quantified assessment was carried out prior to July 2025 to determine how many existing engineers-whose qualifications had been assessed and accepted at the time of appointment-would lose eligibility for promotion as a result of the revised engineering qualification requirements; whether responsibility for assessing this impact was assigned to any body as part of the Working Group's review; how the Working Group could credibly \"have regard\" to the position of existing staff in the absence of such data; whether he accepts that introducing national qualification standards without assessing their impact on serving staff represents a failure of workforce planning; and if he will make a statement on the matter. [10960/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/211/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Fire Service",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1032. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if Clara fire station, County Offaly will be included in the new priority fire service infrastructural projects 2026-2030, given the inadequacy of the existing very old building which is not fit for purpose; and if he will make a statement on the matter. [19067/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1032/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Rail Network",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1042. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether his Department has assessed the potential role of reopening the Mullingar–Athlone rail line in supporting housing delivery and compact growth in towns and villages along the corridor, including Moate, Streamstown and Castletown Geoghegan. [19124/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1042/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Waterways Ireland",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "582. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage for an update on the implementation of the Waterways Ireland Climate Action Plan 2030 and in particular the progress on Key Result 4.3 relating to the installation of electric vehicle charging infrastructure, and active travel options for employees and waterway users, to be achieved by the end of 2026. [28630/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/582/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Parks and Wildlife Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "606. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage whether the RAPTOR (Recording and Addressing Persecution and Threats to Our Raptors) protocol and associated system for recording and investigating raptor (bird of prey) persecution and mortality incidents remains operational within the National Parks and Wildlife Service; if so, the reason annual RAPTOR reports and associated data have not been publicly published since 2019; whether the protocol or reporting arrangements have been discontinued, reduced, or replaced since 2019; and whether there are plans to resume regular public reporting of such data. [37347/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/606/"
                       }
                     ]
                   }
@@ -5790,6 +6135,286 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "671. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether funding has been allocated for the development of an athletics track in County Longford; and if not, the reason for same. [30826/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/671/"
+                      },
+                      {
+                        "name": "672. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport if he will provide an update on any applications submitted by Longford County Council or local sports organisations for capital funding under the Sports Capital and Equipment Programme relating to an athletics track. [30827/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/672/"
+                      },
+                      {
+                        "name": "673. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether he has conducted or commissioned any assessment of the regional disparity in athletics facilities. [30828/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/673/"
+                      },
+                      {
+                        "name": "674. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport if consideration will be given to prioritising County Longford in future rounds of sports capital funding to ensure equitable access to athletics facilities for young people. [30829/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/674/"
+                      },
+                      {
+                        "name": "675. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the measures being taken to ensure that athletes in counties without dedicated athletics infrastructure, such as County Longford, are not disadvantaged in competitive sport development. [30830/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/675/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "72. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the number of publicly funded athletics tracks and all-weather running facilities currently available, by county; and the level of capital investment provided for their maintenance and development in each of the past five years. [2627/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/72/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "987. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether additional funding will be made available for the upgrade and development of community sports facilities in Longford-Westmeath, particularly in rapidly growing towns and rural communities experiencing increased demand. [42273/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/987/"
+                      },
+                      {
+                        "name": "990. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the number of applications from Longford and Westmeath approved under recent Sports Capital and Equipment Programme rounds; the total funding allocated locally; and whether consideration is being given to increasing supports for volunteer-led rural clubs facing rising operational costs. [42276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/990/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Consultations",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1302. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74263/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1302/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "988. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the level of funding allocated to arts and cultural projects in Longford and Westmeath over the past five years; and whether additional supports are planned for smaller rural festivals and community arts organisations. [42274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/988/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Telecommunications Infrastructure",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "989. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether his Department has engaged with mobile network operators regarding ongoing mobile phone coverage blackspots across parts of Longford and Westmeath which continue to impact residents and businesses. [42275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/989/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "172. Deputy Sorca Clarke asked the Minister for Social Protection the number of applications for supplementary welfare allowance, including additional needs payments and exceptional needs payments, received in each of the counties of Westmeath and Longford in each of the past 24-months; the number of those applications approved and refused; the breakdown of the purpose for which each application was made; and if he will make a statement on the matter. [22675/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/172/"
+                      },
+                      {
+                        "name": "173. Deputy Sorca Clarke asked the Minister for Social Protection the number of applications for supplementary welfare allowance, including additional needs payments and exceptional needs payments, received per county, in each of the past 24-months; the number of those applications approved and refused; and a breakdown of the purpose for which each application was made, in tabular form; and if he will make a statement on the matter. [22676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/173/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1185. Deputy Sorca Clarke asked the Minister for Social Protection the current average waiting times for disability allowance, carer’s allowance and domiciliary care allowance applications across the State. [42357/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1185/"
+                      },
+                      {
+                        "name": "1186. Deputy Sorca Clarke asked the Minister for Social Protection the number of people in the Longford–Westmeath area currently accessing the additional needs payment scheme. [42358/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1186/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Consultations",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1526. Deputy Sorca Clarke asked the Minister for Social Protection whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74266/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1526/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "704. Deputy Sorca Clarke asked the Minister for Social Protection the number of vacancies at each grade of higher executive officer and above within his Department as of 12 January 2026, in tabular form. [4182/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/704/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1201. Deputy Sorca Clarke asked the Minister for Social Protection the names of external cleaning companies that have a contract with his Department to provide cleaning services within the Department to-date in 2026, in tabular form. [20033/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1201/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "282. Deputy Sorca Clarke asked the Minister for Social Protection the total amount of funding allocated and paid by his Department under wig grant or hair replacement support schemes (including payments under the treatment benefit scheme or any other relevant schemes) in each of the past five years; and the number of recipients in each year, broken down by county, in tabular form. [27592/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/282/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "571. Deputy Sorca Clarke asked the Minister for Social Protection the number of applications for jobseeker's allowance that were refused in 2025 and to date in 2026, in tabular form. [32821/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/571/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cost of Living Issues",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1187. Deputy Sorca Clarke asked the Minister for Social Protection whether his Department has assessed the impact of rising rents and energy costs on pensioners and low-income families in Longford and Westmeath. [42359/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1187/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Appeals",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1188. Deputy Sorca Clarke asked the Minister for Social Protection the number of social welfare appeals originating from Longford and Westmeath currently awaiting determination; and the average waiting time involved. [42360/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1188/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -6023,180 +6648,6 @@
                         "name": "412. Deputy Sorca Clarke asked the Minister for Defence whether standards or service-level targets exist for her Department or bodies under the aegis of her Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74269/25]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/412/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Sports Facilities",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "671. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether funding has been allocated for the development of an athletics track in County Longford; and if not, the reason for same. [30826/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/671/"
-                      },
-                      {
-                        "name": "672. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport if he will provide an update on any applications submitted by Longford County Council or local sports organisations for capital funding under the Sports Capital and Equipment Programme relating to an athletics track. [30827/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/672/"
-                      },
-                      {
-                        "name": "673. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether he has conducted or commissioned any assessment of the regional disparity in athletics facilities. [30828/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/673/"
-                      },
-                      {
-                        "name": "674. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport if consideration will be given to prioritising County Longford in future rounds of sports capital funding to ensure equitable access to athletics facilities for young people. [30829/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/674/"
-                      },
-                      {
-                        "name": "675. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the measures being taken to ensure that athletes in counties without dedicated athletics infrastructure, such as County Longford, are not disadvantaged in competitive sport development. [30830/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/675/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "72. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the number of publicly funded athletics tracks and all-weather running facilities currently available, by county; and the level of capital investment provided for their maintenance and development in each of the past five years. [2627/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/72/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Consultations",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1302. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74263/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1302/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "172. Deputy Sorca Clarke asked the Minister for Social Protection the number of applications for supplementary welfare allowance, including additional needs payments and exceptional needs payments, received in each of the counties of Westmeath and Longford in each of the past 24-months; the number of those applications approved and refused; the breakdown of the purpose for which each application was made; and if he will make a statement on the matter. [22675/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/172/"
-                      },
-                      {
-                        "name": "173. Deputy Sorca Clarke asked the Minister for Social Protection the number of applications for supplementary welfare allowance, including additional needs payments and exceptional needs payments, received per county, in each of the past 24-months; the number of those applications approved and refused; and a breakdown of the purpose for which each application was made, in tabular form; and if he will make a statement on the matter. [22676/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/173/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Consultations",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1526. Deputy Sorca Clarke asked the Minister for Social Protection whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74266/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1526/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "704. Deputy Sorca Clarke asked the Minister for Social Protection the number of vacancies at each grade of higher executive officer and above within his Department as of 12 January 2026, in tabular form. [4182/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/704/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1201. Deputy Sorca Clarke asked the Minister for Social Protection the names of external cleaning companies that have a contract with his Department to provide cleaning services within the Department to-date in 2026, in tabular form. [20033/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1201/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "282. Deputy Sorca Clarke asked the Minister for Social Protection the total amount of funding allocated and paid by his Department under wig grant or hair replacement support schemes (including payments under the treatment benefit scheme or any other relevant schemes) in each of the past five years; and the number of recipients in each year, broken down by county, in tabular form. [27592/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/282/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "571. Deputy Sorca Clarke asked the Minister for Social Protection the number of applications for jobseeker's allowance that were refused in 2025 and to date in 2026, in tabular form. [32821/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/571/"
                       }
                     ]
                   }
@@ -10320,6 +10771,159 @@
         },
         {
           "date_iso": "2026-06-09",
+          "questionNumber": 832,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "832. Deputy Sorca Clarke asked the Minister for Education and Youth whether her Department has conducted an assessment of the availability of autism class places and special school capacity at primary and post-primary level in Longford and Westmeath ahead of the upcoming school year; and if gaps identified will be addressed. [42243/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/832/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 835,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "835. Deputy Sorca Clarke asked the Minister for Education and Youth the number of students in Longford-Westmeath currently awaiting school places in special classes or special schools ahead of the upcoming academic year. [42297/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/835/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 836,
+          "department": "Education",
+          "heading": "School Staff",
+          "question": "836. Deputy Sorca Clarke asked the Minister for Education and Youth the number of teaching vacancies currently unfilled across primary and post-primary schools in Longford and Westmeath; and the measures being taken to address recruitment difficulties. [42298/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/836/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 837,
+          "department": "Education",
+          "heading": "School Transport",
+          "question": "837. Deputy Sorca Clarke asked the Minister for Education and Youth whether her Department has assessed the impact of rising school transport demand in rural parts of Longford and Westmeath; and whether additional Bus Éireann school transport capacity is planned. [42299/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/837/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 838,
+          "department": "Education",
+          "heading": "Departmental Funding",
+          "question": "838. Deputy Sorca Clarke asked the Minister for Education and Youth the level of funding allocated for school building upgrades and extensions in Longford and Westmeath over the past three years; and the projects currently awaiting approval [42300/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/838/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 839,
+          "department": "Education",
+          "heading": "School Enrolments",
+          "question": "839. Deputy Sorca Clarke asked the Minister for Education and Youth whether consideration is being given to reducing class sizes in rural schools in Longford and Westmeath experiencing increased enrolment pressures. [42301/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/839/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 913,
+          "department": "Education",
+          "heading": "Departmental Schemes",
+          "question": "913. Deputy Sorca Clarke asked the Minister for Education and Youth if details of the pilot Schools Energy Inventory Project which included Kildare, Meath, Offaly, Wexford and Wicklow have been published; and if she will make a statement on the matter. [43312/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/913/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 987,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "987. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether additional funding will be made available for the upgrade and development of community sports facilities in Longford-Westmeath, particularly in rapidly growing towns and rural communities experiencing increased demand. [42273/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/987/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 988,
+          "department": "Culture",
+          "heading": "Arts Funding",
+          "question": "988. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the level of funding allocated to arts and cultural projects in Longford and Westmeath over the past five years; and whether additional supports are planned for smaller rural festivals and community arts organisations. [42274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/988/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 989,
+          "department": "Culture",
+          "heading": "Telecommunications Infrastructure",
+          "question": "989. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport whether his Department has engaged with mobile network operators regarding ongoing mobile phone coverage blackspots across parts of Longford and Westmeath which continue to impact residents and businesses. [42275/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/989/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 990,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "990. Deputy Sorca Clarke asked the Minister for Culture, Communications and Sport the number of applications from Longford and Westmeath approved under recent Sports Capital and Equipment Programme rounds; the total funding allocated locally; and whether consideration is being given to increasing supports for volunteer-led rural clubs facing rising operational costs. [42276/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/990/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1020,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1020. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of social housing units delivered in Longford-Westmeath in each of the past five years, by local authority area and delivery mechanism; and if he will make a statement on the matter. [41593/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1020/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1021,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1021. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of affordable purchase and cost-rental homes currently planned for Longford-Westmeath; the projected delivery timelines for same; and if he will make a statement on the matter. [41594/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1021/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1022,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1022. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of households currently on the social housing waiting list in Longford and Westmeath respectively; the average waiting time; and if he will make a statement on the matter. [41595/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1022/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1023,
+          "department": "Housing",
+          "heading": "Vacant Properties",
+          "question": "1023. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the number of vacant and derelict properties; the number of applications approved to date; and if he will make a statement on the matter. [41596/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1023/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1028,
+          "department": "Housing",
+          "heading": "Vacant Properties",
+          "question": "1028. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the measures being taken to tackle vacancy and dereliction in town centres including Mullingar, Athlone, Longford Town and Granard; and if he will make a statement on the matter. [41639/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1028/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1029,
+          "department": "Housing",
+          "heading": "Homeless Persons Supports",
+          "question": "1029. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the current number of individuals and families accessing emergency accommodation in Longford and Westmeath; the supports available to them; and if he will make a statement on the matter. [41641/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1029/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
           "questionNumber": 1140,
           "department": "Housing",
           "heading": "Wildlife Protection",
@@ -10334,6 +10938,96 @@
           "heading": "Wildlife Protection",
           "question": "1141. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage if he will provide an update on correspondence issued by an organisation (details supplied) to his Department on 30 April 2026 in relation to matters concerning engagement with his Department; when the organisation can expect a response; and if he will make a statement on the matter. [43873/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1141/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1185,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "1185. Deputy Sorca Clarke asked the Minister for Social Protection the current average waiting times for disability allowance, carer’s allowance and domiciliary care allowance applications across the State. [42357/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1185/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1186,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "1186. Deputy Sorca Clarke asked the Minister for Social Protection the number of people in the Longford–Westmeath area currently accessing the additional needs payment scheme. [42358/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1186/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1187,
+          "department": "Social",
+          "heading": "Cost of Living Issues",
+          "question": "1187. Deputy Sorca Clarke asked the Minister for Social Protection whether his Department has assessed the impact of rising rents and energy costs on pensioners and low-income families in Longford and Westmeath. [42359/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1187/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1188,
+          "department": "Social",
+          "heading": "Social Welfare Appeals",
+          "question": "1188. Deputy Sorca Clarke asked the Minister for Social Protection the number of social welfare appeals originating from Longford and Westmeath currently awaiting determination; and the average waiting time involved. [42360/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1188/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1312,
+          "department": "Justice",
+          "heading": "Departmental Expenditure",
+          "question": "1312. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question Number 2126 of 14 April 2026, if he has received the relevant information from Garda Authorities to answer this PQ. [41796/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1312/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1344,
+          "department": "Justice",
+          "heading": "Domestic Violence",
+          "question": "1344. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of domestic violence refuge spaces currently available across the Midlands region, including Longford and Westmeath; whether additional refuge or family support accommodation is planned; and if he will make a statement on the matter. [42244/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1344/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1348,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "1348. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of humanitarian visa or family reunification cases involving residents of Longford and Westmeath currently being processed by his Department. [42311/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1348/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1349,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "1349. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the current Garda staffing levels at each Garda station across Longford-Westmeath; and the number of vacancies currently unfilled. [42316/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1349/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1350,
+          "department": "Justice",
+          "heading": "Departmental Data",
+          "question": "1350. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of reported burglaries, thefts, and assaults recorded in counties Longford and Westmeath over the past five years; and the measures being taken to address rural crime concerns. [42317/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1350/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1351,
+          "department": "Justice",
+          "heading": "Immigration Status",
+          "question": "1351. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the average waiting time for immigration and citizenship applications; and whether additional processing capacity is being provide (details supplied). [42318/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1351/",
           "questionType": "written"
         },
         {
@@ -10739,6 +11433,33 @@
           "heading": "Medical Cards",
           "question": "211. Deputy Sorca Clarke asked the Minister for Health if she is aware that some GP practices are charging medical card holders between €20-40 for ear wax removal; whether this procedure is covered under the GMS scheme; the circumstances in which a charge may be applied; and if she will make a statement on the matter. [44208/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/211/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 160,
+          "department": "Transport",
+          "heading": "Road Safety",
+          "question": "160. Deputy Sorca Clarke asked the Minister for Transport whether his Department is considering the introduction of a mandatory helmet requirement for users of electric scooters; whether any assessment has been carried out regarding the potential road safety benefits of such a measure; and if he will make a statement on the matter. [44733/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/160/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 248,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "248. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the number of fixed charge notices, prosecutions and other enforcement actions relating to breaches of the statutory speed limit for electric scooters that have been issued; the mechanisms currently available to An Garda Síochána to detect and enforce speed limit breaches by electric scooter users; and if he will make a statement on the matter. [44709/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/248/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 275,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "275. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality the number of children in Longford-Westmeath who are currently without an available childcare place; the number of children on waiting lists for crèche, preschool and early years services in each county; the number of childcare places currently available; the number of additional places projected to be delivered over the next five years; and if she will make a statement on the matter. [44680/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/275/",
           "questionType": "written"
         }
       ]
