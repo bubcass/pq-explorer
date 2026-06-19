@@ -9,11 +9,12 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-McGuinness.D.1997-06-26/image/large",
   "types": {
     "all": {
-      "count": 84,
+      "count": 89,
       "headingOptions": [
         "Adoption Services",
         "Agriculture Industry",
         "Agriculture Schemes",
+        "Bus Services",
         "Care Services",
         "Child and Family Agency",
         "Commonage Land Use",
@@ -25,6 +26,7 @@
         "Disability Services",
         "Education Schemes",
         "Employment Rights",
+        "EU Presidency",
         "Family Law Cases",
         "Farm Inspections",
         "Financial Services",
@@ -53,10 +55,12 @@
         "Pension Provisions",
         "Probate Applications",
         "Public Sector Pensions",
+        "Road Network",
         "School Accommodation",
         "School Meals Programme",
         "Schools Amalgamation",
         "Schools Building Projects",
+        "Social Welfare Benefits",
         "Social Welfare Code",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
@@ -240,7 +244,7 @@
               },
               {
                 "name": "Disability Services",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Adoption Services",
@@ -289,6 +293,10 @@
               },
               {
                 "name": "Social Welfare Code",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Benefits",
                 "value": 1
               }
             ]
@@ -380,6 +388,19 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Defence",
             "children": [
               {
@@ -393,6 +414,15 @@
             "children": [
               {
                 "name": "Financial Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "EU Presidency",
                 "value": 1
               }
             ]
@@ -1188,6 +1218,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/792/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "793. Deputy John McGuinness asked the Minister for Children, Disability and Equality the process by which the 72 planned residential beds for intellectual disability will be allocated; and if she will make a statement on the matter. [45426/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/793/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1367,6 +1408,22 @@
                         "name": "655. Deputy John McGuinness asked the Minister for Social Protection if he will consider for the upcoming Budget 2027 amending the living alone allowance scheme to include single (never married) retired civil and public servants employed prior to 1995, given that the current scheme discriminates against such employees; his views on whether these people are being discriminated against; if he will further consider the fact that those in this cohort of State employees who are widowed qualify for the scheme, thereby adding to the discriminatory nature of the scheme; and if he will make a statement on the matter. [36831/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/655/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "608. Deputy John McGuinness asked the Minister for Social Protection if a person (details supplied) would be financially better off on the State pension (non-contributory) and living alone allowance rather than their current adult dependent allowance given their spouse is in long-term care with no prospect of them returning home. [45015/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/608/"
                       }
                     ]
                   }
@@ -1640,6 +1697,43 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "112. Deputy John McGuinness asked the Minister for Transport if the discontinued route 4 bus service from Waterford to Dublin-Dublin Airport and the stops along the route will be reinstated following the withdrawal of a service (details supplied). [46260/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/112/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "115. Deputy John McGuinness asked the Minister for Transport if he will provide an update on progress regarding approval of the completion of the final two stages of the Kilkenny ring road and the maintenance and upgrade of the existing sections of the same road. [46261/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/115/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Defence",
             "children": [
               {
@@ -1674,6 +1768,27 @@
                         "name": "575. Deputy John McGuinness asked the Tánaiste and Minister for Finance the number of cases being processed by the Financial Services and Pensions Ombudsman in each of the past five years; the number of cases submitted to the office that are awaiting an outcome and that have been in the process for over four years; if he has received a request for extra staff for the office or for individuals with particular expertise who might be hired on contract; and if he will make a statement on the matter. [43151/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/575/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "EU Presidency",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "228. Deputy John McGuinness asked the Minister for Foreign Affairs and Trade the number of cars and buses that will be required by the State to meet the transport requirements of the State during the period of the EU Presidency; if the fleet will be purchased or hired; if special security vehicles will be purchased; if drivers will be recruited by the State; and if so, the number required. [45554/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/228/"
                       }
                     ]
                   }
@@ -2439,23 +2554,83 @@
           "question": "346. Deputy John McGuinness asked the Minister for Health if an early date for a cataract procedure will be arranged at University Hospital Waterford for a patient (details supplied) as her GP has deemed her case urgent. [44805/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/346/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 228,
+          "department": "Foreign",
+          "heading": "EU Presidency",
+          "question": "228. Deputy John McGuinness asked the Minister for Foreign Affairs and Trade the number of cars and buses that will be required by the State to meet the transport requirements of the State during the period of the EU Presidency; if the fleet will be purchased or hired; if special security vehicles will be purchased; if drivers will be recruited by the State; and if so, the number required. [45554/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/228/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 608,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "608. Deputy John McGuinness asked the Minister for Social Protection if a person (details supplied) would be financially better off on the State pension (non-contributory) and living alone allowance rather than their current adult dependent allowance given their spouse is in long-term care with no prospect of them returning home. [45015/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/608/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 793,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "793. Deputy John McGuinness asked the Minister for Children, Disability and Equality the process by which the 72 planned residential beds for intellectual disability will be allocated; and if she will make a statement on the matter. [45426/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/793/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 112,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "112. Deputy John McGuinness asked the Minister for Transport if the discontinued route 4 bus service from Waterford to Dublin-Dublin Airport and the stops along the route will be reinstated following the withdrawal of a service (details supplied). [46260/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/112/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 115,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "115. Deputy John McGuinness asked the Minister for Transport if he will provide an update on progress regarding approval of the completion of the final two stages of the Kilkenny ring road and the maintenance and upgrade of the existing sections of the same road. [46261/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/115/",
+          "questionType": "oral"
         }
       ]
     },
     "oral": {
-      "count": 1,
+      "count": 3,
       "headingOptions": [
+        "Bus Services",
+        "Road Network",
         "Schools Building Projects"
       ],
       "insights": {
         "topHeading": "Schools Building Projects",
         "topHeadingCount": 1,
-        "topDepartment": "Education",
-        "topDepartmentCount": 1
+        "topDepartment": "Transport",
+        "topDepartmentCount": 2
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
+                "value": 1
+              }
+            ]
+          },
           {
             "name": "Education",
             "children": [
@@ -2470,6 +2645,43 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "112. Deputy John McGuinness asked the Minister for Transport if the discontinued route 4 bus service from Waterford to Dublin-Dublin Airport and the stops along the route will be reinstated following the withdrawal of a service (details supplied). [46260/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/112/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "115. Deputy John McGuinness asked the Minister for Transport if he will provide an update on progress regarding approval of the completion of the final two stages of the Kilkenny ring road and the maintenance and upgrade of the existing sections of the same road. [46261/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/115/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Education",
             "children": [
@@ -2501,6 +2713,24 @@
           "heading": "Schools Building Projects",
           "question": "87. Deputy John McGuinness asked the Minister for Education and Youth her plans to provide the funding to allow all school building projects in Carlow and Kilkenny to move to the next phase of the process; and if she will make a statement on the matter. [40603/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/87/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 112,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "112. Deputy John McGuinness asked the Minister for Transport if the discontinued route 4 bus service from Waterford to Dublin-Dublin Airport and the stops along the route will be reinstated following the withdrawal of a service (details supplied). [46260/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/112/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 115,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "115. Deputy John McGuinness asked the Minister for Transport if he will provide an update on progress regarding approval of the completion of the final two stages of the Kilkenny ring road and the maintenance and upgrade of the existing sections of the same road. [46261/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/115/",
           "questionType": "oral"
         }
       ]
