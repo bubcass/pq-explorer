@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06/image/large",
   "types": {
     "all": {
-      "count": 257,
+      "count": 268,
       "headingOptions": [
         "Acht na dTeangacha Oifigiúla",
         "Air Corps",
@@ -113,13 +113,16 @@
         "Social Welfare Appeals",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
+        "Social Welfare Schemes",
         "Soláthar Tithíochta",
         "Special Educational Needs",
         "Sports Funding",
         "State Examinations",
+        "Tax Code",
         "Tax Credits",
         "Teaching Council of Ireland",
         "Traffic Management",
+        "Traveller Community",
         "Údarás na Gaeltachta",
         "Ukraine War",
         "United Nations",
@@ -213,7 +216,15 @@
             "name": "Health",
             "children": [
               {
+                "name": "Health Services",
+                "value": 5
+              },
+              {
                 "name": "Hospital Appointments Status",
+                "value": 4
+              },
+              {
+                "name": "Medicinal Products",
                 "value": 4
               },
               {
@@ -229,14 +240,6 @@
                 "value": 3
               },
               {
-                "name": "Medicinal Products",
-                "value": 3
-              },
-              {
-                "name": "Health Services",
-                "value": 3
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "value": 2
               },
@@ -246,6 +249,10 @@
               },
               {
                 "name": "Disability Services",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Payments",
                 "value": 2
               },
               {
@@ -274,10 +281,6 @@
               },
               {
                 "name": "Psychological Assessments",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Payments",
                 "value": 1
               },
               {
@@ -516,35 +519,6 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Passport Services",
-                "value": 3
-              },
-              {
-                "name": "Middle East",
-                "value": 2
-              },
-              {
-                "name": "Foreign Policy",
-                "value": 2
-              },
-              {
-                "name": "Ukraine War",
-                "value": 2
-              },
-              {
-                "name": "Imeachtaí Comóraidh",
-                "value": 1
-              },
-              {
-                "name": "International Bodies",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -582,6 +556,43 @@
               {
                 "name": "Civil Service",
                 "value": 1
+              },
+              {
+                "name": "Heritage Sites",
+                "value": 1
+              },
+              {
+                "name": "Irish Language",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Passport Services",
+                "value": 3
+              },
+              {
+                "name": "Middle East",
+                "value": 2
+              },
+              {
+                "name": "Foreign Policy",
+                "value": 2
+              },
+              {
+                "name": "Ukraine War",
+                "value": 2
+              },
+              {
+                "name": "Imeachtaí Comóraidh",
+                "value": 1
+              },
+              {
+                "name": "International Bodies",
+                "value": 1
               }
             ]
           },
@@ -593,11 +604,11 @@
                 "value": 3
               },
               {
-                "name": "Disability Services",
-                "value": 2
+                "name": "Early Childhood Care and Education",
+                "value": 3
               },
               {
-                "name": "Early Childhood Care and Education",
+                "name": "Disability Services",
                 "value": 2
               },
               {
@@ -606,6 +617,10 @@
               },
               {
                 "name": "Mother and Baby Homes",
+                "value": 1
+              },
+              {
+                "name": "Traveller Community",
                 "value": 1
               }
             ]
@@ -686,6 +701,10 @@
               {
                 "name": "Social Welfare Appeals",
                 "value": 1
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "value": 1
               }
             ]
           },
@@ -724,15 +743,10 @@
               {
                 "name": "Tax Credits",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
+              },
               {
-                "name": "EU Directives",
-                "value": 3
+                "name": "Tax Code",
+                "value": 1
               }
             ]
           },
@@ -746,6 +760,19 @@
               {
                 "name": "Artificial Intelligence",
                 "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "EU Directives",
+                "value": 3
               }
             ]
           },
@@ -1322,6 +1349,54 @@
             "name": "Health",
             "children": [
               {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2784. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason young children under the age of two years-of-age in the Dublin 12 area do not have the same public health nurse development check-in as neighbouring more affluent postal codes; the reason for the differences; the steps being taken to address this ongoing shortage of public health nurses in the Dublin 12 area; and if she will make a statement on the matter. [24185/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2784/"
+                      },
+                      {
+                        "name": "3274. Deputy Aengus Ó Snodaigh asked the Minister for Health if she will ensure that the HSE put in adequate support that allows a person (details supplied) to avail of community support for insulin administration; and if she will make a statement on the matter. [26672/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3274/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "200. Deputy Aengus Ó Snodaigh asked the Minister for Health when an applicant (details supplied) will be reimbursed for their cross-Border treatment. [46094/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/200/"
+                      },
+                      {
+                        "name": "201. Deputy Aengus Ó Snodaigh asked the Minister for Health the average length of time for a cross -Border application to be reimbursed. [46095/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/201/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "946. Deputy Aengus Ó Snodaigh asked the Minister for Health for assistance regarding a request for respite care (details supplied). [32364/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/946/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Hospital Appointments Status",
                 "children": [
                   {
@@ -1365,6 +1440,49 @@
                         "name": "1233. Deputy Aengus Ó Snodaigh asked the Minister for Health if a scan will be expedited for a person (details supplied). [37740/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1233/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medicinal Products",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2390. Deputy Aengus Ó Snodaigh asked the Minister for Health if she will intervene to ensure that the HSE prioritises a conclusion to the skyclarys reimbursement negotiations, given that it is the only available treatment for this progressive disease, which currently can be classed as having an ‘unmet need’ as outlined in the National Rare Disease Strategy 2025-2030. [43946/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2390/"
+                      },
+                      {
+                        "name": "2391. Deputy Aengus Ó Snodaigh asked the Minister for Health her views on whether the current delay aligns with the \"equitable access\" promised in the newly launched National Rare Disease Strategy 2025-2030, given that persons in the Friedreich’s ataxia community in Ireland are being left behind waiting for a decision regarding the skyclarys reimbursement, while patients across Europe gain access to skyclarys (details supplied). [43947/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2391/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2221. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason access to Friedreich's Ataxia is not available on the medical card or licenced for the drug reimbursement scheme for patients in the State; and if she will make a statement on the matter. [20816/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2221/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "457. Deputy Aengus Ó Snodaigh asked the Minister for Health when selpercatinib (details supplied) will be made available here. [46451/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/457/"
                       }
                     ]
                   }
@@ -1467,70 +1585,6 @@
                 ]
               },
               {
-                "name": "Medicinal Products",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2390. Deputy Aengus Ó Snodaigh asked the Minister for Health if she will intervene to ensure that the HSE prioritises a conclusion to the skyclarys reimbursement negotiations, given that it is the only available treatment for this progressive disease, which currently can be classed as having an ‘unmet need’ as outlined in the National Rare Disease Strategy 2025-2030. [43946/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2390/"
-                      },
-                      {
-                        "name": "2391. Deputy Aengus Ó Snodaigh asked the Minister for Health her views on whether the current delay aligns with the \"equitable access\" promised in the newly launched National Rare Disease Strategy 2025-2030, given that persons in the Friedreich’s ataxia community in Ireland are being left behind waiting for a decision regarding the skyclarys reimbursement, while patients across Europe gain access to skyclarys (details supplied). [43947/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2391/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2221. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason access to Friedreich's Ataxia is not available on the medical card or licenced for the drug reimbursement scheme for patients in the State; and if she will make a statement on the matter. [20816/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2221/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2784. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason young children under the age of two years-of-age in the Dublin 12 area do not have the same public health nurse development check-in as neighbouring more affluent postal codes; the reason for the differences; the steps being taken to address this ongoing shortage of public health nurses in the Dublin 12 area; and if she will make a statement on the matter. [24185/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2784/"
-                      },
-                      {
-                        "name": "3274. Deputy Aengus Ó Snodaigh asked the Minister for Health if she will ensure that the HSE put in adequate support that allows a person (details supplied) to avail of community support for insulin administration; and if she will make a statement on the matter. [26672/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3274/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "946. Deputy Aengus Ó Snodaigh asked the Minister for Health for assistance regarding a request for respite care (details supplied). [32364/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/946/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "children": [
                   {
@@ -1594,6 +1648,33 @@
                         "name": "238. Deputy Aengus Ó Snodaigh asked the Minister for Health for assistance in relation to appropriate supports for a child (details supplied). [35459/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/238/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "1032. Deputy Aengus Ó Snodaigh asked the Minister for Health for assistance regarding an invalidity pension (details supplied). [34093/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1032/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "453. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason the invalidity pension of a person (details supplied) is now being claimed by the HSE; the reason no notice was given to their spouse; and if consideration was given to the fact that they have a joint mortgage that cannot now be met. [46431/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/453/"
                       }
                     ]
                   }
@@ -1706,22 +1787,6 @@
                         "name": "853. Deputy Aengus Ó Snodaigh asked the Minister for Health for assistance in relation to a psychiatric review and medication assessment for a person (details supplied). [31969/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/853/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "1032. Deputy Aengus Ó Snodaigh asked the Minister for Health for assistance regarding an invalidity pension (details supplied). [34093/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1032/"
                       }
                     ]
                   }
@@ -2958,150 +3023,6 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Passport Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "229. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the status of a passport application for an Irish citizen (details supplied) residing in America; and if she will make a statement on the matter. [4007/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/229/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "244. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade for assistance in relation to a passport query (details supplied) [42950/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/244/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 10 June",
-                    "date_iso": "2026-06-10",
-                    "children": [
-                      {
-                        "name": "1. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if it is intended to ensure that widowed parents do not have to resubmit death certificates for their dead partner for child passport renewal applications subsequent it being initially submitted; and if she will make a statement on the matter. [44265/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/1/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Middle East",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "131. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if she has made, or plans to make, any representations at European Union level, through international fora on sports, or to the Israeli minister responsible for sport to demonstrate opposition to the proposed demolition of the football pitch at a location (details supplied). [4125/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/131/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "221. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade to confirm receipt of a letter from a cross-party group of parliamentarians from Ireland and Britain in relation to the situation in Palestine; the reason no response has been given; and her plans to respond to the proposals set out in the letter. [15742/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/221/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Foreign Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "214. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if the Government was consulted, through the Foreign Affairs Council or otherwise, by the European Commission in advance of its announced participation in the so-called Board of Peace meeting on 19 February 2026; if she is concerned by the participation of the European Commission in an initiative which includes wanted war criminal Benjamin Netanyahu and which was described as an effort to ‘undermine, replace, usurp the United Nations’; her views on whether the European Commission is undermining the United Nations or granting legitimacy to associated war criminals by taking part; and if she will make a statement on the matter. [14195/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/214/"
-                      },
-                      {
-                        "name": "215. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if it is the Government’s position that the institutional balance enshrined in the EU treaties envisages members of the European Commission other than the High Representative of the Union on Foreign Affairs and Security Policy speaking on behalf of the European Union and Ireland on matters of foreign affairs and security policy, as appears to be the intent of Commissioner Šuica’s attendance at the so-called Board of Peace meeting on 19 February 2026; and if she will make a statement on the matter. [14196/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/215/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ukraine War",
-                "children": [
-                  {
-                    "name": "Wednesday, 10 June",
-                    "date_iso": "2026-06-10",
-                    "children": [
-                      {
-                        "name": "2. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the action she will take to sanction a Russian-owned facility (details supplied); and if she will make a statement on the matter. [44234/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/2/"
-                      },
-                      {
-                        "name": "3. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if the issue of a Russian-owned facility (details supplied) has been raised with her; the steps that will be taken to ensure that Ireland and industries in Ireland are in full compliance with EU-imposed sanctions against Russia; and if she will make a statement on the matter. [44235/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/3/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Imeachtaí Comóraidh",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "234. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Gnóthaí Eachtracha agus Trádála an bhfuil sí i gceist aici nó ag a Ambasáid san Astráil nó i SAM an eachtra dhána a chomóradh ina ndearna na Fíníní an long Catalpa a chur go hIarthar na hAstráile chun seisear ' Fíníní Míleata' a shaoradh óna bpríosúnacht i gCarcair Fremantle agus iad a thionlacan slán go Nua Eabhrac, SAM, 150 bliain ó shin in 1876. [17153/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/234/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Bodies",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "122. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the measures she intends to take to nullify the effect within the State of foreign sanctions targeting judges of international courts or special rapporteurs of the United Nations, including by use of the Blocking Statute of the European Union; if she intends to seek use of the Blocking Statute at EU level; and if she will make a statement on the matter. [22305/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/122/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -3247,6 +3168,182 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Heritage Sites",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "261. Deputy Aengus Ó Snodaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total annual revenue resulting from charges on admission to monuments and heritage sites by the Office of Public Works in each of the past ten years. [46585/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/261/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Irish Language",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "267. Deputy Aengus Ó Snodaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the annual expenditure on courses for employees of public bodies to learn Irish, from an organisation (details supplied) or any other provider, in each of the past ten years; and the analysis that has been conducted by his Department on ways to increase the provision of such courses across the public sector. [46828/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/267/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Passport Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "229. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the status of a passport application for an Irish citizen (details supplied) residing in America; and if she will make a statement on the matter. [4007/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/229/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "244. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade for assistance in relation to a passport query (details supplied) [42950/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/244/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "1. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if it is intended to ensure that widowed parents do not have to resubmit death certificates for their dead partner for child passport renewal applications subsequent it being initially submitted; and if she will make a statement on the matter. [44265/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/1/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Middle East",
+                "children": [
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "131. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if she has made, or plans to make, any representations at European Union level, through international fora on sports, or to the Israeli minister responsible for sport to demonstrate opposition to the proposed demolition of the football pitch at a location (details supplied). [4125/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/131/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "221. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade to confirm receipt of a letter from a cross-party group of parliamentarians from Ireland and Britain in relation to the situation in Palestine; the reason no response has been given; and her plans to respond to the proposals set out in the letter. [15742/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/221/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Foreign Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "214. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if the Government was consulted, through the Foreign Affairs Council or otherwise, by the European Commission in advance of its announced participation in the so-called Board of Peace meeting on 19 February 2026; if she is concerned by the participation of the European Commission in an initiative which includes wanted war criminal Benjamin Netanyahu and which was described as an effort to ‘undermine, replace, usurp the United Nations’; her views on whether the European Commission is undermining the United Nations or granting legitimacy to associated war criminals by taking part; and if she will make a statement on the matter. [14195/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/214/"
+                      },
+                      {
+                        "name": "215. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if it is the Government’s position that the institutional balance enshrined in the EU treaties envisages members of the European Commission other than the High Representative of the Union on Foreign Affairs and Security Policy speaking on behalf of the European Union and Ireland on matters of foreign affairs and security policy, as appears to be the intent of Commissioner Šuica’s attendance at the so-called Board of Peace meeting on 19 February 2026; and if she will make a statement on the matter. [14196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/215/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ukraine War",
+                "children": [
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "2. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the action she will take to sanction a Russian-owned facility (details supplied); and if she will make a statement on the matter. [44234/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/2/"
+                      },
+                      {
+                        "name": "3. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade if the issue of a Russian-owned facility (details supplied) has been raised with her; the steps that will be taken to ensure that Ireland and industries in Ireland are in full compliance with EU-imposed sanctions against Russia; and if she will make a statement on the matter. [44235/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/3/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Imeachtaí Comóraidh",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "234. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Gnóthaí Eachtracha agus Trádála an bhfuil sí i gceist aici nó ag a Ambasáid san Astráil nó i SAM an eachtra dhána a chomóradh ina ndearna na Fíníní an long Catalpa a chur go hIarthar na hAstráile chun seisear ' Fíníní Míleata' a shaoradh óna bpríosúnacht i gCarcair Fremantle agus iad a thionlacan slán go Nua Eabhrac, SAM, 150 bliain ó shin in 1876. [17153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/234/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Bodies",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "122. Deputy Aengus Ó Snodaigh asked the Minister for Foreign Affairs and Trade the measures she intends to take to nullify the effect within the State of foreign sanctions targeting judges of international courts or special rapporteurs of the United Nations, including by use of the Blocking Statute of the European Union; if she intends to seek use of the Blocking Statute at EU level; and if she will make a statement on the matter. [22305/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/122/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3286,27 +3383,6 @@
                 ]
               },
               {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "750. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality when a child (details supplied) on a waiting list for the disability network team for occupational therapy will receive an appointment. [16884/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/750/"
-                      },
-                      {
-                        "name": "751. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality the supports available for parents/children while awaiting disability network team services given the length of time before they can be seen. [16885/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/751/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Early Childhood Care and Education",
                 "children": [
                   {
@@ -3328,6 +3404,38 @@
                         "name": "423. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality for an update in relation to a Naíonra (details supplied). [33765/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/423/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "437. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality the estimated cost of providing an additional €10,000 to every naíonra in the State; the first year and full year cost of funding a year free of charge at an Irish-medium naíonra for every pre-school aged child living in the Gaeltacht currently availing of a pre-school service funded under the ECCE scheme; and the annual expenditure specifically on Irish medium early years education in each of the past ten years. [46576/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/437/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "750. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality when a child (details supplied) on a waiting list for the disability network team for occupational therapy will receive an appointment. [16884/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/750/"
+                      },
+                      {
+                        "name": "751. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality the supports available for parents/children while awaiting disability network team services given the length of time before they can be seen. [16885/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/751/"
                       }
                     ]
                   }
@@ -3360,6 +3468,22 @@
                         "name": "1571. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality if her attention has been drawn to reports that a number of Government Departments are withholding archives from the National Centre for Research and Remembrance for survivors of mother and baby homes; the steps her Department and the Mother and Baby Homes section within her Department has taken to ensure all records are made available; and if she will make a statement on the matter. [19742/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1571/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Traveller Community",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "438. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality the expenditure provided over the past ten years to support Traveller culture, including specifically expenditure relating to support for Traveller and Roma cultural heritage centres and communications media to develop and promote their culture, stories and music of Travellers and Roma, in line with the National Traveller and Roma Inclusion Strategy 2017-2021. [46586/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/438/"
                       }
                     ]
                   }
@@ -3677,6 +3801,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "347. Deputy Aengus Ó Snodaigh asked the Minister for Social Protection the estimated annual cost of expanding Catherine’s Law to include receipt of the basic income for the arts among scholarships exempt from means-testing for disability allowance and the blind pension; and the analysis that has been conducted within his Department or in consultation with the Department for Culture, Communications and Sport on this since the introduction of the pilot basic income for the arts scheme. [46580/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/347/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3809,33 +3949,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
+              },
               {
-                "name": "EU Directives",
+                "name": "Tax Code",
                 "children": [
                   {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
                     "children": [
                       {
-                        "name": "13. Deputy Aengus Ó Snodaigh asked the Minister for Climate, Energy and the Environment when the EU's Waste Framework Directive dealing with textile recycling come fully into effect in Ireland; and the actions which will flow from it. [17717/26]",
+                        "name": "254. Deputy Aengus Ó Snodaigh asked the Tánaiste and Minister for Finance the estimated annual impact on revenue of restoring the full 5% regional uplift, as it was previously constituted, for the Section 481 tax credit for film; the estimated annual impact on revenue of establishing a 5% uplift to the Section 481 tax credit for films produced in Gaeltacht areas and/or in the Irish language; the estimated revenue which would be accrued in the first year by adopting a levy at a rate of 0.5% on ad revenue and 0.5% on subscription revenue earned by on-demand sound streaming services, such as a service (details supplied); the estimated annual impact on revenue of exempting ticket admissions for dance venues from VAT; and the estimated annual impact on revenue of exempting residential properties sold in Gaeltacht areas from stamp duty. [46574/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/13/"
-                      },
-                      {
-                        "name": "14. Deputy Aengus Ó Snodaigh asked the Minister for Climate, Energy and the Environment whether each city and county council, under the EU's Waste Framework Directive, as it pertains to textile recycling, will have to ensure all successful tenderers will be required to sort all textiles before sending them onwards for resale, reuse, repurposing or waste; when all councils will be required to have contractors in place in place to carry such work unless the council intends to carry out the work itself; and if he will make a statement on the matter. [17718/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/14/"
-                      },
-                      {
-                        "name": "15. Deputy Aengus Ó Snodaigh asked the Minister for Climate, Energy and the Environment the grants which will be available under the rollout of the EU's Waste Framework Directive as it pertains to textile recycling to accelerate and carry out the huge task of improving Ireland's poor textile recycling rates; and if he will make a statement on the matter. [17719/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/15/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/254/"
                       }
                     ]
                   }
@@ -3873,6 +3998,53 @@
                         "name": "381. D'fhiafraigh Deputy Aengus Ó Snodaigh den Aire Fiontar, Turasóireachta agus Fostaíochta an bhfuil sé ar an eolas faoin mbuairt atá léirithe ag eagrais cheoil, lena n-áirítear IMRO agus IRMA, faoi thionchar na hintleachta saorga ar cheoltóirí agus ar an earnáil cheoil in Éirinn; an bhfuil sé i gceist aige gníomh a dhéanamh dá réir; agus an ndéanfaidh sé ráiteas ina thaobh. [17093/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/381/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "270. Deputy Aengus Ó Snodaigh asked the Minister for Enterprise, Tourism and Employment the estimated yearly cost of establishing a new annual public holiday. [46581/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/270/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "EU Directives",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "13. Deputy Aengus Ó Snodaigh asked the Minister for Climate, Energy and the Environment when the EU's Waste Framework Directive dealing with textile recycling come fully into effect in Ireland; and the actions which will flow from it. [17717/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/13/"
+                      },
+                      {
+                        "name": "14. Deputy Aengus Ó Snodaigh asked the Minister for Climate, Energy and the Environment whether each city and county council, under the EU's Waste Framework Directive, as it pertains to textile recycling, will have to ensure all successful tenderers will be required to sort all textiles before sending them onwards for resale, reuse, repurposing or waste; when all councils will be required to have contractors in place in place to carry such work unless the council intends to carry out the work itself; and if he will make a statement on the matter. [17718/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/14/"
+                      },
+                      {
+                        "name": "15. Deputy Aengus Ó Snodaigh asked the Minister for Climate, Energy and the Environment the grants which will be available under the rollout of the EU's Waste Framework Directive as it pertains to textile recycling to accelerate and carry out the huge task of improving Ireland's poor textile recycling rates; and if he will make a statement on the matter. [17719/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/15/"
                       }
                     ]
                   }
@@ -6215,6 +6387,105 @@
           "heading": "Freedom of Information",
           "question": "944. Deputy Aengus Ó Snodaigh asked the Minister for Health to provide assistance to a family (details supplied) to obtain all relevant medical files under a Request for Freedom of Information Act 2014 for a dependent child for their relative who they are guardians of. [45354/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/944/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 200,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "200. Deputy Aengus Ó Snodaigh asked the Minister for Health when an applicant (details supplied) will be reimbursed for their cross-Border treatment. [46094/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/200/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 201,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "201. Deputy Aengus Ó Snodaigh asked the Minister for Health the average length of time for a cross -Border application to be reimbursed. [46095/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/201/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 254,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "254. Deputy Aengus Ó Snodaigh asked the Tánaiste and Minister for Finance the estimated annual impact on revenue of restoring the full 5% regional uplift, as it was previously constituted, for the Section 481 tax credit for film; the estimated annual impact on revenue of establishing a 5% uplift to the Section 481 tax credit for films produced in Gaeltacht areas and/or in the Irish language; the estimated revenue which would be accrued in the first year by adopting a levy at a rate of 0.5% on ad revenue and 0.5% on subscription revenue earned by on-demand sound streaming services, such as a service (details supplied); the estimated annual impact on revenue of exempting ticket admissions for dance venues from VAT; and the estimated annual impact on revenue of exempting residential properties sold in Gaeltacht areas from stamp duty. [46574/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/254/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 261,
+          "department": "Public Expenditure",
+          "heading": "Heritage Sites",
+          "question": "261. Deputy Aengus Ó Snodaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total annual revenue resulting from charges on admission to monuments and heritage sites by the Office of Public Works in each of the past ten years. [46585/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/261/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 267,
+          "department": "Public Expenditure",
+          "heading": "Irish Language",
+          "question": "267. Deputy Aengus Ó Snodaigh asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the annual expenditure on courses for employees of public bodies to learn Irish, from an organisation (details supplied) or any other provider, in each of the past ten years; and the analysis that has been conducted by his Department on ways to increase the provision of such courses across the public sector. [46828/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/267/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 270,
+          "department": "Enterprise",
+          "heading": "Departmental Policies",
+          "question": "270. Deputy Aengus Ó Snodaigh asked the Minister for Enterprise, Tourism and Employment the estimated yearly cost of establishing a new annual public holiday. [46581/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/270/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 347,
+          "department": "Social",
+          "heading": "Social Welfare Schemes",
+          "question": "347. Deputy Aengus Ó Snodaigh asked the Minister for Social Protection the estimated annual cost of expanding Catherine’s Law to include receipt of the basic income for the arts among scholarships exempt from means-testing for disability allowance and the blind pension; and the analysis that has been conducted within his Department or in consultation with the Department for Culture, Communications and Sport on this since the introduction of the pilot basic income for the arts scheme. [46580/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/347/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 437,
+          "department": "Children",
+          "heading": "Early Childhood Care and Education",
+          "question": "437. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality the estimated cost of providing an additional €10,000 to every naíonra in the State; the first year and full year cost of funding a year free of charge at an Irish-medium naíonra for every pre-school aged child living in the Gaeltacht currently availing of a pre-school service funded under the ECCE scheme; and the annual expenditure specifically on Irish medium early years education in each of the past ten years. [46576/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/437/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 438,
+          "department": "Children",
+          "heading": "Traveller Community",
+          "question": "438. Deputy Aengus Ó Snodaigh asked the Minister for Children, Disability and Equality the expenditure provided over the past ten years to support Traveller culture, including specifically expenditure relating to support for Traveller and Roma cultural heritage centres and communications media to develop and promote their culture, stories and music of Travellers and Roma, in line with the National Traveller and Roma Inclusion Strategy 2017-2021. [46586/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/438/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 453,
+          "department": "Health",
+          "heading": "Social Welfare Payments",
+          "question": "453. Deputy Aengus Ó Snodaigh asked the Minister for Health the reason the invalidity pension of a person (details supplied) is now being claimed by the HSE; the reason no notice was given to their spouse; and if consideration was given to the fact that they have a joint mortgage that cannot now be met. [46431/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/453/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 457,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "457. Deputy Aengus Ó Snodaigh asked the Minister for Health when selpercatinib (details supplied) will be made available here. [46451/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/457/",
           "questionType": "written"
         }
       ]

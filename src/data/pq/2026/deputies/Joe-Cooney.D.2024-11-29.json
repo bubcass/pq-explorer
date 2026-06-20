@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Joe-Cooney.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 114,
+      "count": 126,
       "headingOptions": [
         "Agriculture Industry",
         "Agriculture Schemes",
@@ -21,6 +21,7 @@
         "Banking Sector",
         "Cancer Services",
         "Capital Expenditure Programme",
+        "Care Services",
         "Charitable and Voluntary Organisations",
         "Child Abuse",
         "Childcare Services",
@@ -37,10 +38,12 @@
         "Digital Hubs",
         "Diplomatic Representation",
         "Disability Services",
+        "Eating Disorders",
         "Educational Disadvantage",
         "Electric Vehicles",
         "Electricity Grid",
         "Emergency Departments",
+        "Employment Schemes",
         "Forestry Sector",
         "Fuel Prices",
         "Greenways Provision",
@@ -51,6 +54,7 @@
         "Hospital Facilities",
         "Hospital Procedures",
         "Hospital Services",
+        "Hospital Staff",
         "Hospital Waiting Lists",
         "Housing Policy",
         "Housing Schemes",
@@ -64,12 +68,15 @@
         "Nursing Homes",
         "Office of Public Works",
         "Official Travel",
+        "Passport Services",
         "Paternity Leave",
         "Planning Issues",
         "Policing of Events",
         "Public Appointments Service",
         "Public Services Provision",
         "Rail Network",
+        "Revenue Commissioners",
+        "Road Network",
         "Road Safety",
         "School Accommodation",
         "School Costs",
@@ -94,9 +101,9 @@
       ],
       "insights": {
         "topHeading": "An Garda Síochána",
-        "topHeadingCount": 4,
+        "topHeadingCount": 6,
         "topDepartment": "Health",
-        "topDepartmentCount": 24
+        "topDepartmentCount": 26
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -175,6 +182,14 @@
               {
                 "name": "Health Strategies",
                 "value": 1
+              },
+              {
+                "name": "Eating Disorders",
+                "value": 1
+              },
+              {
+                "name": "Hospital Staff",
+                "value": 1
               }
             ]
           },
@@ -211,6 +226,39 @@
               },
               {
                 "name": "School Costs",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "value": 6
+              },
+              {
+                "name": "International Protection",
+                "value": 1
+              },
+              {
+                "name": "Ukraine War",
+                "value": 1
+              },
+              {
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Policing of Events",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Departmental Staff",
                 "value": 1
               }
             ]
@@ -286,35 +334,6 @@
             ]
           },
           {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "value": 4
-              },
-              {
-                "name": "International Protection",
-                "value": 1
-              },
-              {
-                "name": "Ukraine War",
-                "value": 1
-              },
-              {
-                "name": "Tax Code",
-                "value": 1
-              },
-              {
-                "name": "Policing of Events",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Finance",
             "children": [
               {
@@ -339,6 +358,39 @@
               },
               {
                 "name": "Banking Sector",
+                "value": 1
+              },
+              {
+                "name": "Revenue Commissioners",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Greenways Provision",
+                "value": 2
+              },
+              {
+                "name": "Transport Policy",
+                "value": 1
+              },
+              {
+                "name": "Road Safety",
+                "value": 1
+              },
+              {
+                "name": "Rail Network",
+                "value": 1
+              },
+              {
+                "name": "Electric Vehicles",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
                 "value": 1
               }
             ]
@@ -373,26 +425,18 @@
             ]
           },
           {
-            "name": "Transport",
+            "name": "Foreign",
             "children": [
               {
-                "name": "Transport Policy",
+                "name": "Consular Services",
+                "value": 3
+              },
+              {
+                "name": "Diplomatic Representation",
                 "value": 1
               },
               {
-                "name": "Greenways Provision",
-                "value": 1
-              },
-              {
-                "name": "Road Safety",
-                "value": 1
-              },
-              {
-                "name": "Rail Network",
-                "value": 1
-              },
-              {
-                "name": "Electric Vehicles",
+                "name": "Passport Services",
                 "value": 1
               }
             ]
@@ -440,6 +484,27 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "value": 1
+              },
+              {
+                "name": "Third Level Education",
+                "value": 1
+              },
+              {
+                "name": "Employment Schemes",
+                "value": 1
+              },
+              {
+                "name": "Care Services",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -461,15 +526,6 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Consular Services",
-                "value": 3
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
               {
@@ -482,19 +538,6 @@
               },
               {
                 "name": "Charitable and Voluntary Organisations",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Payments",
-                "value": 1
-              },
-              {
-                "name": "Third Level Education",
                 "value": 1
               }
             ]
@@ -891,6 +934,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Eating Disorders",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "195. Deputy Joe Cooney asked the Minister for Health the specialist supports available to persons with eating disorders residing in County Clare; and the locations of those supports and the distance individuals may be required to travel for assessment and or treatment. [46062/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/195/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "196. Deputy Joe Cooney asked the Minister for Health the staffing budget allocation for University Hospital Limerick in each of the years of 2025 and 2026 to date, in tabular form. [46063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/196/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1074,6 +1149,166 @@
                         "name": "318. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025, inclusive. [31718/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/318/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1267. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 838 of 4 February 2026, if he has received the necessary information from the Garda to answer this parliamentary question. [18663/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1267/"
+                      },
+                      {
+                        "name": "1268. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the percentage of the Garda roads policing motorcycle fleet that are 1250cc. [18664/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1268/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "130. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the amount spent by An Garda Síochána on purchasing mountain bikes for its fleet in the years of 2025 and to-date in 2026, in tabular form. [46065/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/130/"
+                      },
+                      {
+                        "name": "131. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the number of new marked and unmarked Garda cars and vans added to the Garda dog unit fleet in each of the years 2024 to 2025 and to-date in 2026; the number of vehicles withdrawn from the fleet during same period, in tabular form. [46066/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/131/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "838. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the number of property seizure holding facilities currently available in each Garda division, in tabular form. [8508/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/838/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "38. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the current strength of An Garda Síochána in the Clare-Tipperary division, by each county, in whole numbers and as a percentage of the national figure; the total number of probationer gardaí allocated to stations in County Clare since January 2025, as a whole number and as a percentage of the total; the plans to increase Garda numbers in the county in line with the programme for Government commitment to recruit at least 5,000 gardaí over the coming five years; and if he will make a statement on the matter. [35404/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/38/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "5. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the number of contracts issued to hotels and-or guest houses to accommodate Ukrainian people, including the total number of beds, by county, at end of both February 2025 and February 2026, in tabular form; and if he will make a statement on the matter. [20884/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/5/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ukraine War",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "7. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration for the number of properties in receipt of the ARP, by county, at end of February 2025 and 2026, in tabular form; and if he will make a statement on the matter. [20885/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/7/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "285. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration his Departments position on ‘unjust enrichment’; and if he will make a statement on the matter. [27365/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/285/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Policing of Events",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "14. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the Garda resources that have been allocated to County Clare in respect of major events scheduled for 2026, including a tournament (details supplied); whether the staffing required for such events is being drawn from within the existing Clare-Tipperary division complement or from other divisions; the steps being taken to ensure that high-visibility community policing in County Clare is not diminished during periods of major event deployment; and if he will make a statement on the matter. [35405/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/14/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "439. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration for information on the implementation of Grace's Law; the number of arrests made, prosecutions pending and convictions under the new legislation; and if he will make a statement on the matter. [40925/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/439/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "129. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the staffing levels at the visa office in Beijing and Abu Dhabi; and the number of applications that were received in each of those offices in 2025 and to-date in 2026, in tabular form. [46064/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/129/"
                       }
                     ]
                   }
@@ -1369,134 +1604,6 @@
             ]
           },
           {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1267. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 838 of 4 February 2026, if he has received the necessary information from the Garda to answer this parliamentary question. [18663/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1267/"
-                      },
-                      {
-                        "name": "1268. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the percentage of the Garda roads policing motorcycle fleet that are 1250cc. [18664/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1268/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "838. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the number of property seizure holding facilities currently available in each Garda division, in tabular form. [8508/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/838/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "38. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the current strength of An Garda Síochána in the Clare-Tipperary division, by each county, in whole numbers and as a percentage of the national figure; the total number of probationer gardaí allocated to stations in County Clare since January 2025, as a whole number and as a percentage of the total; the plans to increase Garda numbers in the county in line with the programme for Government commitment to recruit at least 5,000 gardaí over the coming five years; and if he will make a statement on the matter. [35404/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/38/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "5. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the number of contracts issued to hotels and-or guest houses to accommodate Ukrainian people, including the total number of beds, by county, at end of both February 2025 and February 2026, in tabular form; and if he will make a statement on the matter. [20884/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/5/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ukraine War",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "7. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration for the number of properties in receipt of the ARP, by county, at end of February 2025 and 2026, in tabular form; and if he will make a statement on the matter. [20885/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/7/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Code",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "285. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration his Departments position on ‘unjust enrichment’; and if he will make a statement on the matter. [27365/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/285/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Policing of Events",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "14. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the Garda resources that have been allocated to County Clare in respect of major events scheduled for 2026, including a tournament (details supplied); whether the staffing required for such events is being drawn from within the existing Clare-Tipperary division complement or from other divisions; the steps being taken to ensure that high-visibility community policing in County Clare is not diminished during periods of major event deployment; and if he will make a statement on the matter. [35405/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/14/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "439. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration for information on the implementation of Grace's Law; the number of arrests made, prosecutions pending and convictions under the new legislation; and if he will make a statement on the matter. [40925/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/439/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Finance",
             "children": [
               {
@@ -1606,6 +1713,134 @@
                         "name": "442. Deputy Joe Cooney asked the Tánaiste and Minister for Finance whether an issue of 'unjust enrichment' occurs where a vulture fund gets more than a reasonable return on its investment in the context of a property repossession; and if he will make a statement on the matter. [35292/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/442/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Revenue Commissioners",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "48. Deputy Joe Cooney asked the Tánaiste and Minister for Finance the amount of cigarettes and tobacco products seized by the Revenue Commissioners personnel at Shannon Airport in each of the first five months of 2026, in tabular form. [46061/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/48/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Greenways Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "183. Deputy Joe Cooney asked the Minister for Transport the progress made to date on each section of the West Clare Railway Greenway; the next steps to be taken for sections one and two; the plans for investment in sections three and four in 2026; and if he will make a statement on the matter. [1450/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/183/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "166. Deputy Joe Cooney asked the Minister for Transport the current status of greenway projects under development in County Clare; the funding allocated to date for each such project; the projected timeline for delivery of each; and if he will make a statement on the matter. [46044/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/166/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Policy",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "19. Deputy Joe Cooney asked the Minister for Transport to provide passenger numbers as a total number, and occupancy rates as a percentage, for all TFI services in County Clare in 2024 and 2025, by route, in tabular form; the plans for expanding existing and new services in Clare during 2026; and if he will make a statement on the matter. [2574/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/19/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "94. Deputy Joe Cooney asked the Minister for Transport to consider extending the mandate for reflective road studs, commonly known as cat's eyes, to regional routes, particularly in rural areas; and if he will make a statement on the matter. [15769/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/94/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "170. Deputy Joe Cooney asked the Minister for Transport to outline his Department's position on the proposed rail service to Shannon Airport, via a spur from Sixmilebridge. [15350/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/170/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "185. Deputy Joe Cooney asked the Minister for Transport whether he plans to seek a formal exemption for Irish short-term car rental operators from the proposed requirements of the European Commission’s Clean Corporate Vehicles Regulations in forthcoming negotiations; if he will confirm that mandatory zero-and low-emission fleet targets will not apply to the sector until a sufficiently reliable and nationwide electric vehicle charging infrastructure is in place; and if he will make a statement on the matter. [27357/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/185/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "194. Deputy Joe Cooney asked the Minister for Transport the level of regional and local road funding allocated to County Clare in each of the years 2023 to 2025; whether this allocation is adequate given the extent of the road network in the county; the funding that has been confirmed for 2026; his views on whether the allocation formula should be amended to adequately account for network extent and rural settlement patterns; and if he will make a statement on the matter. [46043/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/194/"
                       }
                     ]
                   }
@@ -1720,83 +1955,67 @@
             ]
           },
           {
-            "name": "Transport",
+            "name": "Foreign",
             "children": [
               {
-                "name": "Transport Policy",
+                "name": "Consular Services",
                 "children": [
                   {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
                     "children": [
                       {
-                        "name": "19. Deputy Joe Cooney asked the Minister for Transport to provide passenger numbers as a total number, and occupancy rates as a percentage, for all TFI services in County Clare in 2024 and 2025, by route, in tabular form; the plans for expanding existing and new services in Clare during 2026; and if he will make a statement on the matter. [2574/26]",
+                        "name": "194. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade if she will report on the recent activities of the Irish Embassy based in Riyadh including staffing levels. [31728/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/19/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/194/"
+                      },
+                      {
+                        "name": "195. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the number of WTE staff, by job title currently working in each Irish Embassy and Consulate General offices worldwide, in tabular form. [31729/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/195/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "166. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade if she will report on activities on the Irish Consulate General based in Munich including staffing resources. [8502/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/166/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Greenways Provision",
+                "name": "Diplomatic Representation",
                 "children": [
                   {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
                     "children": [
                       {
-                        "name": "183. Deputy Joe Cooney asked the Minister for Transport the progress made to date on each section of the West Clare Railway Greenway; the next steps to be taken for sections one and two; the plans for investment in sections three and four in 2026; and if he will make a statement on the matter. [1450/26]",
+                        "name": "2. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the number of Irish citizens who have sought assistance from the Irish Embassy in New Zealand in each of the years 2023 to 2025 and to date in 2026, in tabular form. [46067/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/183/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/2/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Road Safety",
+                "name": "Passport Services",
                 "children": [
                   {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
                     "children": [
                       {
-                        "name": "94. Deputy Joe Cooney asked the Minister for Transport to consider extending the mandate for reflective road studs, commonly known as cat's eyes, to regional routes, particularly in rural areas; and if he will make a statement on the matter. [15769/26]",
+                        "name": "3. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the number of children's passports that were issued in each of the first five months of 2026. [46068/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/94/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Rail Network",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "170. Deputy Joe Cooney asked the Minister for Transport to outline his Department's position on the proposed rail service to Shannon Airport, via a spur from Sixmilebridge. [15350/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/170/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Electric Vehicles",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "185. Deputy Joe Cooney asked the Minister for Transport whether he plans to seek a formal exemption for Irish short-term car rental operators from the proposed requirements of the European Commission’s Clean Corporate Vehicles Regulations in forthcoming negotiations; if he will confirm that mandatory zero-and low-emission fleet targets will not apply to the sector until a sufficiently reliable and nationwide electric vehicle charging infrastructure is in place; and if he will make a statement on the matter. [27357/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/185/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/3/"
                       }
                     ]
                   }
@@ -1959,6 +2178,75 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "31. Deputy Joe Cooney asked the Minister for Social Protection his plans to introduce a permanent annual cost of disability support payment; the potential cost to the Exchequer of such a payment; if there is a timeline for the introduction of same; and if he will make a statement on the matter. [69982/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/31/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Education",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "616. Deputy Joe Cooney asked the Minister for Social Protection if he will review the 18.5 hours limit for carers who are undertaking postgraduate education and advanced professional upskilling; and if he will make a statement on the matter. [45043/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/616/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Employment Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "24. Deputy Joe Cooney asked the Minister for Social Protection if, in the context of the low numbers involved in the employment support scheme, he will consider ensuring those who are currently in receipt of the scheme retain it when changing employers; and if he will make a statement on the matter. [46041/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/24/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Care Services",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "32. Deputy Joe Cooney asked the Minister for Social Protection if, given that over 60% of appealed decisions are overturned, the steps he is taking to address the high initial rates of refusal for the domiciliary care allowance; if his Department has undertaken any research into the costs incurred by families in rural counties for private assessments to support appeals for a payment to which they are have been proven to be entitled to; and if he will make a statement on the matter. [46042/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/32/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -2028,43 +2316,6 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Consular Services",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "194. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade if she will report on the recent activities of the Irish Embassy based in Riyadh including staffing levels. [31728/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/194/"
-                      },
-                      {
-                        "name": "195. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the number of WTE staff, by job title currently working in each Irish Embassy and Consulate General offices worldwide, in tabular form. [31729/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/195/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "166. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade if she will report on activities on the Irish Consulate General based in Munich including staffing resources. [8502/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/166/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
               {
@@ -2110,43 +2361,6 @@
                         "name": "1051. Deputy Joe Cooney asked the Minister for Rural and Community Development and the Gaeltacht if, given the long delays experienced by some charities in having the sale of property approved; the number of staff within the office of the Charities Regulator; the vacancies within the office; whether staff levels are commensurate with delivering their duties in a reasonable timeframe; and if he will make a statement on the matter. [45044/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/1051/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "31. Deputy Joe Cooney asked the Minister for Social Protection his plans to introduce a permanent annual cost of disability support payment; the potential cost to the Exchequer of such a payment; if there is a timeline for the introduction of same; and if he will make a statement on the matter. [69982/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/31/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Third Level Education",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "616. Deputy Joe Cooney asked the Minister for Social Protection if he will review the 18.5 hours limit for carers who are undertaking postgraduate education and advanced professional upskilling; and if he will make a statement on the matter. [45043/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/616/"
                       }
                     ]
                   }
@@ -3265,6 +3479,114 @@
           "heading": "Charitable and Voluntary Organisations",
           "question": "1051. Deputy Joe Cooney asked the Minister for Rural and Community Development and the Gaeltacht if, given the long delays experienced by some charities in having the sale of property approved; the number of staff within the office of the Charities Regulator; the vacancies within the office; whether staff levels are commensurate with delivering their duties in a reasonable timeframe; and if he will make a statement on the matter. [45044/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/1051/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 2,
+          "department": "Foreign",
+          "heading": "Diplomatic Representation",
+          "question": "2. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the number of Irish citizens who have sought assistance from the Irish Embassy in New Zealand in each of the years 2023 to 2025 and to date in 2026, in tabular form. [46067/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/2/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 3,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "3. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the number of children's passports that were issued in each of the first five months of 2026. [46068/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/3/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 48,
+          "department": "Finance",
+          "heading": "Revenue Commissioners",
+          "question": "48. Deputy Joe Cooney asked the Tánaiste and Minister for Finance the amount of cigarettes and tobacco products seized by the Revenue Commissioners personnel at Shannon Airport in each of the first five months of 2026, in tabular form. [46061/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/48/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 129,
+          "department": "Justice",
+          "heading": "Departmental Staff",
+          "question": "129. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the staffing levels at the visa office in Beijing and Abu Dhabi; and the number of applications that were received in each of those offices in 2025 and to-date in 2026, in tabular form. [46064/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/129/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 130,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "130. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the amount spent by An Garda Síochána on purchasing mountain bikes for its fleet in the years of 2025 and to-date in 2026, in tabular form. [46065/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/130/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 131,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "131. Deputy Joe Cooney asked the Minister for Justice, Home Affairs and Migration the number of new marked and unmarked Garda cars and vans added to the Garda dog unit fleet in each of the years 2024 to 2025 and to-date in 2026; the number of vehicles withdrawn from the fleet during same period, in tabular form. [46066/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/131/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 195,
+          "department": "Health",
+          "heading": "Eating Disorders",
+          "question": "195. Deputy Joe Cooney asked the Minister for Health the specialist supports available to persons with eating disorders residing in County Clare; and the locations of those supports and the distance individuals may be required to travel for assessment and or treatment. [46062/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/195/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 196,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "196. Deputy Joe Cooney asked the Minister for Health the staffing budget allocation for University Hospital Limerick in each of the years of 2025 and 2026 to date, in tabular form. [46063/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/196/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 24,
+          "department": "Social",
+          "heading": "Employment Schemes",
+          "question": "24. Deputy Joe Cooney asked the Minister for Social Protection if, in the context of the low numbers involved in the employment support scheme, he will consider ensuring those who are currently in receipt of the scheme retain it when changing employers; and if he will make a statement on the matter. [46041/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/24/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 32,
+          "department": "Social",
+          "heading": "Care Services",
+          "question": "32. Deputy Joe Cooney asked the Minister for Social Protection if, given that over 60% of appealed decisions are overturned, the steps he is taking to address the high initial rates of refusal for the domiciliary care allowance; if his Department has undertaken any research into the costs incurred by families in rural counties for private assessments to support appeals for a payment to which they are have been proven to be entitled to; and if he will make a statement on the matter. [46042/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/32/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 166,
+          "department": "Transport",
+          "heading": "Greenways Provision",
+          "question": "166. Deputy Joe Cooney asked the Minister for Transport the current status of greenway projects under development in County Clare; the funding allocated to date for each such project; the projected timeline for delivery of each; and if he will make a statement on the matter. [46044/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/166/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 194,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "194. Deputy Joe Cooney asked the Minister for Transport the level of regional and local road funding allocated to County Clare in each of the years 2023 to 2025; whether this allocation is adequate given the extent of the road network in the county; the funding that has been confirmed for 2026; his views on whether the allocation formula should be amended to adequately account for network extent and rural settlement patterns; and if he will make a statement on the matter. [46043/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/194/",
           "questionType": "written"
         }
       ]

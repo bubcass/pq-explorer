@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Naoise-Ó-Muirí.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 252,
+      "count": 260,
       "headingOptions": [
         "Agriculture Schemes",
         "Air Services",
@@ -54,6 +54,7 @@
         "Education Policy",
         "Education Schemes",
         "Educational Disadvantage",
+        "Electricity Generation",
         "Electricity Grid",
         "Emergency Planning",
         "Employment Data",
@@ -137,6 +138,7 @@
         "State Savings Schemes",
         "Student Accommodation",
         "Tax Code",
+        "Tax Exemptions",
         "Teaching Council of Ireland",
         "Technological Universities",
         "Third Level Education",
@@ -345,10 +347,14 @@
               },
               {
                 "name": "Public Transport",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Disability Services",
+                "value": 2
+              },
+              {
+                "name": "Road Network",
                 "value": 2
               },
               {
@@ -373,10 +379,6 @@
               },
               {
                 "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Road Network",
                 "value": 1
               }
             ]
@@ -443,6 +445,63 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Tax Exemptions",
+                "value": 2
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Energy Prices",
+                "value": 1
+              },
+              {
+                "name": "Climate Action Plan",
+                "value": 1
+              },
+              {
+                "name": "Just Transition",
+                "value": 1
+              },
+              {
+                "name": "Environmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "Departmental Strategies",
+                "value": 1
+              },
+              {
+                "name": "Renewable Energy Generation",
+                "value": 1
+              },
+              {
+                "name": "Energy Policy",
+                "value": 1
+              },
+              {
+                "name": "Energy Conservation",
+                "value": 1
+              },
+              {
+                "name": "Energy Infrastructure",
+                "value": 1
+              },
+              {
+                "name": "Climate Change Policy",
+                "value": 1
+              },
+              {
+                "name": "Electricity Generation",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -483,6 +542,55 @@
               },
               {
                 "name": "Insurance Industry",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "value": 2
+              },
+              {
+                "name": "Disability Issues",
+                "value": 2
+              },
+              {
+                "name": "Disability Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Child Poverty",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "value": 1
+              },
+              {
+                "name": "Weather Events",
+                "value": 1
+              },
+              {
+                "name": "School Meals Programme",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "value": 1
+              },
+              {
+                "name": "Children in Care",
                 "value": 1
               }
             ]
@@ -582,55 +690,6 @@
             ]
           },
           {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Payments",
-                "value": 2
-              },
-              {
-                "name": "Disability Services",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Child Poverty",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "value": 1
-              },
-              {
-                "name": "Disability Issues",
-                "value": 1
-              },
-              {
-                "name": "Weather Events",
-                "value": 1
-              },
-              {
-                "name": "School Meals Programme",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Schemes",
-                "value": 1
-              },
-              {
-                "name": "Children in Care",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -655,55 +714,6 @@
               },
               {
                 "name": "Departmental Projects",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Energy Prices",
-                "value": 1
-              },
-              {
-                "name": "Climate Action Plan",
-                "value": 1
-              },
-              {
-                "name": "Just Transition",
-                "value": 1
-              },
-              {
-                "name": "Environmental Schemes",
-                "value": 1
-              },
-              {
-                "name": "Departmental Strategies",
-                "value": 1
-              },
-              {
-                "name": "Renewable Energy Generation",
-                "value": 1
-              },
-              {
-                "name": "Energy Policy",
-                "value": 1
-              },
-              {
-                "name": "Energy Conservation",
-                "value": 1
-              },
-              {
-                "name": "Energy Infrastructure",
-                "value": 1
-              },
-              {
-                "name": "Climate Change Policy",
                 "value": 1
               }
             ]
@@ -741,6 +751,31 @@
               },
               {
                 "name": "EU Funding",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 6
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Disability Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Early Childhood Care and Education",
                 "value": 1
               }
             ]
@@ -811,31 +846,6 @@
               },
               {
                 "name": "EU Presidency",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "value": 4
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Disability Services",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Early Childhood Care and Education",
                 "value": 1
               }
             ]
@@ -2036,6 +2046,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/156/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "183. Deputy Naoise Ó Muirí asked the Minister for Transport if he will provide an update on the establishment of a public transport security force; when he expects this force to be operational; and if he will make a statement on the matter. [46320/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/183/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2055,6 +2076,33 @@
                         "name": "49. Deputy Naoise Ó Muirí asked the Minister for Transport if he is satisfied that the level of wheelchair-accessible bus transport available to passengers travelling between Mayo and Galway, Limerick and Dublin meets national accessibility standards and policy commitments; and if he will make a statement on the matter. [40734/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/49/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "313. Deputy Naoise Ó Muirí asked the Minister for Transport if funding has been allocated to enable an upgrade on the Donaghmede roundabout at the Hole in the Wall, Clarehall Avenue, Grange Road junction; and if he will make a statement on the matter. [45564/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/313/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "136. Deputy Naoise Ó Muirí asked the Minister for Transport the reason the four Dublin local authorities received only a small proportion of the €1.5 billion allocated this year for national, regional and local roads; the way in which these authorities are expected to fund the maintenance and renewal of roads; and if he will make a statement on the matter. [46321/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/136/"
                       }
                     ]
                   }
@@ -2151,22 +2199,6 @@
                         "name": "45. Deputy Naoise Ó Muirí asked the Minister for Transport when the next call will come for funding for new bus shelters at bus stopping locations; if there will be a call in 2026; and if he will make a statement on the matter. [40730/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/45/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Network",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "313. Deputy Naoise Ó Muirí asked the Minister for Transport if funding has been allocated to enable an upgrade on the Donaghmede roundabout at the Hole in the Wall, Clarehall Avenue, Grange Road junction; and if he will make a statement on the matter. [45564/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/313/"
                       }
                     ]
                   }
@@ -2457,6 +2489,224 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Tax Exemptions",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "14. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the cost of increasing the microgeneration tax exemption from €400 to €600; and if he will make a statement on the matter. [46139/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/14/"
+                      },
+                      {
+                        "name": "15. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment whether multiple tenants in a home can avail of the microgeneration tax exemption; and if he will make a statement on the matter. [46140/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/15/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "344. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the payroll cost of his Department and of each organisation or agency under its remit individually, in 2015 to 2025, by year, in tabular form. [74621/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/344/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Prices",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "260. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment for his views on the non-energy electricity network charges faced by energy-intensive industries in Ireland in comparison with other EU member states; whether his Department keeps these charges under review in the context of industrial competitiveness and energy system objectives; whether any assessment has been undertaken of how such charges interact with the National Energy Demand Strategy’s objective of increasing industrial demand flexibility to support the integration of renewable generation; and if he will make a statement on the matter. [4265/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/260/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Climate Action Plan",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "164. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the funding for north Dublin under the 2026 Community Climate Action Programme; the total funding since 2023; and if he will make a statement on the matter. [14824/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/164/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Just Transition",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "188. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the role of the new START scheme under the EU Just Transition Fund; and if he will make a statement on the matter. [14825/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/188/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Environmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "173. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if consideration has been given to instructing Re-Turn to distribute part of its surplus to community organisations in the form of grants; and if he will make a statement on the matter. [23130/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/173/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "163. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the key measures in the new Economy Strategy 2026-2028: Accelerating Action; and if he will make a statement on the matter. [27697/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/163/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Renewable Energy Generation",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "291. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment for an update on the current rule excluding homes built after 2021 from solar panel SEAI funding, if there are any plans to review this limit; and if he will make a statement on the matter. [29399/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/291/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "24. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the way in which revenue raised through the Market Cap Fund will be allocated; the reasons for the significant underspends under Vote 29 in the 2024 Appropriation Account; and if he will make a statement on the matter. [44487/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/24/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Conservation",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "44. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the number and total value of drawdowns under the home energy upgrade loan scheme; and if he will make a statement on the matter. [44498/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/44/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Infrastructure",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "140. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the importance of protecting our energy infrastructure, as defined in the National Strategy on the Resilience of Critical Entities; and if he will make a statement on the matter. [33262/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/140/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Climate Change Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "141. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the way in which his Department aims to strengthen Irish influence across climate policies within the EU; and if he will make a statement on the matter. [38786/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/141/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electricity Generation",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "16. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the progress of the Decarbonised Electricity System Study underway within the SEAI; the goals of the techno-economic study; and if he will make a statement on the matter. [46141/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/16/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -2647,6 +2897,209 @@
                         "name": "205. Deputy Naoise Ó Muirí asked the Tánaiste and Minister for Finance if he will provide an update on the action plan on insurance reform, including actions to reduce average motor insurance costs; and if he will make a statement on the matter. [39884/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/205/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "64. Deputy Naoise Ó Muirí asked the Minister for Social Protection the expanded services that will be provided by the An Post Network on behalf of his Department;; and if he will make a statement on the matter. [2791/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/64/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "47. Deputy Naoise Ó Muirí asked the Minister for Social Protection if there are plans to update the emergency response payment, recognising that apartments are becoming a significant proportion of Irish dwellings; and if he will make a statement on the matter. [15602/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/47/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Issues",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "85. Deputy Naoise Ó Muirí asked the Minister for Social Protection the way in which his Department will engage with stakeholders in the formation of a cost of disability payment; and if he will make a statement on the matter. [15603/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/85/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "45. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he is aware that parents of children with additional needs may be unable to receive disability-related payments, such as the domiciliary care allowance if they take holidays exceeding two weeks; and if he will make a statement on the matter. [46324/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/45/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1506. Deputy Naoise Ó Muirí asked the Minister for Social Protection if his Department has examined the introduction of a dedicated support scheme for parents with disabilities; and if he will make a statement on the matter. [1840/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1506/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1540. Deputy Naoise Ó Muirí asked the Minister for Social Protection the payroll cost of his Department and of each organisation or agency under its remit individually, in 2015 to 2025, by year, in tabular form. [74634/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1540/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Child Poverty",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "61. Deputy Naoise Ó Muirí asked the Minister for Social Protection the progress being made in reaching our 2030 goals in tackling child poverty. [2628/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/61/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "838. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he has considered expanding the domiciliary care allowance payment to children up to the age of 18; and if he will make a statement on the matter. [11628/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/838/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Weather Events",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "199. Deputy Naoise Ó Muirí asked the Minister for Social Protection the number of Clongriffin apartment residents in Dublin 13 who applied for the emergency response payment scheme for storm Chandra before it closed on 18 February 2026; and if he will make a statement on the matter. [17400/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/199/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Meals Programme",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "194. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he has considered expanding the school meals programme to all post primary schools; the estimated cost of this measure; and if he will make a statement on the matter. [29183/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/194/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "42. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the progress being made to introduce a new working age payment; and if he will make a statement on the matter. [31315/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/42/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "54. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the number of families who have availed of the newborn baby grant; and if he will make a statement on the matter. [31314/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/54/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Children in Care",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "11. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the programme for Government commitment to examine pension provisions for foster carers; when he expects this to be introduced; and if he will make a statement on the matter. [46325/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/11/"
                       }
                     ]
                   }
@@ -3034,198 +3487,6 @@
             ]
           },
           {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "64. Deputy Naoise Ó Muirí asked the Minister for Social Protection the expanded services that will be provided by the An Post Network on behalf of his Department;; and if he will make a statement on the matter. [2791/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/64/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "47. Deputy Naoise Ó Muirí asked the Minister for Social Protection if there are plans to update the emergency response payment, recognising that apartments are becoming a significant proportion of Irish dwellings; and if he will make a statement on the matter. [15602/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/47/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1506. Deputy Naoise Ó Muirí asked the Minister for Social Protection if his Department has examined the introduction of a dedicated support scheme for parents with disabilities; and if he will make a statement on the matter. [1840/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1506/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1540. Deputy Naoise Ó Muirí asked the Minister for Social Protection the payroll cost of his Department and of each organisation or agency under its remit individually, in 2015 to 2025, by year, in tabular form. [74634/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1540/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Child Poverty",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "61. Deputy Naoise Ó Muirí asked the Minister for Social Protection the progress being made in reaching our 2030 goals in tackling child poverty. [2628/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/61/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "838. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he has considered expanding the domiciliary care allowance payment to children up to the age of 18; and if he will make a statement on the matter. [11628/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/838/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Issues",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "85. Deputy Naoise Ó Muirí asked the Minister for Social Protection the way in which his Department will engage with stakeholders in the formation of a cost of disability payment; and if he will make a statement on the matter. [15603/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/85/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Weather Events",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "199. Deputy Naoise Ó Muirí asked the Minister for Social Protection the number of Clongriffin apartment residents in Dublin 13 who applied for the emergency response payment scheme for storm Chandra before it closed on 18 February 2026; and if he will make a statement on the matter. [17400/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/199/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Meals Programme",
-                "children": [
-                  {
-                    "name": "Wednesday, 29 April",
-                    "date_iso": "2026-04-29",
-                    "children": [
-                      {
-                        "name": "194. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he has considered expanding the school meals programme to all post primary schools; the estimated cost of this measure; and if he will make a statement on the matter. [29183/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/194/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "42. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the progress being made to introduce a new working age payment; and if he will make a statement on the matter. [31315/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/42/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "54. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the number of families who have availed of the newborn baby grant; and if he will make a statement on the matter. [31314/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/54/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Children in Care",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "11. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the programme for Government commitment to examine pension provisions for foster carers; when he expects this to be introduced; and if he will make a statement on the matter. [46325/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/11/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -3361,187 +3622,6 @@
                         "name": "89. Deputy Naoise Ó Muirí asked the Minister for Agriculture, Food and the Marine to provide an update on research his Department has undertaken on the efficacy of methane-reducing feed additives; and if he will make a statement on the matter. [20963/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/89/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "344. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the payroll cost of his Department and of each organisation or agency under its remit individually, in 2015 to 2025, by year, in tabular form. [74621/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/344/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Energy Prices",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "260. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment for his views on the non-energy electricity network charges faced by energy-intensive industries in Ireland in comparison with other EU member states; whether his Department keeps these charges under review in the context of industrial competitiveness and energy system objectives; whether any assessment has been undertaken of how such charges interact with the National Energy Demand Strategy’s objective of increasing industrial demand flexibility to support the integration of renewable generation; and if he will make a statement on the matter. [4265/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/260/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Climate Action Plan",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "164. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the funding for north Dublin under the 2026 Community Climate Action Programme; the total funding since 2023; and if he will make a statement on the matter. [14824/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/164/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Just Transition",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "188. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the role of the new START scheme under the EU Just Transition Fund; and if he will make a statement on the matter. [14825/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/188/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Environmental Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "173. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if consideration has been given to instructing Re-Turn to distribute part of its surplus to community organisations in the form of grants; and if he will make a statement on the matter. [23130/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/173/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Strategies",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "163. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the key measures in the new Economy Strategy 2026-2028: Accelerating Action; and if he will make a statement on the matter. [27697/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/163/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Renewable Energy Generation",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "291. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment for an update on the current rule excluding homes built after 2021 from solar panel SEAI funding, if there are any plans to review this limit; and if he will make a statement on the matter. [29399/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/291/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Energy Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "24. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the way in which revenue raised through the Market Cap Fund will be allocated; the reasons for the significant underspends under Vote 29 in the 2024 Appropriation Account; and if he will make a statement on the matter. [44487/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/24/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Energy Conservation",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "44. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the number and total value of drawdowns under the home energy upgrade loan scheme; and if he will make a statement on the matter. [44498/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/44/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Energy Infrastructure",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "140. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the importance of protecting our energy infrastructure, as defined in the National Strategy on the Resilience of Critical Entities; and if he will make a statement on the matter. [33262/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/140/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Climate Change Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "141. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment if he will outline the way in which his Department aims to strengthen Irish influence across climate policies within the EU; and if he will make a statement on the matter. [38786/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/141/"
                       }
                     ]
                   }
@@ -3696,6 +3776,134 @@
                         "name": "56. Deputy Naoise Ó Muirí asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will outline the investment targets to be achieved under the fourth payment of the Recovery and Resilience Facility (RRF), including those relating to renewable energy projects; and if he will make a statement on the matter. [40718/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/56/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "136. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if she will outline the funding allocated for childminding development grants; the number of applicants who will be supported; and if she will make a statement on the matter. [13363/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/136/"
+                      },
+                      {
+                        "name": "171. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department has assessed the significant level of demand for childcare services in north Dublin in its plans for State-led facilities; and if she will make a statement on the matter. [13362/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/171/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "448. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality the number of childcare services that have left NCS core funding and remain outside of it, by county, in tabular form; and if she will make a statement on the matter. [46715/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/448/"
+                      },
+                      {
+                        "name": "449. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department has considered introducing additional supports for parents with children in childcare that fall outside NCS core funding, such as childcare tax relief; and if she will make a statement on the matter. [46716/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/449/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "508. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department is in discussions with Dublin City Council in relation to acquiring State-led early learning and childcare facilities, whether the substantial need in north Dublin is being considered; and if she will make a statement on the matter. [11291/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/508/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "202. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department will examine the way to make the large number of unused childcare facilities built as part of housing developments viable; and if she will make a statement on the matter. [29188/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/202/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1920. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if there is a vulnerable adults database in place, both intellectual and physical; the data her Department collects to support vulnerable adults; and if she will make a statement on the matter. [74577/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1920/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1921. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality her Department’s policy for supporting adults with intellectual disabilities after their primary carers die, given the large number with elderly primary carers and the diminishing stock of respite housing; and if she will make a statement on the matter. [74578/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1921/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1928. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality the payroll cost of her Department and of each organisation or agency under its remit individually, in 2015 to 2025, by year, in tabular form. [74620/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1928/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Early Childhood Care and Education",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "172. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if she will provide an update on developing State-led early learning and childcare facilities; the number of project proposals received from north Dublin; and if she will make a statement on the matter. [29189/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/172/"
                       }
                     ]
                   }
@@ -3973,118 +4181,6 @@
                         "name": "37. Deputy Naoise Ó Muirí asked the Minister for Foreign Affairs and Trade if she will provide an update on preparations for Ireland’s EU Presidency; and if she will make a statement on the matter. [38336/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/37/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "136. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if she will outline the funding allocated for childminding development grants; the number of applicants who will be supported; and if she will make a statement on the matter. [13363/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/136/"
-                      },
-                      {
-                        "name": "171. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department has assessed the significant level of demand for childcare services in north Dublin in its plans for State-led facilities; and if she will make a statement on the matter. [13362/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/171/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "508. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department is in discussions with Dublin City Council in relation to acquiring State-led early learning and childcare facilities, whether the substantial need in north Dublin is being considered; and if she will make a statement on the matter. [11291/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/508/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "202. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department will examine the way to make the large number of unused childcare facilities built as part of housing developments viable; and if she will make a statement on the matter. [29188/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/202/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1920. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if there is a vulnerable adults database in place, both intellectual and physical; the data her Department collects to support vulnerable adults; and if she will make a statement on the matter. [74577/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1920/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1921. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality her Department’s policy for supporting adults with intellectual disabilities after their primary carers die, given the large number with elderly primary carers and the diminishing stock of respite housing; and if she will make a statement on the matter. [74578/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1921/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1928. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality the payroll cost of her Department and of each organisation or agency under its remit individually, in 2015 to 2025, by year, in tabular form. [74620/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1928/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Early Childhood Care and Education",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "172. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if she will provide an update on developing State-led early learning and childcare facilities; the number of project proposals received from north Dublin; and if she will make a statement on the matter. [29189/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/172/"
                       }
                     ]
                   }
@@ -6749,6 +6845,33 @@
           "questionType": "written"
         },
         {
+          "date_iso": "2026-06-17",
+          "questionNumber": 14,
+          "department": "Climate",
+          "heading": "Tax Exemptions",
+          "question": "14. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the cost of increasing the microgeneration tax exemption from €400 to €600; and if he will make a statement on the matter. [46139/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/14/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 15,
+          "department": "Climate",
+          "heading": "Tax Exemptions",
+          "question": "15. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment whether multiple tenants in a home can avail of the microgeneration tax exemption; and if he will make a statement on the matter. [46140/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/15/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-17",
+          "questionNumber": 16,
+          "department": "Climate",
+          "heading": "Electricity Generation",
+          "question": "16. Deputy Naoise Ó Muirí asked the Minister for Climate, Energy and the Environment the progress of the Decarbonised Electricity System Study underway within the SEAI; the goals of the techno-economic study; and if he will make a statement on the matter. [46141/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/16/",
+          "questionType": "written"
+        },
+        {
           "date_iso": "2026-06-18",
           "questionNumber": 11,
           "department": "Social",
@@ -6756,6 +6879,51 @@
           "question": "11. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he will provide an update on the programme for Government commitment to examine pension provisions for foster carers; when he expects this to be introduced; and if he will make a statement on the matter. [46325/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/11/",
           "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 45,
+          "department": "Social",
+          "heading": "Disability Issues",
+          "question": "45. Deputy Naoise Ó Muirí asked the Minister for Social Protection if he is aware that parents of children with additional needs may be unable to receive disability-related payments, such as the domiciliary care allowance if they take holidays exceeding two weeks; and if he will make a statement on the matter. [46324/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/45/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 136,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "136. Deputy Naoise Ó Muirí asked the Minister for Transport the reason the four Dublin local authorities received only a small proportion of the €1.5 billion allocated this year for national, regional and local roads; the way in which these authorities are expected to fund the maintenance and renewal of roads; and if he will make a statement on the matter. [46321/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/136/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 183,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "183. Deputy Naoise Ó Muirí asked the Minister for Transport if he will provide an update on the establishment of a public transport security force; when he expects this force to be operational; and if he will make a statement on the matter. [46320/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/183/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 448,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "448. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality the number of childcare services that have left NCS core funding and remain outside of it, by county, in tabular form; and if she will make a statement on the matter. [46715/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/448/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 449,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "449. Deputy Naoise Ó Muirí asked the Minister for Children, Disability and Equality if her Department has considered introducing additional supports for parents with children in childcare that fall outside NCS core funding, such as childcare tax relief; and if she will make a statement on the matter. [46716/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/449/",
+          "questionType": "written"
         }
       ]
     },

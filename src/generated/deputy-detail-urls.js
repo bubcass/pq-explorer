@@ -183,6 +183,7 @@ export const deputyDetailUrls = {
     "Conor-D-McGuinness.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/Conor-D-McGuinness.D.2024-11-29.json"),
     "Conor-Sheehan.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/Conor-Sheehan.D.2024-11-29.json"),
     "Cormac-Devlin.D.2020-02-08": import.meta.resolve("../data/pq/2026/deputies/Cormac-Devlin.D.2020-02-08.json"),
+    "Daniel-Ennis.D.2026-05-25": import.meta.resolve("../data/pq/2026/deputies/Daniel-Ennis.D.2026-05-25.json"),
     "Danny-Healy-Rae.D.2016-10-03": import.meta.resolve("../data/pq/2026/deputies/Danny-Healy-Rae.D.2016-10-03.json"),
     "Darren-O'Rourke.D.2020-02-08": import.meta.resolve("../data/pq/2026/deputies/Darren-O'Rourke.D.2020-02-08.json"),
     "David-Cullinane.S.2011-05-25": import.meta.resolve("../data/pq/2026/deputies/David-Cullinane.S.2011-05-25.json"),
