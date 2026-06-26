@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Sorca-Clarke.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 557,
+      "count": 588,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -55,6 +55,7 @@
         "Domestic Violence",
         "Domestic, Sexual and Gender-based Violence",
         "Driver Licences",
+        "Driver Test",
         "Eating Disorders",
         "Electric Vehicles",
         "Emergency Departments",
@@ -96,10 +97,12 @@
         "International Relations",
         "Irish Aid",
         "Irish Language",
+        "Just Transition",
         "Local Authorities",
         "Magdalen Laundries",
         "Medical Aids and Appliances",
         "Medical Cards",
+        "Medical Research and Training",
         "Medicinal Products",
         "Mental Health Policy",
         "Mental Health Services",
@@ -161,9 +164,9 @@
       ],
       "insights": {
         "topHeading": "Mental Health Services",
-        "topHeadingCount": 54,
+        "topHeadingCount": 66,
         "topDepartment": "Health",
-        "topDepartmentCount": 237
+        "topDepartmentCount": 265
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -173,15 +176,15 @@
             "children": [
               {
                 "name": "Mental Health Services",
-                "value": 54
+                "value": 66
+              },
+              {
+                "name": "Health Services",
+                "value": 35
               },
               {
                 "name": "Health Services Staff",
                 "value": 32
-              },
-              {
-                "name": "Health Services",
-                "value": 25
               },
               {
                 "name": "Dental Services",
@@ -200,6 +203,10 @@
                 "value": 7
               },
               {
+                "name": "Home Care Packages",
+                "value": 7
+              },
+              {
                 "name": "Hospital Staff",
                 "value": 7
               },
@@ -212,19 +219,15 @@
                 "value": 5
               },
               {
+                "name": "Healthcare Infrastructure Provision",
+                "value": 5
+              },
+              {
                 "name": "Medicinal Products",
                 "value": 5
               },
               {
-                "name": "Home Care Packages",
-                "value": 5
-              },
-              {
                 "name": "Eating Disorders",
-                "value": 4
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
                 "value": 4
               },
               {
@@ -261,6 +264,14 @@
               },
               {
                 "name": "Hospital Appointments Status",
+                "value": 2
+              },
+              {
+                "name": "Disability Services",
+                "value": 2
+              },
+              {
+                "name": "Suicide Prevention",
                 "value": 2
               },
               {
@@ -320,19 +331,11 @@
                 "value": 1
               },
               {
-                "name": "Disability Services",
-                "value": 1
-              },
-              {
                 "name": "Pharmacy Services",
                 "value": 1
               },
               {
                 "name": "Health Screening Programmes",
-                "value": 1
-              },
-              {
-                "name": "Suicide Prevention",
                 "value": 1
               },
               {
@@ -342,6 +345,10 @@
               {
                 "name": "Suicide Incidence",
                 "value": 1
+              },
+              {
+                "name": "Medical Research and Training",
+                "value": 1
               }
             ]
           },
@@ -349,11 +356,11 @@
             "name": "Education",
             "children": [
               {
-                "name": "Schools Building Projects",
-                "value": 10
+                "name": "Special Educational Needs",
+                "value": 11
               },
               {
-                "name": "Special Educational Needs",
+                "name": "Schools Building Projects",
                 "value": 10
               },
               {
@@ -654,6 +661,10 @@
               {
                 "name": "Road Safety",
                 "value": 1
+              },
+              {
+                "name": "Driver Test",
+                "value": 1
               }
             ]
           },
@@ -785,47 +796,6 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Departmental Staff",
-                "value": 3
-              },
-              {
-                "name": "Middle East",
-                "value": 2
-              },
-              {
-                "name": "Passport Services",
-                "value": 2
-              },
-              {
-                "name": "Departmental Consultations",
-                "value": 1
-              },
-              {
-                "name": "Departmental Meetings",
-                "value": 1
-              },
-              {
-                "name": "Irish Aid",
-                "value": 1
-              },
-              {
-                "name": "Illegal Israeli Imports",
-                "value": 1
-              },
-              {
-                "name": "Diplomatic Representation",
-                "value": 1
-              },
-              {
-                "name": "Consular Services",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Enterprise",
             "children": [
               {
@@ -874,6 +844,51 @@
               },
               {
                 "name": "Data Centres",
+                "value": 1
+              },
+              {
+                "name": "Just Transition",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Departmental Staff",
+                "value": 3
+              },
+              {
+                "name": "Middle East",
+                "value": 2
+              },
+              {
+                "name": "Passport Services",
+                "value": 2
+              },
+              {
+                "name": "Departmental Consultations",
+                "value": 1
+              },
+              {
+                "name": "Departmental Meetings",
+                "value": 1
+              },
+              {
+                "name": "Irish Aid",
+                "value": 1
+              },
+              {
+                "name": "Illegal Israeli Imports",
+                "value": 1
+              },
+              {
+                "name": "Diplomatic Representation",
+                "value": 1
+              },
+              {
+                "name": "Consular Services",
                 "value": 1
               }
             ]
@@ -1151,6 +1166,72 @@
                         "name": "1058. Deputy Sorca Clarke asked the Minister for Health to provide the protocols around a person within the healthcare system on suicide watch; if the family are notified when a person is on suicide watch; and to provide clarity on an inquest involving a patient (details supplied). [4459/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/1058/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "842. Deputy Sorca Clarke asked the Minister for Health the estimated cost of staffing all emergency departments with liaison psychiatrists for one year, in tabular form; and if she will make a statement on the matter. [47695/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/842/"
+                      },
+                      {
+                        "name": "843. Deputy Sorca Clarke asked the Minister for Health the estimated cost of having fully staffed mental health teams in each RHA across the country; and if she will make a statement on the matter. [47696/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/843/"
+                      },
+                      {
+                        "name": "844. Deputy Sorca Clarke asked the Minister for Health the estimated cost of fully staffing and operating all 73-child and adult mental health services teams, in tabular form; and if she will make a statement on the matter. [47697/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/844/"
+                      },
+                      {
+                        "name": "845. Deputy Sorca Clarke asked the Minister for Health the estimated cost to fully implement the National Clinical Programme for Early Intervention Psychosis; and if she will make a statement on the matter. [47698/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/845/"
+                      },
+                      {
+                        "name": "846. Deputy Sorca Clarke asked the Minister for Health the estimated cost of fully funding the National Clinical Programme for Eating Disorders and deliver the remaining eating disorder teams by 2027; and if she will make a statement on the matter. [47699/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/846/"
+                      },
+                      {
+                        "name": "847. Deputy Sorca Clarke asked the Minister for Health the current and capital cost of establishing and operating a 24/7 multi-agency mental health crisis de-escalating team, in tabular form; and if she will make a statement on the matter. [47700/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/847/"
+                      },
+                      {
+                        "name": "848. Deputy Sorca Clarke asked the Minister for Health the current and capital cost of implementing the Governments plan for inpatient and outpatient perinatal mental health care; and if she will make a statement on the matter. [47701/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/848/"
+                      },
+                      {
+                        "name": "850. Deputy Sorca Clarke asked the Minister for Health the cost of running the Galway Community Café, the free out-of-hours adult mental health service; and if she will make a statement on the matter. [47703/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/850/"
+                      },
+                      {
+                        "name": "856. Deputy Sorca Clarke asked the Minister for Health the estimated cost of employing a mental health liaison inclusive of salary and PRSI costs as provided for in the HSE winter plan; and if she will make a statement on the matter. [47720/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/856/"
+                      },
+                      {
+                        "name": "857. Deputy Sorca Clarke asked the Minister for Health the estimated cost of providing universal counselling within primary care; the cost of providing counselling in primary care for 0-18 years, 0-25 years and over 25's, in tabular form; and if she will make a statement on the matter. [47721/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/857/"
+                      },
+                      {
+                        "name": "859. Deputy Sorca Clarke asked the Minister for Health the estimated cost of implementing the National Model of Care for Consultation-Liaison Psychiatry in full; the additional consultant psychiatrists, nurses, psychologists, social workers and other staff required; and if she will make a statement on the matter. [47723/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/859/"
+                      },
+                      {
+                        "name": "861. Deputy Sorca Clarke asked the Minister for Health the estimated cost of providing 24/7 liaison psychiatry services in each model 4 hospital; and if she will make a statement on the matter. [47725/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/861/"
                       }
                     ]
                   },
@@ -1472,6 +1553,234 @@
                 ]
               },
               {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1889. Deputy Sorca Clarke asked the Minister for Health the number of persons currently on waiting lists for specialist eating disorder assessment and treatment; the waiting times involved; the breakdown by RHA, age group and service type (CAMHS and adult services); and if she will make a statement on the matter. [19432/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1889/"
+                      },
+                      {
+                        "name": "1890. Deputy Sorca Clarke asked the Minister for Health the number of specialist eating disorder teams currently operating in the State; their locations; the population catchment of each team; and whether all teams envisaged under the national Model of Care for Eating Disorders have been established and a list of teams that are operational. [19433/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1890/"
+                      },
+                      {
+                        "name": "1892. Deputy Sorca Clarke asked the Minister for Health the number of public inpatient beds available for the treatment of eating disorders nationally; the location of those beds; the number of admissions in each of the past five years; and the number of patients treated abroad through the treatment abroad scheme due to lack of domestic capacity. [19435/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1892/"
+                      },
+                      {
+                        "name": "1893. Deputy Sorca Clarke asked the Minister for Health the progress made in implementing the Model of Care for Eating Disorders since its publication; the funding allocated to its implementation to date; and the timeline for full implementation. [19436/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1893/"
+                      },
+                      {
+                        "name": "1894. Deputy Sorca Clarke asked the Minister for Health the number of children and adolescents currently receiving treatment for eating disorders through Child and Adolescent Mental Health Services; the waiting times for access to treatment; and the number of urgent referrals in the past five years. [19437/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1894/"
+                      },
+                      {
+                        "name": "1895. Deputy Sorca Clarke asked the Minister for Health the number of patients receiving specialist eating disorder treatment in each RHA; and the measures being taken to address regional inequalities in access to services; and if she will make a statement on the matter. [19438/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1895/"
+                      },
+                      {
+                        "name": "1896. Deputy Sorca Clarke asked the Minister for Health whether national outcome data is collected in relation to eating disorder treatment; if so, the recovery rates, relapse rates and treatment completion rates recorded in the past five years; and if she will make a statement on the matter. [19439/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1896/"
+                      },
+                      {
+                        "name": "1897. Deputy Sorca Clarke asked the Minister for Health the number of persons with eating disorders who have been approved for treatment abroad in each of the past five years due to a lack of specialist services in the State; the countries where treatment was provided; and the cost to the Exchequer. [19440/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1897/"
+                      },
+                      {
+                        "name": "1898. Deputy Sorca Clarke asked the Minister for Health the annual funding allocated to eating disorder services in each of the past five years; the projected funding for 2027; and whether additional funding is planned to expand services. [19441/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1898/"
+                      },
+                      {
+                        "name": "1908. Deputy Sorca Clarke asked the Minister for Health when a child (details supplied) will be given an appointment for a psychologist and an occupational therapist in the primary care centre in Longford. [19457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1908/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "744. Deputy Sorca Clarke asked the Minister for Health if she is aware of the funding difficulties facing an organisation (details supplied) and the potential closure of its services; the steps being taken by her Department to support the organisation; whether sustainable funding options are being considered to ensure the continuation of its affordable counselling services, including its national gambling addiction counselling programme; and if she will make a statement on the matter. [47289/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/744/"
+                      },
+                      {
+                        "name": "858. Deputy Sorca Clarke asked the Minister for Health the estimated cost of fully implementing the National Model of Care for Dual Diagnosis over five years; and if she will make a statement on the matter. [47722/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/858/"
+                      },
+                      {
+                        "name": "860. Deputy Sorca Clarke asked the Minister for Health the estimated cost of eliminating all CAMHS waiting lists in excess of 12-weeks; the additional WTE staff required; and the regional breakdown of those costs. [47724/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/860/"
+                      },
+                      {
+                        "name": "862. Deputy Sorca Clarke asked the Minister for Health the estimated annual cost of establishing one additional adult crisis resolution; and if she will make a statement on the matter. [47726/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/862/"
+                      },
+                      {
+                        "name": "863. Deputy Sorca Clarke asked the Minister for Health the estimated annual cost of funding an additional 50, 100 and 150 clinical psychology training places; the associated supervision and placement costs; and if she will make a statement on the matter. [47727/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/863/"
+                      },
+                      {
+                        "name": "864. Deputy Sorca Clarke asked the Minister for Health the estimated capital cost of establishing the planned perinatal mother and baby units in Dublin and Limerick; the expected bed capacity of each unit; and if she will make a statement on the matter. [47728/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/864/"
+                      },
+                      {
+                        "name": "865. Deputy Sorca Clarke asked the Minister for Health the estimated full-year staffing and operational cost of each planned perinatal mother and baby unit; the projected staffing complement, by grade; and if she will make a statement on the matter. [47729/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/865/"
+                      },
+                      {
+                        "name": "866. Deputy Sorca Clarke asked the Minister for Health the expenditure incurred by the HSE on private inpatient eating disorder placements in each of the years 2023, 2024 and 2025. [47730/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/866/"
+                      },
+                      {
+                        "name": "867. Deputy Sorca Clarke asked the Minister for Health the estimated capital cost for a specialist adult eating disorder inpatient bed; and if she will make a statement on the matter. [47731/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/867/"
+                      },
+                      {
+                        "name": "868. Deputy Sorca Clarke asked the Minister for Health the estimated annual current expenditure cost of operating a specialist adult eating disorder inpatient bed, including medical, nursing, psychology, allied health professional and support staffing costs; and if she will make a statement on the matter. [47732/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/868/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "867. Deputy Sorca Clarke asked the Minister for Health the supports available for the collection of used incontinence pads for elderly vulnerable people with medical conditions for whom an ordinary refuse collection is not sufficient to meet their needs; and if she will make a statement on the matter. [45081/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/867/"
+                      },
+                      {
+                        "name": "890. Deputy Sorca Clarke asked the Minister for Health the number of presentations to emergency departments involving mental health crises in each of the past five years. [45197/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/890/"
+                      },
+                      {
+                        "name": "891. Deputy Sorca Clarke asked the Minister for Health the number of individuals who have accessed free or publicly funded counselling services in each of the past five years; and the associated waiting times. [45198/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/891/"
+                      },
+                      {
+                        "name": "895. Deputy Sorca Clarke asked the Minister for Health the number of people discharged from inpatient mental health care without a follow-up appointment within seven days, in each of the past five years. [45202/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/895/"
+                      },
+                      {
+                        "name": "896. Deputy Sorca Clarke asked the Minister for Health the current staffing levels of CAMHS teams compared with recommended staffing levels; and the measures being taken to address shortfalls. [45203/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/896/"
+                      },
+                      {
+                        "name": "897. Deputy Sorca Clarke asked the Minister for Health the number of mental health service users who have reported difficulties accessing care outside normal working hours; and the plans to improve crisis response services. [45204/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/897/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2200. Deputy Sorca Clarke asked the Minister for Health the Departments with responsibility for the diagnosis, intervention therapy services, awareness raising, education and prevention of the condition and support for those with foetal alcohol spectrum disorder and the plan to recognise it as a disability. [74593/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2200/"
+                      },
+                      {
+                        "name": "2201. Deputy Sorca Clarke asked the Minister for Health the funding her Department has provided for an organisation (details supplied) in relation to their work with those with Foetal Alcohol Spectrum Disorder in 2023, 2024 and 2025. [74595/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2201/"
+                      },
+                      {
+                        "name": "2202. Deputy Sorca Clarke asked the Minister for Health given the level of unmet need with those living with foetal alcohol spectrum disorder and their parents/guardians if she will review the level of funding for an organisation (details supplied) for 2026 given the current level will not allow for the expansion of services despite scaling up in 2025 and also that the service is four times oversubscribed. [74598/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2202/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1760. Deputy Sorca Clarke asked the Minister for Health if there is an occupational therapist in place in Longford; and if she will make a statement on the matter. [41499/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1760/"
+                      },
+                      {
+                        "name": "1782. Deputy Sorca Clarke asked the Minister for Health the measures being taken by the HSE to improve access to GP services and community-based primary care supports in rural areas of Longford and Westmeath; and if she will make a statement on the matter. [41544/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1782/"
+                      },
+                      {
+                        "name": "2118. Deputy Sorca Clarke asked the Minister for Health the current level of dementia services available nationally and by RHA; the number of people currently waiting for dementia diagnosis and support services; and if she will make a statement on the matter. [42784/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2118/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "239. Deputy Sorca Clarke asked the Minister for Health the number of opticians currently providing services in the HSE in Mullingar; and if she will make a statement on the matter. [17259/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/239/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2968. Deputy Sorca Clarke asked the Minister for Health if psychological services are routinely offered to lung cancer patients. [25015/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2968/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "162. Deputy Sorca Clarke asked the Minister for Health the steps she is taking to address ongoing concerns that women's health issues are not being taken seriously enough within the public health system. [28373/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/162/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Services Staff",
                 "children": [
                   {
@@ -1697,178 +2006,6 @@
                         "name": "888. Deputy Sorca Clarke asked the Minister for Health the number of vacant mental health posts currently approved but unfilled, including psychiatrists, psychologists, mental health nurses, social workers, and counsellors. [45195/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/888/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1889. Deputy Sorca Clarke asked the Minister for Health the number of persons currently on waiting lists for specialist eating disorder assessment and treatment; the waiting times involved; the breakdown by RHA, age group and service type (CAMHS and adult services); and if she will make a statement on the matter. [19432/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1889/"
-                      },
-                      {
-                        "name": "1890. Deputy Sorca Clarke asked the Minister for Health the number of specialist eating disorder teams currently operating in the State; their locations; the population catchment of each team; and whether all teams envisaged under the national Model of Care for Eating Disorders have been established and a list of teams that are operational. [19433/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1890/"
-                      },
-                      {
-                        "name": "1892. Deputy Sorca Clarke asked the Minister for Health the number of public inpatient beds available for the treatment of eating disorders nationally; the location of those beds; the number of admissions in each of the past five years; and the number of patients treated abroad through the treatment abroad scheme due to lack of domestic capacity. [19435/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1892/"
-                      },
-                      {
-                        "name": "1893. Deputy Sorca Clarke asked the Minister for Health the progress made in implementing the Model of Care for Eating Disorders since its publication; the funding allocated to its implementation to date; and the timeline for full implementation. [19436/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1893/"
-                      },
-                      {
-                        "name": "1894. Deputy Sorca Clarke asked the Minister for Health the number of children and adolescents currently receiving treatment for eating disorders through Child and Adolescent Mental Health Services; the waiting times for access to treatment; and the number of urgent referrals in the past five years. [19437/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1894/"
-                      },
-                      {
-                        "name": "1895. Deputy Sorca Clarke asked the Minister for Health the number of patients receiving specialist eating disorder treatment in each RHA; and the measures being taken to address regional inequalities in access to services; and if she will make a statement on the matter. [19438/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1895/"
-                      },
-                      {
-                        "name": "1896. Deputy Sorca Clarke asked the Minister for Health whether national outcome data is collected in relation to eating disorder treatment; if so, the recovery rates, relapse rates and treatment completion rates recorded in the past five years; and if she will make a statement on the matter. [19439/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1896/"
-                      },
-                      {
-                        "name": "1897. Deputy Sorca Clarke asked the Minister for Health the number of persons with eating disorders who have been approved for treatment abroad in each of the past five years due to a lack of specialist services in the State; the countries where treatment was provided; and the cost to the Exchequer. [19440/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1897/"
-                      },
-                      {
-                        "name": "1898. Deputy Sorca Clarke asked the Minister for Health the annual funding allocated to eating disorder services in each of the past five years; the projected funding for 2027; and whether additional funding is planned to expand services. [19441/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1898/"
-                      },
-                      {
-                        "name": "1908. Deputy Sorca Clarke asked the Minister for Health when a child (details supplied) will be given an appointment for a psychologist and an occupational therapist in the primary care centre in Longford. [19457/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1908/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "867. Deputy Sorca Clarke asked the Minister for Health the supports available for the collection of used incontinence pads for elderly vulnerable people with medical conditions for whom an ordinary refuse collection is not sufficient to meet their needs; and if she will make a statement on the matter. [45081/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/867/"
-                      },
-                      {
-                        "name": "890. Deputy Sorca Clarke asked the Minister for Health the number of presentations to emergency departments involving mental health crises in each of the past five years. [45197/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/890/"
-                      },
-                      {
-                        "name": "891. Deputy Sorca Clarke asked the Minister for Health the number of individuals who have accessed free or publicly funded counselling services in each of the past five years; and the associated waiting times. [45198/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/891/"
-                      },
-                      {
-                        "name": "895. Deputy Sorca Clarke asked the Minister for Health the number of people discharged from inpatient mental health care without a follow-up appointment within seven days, in each of the past five years. [45202/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/895/"
-                      },
-                      {
-                        "name": "896. Deputy Sorca Clarke asked the Minister for Health the current staffing levels of CAMHS teams compared with recommended staffing levels; and the measures being taken to address shortfalls. [45203/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/896/"
-                      },
-                      {
-                        "name": "897. Deputy Sorca Clarke asked the Minister for Health the number of mental health service users who have reported difficulties accessing care outside normal working hours; and the plans to improve crisis response services. [45204/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/897/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2200. Deputy Sorca Clarke asked the Minister for Health the Departments with responsibility for the diagnosis, intervention therapy services, awareness raising, education and prevention of the condition and support for those with foetal alcohol spectrum disorder and the plan to recognise it as a disability. [74593/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2200/"
-                      },
-                      {
-                        "name": "2201. Deputy Sorca Clarke asked the Minister for Health the funding her Department has provided for an organisation (details supplied) in relation to their work with those with Foetal Alcohol Spectrum Disorder in 2023, 2024 and 2025. [74595/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2201/"
-                      },
-                      {
-                        "name": "2202. Deputy Sorca Clarke asked the Minister for Health given the level of unmet need with those living with foetal alcohol spectrum disorder and their parents/guardians if she will review the level of funding for an organisation (details supplied) for 2026 given the current level will not allow for the expansion of services despite scaling up in 2025 and also that the service is four times oversubscribed. [74598/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2202/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1760. Deputy Sorca Clarke asked the Minister for Health if there is an occupational therapist in place in Longford; and if she will make a statement on the matter. [41499/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1760/"
-                      },
-                      {
-                        "name": "1782. Deputy Sorca Clarke asked the Minister for Health the measures being taken by the HSE to improve access to GP services and community-based primary care supports in rural areas of Longford and Westmeath; and if she will make a statement on the matter. [41544/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1782/"
-                      },
-                      {
-                        "name": "2118. Deputy Sorca Clarke asked the Minister for Health the current level of dementia services available nationally and by RHA; the number of people currently waiting for dementia diagnosis and support services; and if she will make a statement on the matter. [42784/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2118/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "239. Deputy Sorca Clarke asked the Minister for Health the number of opticians currently providing services in the HSE in Mullingar; and if she will make a statement on the matter. [17259/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/239/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2968. Deputy Sorca Clarke asked the Minister for Health if psychological services are routinely offered to lung cancer patients. [25015/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2968/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "162. Deputy Sorca Clarke asked the Minister for Health the steps she is taking to address ongoing concerns that women's health issues are not being taken seriously enough within the public health system. [28373/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/162/"
                       }
                     ]
                   }
@@ -2252,6 +2389,70 @@
                 ]
               },
               {
+                "name": "Home Care Packages",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1869. Deputy Sorca Clarke asked the Minister for Health the number of people on waiting lists for home care support in Longford and Westmeath, in tabular form. [19347/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1869/"
+                      },
+                      {
+                        "name": "1870. Deputy Sorca Clarke asked the Minister for Health the number of people on waiting lists for home care support per county, in tabular form; and if she will make a statement on the matter. [19348/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1870/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "441. Deputy Sorca Clarke asked the Minister for Health the average waiting time for homecare in Westmeath and Longford in the past five years, in tabular form. [23090/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/441/"
+                      },
+                      {
+                        "name": "442. Deputy Sorca Clarke asked the Minister for Health the average waiting time for homecare, per county in the past five years, in tabular form. [23091/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/442/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "876. Deputy Sorca Clarke asked the Minister for Health the number of people in the midlands region who have been approved for HSE home support hours but are currently unable to access all or part of those hours due to a lack of available home support workers; the number of directly employed HSE home support workers and the number employed by private providers in the region; the current vacancy rate; the measures being taken to recruit additional home support workers; and when she expects all approved home support hours to be delivered in full. [47744/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/876/"
+                      },
+                      {
+                        "name": "877. Deputy Sorca Clarke asked the Minister for Health the reason a person aged 98 years, who has been approved for thirteen hours of home support per week has been advised that no home support workers are currently available to provide the approved care, they are only available for four hours a week; the steps being taken to ensure that the approved hours are delivered; whether alternative arrangements through private or voluntary providers will be put in place pending recruitment; and if she will make a statement on the matter. [47745/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/877/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3111. Deputy Sorca Clarke asked the Minister for Health the number of approved home support hours in Longford–Westmeath that are currently undelivered due to staff shortages; and the measures being taken to ensure these supports are provided. [25968/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3111/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Hospital Staff",
                 "children": [
                   {
@@ -2418,6 +2619,60 @@
                 ]
               },
               {
+                "name": "Healthcare Infrastructure Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1780. Deputy Sorca Clarke asked the Minister for Health the status of primary care centre developments in Longford and Westmeath, including any planned expansions or new facilities; the expected timelines for delivery; and if she will make a statement on the matter. [41542/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1780/"
+                      },
+                      {
+                        "name": "1858. Deputy Sorca Clarke asked the Minister for Health the number and location of SATUs currently operating in each county, in tabular form; and if she will make a statement on the matter. [41765/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1858/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "987. Deputy Sorca Clarke asked the Minister for Health whether the HSE has plans to provide additional palliative care beds in County Longford; if so, the number of beds planned; and the timeline for provision of at least five additional palliative care beds at St. Joseph’s Care Centre, Longford. [14474/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/987/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2038. Deputy Sorca Clarke asked the Minister for Health the number of capital projects submitted to HSE estates for Longford from acute, primary, community and so on over the past three years; and the status of each project, in tabular form. [20024/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2038/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "686. Deputy Sorca Clarke asked the Minister for Health if she will commit investment to tackle the under resourcing of the neurology service in the Midlands Regional Hospital Mullingar (details supplied) [47011/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/686/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Medicinal Products",
                 "children": [
                   {
@@ -2454,54 +2709,6 @@
                         "name": "1103. Deputy Sorca Clarke asked the Minister for Health the timeline for a decision by the HSE drugs group regarding the reimbursement of risdiplam for adults living with spinal muscular atrophy. [38725/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1103/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Home Care Packages",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1869. Deputy Sorca Clarke asked the Minister for Health the number of people on waiting lists for home care support in Longford and Westmeath, in tabular form. [19347/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1869/"
-                      },
-                      {
-                        "name": "1870. Deputy Sorca Clarke asked the Minister for Health the number of people on waiting lists for home care support per county, in tabular form; and if she will make a statement on the matter. [19348/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1870/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "441. Deputy Sorca Clarke asked the Minister for Health the average waiting time for homecare in Westmeath and Longford in the past five years, in tabular form. [23090/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/441/"
-                      },
-                      {
-                        "name": "442. Deputy Sorca Clarke asked the Minister for Health the average waiting time for homecare, per county in the past five years, in tabular form. [23091/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/442/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "3111. Deputy Sorca Clarke asked the Minister for Health the number of approved home support hours in Longford–Westmeath that are currently undelivered due to staff shortages; and the measures being taken to ensure these supports are provided. [25968/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3111/"
                       }
                     ]
                   }
@@ -2551,49 +2758,6 @@
                         "name": "1720. Deputy Sorca Clarke asked the Minister for Health the current timeline for completion and opening of the eating disorder unit, including key milestones and expected date of operational readiness at the psychiatric facility in Roscommon; the overall budget allocation for the unit and for the wider psychiatric facility; the proposed staffing model, including the total number of staff roles allocated to the eating disorder unit; the breakdown of staff by discipline; the number of new posts to be created versus redeployed existing staff; the recruitment and retention plans; whether multi-disciplinary specialist eating disorder services (inpatient and outpatient follow-up) will be integrated with community supports; and if she will make a statement on the matter. [18554/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1720/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1780. Deputy Sorca Clarke asked the Minister for Health the status of primary care centre developments in Longford and Westmeath, including any planned expansions or new facilities; the expected timelines for delivery; and if she will make a statement on the matter. [41542/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1780/"
-                      },
-                      {
-                        "name": "1858. Deputy Sorca Clarke asked the Minister for Health the number and location of SATUs currently operating in each county, in tabular form; and if she will make a statement on the matter. [41765/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1858/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "987. Deputy Sorca Clarke asked the Minister for Health whether the HSE has plans to provide additional palliative care beds in County Longford; if so, the number of beds planned; and the timeline for provision of at least five additional palliative care beds at St. Joseph’s Care Centre, Longford. [14474/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/987/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2038. Deputy Sorca Clarke asked the Minister for Health the number of capital projects submitted to HSE estates for Longford from acute, primary, community and so on over the past three years; and the status of each project, in tabular form. [20024/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2038/"
                       }
                     ]
                   }
@@ -2878,6 +3042,60 @@
                 ]
               },
               {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "1243. Deputy Sorca Clarke asked the Minister for Health if she is aware that there is currently no occupational therapist covering adult disability services in County Longford; the steps being taken to fill this position; and if she will make a statement on the matter. [37828/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1243/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "849. Deputy Sorca Clarke asked the Minister for Health the estimated cost to fully implement the National Clinical Programme for ADHD; and if she will make a statement on the matter. [47702/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/849/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Suicide Prevention",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1998. Deputy Sorca Clarke asked the Minister for Health when the new suicide reduction strategy will be published; and if she will make a statement on the matter. [42222/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1998/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "855. Deputy Sorca Clarke asked the Minister for Health the estimated cost to fully implement the Strategy to Reduce Suicide and Self-harm, Connecting for Life 2026-2035; and if she will make a statement on the matter. [47719/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/855/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Reviews",
                 "children": [
                   {
@@ -3107,22 +3325,6 @@
                 ]
               },
               {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "1243. Deputy Sorca Clarke asked the Minister for Health if she is aware that there is currently no occupational therapist covering adult disability services in County Longford; the steps being taken to fill this position; and if she will make a statement on the matter. [37828/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1243/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Pharmacy Services",
                 "children": [
                   {
@@ -3149,22 +3351,6 @@
                         "name": "1490. Deputy Sorca Clarke asked the Minister for Health her plans to re-introduce the scoliosis screening programme; and if she will make a statement on the matter. [40261/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/1490/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Suicide Prevention",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1998. Deputy Sorca Clarke asked the Minister for Health when the new suicide reduction strategy will be published; and if she will make a statement on the matter. [42222/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1998/"
                       }
                     ]
                   }
@@ -3201,91 +3387,28 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Medical Research and Training",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "851. Deputy Sorca Clarke asked the Minister for Health the estimated cost to increase funding for recovery education by 10%; and if she will make a statement on the matter. [47704/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/851/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "name": "Education",
             "children": [
-              {
-                "name": "Schools Building Projects",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "629. Deputy Sorca Clarke asked the Minister for Education and Youth if she will provide an update on the status of a school building (details supplied). [18382/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/629/"
-                      },
-                      {
-                        "name": "734. Deputy Sorca Clarke asked the Minister for Education and Youth to provide an update in relation to the proposed new school building at a school (details supplied); and if she will make a statement on the matter. [19063/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/734/"
-                      },
-                      {
-                        "name": "847. Deputy Sorca Clarke asked the Minister for Education and Youth when construction of the promised new school building for a school (details supplied) will commence; and if she will provide a clear timeline for the delivery of the project. [19939/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/847/"
-                      },
-                      {
-                        "name": "851. Deputy Sorca Clarke asked the Minister for Education and Youth the number of schools in the Longford-Westmeath constituency that have received approval for a new school building but where construction has not yet commenced; and if she will provide a list of those schools; and the current status of each project.; and if she will make a statement on the matter. [20022/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/851/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "452. Deputy Sorca Clarke asked the Minister for Education and Youth if her Department has specific plans to undertake building works to expand a school (details supplied) in the future; and if she will make a statement on the matter. [45110/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/452/"
-                      },
-                      {
-                        "name": "453. Deputy Sorca Clarke asked the Minister for Education and Youth if her Department has any specific plans to undertake building works to expand a school (details supplied) in the future; and if she will make a statement on the matter. [45111/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/453/"
-                      },
-                      {
-                        "name": "454. Deputy Sorca Clarke asked the Minister for Education and Youth if her Department has any specific plans to amalgamate schools (details supplied); and if she will make a statement on the matter. [45112/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/454/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "133. Deputy Sorca Clarke asked the Minister for Education and Youth the reason a school (details supplied) has not been included on the recently published school building list, despite the school having worked with her Department for six years on a new build project, and having progressed to planning permission; the current status and expected timeline for the project; and if she will make a statement on the matter. [40814/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/133/"
-                      },
-                      {
-                        "name": "183. Deputy Sorca Clarke asked the Minister for Education and Youth if she will provide a clear and immediate timeline for when the new building works at a school (details supplied) will commence; and any direct support from her Department to ensure there are no further delays in progressing this project; and if she will make a statement on the matter. [40815/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/183/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "63. Deputy Sorca Clarke asked the Minister for Education and Youth the reason a school (details supplied) has not been included on the recently published school building list, despite the school having worked with her Department for six years on a new build project, and having progressed to planning permission; the current status and expected timeline for the project; and if she will make a statement on the matter. [12970/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/63/"
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "name": "Special Educational Needs",
                 "children": [
@@ -3372,6 +3495,96 @@
                         "name": "108. Deputy Sorca Clarke asked the Minister for Education and Youth the response of her Department to concerns raised by disability organisations regarding the rollout of new inclusive special classes for the 2026/2027 school year; and if she will make a statement on the matter. [29010/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/108/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "356. Deputy Sorca Clarke asked the Minister for Education and Youth the reason sanction approvals for the 2026 Home-Based Summer Programme have not yet issued to participating families; the number of applications received to date; when sanction emails will issue to parents and guardians; and the measures being taken to ensure that children do not lose access to tutors or programme hours as a result of delays in the approval process. [47390/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/356/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "629. Deputy Sorca Clarke asked the Minister for Education and Youth if she will provide an update on the status of a school building (details supplied). [18382/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/629/"
+                      },
+                      {
+                        "name": "734. Deputy Sorca Clarke asked the Minister for Education and Youth to provide an update in relation to the proposed new school building at a school (details supplied); and if she will make a statement on the matter. [19063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/734/"
+                      },
+                      {
+                        "name": "847. Deputy Sorca Clarke asked the Minister for Education and Youth when construction of the promised new school building for a school (details supplied) will commence; and if she will provide a clear timeline for the delivery of the project. [19939/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/847/"
+                      },
+                      {
+                        "name": "851. Deputy Sorca Clarke asked the Minister for Education and Youth the number of schools in the Longford-Westmeath constituency that have received approval for a new school building but where construction has not yet commenced; and if she will provide a list of those schools; and the current status of each project.; and if she will make a statement on the matter. [20022/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/851/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "452. Deputy Sorca Clarke asked the Minister for Education and Youth if her Department has specific plans to undertake building works to expand a school (details supplied) in the future; and if she will make a statement on the matter. [45110/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/452/"
+                      },
+                      {
+                        "name": "453. Deputy Sorca Clarke asked the Minister for Education and Youth if her Department has any specific plans to undertake building works to expand a school (details supplied) in the future; and if she will make a statement on the matter. [45111/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/453/"
+                      },
+                      {
+                        "name": "454. Deputy Sorca Clarke asked the Minister for Education and Youth if her Department has any specific plans to amalgamate schools (details supplied); and if she will make a statement on the matter. [45112/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/454/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "133. Deputy Sorca Clarke asked the Minister for Education and Youth the reason a school (details supplied) has not been included on the recently published school building list, despite the school having worked with her Department for six years on a new build project, and having progressed to planning permission; the current status and expected timeline for the project; and if she will make a statement on the matter. [40814/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/133/"
+                      },
+                      {
+                        "name": "183. Deputy Sorca Clarke asked the Minister for Education and Youth if she will provide a clear and immediate timeline for when the new building works at a school (details supplied) will commence; and any direct support from her Department to ensure there are no further delays in progressing this project; and if she will make a statement on the matter. [40815/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/183/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "63. Deputy Sorca Clarke asked the Minister for Education and Youth the reason a school (details supplied) has not been included on the recently published school building list, despite the school having worked with her Department for six years on a new build project, and having progressed to planning permission; the current status and expected timeline for the project; and if she will make a statement on the matter. [12970/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/63/"
                       }
                     ]
                   }
@@ -5218,6 +5431,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "157. Deputy Sorca Clarke asked the Minister for Transport if his attention has been drawn to the difficulties experienced by some learner driver applicants with literacy challenges when undertaking the driver theory test; the supports and reasonable accommodations available for individuals who have difficulty reading and/or writing leading to difficulty in understanding the test questions; if additional supports are available or being considered; and if he will make a statement on the matter. [46796/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/157/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -5867,187 +6096,6 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "206. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of WTE local employed staff by job title currently working at the Irish Embassies based in Bangkok and Lisbon, in tabular form. [41794/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/206/"
-                      },
-                      {
-                        "name": "207. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of WTE housekeeper posts filled at Irish Embassies based in Warsaw and Toronto, in tabular form. [41795/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/207/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "268. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the percentage of staff at the Irish Embassy in Beijing and Consul General offices in China that are fluent in speaking and writing in Mandarin. [12060/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/268/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Middle East",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "234. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade to clarify how Irish aid to Palestine is being distributed; how funding and resources have been allocated; how the Government is ensuring that these funds are used to the benefit civilians in Gaza; and the organisations that are in receipt of this funding, in tabular form. [4457/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/234/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 21 May",
-                    "date_iso": "2026-05-21",
-                    "children": [
-                      {
-                        "name": "166. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the actions she and her Department are taking to ensure the safety of the Irish citizens aboard the Global Sumud Flotilla; and if she will make a statement on the matter. [38694/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/166/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Passport Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "222. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of passport applications from residents of Longford and Westmeath currently awaiting processing beyond standard turnaround times; and the reasons for delays. [42310/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/222/"
-                      },
-                      {
-                        "name": "223. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade whether consideration is being given to expanding outreach services for passport or consular assistance in rural areas for elderly or vulnerable residents without reliable internet access. [42312/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/223/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Consultations",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "234. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade whether standards or service-level targets exist for her Department or bodies under the aegis of her Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74265/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/234/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Meetings",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "52. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of occasions in 2025 and to-date in 2026 where the Irish Ambassador based in Madrid has met formally with the Mayor of Madrid, in tabular form. [20032/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/52/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Irish Aid",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "55. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the amount of funding received by organisations (details supplied) from Government funding in the past ten years. [20253/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/55/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Illegal Israeli Imports",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "165. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade for an update on the Control of Economic Activity (Occupied Territories) Bill 2018; and if she will make a statement on the matter. [23214/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/165/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Diplomatic Representation",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "44. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade if she has plans to open a new Irish Consulate General in Muscat, Oman. [32822/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/44/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Consular Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "205. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of occasions in 2025 and to date in 2026 where the Irish Consul General based in Barcelona has met formally with the Mayor of Barcelona, in tabular form. [41793/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/205/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Enterprise",
             "children": [
               {
@@ -6242,6 +6290,203 @@
                         "name": "70. Deputy Sorca Clarke asked the Minister for Enterprise, Tourism and Employment the commencement date for construction works for the Rochfortbridge data centre; the expected phasing of the project; and the projected timeline for completion of each phase and full operation of the development. [44519/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/70/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Just Transition",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "291. Deputy Sorca Clarke asked the Minister for Enterprise, Tourism and Employment if he will consider extending the Just Transition Tourism Activators Programme for a further period of three to five years; his views on the role of the Tourism Activators in supporting over 80 tourism projects and County Tourism Officers across the Just Transition Territory; if he has engaged with Fáilte Ireland and local authorities on the continuation of these supports; and if he will make a statement on the matter. [47572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/291/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "206. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of WTE local employed staff by job title currently working at the Irish Embassies based in Bangkok and Lisbon, in tabular form. [41794/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/206/"
+                      },
+                      {
+                        "name": "207. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of WTE housekeeper posts filled at Irish Embassies based in Warsaw and Toronto, in tabular form. [41795/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/207/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "268. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the percentage of staff at the Irish Embassy in Beijing and Consul General offices in China that are fluent in speaking and writing in Mandarin. [12060/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/268/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Middle East",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "234. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade to clarify how Irish aid to Palestine is being distributed; how funding and resources have been allocated; how the Government is ensuring that these funds are used to the benefit civilians in Gaza; and the organisations that are in receipt of this funding, in tabular form. [4457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/234/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "166. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the actions she and her Department are taking to ensure the safety of the Irish citizens aboard the Global Sumud Flotilla; and if she will make a statement on the matter. [38694/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/166/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Passport Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "222. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of passport applications from residents of Longford and Westmeath currently awaiting processing beyond standard turnaround times; and the reasons for delays. [42310/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/222/"
+                      },
+                      {
+                        "name": "223. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade whether consideration is being given to expanding outreach services for passport or consular assistance in rural areas for elderly or vulnerable residents without reliable internet access. [42312/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/223/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Consultations",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "234. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade whether standards or service-level targets exist for her Department or bodies under the aegis of her Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74265/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/234/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Meetings",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "52. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of occasions in 2025 and to-date in 2026 where the Irish Ambassador based in Madrid has met formally with the Mayor of Madrid, in tabular form. [20032/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/52/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Irish Aid",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "55. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the amount of funding received by organisations (details supplied) from Government funding in the past ten years. [20253/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/55/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Illegal Israeli Imports",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "165. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade for an update on the Control of Economic Activity (Occupied Territories) Bill 2018; and if she will make a statement on the matter. [23214/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/165/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Diplomatic Representation",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "44. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade if she has plans to open a new Irish Consulate General in Muscat, Oman. [32822/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/44/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Consular Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "205. Deputy Sorca Clarke asked the Minister for Foreign Affairs and Trade the number of occasions in 2025 and to date in 2026 where the Irish Consul General based in Barcelona has met formally with the Mayor of Barcelona, in tabular form. [41793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/205/"
                       }
                     ]
                   }
@@ -12037,6 +12282,285 @@
           "heading": "Family Resource Centres",
           "question": "434. Deputy Sorca Clarke asked the Minister for Children, Disability and Equality when she intends to open the next round of applications for the establishment of new family resource centres. [46515/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/434/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 157,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "157. Deputy Sorca Clarke asked the Minister for Transport if his attention has been drawn to the difficulties experienced by some learner driver applicants with literacy challenges when undertaking the driver theory test; the supports and reasonable accommodations available for individuals who have difficulty reading and/or writing leading to difficulty in understanding the test questions; if additional supports are available or being considered; and if he will make a statement on the matter. [46796/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/157/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 291,
+          "department": "Enterprise",
+          "heading": "Just Transition",
+          "question": "291. Deputy Sorca Clarke asked the Minister for Enterprise, Tourism and Employment if he will consider extending the Just Transition Tourism Activators Programme for a further period of three to five years; his views on the role of the Tourism Activators in supporting over 80 tourism projects and County Tourism Officers across the Just Transition Territory; if he has engaged with Fáilte Ireland and local authorities on the continuation of these supports; and if he will make a statement on the matter. [47572/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/291/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 356,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "356. Deputy Sorca Clarke asked the Minister for Education and Youth the reason sanction approvals for the 2026 Home-Based Summer Programme have not yet issued to participating families; the number of applications received to date; when sanction emails will issue to parents and guardians; and the measures being taken to ensure that children do not lose access to tutors or programme hours as a result of delays in the approval process. [47390/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/356/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 686,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "686. Deputy Sorca Clarke asked the Minister for Health if she will commit investment to tackle the under resourcing of the neurology service in the Midlands Regional Hospital Mullingar (details supplied) [47011/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/686/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 744,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "744. Deputy Sorca Clarke asked the Minister for Health if she is aware of the funding difficulties facing an organisation (details supplied) and the potential closure of its services; the steps being taken by her Department to support the organisation; whether sustainable funding options are being considered to ensure the continuation of its affordable counselling services, including its national gambling addiction counselling programme; and if she will make a statement on the matter. [47289/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/744/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 842,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "842. Deputy Sorca Clarke asked the Minister for Health the estimated cost of staffing all emergency departments with liaison psychiatrists for one year, in tabular form; and if she will make a statement on the matter. [47695/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/842/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 843,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "843. Deputy Sorca Clarke asked the Minister for Health the estimated cost of having fully staffed mental health teams in each RHA across the country; and if she will make a statement on the matter. [47696/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/843/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 844,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "844. Deputy Sorca Clarke asked the Minister for Health the estimated cost of fully staffing and operating all 73-child and adult mental health services teams, in tabular form; and if she will make a statement on the matter. [47697/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/844/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 845,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "845. Deputy Sorca Clarke asked the Minister for Health the estimated cost to fully implement the National Clinical Programme for Early Intervention Psychosis; and if she will make a statement on the matter. [47698/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/845/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 846,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "846. Deputy Sorca Clarke asked the Minister for Health the estimated cost of fully funding the National Clinical Programme for Eating Disorders and deliver the remaining eating disorder teams by 2027; and if she will make a statement on the matter. [47699/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/846/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 847,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "847. Deputy Sorca Clarke asked the Minister for Health the current and capital cost of establishing and operating a 24/7 multi-agency mental health crisis de-escalating team, in tabular form; and if she will make a statement on the matter. [47700/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/847/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 848,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "848. Deputy Sorca Clarke asked the Minister for Health the current and capital cost of implementing the Governments plan for inpatient and outpatient perinatal mental health care; and if she will make a statement on the matter. [47701/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/848/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 849,
+          "department": "Health",
+          "heading": "Disability Services",
+          "question": "849. Deputy Sorca Clarke asked the Minister for Health the estimated cost to fully implement the National Clinical Programme for ADHD; and if she will make a statement on the matter. [47702/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/849/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 850,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "850. Deputy Sorca Clarke asked the Minister for Health the cost of running the Galway Community Café, the free out-of-hours adult mental health service; and if she will make a statement on the matter. [47703/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/850/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 851,
+          "department": "Health",
+          "heading": "Medical Research and Training",
+          "question": "851. Deputy Sorca Clarke asked the Minister for Health the estimated cost to increase funding for recovery education by 10%; and if she will make a statement on the matter. [47704/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/851/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 855,
+          "department": "Health",
+          "heading": "Suicide Prevention",
+          "question": "855. Deputy Sorca Clarke asked the Minister for Health the estimated cost to fully implement the Strategy to Reduce Suicide and Self-harm, Connecting for Life 2026-2035; and if she will make a statement on the matter. [47719/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/855/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 856,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "856. Deputy Sorca Clarke asked the Minister for Health the estimated cost of employing a mental health liaison inclusive of salary and PRSI costs as provided for in the HSE winter plan; and if she will make a statement on the matter. [47720/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/856/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 857,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "857. Deputy Sorca Clarke asked the Minister for Health the estimated cost of providing universal counselling within primary care; the cost of providing counselling in primary care for 0-18 years, 0-25 years and over 25's, in tabular form; and if she will make a statement on the matter. [47721/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/857/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 858,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "858. Deputy Sorca Clarke asked the Minister for Health the estimated cost of fully implementing the National Model of Care for Dual Diagnosis over five years; and if she will make a statement on the matter. [47722/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/858/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 859,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "859. Deputy Sorca Clarke asked the Minister for Health the estimated cost of implementing the National Model of Care for Consultation-Liaison Psychiatry in full; the additional consultant psychiatrists, nurses, psychologists, social workers and other staff required; and if she will make a statement on the matter. [47723/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/859/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 860,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "860. Deputy Sorca Clarke asked the Minister for Health the estimated cost of eliminating all CAMHS waiting lists in excess of 12-weeks; the additional WTE staff required; and the regional breakdown of those costs. [47724/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/860/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 861,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "861. Deputy Sorca Clarke asked the Minister for Health the estimated cost of providing 24/7 liaison psychiatry services in each model 4 hospital; and if she will make a statement on the matter. [47725/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/861/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 862,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "862. Deputy Sorca Clarke asked the Minister for Health the estimated annual cost of establishing one additional adult crisis resolution; and if she will make a statement on the matter. [47726/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/862/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 863,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "863. Deputy Sorca Clarke asked the Minister for Health the estimated annual cost of funding an additional 50, 100 and 150 clinical psychology training places; the associated supervision and placement costs; and if she will make a statement on the matter. [47727/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/863/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 864,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "864. Deputy Sorca Clarke asked the Minister for Health the estimated capital cost of establishing the planned perinatal mother and baby units in Dublin and Limerick; the expected bed capacity of each unit; and if she will make a statement on the matter. [47728/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/864/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 865,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "865. Deputy Sorca Clarke asked the Minister for Health the estimated full-year staffing and operational cost of each planned perinatal mother and baby unit; the projected staffing complement, by grade; and if she will make a statement on the matter. [47729/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/865/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 866,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "866. Deputy Sorca Clarke asked the Minister for Health the expenditure incurred by the HSE on private inpatient eating disorder placements in each of the years 2023, 2024 and 2025. [47730/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/866/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 867,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "867. Deputy Sorca Clarke asked the Minister for Health the estimated capital cost for a specialist adult eating disorder inpatient bed; and if she will make a statement on the matter. [47731/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/867/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 868,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "868. Deputy Sorca Clarke asked the Minister for Health the estimated annual current expenditure cost of operating a specialist adult eating disorder inpatient bed, including medical, nursing, psychology, allied health professional and support staffing costs; and if she will make a statement on the matter. [47732/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/868/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 876,
+          "department": "Health",
+          "heading": "Home Care Packages",
+          "question": "876. Deputy Sorca Clarke asked the Minister for Health the number of people in the midlands region who have been approved for HSE home support hours but are currently unable to access all or part of those hours due to a lack of available home support workers; the number of directly employed HSE home support workers and the number employed by private providers in the region; the current vacancy rate; the measures being taken to recruit additional home support workers; and when she expects all approved home support hours to be delivered in full. [47744/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/876/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 877,
+          "department": "Health",
+          "heading": "Home Care Packages",
+          "question": "877. Deputy Sorca Clarke asked the Minister for Health the reason a person aged 98 years, who has been approved for thirteen hours of home support per week has been advised that no home support workers are currently available to provide the approved care, they are only available for four hours a week; the steps being taken to ensure that the approved hours are delivered; whether alternative arrangements through private or voluntary providers will be put in place pending recruitment; and if she will make a statement on the matter. [47745/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/877/",
           "questionType": "written"
         }
       ]

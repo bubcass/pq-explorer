@@ -9,20 +9,30 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Daniel-Ennis.D.2026-05-25/image/large",
   "types": {
     "all": {
-      "count": 3,
+      "count": 6,
       "headingOptions": [
         "Departmental Expenditure",
-        "Departmental Inquiries"
+        "Departmental Inquiries",
+        "Health Services Staff"
       ],
       "insights": {
-        "topHeading": "Departmental Expenditure",
-        "topHeadingCount": 2,
-        "topDepartment": "Transport",
-        "topDepartmentCount": 2
+        "topHeading": "Health Services Staff",
+        "topHeadingCount": 3,
+        "topDepartment": "Health",
+        "topDepartmentCount": 3
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Health",
+            "children": [
+              {
+                "name": "Health Services Staff",
+                "value": 3
+              }
+            ]
+          },
           {
             "name": "Transport",
             "children": [
@@ -46,6 +56,37 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Health",
+            "children": [
+              {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "810. Deputy Daniel Ennis asked the Minister for Health the number of WTE staff by job title currently working within ophthalmology services at Grangegorman primary care centre as of 15 June 2026, in tabular form. [47576/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/810/"
+                      },
+                      {
+                        "name": "811. Deputy Daniel Ennis asked the Minister for Health the number of WTE consultant rheumatologists based at the Mater Hospital as of 15 June 2026, in tabular form. [47577/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/811/"
+                      },
+                      {
+                        "name": "812. Deputy Daniel Ennis asked the Minister for Health the number of WTE speech and language therapists, by grade posts filled at Summerhill primary care centre as of 15 June 2026, in tabular form. [47578/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/812/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Transport",
             "children": [
@@ -121,6 +162,33 @@
           "heading": "Departmental Expenditure",
           "question": "246. Deputy Daniel Ennis asked the Minister for Transport the total amount of funding spent by transport bodies on footpaths in 2025; and the breakdown of that spending, by area, in tabular form. [46731/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/246/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 810,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "810. Deputy Daniel Ennis asked the Minister for Health the number of WTE staff by job title currently working within ophthalmology services at Grangegorman primary care centre as of 15 June 2026, in tabular form. [47576/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/810/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 811,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "811. Deputy Daniel Ennis asked the Minister for Health the number of WTE consultant rheumatologists based at the Mater Hospital as of 15 June 2026, in tabular form. [47577/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/811/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 812,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "812. Deputy Daniel Ennis asked the Minister for Health the number of WTE speech and language therapists, by grade posts filled at Summerhill primary care centre as of 15 June 2026, in tabular form. [47578/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/812/",
           "questionType": "written"
         }
       ]

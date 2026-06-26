@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Thomas-Gould.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 350,
+      "count": 353,
       "headingOptions": [
         "Air Services",
         "Alcohol Advertising",
@@ -72,6 +72,7 @@
         "Hospital Facilities",
         "Hospital Staff",
         "Hospital Transfers",
+        "Hospital Waiting Lists",
         "Housing Policy",
         "Housing Provision",
         "Housing Schemes",
@@ -89,6 +90,7 @@
         "Mental Health Services",
         "Middle East",
         "Ministerial Communications",
+        "Motor Industry",
         "National Development Plan",
         "National Transport Authority",
         "Office of Public Works",
@@ -350,6 +352,10 @@
               {
                 "name": "Legislative Measures",
                 "value": 1
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "value": 1
               }
             ]
           },
@@ -362,7 +368,7 @@
               },
               {
                 "name": "Schools Building Projects",
-                "value": 8
+                "value": 9
               },
               {
                 "name": "School Transport",
@@ -491,6 +497,10 @@
               },
               {
                 "name": "Electric Vehicles",
+                "value": 1
+              },
+              {
+                "name": "Motor Industry",
                 "value": 1
               }
             ]
@@ -2420,6 +2430,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "684. Deputy Thomas Gould asked the Minister for Health to review the case of a person (details supplied) and expedite an appointment. [47006/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/684/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2662,6 +2688,17 @@
                         "name": "608. Deputy Thomas Gould asked the Minister for Education and Youth for an update on an application for a new school building (details supplied). [34931/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/608/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "310. Deputy Thomas Gould asked the Minister for Education and Youth when a proposal for a school extension (details supplied) in Cork will progress to construction. [46993/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/310/"
                       }
                     ]
                   }
@@ -3387,6 +3424,22 @@
                         "name": "397. Deputy Thomas Gould asked the Minister for Transport when Cork will have electric bus charging infrastructure. [34923/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/397/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Motor Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "181. Deputy Thomas Gould asked the Minister for Transport the reason motor tax revenue is no longer ringfenced for local authority funding. [47269/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/181/"
                       }
                     ]
                   }
@@ -8174,6 +8227,33 @@
           "heading": "School Transport",
           "question": "282. Deputy Thomas Gould asked the Minister for Education and Youth whether she is aware of difficulties with sourcing school transport for in-school July Provision; and the actions she has taken to resolve this. [46501/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/282/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 181,
+          "department": "Transport",
+          "heading": "Motor Industry",
+          "question": "181. Deputy Thomas Gould asked the Minister for Transport the reason motor tax revenue is no longer ringfenced for local authority funding. [47269/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/181/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 310,
+          "department": "Education",
+          "heading": "Schools Building Projects",
+          "question": "310. Deputy Thomas Gould asked the Minister for Education and Youth when a proposal for a school extension (details supplied) in Cork will progress to construction. [46993/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/310/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 684,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "684. Deputy Thomas Gould asked the Minister for Health to review the case of a person (details supplied) and expedite an appointment. [47006/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/684/",
           "questionType": "written"
         }
       ]

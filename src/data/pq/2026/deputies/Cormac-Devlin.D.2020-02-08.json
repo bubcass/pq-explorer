@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Cormac-Devlin.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 233,
+      "count": 258,
       "headingOptions": [
         "An Garda Síochána",
         "Apprenticeship Programmes",
@@ -40,6 +40,8 @@
         "Deportation Orders",
         "Disabilities Assessments",
         "Disability Issues",
+        "Disability Services",
+        "Driver Test",
         "Eating Disorders",
         "Economic Policy",
         "Education and Training Provision",
@@ -47,6 +49,7 @@
         "Enterprise Policy",
         "Financial Services",
         "Fiscal Policy",
+        "Food Labelling",
         "Foreign Conflicts",
         "Fuel Poverty",
         "Fuel Prices",
@@ -54,6 +57,7 @@
         "Health Service Executive",
         "Health Services",
         "Health Services Staff",
+        "Health Strategies",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
         "Heritage Sites",
@@ -70,6 +74,7 @@
         "Legal Aid",
         "Legislative Measures",
         "Legislative Programme",
+        "Local Development Companies",
         "Medicinal Products",
         "Mental Health Services",
         "Military Aircraft",
@@ -84,7 +89,9 @@
         "Pharmacy Services",
         "Planning Issues",
         "Primary Care Centres",
+        "Prison Service",
         "Programme for Government",
+        "Public Sector Pay",
         "Question Heading for question(s)  2143",
         "Schools Building Projects",
         "Small and Medium Enterprises",
@@ -101,6 +108,7 @@
         "Tax Data",
         "Tax Exemptions",
         "Teaching Qualifications",
+        "Transport Infrastructure Ireland",
         "Wind Energy Generation",
         "Work Permits",
         "Workplace Relations Services"
@@ -109,7 +117,7 @@
         "topHeading": "Programme for Government",
         "topHeadingCount": 18,
         "topDepartment": "Health",
-        "topDepartmentCount": 63
+        "topDepartmentCount": 67
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -143,6 +151,10 @@
               },
               {
                 "name": "Hospital Services",
+                "value": 3
+              },
+              {
+                "name": "Food Labelling",
                 "value": 3
               },
               {
@@ -208,6 +220,10 @@
               {
                 "name": "Care of the Elderly",
                 "value": 1
+              },
+              {
+                "name": "Health Strategies",
+                "value": 1
               }
             ]
           },
@@ -264,12 +280,12 @@
             "name": "Education",
             "children": [
               {
-                "name": "Schools Building Projects",
-                "value": 6
+                "name": "Special Educational Needs",
+                "value": 7
               },
               {
-                "name": "Special Educational Needs",
-                "value": 5
+                "name": "Schools Building Projects",
+                "value": 6
               },
               {
                 "name": "Teaching Qualifications",
@@ -289,6 +305,47 @@
               },
               {
                 "name": "Departmental Policies",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Driver Test",
+                "value": 8
+              },
+              {
+                "name": "National Transport Authority",
+                "value": 4
+              },
+              {
+                "name": "Coast Guard Service",
+                "value": 1
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Transport Infrastructure Ireland",
                 "value": 1
               }
             ]
@@ -364,6 +421,39 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "value": 6
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 4
+              },
+              {
+                "name": "Childcare Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Health Service Executive",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Programme for Government",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -404,6 +494,10 @@
               },
               {
                 "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Prison Service",
                 "value": 1
               }
             ]
@@ -458,39 +552,6 @@
               },
               {
                 "name": "Programme for Government",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "National Transport Authority",
-                "value": 4
-              },
-              {
-                "name": "Coast Guard Service",
-                "value": 1
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Programme for Government",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Bus Services",
                 "value": 1
               }
             ]
@@ -562,26 +623,30 @@
             ]
           },
           {
-            "name": "Children",
+            "name": "Public Expenditure",
             "children": [
               {
-                "name": "Disabilities Assessments",
-                "value": 4
+                "name": "National Development Plan",
+                "value": 2
               },
               {
-                "name": "Childcare Services",
+                "name": "Public Sector Pay",
+                "value": 2
+              },
+              {
+                "name": "State Properties",
                 "value": 1
               },
               {
-                "name": "Departmental Data",
+                "name": "Legislative Measures",
                 "value": 1
               },
               {
-                "name": "Health Service Executive",
+                "name": "Legislative Programme",
                 "value": 1
               },
               {
-                "name": "Departmental Policies",
+                "name": "An Garda Síochána",
                 "value": 1
               },
               {
@@ -649,35 +714,6 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "National Development Plan",
-                "value": 2
-              },
-              {
-                "name": "State Properties",
-                "value": 1
-              },
-              {
-                "name": "Legislative Measures",
-                "value": 1
-              },
-              {
-                "name": "Legislative Programme",
-                "value": 1
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              },
-              {
-                "name": "Programme for Government",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -716,6 +752,10 @@
             "children": [
               {
                 "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Local Development Companies",
                 "value": 1
               }
             ]
@@ -1074,6 +1114,32 @@
                 ]
               },
               {
+                "name": "Food Labelling",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "756. Deputy Cormac Devlin asked the Minister for Health the current status of the European Commission's proposals to set harmonised maximum permitted levels for vitamins and minerals in food supplements and fortified foods; if her Department and the Food Safety Authority of Ireland are represented on the relevant European Commission task force; if she will ensure that Ireland advances the need for a degree of national flexibility within any harmonised approach, given that nutritional requirements such as vitamin D vary significantly across the Union owing to differences in latitude and sunlight; and if she will make a statement on the matter. [47326/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/756/"
+                      },
+                      {
+                        "name": "757. Deputy Cormac Devlin asked the Minister for Health if her Department or the Food Safety Authority of Ireland intends to make a submission to any forthcoming European Commission consultation on harmonised maximum levels for vitamins and minerals in food supplements; if she will ensure that any such submission reflects the need for national flexibility to account for the specific nutritional needs of the Irish population, including vitamin D requirements arising from limited sunlight at northern latitudes; and if she will make a statement on the matter. [47327/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/757/"
+                      },
+                      {
+                        "name": "758. Deputy Cormac Devlin asked the Minister for Health if her Department or the Food Safety Authority of Ireland will ensure the EU Commission's upcoming public on harmonised maximum permitted levels for vitamins and minerals in food supplements and fortified foods will be publicised so that citizens and interested parties in Ireland will be aware of the proposals and have an opportunity to participate in the process; and if she will make a statement on the matter. [47328/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/758/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Healthcare Policy",
                 "children": [
                   {
@@ -1349,6 +1415,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Health Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "660. Deputy Cormac Devlin asked the Minister for Health the details of the way in which acute hospitals will be integrated in the HSE/Tusla joint protocol; and if she will make a statement on the matter. [46823/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/660/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1594,6 +1676,58 @@
             "name": "Education",
             "children": [
               {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "379. Deputy Cormac Devlin asked the Minister for Education and Youth if she is aware of a proposed reduction in allocated SNA hours for a school (details supplied); and if she will make a statement on the matter. [13974/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/379/"
+                      },
+                      {
+                        "name": "380. Deputy Cormac Devlin asked the Minister for Education and Youth the annual national budget allocation for SNA resources for the years 2020 to 2025 inclusive, and the projected budget for 2026; and if she will make a statement on the matter. [13975/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/380/"
+                      },
+                      {
+                        "name": "381. Deputy Cormac Devlin asked the Minister for Education and Youth is she is aware of a case (details supplied); if her officials will investigate the case; and if she will make a statement on the matter. [13977/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/381/"
+                      },
+                      {
+                        "name": "382. Deputy Cormac Devlin asked the Minister for Education and Youth the number of schools that the NCSE propose to increase, decrease, or leave unchanged SNA allocation posts from September 2026, broken down by county, in tabular form; and if she will make a statement on the matter. [13978/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/382/"
+                      },
+                      {
+                        "name": "383. Deputy Cormac Devlin asked the Minister for Education and Youth the number of schools that have appealed NCSE proposed SNA post allocations for September 2026, as of 14 February 2026, by county, in tabular form; and if she will make a statement on the matter. [13979/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/383/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "382. Deputy Cormac Devlin asked the Minister for Education and Youth if her attention has been drawn to a matter (details supplied); and if she will make a statement on the matter. [47693/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/382/"
+                      },
+                      {
+                        "name": "383. Deputy Cormac Devlin asked the Minister for Education and Youth if her attention has been drawn to a matter (details supplied); and if she will make a statement on the matter. [47694/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/383/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Schools Building Projects",
                 "children": [
                   {
@@ -1653,42 +1787,6 @@
                         "name": "295. Deputy Cormac Devlin asked the Minister for Education and Youth the plans to build a new primary or secondary school, or the current plans for the expansion of existing schools serving the Shankill/Woodbrook area of Dublin which has experienced significant housing development in recent years; and if she will make a statement on the matter. [46754/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/295/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "379. Deputy Cormac Devlin asked the Minister for Education and Youth if she is aware of a proposed reduction in allocated SNA hours for a school (details supplied); and if she will make a statement on the matter. [13974/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/379/"
-                      },
-                      {
-                        "name": "380. Deputy Cormac Devlin asked the Minister for Education and Youth the annual national budget allocation for SNA resources for the years 2020 to 2025 inclusive, and the projected budget for 2026; and if she will make a statement on the matter. [13975/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/380/"
-                      },
-                      {
-                        "name": "381. Deputy Cormac Devlin asked the Minister for Education and Youth is she is aware of a case (details supplied); if her officials will investigate the case; and if she will make a statement on the matter. [13977/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/381/"
-                      },
-                      {
-                        "name": "382. Deputy Cormac Devlin asked the Minister for Education and Youth the number of schools that the NCSE propose to increase, decrease, or leave unchanged SNA allocation posts from September 2026, broken down by county, in tabular form; and if she will make a statement on the matter. [13978/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/382/"
-                      },
-                      {
-                        "name": "383. Deputy Cormac Devlin asked the Minister for Education and Youth the number of schools that have appealed NCSE proposed SNA post allocations for September 2026, as of 14 February 2026, by county, in tabular form; and if she will make a statement on the matter. [13979/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/383/"
                       }
                     ]
                   }
@@ -1774,6 +1872,211 @@
                         "name": "294. Deputy Cormac Devlin asked the Minister for Education and Youth if she is aware of the case of a person (details supplied); if she will investigate the matter; and if she will make a statement on the matter. [46753/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/294/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "206. Deputy Cormac Devlin asked the Minister for Transport if he is aware of the case of a person (details supplied); if he will investigate the matter; and if he will make a statement on the matter. [47662/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/206/"
+                      },
+                      {
+                        "name": "207. Deputy Cormac Devlin asked the Minister for Transport the number of driving tests that did not proceed because a candidate's motor insurance documentation was deemed insufficient or was not presented, in respect of the requirement introduced on 9 March 2026, in the period from 9 March 2026 to 15 June 2026, disaggregated by test centre, in tabular form; and if he will make a statement on the matter. [47663/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/207/"
+                      },
+                      {
+                        "name": "208. Deputy Cormac Devlin asked the Minister for Transport the number of driving tests that did not proceed on the day of test owing to issues with a candidate's documentation, by year and by test centre, in the period from 1 January 2022 to 15 June 2026, in tabular form; and if he will make a statement on the matter. [47664/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/208/"
+                      },
+                      {
+                        "name": "209. Deputy Cormac Devlin asked the Minister for Transport the number of complaints received by the RSA in respect of driving tests that did not proceed on insurance documentation grounds, in the period from 9 March 2026 to 15 June 2026, disaggregated by test centre; the number of those complaints upheld, in tabular form; and if he will make a statement on the matter. [47665/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/209/"
+                      },
+                      {
+                        "name": "210. Deputy Cormac Devlin asked the Minister for Transport the number of driving test fee refunds issued; the total monetary value of same, in respect of tests that did not proceed on insurance documentation grounds, in the period from 9 March 2026 to 15 June 2026, disaggregated by test centre, in tabular form; and if he will make a statement on the matter. [47666/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/210/"
+                      },
+                      {
+                        "name": "211. Deputy Cormac Devlin asked the Minister for Transport the number of candidates who, having been unable to proceed with a driving test on insurance documentation grounds since 9 March 2026, who have been offered a further test free of charge; the average waiting time between the original test date and the rescheduled test for such candidates; and if he will make a statement on the matter. [47667/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/211/"
+                      },
+                      {
+                        "name": "212. Deputy Cormac Devlin asked the Minister for Transport the legal or administrative basis on which the requirement that driving test candidates present proof of insurance was introduced on 9 March 2026; whether this requirement was introduced by statutory instrument or as an operational measure of the RSA; the role of the agreement between the RSA and the third party stakeholders; whether the operation of the requirement will be amended or reviewed in light of the number of tests that did not proceed; and if he will make a statement on the matter. [47668/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/212/"
+                      },
+                      {
+                        "name": "213. Deputy Cormac Devlin asked the Minister for Transport the guidance issued to driving testers on the assessment of insurance documentation under the requirement introduced on 9 March 2026, in particular in respect of candidates who are named drivers but not policyholders on the certificate presented; the steps taken to ensure consistency of application across test centres; and if he will make a statement on the matter. [47669/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/213/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Transport Authority",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "837. Deputy Cormac Devlin asked the Minister for Transport if he is aware of issues on a route (details supplied); if he will contact the National Transport Authority; and if he will make a statement on the matter. [26391/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/837/"
+                      },
+                      {
+                        "name": "839. Deputy Cormac Devlin asked the Minister for Transport if he will report on the NTA's \"administrative error\" regarding the electric SPSV grant scheme 2026; the number who applied; the number granted; the current number on the cancellation list; the number who received the incorrect email; the number of complaints received regarding this error; and if he will make a statement on the matter. [26398/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/839/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "328. Deputy Cormac Devlin asked the Minister for Transport to provide details on the administrative error by the National Transport Authority in relation to a scheme (details supplied); the total number of applications received; the number of grant offers issued; the number of applicants subsequently placed on the cancellation list; the number of applicants who received an incorrect email indicating a grant offer that was later rescinded; the number of complaints received by the NTA in respect of this error; the total budget allocated to the scheme; the timeframe within which that budget was fully subscribed; and if he will make a statement on the matter. [29597/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/328/"
+                      },
+                      {
+                        "name": "329. Deputy Cormac Devlin asked the Minister for Transport the steps being taken by his Department and the National Transport Authority to address the position of SPSV licence holders who were adversely affected by the administrative error in the electric SPSV grant scheme 2026 (details supplied), including those who incurred financial loss having entered into vehicle purchase commitments on the basis of correspondence subsequently rescinded by the NTA; whether consideration is being given to additional funding, a reopening of the scheme, or an extension of SPSV licence validity for affected applicants pending the issue of further grant offers; and if he will make a statement on the matter. [29598/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/329/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Coast Guard Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "370. Deputy Cormac Devlin asked the Minister for Transport to provide an update on a matter (details supplied); and if he will make a statement on the matter. [4378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/370/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "838. Deputy Cormac Devlin asked the Minister for Transport the capability and function of the road side cameras along the major national roads and motorways across the country; if these have live feeds; if they are shared with An Garda Síochána or only upon request; and if he will make a statement on the matter. [26396/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/838/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "880. Deputy Cormac Devlin asked the Minister for Transport to provide a list of all marine notices issued over the past ten years relating to protected wrecks; and if he will make a statement on the matter. [27480/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/880/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "259. Deputy Cormac Devlin asked the Minister for Transport if he will provide a report on the progress made implementing the Programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41395/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/259/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "173. Deputy Cormac Devlin asked the Minister for Transport to provide an update on the longstanding CIÉ pensions issue; and if he will make a statement on the matter. [44842/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/173/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "247. Deputy Cormac Devlin asked the Minister for Transport if the National Transport Authority will examine a request (details supplied) to replace an existing bus shelter with a bus stop pole at a location where the shelter obstructs a private residence; and if he will make a statement on the matter. [46748/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/247/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Infrastructure Ireland",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "159. Deputy Cormac Devlin asked the Minister for Transport for an update on the M11/N11 junction upgrade; if funding has been provided for in the next five year Transport Infrastructure Ireland funding phase 2025-2030 in order that this important project can proceed; and if he will make a statement on the matter. [46821/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/159/"
                       }
                     ]
                   }
@@ -2160,6 +2463,163 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "616. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of children who availed of targeted supports under the access and inclusion model in each of the programme years 2021/2022 to 2025/2026; the number who availed of universal supports in the same period; the projected number of children to be supported in the 2026/2027 programme year, in tabular form; and if she will make a statement on the matter. [47330/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/616/"
+                      },
+                      {
+                        "name": "617. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of children availing of targeted access and inclusion model supports, by county and by city and county childcare committee area in the 2025/2026 programme year; and the number of early learning and care settings in each area delivering AIM supports, in tabular form; and if she will make a statement on the matter. [47331/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/617/"
+                      },
+                      {
+                        "name": "618. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the average and longest processing times for access and inclusion model Level 4 and Level 7 applications in the 2025/2026 programme year; the proportion of Level 7 applications processed within the published twelve-week timeframe; the number awaiting decision at the most recent date available, in tabular form; and if she will make a statement on the matter. [47332/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/618/"
+                      },
+                      {
+                        "name": "619. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of applications under the access and inclusion model for specialised equipment, appliances and minor building alterations in the 2024/2025 and 2025/2026 programme years; the number approved; and the average time to approval, in tabular form; and if she will make a statement on the matter. [47333/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/619/"
+                      },
+                      {
+                        "name": "620. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of children who availed of AIM Plus supports and AIM non-term supports respectively since their introduction in September 2024; the total expenditure on each in 2024 and 2025; the number of settings providing these supports, in tabular form; and if she will make a statement on the matter. [47334/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/620/"
+                      },
+                      {
+                        "name": "621. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the current rate of access and inclusion model level 7 additional capitation following the increase introduced in October 2025; the rate that applied beforehand; the full-year cost of that increase, in tabular form; and if she will make a statement on the matter. [47335/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/621/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2336. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality whether, under the revised assessment of need framework, access to cognitive or psychological assessment remains available where clinically indicated, including where a child’s needs may be masked by high cognitive ability; and if she will make a statement on the matter. [23562/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2336/"
+                      },
+                      {
+                        "name": "2337. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the safeguards in place under the revised assessment of need framework to ensure the identification of children with complex or uneven developmental profiles, including twice-exceptional children with both high ability and additional needs such as autism, ADHD or dyslexia; and if she will make a statement on the matter. [23563/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2337/"
+                      },
+                      {
+                        "name": "2338. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality whether her Department has carried out any impact assessment, equality screening, or child-rights analysis of the revised assessment of need framework in respect of children at risk of under-identification, including those whose needs may be masked by high cognitive ability; and if she will make any such assessment available; and if she will make a statement on the matter. [23564/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2338/"
+                      },
+                      {
+                        "name": "2339. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the training or guidance that is being provided to assessment officers and multidisciplinary teams to recognise complex presentations, including masking and twice-exceptionality, whether the implementation of the revised framework will be reviewed to ensure no cohort is excluded from identification or support; whether consideration has been given to the risk of increased reliance on private assessments and the implications for equity of access; and if she will make a statement on the matter. [23565/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2339/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "877. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality to detail her plans to improve the provision of childcare facilities, in particular in areas such as Shankill, County Dublin, where there has been significant demographic growth in recent years and demand for services due to new housing development, and if she will consider the Shankill area to trial a new State-based model for childcare services; and if she will make a statement on the matter. [4384/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/877/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "752. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality if she is aware of the ongoing case of a person (details supplied); and if she will make a statement on the matter. [16894/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/752/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Service Executive",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2560. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality for a detailed update on the funding being provided to an organisation (details supplied) as committed to in the HSE National Service Plan; and if she will make a statement on the matter. [26394/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2560/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "509. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the supports that are available to separated parents who are required, by virtue of court-ordered access arrangements or the location of the other parent, to travel to and secure short-term accommodation in another jurisdiction in order to exercise access to their children; whether her Department has engaged with the issues faced by such parents, including those travelling from the State to Northern Ireland; and if she will make a statement on the matter. [29602/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/509/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "507. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality if she will provide a report on the progress made implementing the Programme for Government commitments within her remit and on the achievements since the formation of the Government; and if she will make a statement on the matter. [41379/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/507/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -2338,6 +2798,22 @@
                         "name": "461. Deputy Cormac Devlin asked the Minister for Justice, Home Affairs and Migration if he will provide a report on the progress made on implementing the programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41390/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/461/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prison Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "501. Deputy Cormac Devlin asked the Minister for Justice, Home Affairs and Migration the breakdown from the Irish Prison Service of the percentages of prisoner and staff legal claims by sanitisation, trips, slips, falls and sexual assaults, over the past ten years; and if he will make a statement on the matter. [46822/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/501/"
                       }
                     ]
                   }
@@ -2596,144 +3072,6 @@
                         "name": "756. Deputy Cormac Devlin asked the Minister for Further and Higher Education, Research, Innovation and Science if he will provide a report on the progress made implementing the Programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41387/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/756/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "National Transport Authority",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "837. Deputy Cormac Devlin asked the Minister for Transport if he is aware of issues on a route (details supplied); if he will contact the National Transport Authority; and if he will make a statement on the matter. [26391/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/837/"
-                      },
-                      {
-                        "name": "839. Deputy Cormac Devlin asked the Minister for Transport if he will report on the NTA's \"administrative error\" regarding the electric SPSV grant scheme 2026; the number who applied; the number granted; the current number on the cancellation list; the number who received the incorrect email; the number of complaints received regarding this error; and if he will make a statement on the matter. [26398/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/839/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "328. Deputy Cormac Devlin asked the Minister for Transport to provide details on the administrative error by the National Transport Authority in relation to a scheme (details supplied); the total number of applications received; the number of grant offers issued; the number of applicants subsequently placed on the cancellation list; the number of applicants who received an incorrect email indicating a grant offer that was later rescinded; the number of complaints received by the NTA in respect of this error; the total budget allocated to the scheme; the timeframe within which that budget was fully subscribed; and if he will make a statement on the matter. [29597/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/328/"
-                      },
-                      {
-                        "name": "329. Deputy Cormac Devlin asked the Minister for Transport the steps being taken by his Department and the National Transport Authority to address the position of SPSV licence holders who were adversely affected by the administrative error in the electric SPSV grant scheme 2026 (details supplied), including those who incurred financial loss having entered into vehicle purchase commitments on the basis of correspondence subsequently rescinded by the NTA; whether consideration is being given to additional funding, a reopening of the scheme, or an extension of SPSV licence validity for affected applicants pending the issue of further grant offers; and if he will make a statement on the matter. [29598/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/329/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Coast Guard Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "370. Deputy Cormac Devlin asked the Minister for Transport to provide an update on a matter (details supplied); and if he will make a statement on the matter. [4378/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/370/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "838. Deputy Cormac Devlin asked the Minister for Transport the capability and function of the road side cameras along the major national roads and motorways across the country; if these have live feeds; if they are shared with An Garda Síochána or only upon request; and if he will make a statement on the matter. [26396/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/838/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "880. Deputy Cormac Devlin asked the Minister for Transport to provide a list of all marine notices issued over the past ten years relating to protected wrecks; and if he will make a statement on the matter. [27480/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/880/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Programme for Government",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "259. Deputy Cormac Devlin asked the Minister for Transport if he will provide a report on the progress made implementing the Programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41395/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/259/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "173. Deputy Cormac Devlin asked the Minister for Transport to provide an update on the longstanding CIÉ pensions issue; and if he will make a statement on the matter. [44842/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/173/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "247. Deputy Cormac Devlin asked the Minister for Transport if the National Transport Authority will examine a request (details supplied) to replace an existing bus shelter with a bus stop pole at a location where the shelter obstructs a private residence; and if he will make a statement on the matter. [46748/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/247/"
                       }
                     ]
                   }
@@ -3008,98 +3346,109 @@
             ]
           },
           {
-            "name": "Children",
+            "name": "Public Expenditure",
             "children": [
               {
-                "name": "Disabilities Assessments",
+                "name": "National Development Plan",
                 "children": [
                   {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
                     "children": [
                       {
-                        "name": "2336. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality whether, under the revised assessment of need framework, access to cognitive or psychological assessment remains available where clinically indicated, including where a child’s needs may be masked by high cognitive ability; and if she will make a statement on the matter. [23562/26]",
+                        "name": "16. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 8 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27629/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2336/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/16/"
                       },
                       {
-                        "name": "2337. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the safeguards in place under the revised assessment of need framework to ensure the identification of children with complex or uneven developmental profiles, including twice-exceptional children with both high ability and additional needs such as autism, ADHD or dyslexia; and if she will make a statement on the matter. [23563/26]",
+                        "name": "74. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 7 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27628/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2337/"
-                      },
-                      {
-                        "name": "2338. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality whether her Department has carried out any impact assessment, equality screening, or child-rights analysis of the revised assessment of need framework in respect of children at risk of under-identification, including those whose needs may be masked by high cognitive ability; and if she will make any such assessment available; and if she will make a statement on the matter. [23564/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2338/"
-                      },
-                      {
-                        "name": "2339. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the training or guidance that is being provided to assessment officers and multidisciplinary teams to recognise complex presentations, including masking and twice-exceptionality, whether the implementation of the revised framework will be reviewed to ensure no cohort is excluded from identification or support; whether consideration has been given to the risk of increased reliance on private assessments and the implications for equity of access; and if she will make a statement on the matter. [23565/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2339/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/74/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Childcare Services",
+                "name": "Public Sector Pay",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "265. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the on-going public sector discussions with regard to a reversal of the previous financial decision to reduce the daily rate of payment for former members of the public service appointed for their expertise and experience to public sector interview boards; and if he will make a statement on the matter. [46818/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/265/"
+                      },
+                      {
+                        "name": "266. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide an update on the next public sector pay deal; when talks are scheduled to commence; the engagements his Department has had with stakeholders around the process; and if he will make a statement on the matter. [46819/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/266/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Properties",
                 "children": [
                   {
                     "name": "Tuesday, 20 January",
                     "date_iso": "2026-01-20",
                     "children": [
                       {
-                        "name": "877. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality to detail her plans to improve the provision of childcare facilities, in particular in areas such as Shankill, County Dublin, where there has been significant demographic growth in recent years and demand for services due to new housing development, and if she will consider the Shankill area to trial a new State-based model for childcare services; and if she will make a statement on the matter. [4384/26]",
+                        "name": "436. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide an update on a matter (details supplied); and if he will make a statement on the matter. [4377/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/877/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/436/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Data",
+                "name": "Legislative Measures",
                 "children": [
                   {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
                     "children": [
                       {
-                        "name": "752. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality if she is aware of the ongoing case of a person (details supplied); and if she will make a statement on the matter. [16894/26]",
+                        "name": "37. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the timeframe for legislation to accelerate critical infrastructure and provide for emergency powers; and if he will make a statement on the matter. [10692/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/752/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/37/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Health Service Executive",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2560. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality for a detailed update on the funding being provided to an organisation (details supplied) as committed to in the HSE National Service Plan; and if she will make a statement on the matter. [26394/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2560/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
+                "name": "Legislative Programme",
                 "children": [
                   {
                     "name": "Thursday, 23 April",
                     "date_iso": "2026-04-23",
                     "children": [
                       {
-                        "name": "509. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the supports that are available to separated parents who are required, by virtue of court-ordered access arrangements or the location of the other parent, to travel to and secure short-term accommodation in another jurisdiction in order to exercise access to their children; whether her Department has engaged with the issues faced by such parents, including those travelling from the State to Northern Ireland; and if she will make a statement on the matter. [29602/26]",
+                        "name": "344. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on progress made under the Statute Law Revision Programme following the enactment of the Statute Law Revision Act 2024; the primary and secondary legislation identified and repealed to date under the programme; to indicate the next tranche of instruments selected for review or repeal; and if he will make a statement on the matter. [29600/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/509/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/344/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "30. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if any engagement has taken place between OPW and An Garda Síochána on acquiring a site in Cherrywood for a new Garda Station; and if he will make a statement on the matter. [40275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/30/"
                       }
                     ]
                   }
@@ -3113,9 +3462,9 @@
                     "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "507. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality if she will provide a report on the progress made implementing the Programme for Government commitments within her remit and on the achievements since the formation of the Government; and if she will make a statement on the matter. [41379/26]",
+                        "name": "295. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a report on the progress made implementing the Programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41391/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/507/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/295/"
                       }
                     ]
                   }
@@ -3347,112 +3696,6 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "National Development Plan",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "16. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 8 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27629/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/16/"
-                      },
-                      {
-                        "name": "74. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 7 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27628/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/74/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "State Properties",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "436. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide an update on a matter (details supplied); and if he will make a statement on the matter. [4377/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/436/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Measures",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "37. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the timeframe for legislation to accelerate critical infrastructure and provide for emergency powers; and if he will make a statement on the matter. [10692/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/37/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Programme",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "344. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on progress made under the Statute Law Revision Programme following the enactment of the Statute Law Revision Act 2024; the primary and secondary legislation identified and repealed to date under the programme; to indicate the next tranche of instruments selected for review or repeal; and if he will make a statement on the matter. [29600/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/344/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "30. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if any engagement has taken place between OPW and An Garda Síochána on acquiring a site in Cherrywood for a new Garda Station; and if he will make a statement on the matter. [40275/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/30/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Programme for Government",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "295. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a report on the progress made implementing the Programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41391/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/295/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -3572,6 +3815,22 @@
                         "name": "759. Deputy Cormac Devlin asked the Minister for Rural and Community Development and the Gaeltacht if he will provide a report on the progress made implementing the Programme for Government commitments within his remit and on the achievements since the formation of the Government; and if he will make a statement on the matter. [41392/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/759/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Local Development Companies",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "926. Deputy Cormac Devlin asked the Minister for Rural and Community Development and the Gaeltacht if he will have regard to the local development companies network in Ireland's pre-budget submission in his preparations for budget 2027; and if he will make a statement on the matter. [47329/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/926/"
                       }
                     ]
                   }
@@ -5668,6 +5927,231 @@
           "heading": "Dental Services ",
           "question": "533. Deputy Cormac Devlin asked the Minister for Health the number of whole-time equivalent dentists and dental staff employed in the public dental service, in each of the years 2021 to 2025 and to-date in 2026, in tabular form; and if she will make a statement on the matter. [46752/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/533/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 159,
+          "department": "Transport",
+          "heading": "Transport Infrastructure Ireland",
+          "question": "159. Deputy Cormac Devlin asked the Minister for Transport for an update on the M11/N11 junction upgrade; if funding has been provided for in the next five year Transport Infrastructure Ireland funding phase 2025-2030 in order that this important project can proceed; and if he will make a statement on the matter. [46821/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/159/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 206,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "206. Deputy Cormac Devlin asked the Minister for Transport if he is aware of the case of a person (details supplied); if he will investigate the matter; and if he will make a statement on the matter. [47662/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/206/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 207,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "207. Deputy Cormac Devlin asked the Minister for Transport the number of driving tests that did not proceed because a candidate's motor insurance documentation was deemed insufficient or was not presented, in respect of the requirement introduced on 9 March 2026, in the period from 9 March 2026 to 15 June 2026, disaggregated by test centre, in tabular form; and if he will make a statement on the matter. [47663/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/207/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 208,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "208. Deputy Cormac Devlin asked the Minister for Transport the number of driving tests that did not proceed on the day of test owing to issues with a candidate's documentation, by year and by test centre, in the period from 1 January 2022 to 15 June 2026, in tabular form; and if he will make a statement on the matter. [47664/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/208/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 209,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "209. Deputy Cormac Devlin asked the Minister for Transport the number of complaints received by the RSA in respect of driving tests that did not proceed on insurance documentation grounds, in the period from 9 March 2026 to 15 June 2026, disaggregated by test centre; the number of those complaints upheld, in tabular form; and if he will make a statement on the matter. [47665/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/209/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 210,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "210. Deputy Cormac Devlin asked the Minister for Transport the number of driving test fee refunds issued; the total monetary value of same, in respect of tests that did not proceed on insurance documentation grounds, in the period from 9 March 2026 to 15 June 2026, disaggregated by test centre, in tabular form; and if he will make a statement on the matter. [47666/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/210/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 211,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "211. Deputy Cormac Devlin asked the Minister for Transport the number of candidates who, having been unable to proceed with a driving test on insurance documentation grounds since 9 March 2026, who have been offered a further test free of charge; the average waiting time between the original test date and the rescheduled test for such candidates; and if he will make a statement on the matter. [47667/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/211/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 212,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "212. Deputy Cormac Devlin asked the Minister for Transport the legal or administrative basis on which the requirement that driving test candidates present proof of insurance was introduced on 9 March 2026; whether this requirement was introduced by statutory instrument or as an operational measure of the RSA; the role of the agreement between the RSA and the third party stakeholders; whether the operation of the requirement will be amended or reviewed in light of the number of tests that did not proceed; and if he will make a statement on the matter. [47668/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/212/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 213,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "213. Deputy Cormac Devlin asked the Minister for Transport the guidance issued to driving testers on the assessment of insurance documentation under the requirement introduced on 9 March 2026, in particular in respect of candidates who are named drivers but not policyholders on the certificate presented; the steps taken to ensure consistency of application across test centres; and if he will make a statement on the matter. [47669/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 265,
+          "department": "Public Expenditure",
+          "heading": "Public Sector Pay",
+          "question": "265. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the on-going public sector discussions with regard to a reversal of the previous financial decision to reduce the daily rate of payment for former members of the public service appointed for their expertise and experience to public sector interview boards; and if he will make a statement on the matter. [46818/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/265/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 266,
+          "department": "Public Expenditure",
+          "heading": "Public Sector Pay",
+          "question": "266. Deputy Cormac Devlin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide an update on the next public sector pay deal; when talks are scheduled to commence; the engagements his Department has had with stakeholders around the process; and if he will make a statement on the matter. [46819/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/266/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 382,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "382. Deputy Cormac Devlin asked the Minister for Education and Youth if her attention has been drawn to a matter (details supplied); and if she will make a statement on the matter. [47693/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/382/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 383,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "383. Deputy Cormac Devlin asked the Minister for Education and Youth if her attention has been drawn to a matter (details supplied); and if she will make a statement on the matter. [47694/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/383/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 501,
+          "department": "Justice",
+          "heading": "Prison Service",
+          "question": "501. Deputy Cormac Devlin asked the Minister for Justice, Home Affairs and Migration the breakdown from the Irish Prison Service of the percentages of prisoner and staff legal claims by sanitisation, trips, slips, falls and sexual assaults, over the past ten years; and if he will make a statement on the matter. [46822/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/501/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 616,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "616. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of children who availed of targeted supports under the access and inclusion model in each of the programme years 2021/2022 to 2025/2026; the number who availed of universal supports in the same period; the projected number of children to be supported in the 2026/2027 programme year, in tabular form; and if she will make a statement on the matter. [47330/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/616/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 617,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "617. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of children availing of targeted access and inclusion model supports, by county and by city and county childcare committee area in the 2025/2026 programme year; and the number of early learning and care settings in each area delivering AIM supports, in tabular form; and if she will make a statement on the matter. [47331/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/617/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 618,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "618. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the average and longest processing times for access and inclusion model Level 4 and Level 7 applications in the 2025/2026 programme year; the proportion of Level 7 applications processed within the published twelve-week timeframe; the number awaiting decision at the most recent date available, in tabular form; and if she will make a statement on the matter. [47332/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/618/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 619,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "619. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of applications under the access and inclusion model for specialised equipment, appliances and minor building alterations in the 2024/2025 and 2025/2026 programme years; the number approved; and the average time to approval, in tabular form; and if she will make a statement on the matter. [47333/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/619/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 620,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "620. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the number of children who availed of AIM Plus supports and AIM non-term supports respectively since their introduction in September 2024; the total expenditure on each in 2024 and 2025; the number of settings providing these supports, in tabular form; and if she will make a statement on the matter. [47334/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/620/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 621,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "621. Deputy Cormac Devlin asked the Minister for Children, Disability and Equality the current rate of access and inclusion model level 7 additional capitation following the increase introduced in October 2025; the rate that applied beforehand; the full-year cost of that increase, in tabular form; and if she will make a statement on the matter. [47335/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/621/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 660,
+          "department": "Health",
+          "heading": "Health Strategies",
+          "question": "660. Deputy Cormac Devlin asked the Minister for Health the details of the way in which acute hospitals will be integrated in the HSE/Tusla joint protocol; and if she will make a statement on the matter. [46823/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/660/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 756,
+          "department": "Health",
+          "heading": "Food Labelling",
+          "question": "756. Deputy Cormac Devlin asked the Minister for Health the current status of the European Commission's proposals to set harmonised maximum permitted levels for vitamins and minerals in food supplements and fortified foods; if her Department and the Food Safety Authority of Ireland are represented on the relevant European Commission task force; if she will ensure that Ireland advances the need for a degree of national flexibility within any harmonised approach, given that nutritional requirements such as vitamin D vary significantly across the Union owing to differences in latitude and sunlight; and if she will make a statement on the matter. [47326/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/756/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 757,
+          "department": "Health",
+          "heading": "Food Labelling",
+          "question": "757. Deputy Cormac Devlin asked the Minister for Health if her Department or the Food Safety Authority of Ireland intends to make a submission to any forthcoming European Commission consultation on harmonised maximum levels for vitamins and minerals in food supplements; if she will ensure that any such submission reflects the need for national flexibility to account for the specific nutritional needs of the Irish population, including vitamin D requirements arising from limited sunlight at northern latitudes; and if she will make a statement on the matter. [47327/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/757/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 758,
+          "department": "Health",
+          "heading": "Food Labelling",
+          "question": "758. Deputy Cormac Devlin asked the Minister for Health if her Department or the Food Safety Authority of Ireland will ensure the EU Commission's upcoming public on harmonised maximum permitted levels for vitamins and minerals in food supplements and fortified foods will be publicised so that citizens and interested parties in Ireland will be aware of the proposals and have an opportunity to participate in the process; and if she will make a statement on the matter. [47328/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/758/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 926,
+          "department": "Rural",
+          "heading": "Local Development Companies",
+          "question": "926. Deputy Cormac Devlin asked the Minister for Rural and Community Development and the Gaeltacht if he will have regard to the local development companies network in Ireland's pre-budget submission in his preparations for budget 2027; and if he will make a statement on the matter. [47329/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/926/",
           "questionType": "written"
         },
         {
