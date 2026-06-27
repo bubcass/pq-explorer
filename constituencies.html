@@ -4,21 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="generator" content="Observable Framework v1.13.4">
-<title>PQ Explorer | Constituencies | PQ Explorer</title>
+<title>Constituencies | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.8a0cf35a.css">
+<link rel="preload" as="style" href="./_import/style.c708da6c.css">
 <link rel="preload" as="style" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.8a0cf35a.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.c708da6c.css">
 <link rel="stylesheet" type="text/css" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
-<link rel="modulepreload" href="./_observablehq/client.0ba6a596.js">
+<link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/a96a6bbb.js">
 <link rel="modulepreload" href="./_import/components/pq-controls.6cfd96bb.js">
-<link rel="modulepreload" href="./_import/components/constituency-map.ad263a74.js">
+<link rel="modulepreload" href="./_import/components/constituency-map.1513561b.js">
+<link rel="modulepreload" href="./_npm/@turf/turf@7.3.4/55001c14.js">
+<link rel="modulepreload" href="./_import/components/section-nav.85e4ab42.js">
 <link rel="modulepreload" href="./_npm/leaflet@1.9.4/721623d8.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
@@ -52,12 +54,150 @@
 <link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
 <link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/@turf/along@7.3.4/0339bb0c.js">
+<link rel="modulepreload" href="./_npm/@turf/angle@7.3.4/d6e93734.js">
+<link rel="modulepreload" href="./_npm/@turf/area@7.3.4/d6ba3661.js">
+<link rel="modulepreload" href="./_npm/@turf/bbox@7.3.4/59288137.js">
+<link rel="modulepreload" href="./_npm/@turf/bbox-clip@7.3.4/279783d9.js">
+<link rel="modulepreload" href="./_npm/@turf/bbox-polygon@7.3.4/d090b42f.js">
+<link rel="modulepreload" href="./_npm/@turf/bearing@7.3.4/2c3cb3af.js">
+<link rel="modulepreload" href="./_npm/@turf/bezier-spline@7.3.4/af2a1e1b.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-clockwise@7.3.4/f56a1f23.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-concave@7.3.4/ac213575.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-contains@7.3.4/40cb139a.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-crosses@7.3.4/37253b2f.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-disjoint@7.3.4/109c8144.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-equal@7.3.4/1b98d814.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-intersects@7.3.4/56313654.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-overlap@7.3.4/22eeb52c.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-parallel@7.3.4/11af2be4.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-point-in-polygon@7.3.4/f12a8f4c.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-point-on-line@7.3.4/e06f93aa.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-touches@7.3.4/c76af439.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-valid@7.3.4/0635f4d4.js">
+<link rel="modulepreload" href="./_npm/@turf/boolean-within@7.3.4/e5a6c9d3.js">
+<link rel="modulepreload" href="./_npm/@turf/buffer@7.3.4/3c35ceae.js">
+<link rel="modulepreload" href="./_npm/@turf/center@7.3.4/5fce4a03.js">
+<link rel="modulepreload" href="./_npm/@turf/center-mean@7.3.4/7d8480b0.js">
+<link rel="modulepreload" href="./_npm/@turf/center-median@7.3.4/47c7783a.js">
+<link rel="modulepreload" href="./_npm/@turf/center-of-mass@7.3.4/7539982e.js">
+<link rel="modulepreload" href="./_npm/@turf/centroid@7.3.4/b840a8be.js">
+<link rel="modulepreload" href="./_npm/@turf/circle@7.3.4/8fa375c0.js">
+<link rel="modulepreload" href="./_npm/@turf/clean-coords@7.3.4/e25962d8.js">
+<link rel="modulepreload" href="./_npm/@turf/clone@7.3.4/9edb039d.js">
+<link rel="modulepreload" href="./_npm/@turf/clusters@7.3.4/aa32c187.js">
+<link rel="modulepreload" href="./_npm/@turf/clusters-dbscan@7.3.4/d127999d.js">
+<link rel="modulepreload" href="./_npm/@turf/clusters-kmeans@7.3.4/56b76352.js">
+<link rel="modulepreload" href="./_npm/@turf/collect@7.3.4/5394bbcf.js">
+<link rel="modulepreload" href="./_npm/@turf/combine@7.3.4/49610389.js">
+<link rel="modulepreload" href="./_npm/@turf/concave@7.3.4/5a19d16e.js">
+<link rel="modulepreload" href="./_npm/@turf/convex@7.3.4/86e63121.js">
+<link rel="modulepreload" href="./_npm/@turf/destination@7.3.4/1a8912b6.js">
+<link rel="modulepreload" href="./_npm/@turf/difference@7.3.4/03002d55.js">
+<link rel="modulepreload" href="./_npm/@turf/dissolve@7.3.4/0ea055c1.js">
+<link rel="modulepreload" href="./_npm/@turf/distance@7.3.4/58cbc6ef.js">
+<link rel="modulepreload" href="./_npm/@turf/distance-weight@7.3.4/6fe5ffae.js">
+<link rel="modulepreload" href="./_npm/@turf/ellipse@7.3.4/ffbd434b.js">
+<link rel="modulepreload" href="./_npm/@turf/envelope@7.3.4/f7105862.js">
+<link rel="modulepreload" href="./_npm/@turf/explode@7.3.4/84a7a349.js">
+<link rel="modulepreload" href="./_npm/@turf/flatten@7.3.4/d27faef4.js">
+<link rel="modulepreload" href="./_npm/@turf/flip@7.3.4/4adca565.js">
+<link rel="modulepreload" href="./_npm/@turf/geojson-rbush@7.3.4/112d6764.js">
+<link rel="modulepreload" href="./_npm/@turf/great-circle@7.3.4/1571ecd0.js">
+<link rel="modulepreload" href="./_npm/@turf/helpers@7.3.4/a5e57fe3.js">
+<link rel="modulepreload" href="./_npm/@turf/hex-grid@7.3.4/a166e175.js">
+<link rel="modulepreload" href="./_npm/@turf/interpolate@7.3.4/9e96ae2a.js">
+<link rel="modulepreload" href="./_npm/@turf/intersect@7.3.4/d41bed0e.js">
+<link rel="modulepreload" href="./_npm/@turf/invariant@7.3.4/0f53e08e.js">
+<link rel="modulepreload" href="./_npm/@turf/isobands@7.3.4/3e052809.js">
+<link rel="modulepreload" href="./_npm/@turf/isolines@7.3.4/c2ea7f2a.js">
+<link rel="modulepreload" href="./_npm/@turf/kinks@7.3.4/858bdddc.js">
+<link rel="modulepreload" href="./_npm/@turf/length@7.3.4/307c22ef.js">
+<link rel="modulepreload" href="./_npm/@turf/line-arc@7.3.4/1eaa469e.js">
+<link rel="modulepreload" href="./_npm/@turf/line-chunk@7.3.4/3428e424.js">
+<link rel="modulepreload" href="./_npm/@turf/line-intersect@7.3.4/6e46e428.js">
+<link rel="modulepreload" href="./_npm/@turf/line-offset@7.3.4/150a6e87.js">
+<link rel="modulepreload" href="./_npm/@turf/line-overlap@7.3.4/234a5889.js">
+<link rel="modulepreload" href="./_npm/@turf/line-segment@7.3.4/653449bf.js">
+<link rel="modulepreload" href="./_npm/@turf/line-slice@7.3.4/6dbfea17.js">
+<link rel="modulepreload" href="./_npm/@turf/line-slice-along@7.3.4/dbb48690.js">
+<link rel="modulepreload" href="./_npm/@turf/line-split@7.3.4/12716ae3.js">
+<link rel="modulepreload" href="./_npm/@turf/line-to-polygon@7.3.4/a256f5a3.js">
+<link rel="modulepreload" href="./_npm/@turf/mask@7.3.4/ea7f6c76.js">
+<link rel="modulepreload" href="./_npm/@turf/meta@7.3.4/1244e006.js">
+<link rel="modulepreload" href="./_npm/@turf/midpoint@7.3.4/e846d23f.js">
+<link rel="modulepreload" href="./_npm/@turf/moran-index@7.3.4/d6db1439.js">
+<link rel="modulepreload" href="./_npm/@turf/nearest-neighbor-analysis@7.3.4/c40f2a2d.js">
+<link rel="modulepreload" href="./_npm/@turf/nearest-point@7.3.4/b0def124.js">
+<link rel="modulepreload" href="./_npm/@turf/nearest-point-on-line@7.3.4/f3d65758.js">
+<link rel="modulepreload" href="./_npm/@turf/nearest-point-to-line@7.3.4/413c09fe.js">
+<link rel="modulepreload" href="./_npm/@turf/planepoint@7.3.4/762f3097.js">
+<link rel="modulepreload" href="./_npm/@turf/point-grid@7.3.4/d535ab83.js">
+<link rel="modulepreload" href="./_npm/@turf/point-on-feature@7.3.4/e1549de5.js">
+<link rel="modulepreload" href="./_npm/@turf/points-within-polygon@7.3.4/4c0fdb0f.js">
+<link rel="modulepreload" href="./_npm/@turf/point-to-line-distance@7.3.4/9468cd88.js">
+<link rel="modulepreload" href="./_npm/@turf/point-to-polygon-distance@7.3.4/71e32478.js">
+<link rel="modulepreload" href="./_npm/@turf/polygonize@7.3.4/d242e9df.js">
+<link rel="modulepreload" href="./_npm/@turf/polygon-smooth@7.3.4/1988776c.js">
+<link rel="modulepreload" href="./_npm/@turf/polygon-tangents@7.3.4/0e8c663d.js">
+<link rel="modulepreload" href="./_npm/@turf/polygon-to-line@7.3.4/0407b4f2.js">
+<link rel="modulepreload" href="./_npm/@turf/projection@7.3.4/0357785f.js">
+<link rel="modulepreload" href="./_npm/@turf/quadrat-analysis@7.3.4/6dfd8fe8.js">
+<link rel="modulepreload" href="./_npm/@turf/random@7.3.4/e1c02534.js">
+<link rel="modulepreload" href="./_npm/@turf/rectangle-grid@7.3.4/319b93f0.js">
+<link rel="modulepreload" href="./_npm/@turf/rewind@7.3.4/ca4e1bc6.js">
+<link rel="modulepreload" href="./_npm/@turf/rhumb-bearing@7.3.4/b4be7393.js">
+<link rel="modulepreload" href="./_npm/@turf/rhumb-destination@7.3.4/29240aa5.js">
+<link rel="modulepreload" href="./_npm/@turf/rhumb-distance@7.3.4/b9e69516.js">
+<link rel="modulepreload" href="./_npm/@turf/sample@7.3.4/61fe6c9c.js">
+<link rel="modulepreload" href="./_npm/@turf/sector@7.3.4/fb974eec.js">
+<link rel="modulepreload" href="./_npm/@turf/shortest-path@7.3.4/730a78b4.js">
+<link rel="modulepreload" href="./_npm/@turf/simplify@7.3.4/ab1b252b.js">
+<link rel="modulepreload" href="./_npm/@turf/square@7.3.4/fc331bad.js">
+<link rel="modulepreload" href="./_npm/@turf/square-grid@7.3.4/d0281a63.js">
+<link rel="modulepreload" href="./_npm/@turf/standard-deviational-ellipse@7.3.4/d221cfa8.js">
+<link rel="modulepreload" href="./_npm/@turf/tag@7.3.4/b7cf3522.js">
+<link rel="modulepreload" href="./_npm/@turf/tesselate@7.3.4/ed0cc787.js">
+<link rel="modulepreload" href="./_npm/@turf/tin@7.3.4/bb8c6138.js">
+<link rel="modulepreload" href="./_npm/@turf/transform-rotate@7.3.4/18675ed7.js">
+<link rel="modulepreload" href="./_npm/@turf/transform-scale@7.3.4/666a2700.js">
+<link rel="modulepreload" href="./_npm/@turf/transform-translate@7.3.4/54d20bb5.js">
+<link rel="modulepreload" href="./_npm/@turf/triangle-grid@7.3.4/1c463adb.js">
+<link rel="modulepreload" href="./_npm/@turf/truncate@7.3.4/db2edfb0.js">
+<link rel="modulepreload" href="./_npm/@turf/union@7.3.4/a3d529db.js">
+<link rel="modulepreload" href="./_npm/@turf/unkink-polygon@7.3.4/4c2e29bf.js">
+<link rel="modulepreload" href="./_npm/@turf/voronoi@7.3.4/51590525.js">
 <link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
 <link rel="modulepreload" href="./_npm/delaunator@5.1.0/d4ec0aa1.js">
 <link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/geojson-equality-ts@1.0.2/214e60d7.js">
+<link rel="modulepreload" href="./_npm/point-in-polygon-hao@1.2.4/6dfaf59a.js">
+<link rel="modulepreload" href="./_npm/@turf/jsts@2.7.2/ae450af2.js">
+<link rel="modulepreload" href="./_npm/d3-geo@1.7.1/e060ca58.js">
+<link rel="modulepreload" href="./_npm/kdbush@4.0.2/42d735f7.js">
+<link rel="modulepreload" href="./_npm/geokdbush@2.1.0/2f565311.js">
+<link rel="modulepreload" href="./_npm/skmeans@0.9.7/9649a959.js">
+<link rel="modulepreload" href="./_npm/rbush@3.0.1/1ce3aa4f.js">
+<link rel="modulepreload" href="./_npm/topojson-client@3.1.0/edd9ee95.js">
+<link rel="modulepreload" href="./_npm/topojson-server@3.0.1/e681b2be.js">
+<link rel="modulepreload" href="./_npm/concaveman@1.2.1/bab7a7b0.js">
+<link rel="modulepreload" href="./_npm/polyclip-ts@0.16.8/c7396230.js">
+<link rel="modulepreload" href="./_npm/arc@0.2.0/60c20533.js">
+<link rel="modulepreload" href="./_npm/sweepline-intersections@1.5.0/1fa93ac9.js">
+<link rel="modulepreload" href="./_npm/fast-deep-equal@3.1.3/33012ac6.js">
+<link rel="modulepreload" href="./_npm/earcut@2.2.4/a130da3d.js">
+<link rel="modulepreload" href="./_npm/d3-voronoi@1.1.2/bfec861e.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
+<link rel="modulepreload" href="./_npm/d3-array@1.2.4/a2c25531.js">
+<link rel="modulepreload" href="./_npm/tinyqueue@3.0.0/c6964f6e.js">
+<link rel="modulepreload" href="./_npm/quickselect@2.0.0/3173efc6.js">
+<link rel="modulepreload" href="./_npm/tinyqueue@2.0.3/46a53a68.js">
+<link rel="modulepreload" href="./_npm/point-in-polygon@1.1.0/ed68720b.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@2.0.4/umd/orient2d.min.js.0b81abd8.js">
+<link rel="modulepreload" href="./_npm/bignumber.js@9.3.1/031d311e.js">
+<link rel="modulepreload" href="./_npm/splaytree-ts@1.0.2/8a48eb63.js">
 
-    <link rel="icon" href="./_file/logo.be2bef67.svg" type="image/png" sizes="32x32">
+    <link rel="icon" href="./_file/logo.2bab7aac.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
 
@@ -74,34 +214,34 @@
   
 <script type="module">
 
-import {define} from "./_observablehq/client.0ba6a596.js";
+import {define} from "./_observablehq/client.68f9776d.js";
 import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
 
-registerFile("./data/geo/constituencies.json", {"name":"./data/geo/constituencies.json","mimeType":"application/json","path":"./_file/data/geo/constituencies.95a11bbf.json","lastModified":1775027615360,"size":4961681});
-registerFile("./data/pq/2025/constituency-download-all.json", {"name":"./data/pq/2025/constituency-download-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-download-all.a2d92b40.json","lastModified":1775152637861,"size":37794549});
-registerFile("./data/pq/2025/constituency-download-oral.json", {"name":"./data/pq/2025/constituency-download-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-download-oral.77d85a67.json","lastModified":1775152637864,"size":1039410});
-registerFile("./data/pq/2025/constituency-members-all.json", {"name":"./data/pq/2025/constituency-members-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-members-all.a645697f.json","lastModified":1775152637039,"size":67158});
-registerFile("./data/pq/2025/constituency-members-oral.json", {"name":"./data/pq/2025/constituency-members-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-members-oral.e8eb5828.json","lastModified":1775152637039,"size":66945});
-registerFile("./data/pq/2025/constituency-recent-questions-all.json", {"name":"./data/pq/2025/constituency-recent-questions-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-recent-questions-all.be31ea31.json","lastModified":1775152637424,"size":343345});
-registerFile("./data/pq/2025/constituency-recent-questions-oral.json", {"name":"./data/pq/2025/constituency-recent-questions-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-recent-questions-oral.0be90921.json","lastModified":1775152637425,"size":287149});
-registerFile("./data/pq/2025/constituency-summary-all.json", {"name":"./data/pq/2025/constituency-summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-summary-all.d302934f.json","lastModified":1775152636874,"size":1034757});
-registerFile("./data/pq/2025/constituency-summary-oral.json", {"name":"./data/pq/2025/constituency-summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-summary-oral.bf15444b.json","lastModified":1775152636875,"size":124094});
-registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1775152627386,"size":290});
-registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1775152627386,"size":286});
-registerFile("./data/pq/2026/constituency-download-all.json", {"name":"./data/pq/2026/constituency-download-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-all.6ca141e0.json","lastModified":1775152644666,"size":12551048});
-registerFile("./data/pq/2026/constituency-download-oral.json", {"name":"./data/pq/2026/constituency-download-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-oral.cf709460.json","lastModified":1775152644667,"size":328062});
-registerFile("./data/pq/2026/constituency-members-all.json", {"name":"./data/pq/2026/constituency-members-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-all.7f286d1a.json","lastModified":1775152644377,"size":66282});
-registerFile("./data/pq/2026/constituency-members-oral.json", {"name":"./data/pq/2026/constituency-members-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-oral.45334d09.json","lastModified":1775152644377,"size":66095});
-registerFile("./data/pq/2026/constituency-recent-questions-all.json", {"name":"./data/pq/2026/constituency-recent-questions-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-recent-questions-all.6fd5e234.json","lastModified":1775152644500,"size":347038});
-registerFile("./data/pq/2026/constituency-recent-questions-oral.json", {"name":"./data/pq/2026/constituency-recent-questions-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-recent-questions-oral.ec0e16e0.json","lastModified":1775152644500,"size":223378});
-registerFile("./data/pq/2026/constituency-summary-all.json", {"name":"./data/pq/2026/constituency-summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-all.c67727fb.json","lastModified":1775152644324,"size":529699});
-registerFile("./data/pq/2026/constituency-summary-oral.json", {"name":"./data/pq/2026/constituency-summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-oral.742ccef2.json","lastModified":1775152644324,"size":59569});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.1433b758.json","lastModified":1775152641196,"size":294});
-registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.167afbf8.json","lastModified":1775152641196,"size":282});
-registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.6c4c866e.mp4","lastModified":1764524117110,"size":4926913});
+registerFile("./data/geo/constituencies.json", {"name":"./data/geo/constituencies.json","mimeType":"application/json","path":"./_file/data/geo/constituencies.95a11bbf.json","lastModified":1775717386369,"size":4961681});
+registerFile("./data/pq/2025/constituency-download-all.json", {"name":"./data/pq/2025/constituency-download-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-download-all.a2d92b40.json","lastModified":1781256734423,"size":37794549});
+registerFile("./data/pq/2025/constituency-download-oral.json", {"name":"./data/pq/2025/constituency-download-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-download-oral.77d85a67.json","lastModified":1781256734426,"size":1039410});
+registerFile("./data/pq/2025/constituency-members-all.json", {"name":"./data/pq/2025/constituency-members-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-members-all.a645697f.json","lastModified":1781256733602,"size":67158});
+registerFile("./data/pq/2025/constituency-members-oral.json", {"name":"./data/pq/2025/constituency-members-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-members-oral.e8eb5828.json","lastModified":1781256733603,"size":66945});
+registerFile("./data/pq/2025/constituency-recent-questions-all.json", {"name":"./data/pq/2025/constituency-recent-questions-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-recent-questions-all.be31ea31.json","lastModified":1781256733974,"size":343345});
+registerFile("./data/pq/2025/constituency-recent-questions-oral.json", {"name":"./data/pq/2025/constituency-recent-questions-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-recent-questions-oral.0be90921.json","lastModified":1781256733975,"size":287149});
+registerFile("./data/pq/2025/constituency-summary-all.json", {"name":"./data/pq/2025/constituency-summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-summary-all.d302934f.json","lastModified":1781256733446,"size":1034757});
+registerFile("./data/pq/2025/constituency-summary-oral.json", {"name":"./data/pq/2025/constituency-summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-summary-oral.bf15444b.json","lastModified":1781256733446,"size":124094});
+registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1781256724070,"size":290});
+registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1781256724070,"size":286});
+registerFile("./data/pq/2026/constituency-download-all.json", {"name":"./data/pq/2026/constituency-download-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-all.247bc587.json","lastModified":1781887880830,"size":24303559});
+registerFile("./data/pq/2026/constituency-download-oral.json", {"name":"./data/pq/2026/constituency-download-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-oral.ed907d70.json","lastModified":1781887880832,"size":663193});
+registerFile("./data/pq/2026/constituency-members-all.json", {"name":"./data/pq/2026/constituency-members-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-all.58acbefd.json","lastModified":1781887880833,"size":67084});
+registerFile("./data/pq/2026/constituency-members-oral.json", {"name":"./data/pq/2026/constituency-members-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-oral.ac4d0bb9.json","lastModified":1781887880833,"size":66877});
+registerFile("./data/pq/2026/constituency-recent-questions-all.json", {"name":"./data/pq/2026/constituency-recent-questions-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-recent-questions-all.d9cded56.json","lastModified":1781887880833,"size":343564});
+registerFile("./data/pq/2026/constituency-recent-questions-oral.json", {"name":"./data/pq/2026/constituency-recent-questions-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-recent-questions-oral.463a0d90.json","lastModified":1781887880834,"size":271844});
+registerFile("./data/pq/2026/constituency-summary-all.json", {"name":"./data/pq/2026/constituency-summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-all.309ae5a8.json","lastModified":1781887880835,"size":743001});
+registerFile("./data/pq/2026/constituency-summary-oral.json", {"name":"./data/pq/2026/constituency-summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-oral.a1893aaf.json","lastModified":1781887880835,"size":89185});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.0d130857.json","lastModified":1781887881355,"size":290});
+registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.912d0f4a.json","lastModified":1781887881355,"size":285});
+registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
-define({id: "d2aa61d6", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","Plot","pqControls","constituencyMap","ensureLeafletCss","format","heroVideo","summaries","constituencyMembersData","constituencySummaryData","constituencyDownloadData","constituenciesGeo","partyColorMap","constituencyRecentQuestionsData","getState","getVariantKey","getMembersData","getConstituencySummaryRows","clean","cleanConstituencyName","getConstituencyOptions","formatIrishDate","getSelectedConstituencyTopHeadings","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getFilteredConstituencyGeo","dispatchChange","dispatchConstituencyChange","getRecentQuestionsForSelectedConstituency","getDownloadRowsForSelectedConstituency","csvEscape","buildConstituencyCsv","downloadTextFile","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
-const [d3, Plot, {pqControls}, {constituencyMap}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_npm/@observablehq/plot@0.6.17/a96a6bbb.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/constituency-map.ad263a74.js")]);
+define({id: "34759650", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","Plot","pqControls","constituencyMap","turf","renderSectionNav","ensureLeafletCss","format","heroVideoPromise","constituenciesGeoPromise","summaries","constituencyMembersData","constituencySummaryData","constituencyDownloadData","partyColorMap","constituencyRecentQuestionsData","getState","getVariantKey","getMembersData","getConstituencySummaryRows","clean","cleanConstituencyName","pointInFeature","detectUserConstituencyFromLocation","initialiseConstituencySelection","getConstituenciesGeo","getConstituencyOptions","formatIrishDate","getSelectedConstituencyTopHeadings","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getFilteredConstituencyGeo","dispatchChange","dispatchConstituencyChange","getRecentQuestionsForSelectedConstituency","getDownloadRowsForSelectedConstituency","csvEscape","buildConstituencyCsv","downloadTextFile","withPreservedScroll","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
+const [d3, Plot, {pqControls}, {constituencyMap}, turf, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_npm/@observablehq/plot@0.6.17/a96a6bbb.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/constituency-map.1513561b.js"), import("./_npm/@turf/turf@7.3.4/55001c14.js"), import("./_import/components/section-nav.85e4ab42.js")]);
 
 async function ensureLeafletCss() {
   if (typeof document === "undefined") return;
@@ -146,7 +286,7 @@ async function ensureLeafletCss() {
   });
 }
 
-await ensureLeafletCss();
+ensureLeafletCss();
 
 if (typeof window !== "undefined" && !window.__pqConstituenciesResizeObserver) {
   window.__pqConstituenciesResizeObserver = new ResizeObserver(([entry]) => {
@@ -157,53 +297,52 @@ if (typeof window !== "undefined" && !window.__pqConstituenciesResizeObserver) {
 }
 
 const format = d3.format(",d");
-const heroVideo = await FileAttachment("./media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("./media/PQs.mp4").url();
+const constituenciesGeoPromise = FileAttachment("./data/geo/constituencies.json").json();
 
 const summaries = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("./data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("./data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/summary-oral.json").json()
   }
 };
 
 const constituencyMembersData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/constituency-members-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/constituency-members-oral.json").json()
+    all: FileAttachment("./data/pq/2025/constituency-members-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/constituency-members-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/constituency-members-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/constituency-members-oral.json").json()
+    all: FileAttachment("./data/pq/2026/constituency-members-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/constituency-members-oral.json").json()
   }
 };
 
 const constituencySummaryData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/constituency-summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/constituency-summary-oral.json").json()
+    all: FileAttachment("./data/pq/2025/constituency-summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/constituency-summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/constituency-summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/constituency-summary-oral.json").json()
+    all: FileAttachment("./data/pq/2026/constituency-summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/constituency-summary-oral.json").json()
   }
 };
 
 const constituencyDownloadData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/constituency-download-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/constituency-download-oral.json").json()
+    all: FileAttachment("./data/pq/2025/constituency-download-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/constituency-download-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/constituency-download-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/constituency-download-oral.json").json()
+    all: FileAttachment("./data/pq/2026/constituency-download-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/constituency-download-oral.json").json()
   }
 };
-
-const constituenciesGeo = await FileAttachment("./data/geo/constituencies.json").json();
 
 const partyColorMap = new Map([
   ["Fianna Fáil", "#2c8737"],
@@ -221,12 +360,12 @@ const partyColorMap = new Map([
 
 const constituencyRecentQuestionsData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/constituency-recent-questions-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/constituency-recent-questions-oral.json").json()
+    all: FileAttachment("./data/pq/2025/constituency-recent-questions-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/constituency-recent-questions-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/constituency-recent-questions-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/constituency-recent-questions-oral.json").json()
+    all: FileAttachment("./data/pq/2026/constituency-recent-questions-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/constituency-recent-questions-oral.json").json()
   }
 };
 
@@ -246,12 +385,12 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getMembersData() {
-  return constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
+async function getMembersData() {
+  return await constituencyMembersData[getState().year]?.[getVariantKey()] ?? [];
 }
 
-function getConstituencySummaryRows() {
-  return constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
+async function getConstituencySummaryRows() {
+  return await constituencySummaryData[getState().year]?.[getVariantKey()] ?? [];
 }
 
 function clean(value) {
@@ -262,7 +401,88 @@ function cleanConstituencyName(name) {
   return clean(name).replace(/\s*\(\d+\)\s*$/, "");
 }
 
-function getConstituencyOptions() {
+function pointInFeature(feature, lon, lat) {
+  try {
+    const pt = turf.point([lon, lat]);
+
+    if (turf.booleanPointInPolygon(pt, feature)) return true;
+
+    const buffered = turf.buffer(feature, 0.01, { units: "kilometers" });
+    return turf.booleanPointInPolygon(pt, buffered);
+  } catch {
+    return false;
+  }
+}
+
+async function detectUserConstituencyFromLocation() {
+  if (typeof window === "undefined" || !navigator.geolocation) return null;
+
+  const geo = await getConstituenciesGeo();
+  const features = geo?.features ?? [];
+  if (!features.length) return null;
+
+  const position = await new Promise((resolve) => {
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        console.log("Geolocation success:", pos.coords.latitude, pos.coords.longitude);
+        resolve(pos);
+      },
+      (err) => {
+        console.warn("Geolocation error:", err);
+        resolve(null);
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 15000,
+        maximumAge: 300000
+      }
+    );
+  });
+
+  if (!position) return null;
+
+  const lat = position.coords.latitude;
+  const lon = position.coords.longitude;
+
+  const matched = features.find((feature) =>
+    pointInFeature(feature, lon, lat)
+  );
+
+  console.log("Matched constituency feature:", matched);
+
+  if (!matched) return null;
+
+  return cleanConstituencyName(matched?.properties?.ENG_NAME_VALUE);
+}
+
+async function initialiseConstituencySelection() {
+  const options = await getConstituencyOptions();
+  const state = getState();
+
+  if (!options.length) {
+    state.selectedConstituency = null;
+    return;
+  }
+
+  const detected = await detectUserConstituencyFromLocation();
+
+  if (detected && options.includes(detected)) {
+    state.selectedConstituency = detected;
+    return;
+  }
+
+  if (!state.selectedConstituency || !options.includes(state.selectedConstituency)) {
+    state.selectedConstituency = options[0];
+  }
+}
+
+async function getConstituenciesGeo() {
+  return await constituenciesGeoPromise;
+}
+
+async function getConstituencyOptions() {
+  const constituenciesGeo = await getConstituenciesGeo();
+
   return [
     ...new Set(
       constituenciesGeo.features
@@ -285,13 +505,13 @@ function formatIrishDate(isoDate) {
   }).format(d);
 }
 
-function getSelectedConstituencyTopHeadings(limit = 15) {
-  const summary = getSelectedConstituencySummary();
+async function getSelectedConstituencyTopHeadings(limit = 15) {
+  const summary = await getSelectedConstituencySummary();
   return (summary?.topHeadings ?? []).slice(0, limit);
 }
 
-function ensureValidConstituencySelection() {
-  const options = getConstituencyOptions();
+async function ensureValidConstituencySelection() {
+  const options = await getConstituencyOptions();
   const state = getState();
 
   if (!options.length) {
@@ -307,28 +527,29 @@ function ensureValidConstituencySelection() {
   return state.selectedConstituency;
 }
 
-function getFilteredMembers() {
-  const selected = ensureValidConstituencySelection();
+async function getFilteredMembers() {
+  const selected = await ensureValidConstituencySelection();
   if (!selected) return [];
 
-  return getMembersData()
+  return (await getMembersData())
     .filter((d) => cleanConstituencyName(d.constituency) === selected)
     .sort((a, b) => d3.ascending(a.memberName ?? "", b.memberName ?? ""));
 }
 
-function getSelectedConstituencySummary() {
-  const selected = ensureValidConstituencySelection();
+async function getSelectedConstituencySummary() {
+  const selected = await ensureValidConstituencySelection();
   if (!selected) return null;
 
   return (
-    getConstituencySummaryRows().find(
+    (await getConstituencySummaryRows()).find(
       (d) => cleanConstituencyName(d.constituency) === selected
     ) ?? null
   );
 }
 
-function getFilteredConstituencyGeo() {
-  const selected = ensureValidConstituencySelection();
+async function getFilteredConstituencyGeo() {
+  const selected = await ensureValidConstituencySelection();
+  const constituenciesGeo = await getConstituenciesGeo();
 
   return {
     type: "FeatureCollection",
@@ -347,10 +568,10 @@ function dispatchConstituencyChange() {
   window.dispatchEvent(new CustomEvent("pq-constituencies:constituency-change"));
 }
 
-function getRecentQuestionsForSelectedConstituency() {
-  const selected = ensureValidConstituencySelection();
+async function getRecentQuestionsForSelectedConstituency() {
+  const selected = await ensureValidConstituencySelection();
   const rows =
-    constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
+    await constituencyRecentQuestionsData[getState().year]?.[getVariantKey()] ?? [];
 
   return (
     rows.find(
@@ -359,12 +580,12 @@ function getRecentQuestionsForSelectedConstituency() {
   );
 }
 
-function getDownloadRowsForSelectedConstituency() {
-  const selected = ensureValidConstituencySelection();
+async function getDownloadRowsForSelectedConstituency() {
+  const selected = await ensureValidConstituencySelection();
   if (!selected) return [];
 
   const rows =
-    constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
+    await constituencyDownloadData[getState().year]?.[getVariantKey()] ?? [];
 
   return (
     rows.find((d) => cleanConstituencyName(d.constituency) === selected)
@@ -412,14 +633,60 @@ function downloadTextFile(filename, content, mimeType) {
   URL.revokeObjectURL(url);
 }
 
+async function withPreservedScroll(fn) {
+  const x = window.scrollX;
+  const y = window.scrollY;
+
+  await fn();
+
+  const restore = () => window.scrollTo(x, y);
+
+  restore();
+  requestAnimationFrame(() => {
+    restore();
+    requestAnimationFrame(() => {
+      restore();
+      setTimeout(restore, 0);
+      setTimeout(restore, 60);
+      setTimeout(restore, 150);
+    });
+  });
+}
+
 function mountReactive(className, renderFn, options = {}) {
-  const { eventName = "pq-constituencies:change" } = options;
+  const {
+    eventName = "pq-constituencies:change",
+    skeletonDelay = 120
+  } = options;
   const events = Array.isArray(eventName) ? eventName : [eventName];
 
   const el = document.createElement("div");
   if (className) el.className = className;
 
-  const run = () => requestAnimationFrame(() => renderFn(el));
+  let runId = 0;
+  let hasRenderedOnce = false;
+
+  const run = () => {
+    const currentRun = ++runId;
+
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+
+      if (!hasRenderedOnce) {
+        await renderFn(el, { isCurrent, skeletonOnly: true });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+        if (!isCurrent()) return;
+      }
+
+      await renderFn(el, { isCurrent, skeletonOnly: false });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
+    });
+  };
+
   run();
 
   for (const event of events) {
@@ -428,35 +695,63 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,Plot,pqControls,constituencyMap,ensureLeafletCss,format,heroVideo,summaries,constituencyMembersData,constituencySummaryData,constituencyDownloadData,constituenciesGeo,partyColorMap,constituencyRecentQuestionsData,getState,getVariantKey,getMembersData,getConstituencySummaryRows,clean,cleanConstituencyName,getConstituencyOptions,formatIrishDate,getSelectedConstituencyTopHeadings,ensureValidConstituencySelection,getFilteredMembers,getSelectedConstituencySummary,getFilteredConstituencyGeo,dispatchChange,dispatchConstituencyChange,getRecentQuestionsForSelectedConstituency,getDownloadRowsForSelectedConstituency,csvEscape,buildConstituencyCsv,downloadTextFile,mountReactive};
+
+await initialiseConstituencySelection();
+
+return {d3,Plot,pqControls,constituencyMap,turf,renderSectionNav,ensureLeafletCss,format,heroVideoPromise,constituenciesGeoPromise,summaries,constituencyMembersData,constituencySummaryData,constituencyDownloadData,partyColorMap,constituencyRecentQuestionsData,getState,getVariantKey,getMembersData,getConstituencySummaryRows,clean,cleanConstituencyName,pointInFeature,detectUserConstituencyFromLocation,initialiseConstituencySelection,getConstituenciesGeo,getConstituencyOptions,formatIrishDate,getSelectedConstituencyTopHeadings,ensureValidConstituencySelection,getFilteredMembers,getSelectedConstituencySummary,getFilteredConstituencyGeo,dispatchChange,dispatchConstituencyChange,getRecentQuestionsForSelectedConstituency,getDownloadRowsForSelectedConstituency,csvEscape,buildConstituencyCsv,downloadTextFile,withPreservedScroll,mountReactive};
 }});
 
-define({id: "0cfce92f", inputs: ["heroVideo","display"], body: (heroVideo,display) => {
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
-
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video class="hero__video" src="${heroVideo}" autoplay muted loop playsinline></video>
-    </div>
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer: Constituencies</h1>
-        <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
-      </div>
-    </div>
-  `;
-  display(hero);
-}
-}});
-
-define({id: "17fb658b", inputs: ["display","mountReactive","summaries","getState","getVariantKey","format"], body: (display,mountReactive,summaries,getState,getVariantKey,format) => {
+define({id: "0eaea95c", inputs: ["display","mountReactive","heroVideoPromise"], body: (display,mountReactive,heroVideoPromise) => {
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = summaries[getState().year]?.[getVariantKey()] ?? null;
+  mountReactive("hero", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
+
+    const heroVideo = await heroVideoPromise;
+
+    if (!isCurrent()) return;
+
+    el.innerHTML = `
+      <div class="hero__media">
+        <video class="hero__video" src="${heroVideo}" autoplay muted loop playsinline></video>
+      </div>
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer: Constituencies</h1>
+          <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
+        </div>
+      </div>
+    `;
+  }, { skeletonDelay: 120 })
+);
+}});
+
+define({id: "c6d9ea55", inputs: ["display","renderSectionNav"], body: (display,renderSectionNav) => {
+display(renderSectionNav("constituencies"));
+}});
+
+define({id: "eadfdd60", inputs: ["display","mountReactive","summaries","getState","getVariantKey","format"], body: (display,mountReactive,summaries,getState,getVariantKey,format) => {
+display(
+  mountReactive("prose-block reactive-prose", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--lg text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await summaries[getState().year]?.[getVariantKey()] ?? null;
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -486,11 +781,12 @@ display(
 );
 }});
 
-define({id: "9270efbf", inputs: ["getConstituencyOptions","ensureValidConstituencySelection","dispatchConstituencyChange","display"], body: (getConstituencyOptions,ensureValidConstituencySelection,dispatchConstituencyChange,display) => {
+define({id: "5143c7af", inputs: ["getConstituencyOptions","ensureValidConstituencySelection","withPreservedScroll","dispatchConstituencyChange","display"], body: (getConstituencyOptions,ensureValidConstituencySelection,withPreservedScroll,dispatchConstituencyChange,display) => {
 {
   const wrap = document.createElement("div");
+  let lastOptionsKey = "";
 
-  function renderConstituencySelect() {
+  async function renderConstituencySelect() {
     wrap.replaceChildren();
 
     const label = document.createElement("label");
@@ -503,8 +799,8 @@ define({id: "9270efbf", inputs: ["getConstituencyOptions","ensureValidConstituen
     const select = document.createElement("select");
     select.className = "control-input";
 
-    const options = getConstituencyOptions();
-    const selected = ensureValidConstituencySelection();
+    const options = await getConstituencyOptions();
+    const selected = await ensureValidConstituencySelection();
 
     for (const value of options) {
       const option = document.createElement("option");
@@ -514,39 +810,101 @@ define({id: "9270efbf", inputs: ["getConstituencyOptions","ensureValidConstituen
       select.appendChild(option);
     }
 
-    select.addEventListener("change", (event) => {
+    select.addEventListener("change", async (event) => {
       window.pqConstituenciesState.selectedConstituency =
         event.target.value || null;
-      dispatchConstituencyChange();
+
+      await withPreservedScroll(async () => {
+        dispatchConstituencyChange();
+      });
     });
 
     label.appendChild(labelText);
     label.appendChild(select);
     wrap.appendChild(label);
+
+    lastOptionsKey = options.join("||");
   }
 
   renderConstituencySelect();
 
-  window.addEventListener("pq-constituencies:change", renderConstituencySelect);
+  async function rerenderConstituencySelectIfNeeded(force = false) {
+    const options = await getConstituencyOptions();
+    const nextOptionsKey = options.join("||");
+  
+    if (force || nextOptionsKey !== lastOptionsKey) {
+      await withPreservedScroll(async () => {
+        await renderConstituencySelect();
+      });
+    }
+  }
+  
+  window.addEventListener("pq-constituencies:change", async () => {
+    await rerenderConstituencySelectIfNeeded(false);
+  });
+  
+  window.addEventListener("pq-constituencies:constituency-change", async () => {
+    await rerenderConstituencySelectIfNeeded(true);
+  });
 
   display(wrap);
 }
 }});
 
-define({id: "6b421b20", inputs: ["pqControls","dispatchChange","display"], body: async (pqControls,dispatchChange,display) => {
+define({id: "08befdd1", inputs: ["pqControls","withPreservedScroll","dispatchChange","display"], body: async (pqControls,withPreservedScroll,dispatchChange,display) => {
 display(await(
 pqControls({
   state: window.pqConstituenciesState,
-  onChange: dispatchChange
+  onChange: async () => {
+    await withPreservedScroll(async () => {
+      dispatchChange();
+    });
+  }
 })
 ))
 }});
 
-define({id: "8f68e0c3", inputs: ["display","mountReactive","constituencyMap","getFilteredConstituencyGeo"], body: (display,mountReactive,constituencyMap,getFilteredConstituencyGeo) => {
+define({id: "afd17f09", inputs: ["display","mountReactive","getFilteredConstituencyGeo","constituencyMap","getConstituenciesGeo","pointInFeature","cleanConstituencyName","withPreservedScroll","dispatchConstituencyChange"], body: (display,mountReactive,getFilteredConstituencyGeo,constituencyMap,getConstituenciesGeo,pointInFeature,cleanConstituencyName,withPreservedScroll,dispatchConstituencyChange) => {
 display(
-  mountReactive("constituency-map-block", (el) => {
+  mountReactive("constituency-map-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="map-skeleton skeleton-shimmer"></div>`;
+      return;
+    }
+
+    const geo = await getFilteredConstituencyGeo();
+
+    if (!isCurrent()) return;
+
     el.replaceChildren(
-      constituencyMap(getFilteredConstituencyGeo(), { height: 420 })
+      constituencyMap(geo, {
+        height: 420,
+        onLocate: async ({ ok, lon, lat }) => {
+          if (!ok) return;
+
+          const geoAll = await getConstituenciesGeo();
+          const features = geoAll?.features ?? [];
+
+          const matched = features.find((feature) =>
+            pointInFeature(feature, lon, lat)
+          );
+
+          if (!matched) return;
+
+          const nextConstituency = cleanConstituencyName(
+            matched?.properties?.ENG_NAME_VALUE
+          );
+
+          if (!nextConstituency) return;
+          if (window.pqConstituenciesState.selectedConstituency === nextConstituency) return;
+
+          window.pqConstituenciesState.selectedConstituency = nextConstituency;
+
+          await withPreservedScroll(async () => {
+            dispatchConstituencyChange();
+          });
+        }
+      })
     );
   }, {
     eventName: ["pq-constituencies:change", "pq-constituencies:constituency-change"]
@@ -554,10 +912,31 @@ display(
 );
 }});
 
-define({id: "151c8700", inputs: ["display","mountReactive","getFilteredMembers","partyColorMap","format","formatIrishDate"], body: (display,mountReactive,getFilteredMembers,partyColorMap,format,formatIrishDate) => {
+define({id: "75250be0", inputs: ["display","mountReactive","getFilteredMembers","partyColorMap","format","formatIrishDate"], body: (display,mountReactive,getFilteredMembers,partyColorMap,format,formatIrishDate) => {
 display(
-  mountReactive("constituency-members-grid", (el) => {
-    const members = getFilteredMembers();
+  mountReactive("constituency-members-grid", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="cards-skeleton">
+          <div class="cards-skeleton__inner">
+            ${Array.from({ length: 3 }).map(() => `
+              <div class="cards-skeleton__card">
+                <div class="cards-skeleton__avatar skeleton-shimmer"></div>
+                <div class="cards-skeleton__line cards-skeleton__line--name skeleton-shimmer"></div>
+                <div class="cards-skeleton__line skeleton-shimmer"></div>
+                <div class="cards-skeleton__line cards-skeleton__line--short skeleton-shimmer"></div>
+                <div class="cards-skeleton__line skeleton-shimmer"></div>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const members = await getFilteredMembers();
+
+    if (!isCurrent()) return;
 
     const grid = document.createElement("div");
     grid.className = "constituency-members-grid__inner";
@@ -565,13 +944,13 @@ display(
     for (const member of members) {
       const party = member.party || "Independent";
       const color = partyColorMap.get(party) ?? "#666666";
-    
+
       const link = document.createElement("a");
       link.className = "constituency-member-card-link";
       link.href = member.memberUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
-    
+
       const metaRows = [
         ["Party", party],
         ["Questions asked", format(member.questionCount ?? 0)],
@@ -579,7 +958,7 @@ display(
           ? [["Served until", formatIrishDate(member.endDate)]]
           : [])
       ];
-    
+
       const metaHtml = metaRows
         .map(
           ([label, value]) => `
@@ -590,7 +969,7 @@ display(
           `
         )
         .join("");
-    
+
       link.innerHTML = `
         <article class="constituency-member-card">
           <div class="constituency-member-card__media" style="--party-color:${color}">
@@ -610,7 +989,7 @@ display(
           </div>
         </article>
       `;
-    
+
       grid.appendChild(link);
     }
 
@@ -621,16 +1000,29 @@ display(
 );
 }});
 
-define({id: "1e46815e", inputs: ["display","mountReactive","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getVariantKey","getState","format"], body: (display,mountReactive,ensureValidConstituencySelection,getFilteredMembers,getSelectedConstituencySummary,getVariantKey,getState,format) => {
+define({id: "ec606cd3", inputs: ["display","mountReactive","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getVariantKey","getState","format"], body: (display,mountReactive,ensureValidConstituencySelection,getFilteredMembers,getSelectedConstituencySummary,getVariantKey,getState,format) => {
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const selected = ensureValidConstituencySelection();
-    const members = getFilteredMembers();
-    const summary = getSelectedConstituencySummary();
+  mountReactive("prose-block reactive-prose", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const selected = await ensureValidConstituencySelection();
+    const members = await getFilteredMembers();
+    const summary = await getSelectedConstituencySummary();
     const isOral = getVariantKey() === "oral";
     const questionLabel = isOral ? "oral questions" : "parliamentary questions";
     const topicQuestionLabel = isOral ? "oral questions" : "questions";
     const year = getState().year;
+
+    if (!isCurrent()) return;
 
     el.innerHTML = `
       <p>
@@ -658,12 +1050,28 @@ display(
 );
 }});
 
-define({id: "995990bf", inputs: ["display","mountReactive","getSelectedConstituencySummary","getVariantKey","Plot"], body: (display,mountReactive,getSelectedConstituencySummary,getVariantKey,Plot) => {
+define({id: "c92492ef", inputs: ["display","mountReactive","getSelectedConstituencySummary","getVariantKey","Plot"], body: (display,mountReactive,getSelectedConstituencySummary,getVariantKey,Plot) => {
 display(
-  mountReactive("chart-block", (el) => {
-    const summary = getSelectedConstituencySummary();
+  mountReactive("chart-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="chart-skeleton chart-skeleton--bars">
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSelectedConstituencySummary();
     const isOral = getVariantKey() === "oral";
     const rows = (summary?.topHeadings ?? []).slice(0, 15);
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No topic data available for this constituency.</p>`;
@@ -785,10 +1193,22 @@ display(
 );
 }});
 
-define({id: "08d3d532", inputs: ["display","mountReactive","ensureValidConstituencySelection"], body: (display,mountReactive,ensureValidConstituencySelection) => {
+define({id: "d89f3348", inputs: ["display","mountReactive","ensureValidConstituencySelection"], body: (display,mountReactive,ensureValidConstituencySelection) => {
 display(
-  mountReactive("prose-block", (el) => {
-    const selected = ensureValidConstituencySelection();
+  mountReactive("prose-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const selected = await ensureValidConstituencySelection();
+
+    if (!isCurrent()) return;
 
     el.innerHTML = `
       <p>
@@ -812,20 +1232,47 @@ display(
 );
 }});
 
-define({id: "9f6de4ab", inputs: ["display","mountReactive","getRecentQuestionsForSelectedConstituency","formatIrishDate"], body: (display,mountReactive,getRecentQuestionsForSelectedConstituency,formatIrishDate) => {
+define({id: "f6874439", inputs: ["display","mountReactive","getRecentQuestionsForSelectedConstituency","formatIrishDate"], body: (display,mountReactive,getRecentQuestionsForSelectedConstituency,formatIrishDate) => {
 display(
-  mountReactive("chart-block", (el) => {
-    const rows = getRecentQuestionsForSelectedConstituency();
+  mountReactive("chart-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="table-skeleton">
+          ${Array.from({ length: 6 }).map(() => `
+            <div class="table-skeleton__row">
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+              <div class="table-skeleton__cell skeleton-shimmer"></div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      return;
+    }
+
+    const rows = await getRecentQuestionsForSelectedConstituency();
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No recent questions available.</p>`;
       return;
     }
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrap";
+
     const table = document.createElement("table");
-    table.className = "observablehq";
+    table.className = "pq-table pq-table--constituencies";
 
     table.innerHTML = `
+      <colgroup>
+        <col style="width: 9rem" />
+        <col style="width: 14rem" />
+        <col style="width: 12rem" />
+        <col style="width: 34rem" />
+      </colgroup>
       <thead>
         <tr>
           <th>Date</th>
@@ -839,11 +1286,11 @@ display(
           .map(
             (d) => `
               <tr>
-                <td>${formatIrishDate(d.date)}</td>
-                <td>${d.deputy}</td>
-                <td><strong>${d.heading}</strong></td>
-                <td>
-                  <a href="${d.url}" target="_blank" rel="noreferrer">
+                <td data-label="Date">${formatIrishDate(d.date)}</td>
+                <td data-label="Deputy">${d.deputy}</td>
+                <td data-label="Heading"><strong>${d.heading}</strong></td>
+                <td data-label="Question">
+                  <a class="link-arrow" href="${d.url}" target="_blank" rel="noreferrer">
                     ${d.question}
                   </a>
                 </td>
@@ -854,7 +1301,8 @@ display(
       </tbody>
     `;
 
-    el.replaceChildren(table);
+    wrapper.appendChild(table);
+    el.replaceChildren(wrapper);
   }, {
     eventName: [
       "pq-constituencies:change",
@@ -864,11 +1312,18 @@ display(
 );
 }});
 
-define({id: "55b0a1c7", inputs: ["display","mountReactive","ensureValidConstituencySelection","getDownloadRowsForSelectedConstituency","buildConstituencyCsv","getState","getVariantKey","downloadTextFile"], body: (display,mountReactive,ensureValidConstituencySelection,getDownloadRowsForSelectedConstituency,buildConstituencyCsv,getState,getVariantKey,downloadTextFile) => {
+define({id: "930bbcfe", inputs: ["display","mountReactive","ensureValidConstituencySelection","getDownloadRowsForSelectedConstituency","buildConstituencyCsv","getState","getVariantKey","downloadTextFile"], body: (display,mountReactive,ensureValidConstituencySelection,getDownloadRowsForSelectedConstituency,buildConstituencyCsv,getState,getVariantKey,downloadTextFile) => {
 display(
-  mountReactive("download-block", (el) => {
-    const selected = ensureValidConstituencySelection();
-    const rows = getDownloadRowsForSelectedConstituency();
+  mountReactive("download-block", async (el, { isCurrent, skeletonOnly }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="text-skeleton"><div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div></div>`;
+      return;
+    }
+
+    const selected = await ensureValidConstituencySelection();
+    const rows = await getDownloadRowsForSelectedConstituency();
+
+    if (!isCurrent()) return;
 
     if (!selected || !rows.length) {
       el.innerHTML = "";
@@ -896,63 +1351,33 @@ display(
 );
 }});
 
-define({id: "586f983d", inputs: ["display"], body: (display) => {
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Overview</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-      <a class="explore-tile" href="./deputies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Deputies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-  display(wrap);
-}
-}});
-
 </script>
 </head>
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:d2aa61d6:--></div>
-<div class="observablehq observablehq--block"><!--:0cfce92f:--></div>
-<div class="observablehq observablehq--block"><!--:17fb658b:--></div>
+<div class="observablehq observablehq--block"><!--:34759650:--></div>
+<div class="observablehq observablehq--block"><!--:0eaea95c:--></div>
+<div class="observablehq observablehq--block"><!--:c6d9ea55:--></div>
+<div class="observablehq observablehq--block"><!--:eadfdd60:--></div>
 <div class="prose-block controls-block">
-<div class="observablehq observablehq--block"><!--:9270efbf:--></div>
+<div class="observablehq observablehq--block"><!--:5143c7af:--></div>
 </div>
 <div class="prose-block controls-block">
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:6b421b20:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:08befdd1:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:8f68e0c3:--></div>
-<div class="observablehq observablehq--block"><!--:151c8700:--></div>
-<div class="observablehq observablehq--block"><!--:1e46815e:--></div>
+<div class="observablehq observablehq--block"><!--:afd17f09:--></div>
+<div class="observablehq observablehq--block"><!--:75250be0:--></div>
+<div class="observablehq observablehq--block"><!--:ec606cd3:--></div>
 <div class="prose-block">
   <h2>Explore further</h2>
   <p>
     Take a look at the most common parliamentary question topics raised by Deputies representing the constituency.
   </p>
 </div>
-<div class="observablehq observablehq--block"><!--:995990bf:--></div>
-<div class="observablehq observablehq--block"><!--:08d3d532:--></div>
-<div class="observablehq observablehq--block"><!--:9f6de4ab:--></div>
+<div class="observablehq observablehq--block"><!--:c92492ef:--></div>
+<div class="observablehq observablehq--block"><!--:d89f3348:--></div>
+<div class="observablehq observablehq--block"><!--:f6874439:--></div>
 <div class="prose-block">
   All parliamentary questions can be searched on a
   <a class="link-arrow" href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
@@ -963,8 +1388,7 @@ define({id: "586f983d", inputs: ["display"], body: (display) => {
     Oireachtas open data API
   </a>.
 </div>
-<div class="observablehq observablehq--block"><!--:55b0a1c7:--></div>
-<div class="observablehq observablehq--block"><!--:586f983d:--></div>
+<div class="observablehq observablehq--block"><!--:930bbcfe:--></div>
 </main>
 </div>
 </body>

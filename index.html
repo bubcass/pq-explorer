@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="generator" content="Observable Framework v1.13.4">
-<title>PQ Explorer | Overview | PQ Explorer</title>
+<title>Overview | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.8a0cf35a.css">
+<link rel="preload" as="style" href="./_import/style.c708da6c.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.8a0cf35a.css">
-<link rel="modulepreload" href="./_observablehq/client.0ba6a596.js">
+<link rel="stylesheet" type="text/css" href="./_import/style.c708da6c.css">
+<link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
@@ -18,6 +18,7 @@
 <link rel="modulepreload" href="./_import/components/packed-circle-chart.8c317a95.js">
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
 <link rel="modulepreload" href="./_import/components/pq-controls.6cfd96bb.js">
+<link rel="modulepreload" href="./_import/components/section-nav.85e4ab42.js">
 <link rel="modulepreload" href="./_npm/d3-sankey@0.12.3/4d634262.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
@@ -57,7 +58,7 @@
 <link rel="modulepreload" href="./_npm/d3-path@1.0.9/b57ea69b.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
 
-    <link rel="icon" href="./_file/logo.be2bef67.svg" type="image/png" sizes="32x32">
+    <link rel="icon" href="./_file/logo.2bab7aac.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
 
@@ -74,84 +75,84 @@
   
 <script type="module">
 
-import {define} from "./_observablehq/client.0ba6a596.js";
+import {define} from "./_observablehq/client.68f9776d.js";
 import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
 
-registerFile("./data/pq/2025/packed-circle-hierarchy-all.json", {"name":"./data/pq/2025/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-all.2eebaf92.json","lastModified":1775152627893,"size":329431});
-registerFile("./data/pq/2025/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2025/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-oral.7f736a8a.json","lastModified":1775152627894,"size":45350});
-registerFile("./data/pq/2025/parliamentary_questions_2025.csv", {"name":"./data/pq/2025/parliamentary_questions_2025.csv","mimeType":"text/csv","path":"./_file/data/pq/2025/parliamentary_questions_2025.f35d7c68.csv","lastModified":1775152627142,"size":28773589});
-registerFile("./data/pq/2025/sankey-links-all.json", {"name":"./data/pq/2025/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-all.ce1b0005.json","lastModified":1775152628169,"size":16939});
-registerFile("./data/pq/2025/sankey-links-oral.json", {"name":"./data/pq/2025/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-oral.5b1fbe6c.json","lastModified":1775152628169,"size":12072});
-registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1775152627386,"size":290});
-registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1775152627386,"size":286});
-registerFile("./data/pq/2025/treemap-hierarchy-all.json", {"name":"./data/pq/2025/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-all.6fcd88d9.json","lastModified":1775152630723,"size":44317624});
-registerFile("./data/pq/2025/treemap-hierarchy-oral.json", {"name":"./data/pq/2025/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-oral.22e157de.json","lastModified":1775152630729,"size":1372283});
-registerFile("./data/pq/2026/packed-circle-hierarchy-all.json", {"name":"./data/pq/2026/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-all.4e2c6126.json","lastModified":1775152641369,"size":185506});
-registerFile("./data/pq/2026/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2026/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-oral.053a8508.json","lastModified":1775152641370,"size":20935});
-registerFile("./data/pq/2026/parliamentary_questions_2026.csv", {"name":"./data/pq/2026/parliamentary_questions_2026.csv","mimeType":"text/csv","path":"./_file/data/pq/2026/parliamentary_questions_2026.34763f7d.csv","lastModified":1775152641126,"size":9634616});
-registerFile("./data/pq/2026/sankey-links-all.json", {"name":"./data/pq/2026/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-all.04d71826.json","lastModified":1775152641448,"size":15787});
-registerFile("./data/pq/2026/sankey-links-oral.json", {"name":"./data/pq/2026/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-oral.d689b314.json","lastModified":1775152641448,"size":11200});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.1433b758.json","lastModified":1775152641196,"size":294});
-registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.167afbf8.json","lastModified":1775152641196,"size":282});
-registerFile("./data/pq/2026/treemap-hierarchy-all.json", {"name":"./data/pq/2026/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-all.af661433.json","lastModified":1775152642158,"size":14548971});
-registerFile("./data/pq/2026/treemap-hierarchy-oral.json", {"name":"./data/pq/2026/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-oral.cdcf9c3d.json","lastModified":1775152642159,"size":436572});
-registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.6c4c866e.mp4","lastModified":1764524117110,"size":4926913});
+registerFile("./data/pq/2025/packed-circle-hierarchy-all.json", {"name":"./data/pq/2025/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-all.2eebaf92.json","lastModified":1781256724654,"size":329431});
+registerFile("./data/pq/2025/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2025/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/packed-circle-hierarchy-oral.7f736a8a.json","lastModified":1781256724655,"size":45350});
+registerFile("./data/pq/2025/parliamentary_questions_2025.csv", {"name":"./data/pq/2025/parliamentary_questions_2025.csv","mimeType":"text/csv","path":"./_file/data/pq/2025/parliamentary_questions_2025.f35d7c68.csv","lastModified":1781256723895,"size":28773589});
+registerFile("./data/pq/2025/sankey-links-all.json", {"name":"./data/pq/2025/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-all.ce1b0005.json","lastModified":1781256724836,"size":16939});
+registerFile("./data/pq/2025/sankey-links-oral.json", {"name":"./data/pq/2025/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/sankey-links-oral.5b1fbe6c.json","lastModified":1781256724836,"size":12072});
+registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1781256724070,"size":290});
+registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1781256724070,"size":286});
+registerFile("./data/pq/2025/treemap-hierarchy-all.json", {"name":"./data/pq/2025/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-all.6fcd88d9.json","lastModified":1781256727392,"size":44317624});
+registerFile("./data/pq/2025/treemap-hierarchy-oral.json", {"name":"./data/pq/2025/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-hierarchy-oral.22e157de.json","lastModified":1781256727398,"size":1372283});
+registerFile("./data/pq/2026/packed-circle-hierarchy-all.json", {"name":"./data/pq/2026/packed-circle-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-all.df1823e6.json","lastModified":1781887881343,"size":241678});
+registerFile("./data/pq/2026/packed-circle-hierarchy-oral.json", {"name":"./data/pq/2026/packed-circle-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/packed-circle-hierarchy-oral.69d66c2a.json","lastModified":1781887881344,"size":32501});
+registerFile("./data/pq/2026/parliamentary_questions_2026.csv", {"name":"./data/pq/2026/parliamentary_questions_2026.csv","mimeType":"text/csv","path":"./_file/data/pq/2026/parliamentary_questions_2026.a4fb7ef6.csv","lastModified":1781887881351,"size":18654308});
+registerFile("./data/pq/2026/sankey-links-all.json", {"name":"./data/pq/2026/sankey-links-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-all.787e359e.json","lastModified":1781887881353,"size":15928});
+registerFile("./data/pq/2026/sankey-links-oral.json", {"name":"./data/pq/2026/sankey-links-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/sankey-links-oral.e7996b7a.json","lastModified":1781887881354,"size":11797});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.0d130857.json","lastModified":1781887881355,"size":290});
+registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.912d0f4a.json","lastModified":1781887881355,"size":285});
+registerFile("./data/pq/2026/treemap-hierarchy-all.json", {"name":"./data/pq/2026/treemap-hierarchy-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-all.a9ddc106.json","lastModified":1781887881366,"size":27747576});
+registerFile("./data/pq/2026/treemap-hierarchy-oral.json", {"name":"./data/pq/2026/treemap-hierarchy-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-hierarchy-oral.f4e70bf6.json","lastModified":1781887881367,"size":867425});
+registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
-define({id: "99dde47b", inputs: ["FileAttachment","ResizeObserver","parent","IntersectionObserver"], outputs: ["d3","SankeyChart","packedCircleChart","zoomableTreemap","pqControls","format","formatMean","heroVideo","summaries","sankeyData","packedData","treemapData","downloadUrls","getState","getVariantKey","getSummary","getSankeyLinks","getPackedData","getTreemapData","getDownloadHref","getDownloadFilename","chartPlaceholder","mountReactive","mountDeferred"], body: async (FileAttachment,ResizeObserver,parent,IntersectionObserver) => {
-const [d3, {SankeyChart}, {packedCircleChart}, {zoomableTreemap}, {pqControls}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/sankey-chart.69b83394.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/pq-controls.6cfd96bb.js")]);
+define({id: "0b49ad3c", inputs: ["FileAttachment","ResizeObserver","parent","IntersectionObserver"], outputs: ["d3","SankeyChart","packedCircleChart","zoomableTreemap","pqControls","renderSectionNav","format","formatMean","heroVideoPromise","summaries","sankeyData","packedData","treemapData","downloadUrls","getState","getVariantKey","getSummary","getSankeyLinks","getPackedData","getTreemapData","getDownloadHref","getDownloadFilename","chartPlaceholder","mountReactive","mountDeferred"], body: async (FileAttachment,ResizeObserver,parent,IntersectionObserver) => {
+const [d3, {SankeyChart}, {packedCircleChart}, {zoomableTreemap}, {pqControls}, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/sankey-chart.69b83394.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/section-nav.85e4ab42.js")]);
 
 const format = d3.format(",d");
 const formatMean = d3.format(".2f");
 
-const heroVideo = await FileAttachment("./media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("./media/PQs.mp4").url();
 
 const summaries = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("./data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("./data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/summary-oral.json").json()
   }
 };
 
 const sankeyData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/sankey-links-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/sankey-links-oral.json").json()
+    all: FileAttachment("./data/pq/2025/sankey-links-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/sankey-links-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/sankey-links-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/sankey-links-oral.json").json()
+    all: FileAttachment("./data/pq/2026/sankey-links-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/sankey-links-oral.json").json()
   }
 };
 
 const packedData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/packed-circle-hierarchy-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/packed-circle-hierarchy-oral.json").json()
+    all: FileAttachment("./data/pq/2025/packed-circle-hierarchy-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/packed-circle-hierarchy-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/packed-circle-hierarchy-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/packed-circle-hierarchy-oral.json").json()
+    all: FileAttachment("./data/pq/2026/packed-circle-hierarchy-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/packed-circle-hierarchy-oral.json").json()
   }
 };
 
 const treemapData = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/treemap-hierarchy-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/treemap-hierarchy-oral.json").json()
+    all: FileAttachment("./data/pq/2025/treemap-hierarchy-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/treemap-hierarchy-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/treemap-hierarchy-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/treemap-hierarchy-oral.json").json()
+    all: FileAttachment("./data/pq/2026/treemap-hierarchy-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/treemap-hierarchy-oral.json").json()
   }
 };
 
 const downloadUrls = {
-  2025: await FileAttachment("./data/pq/2025/parliamentary_questions_2025.csv").url(),
-  2026: await FileAttachment("./data/pq/2026/parliamentary_questions_2026.csv").url()
+  2025: FileAttachment("./data/pq/2025/parliamentary_questions_2025.csv").url(),
+  2026: FileAttachment("./data/pq/2026/parliamentary_questions_2026.csv").url()
 };
 
 if (typeof window !== "undefined" && !window.__pqOverviewResizeObserver) {
@@ -177,34 +178,34 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getSummary() {
-  return summaries[getState().year]?.[getVariantKey()] ?? null;
+async function getSummary() {
+  return await summaries[getState().year]?.[getVariantKey()] ?? null;
 }
 
-function getSankeyLinks() {
-  return sankeyData[getState().year]?.[getVariantKey()] ?? [];
+async function getSankeyLinks() {
+  return await sankeyData[getState().year]?.[getVariantKey()] ?? [];
 }
 
-function getPackedData() {
+async function getPackedData() {
   return (
-    packedData[getState().year]?.[getVariantKey()] ?? {
+    await packedData[getState().year]?.[getVariantKey()] ?? {
       name: "Parliamentary Questions",
       children: []
     }
   );
 }
 
-function getTreemapData() {
+async function getTreemapData() {
   return (
-    treemapData[getState().year]?.[getVariantKey()] ?? {
+    await treemapData[getState().year]?.[getVariantKey()] ?? {
       name: "Parliamentary Questions",
       children: []
     }
   );
 }
 
-function getDownloadHref() {
-  return downloadUrls[getState().year] ?? "";
+async function getDownloadHref() {
+  return await downloadUrls[getState().year] ?? "";
 }
 
 function getDownloadFilename() {
@@ -226,30 +227,33 @@ function chartPlaceholder(height = 320, text = "Updating…") {
 }
 
 function mountReactive(className, renderFn, options = {}) {
-  const { debounceMs = 50, loadingHtml = "", loadingDelayMs = 100 } = options;
+  const { debounceMs = 50, skeletonDelay = 120 } = options;
 
   const el = document.createElement("div");
   if (className) el.className = className;
 
   let timeoutId = null;
+  let runId = 0;
+  let hasRenderedOnce = false;
 
   const run = () => {
-    let didRender = false;
+    const currentRun = ++runId;
 
-    const loadingTimer = setTimeout(() => {
-      if (!didRender && loadingHtml) {
-        if (typeof loadingHtml === "string") {
-          el.innerHTML = loadingHtml;
-        } else {
-          el.replaceChildren(loadingHtml.cloneNode(true));
-        }
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+        if (!isCurrent()) return;
       }
-    }, loadingDelayMs);
 
-    requestAnimationFrame(() => {
-      renderFn(el);
-      didRender = true;
-      clearTimeout(loadingTimer);
+      await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
     });
   };
 
@@ -269,7 +273,8 @@ function mountDeferred(className, renderFn, options = {}) {
   const {
     rootMargin = "200px",
     loading = () => chartPlaceholder(320),
-    eventName = null
+    eventName = null,
+    skeletonDelay = 120
   } = options;
 
   const eventNames = Array.isArray(eventName)
@@ -282,9 +287,28 @@ function mountDeferred(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let hasRendered = false;
+  let hasRenderedOnce = false;
+  let runId = 0;
 
   const run = () => {
-    Promise.resolve(renderFn(el));
+    const currentRun = ++runId;
+
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+        if (!isCurrent()) return;
+      }
+
+      await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
+    });
   };
 
   const observer = new IntersectionObserver(
@@ -312,39 +336,48 @@ function mountDeferred(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,SankeyChart,packedCircleChart,zoomableTreemap,pqControls,format,formatMean,heroVideo,summaries,sankeyData,packedData,treemapData,downloadUrls,getState,getVariantKey,getSummary,getSankeyLinks,getPackedData,getTreemapData,getDownloadHref,getDownloadFilename,chartPlaceholder,mountReactive,mountDeferred};
+return {d3,SankeyChart,packedCircleChart,zoomableTreemap,pqControls,renderSectionNav,format,formatMean,heroVideoPromise,summaries,sankeyData,packedData,treemapData,downloadUrls,getState,getVariantKey,getSummary,getSankeyLinks,getPackedData,getTreemapData,getDownloadHref,getDownloadFilename,chartPlaceholder,mountReactive,mountDeferred};
 }});
 
-define({id: "b2c90fb6", inputs: ["heroVideo","display"], body: (heroVideo,display) => {
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
+define({id: "ad674770", inputs: ["display","mountReactive","heroVideoPromise"], body: (display,mountReactive,heroVideoPromise) => {
+display(
+  mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
 
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video
-        class="hero__video"
-        src="${heroVideo}"
-        autoplay
-        muted
-        loop
-        playsinline
-      ></video>
-    </div>
+    const heroVideo = await heroVideoPromise;
+    if (!isCurrent()) return;
 
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer</h1>
-        <p class="hero__subtitle">
-          A data-driven perspective on the questions asked in Parliament.
-        </p>
+    el.innerHTML = `
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          src="${heroVideo}"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
       </div>
-    </div>
-  `;
 
-  display(hero);
-}
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer</h1>
+          <p class="hero__subtitle">
+            A data-driven perspective on the questions asked in Parliament.
+          </p>
+        </div>
+      </div>
+    `;
+  })
+);
+}});
+
+define({id: "dd69da28", inputs: ["display","renderSectionNav"], body: (display,renderSectionNav) => {
+display(renderSectionNav("overview"));
 }});
 
 define({id: "26e75849", inputs: ["pqControls","display"], body: async (pqControls,display) => {
@@ -358,11 +391,23 @@ pqControls({
 ))
 }});
 
-define({id: "df3ee81f", inputs: ["display","mountReactive","getSummary","getVariantKey","format"], body: (display,mountReactive,getSummary,getVariantKey,format) => {
+define({id: "3ac12733", inputs: ["display","mountReactive","getSummary","getVariantKey","format"], body: (display,mountReactive,getSummary,getVariantKey,format) => {
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -383,10 +428,26 @@ display(
 );
 }});
 
-define({id: "76af5b5f", inputs: ["display","mountReactive","getSankeyLinks","SankeyChart","format","chartPlaceholder"], body: (display,mountReactive,getSankeyLinks,SankeyChart,format,chartPlaceholder) => {
+define({id: "34e1a414", inputs: ["display","mountReactive","getSankeyLinks","SankeyChart","format"], body: (display,mountReactive,getSankeyLinks,SankeyChart,format) => {
 display(
-  mountReactive("", (el) => {
-    const links = getSankeyLinks();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="chart-skeleton chart-skeleton--bars">
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+          <div class="chart-skeleton__bar skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const links = await getSankeyLinks();
+
+    if (!isCurrent()) return;
 
     if (!links.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -407,17 +468,30 @@ display(
       )
     );
   }, {
-    loadingHtml: chartPlaceholder(600),
-    loadingDelayMs: 80
+    debounceMs: 50
   })
 );
 }});
 
-define({id: "aa6ead06", inputs: ["display","mountReactive","getSummary","getVariantKey","format","formatMean"], body: (display,mountReactive,getSummary,getVariantKey,format,formatMean) => {
+define({id: "4f66b552", inputs: ["display","mountReactive","getSummary","getVariantKey","format","formatMean"], body: (display,mountReactive,getSummary,getVariantKey,format,formatMean) => {
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -450,10 +524,17 @@ display(
 );
 }});
 
-define({id: "9a8f412f", inputs: ["display","mountDeferred","getPackedData","packedCircleChart","chartPlaceholder"], body: (display,mountDeferred,getPackedData,packedCircleChart,chartPlaceholder) => {
+define({id: "f4f0f1a7", inputs: ["display","mountDeferred","getPackedData","packedCircleChart","chartPlaceholder"], body: (display,mountDeferred,getPackedData,packedCircleChart,chartPlaceholder) => {
 display(
-  mountDeferred("", (el) => {
-    const packed = getPackedData();
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:700px"></div>`;
+      return;
+    }
+
+    const packed = await getPackedData();
+
+    if (!isCurrent()) return;
 
     if (!packed?.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -470,10 +551,17 @@ display(
 );
 }});
 
-define({id: "b2ae3501", inputs: ["display","mountDeferred","getTreemapData","zoomableTreemap","chartPlaceholder"], body: (display,mountDeferred,getTreemapData,zoomableTreemap,chartPlaceholder) => {
+define({id: "ff014097", inputs: ["display","mountDeferred","getTreemapData","zoomableTreemap","chartPlaceholder"], body: (display,mountDeferred,getTreemapData,zoomableTreemap,chartPlaceholder) => {
 display(
-  mountDeferred("", (el) => {
-    const treemap = getTreemapData();
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--blocks skeleton-shimmer" style="height:520px"></div>`;
+      return;
+    }
+
+    const treemap = await getTreemapData();
+
+    if (!isCurrent()) return;
 
     if (!treemap?.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -490,11 +578,22 @@ display(
 );
 }});
 
-define({id: "32e0e510", inputs: ["display","mountReactive","getDownloadHref","getDownloadFilename","getState"], body: (display,mountReactive,getDownloadHref,getDownloadFilename,getState) => {
+define({id: "e1b395f8", inputs: ["display","mountReactive","getDownloadHref","getDownloadFilename","getState"], body: (display,mountReactive,getDownloadHref,getDownloadFilename,getState) => {
 display(
-  mountReactive("download-block", (el) => {
-    const href = getDownloadHref();
+  mountReactive("download-block", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const href = await getDownloadHref();
     const filename = getDownloadFilename();
+
+    if (!isCurrent()) return;
 
     const link = document.createElement("a");
     link.className = "pq-download";
@@ -508,37 +607,6 @@ display(
   })
 );
 
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./deputies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Deputies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./constituencies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Constituencies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-
-  display(wrap);
-}
 }});
 
 </script>
@@ -546,10 +614,12 @@ display(
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:99dde47b:--></div>
-<div class="observablehq observablehq--block"><!--:b2c90fb6:--></div>
+<div class="observablehq observablehq--block"><!--:0b49ad3c:--></div>
+<div class="observablehq observablehq--block"><!--:ad674770:--></div>
+<div class="observablehq observablehq--block"><!--:dd69da28:--></div>
 <div class="prose-block">
-<p><a href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noopener noreferrer">Parliamentary questions</a> are an intrinsic part of Parliament and each year tens of thousands of questions are asked by Members. They are directed to each Department and answered by the appropriate Minister or Minister of State.</p>
+<p><a class="link-arrow" href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noopener noreferrer">Parliamentary questions</a> are an intrinsic part of Parliament and each year tens of thousands of questions are asked by Members. They are directed to each Department and answered by the appropriate Minister or Minister of State.</p>
+<p>PQ Explorer is part of our series of <strong><a class="link-arrow" href="https://bubcass.github.io/open-data-insights/" target="_blank" rel="noopener noreferrer">Open Data Insights</a>.</strong></p>
 </div>
 <div class="prose-block">
 <h2> Parliamentary questions</h2>
@@ -559,16 +629,16 @@ display(
 <div class="prose-block controls-block">
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:26e75849:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:df3ee81f:--></div>
+<div class="observablehq observablehq--block"><!--:3ac12733:--></div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:76af5b5f:--></div>
+<div class="observablehq observablehq--block"><!--:34e1a414:--></div>
 </div>
 <div class="prose-block">
 <h2 id="explore-by-department" tabindex="-1"><a class="observablehq-header-anchor" href="#explore-by-department">Explore by Department</a></h2>
 </div>
-<div class="observablehq observablehq--block"><!--:aa6ead06:--></div>
+<div class="observablehq observablehq--block"><!--:4f66b552:--></div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:9a8f412f:--></div>
+<div class="observablehq observablehq--block"><!--:f4f0f1a7:--></div>
 </div>
 <div class="prose-block">
   <p class="chart-caption">
@@ -585,7 +655,7 @@ display(
   </p>
 </div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:b2ae3501:--></div>
+<div class="observablehq observablehq--block"><!--:ff014097:--></div>
 </div>
 <div class="prose-block">
   All parliamentary questions can be searched on a
@@ -597,7 +667,7 @@ display(
     Oireachtas open data API
   </a>.
 </div>
-<div class="observablehq observablehq--block"><!--:32e0e510:--></div>
+<div class="observablehq observablehq--block"><!--:e1b395f8:--></div>
 </main>
 </div>
 </body>

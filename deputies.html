@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="generator" content="Observable Framework v1.13.4">
-<title>PQ Explorer | Deputies | PQ Explorer</title>
+<title>Deputies | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.8a0cf35a.css">
+<link rel="preload" as="style" href="./_import/style.c708da6c.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.8a0cf35a.css">
-<link rel="modulepreload" href="./_observablehq/client.0ba6a596.js">
+<link rel="stylesheet" type="text/css" href="./_import/style.c708da6c.css">
+<link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/66d82917.js">
@@ -19,7 +19,8 @@
 <link rel="modulepreload" href="./_import/components/packed-circle-chart.8c317a95.js">
 <link rel="modulepreload" href="./_import/components/download-button.cf825c31.js">
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
-<link rel="modulepreload" href="./_import/generated/deputy-detail-urls.269847ea.js">
+<link rel="modulepreload" href="./_import/generated/deputy-detail-urls.cd0b27f6.js">
+<link rel="modulepreload" href="./_import/components/section-nav.85e4ab42.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -54,7 +55,7 @@
 <link rel="modulepreload" href="./_npm/delaunator@5.1.0/d4ec0aa1.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
 
-    <link rel="icon" href="./_file/logo.be2bef67.svg" type="image/png" sizes="32x32">
+    <link rel="icon" href="./_file/logo.2bab7aac.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
 
@@ -71,19 +72,19 @@
   
 <script type="module">
 
-import {define} from "./_observablehq/client.0ba6a596.js";
+import {define} from "./_observablehq/client.68f9776d.js";
 import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
 
-registerFile("./data/pq/2025/rollup-deputies.json", {"name":"./data/pq/2025/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2025/rollup-deputies.62394520.json","lastModified":1775152627569,"size":176981});
-registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1775152627386,"size":290});
-registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1775152627386,"size":286});
-registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.8b317abc.json","lastModified":1775152641267,"size":164507});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.1433b758.json","lastModified":1775152641196,"size":294});
-registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.167afbf8.json","lastModified":1775152641196,"size":282});
-registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.6c4c866e.mp4","lastModified":1764524117110,"size":4926913});
+registerFile("./data/pq/2025/rollup-deputies.json", {"name":"./data/pq/2025/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2025/rollup-deputies.62394520.json","lastModified":1781256724291,"size":176981});
+registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1781256724070,"size":290});
+registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1781256724070,"size":286});
+registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.f8c020d3.json","lastModified":1781887881353,"size":169490});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.0d130857.json","lastModified":1781887881355,"size":290});
+registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.912d0f4a.json","lastModified":1781887881355,"size":285});
+registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
-define({id: "e3d9f230", inputs: ["ResizeObserver","parent","FileAttachment","IntersectionObserver"], outputs: ["d3","bubbleChart","pqControls","packedCircleChart","downloadButton","zoomableTreemap","deputyDetailUrls","format","heroVideo","deputyRollups","summaries","partyColorMap","deputyDetailCache","getState","getVariantKey","getSummary","getSurname","getPartyColor","truncateLabel","formatDisplayDate","cardPlaceholder","chartPlaceholder","getYearRows","getBubbleRows","getDeputyOptions","ensureValidDeputySelection","getSelectedDeputyOption","getSelectedDeputyBubbleRow","getDeputyDetailUrls","getDeputyDetail","getSelectedDeputyDetail","getVariantDetail","getSelectedDeputyViewModel","ensureValidHeadingSelection","getSelectedDeputyTableRows","dispatchChange","dispatchTableChange","withPreservedScroll","mountReactive","mountDeferred"], body: async (ResizeObserver,parent,FileAttachment,IntersectionObserver) => {
-const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}, {deputyDetailUrls}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/generated/deputy-detail-urls.269847ea.js")]);
+define({id: "2ab4d85b", inputs: ["ResizeObserver","parent","FileAttachment","IntersectionObserver"], outputs: ["d3","bubbleChart","pqControls","packedCircleChart","downloadButton","zoomableTreemap","deputyDetailUrls","renderSectionNav","format","heroVideoPromise","deputyRollups","summaries","partyColorMap","deputyDetailCache","getState","getVariantKey","getSummary","getSurname","getPartyColor","truncateLabel","formatDisplayDate","cardPlaceholder","chartPlaceholder","getYearRows","getBubbleRows","getDeputyOptions","ensureValidDeputySelection","getSelectedDeputyOption","getSelectedDeputyBubbleRow","getDeputyDetailUrls","getDeputyDetail","getSelectedDeputyDetail","getVariantDetail","getSelectedDeputyViewModel","ensureValidHeadingSelection","getSelectedDeputyTableRows","dispatchChange","dispatchTableChange","withPreservedScroll","mountReactive","mountDeferred"], body: async (ResizeObserver,parent,FileAttachment,IntersectionObserver) => {
+const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}, {deputyDetailUrls}, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/generated/deputy-detail-urls.cd0b27f6.js"), import("./_import/components/section-nav.85e4ab42.js")]);
 
 if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
   window.__pqDeputiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -94,21 +95,21 @@ if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
 }
 
 const format = d3.format(",d");
-const heroVideo = await FileAttachment("./media/PQs.mp4").url();
+const heroVideoPromise = FileAttachment("./media/PQs.mp4").url();
 
 const deputyRollups = {
-  2025: await FileAttachment("./data/pq/2025/rollup-deputies.json").json(),
-  2026: await FileAttachment("./data/pq/2026/rollup-deputies.json").json()
+  2025: FileAttachment("./data/pq/2025/rollup-deputies.json").json(),
+  2026: FileAttachment("./data/pq/2026/rollup-deputies.json").json()
 };
 
 const summaries = {
   2025: {
-    all: await FileAttachment("./data/pq/2025/summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2025/summary-oral.json").json()
+    all: FileAttachment("./data/pq/2025/summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2025/summary-oral.json").json()
   },
   2026: {
-    all: await FileAttachment("./data/pq/2026/summary-all.json").json(),
-    oral: await FileAttachment("./data/pq/2026/summary-oral.json").json()
+    all: FileAttachment("./data/pq/2026/summary-all.json").json(),
+    oral: FileAttachment("./data/pq/2026/summary-oral.json").json()
   }
 };
 
@@ -145,8 +146,8 @@ function getVariantKey() {
   return getState().questionType === "oral" ? "oral" : "all";
 }
 
-function getSummary() {
-  return summaries[getState().year]?.[getVariantKey()] ?? null;
+async function getSummary() {
+  return await summaries[getState().year]?.[getVariantKey()] ?? null;
 }
 
 function getSurname(name) {
@@ -203,12 +204,12 @@ function chartPlaceholder(height = 320, text = "Updating…") {
   return wrap;
 }
 
-function getYearRows() {
-  return deputyRollups[getState().year] ?? [];
+async function getYearRows() {
+  return await deputyRollups[getState().year] ?? [];
 }
 
-function getBubbleRows() {
-  const rows = getYearRows();
+async function getBubbleRows() {
+  const rows = await getYearRows();
   const variant = getVariantKey();
 
   if (variant === "all") {
@@ -256,10 +257,10 @@ function getBubbleRows() {
     .sort((a, b) => d3.ascending(a.name, b.name));
 }
 
-function getDeputyOptions() {
+async function getDeputyOptions() {
   return Array.from(
     d3.rollup(
-      getYearRows(),
+      await getYearRows(),
       (group) => ({
         value: group[0].id,
         label: group[0].name,
@@ -275,9 +276,9 @@ function getDeputyOptions() {
   });
 }
 
-function ensureValidDeputySelection() {
+async function ensureValidDeputySelection() {
   const state = getState();
-  const options = getDeputyOptions();
+  const options = await getDeputyOptions();
 
   if (!options.length) {
     state.selectedDeputy = null;
@@ -292,16 +293,16 @@ function ensureValidDeputySelection() {
   return state.selectedDeputy;
 }
 
-function getSelectedDeputyOption() {
-  const selected = ensureValidDeputySelection();
+async function getSelectedDeputyOption() {
+  const selected = await ensureValidDeputySelection();
   if (!selected) return null;
-  return getDeputyOptions().find((d) => d.value === selected) ?? null;
+  return (await getDeputyOptions()).find((d) => d.value === selected) ?? null;
 }
 
-function getSelectedDeputyBubbleRow() {
-  const selected = ensureValidDeputySelection();
+async function getSelectedDeputyBubbleRow() {
+  const selected = await ensureValidDeputySelection();
   if (!selected) return null;
-  return getBubbleRows().find((d) => d.id === selected) ?? null;
+  return (await getBubbleRows()).find((d) => d.id === selected) ?? null;
 }
 
 function getDeputyDetailUrls(year, memberCode) {
@@ -351,7 +352,7 @@ async function getDeputyDetail(year, memberCode) {
 }
 
 async function getSelectedDeputyDetail() {
-  const selected = ensureValidDeputySelection();
+  const selected = await ensureValidDeputySelection();
   if (!selected) return null;
   return await getDeputyDetail(getState().year, selected);
 }
@@ -361,7 +362,7 @@ function getVariantDetail(detail) {
 }
 
 async function getSelectedDeputyViewModel() {
-  const option = getSelectedDeputyOption();
+  const option = await getSelectedDeputyOption();
   if (!option) return null;
 
   const detail = await getSelectedDeputyDetail();
@@ -382,7 +383,7 @@ async function getSelectedDeputyViewModel() {
     memberUrl:
       detail.memberUrl ??
       `https://www.oireachtas.ie/en/members/member/${option.value}`,
-    count: variant.count ?? getSelectedDeputyBubbleRow()?.value ?? questions.length,
+    count: variant.count ?? (await getSelectedDeputyBubbleRow())?.value ?? questions.length,
     headingOptions: (variant.headingOptions ?? []).slice().sort((a, b) => d3.ascending(a, b)),
     insights: variant.insights ?? null,
     packed: variant.packed ?? { name: "Parliamentary Questions", children: [] },
@@ -444,9 +445,8 @@ function withPreservedScroll(fn) {
 function mountReactive(className, renderFn, options = {}) {
   const {
     debounceMs = 50,
-    loadingHtml = "",
-    loadingDelayMs = 100,
-    eventName = "pq-deputies:change"
+    eventName = "pq-deputies:change",
+    skeletonDelay = 120
   } = options;
 
   const eventNames = Array.isArray(eventName) ? eventName : [eventName];
@@ -455,25 +455,27 @@ function mountReactive(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let timeoutId = null;
+  let runId = 0;
+  let hasRenderedOnce = false;
 
   const run = () => {
-    let didRender = false;
+    const currentRun = ++runId;
 
-    const loadingTimer = setTimeout(() => {
-      if (!didRender && loadingHtml) {
-        if (typeof loadingHtml === "string") {
-          el.innerHTML = loadingHtml;
-        } else {
-          el.replaceChildren(loadingHtml.cloneNode(true));
-        }
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+        if (!isCurrent()) return;
       }
-    }, loadingDelayMs);
 
-    requestAnimationFrame(() => {
-      Promise.resolve(renderFn(el)).finally(() => {
-        didRender = true;
-        clearTimeout(loadingTimer);
-      });
+      await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
     });
   };
 
@@ -495,7 +497,8 @@ function mountDeferred(className, renderFn, options = {}) {
   const {
     rootMargin = "200px",
     loading = () => chartPlaceholder(320),
-    eventName = null
+    eventName = null,
+    skeletonDelay = 120
   } = options;
 
   const eventNames = Array.isArray(eventName)
@@ -508,9 +511,28 @@ function mountDeferred(className, renderFn, options = {}) {
   if (className) el.className = className;
 
   let hasRendered = false;
+  let hasRenderedOnce = false;
+  let runId = 0;
 
   const run = () => {
-    Promise.resolve(renderFn(el));
+    const currentRun = ++runId;
+
+    requestAnimationFrame(async () => {
+      const isCurrent = () => currentRun === runId;
+
+      if (!hasRenderedOnce) {
+        await renderFn(el, { skeletonOnly: true, isCurrent });
+        await new Promise((resolve) => setTimeout(resolve, skeletonDelay));
+
+        if (!isCurrent()) return;
+      }
+
+      await renderFn(el, { skeletonOnly: false, isCurrent });
+
+      if (isCurrent()) {
+        hasRenderedOnce = true;
+      }
+    });
   };
 
   const observer = new IntersectionObserver(
@@ -538,46 +560,69 @@ function mountDeferred(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,bubbleChart,pqControls,packedCircleChart,downloadButton,zoomableTreemap,deputyDetailUrls,format,heroVideo,deputyRollups,summaries,partyColorMap,deputyDetailCache,getState,getVariantKey,getSummary,getSurname,getPartyColor,truncateLabel,formatDisplayDate,cardPlaceholder,chartPlaceholder,getYearRows,getBubbleRows,getDeputyOptions,ensureValidDeputySelection,getSelectedDeputyOption,getSelectedDeputyBubbleRow,getDeputyDetailUrls,getDeputyDetail,getSelectedDeputyDetail,getVariantDetail,getSelectedDeputyViewModel,ensureValidHeadingSelection,getSelectedDeputyTableRows,dispatchChange,dispatchTableChange,withPreservedScroll,mountReactive,mountDeferred};
+return {d3,bubbleChart,pqControls,packedCircleChart,downloadButton,zoomableTreemap,deputyDetailUrls,renderSectionNav,format,heroVideoPromise,deputyRollups,summaries,partyColorMap,deputyDetailCache,getState,getVariantKey,getSummary,getSurname,getPartyColor,truncateLabel,formatDisplayDate,cardPlaceholder,chartPlaceholder,getYearRows,getBubbleRows,getDeputyOptions,ensureValidDeputySelection,getSelectedDeputyOption,getSelectedDeputyBubbleRow,getDeputyDetailUrls,getDeputyDetail,getSelectedDeputyDetail,getVariantDetail,getSelectedDeputyViewModel,ensureValidHeadingSelection,getSelectedDeputyTableRows,dispatchChange,dispatchTableChange,withPreservedScroll,mountReactive,mountDeferred};
 }});
 
-define({id: "9f8bce60", inputs: ["heroVideo","display"], body: (heroVideo,display) => {
-{
-  const hero = document.createElement("section");
-  hero.className = "hero";
-
-  hero.innerHTML = `
-    <div class="hero__media">
-      <video
-        class="hero__video"
-        src="${heroVideo}"
-        autoplay
-        muted
-        loop
-        playsinline
-      ></video>
-    </div>
-
-    <div class="hero__overlay">
-      <div class="hero__content">
-        <p class="hero__eyebrow">Open data insights</p>
-        <h1 class="hero__title">PQ Explorer: Deputies</h1>
-        <p class="hero__subtitle">
-          A data-driven perspective on the questions asked in Parliament.
-        </p>
-      </div>
-    </div>
-  `;
-
-  display(hero);
-}
-}});
-
-define({id: "cdbf216d", inputs: ["display","mountReactive","getSummary","getVariantKey","format"], body: (display,mountReactive,getSummary,getVariantKey,format) => {
+define({id: "5fa798cc", inputs: ["display","mountReactive","heroVideoPromise"], body: (display,mountReactive,heroVideoPromise) => {
 display(
-  mountReactive("prose-block reactive-prose", (el) => {
-    const summary = getSummary();
+  mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="hero__media skeleton-shimmer"></div>`;
+      return;
+    }
+
+    const heroVideo = await heroVideoPromise;
+
+    if (!isCurrent()) return;
+
+    el.innerHTML = `
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          src="${heroVideo}"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+      </div>
+
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Open data insights</p>
+          <h1 class="hero__title">PQ Explorer: Deputies</h1>
+          <p class="hero__subtitle">
+            A data-driven perspective on the questions asked in Parliament.
+          </p>
+        </div>
+      </div>
+    `;
+  })
+);
+}});
+
+define({id: "e5e2974a", inputs: ["display","renderSectionNav"], body: (display,renderSectionNav) => {
+display(renderSectionNav("deputies"));
+}});
+
+define({id: "fd91af6b", inputs: ["display","mountReactive","getSummary","getVariantKey","format"], body: (display,mountReactive,getSummary,getVariantKey,format) => {
+display(
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
+    const summary = await getSummary();
     const isOral = getVariantKey() === "oral";
+
+    if (!isCurrent()) return;
 
     if (!summary) {
       el.innerHTML = `<p>No summary data available for this selection.</p>`;
@@ -607,11 +652,18 @@ display(
 );
 }});
 
-define({id: "1e7fc680", inputs: ["display","mountReactive","getBubbleRows","getState","bubbleChart","chartPlaceholder"], body: (display,mountReactive,getBubbleRows,getState,bubbleChart,chartPlaceholder) => {
+define({id: "a5bfe5f1", inputs: ["display","mountReactive","getBubbleRows","getState","bubbleChart"], body: (display,mountReactive,getBubbleRows,getState,bubbleChart) => {
 display(
-  mountReactive("", (el) => {
-    const rows = getBubbleRows();
+  mountReactive("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:620px"></div>`;
+      return;
+    }
+
+    const rows = await getBubbleRows();
     const selectedDeputy = getState().selectedDeputy;
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -632,13 +684,12 @@ display(
       })
     );
   }, {
-    loadingHtml: chartPlaceholder(620),
-    loadingDelayMs: 80
+    debounceMs: 50
   })
 );
 }});
 
-define({id: "377525fe", inputs: ["pqControls","ensureValidDeputySelection","dispatchChange","getDeputyOptions","cardPlaceholder","getSelectedDeputyViewModel","getPartyColor","format","getState","withPreservedScroll","display"], body: (pqControls,ensureValidDeputySelection,dispatchChange,getDeputyOptions,cardPlaceholder,getSelectedDeputyViewModel,getPartyColor,format,getState,withPreservedScroll,display) => {
+define({id: "4398788a", inputs: ["pqControls","ensureValidDeputySelection","dispatchChange","getDeputyOptions","cardPlaceholder","getSelectedDeputyViewModel","getPartyColor","format","getState","withPreservedScroll","display"], body: (pqControls,ensureValidDeputySelection,dispatchChange,getDeputyOptions,cardPlaceholder,getSelectedDeputyViewModel,getPartyColor,format,getState,withPreservedScroll,display) => {
 {
   const panel = document.createElement("div");
   panel.className = "deputy-selection-panel";
@@ -651,8 +702,8 @@ define({id: "377525fe", inputs: ["pqControls","ensureValidDeputySelection","disp
 
   const controls = pqControls({
     state: window.pqDeputiesState,
-    onChange: () => {
-      ensureValidDeputySelection();
+    onChange: async () => {
+      await ensureValidDeputySelection();
       window.pqDeputiesState.selectedHeading = null;
       dispatchChange();
     }
@@ -663,7 +714,7 @@ define({id: "377525fe", inputs: ["pqControls","ensureValidDeputySelection","disp
   const deputyWrap = document.createElement("div");
   deputyWrap.className = "deputy-select-wrap";
 
-  function renderDeputySelect() {
+  async function renderDeputySelect() {
     deputyWrap.replaceChildren();
 
     const label = document.createElement("label");
@@ -676,8 +727,8 @@ define({id: "377525fe", inputs: ["pqControls","ensureValidDeputySelection","disp
     const select = document.createElement("select");
     select.className = "control-input deputy-select-input";
 
-    const options = getDeputyOptions();
-    const selected = ensureValidDeputySelection();
+    const options = await getDeputyOptions();
+    const selected = await ensureValidDeputySelection();
 
     if (!options.length) {
       const option = document.createElement("option");
@@ -709,10 +760,10 @@ define({id: "377525fe", inputs: ["pqControls","ensureValidDeputySelection","disp
   async function renderDeputyCard() {
     cardCol.replaceChildren(cardPlaceholder());
 
-    const currentSelection = ensureValidDeputySelection();
+    const currentSelection = await ensureValidDeputySelection();
     const view = await getSelectedDeputyViewModel();
 
-    if (currentSelection !== ensureValidDeputySelection()) return;
+    if (currentSelection !== await ensureValidDeputySelection()) return;
 
     cardCol.replaceChildren();
 
@@ -829,11 +880,24 @@ define({id: "377525fe", inputs: ["pqControls","ensureValidDeputySelection","disp
 }
 }});
 
-define({id: "a333ec7b", inputs: ["display","mountReactive","getSelectedDeputyViewModel","getState"], body: (display,mountReactive,getSelectedDeputyViewModel,getState) => {
+define({id: "cd4ec20d", inputs: ["display","mountReactive","getSelectedDeputyViewModel","getState"], body: (display,mountReactive,getSelectedDeputyViewModel,getState) => {
 display(
-  mountReactive("prose-block reactive-prose", async (el) => {
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w100 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w92 skeleton-shimmer"></div>
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
     const state = getState();
+
+    if (!isCurrent()) return;
 
     if (!view) {
       el.innerHTML = `<p>No data available for this Deputy.</p>`;
@@ -891,11 +955,18 @@ display(
 );
 }});
 
-define({id: "e9051460", inputs: ["display","mountDeferred","getSelectedDeputyViewModel","packedCircleChart","chartPlaceholder"], body: (display,mountDeferred,getSelectedDeputyViewModel,packedCircleChart,chartPlaceholder) => {
+define({id: "3af1a8ed", inputs: ["display","mountDeferred","getSelectedDeputyViewModel","packedCircleChart","chartPlaceholder"], body: (display,mountDeferred,getSelectedDeputyViewModel,packedCircleChart,chartPlaceholder) => {
 display(
-  mountDeferred("", async (el) => {
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--circles skeleton-shimmer" style="height:700px"></div>`;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
     const data = view?.packed;
+
+    if (!isCurrent()) return;
 
     if (!data || !data.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -915,11 +986,18 @@ display(
 );
 }});
 
-define({id: "693d63f1", inputs: ["display","mountDeferred","getSelectedDeputyViewModel","zoomableTreemap","chartPlaceholder"], body: (display,mountDeferred,getSelectedDeputyViewModel,zoomableTreemap,chartPlaceholder) => {
+define({id: "28e80a10", inputs: ["display","mountDeferred","getSelectedDeputyViewModel","zoomableTreemap","chartPlaceholder"], body: (display,mountDeferred,getSelectedDeputyViewModel,zoomableTreemap,chartPlaceholder) => {
 display(
-  mountDeferred("", async (el) => {
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="chart-skeleton chart-skeleton--blocks skeleton-shimmer" style="height:520px"></div>`;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
     const data = view?.treemap;
+
+    if (!isCurrent()) return;
 
     if (!data || !data.children?.length) {
       el.innerHTML = `<p class="chart-loading">No data available for this selection.</p>`;
@@ -995,12 +1073,23 @@ define({id: "1e162ee1", inputs: ["getSelectedDeputyViewModel","ensureValidHeadin
 }
 }});
 
-define({id: "b79d7f49", inputs: ["display","mountReactive","getSelectedDeputyTableRows","getState","getSelectedDeputyViewModel","getVariantKey"], body: (display,mountReactive,getSelectedDeputyTableRows,getState,getSelectedDeputyViewModel,getVariantKey) => {
+define({id: "a27d1bcd", inputs: ["display","mountReactive","getSelectedDeputyTableRows","getState","getSelectedDeputyViewModel","getVariantKey"], body: (display,mountReactive,getSelectedDeputyTableRows,getState,getSelectedDeputyViewModel,getVariantKey) => {
 display(
-  mountReactive("prose-block reactive-prose", async (el) => {
+  mountReactive("prose-block reactive-prose", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `
+        <div class="text-skeleton">
+          <div class="text-skeleton__line text-skeleton__line--w84 skeleton-shimmer"></div>
+        </div>
+      `;
+      return;
+    }
+
     const rows = await getSelectedDeputyTableRows();
     const state = getState();
     const view = await getSelectedDeputyViewModel();
+
+    if (!isCurrent()) return;
 
     const count = rows.length;
     const topic = state.selectedHeading || null;
@@ -1032,19 +1121,42 @@ display(
 );
 }});
 
-define({id: "c04f9235", inputs: ["display","mountDeferred","getSelectedDeputyTableRows","formatDisplayDate","chartPlaceholder"], body: (display,mountDeferred,getSelectedDeputyTableRows,formatDisplayDate,chartPlaceholder) => {
+define({id: "87f999e4", inputs: ["display","mountDeferred","getSelectedDeputyTableRows","formatDisplayDate","chartPlaceholder"], body: (display,mountDeferred,getSelectedDeputyTableRows,formatDisplayDate,chartPlaceholder) => {
 display(
-  mountDeferred("", async (el) => {
+  mountDeferred("", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="table-skeleton">${Array.from({ length: 6 }).map(() => `
+        <div class="table-skeleton__row">
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+          <div class="table-skeleton__cell skeleton-shimmer"></div>
+        </div>`).join("")}</div>`;
+      return;
+    }
+
     const rows = await getSelectedDeputyTableRows();
+
+    if (!isCurrent()) return;
 
     if (!rows.length) {
       el.innerHTML = `<p class="chart-loading">No questions available for this selection.</p>`;
       return;
     }
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-wrap";
+
     const table = document.createElement("table");
+    table.className = "pq-table pq-table--deputies";
 
     table.innerHTML = `
+      <colgroup>
+        <col style="width: 9rem" />
+        <col style="width: 14rem" />
+        <col style="width: 34rem" />
+        <col style="width: 8rem" />
+      </colgroup>
       <thead>
         <tr>
           <th>Date</th>
@@ -1062,19 +1174,24 @@ display(
       const tr = document.createElement("tr");
 
       const tdDate = document.createElement("td");
+      tdDate.dataset.label = "Date";
       tdDate.textContent = formatDisplayDate(row.date_iso);
 
       const tdDept = document.createElement("td");
+      tdDept.dataset.label = "Department";
       tdDept.textContent = row.department ?? "";
 
       const tdQuestion = document.createElement("td");
+      tdQuestion.dataset.label = "Question";
       tdQuestion.textContent = (row.question ?? "").replace(/\s+/g, " ").trim();
 
       const tdReply = document.createElement("td");
+      tdReply.dataset.label = "Reply";
       const a = document.createElement("a");
       a.href = row.url ?? "#";
       a.target = "_blank";
       a.rel = "noreferrer";
+      a.className = "link-arrow";
       a.textContent = "Read reply";
       tdReply.appendChild(a);
 
@@ -1086,7 +1203,8 @@ display(
       tbody.appendChild(tr);
     }
 
-    el.replaceChildren(table);
+    wrapper.appendChild(table);
+    el.replaceChildren(wrapper);
   }, {
     loading: () => chartPlaceholder(360, "Loading results…"),
     eventName: ["pq-deputies:change", "pq-deputies-table:change"]
@@ -1094,10 +1212,17 @@ display(
 );
 }});
 
-define({id: "3ac83cd5", inputs: ["display","mountReactive","getSelectedDeputyViewModel","getState","downloadButton"], body: (display,mountReactive,getSelectedDeputyViewModel,getState,downloadButton) => {
+define({id: "fc954e9a", inputs: ["display","mountReactive","getSelectedDeputyViewModel","getState","downloadButton"], body: (display,mountReactive,getSelectedDeputyViewModel,getState,downloadButton) => {
 display(
-  mountReactive("download-block", async (el) => {
+  mountReactive("download-block", async (el, { skeletonOnly, isCurrent }) => {
+    if (skeletonOnly) {
+      el.innerHTML = `<div class="text-skeleton"><div class="text-skeleton__line text-skeleton__line--w72 skeleton-shimmer"></div></div>`;
+      return;
+    }
+
     const view = await getSelectedDeputyViewModel();
+
+    if (!isCurrent()) return;
 
     if (!view?.questions?.length) {
       el.innerHTML = "";
@@ -1118,37 +1243,6 @@ display(
   })
 );
 
-{
-  const wrap = document.createElement("div");
-  wrap.className = "explore-links-block";
-
-  wrap.innerHTML = `
-    <div class="explore-links-grid">
-      <a class="explore-tile" href="./">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Overview</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./constituencies">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Constituencies</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-
-      <a class="explore-tile" href="./parties">
-        <div class="explore-tile-head">
-          <span class="explore-tile-title">Explore: Parties</span>
-          <span class="explore-tile-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </div>
-  `;
-
-  display(wrap);
-}
 }});
 
 </script>
@@ -1156,18 +1250,19 @@ display(
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:e3d9f230:--></div>
-<div class="observablehq observablehq--block"><!--:9f8bce60:--></div>
-<div class="observablehq observablehq--block"><!--:cdbf216d:--></div>
+<div class="observablehq observablehq--block"><!--:2ab4d85b:--></div>
+<div class="observablehq observablehq--block"><!--:5fa798cc:--></div>
+<div class="observablehq observablehq--block"><!--:e5e2974a:--></div>
+<div class="observablehq observablehq--block"><!--:fd91af6b:--></div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:1e7fc680:--></div>
+<div class="observablehq observablehq--block"><!--:a5bfe5f1:--></div>
 </div>
 <div class="prose-block controls-block">
-<div class="observablehq observablehq--block"><!--:377525fe:--></div>
+<div class="observablehq observablehq--block"><!--:4398788a:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:a333ec7b:--></div>
+<div class="observablehq observablehq--block"><!--:cd4ec20d:--></div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:e9051460:--></div>
+<div class="observablehq observablehq--block"><!--:3af1a8ed:--></div>
 </div>
 <div class="prose-block">
   <p class="chart-caption">
@@ -1180,7 +1275,7 @@ display(
   <p>Click on the top panel to zoom out again.</p>
 </div>
 <div class="chart-block">
-<div class="observablehq observablehq--block"><!--:693d63f1:--></div>
+<div class="observablehq observablehq--block"><!--:28e80a10:--></div>
 </div>
 <div class="prose-block">
 <p>Refine your search further by question topics raised by the Deputy. Check the results in the table below and read the questions and replies in the Official Report.</p>
@@ -1188,8 +1283,8 @@ display(
 <div class="prose-block controls-block">
 <div class="observablehq observablehq--block"><!--:1e162ee1:--></div>
 </div>
-<div class="observablehq observablehq--block"><!--:b79d7f49:--></div>
-<div class="observablehq observablehq--block"><!--:c04f9235:--></div>
+<div class="observablehq observablehq--block"><!--:a27d1bcd:--></div>
+<div class="observablehq observablehq--block"><!--:87f999e4:--></div>
 <div class="prose-block">
   All parliamentary questions can be searched on a
   <a class="link-arrow" href="https://www.oireachtas.ie/en/debates/questions/" target="_blank" rel="noreferrer">
@@ -1200,7 +1295,7 @@ display(
     Oireachtas open data API
   </a>.
 </div>
-<div class="observablehq observablehq--block"><!--:3ac83cd5:--></div>
+<div class="observablehq observablehq--block"><!--:fc954e9a:--></div>
 </main>
 </div>
 </body>
