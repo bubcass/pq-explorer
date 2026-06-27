@@ -227,16 +227,17 @@ a:focus-visible {
 }
 
 .prose-block a[href^="http"]:not(.link-arrow) {
-    color: var(--link);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    color: var(--text-soft);
+    text-decoration: none;
     transition: color 0.25s ease;
 }
 
 .prose-block a[href^="http"]:not(.link-arrow):hover,
 .prose-block a[href^="http"]:not(.link-arrow):focus-visible {
     color: var(--link-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 .prose-block a[href^="http"]:not(.link-arrow)::after {

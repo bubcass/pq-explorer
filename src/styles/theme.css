@@ -523,16 +523,17 @@
 }
 
 .link-arrow {
-    color: var(--link);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    color: var(--text-soft);
+    text-decoration: none;
     transition: color 0.25s ease;
 }
 
 .link-arrow:hover,
 .link-arrow:focus-visible {
     color: var(--link-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 .link-arrow::after {
