@@ -522,10 +522,24 @@
     font-size: 0.98rem;
 }
 
+.link-arrow {
+    color: var(--link);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 0.25s ease;
+}
+
+.link-arrow:hover,
+.link-arrow:focus-visible {
+    color: var(--link-hover);
+}
+
 .link-arrow::after {
     content: " ↗";
     font-size: 0.85em;
     color: var(--text-muted);
+    transition: color 0.25s ease;
 }
 
 .link-arrow:hover::after,
