@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12/image/large",
   "types": {
     "all": {
-      "count": 118,
+      "count": 123,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -26,6 +26,7 @@
         "Data Protection",
         "Departmental Data",
         "Departmental Funding",
+        "Departmental Policies",
         "Departmental Regulations",
         "Departmental Schemes",
         "Disability Services",
@@ -47,6 +48,7 @@
         "Housing Provision",
         "Housing Schemes",
         "Irish Sign Language",
+        "Legislative Measures",
         "Local Authorities",
         "Medical Records",
         "Medicinal Products",
@@ -71,6 +73,7 @@
         "School Staff",
         "Schools Building Projects",
         "Schools Refurbishment",
+        "Social Welfare Appeals",
         "Social Welfare Benefits",
         "Special Educational Needs",
         "Sports Funding",
@@ -212,6 +215,10 @@
                 "value": 3
               },
               {
+                "name": "Housing Schemes",
+                "value": 3
+              },
+              {
                 "name": "Departmental Schemes",
                 "value": 2
               },
@@ -225,10 +232,6 @@
               },
               {
                 "name": "Housing Policy",
-                "value": 1
-              },
-              {
-                "name": "Housing Schemes",
                 "value": 1
               }
             ]
@@ -330,6 +333,27 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Animal Diseases",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Agriculture Schemes",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -346,6 +370,27 @@
               },
               {
                 "name": "Departmental Data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "value": 1
+              },
+              {
+                "name": "Community Welfare Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Appeals",
                 "value": 1
               }
             ]
@@ -385,40 +430,6 @@
             ]
           },
           {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Animal Diseases",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Agriculture Schemes",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "value": 1
-              },
-              {
-                "name": "Community Welfare Services",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -427,6 +438,19 @@
               },
               {
                 "name": "Departmental Funding",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
                 "value": 1
               }
             ]
@@ -450,15 +474,6 @@
               {
                 "name": "Naval Service",
                 "value": 2
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "value": 1
               }
             ]
           },
@@ -1218,6 +1233,38 @@
                 ]
               },
               {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "102. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage his expectations for starter home supports in 2026 in light of the significant increase in 2025; and if he will make a statement on the matter. [48066/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/102/"
+                      },
+                      {
+                        "name": "176. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage if he will report on affordable home delivery; and if he will make a statement on the matter. [48067/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/176/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "383. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage if will urgently sanction additional funding to Sligo County Council to enable the reopening of the housing adaptation grant scheme to Priority 2 and 3 applications; and if he will make a statement on the matter. [40849/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/383/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Schemes",
                 "children": [
                   {
@@ -1287,22 +1334,6 @@
                         "name": "194. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage his plans to review social housing income thresholds; and if he will make a statement on the matter. [17575/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/194/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "383. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage if will urgently sanction additional funding to Sligo County Council to enable the reopening of the housing adaptation grant scheme to Priority 2 and 3 applications; and if he will make a statement on the matter. [40849/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/383/"
                       }
                     ]
                   }
@@ -1693,6 +1724,75 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Animal Diseases",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "792. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine if he will review the current compensation rate of €3,000 paid to farmers for cattle that test positive for TB, given that this figure does not reflect the actual market value in many cases (details supplied); and if he will make a statement on the matter. [5887/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/792/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "265. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine the number of Access to Information on the Environment (AIE) requests received in each of the years 2020 to 2025; the total number of AIE requests received; the total number of internal reviews sought; the total number of appeals to the Office of the Commissioner for Environmental Information (OCEI); the outcomes of those appeals, including the number upheld, annulled and remitted; the same information specifically in respect of forestry related AIE requests for the same period, including the number of individuals submitting forestry related requests each year; and where available the number of requests submitted per requester. [23036/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/265/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "889. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine to address the exclusion of young farmers from the traditional farm buildings grant scheme due to the requirement to be in ACRES or the organic farming scheme (details supplied); and if he will make a statement on the matter. [38750/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/889/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "366. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine if he will support and expedite the progression of the Protection of the Native Irish Honeybee Bill 2021; and if he will make a statement on the matter. [48420/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/366/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -1754,6 +1854,75 @@
                         "name": "2522. Deputy Eamon Scanlon asked the Minister for Rural and Community Development and the Gaeltacht if he will consider increasing financial support to an organisation (details supplied); the level of funding provided to the organisation under his Department’s schemes in each of the past three years; and if he will make a statement on the matter. [43397/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2522/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "707. Deputy Eamon Scanlon asked the Minister for Social Protection if he will review the current illness benefit rate, in light of concerns that the existing payment is extremely difficult to manage during periods of illness; if he will consider introducing a higher rate for individuals with long and continuous work histories; and if he will make a statement on the matter. [14356/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/707/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Welfare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "52. Deputy Eamon Scanlon asked the Minister for Social Protection if he will examine the need for set clinic times for the community welfare officer in Tubbercurry, County Sligo, given the difficulties faced by people seeking urgent assistance; if he will consider establishing a community welfare office in Ballymote, County Sligo, to ensure local access to supports for those without transport, financial means, or childcare; and if he will make a statement on the matter. [15291/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/52/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "363. Deputy Eamon Scanlon asked the Minister for Social Protection the reason employers must complete weekly INTREO forms for part-time employees despite the availability of RPN data; if he will review this duplication of reporting requirements with a view to reducing administrative burdens on employers; and if he will make a statement on the matter. [31778/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/363/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Appeals",
+                "children": [
+                  {
+                    "name": "Wednesday, 24 June",
+                    "date_iso": "2026-06-24",
+                    "children": [
+                      {
+                        "name": "220. Deputy Eamon Scanlon asked the Minister for Social Protection when a final decision is expected regarding a partial capacity review (details supplied); and if he will make a statement on the matter. [48178/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/220/"
                       }
                     ]
                   }
@@ -1873,112 +2042,6 @@
             ]
           },
           {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Animal Diseases",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "792. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine if he will review the current compensation rate of €3,000 paid to farmers for cattle that test positive for TB, given that this figure does not reflect the actual market value in many cases (details supplied); and if he will make a statement on the matter. [5887/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/792/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "265. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine the number of Access to Information on the Environment (AIE) requests received in each of the years 2020 to 2025; the total number of AIE requests received; the total number of internal reviews sought; the total number of appeals to the Office of the Commissioner for Environmental Information (OCEI); the outcomes of those appeals, including the number upheld, annulled and remitted; the same information specifically in respect of forestry related AIE requests for the same period, including the number of individuals submitting forestry related requests each year; and where available the number of requests submitted per requester. [23036/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/265/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "889. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine to address the exclusion of young farmers from the traditional farm buildings grant scheme due to the requirement to be in ACRES or the organic farming scheme (details supplied); and if he will make a statement on the matter. [38750/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/889/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "707. Deputy Eamon Scanlon asked the Minister for Social Protection if he will review the current illness benefit rate, in light of concerns that the existing payment is extremely difficult to manage during periods of illness; if he will consider introducing a higher rate for individuals with long and continuous work histories; and if he will make a statement on the matter. [14356/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/707/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Community Welfare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "52. Deputy Eamon Scanlon asked the Minister for Social Protection if he will examine the need for set clinic times for the community welfare officer in Tubbercurry, County Sligo, given the difficulties faced by people seeking urgent assistance; if he will consider establishing a community welfare office in Ballymote, County Sligo, to ensure local access to supports for those without transport, financial means, or childcare; and if he will make a statement on the matter. [15291/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/52/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "363. Deputy Eamon Scanlon asked the Minister for Social Protection the reason employers must complete weekly INTREO forms for part-time employees despite the availability of RPN data; if he will review this duplication of reporting requirements with a view to reducing administrative burdens on employers; and if he will make a statement on the matter. [31778/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/363/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -2008,6 +2071,43 @@
                         "name": "450. Deputy Eamon Scanlon asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the timelines and funding for the delivery of the proposed new Garda station in Sligo, noting that a site was purchased with public funds in 2018; and if he will make a statement on the matter. [29578/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/450/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "373. Deputy Eamon Scanlon asked the Tánaiste and Minister for Finance if he will consider increasing the 20% income tax threshold to €48,000 in recognition of the pressures facing middle-income earners; and if he will make a statement on the matter. [14355/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/373/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "35. Deputy Eamon Scanlon asked the Tánaiste and Minister for Finance if he plans to further increase the Government expenditure ceiling for 2026; and if he will make a statement on the matter. [40346/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/35/"
                       }
                     ]
                   }
@@ -2077,27 +2177,6 @@
                         "name": "140. Deputy Eamon Scanlon asked the Minister for Defence if she is exploring options for a forward operating base in the North West for the Naval Service in line with the Natonal Maritime Security Strategy; and if she will make a statement on the matter. [42801/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/140/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "373. Deputy Eamon Scanlon asked the Tánaiste and Minister for Finance if he will consider increasing the 20% income tax threshold to €48,000 in recognition of the pressures facing middle-income earners; and if he will make a statement on the matter. [14355/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/373/"
                       }
                     ]
                   }
@@ -3190,6 +3269,51 @@
           "question": "9. Deputy Eamon Scanlon asked the Minister for Children, Disability and Equality the action being taken to reduce the cost of childcare; and if she will make a statement on the matter. [47437/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/9/",
           "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-24",
+          "questionNumber": 220,
+          "department": "Social",
+          "heading": "Social Welfare Appeals",
+          "question": "220. Deputy Eamon Scanlon asked the Minister for Social Protection when a final decision is expected regarding a partial capacity review (details supplied); and if he will make a statement on the matter. [48178/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/220/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 35,
+          "department": "Finance",
+          "heading": "Departmental Policies",
+          "question": "35. Deputy Eamon Scanlon asked the Tánaiste and Minister for Finance if he plans to further increase the Government expenditure ceiling for 2026; and if he will make a statement on the matter. [40346/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/35/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 102,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "102. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage his expectations for starter home supports in 2026 in light of the significant increase in 2025; and if he will make a statement on the matter. [48066/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/102/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 176,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "176. Deputy Eamon Scanlon asked the Minister for Housing, Local Government and Heritage if he will report on affordable home delivery; and if he will make a statement on the matter. [48067/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/176/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 366,
+          "department": "Agriculture",
+          "heading": "Legislative Measures",
+          "question": "366. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine if he will support and expedite the progression of the Protection of the Native Irish Honeybee Bill 2021; and if he will make a statement on the matter. [48420/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/366/",
+          "questionType": "written"
         }
       ]
     },

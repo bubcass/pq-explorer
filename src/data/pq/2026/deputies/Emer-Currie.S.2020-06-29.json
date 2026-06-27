@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Emer-Currie.S.2020-06-29/image/large",
   "types": {
     "all": {
-      "count": 1016,
+      "count": 1026,
       "headingOptions": [
         "Active Travel",
         "Agriculture Industry",
@@ -74,6 +74,7 @@
         "Domestic, Sexual and Gender-based Violence",
         "Driver Licences",
         "Driver Test",
+        "Dublin Airport Authority",
         "Dublin Bus",
         "Early Childhood Care and Education",
         "Economic Policy",
@@ -229,7 +230,7 @@
         "topHeading": "Bus Services",
         "topHeadingCount": 60,
         "topDepartment": "Transport",
-        "topDepartmentCount": 278
+        "topDepartmentCount": 281
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -314,6 +315,10 @@
                 "value": 4
               },
               {
+                "name": "Electric Vehicles",
+                "value": 4
+              },
+              {
                 "name": "Departmental Inquiries",
                 "value": 3
               },
@@ -355,10 +360,6 @@
               },
               {
                 "name": "Departmental Schemes",
-                "value": 2
-              },
-              {
-                "name": "Electric Vehicles",
                 "value": 2
               },
               {
@@ -411,6 +412,10 @@
               },
               {
                 "name": "National Vehicle and Driver File",
+                "value": 1
+              },
+              {
+                "name": "Dublin Airport Authority",
                 "value": 1
               }
             ]
@@ -600,6 +605,10 @@
                 "value": 3
               },
               {
+                "name": "Departmental Reviews",
+                "value": 3
+              },
+              {
                 "name": "Customs and Excise",
                 "value": 3
               },
@@ -617,10 +626,6 @@
               },
               {
                 "name": "Departmental Inquiries",
-                "value": 2
-              },
-              {
-                "name": "Departmental Reviews",
                 "value": 2
               },
               {
@@ -738,7 +743,7 @@
             "children": [
               {
                 "name": "Childcare Services",
-                "value": 48
+                "value": 50
               },
               {
                 "name": "Departmental Data",
@@ -750,7 +755,7 @@
               },
               {
                 "name": "Early Childhood Care and Education",
-                "value": 5
+                "value": 6
               },
               {
                 "name": "Childcare Qualifications",
@@ -814,6 +819,10 @@
               },
               {
                 "name": "Legislative Measures",
+                "value": 1
+              },
+              {
+                "name": "Budget 2027",
                 "value": 1
               }
             ]
@@ -1094,72 +1103,15 @@
             ]
           },
           {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "EU Membership",
-                "value": 12
-              },
-              {
-                "name": "European Union",
-                "value": 4
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 3
-              },
-              {
-                "name": "Diplomatic Representation",
-                "value": 2
-              },
-              {
-                "name": "Overseas Development Aid",
-                "value": 2
-              },
-              {
-                "name": "Business Regulation",
-                "value": 1
-              },
-              {
-                "name": "Northern Ireland",
-                "value": 1
-              },
-              {
-                "name": "EU Agreements",
-                "value": 1
-              },
-              {
-                "name": "Departmental Legal Cases",
-                "value": 1
-              },
-              {
-                "name": "Ukraine War",
-                "value": 1
-              },
-              {
-                "name": "EU Presidency",
-                "value": 1
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "EU Regulations",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Enterprise",
             "children": [
               {
                 "name": "Flexible Work Practices",
                 "value": 5
+              },
+              {
+                "name": "Business Supports",
+                "value": 3
               },
               {
                 "name": "Artificial Intelligence",
@@ -1168,10 +1120,6 @@
               {
                 "name": "Departmental Policies",
                 "value": 3
-              },
-              {
-                "name": "Business Supports",
-                "value": 2
               },
               {
                 "name": "Departmental Bodies",
@@ -1239,6 +1187,67 @@
               },
               {
                 "name": "Company Law",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "EU Membership",
+                "value": 12
+              },
+              {
+                "name": "European Union",
+                "value": 4
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 3
+              },
+              {
+                "name": "Diplomatic Representation",
+                "value": 2
+              },
+              {
+                "name": "Overseas Development Aid",
+                "value": 2
+              },
+              {
+                "name": "Business Regulation",
+                "value": 1
+              },
+              {
+                "name": "Northern Ireland",
+                "value": 1
+              },
+              {
+                "name": "EU Agreements",
+                "value": 1
+              },
+              {
+                "name": "Departmental Legal Cases",
+                "value": 1
+              },
+              {
+                "name": "Ukraine War",
+                "value": 1
+              },
+              {
+                "name": "EU Presidency",
+                "value": 1
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "EU Regulations",
                 "value": 1
               }
             ]
@@ -1360,15 +1369,15 @@
                 "value": 2
               },
               {
+                "name": "Programme for Government",
+                "value": 2
+              },
+              {
                 "name": "Fire Service",
                 "value": 1
               },
               {
                 "name": "Rented Dwellings Register",
-                "value": 1
-              },
-              {
-                "name": "Programme for Government",
                 "value": 1
               },
               {
@@ -3558,6 +3567,49 @@
                 ]
               },
               {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "235. Deputy Emer Currie asked the Minister for Transport the assessment carried out on the potential for the EV scrappage scheme to be oversubscribed on its opening day; and if he will make a statement on the matter. [48456/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/235/"
+                      },
+                      {
+                        "name": "236. Deputy Emer Currie asked the Minister for Transport his Department's position on car dealers offering people the opportunity to buy the cars with the assistance of the EV scrappage scheme subject to that assistance being forthcoming; and if he will make a statement on the matter. [48457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/236/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "298. Deputy Emer Currie asked the Minister for Transport the number of publicly available EV charging points in Ireland; and if he will make a statement on the matter. [19398/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/298/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "50. Deputy Emer Currie asked the Minister for Transport the maintenance arrangements and associated costs for the electric buses delivered for Galway and Dublin; whether maintenance and warranty management differs for buses in storage compared with those in active service; and if he will make a statement on the matter. [38036/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/50/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Inquiries",
                 "children": [
                   {
@@ -3869,33 +3921,6 @@
                 ]
               },
               {
-                "name": "Electric Vehicles",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "298. Deputy Emer Currie asked the Minister for Transport the number of publicly available EV charging points in Ireland; and if he will make a statement on the matter. [19398/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/298/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "50. Deputy Emer Currie asked the Minister for Transport the maintenance arrangements and associated costs for the electric buses delivered for Galway and Dublin; whether maintenance and warranty management differs for buses in storage compared with those in active service; and if he will make a statement on the matter. [38036/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/50/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Active Travel",
                 "children": [
                   {
@@ -4103,6 +4128,22 @@
                         "name": "291. Deputy Emer Currie asked the Minister for Transport further to Parliamentary Question No. 294 of 5 March 2026, for an update on the request made by An Garda Síochána to his Department in September 2025 for the inclusion of driving licence photographs and signatures in the NVDF data sharing; if his Department sought legal advice since to confirm the position with regard to sharing of the photo; and if this process will be concluded before the summer recess of Dail Éireann. [45144/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/291/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dublin Airport Authority",
+                "children": [
+                  {
+                    "name": "Wednesday, 24 June",
+                    "date_iso": "2026-06-24",
+                    "children": [
+                      {
+                        "name": "141. Deputy Emer Currie asked the Minister for Transport if he will confirm the measures that are being taken in the context of the Dublin Airport (Passenger Capacity) Bill 2026 and the voluntary dwelling purchase scheme to ensure that affected households are not financially disadvantaged when relocating, having regard to current property market conditions; in particular whether replacement value, disturbance, and reinstatement costs will be fully incorporated into compensation assessments; and if he will make a statement on the matter. [47906/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/141/"
                       }
                     ]
                   }
@@ -6178,6 +6219,44 @@
                 ]
               },
               {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "485. Deputy Emer Currie asked the Tánaiste and Minister for Finance if he has considered any changes to the inheritance tax policy for individuals without children; and if he will make a statement on the matter. [12581/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/485/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "470. Deputy Emer Currie asked the Tánaiste and Minister for Finance to provide an update on his review of the taxation of retail investment with a view to ensuring that existing investors are included in future tax measure. [35233/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/470/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "45. Deputy Emer Currie asked the Tánaiste and Minister for Finance to provide an update on his review of the taxation of retail investment with a view to ensuring that existing investors are included in future tax measures; and if he will make a statement on the matter. [47672/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/45/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Customs and Excise",
                 "children": [
                   {
@@ -6322,33 +6401,6 @@
                         "name": "268. Deputy Emer Currie asked the Tánaiste and Minister for Finance if an initiative is feasible in Ireland (details supplied); and if he will make a statement on the matter. [13944/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/268/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reviews",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "485. Deputy Emer Currie asked the Tánaiste and Minister for Finance if he has considered any changes to the inheritance tax policy for individuals without children; and if he will make a statement on the matter. [12581/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/485/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "470. Deputy Emer Currie asked the Tánaiste and Minister for Finance to provide an update on his review of the taxation of retail investment with a view to ensuring that existing investors are included in future tax measure. [35233/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/470/"
                       }
                     ]
                   }
@@ -7077,6 +7129,22 @@
                     ]
                   },
                   {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "403. Deputy Emer Currie asked the Minister for Children, Disability and Equality the number of applications made for the €25 million building blocks extension scheme; the number of successful applications; the number rejected; and if she will make a statement on the matter. [48493/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/403/"
+                      },
+                      {
+                        "name": "404. Deputy Emer Currie asked the Minister for Children, Disability and Equality Children the total amount of projects that have drawn down funding from the €25 million building blocks extension scheme; the total amount of funding that has been drawn down, in tabular form; and if she will make a statement on the matter. [48494/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/404/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Tuesday, 3 March",
                     "date_iso": "2026-03-03",
                     "children": [
@@ -7375,6 +7443,17 @@
                         "name": "10. Deputy Emer Currie asked the Minister for Children, Disability and Equality for an update on the actions being taken by her Department to support ECCE-only services that are receiving commercial rates bills; and if she will make a statement on the matter. [47448/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/10/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "412. Deputy Emer Currie asked the Minister for Children, Disability and Equality if her attention has been drawn to the gap in childcare provision affecting children who have completed their final year under the ECCE scheme, are due to commence primary school in late August, but are not currently classified as school-age children for the purposes of accessing school-age summer camp services; if she will review the current definition of a school-age child to provide greater flexibility for children transitioning from preschool to primary school; and if she will make a statement on the matter. [48648/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/412/"
                       }
                     ]
                   }
@@ -7698,6 +7777,22 @@
                         "name": "1595. Deputy Emer Currie asked the Minister for Children, Disability and Equality to provide details of her last meeting with the Attorney General to progress legislation (details supplied); and if she will make a statement on the matter. [42559/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1595/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "397. Deputy Emer Currie asked the Minister for Children, Disability and Equality her plans to support working families with the cost of childcare in Budget 2027; and if she will make a statement on the matter. [47673/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/397/"
                       }
                     ]
                   }
@@ -9652,6 +9747,449 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Flexible Work Practices",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "246. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of cases taken to the WRC in relation to the right to request flexible work, not including the right to request remote work; and the decisions or outcomes of those cases. [7196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/246/"
+                      },
+                      {
+                        "name": "247. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if public sector employers, colleges and public bodies have moved to 20% home and remote working as per the making remote work strategy. [7197/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/247/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "204. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department is considering any proposals to create a national strategy to attract fully locationless remote jobs to Ireland (details supplied); and if he will make a statement on the matter. [8826/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/204/"
+                      },
+                      {
+                        "name": "205. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department is considering any proposals to create a dedicated unit within his Department, or Stage agencies, to attract fully locationless remote jobs to Ireland (details supplied); and if he will make a statement on the matter. [8827/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/205/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "573. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the supports available to employers and employees to promote remote and flexible working; and if he will make a statement on the matter. [12591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/573/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Business Supports",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1009. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the supports and measures available to small businesses impacted by retail crime and break-ins; and if he will make a statement on the matter. [1966/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1009/"
+                      },
+                      {
+                        "name": "1010. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department plans to increase the supports and measures available to small businesses impacted by retail crime and break-ins during the lifetime of this Government; and if he will make a statement on the matter. [1968/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1010/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "269. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of grow digital vouchers granted to businesses in 2025 and to date in 2026, by county. [48454/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/269/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artificial Intelligence",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "454. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to provide an update on the scope of the proposed regulation of the AI Bill; and the expected timelines for publication of the general scheme, pre-legislative scrutiny, and publication of the Bill. [8247/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/454/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "527. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he has reviewed a report (details supplied) and the recommendations relating to future AI jobs planning, enterprise AI adoption, business guidance on EU AI Act compliance, the functions and remit of the proposed AI Office of Ireland; and if he will make a statement on the matter. [35230/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/527/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "117. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he will outline any engagement he has had with industry on the subject of new graduates being unable to obtain entry-level jobs in areas most affected by the adoption of artificial intelligence; if his Department has conducted any industry surveys to assess the existence of such a trend; and if he will make a statement on the matter. [38158/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/117/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "142. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he plans to expand training and consultancy supports to organisations wishing to embrace remote first operating models; and if he will make a statement on the matter. [30426/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/142/"
+                      },
+                      {
+                        "name": "493. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the main policy achievements of his Department since 22 January 2025; and if he will make a statement on the matter. [30476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/493/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "564. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department is considering measures to compel watermarking on AI-generated images and videos;; and if he will make a statement on the matter. [12088/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/564/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "461. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if an application for membership of the Enterprise Digital Advisory Forum has been approved (details supplied); and whether further appointments are planned to ensure balanced representation across Irish enterprise. [8744/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/461/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "276. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he will provide a list of all capital projects and programmes including those delivered through IDA Ireland, Enterprise Ireland and Fáilte Ireland which have been completed on time and within budget in Dublin West in each of the past five years, in tabular form; and if he will make a statement on the matter. [33677/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/276/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "114. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of men and women who applied for parent's benefit in the past three years; and if he will make a statement on the matter. [38032/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/114/"
+                      },
+                      {
+                        "name": "115. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of men who applied for paternity benefit and the number of women who applied for maternity benefit in the past three years; and if he will make a statement on the matter. [38034/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/115/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "115. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on plans to modernise the Limited Partnership Act 1907 legislation. [10868/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/115/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Small and Medium Enterprises",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "57. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to set out his Department’s work on the programme for Government commitment to “support Irish SMEs to access the supply chains of large multinational companies that are based in Ireland”. [13297/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/57/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Trade Promotion",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "34. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on the implementation of the new Action Plan on Competitiveness and Productivity. [13314/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/34/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Job Creation",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "40. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on the creation of a national strategy to attract fully locationless remote jobs to Ireland. [13313/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/40/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Enterprise Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "457. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on progress of recommendation no. 40 of the Action Plan for Competitiveness &amp; Productivity on incentivising pension fund and institutional investor participation in the financing of scaling Irish enterprise. [15123/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/457/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1099. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to provide details on the eligibility criteria for green capital grant programmes; including whether multinational-owned manufacturing facilities operating in Ireland qualify for support; the sectors prioritised for grant funding; and if he will make a statement on the matter. [27263/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1099/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1182. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on progress of recommendation no. 40 of the Action Plan for Competitiveness &amp; Productivity on incentivising pension fund and institutional investor participation in the financing of scaling Irish enterprise. [26313/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1182/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Process",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1198. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment when it is planned to submit the general scheme of a Bill to update the Limited Partnerships Act 1907 to the Oireachtas Committee for pre-legislative scrutiny. [27258/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1198/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Gambling Sector",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "233. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the measures his Department is taking to protect children from online gambling advertising; and if he will make a statement on the matter. [27460/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/233/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Wednesday, 22 April",
+                    "date_iso": "2026-04-22",
+                    "children": [
+                      {
+                        "name": "77. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to provide details of the number of legal actions against his Department that have been resolved without going to court in line with the 2023 State Litigation Principles; if his Department is fully applying the State Litigation Principles in seeking to resolve any current or outstanding legal actions; and if he will make a statement on the matter. [28833/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/77/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Economic Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "172. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the actions he is taking to maintain and increase Ireland's economic competitiveness; and if he will make a statement on the matter. [30427/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/172/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Programmes",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "295. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment Ireland’s position on the planned EU Digital Fairness Act, including in the context of a non-paper by Poland on the need for full and effective use of existing tools to strengthen consumer protect in the digital economy. [33348/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/295/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "116. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he will provide an update on the national life sciences strategy consultation process; and if he will make a statement on the matter. [38152/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/116/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Directives",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "702. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department has assessed the operational, commercial and consumer impacts arising from the revised liability framework under Directive (EU) 2024/2853 on liability for defective products, including the extension of liability to online platforms acting beyond an intermediary role, the recognition of psychological harm as recoverable damage, and the inclusion of software and AI systems as products; the steps being taken to transpose the Directive into Irish law ahead of the 9 December 2026 deadline, including whether a dedicated working group or stakeholder consultation process has been established; whether guidance will be issued/has been issued to assist online platforms in understanding when liability may arise; and if he will make a statement on the matter. [42722/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/702/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Company Law",
+                "children": [
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "66. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if his Department has engaged with industry on proposals for changes to company law to support the tokenisation of funds set up as Irish companies. [46252/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/66/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Foreign",
             "children": [
               {
@@ -9993,438 +10531,6 @@
                         "name": "198. Deputy Emer Currie asked the Minister for Foreign Affairs and Trade the position regarding Ireland’s position on cookie/banner simplification as part of EU council deliberations on the digital omnibus. [42724/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/198/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Flexible Work Practices",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "246. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of cases taken to the WRC in relation to the right to request flexible work, not including the right to request remote work; and the decisions or outcomes of those cases. [7196/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/246/"
-                      },
-                      {
-                        "name": "247. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if public sector employers, colleges and public bodies have moved to 20% home and remote working as per the making remote work strategy. [7197/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/247/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "204. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department is considering any proposals to create a national strategy to attract fully locationless remote jobs to Ireland (details supplied); and if he will make a statement on the matter. [8826/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/204/"
-                      },
-                      {
-                        "name": "205. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department is considering any proposals to create a dedicated unit within his Department, or Stage agencies, to attract fully locationless remote jobs to Ireland (details supplied); and if he will make a statement on the matter. [8827/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/205/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "573. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the supports available to employers and employees to promote remote and flexible working; and if he will make a statement on the matter. [12591/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/573/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Artificial Intelligence",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "454. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to provide an update on the scope of the proposed regulation of the AI Bill; and the expected timelines for publication of the general scheme, pre-legislative scrutiny, and publication of the Bill. [8247/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/454/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "527. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he has reviewed a report (details supplied) and the recommendations relating to future AI jobs planning, enterprise AI adoption, business guidance on EU AI Act compliance, the functions and remit of the proposed AI Office of Ireland; and if he will make a statement on the matter. [35230/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/527/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "117. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he will outline any engagement he has had with industry on the subject of new graduates being unable to obtain entry-level jobs in areas most affected by the adoption of artificial intelligence; if his Department has conducted any industry surveys to assess the existence of such a trend; and if he will make a statement on the matter. [38158/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/117/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "142. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he plans to expand training and consultancy supports to organisations wishing to embrace remote first operating models; and if he will make a statement on the matter. [30426/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/142/"
-                      },
-                      {
-                        "name": "493. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the main policy achievements of his Department since 22 January 2025; and if he will make a statement on the matter. [30476/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/493/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "564. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department is considering measures to compel watermarking on AI-generated images and videos;; and if he will make a statement on the matter. [12088/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/564/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Business Supports",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1009. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the supports and measures available to small businesses impacted by retail crime and break-ins; and if he will make a statement on the matter. [1966/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1009/"
-                      },
-                      {
-                        "name": "1010. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department plans to increase the supports and measures available to small businesses impacted by retail crime and break-ins during the lifetime of this Government; and if he will make a statement on the matter. [1968/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1010/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Bodies",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "461. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if an application for membership of the Enterprise Digital Advisory Forum has been approved (details supplied); and whether further appointments are planned to ensure balanced representation across Irish enterprise. [8744/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/461/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "276. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he will provide a list of all capital projects and programmes including those delivered through IDA Ireland, Enterprise Ireland and Fáilte Ireland which have been completed on time and within budget in Dublin West in each of the past five years, in tabular form; and if he will make a statement on the matter. [33677/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/276/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "114. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of men and women who applied for parent's benefit in the past three years; and if he will make a statement on the matter. [38032/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/114/"
-                      },
-                      {
-                        "name": "115. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of men who applied for paternity benefit and the number of women who applied for maternity benefit in the past three years; and if he will make a statement on the matter. [38034/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/115/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Measures",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "115. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on plans to modernise the Limited Partnership Act 1907 legislation. [10868/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/115/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Small and Medium Enterprises",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "57. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to set out his Department’s work on the programme for Government commitment to “support Irish SMEs to access the supply chains of large multinational companies that are based in Ireland”. [13297/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/57/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Trade Promotion",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "34. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on the implementation of the new Action Plan on Competitiveness and Productivity. [13314/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/34/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Job Creation",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "40. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on the creation of a national strategy to attract fully locationless remote jobs to Ireland. [13313/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/40/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Enterprise Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "457. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on progress of recommendation no. 40 of the Action Plan for Competitiveness &amp; Productivity on incentivising pension fund and institutional investor participation in the financing of scaling Irish enterprise. [15123/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/457/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Programmes",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1099. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to provide details on the eligibility criteria for green capital grant programmes; including whether multinational-owned manufacturing facilities operating in Ireland qualify for support; the sectors prioritised for grant funding; and if he will make a statement on the matter. [27263/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1099/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1182. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment for an update on progress of recommendation no. 40 of the Action Plan for Competitiveness &amp; Productivity on incentivising pension fund and institutional investor participation in the financing of scaling Irish enterprise. [26313/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1182/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Process",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1198. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment when it is planned to submit the general scheme of a Bill to update the Limited Partnerships Act 1907 to the Oireachtas Committee for pre-legislative scrutiny. [27258/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1198/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Gambling Sector",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "233. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the measures his Department is taking to protect children from online gambling advertising; and if he will make a statement on the matter. [27460/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/233/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Wednesday, 22 April",
-                    "date_iso": "2026-04-22",
-                    "children": [
-                      {
-                        "name": "77. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment to provide details of the number of legal actions against his Department that have been resolved without going to court in line with the 2023 State Litigation Principles; if his Department is fully applying the State Litigation Principles in seeking to resolve any current or outstanding legal actions; and if he will make a statement on the matter. [28833/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/77/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Economic Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "172. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the actions he is taking to maintain and increase Ireland's economic competitiveness; and if he will make a statement on the matter. [30427/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/172/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EU Programmes",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "295. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment Ireland’s position on the planned EU Digital Fairness Act, including in the context of a non-paper by Poland on the need for full and effective use of existing tools to strengthen consumer protect in the digital economy. [33348/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/295/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Strategies",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "116. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if he will provide an update on the national life sciences strategy consultation process; and if he will make a statement on the matter. [38152/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/116/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EU Directives",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "702. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment whether his Department has assessed the operational, commercial and consumer impacts arising from the revised liability framework under Directive (EU) 2024/2853 on liability for defective products, including the extension of liability to online platforms acting beyond an intermediary role, the recognition of psychological harm as recoverable damage, and the inclusion of software and AI systems as products; the steps being taken to transpose the Directive into Irish law ahead of the 9 December 2026 deadline, including whether a dedicated working group or stakeholder consultation process has been established; whether guidance will be issued/has been issued to assist online platforms in understanding when liability may arise; and if he will make a statement on the matter. [42722/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/702/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Company Law",
-                "children": [
-                  {
-                    "name": "Wednesday, 17 June",
-                    "date_iso": "2026-06-17",
-                    "children": [
-                      {
-                        "name": "66. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment if his Department has engaged with industry on proposals for changes to company law to support the tokenisation of funds set up as Irish companies. [46252/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/66/"
                       }
                     ]
                   }
@@ -11025,6 +11131,33 @@
                 ]
               },
               {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1793. Deputy Emer Currie asked the Minister for Housing, Local Government and Heritage for an update made on the Programme for Government commitment to earmark certain cost rental units for key local workers; and if he will make a statement on the matter. [26324/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1793/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "117. Deputy Emer Currie asked the Minister for Housing, Local Government and Heritage for an update on the Programme for Government commitment to earmark certain cost rental units for key local workers; and if he will make a statement on the matter. [47675/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/117/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Fire Service",
                 "children": [
                   {
@@ -11051,22 +11184,6 @@
                         "name": "95. Deputy Emer Currie asked the Minister for Housing, Local Government and Heritage whether data protection and GDPR considerations have been fully addressed in the development of the proposed rent register; the way in which the identity and personal data of landlords will be protected, particularly in small towns and rural areas with limited rental stock; and if he will make a statement on the matter. [6915/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/95/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Programme for Government",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1793. Deputy Emer Currie asked the Minister for Housing, Local Government and Heritage for an update made on the Programme for Government commitment to earmark certain cost rental units for key local workers; and if he will make a statement on the matter. [26324/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1793/"
                       }
                     ]
                   }
@@ -21484,6 +21601,24 @@
           "questionType": "written"
         },
         {
+          "date_iso": "2026-06-24",
+          "questionNumber": 141,
+          "department": "Transport",
+          "heading": "Dublin Airport Authority",
+          "question": "141. Deputy Emer Currie asked the Minister for Transport if he will confirm the measures that are being taken in the context of the Dublin Airport (Passenger Capacity) Bill 2026 and the voluntary dwelling purchase scheme to ensure that affected households are not financially disadvantaged when relocating, having regard to current property market conditions; in particular whether replacement value, disturbance, and reinstatement costs will be fully incorporated into compensation assessments; and if he will make a statement on the matter. [47906/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/141/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 45,
+          "department": "Finance",
+          "heading": "Departmental Reviews",
+          "question": "45. Deputy Emer Currie asked the Tánaiste and Minister for Finance to provide an update on his review of the taxation of retail investment with a view to ensuring that existing investors are included in future tax measures; and if he will make a statement on the matter. [47672/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/45/",
+          "questionType": "written"
+        },
+        {
           "date_iso": "2026-06-25",
           "questionNumber": 82,
           "department": "Housing",
@@ -21491,6 +21626,78 @@
           "question": "82. Deputy Emer Currie asked the Minister for Housing, Local Government and Heritage for an update on the review of the 2001 planning guidelines for local authorities on early learning and childcare settings in order to increase childcare supply; and if he will make a statement on the matter. [48705/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/82/",
           "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 117,
+          "department": "Housing",
+          "heading": "Programme for Government",
+          "question": "117. Deputy Emer Currie asked the Minister for Housing, Local Government and Heritage for an update on the Programme for Government commitment to earmark certain cost rental units for key local workers; and if he will make a statement on the matter. [47675/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/117/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 235,
+          "department": "Transport",
+          "heading": "Electric Vehicles",
+          "question": "235. Deputy Emer Currie asked the Minister for Transport the assessment carried out on the potential for the EV scrappage scheme to be oversubscribed on its opening day; and if he will make a statement on the matter. [48456/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/235/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 236,
+          "department": "Transport",
+          "heading": "Electric Vehicles",
+          "question": "236. Deputy Emer Currie asked the Minister for Transport his Department's position on car dealers offering people the opportunity to buy the cars with the assistance of the EV scrappage scheme subject to that assistance being forthcoming; and if he will make a statement on the matter. [48457/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/236/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 269,
+          "department": "Enterprise",
+          "heading": "Business Supports",
+          "question": "269. Deputy Emer Currie asked the Minister for Enterprise, Tourism and Employment the number of grow digital vouchers granted to businesses in 2025 and to date in 2026, by county. [48454/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/269/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 397,
+          "department": "Children",
+          "heading": "Budget 2027",
+          "question": "397. Deputy Emer Currie asked the Minister for Children, Disability and Equality her plans to support working families with the cost of childcare in Budget 2027; and if she will make a statement on the matter. [47673/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/397/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 403,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "403. Deputy Emer Currie asked the Minister for Children, Disability and Equality the number of applications made for the €25 million building blocks extension scheme; the number of successful applications; the number rejected; and if she will make a statement on the matter. [48493/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/403/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 404,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "404. Deputy Emer Currie asked the Minister for Children, Disability and Equality Children the total amount of projects that have drawn down funding from the €25 million building blocks extension scheme; the total amount of funding that has been drawn down, in tabular form; and if she will make a statement on the matter. [48494/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/404/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-25",
+          "questionNumber": 412,
+          "department": "Children",
+          "heading": "Early Childhood Care and Education",
+          "question": "412. Deputy Emer Currie asked the Minister for Children, Disability and Equality if her attention has been drawn to the gap in childcare provision affecting children who have completed their final year under the ECCE scheme, are due to commence primary school in late August, but are not currently classified as school-age children for the purposes of accessing school-age summer camp services; if she will review the current definition of a school-age child to provide greater flexibility for children transitioning from preschool to primary school; and if she will make a statement on the matter. [48648/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/412/",
+          "questionType": "written"
         }
       ]
     },
