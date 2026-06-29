@@ -717,7 +717,7 @@ display(
     const partyColor = getPartyColor(view.party);
 
     const link = document.createElement("a");
-    link.className = "deputy-card-link";
+    link.className = "deputy-card-link deputy-card-link--plain";
     link.href = view.memberUrl;
 
     const card = document.createElement("article");

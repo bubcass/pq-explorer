@@ -295,7 +295,7 @@ display(renderSectionNav("overview"));
 
 <p><a class="link-arrow" href="https://www.oireachtas.ie/en/debates/questions/">Parliamentary questions</a> are an intrinsic part of Parliament and each year tens of thousands of questions are asked by Members. They are directed to each Department and answered by the appropriate Minister or Minister of State.</p>
 
-<p>PQ Explorer is part of our series of <strong><a class="link-arrow" href="https://bubcass.github.io/open-data-insights/">Open Data Insights</a>.</strong></p>
+<p>PQ Explorer is part of our series of <strong><a class="link-arrow" href="https://bubcass.github.io/open-data-insights/" target="_self">Open Data Insights</a>.</strong></p>
 </div>
 
 <div class="prose-block">
