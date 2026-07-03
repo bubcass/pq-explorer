@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Ciarán-Ahern.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 376,
+      "count": 378,
       "headingOptions": [
         "Agriculture Schemes",
         "Air Safety",
@@ -35,6 +35,7 @@
         "Community Care",
         "Company Registration",
         "Data Centres",
+        "Defibrillators Provision",
         "Departmental Bodies",
         "Departmental Budgets",
         "Departmental Communications",
@@ -496,6 +497,10 @@
               {
                 "name": "Medical Aids and Appliances",
                 "value": 1
+              },
+              {
+                "name": "Defibrillators Provision",
+                "value": 1
               }
             ]
           },
@@ -564,16 +569,16 @@
             "name": "Education",
             "children": [
               {
+                "name": "Special Educational Needs",
+                "value": 3
+              },
+              {
                 "name": "Healthcare Policy",
                 "value": 3
               },
               {
                 "name": "Education Policy",
                 "value": 3
-              },
-              {
-                "name": "Special Educational Needs",
-                "value": 2
               },
               {
                 "name": "Departmental Schemes",
@@ -3421,6 +3426,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Defibrillators Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "911. Deputy Ciarán Ahern asked the Minister for Health if there is any comprehensive national defibrillator register or map that would allow people to check where their closest defibrillator is located; if there are proposals for same; and if she will make a statement on the matter. [49610/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/911/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3742,6 +3763,38 @@
             "name": "Education",
             "children": [
               {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "469. Deputy Ciarán Ahern asked the Minister for Education and Youth to examine a policy issue (details supplied); and if she will make a statement on the matter. [5520/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/469/"
+                      },
+                      {
+                        "name": "523. Deputy Ciarán Ahern asked the Minister for Education and Youth to advise on a policy matter (details supplied); if she will allow retrospective flexibility of the deadline for notifying the NCSE and obtaining a letter of eligibility from a SENO for parents applying for a special school or class place for the 2026-27 school year for their child; and if she will make a statement on the matter. [6053/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/523/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "399. Deputy Ciarán Ahern asked the Minister for Education and Youth if she is aware that a school (details supplied) has been forced to withdraw its summer programme due to her Department’s failure to sanction the necessary staffing levels, leaving children with special educational needs without vital supports over the summer; whether she intends on rectifying this so that the school’s summer programme can proceed; and if she will make a statement on the matter. [49613/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/399/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Healthcare Policy",
                 "children": [
                   {
@@ -3788,27 +3841,6 @@
                         "name": "289. Deputy Ciarán Ahern asked the Minister for Education and Youth further to Parliamentary Question No. 509 of 21 April 2026, and given parents were not asked to identify whether their children attended denominational or multi-denominational schools in the survey, if her Department manually removed the responses of parents with children in multi-denominational schools (details supplied); if so, the reason the information was presented in this limited way to exclude large cohorts of families in the preliminary findings; and if she will make a statement on the matter. [31536/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/289/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "469. Deputy Ciarán Ahern asked the Minister for Education and Youth to examine a policy issue (details supplied); and if she will make a statement on the matter. [5520/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/469/"
-                      },
-                      {
-                        "name": "523. Deputy Ciarán Ahern asked the Minister for Education and Youth to advise on a policy matter (details supplied); if she will allow retrospective flexibility of the deadline for notifying the NCSE and obtaining a letter of eligibility from a SENO for parents applying for a special school or class place for the 2026-27 school year for their child; and if she will make a statement on the matter. [6053/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/523/"
                       }
                     ]
                   }
@@ -9261,6 +9293,24 @@
           "heading": "Rail Network",
           "question": "238. Deputy Ciarán Ahern asked the Minister for Transport his plans for the Killucan railway station in County Westmeath; if he will engage with local elected representatives and campaign group on the potential reopening of the station given recent population growth in the surrounding area; and if he will make a statement on the matter. [48473/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/238/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 399,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "399. Deputy Ciarán Ahern asked the Minister for Education and Youth if she is aware that a school (details supplied) has been forced to withdraw its summer programme due to her Department’s failure to sanction the necessary staffing levels, leaving children with special educational needs without vital supports over the summer; whether she intends on rectifying this so that the school’s summer programme can proceed; and if she will make a statement on the matter. [49613/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/399/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 911,
+          "department": "Health",
+          "heading": "Defibrillators Provision",
+          "question": "911. Deputy Ciarán Ahern asked the Minister for Health if there is any comprehensive national defibrillator register or map that would allow people to check where their closest defibrillator is located; if there are proposals for same; and if she will make a statement on the matter. [49610/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/911/",
           "questionType": "written"
         }
       ]

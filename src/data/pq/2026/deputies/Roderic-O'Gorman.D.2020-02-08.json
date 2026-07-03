@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Roderic-O'Gorman.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 800,
+      "count": 810,
       "headingOptions": [
         "Action Plan for Rural Development",
         "Agriculture Industry",
@@ -25,6 +25,7 @@
         "Apprenticeship Programmes",
         "Architectural Heritage",
         "Artificial Intelligence",
+        "Arts Centres",
         "Arts Funding",
         "Arts Policy",
         "Aviation Industry",
@@ -84,6 +85,7 @@
         "Diplomatic Representation",
         "Disabilities Assessments",
         "Disability Diagnoses",
+        "Disability Issues",
         "Disability Services",
         "Disadvantaged Status",
         "Disease Management",
@@ -216,6 +218,7 @@
         "Social Welfare Code",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
+        "Social Welfare Rates",
         "Social Welfare Schemes",
         "Solar Energy Guidelines",
         "Special Areas of Conservation",
@@ -483,6 +486,10 @@
               },
               {
                 "name": "Health Services Staff",
+                "value": 1
+              },
+              {
+                "name": "Disability Issues",
                 "value": 1
               }
             ]
@@ -1020,6 +1027,10 @@
               {
                 "name": "Programme for Government",
                 "value": 1
+              },
+              {
+                "name": "Alcohol Sales",
+                "value": 1
               }
             ]
           },
@@ -1071,6 +1082,10 @@
                 "value": 2
               },
               {
+                "name": "School Management",
+                "value": 2
+              },
+              {
                 "name": "Departmental Funding",
                 "value": 1
               },
@@ -1096,10 +1111,6 @@
               },
               {
                 "name": "Disadvantaged Status",
-                "value": 1
-              },
-              {
-                "name": "School Management",
                 "value": 1
               },
               {
@@ -1132,16 +1143,16 @@
                 "value": 3
               },
               {
+                "name": "Middle East",
+                "value": 3
+              },
+              {
                 "name": "Consular Services",
                 "value": 3
               },
               {
                 "name": "Departmental Consultations",
                 "value": 3
-              },
-              {
-                "name": "Middle East",
-                "value": 2
               },
               {
                 "name": "Human Rights",
@@ -1287,7 +1298,7 @@
             "children": [
               {
                 "name": "Greyhound Industry",
-                "value": 11
+                "value": 14
               },
               {
                 "name": "Departmental Data",
@@ -1478,6 +1489,63 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Arts Funding",
+                "value": 4
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 3
+              },
+              {
+                "name": "Broadband Infrastructure",
+                "value": 2
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Meetings",
+                "value": 1
+              },
+              {
+                "name": "Emergency Planning",
+                "value": 1
+              },
+              {
+                "name": "Arts Policy",
+                "value": 1
+              },
+              {
+                "name": "Sports Funding",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "National Cultural Institutions",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
+                "value": 1
+              },
+              {
+                "name": "Sports Facilities",
+                "value": 1
+              },
+              {
+                "name": "Arts Centres",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -1527,80 +1595,6 @@
             ]
           },
           {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Pension Provisions",
-                "value": 3
-              },
-              {
-                "name": "Arts Funding",
-                "value": 3
-              },
-              {
-                "name": "Broadband Infrastructure",
-                "value": 2
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Departmental Meetings",
-                "value": 1
-              },
-              {
-                "name": "Emergency Planning",
-                "value": 1
-              },
-              {
-                "name": "Arts Policy",
-                "value": 1
-              },
-              {
-                "name": "Sports Funding",
-                "value": 1
-              },
-              {
-                "name": "Departmental Schemes",
-                "value": 1
-              },
-              {
-                "name": "National Cultural Institutions",
-                "value": 1
-              },
-              {
-                "name": "Legislative Measures",
-                "value": 1
-              },
-              {
-                "name": "Sports Facilities",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 5
-              },
-              {
-                "name": "Naval Service",
-                "value": 4
-              },
-              {
-                "name": "Departmental Programmes",
-                "value": 2
-              },
-              {
-                "name": "Emergency Planning",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -1641,6 +1635,31 @@
               },
               {
                 "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Rates",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 5
+              },
+              {
+                "name": "Naval Service",
+                "value": 4
+              },
+              {
+                "name": "Departmental Programmes",
+                "value": 2
+              },
+              {
+                "name": "Emergency Planning",
                 "value": 1
               }
             ]
@@ -3690,6 +3709,22 @@
                         "name": "638. Deputy Roderic O'Gorman asked the Minister for Children, Disability and Equality further to Parliamentary Question No. 1770 of 9 June 2026, and in light of her statement in that reply that Tusla’s allocation framework is not yet implemented as there is no formal staff agreement, the legal basis for non-qualified Tusla staff being employed to undertake social work tasks, as outlined in HIQA's inspection of Child Protection and Welfare Services in Dublin North City which was published in November 2025; and if she will make a statement on the matter. [47796/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/638/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Issues",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "716. Deputy Roderic O'Gorman asked the Minister for Children, Disability and Equality for an update on the timeline for her Department's progression of the general scheme of the Equality (Miscellaneous Provisions) Bill 2024; and if she will make a statement on the matter. [49517/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/716/"
                       }
                     ]
                   }
@@ -6933,6 +6968,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Alcohol Sales",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "610. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the steps being taken to address unregulated alcohol deliveries by app delivery companies; his plans to address this issue in the future; and if he will make a statement on the matter. [49534/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/610/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -7447,6 +7498,33 @@
                 ]
               },
               {
+                "name": "School Management",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "201. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason a school (details supplied) has never been granted an English as an additional language teaching post as of right, given the significant need in the area; the reason the school has to appeal each year in order to be granted some hours, with the ensuing increase in paper work for the school management team; and if she will make a statement on the matter. [44815/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/201/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "340. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of significant health and safety concerns being raised by the management and parents of a school in Dublin 20 (details supplied); if her Department will fully support the school to ameliorate these issues in advance of the new academic year; and if she will make a statement on the matter. [49010/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/340/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Funding",
                 "children": [
                   {
@@ -7553,22 +7631,6 @@
                         "name": "200. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of an appeal by a school (details supplied) regarding the failure to grant DEIS PLUS status; when the appeal will have a decision made; and if she will make a statement on the matter. [44814/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/200/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Management",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "201. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason a school (details supplied) has never been granted an English as an additional language teaching post as of right, given the significant need in the area; the reason the school has to appeal each year in order to be granted some hours, with the ensuing increase in paper work for the school management team; and if she will make a statement on the matter. [44815/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/201/"
                       }
                     ]
                   }
@@ -7829,6 +7891,44 @@
                 ]
               },
               {
+                "name": "Middle East",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "230. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will raise recent human rights abuses in Iran with the Iranian Government, and at EU and UN level; and if she will make a statement on the matter. [4092/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/230/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "99. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade for an update on the progress of the Control of Economic Activity (Occupied Territories) Bill 2018; and if she will make a statement on the matter. [22986/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/99/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "7. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will reconsider the exclusion of services from the Israeli Settlements in the Occupied Palestinian Territory (Prohibition of Importation of Goods) Bill 2026; and if she will make a statement on the matter. [50194/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/7/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Consular Services",
                 "children": [
                   {
@@ -7887,33 +7987,6 @@
                         "name": "308. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade for an update on visits by her, her Junior Ministers or Department staff to members of the Nordic Baltic group in the past 18 months; and if she will make a statement on the matter. [25616/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/308/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Middle East",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "230. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will raise recent human rights abuses in Iran with the Iranian Government, and at EU and UN level; and if she will make a statement on the matter. [4092/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/230/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "99. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade for an update on the progress of the Control of Economic Activity (Occupied Territories) Bill 2018; and if she will make a statement on the matter. [22986/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/99/"
                       }
                     ]
                   }
@@ -8675,6 +8748,27 @@
                         "name": "133. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine for an update on the current status of non-coursing greyhounds whose year of birth was 2021 and that were being tracked on Rásaíocht Con Éireann's traceability system, giving a detailed breakdown into active, inactive and exported; and if he will make a statement on the matter. [35485/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/133/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "649. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 308 of 15 April 2026, if it is not known what happened to the 23,760 non-coursing greyhounds entered on the Rásaíocht Con Éireann traceability system in 2021 (details supplied); if so, his views on whether the Rásaíocht Con Éireann traceability system is fit for purpose; and if he will make a statement on the matter. [49025/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/649/"
+                      },
+                      {
+                        "name": "650. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine how much the Rásaíocht Con Éireann traceability system cost to put in place; annual cost of operating this system; and if he will make a statement on the matter. [49026/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/650/"
+                      },
+                      {
+                        "name": "651. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine to clarify the discrepancy in the figures given for the number of greyhounds homed by the operators of a greyhound care home (details supplied); and if he will make a statement on the matter. [49027/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/651/"
                       }
                     ]
                   },
@@ -9721,6 +9815,273 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "78. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when the successor scheme to the basic income for the arts will commence; and if he will make a statement on the matter. [44454/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/78/"
+                      },
+                      {
+                        "name": "105. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if, in view of applications for the successor scheme to the basic income for the arts pilot greatly exceeding the number of places available on the scheme, if consideration is being given to expanding the scheme; and if he will make a statement on the matter. [44453/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/105/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1613. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if funding can be considered for a site (details supplied) to bring it into use as an artistic and cultural venue in light of recent closures of artistic venues in Dublin city centre; and if he will make a statement on the matter. [27179/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1613/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "442. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the position regarding his Department’s plans to progress the development of the national piping centre on Henrietta Street, Dublin; and if he will make a statement on the matter. [49239/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/442/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "667. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when he expects approval for the September 2025 agreement between An Post and An Post Group of Unions regarding An Post superannuation schemes to issue; if he can set out the timeline and necessary approval process in respect of same; if he will provide a direct update to each of the relevant trades unions party to the agreement; and if he will make a statement on the matter. [9648/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/667/"
+                      },
+                      {
+                        "name": "671. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport his view on the need for Ministerial approval to issue in a timely manner with respect to the most recent agreement between unions and An Post on the An Post superannuation scheme; if he has communicated with his colleague the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation on same; if he has asked for a date by which approval will issue; if he can provide a direct update to each of the relevant trade unions party to the agreement; and if he will make a statement on the matter. [9649/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/671/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "198. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport for an update on the provision of pensions for former employees of An Post; and if he will make a statement on the matter. [13413/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/198/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Broadband Infrastructure",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "150. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport his plan to address broadband urban blackspots, as committed to in the Programme for Government; whether he has yet carried out a pilot study; whether he has chosen a method of subsidy to address this issue; when he expects to complete the delivery of gigabit broadband to urban Ireland, given that rural Ireland should be completed in 2026; and if he will make a statement on the matter. [15578/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/150/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "954. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the public body which is responsible for ensuring the availability of broadband to a location (details supplied) which have been without fibre broadband since a line was damaged eight years ago but which appear to be shown as connected to fibre broadband on a national infrastructure database. [19796/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/954/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "582. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the number of WTE digital marketing specialists employed within his Department as of 16 January 2026. [5751/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/582/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Meetings",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "583. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when he last met the Chief Executive Officer of the National Concert Hall; the issues discussed; and when he is next scheduled to meet the CEO. [5752/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/583/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Emergency Planning",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "149. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport whether he has implemented a public warning system to send mass alerts to the public in the case of natural disasters such as floods, as required by Article 110 of the European Electronic Communication Code; to explain his choice of technology to deliver this warning system; and whether any tests of the system have yet been carried out; and if he will make a statement on the matter. [15577/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/149/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "165. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport for an update on the Programme for Government commitment to provide affordable spaces for artists to work and collaborate; and if he will make a statement on the matter. [16749/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/165/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "184. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport to outline any plans to provide additional capital support to arts and cultural facilities. [16748/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/184/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "542. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if his Department has reviewed the funding uptake in both rounds of the LSSIF in light of Covid restrictions and subsequent building inflation difficulties for applicants; and to provide a county-by-county breakdown of funds drawn down compared to funds awarded for both rounds, in tabular form; and if he will make a statement on the matter. [16449/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/542/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Cultural Institutions",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1013. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the requirements for an entity to be granted national cultural institution status; and if he will make a statement on the matter. [43898/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1013/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "558. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when the Broadcasting (Amendment) Bill 2026 is expected to be signed into law; if he expects the Bill to be enacted before the Dáil Summer recess; and if he will make a statement on the matter. [45702/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/558/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Facilities",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "306. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport for an update on the nationwide audit of sports facilities, in line with the Programme for Government commitment to address shortages in underserved areas, including towns with populations over 1,500; whether any preliminary or final results are available for towns and villages in County Tipperary; if those results will be published on a town-by-town basis; the timeline for completion and publication of the audit; and if he will make a statement on the matter. [48815/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/306/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Centres",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "443. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if, in view of the fact that a venue (details supplied) in Dublin is now back on the property market, his Department will engage with Dublin City Council to purchase the building and bring in into use for arts and cultural use. [49240/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/443/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -9943,391 +10304,6 @@
             ]
           },
           {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "667. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when he expects approval for the September 2025 agreement between An Post and An Post Group of Unions regarding An Post superannuation schemes to issue; if he can set out the timeline and necessary approval process in respect of same; if he will provide a direct update to each of the relevant trades unions party to the agreement; and if he will make a statement on the matter. [9648/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/667/"
-                      },
-                      {
-                        "name": "671. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport his view on the need for Ministerial approval to issue in a timely manner with respect to the most recent agreement between unions and An Post on the An Post superannuation scheme; if he has communicated with his colleague the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation on same; if he has asked for a date by which approval will issue; if he can provide a direct update to each of the relevant trade unions party to the agreement; and if he will make a statement on the matter. [9649/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/671/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "198. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport for an update on the provision of pensions for former employees of An Post; and if he will make a statement on the matter. [13413/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/198/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "78. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when the successor scheme to the basic income for the arts will commence; and if he will make a statement on the matter. [44454/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/78/"
-                      },
-                      {
-                        "name": "105. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if, in view of applications for the successor scheme to the basic income for the arts pilot greatly exceeding the number of places available on the scheme, if consideration is being given to expanding the scheme; and if he will make a statement on the matter. [44453/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/105/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1613. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if funding can be considered for a site (details supplied) to bring it into use as an artistic and cultural venue in light of recent closures of artistic venues in Dublin city centre; and if he will make a statement on the matter. [27179/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1613/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Broadband Infrastructure",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "150. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport his plan to address broadband urban blackspots, as committed to in the Programme for Government; whether he has yet carried out a pilot study; whether he has chosen a method of subsidy to address this issue; when he expects to complete the delivery of gigabit broadband to urban Ireland, given that rural Ireland should be completed in 2026; and if he will make a statement on the matter. [15578/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/150/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "954. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the public body which is responsible for ensuring the availability of broadband to a location (details supplied) which have been without fibre broadband since a line was damaged eight years ago but which appear to be shown as connected to fibre broadband on a national infrastructure database. [19796/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/954/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "582. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the number of WTE digital marketing specialists employed within his Department as of 16 January 2026. [5751/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/582/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Meetings",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "583. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when he last met the Chief Executive Officer of the National Concert Hall; the issues discussed; and when he is next scheduled to meet the CEO. [5752/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/583/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Emergency Planning",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "149. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport whether he has implemented a public warning system to send mass alerts to the public in the case of natural disasters such as floods, as required by Article 110 of the European Electronic Communication Code; to explain his choice of technology to deliver this warning system; and whether any tests of the system have yet been carried out; and if he will make a statement on the matter. [15577/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/149/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "165. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport for an update on the Programme for Government commitment to provide affordable spaces for artists to work and collaborate; and if he will make a statement on the matter. [16749/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/165/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "184. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport to outline any plans to provide additional capital support to arts and cultural facilities. [16748/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/184/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "542. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if his Department has reviewed the funding uptake in both rounds of the LSSIF in light of Covid restrictions and subsequent building inflation difficulties for applicants; and to provide a county-by-county breakdown of funds drawn down compared to funds awarded for both rounds, in tabular form; and if he will make a statement on the matter. [16449/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/542/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Cultural Institutions",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1013. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the requirements for an entity to be granted national cultural institution status; and if he will make a statement on the matter. [43898/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1013/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Measures",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "558. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport when the Broadcasting (Amendment) Bill 2026 is expected to be signed into law; if he expects the Bill to be enacted before the Dáil Summer recess; and if he will make a statement on the matter. [45702/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/558/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Facilities",
-                "children": [
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "306. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport for an update on the nationwide audit of sports facilities, in line with the Programme for Government commitment to address shortages in underserved areas, including towns with populations over 1,500; whether any preliminary or final results are available for towns and villages in County Tipperary; if those results will be published on a town-by-town basis; the timeline for completion and publication of the audit; and if he will make a statement on the matter. [48815/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/306/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "26. Deputy Roderic O'Gorman asked the Minister for Defence the legislation that underpins the activities of the Irish Military Intelligence Service (IMIS); the name of the current Director of the IMIS; the number of members of the Defence Forces and civilian staff serving in the IMIS; and if she will make a statement on the matter. [15588/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/26/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "260. Deputy Roderic O'Gorman asked the Minister for Defence the capital and current funding required for the capacity of the Joint Induction Training Centre at Gormanston Barracks to be able to handle 1,250 new recruits when fully operational. [16344/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/260/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "319. Deputy Roderic O'Gorman asked the Minister for Defence the criteria for a person to be inducted as a member of the Defence Forces legal services club. [30077/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/319/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "302. Deputy Roderic O'Gorman asked the Minister for Defence the nature of refurbishment works that were carried out at Defence Forces Equitation School in the years of 2024, 2025 and to date in 2026, in tabular form; and to list the works that are scheduled to commence at the Equitation School during the second half of this year. [34584/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/302/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "151. Deputy Roderic O'Gorman asked the Minister for Defence if suitable qualified civilians can apply for vacancies within the Defence Forces School of Music; and whether all vacancies are normally filled by personnel within the Defence Forces. [47421/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/151/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Naval Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "573. Deputy Roderic O'Gorman asked the Minister for Defence the number of Irish Naval Vessels that have docked at Dublin Port in the years of 2024, 2025 and to date in 2026, in tabular form. [25929/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/573/"
-                      },
-                      {
-                        "name": "574. Deputy Roderic O'Gorman asked the Minister for Defence the capital works that would be needed be carried out at Haulbowline Naval Base to be able to berth Naval Ships of 150m in length. [25930/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/574/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "25. Deputy Roderic O'Gorman asked the Minister for Defence the progress which has been made in locating naval patrol vessels at the Carlisle Pier in Dun Laoghaire, as announced by the Minister for Defence in October 2024; and if she will make a statement on the matter. [15587/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/25/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "266. Deputy Roderic O'Gorman asked the Minister for Defence her plans to permit Royal Navy vessels to patrol Irish waters during Ireland's forthcoming Presidency of the Council of the European Union, as reported recently (details supplied); and if she will make a statement on the matter. [16871/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/266/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Programmes",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "269. Deputy Roderic O'Gorman asked the Minister for Defence the position regarding Ireland’s national sail training program; whether there are plans to acquire a new national sail training vessel as a successor to Asgard II; and if she will make a statement on the matter. [5726/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/269/"
-                      },
-                      {
-                        "name": "270. Deputy Roderic O'Gorman asked the Minister for Defence for an update on any and all engagements or funding supplied, to an organisation (details supplied) over the past five years, in relation to potential scoping, purchase and retrofit of Lady Ellen / Grace O'Malley ship which had been proposed to be the new Irish national sail training vessel; and if she will make a statement on the matter. [5727/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/270/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Emergency Planning",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "301. Deputy Roderic O'Gorman asked the Minister for Defence for an update on the rollout of the emergency preparedness booklet being sent out to all households; and if she will make a statement on the matter. [34563/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/301/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -10496,6 +10472,167 @@
                         "name": "1258. Deputy Roderic O'Gorman asked the Minister for Social Protection the engagement his Department has had with the Department of Children, Disability and Equality regarding the issue of pension provision for foster carers; and if he will make a statement on the matter. [43368/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1258/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Rates",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "533. Deputy Roderic O'Gorman asked the Minister for Social Protection if he will consider an increase in the rate of carer’s allowance in Budget 2027; and if he will make a statement on the matter. [49031/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/533/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "26. Deputy Roderic O'Gorman asked the Minister for Defence the legislation that underpins the activities of the Irish Military Intelligence Service (IMIS); the name of the current Director of the IMIS; the number of members of the Defence Forces and civilian staff serving in the IMIS; and if she will make a statement on the matter. [15588/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/26/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "260. Deputy Roderic O'Gorman asked the Minister for Defence the capital and current funding required for the capacity of the Joint Induction Training Centre at Gormanston Barracks to be able to handle 1,250 new recruits when fully operational. [16344/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/260/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "319. Deputy Roderic O'Gorman asked the Minister for Defence the criteria for a person to be inducted as a member of the Defence Forces legal services club. [30077/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/319/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "302. Deputy Roderic O'Gorman asked the Minister for Defence the nature of refurbishment works that were carried out at Defence Forces Equitation School in the years of 2024, 2025 and to date in 2026, in tabular form; and to list the works that are scheduled to commence at the Equitation School during the second half of this year. [34584/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/302/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "151. Deputy Roderic O'Gorman asked the Minister for Defence if suitable qualified civilians can apply for vacancies within the Defence Forces School of Music; and whether all vacancies are normally filled by personnel within the Defence Forces. [47421/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/151/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naval Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "573. Deputy Roderic O'Gorman asked the Minister for Defence the number of Irish Naval Vessels that have docked at Dublin Port in the years of 2024, 2025 and to date in 2026, in tabular form. [25929/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/573/"
+                      },
+                      {
+                        "name": "574. Deputy Roderic O'Gorman asked the Minister for Defence the capital works that would be needed be carried out at Haulbowline Naval Base to be able to berth Naval Ships of 150m in length. [25930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/574/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "25. Deputy Roderic O'Gorman asked the Minister for Defence the progress which has been made in locating naval patrol vessels at the Carlisle Pier in Dun Laoghaire, as announced by the Minister for Defence in October 2024; and if she will make a statement on the matter. [15587/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/25/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "266. Deputy Roderic O'Gorman asked the Minister for Defence her plans to permit Royal Navy vessels to patrol Irish waters during Ireland's forthcoming Presidency of the Council of the European Union, as reported recently (details supplied); and if she will make a statement on the matter. [16871/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/266/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "269. Deputy Roderic O'Gorman asked the Minister for Defence the position regarding Ireland’s national sail training program; whether there are plans to acquire a new national sail training vessel as a successor to Asgard II; and if she will make a statement on the matter. [5726/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/269/"
+                      },
+                      {
+                        "name": "270. Deputy Roderic O'Gorman asked the Minister for Defence for an update on any and all engagements or funding supplied, to an organisation (details supplied) over the past five years, in relation to potential scoping, purchase and retrofit of Lady Ellen / Grace O'Malley ship which had been proposed to be the new Irish national sail training vessel; and if she will make a statement on the matter. [5727/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/270/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Emergency Planning",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "301. Deputy Roderic O'Gorman asked the Minister for Defence for an update on the rollout of the emergency preparedness booklet being sent out to all households; and if she will make a statement on the matter. [34563/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/301/"
                       }
                     ]
                   }
@@ -17981,11 +18118,101 @@
           "question": "559. Deputy Roderic O'Gorman asked the Minister for Rural and Community Development and the Gaeltacht the steps taken to review the eligibility criteria for the town and village renewal scheme, in line with the Programme for Government commitment to allow towns with populations over 10,000 to apply; whether revised criteria will be in place for the next call for applications; the expected timeline for any changes; and if he will make a statement on the matter. [48817/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/559/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 340,
+          "department": "Education",
+          "heading": "School Management",
+          "question": "340. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of significant health and safety concerns being raised by the management and parents of a school in Dublin 20 (details supplied); if her Department will fully support the school to ameliorate these issues in advance of the new academic year; and if she will make a statement on the matter. [49010/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/340/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 442,
+          "department": "Culture",
+          "heading": "Arts Funding",
+          "question": "442. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport the position regarding his Department’s plans to progress the development of the national piping centre on Henrietta Street, Dublin; and if he will make a statement on the matter. [49239/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/442/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 443,
+          "department": "Culture",
+          "heading": "Arts Centres",
+          "question": "443. Deputy Roderic O'Gorman asked the Minister for Culture, Communications and Sport if, in view of the fact that a venue (details supplied) in Dublin is now back on the property market, his Department will engage with Dublin City Council to purchase the building and bring in into use for arts and cultural use. [49240/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/443/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 533,
+          "department": "Social",
+          "heading": "Social Welfare Rates",
+          "question": "533. Deputy Roderic O'Gorman asked the Minister for Social Protection if he will consider an increase in the rate of carer’s allowance in Budget 2027; and if he will make a statement on the matter. [49031/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/533/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 610,
+          "department": "Justice",
+          "heading": "Alcohol Sales",
+          "question": "610. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the steps being taken to address unregulated alcohol deliveries by app delivery companies; his plans to address this issue in the future; and if he will make a statement on the matter. [49534/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/610/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 649,
+          "department": "Agriculture",
+          "heading": "Greyhound Industry",
+          "question": "649. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine further to Parliamentary Question No. 308 of 15 April 2026, if it is not known what happened to the 23,760 non-coursing greyhounds entered on the Rásaíocht Con Éireann traceability system in 2021 (details supplied); if so, his views on whether the Rásaíocht Con Éireann traceability system is fit for purpose; and if he will make a statement on the matter. [49025/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/649/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 650,
+          "department": "Agriculture",
+          "heading": "Greyhound Industry",
+          "question": "650. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine how much the Rásaíocht Con Éireann traceability system cost to put in place; annual cost of operating this system; and if he will make a statement on the matter. [49026/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/650/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 651,
+          "department": "Agriculture",
+          "heading": "Greyhound Industry",
+          "question": "651. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine to clarify the discrepancy in the figures given for the number of greyhounds homed by the operators of a greyhound care home (details supplied); and if he will make a statement on the matter. [49027/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/651/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 716,
+          "department": "Children",
+          "heading": "Disability Issues",
+          "question": "716. Deputy Roderic O'Gorman asked the Minister for Children, Disability and Equality for an update on the timeline for her Department's progression of the general scheme of the Equality (Miscellaneous Provisions) Bill 2024; and if she will make a statement on the matter. [49517/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/716/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-02",
+          "questionNumber": 7,
+          "department": "Foreign",
+          "heading": "Middle East",
+          "question": "7. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will reconsider the exclusion of services from the Israeli Settlements in the Occupied Palestinian Territory (Prohibition of Importation of Goods) Bill 2026; and if she will make a statement on the matter. [50194/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/7/",
+          "questionType": "oral"
         }
       ]
     },
     "oral": {
-      "count": 27,
+      "count": 28,
       "headingOptions": [
         "Action Plan for Rural Development",
         "An Garda Síochána",
@@ -18001,6 +18228,7 @@
         "Greenhouse Gas Emissions",
         "Joint Policing Committees",
         "Legislative Measures",
+        "Middle East",
         "Renewable Energy Generation",
         "Schools Building Projects",
         "Special Educational Needs",
@@ -18128,6 +18356,15 @@
             "children": [
               {
                 "name": "Tax Data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Middle East",
                 "value": 1
               }
             ]
@@ -18544,6 +18781,27 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Middle East",
+                "children": [
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "7. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will reconsider the exclusion of services from the Israeli Settlements in the Occupied Palestinian Territory (Prohibition of Importation of Goods) Bill 2026; and if she will make a statement on the matter. [50194/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/7/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -18789,6 +19047,15 @@
           "heading": "British-Irish Co-operation",
           "question": "34. Deputy Roderic O'Gorman asked the Taoiseach if he will report on the recent UK-Ireland summit. [47342/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/34/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-07-02",
+          "questionNumber": 7,
+          "department": "Foreign",
+          "heading": "Middle East",
+          "question": "7. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will reconsider the exclusion of services from the Israeli Settlements in the Occupied Palestinian Territory (Prohibition of Importation of Goods) Bill 2026; and if she will make a statement on the matter. [50194/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/7/",
           "questionType": "oral"
         }
       ]
