@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Roderic-O'Gorman.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 823,
+      "count": 837,
       "headingOptions": [
         "Action Plan for Rural Development",
         "Agriculture Industry",
@@ -237,6 +237,7 @@
         "Tax Code",
         "Tax Data",
         "Tax Exemptions",
+        "Tax Reliefs",
         "Tax Yield",
         "Taxi Regulations",
         "Third Level Fees",
@@ -263,7 +264,7 @@
         "topHeading": "Rail Network",
         "topHeadingCount": 20,
         "topDepartment": "Transport",
-        "topDepartmentCount": 115
+        "topDepartmentCount": 118
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -280,20 +281,20 @@
                 "value": 17
               },
               {
-                "name": "Aviation Industry",
+                "name": "Public Transport",
+                "value": 9
+              },
+              {
+                "name": "Transport Policy",
                 "value": 8
               },
               {
-                "name": "Public Transport",
+                "name": "Aviation Industry",
                 "value": 8
               },
               {
                 "name": "Road Safety",
                 "value": 7
-              },
-              {
-                "name": "Transport Policy",
-                "value": 6
               },
               {
                 "name": "Ports Policy",
@@ -663,6 +664,10 @@
                 "value": 5
               },
               {
+                "name": "Housing Policy",
+                "value": 4
+              },
+              {
                 "name": "Housing Provision",
                 "value": 4
               },
@@ -672,10 +677,6 @@
               },
               {
                 "name": "Defective Building Materials",
-                "value": 3
-              },
-              {
-                "name": "Housing Policy",
                 "value": 3
               },
               {
@@ -784,6 +785,10 @@
               },
               {
                 "name": "Local Area Plans",
+                "value": 1
+              },
+              {
+                "name": "Arts Policy",
                 "value": 1
               }
             ]
@@ -937,15 +942,15 @@
                 "value": 10
               },
               {
+                "name": "Residency Permits",
+                "value": 6
+              },
+              {
                 "name": "Visa Applications",
                 "value": 5
               },
               {
                 "name": "International Protection",
-                "value": 5
-              },
-              {
-                "name": "Residency Permits",
                 "value": 5
               },
               {
@@ -1039,91 +1044,6 @@
             ]
           },
           {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Special Educational Needs",
-                "value": 13
-              },
-              {
-                "name": "Schools Building Projects",
-                "value": 10
-              },
-              {
-                "name": "School Accommodation",
-                "value": 4
-              },
-              {
-                "name": "Irish Language",
-                "value": 4
-              },
-              {
-                "name": "Departmental Reports",
-                "value": 3
-              },
-              {
-                "name": "Educational Disadvantage",
-                "value": 2
-              },
-              {
-                "name": "Renewable Energy Generation",
-                "value": 2
-              },
-              {
-                "name": "School Transport",
-                "value": 2
-              },
-              {
-                "name": "School Facilities",
-                "value": 2
-              },
-              {
-                "name": "Education Policy",
-                "value": 2
-              },
-              {
-                "name": "School Staff",
-                "value": 2
-              },
-              {
-                "name": "School Management",
-                "value": 2
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Departmental Circulars",
-                "value": 1
-              },
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Youth Services",
-                "value": 1
-              },
-              {
-                "name": "Schools Administration",
-                "value": 1
-              },
-              {
-                "name": "Disadvantaged Status",
-                "value": 1
-              },
-              {
-                "name": "Departmental Surveys",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Foreign",
             "children": [
               {
@@ -1140,6 +1060,10 @@
               },
               {
                 "name": "Legislative Measures",
+                "value": 4
+              },
+              {
+                "name": "Humanitarian Aid",
                 "value": 4
               },
               {
@@ -1207,7 +1131,92 @@
                 "value": 1
               },
               {
-                "name": "Humanitarian Aid",
+                "name": "Departmental Data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "value": 13
+              },
+              {
+                "name": "Schools Building Projects",
+                "value": 10
+              },
+              {
+                "name": "School Accommodation",
+                "value": 4
+              },
+              {
+                "name": "Irish Language",
+                "value": 4
+              },
+              {
+                "name": "Departmental Reports",
+                "value": 3
+              },
+              {
+                "name": "School Facilities",
+                "value": 3
+              },
+              {
+                "name": "Educational Disadvantage",
+                "value": 2
+              },
+              {
+                "name": "Renewable Energy Generation",
+                "value": 2
+              },
+              {
+                "name": "School Transport",
+                "value": 2
+              },
+              {
+                "name": "Education Policy",
+                "value": 2
+              },
+              {
+                "name": "School Staff",
+                "value": 2
+              },
+              {
+                "name": "School Management",
+                "value": 2
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Departmental Circulars",
+                "value": 1
+              },
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Youth Services",
+                "value": 1
+              },
+              {
+                "name": "Schools Administration",
+                "value": 1
+              },
+              {
+                "name": "Disadvantaged Status",
+                "value": 1
+              },
+              {
+                "name": "Departmental Surveys",
                 "value": 1
               }
             ]
@@ -1448,6 +1457,10 @@
               {
                 "name": "State Bodies",
                 "value": 1
+              },
+              {
+                "name": "Tax Reliefs",
+                "value": 1
               }
             ]
           },
@@ -1496,6 +1509,55 @@
               },
               {
                 "name": "British-Irish Co-operation",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Trade Data",
+                "value": 3
+              },
+              {
+                "name": "Export Controls",
+                "value": 3
+              },
+              {
+                "name": "Tourism Policy",
+                "value": 3
+              },
+              {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "Legislative Process",
+                "value": 2
+              },
+              {
+                "name": "Flexible Work Practices",
+                "value": 1
+              },
+              {
+                "name": "Industrial Development",
+                "value": 1
+              },
+              {
+                "name": "EU Funding",
+                "value": 1
+              },
+              {
+                "name": "Energy Policy",
+                "value": 1
+              },
+              {
+                "name": "Data Centres",
+                "value": 1
+              },
+              {
+                "name": "Construction Industry",
                 "value": 1
               }
             ]
@@ -1558,50 +1620,50 @@
             ]
           },
           {
-            "name": "Enterprise",
+            "name": "Social",
             "children": [
               {
-                "name": "Trade Data",
-                "value": 3
-              },
-              {
-                "name": "Export Controls",
-                "value": 3
-              },
-              {
-                "name": "Tourism Policy",
-                "value": 3
-              },
-              {
-                "name": "Departmental Data",
+                "name": "Social Welfare Payments",
                 "value": 2
               },
               {
-                "name": "Flexible Work Practices",
+                "name": "Social Welfare Schemes",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Code",
                 "value": 1
               },
               {
-                "name": "Industrial Development",
+                "name": "Social Welfare Eligibility",
                 "value": 1
               },
               {
-                "name": "EU Funding",
+                "name": "Departmental Policies",
                 "value": 1
               },
               {
-                "name": "Legislative Process",
+                "name": "Social Welfare Benefits",
                 "value": 1
               },
               {
-                "name": "Energy Policy",
+                "name": "Poverty Data",
                 "value": 1
               },
               {
-                "name": "Data Centres",
+                "name": "Departmental Expenditure",
                 "value": 1
               },
               {
-                "name": "Construction Industry",
+                "name": "Pensions Reform",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Rates",
                 "value": 1
               }
             ]
@@ -1647,55 +1709,6 @@
               },
               {
                 "name": "Education and Training Boards",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Schemes",
-                "value": 2
-              },
-              {
-                "name": "Social Welfare Code",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "value": 1
-              },
-              {
-                "name": "Poverty Data",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Payments",
-                "value": 1
-              },
-              {
-                "name": "Pensions Reform",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Rates",
                 "value": 1
               }
             ]
@@ -2090,63 +2103,6 @@
                 ]
               },
               {
-                "name": "Aviation Industry",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "66. Deputy Roderic O'Gorman asked the Minister for Transport in light of the Irish Aviation Authority’s press statement of 11 February, which confirmed that the temporary UAS Geographical Zone (UGZ T2) in Cork was established following discussions between AirNav Ireland and a BVLOS operator, the consultation which took place with other airspace users and industry stakeholders prior to the establishment of this zone; and if he will make a statement on the matter. [15466/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/66/"
-                      },
-                      {
-                        "name": "67. Deputy Roderic O'Gorman asked the Minister for Transport with respect to the temporary UAS Geographical Zone (UGZ T2) in Cork, given that the consultation on UGZ T2 opened simultaneously with the zone taking effect, will he explain how this satisfies the requirement for meaningful stakeholder engagement prior to restricting previously permitted UAS operations; and if he will make a statement on the matter. [15467/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/67/"
-                      },
-                      {
-                        "name": "68. Deputy Roderic O'Gorman asked the Minister for Transport whether the Irish Aviation Authority engaged with representative industry bodies, including an organisation (details supplied), prior to announcing UGZ T2; and if not, the rationale for proceeding without such engagement; and if he will make a statement on the matter. [15468/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/68/"
-                      },
-                      {
-                        "name": "69. Deputy Roderic O'Gorman asked the Minister for Transport when establishing the temporary UAS Geographical Zone (UGZ T2) in Cork, the consultation took place with Cork City Council and other relevant local authorities and the way in which this process aligns with Actions 3, 6 and 7 of the National Policy Framework for Unmanned Aircraft Systems (August 2025), which envisage local authority involvement in UAS Geographical Zone determination and planning alignment; and if he will make a statement on the matter. [15469/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/69/"
-                      },
-                      {
-                        "name": "70. Deputy Roderic O'Gorman asked the Minister for Transport whether the decision to introduce the recent Geozone in Cork was preceded by consultation and stakeholder engagement consistent with the commitments outlined in the National Policy Framework on Unmanned Aircraft Systems; whether a report or statement of reasons was published following that consultation; and whether he is satisfied that the decision-making process complied with principles of fair procedures; and if he will make a statement on the matter. [15470/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/70/"
-                      },
-                      {
-                        "name": "71. Deputy Roderic O'Gorman asked the Minister for Transport whether he will confirm, in establishing the temporary UAS Geographical Zone (UGZ T2) in Cork whether the safety case and supporting risk assessment were shared with stakeholders before the announcement; and if he will make a statement on the matter. [15471/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/71/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "339. Deputy Roderic O'Gorman asked the Minister for Transport to provide details of meetings his Department held with aviation industry lobbyists, including both the Irish and US aviation industry from 2025 to date in 2026. [45824/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/339/"
-                      },
-                      {
-                        "name": "340. Deputy Roderic O'Gorman asked the Minister for Transport if he has met with any environmental campaign groups to discuss the impact of aviation on the climate during his term as Minister; and if he will make a statement on the matter. [45825/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/340/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Public Transport",
                 "children": [
                   {
@@ -2218,6 +2174,143 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/151/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "205. Deputy Roderic O'Gorman asked the Minister for Transport if his Department has plans at present to legislate for a universal payment system for public electric vehicle charging points, or to ensure that customers have the option to pay directly with card rather than through an app; and if he will make a statement on the matter. [51176/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/205/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "637. Deputy Roderic O'Gorman asked the Minister for Transport the progress made by the end of 2025 in achieving the following three 2030 sustainable mobility targets, outlined in the National Sustainable Mobility Policy, a 50% increase in daily active travel journeys, a 130% increase in daily public transport journeys and a 20% reduction in total vehicle kilometres travelled by 2030; and if he will make a statement on the matter. [1047/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/637/"
+                      },
+                      {
+                        "name": "638. Deputy Roderic O'Gorman asked the Minister for Transport when the next Sustainable Mobility Policy Action Plan will be published; and if he will make a statement on the matter. [1048/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/638/"
+                      },
+                      {
+                        "name": "644. Deputy Roderic O'Gorman asked the Minister for Transport the measures his Department is taking to implement intelligent transport systems technologies in a cohesive manner; and if he will make a statement on the matter. [1054/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/644/"
+                      },
+                      {
+                        "name": "645. Deputy Roderic O'Gorman asked the Minister for Transport when the transport orientated development studies for Cork, Limerick, Galway, Waterford and the eastern region respectively, will be completed and published; and if he will make a statement on the matter. [1055/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/645/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "235. Deputy Roderic O'Gorman asked the Minister for Transport to provide an update on efforts to support the shared mobility sector in Ireland and to incentivise commuter take-up of shared mobility services; to outline his engagement with shared mobility providers; and if he will make a statement on the matter. [51873/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/235/"
+                      },
+                      {
+                        "name": "236. Deputy Roderic O'Gorman asked the Minister for Transport if his Department has engaged with the Department of Finance on a potential review of the TaxSaver scheme with a view to extending to more modes of sustainable travels such as shared mobility; and if he will make a statement on the matter. [51875/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/236/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "201. Deputy Roderic O'Gorman asked the Minister for Transport when work will commence on a successor to the Connecting Ireland Rural Mobility Plan; and when the new plan will be published; and if he will make a statement on the matter. [2583/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/201/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "359. Deputy Roderic O'Gorman asked the Minister for Transport if his Department will provide the National Transport Authority with the resources to provide rural communities and local authorities with a reasonable level of minimum service and allow local groups the autonomy to design their mobility options; and if he will make a statement on the matter. [6532/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/359/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Aviation Industry",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "66. Deputy Roderic O'Gorman asked the Minister for Transport in light of the Irish Aviation Authority’s press statement of 11 February, which confirmed that the temporary UAS Geographical Zone (UGZ T2) in Cork was established following discussions between AirNav Ireland and a BVLOS operator, the consultation which took place with other airspace users and industry stakeholders prior to the establishment of this zone; and if he will make a statement on the matter. [15466/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/66/"
+                      },
+                      {
+                        "name": "67. Deputy Roderic O'Gorman asked the Minister for Transport with respect to the temporary UAS Geographical Zone (UGZ T2) in Cork, given that the consultation on UGZ T2 opened simultaneously with the zone taking effect, will he explain how this satisfies the requirement for meaningful stakeholder engagement prior to restricting previously permitted UAS operations; and if he will make a statement on the matter. [15467/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/67/"
+                      },
+                      {
+                        "name": "68. Deputy Roderic O'Gorman asked the Minister for Transport whether the Irish Aviation Authority engaged with representative industry bodies, including an organisation (details supplied), prior to announcing UGZ T2; and if not, the rationale for proceeding without such engagement; and if he will make a statement on the matter. [15468/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/68/"
+                      },
+                      {
+                        "name": "69. Deputy Roderic O'Gorman asked the Minister for Transport when establishing the temporary UAS Geographical Zone (UGZ T2) in Cork, the consultation took place with Cork City Council and other relevant local authorities and the way in which this process aligns with Actions 3, 6 and 7 of the National Policy Framework for Unmanned Aircraft Systems (August 2025), which envisage local authority involvement in UAS Geographical Zone determination and planning alignment; and if he will make a statement on the matter. [15469/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/69/"
+                      },
+                      {
+                        "name": "70. Deputy Roderic O'Gorman asked the Minister for Transport whether the decision to introduce the recent Geozone in Cork was preceded by consultation and stakeholder engagement consistent with the commitments outlined in the National Policy Framework on Unmanned Aircraft Systems; whether a report or statement of reasons was published following that consultation; and whether he is satisfied that the decision-making process complied with principles of fair procedures; and if he will make a statement on the matter. [15470/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/70/"
+                      },
+                      {
+                        "name": "71. Deputy Roderic O'Gorman asked the Minister for Transport whether he will confirm, in establishing the temporary UAS Geographical Zone (UGZ T2) in Cork whether the safety case and supporting risk assessment were shared with stakeholders before the announcement; and if he will make a statement on the matter. [15471/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/71/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "339. Deputy Roderic O'Gorman asked the Minister for Transport to provide details of meetings his Department held with aviation industry lobbyists, including both the Irish and US aviation industry from 2025 to date in 2026. [45824/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/339/"
+                      },
+                      {
+                        "name": "340. Deputy Roderic O'Gorman asked the Minister for Transport if he has met with any environmental campaign groups to discuss the impact of aviation on the climate during his term as Minister; and if he will make a statement on the matter. [45825/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/340/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2274,59 +2367,6 @@
                         "name": "347. Deputy Roderic O'Gorman asked the Minister for Transport the number of road deaths and injuries which involve crashes where one or more vehicle drivers (including of bicycles-with-engines-attached, scramblers, normal motorbikes, cars, and tractors) do not have a driving license for the vehicle they are driving at the time of the crash; whether the person driving the scrambler in the case of a person (details supplied) had an appropriate driving licence; and if he will make a statement on the matter. [9513/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/347/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Transport Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "637. Deputy Roderic O'Gorman asked the Minister for Transport the progress made by the end of 2025 in achieving the following three 2030 sustainable mobility targets, outlined in the National Sustainable Mobility Policy, a 50% increase in daily active travel journeys, a 130% increase in daily public transport journeys and a 20% reduction in total vehicle kilometres travelled by 2030; and if he will make a statement on the matter. [1047/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/637/"
-                      },
-                      {
-                        "name": "638. Deputy Roderic O'Gorman asked the Minister for Transport when the next Sustainable Mobility Policy Action Plan will be published; and if he will make a statement on the matter. [1048/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/638/"
-                      },
-                      {
-                        "name": "644. Deputy Roderic O'Gorman asked the Minister for Transport the measures his Department is taking to implement intelligent transport systems technologies in a cohesive manner; and if he will make a statement on the matter. [1054/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/644/"
-                      },
-                      {
-                        "name": "645. Deputy Roderic O'Gorman asked the Minister for Transport when the transport orientated development studies for Cork, Limerick, Galway, Waterford and the eastern region respectively, will be completed and published; and if he will make a statement on the matter. [1055/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/645/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "201. Deputy Roderic O'Gorman asked the Minister for Transport when work will commence on a successor to the Connecting Ireland Rural Mobility Plan; and when the new plan will be published; and if he will make a statement on the matter. [2583/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/201/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "359. Deputy Roderic O'Gorman asked the Minister for Transport if his Department will provide the National Transport Authority with the resources to provide rural communities and local authorities with a reasonable level of minimum service and allow local groups the autonomy to design their mobility options; and if he will make a statement on the matter. [6532/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/359/"
                       }
                     ]
                   }
@@ -4923,6 +4963,49 @@
                 ]
               },
               {
+                "name": "Housing Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "699. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage to set out the process whereby Fingal County Council was informed by his Department that it must remove green roofs from housing proposed for Malahide Road, despite the provision of such green infrastructure being an objective of policy at national, regional and local levels, and the reasons for those instructions. [34575/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/699/"
+                      },
+                      {
+                        "name": "700. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage whether local authorities, approved housing bodies and the Land Development Agency have been given to understand by his Department that they should not include green roofs in housing proposals. [34576/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/700/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1121. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage his plans to review the income eligibility thresholds for HAP in light of increasing rents; and if he will make a statement on the matter. [20585/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1121/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "483. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage if he will consider amendments to apartment design guidelines to protect inhabitants from the adverse health consequences of extreme heat (details supplied); and if he will make a statement on the matter. [51553/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/483/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Housing Provision",
                 "children": [
                   {
@@ -5012,38 +5095,6 @@
                         "name": "745. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage the measures being undertaken in order that householders in the Fingal County Council jurisdiction whose homes have pyrite can get financial support with the remediation of those homes; and if he will make a statement on the matter. [30977/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/745/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "699. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage to set out the process whereby Fingal County Council was informed by his Department that it must remove green roofs from housing proposed for Malahide Road, despite the provision of such green infrastructure being an objective of policy at national, regional and local levels, and the reasons for those instructions. [34575/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/699/"
-                      },
-                      {
-                        "name": "700. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage whether local authorities, approved housing bodies and the Land Development Agency have been given to understand by his Department that they should not include green roofs in housing proposals. [34576/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/700/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1121. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage his plans to review the income eligibility thresholds for HAP in light of increasing rents; and if he will make a statement on the matter. [20585/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1121/"
                       }
                     ]
                   }
@@ -5534,6 +5585,22 @@
                         "name": "342. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage the specific measures taken or planned to increase the accountability of local authority Chief Executives and Directors of Services to elected councillors for executive decisions, in line with the Programme for Government; when councillors can expect to see practical changes; and if he will make a statement on the matter. [48816/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/342/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "469. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage if he will consider adding public art as planning exempt under the revisions of the Planning and Development Regulations 2001 (details supplied). [51361/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/469/"
                       }
                     ]
                   }
@@ -6448,6 +6515,59 @@
                 ]
               },
               {
+                "name": "Residency Permits",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "368. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration whether an up-to-date Irish residence permit card is necessary in conjunction with a temporary protection certificate (yellow paper) for Ukrainians who have been given temporary protection in Ireland when they are entering the country; and if he will make a statement on the matter. [23274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/368/"
+                      },
+                      {
+                        "name": "369. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the number of Irish residence permit cards that have been given to Ukrainians who are in Ireland under the temporary protection directive; and if he will make a statement on the matter. [23275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/369/"
+                      },
+                      {
+                        "name": "370. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the average waiting time for a Ukrainian person, in Ireland under the temporary protection directive, to receive an Irish residence permit card once they have applied for it; and if he will make a statement on the matter. [23276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/370/"
+                      },
+                      {
+                        "name": "371. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the advice that is being given to Irish immigration officials regarding how to treat a Ukrainian person who has been granted temporary protection in Ireland and who has their temporary protection certificate (yellow paper) but who does not have an Irish residence permit card; and if he will make a statement on the matter. [23277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/371/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "375. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration if his Department is currently considering reintroducing the travel confirmation notice for those who have experienced administrative delays in the renewal of their Irish residence permit for the summer travel period; and if he will make a statement on the matter. [50735/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/375/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "555. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration if his Department has plans to increase resources to immigration service delivery in order to rectify delays in the processing of Stamp 4 visas; and if he will make a statement on the matter. [51128/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/555/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Visa Applications",
                 "children": [
                   {
@@ -6544,48 +6664,6 @@
                         "name": "24. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration to provide an update on the inspection process for IPAS centres; and if he will make a statement on the matter. [20878/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/24/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Residency Permits",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "368. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration whether an up-to-date Irish residence permit card is necessary in conjunction with a temporary protection certificate (yellow paper) for Ukrainians who have been given temporary protection in Ireland when they are entering the country; and if he will make a statement on the matter. [23274/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/368/"
-                      },
-                      {
-                        "name": "369. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the number of Irish residence permit cards that have been given to Ukrainians who are in Ireland under the temporary protection directive; and if he will make a statement on the matter. [23275/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/369/"
-                      },
-                      {
-                        "name": "370. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the average waiting time for a Ukrainian person, in Ireland under the temporary protection directive, to receive an Irish residence permit card once they have applied for it; and if he will make a statement on the matter. [23276/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/370/"
-                      },
-                      {
-                        "name": "371. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration the advice that is being given to Irish immigration officials regarding how to treat a Ukrainian person who has been granted temporary protection in Ireland and who has their temporary protection certificate (yellow paper) but who does not have an Irish residence permit card; and if he will make a statement on the matter. [23277/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/371/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
-                    "children": [
-                      {
-                        "name": "375. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration if his Department is currently considering reintroducing the travel confirmation notice for those who have experienced administrative delays in the renewal of their Irish residence permit for the summer travel period; and if he will make a statement on the matter. [50735/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/375/"
                       }
                     ]
                   }
@@ -7046,673 +7124,6 @@
             ]
           },
           {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "6. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the report of the Dublin 15 special education task force will be published; and if she will make a statement on the matter. [29032/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/6/"
-                      },
-                      {
-                        "name": "47. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will clarify the working definition used by her Department for the term ‘inclusion’ and for the term ‘complex needs with respect to Departmental policy related to special schools and/or mainstream schooling for children with additional or complex needs; and if she will make a statement on the matter. [13306/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/47/"
-                      },
-                      {
-                        "name": "90. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the Dublin 15 Special Education Taskforce; and if she will make a statement on the matter. [29033/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/90/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "393. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will list the location and number of autism classes attached to secondary schools in the Dublin 1 area; and if she will make a statement on the matter. [32444/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/393/"
-                      },
-                      {
-                        "name": "394. Deputy Roderic O'Gorman asked the Minister for Education and Youth the location and number of autism classes attached to secondary schools in the Dublin 3 area; and if she will make a statement on the matter. [32445/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/394/"
-                      },
-                      {
-                        "name": "395. Deputy Roderic O'Gorman asked the Minister for Education and Youth the location and number of autism classes attached to secondary schools in the Dublin 7 area; and if she will make a statement on the matter. [32446/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/395/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "605. Deputy Roderic O'Gorman asked the Minister for Education and Youth if her attention has been drawn to the lack of ASD capacity in the Dublin 7 area for girls transitioning out of infant classes; if her Department is making the necessary arrangements to facilitate the opening of a second ASD class at a school in Dublin 7 (details supplied) to address this critical shortfall; the way in which her Department intends to better manage and forecast demand in the Dublin 7 area to ensure places are always available; if she will communicate with the parents of affected children to demonstrate how the situation is being urgently addressed; and if she will make a statement on the matter. [9906/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/605/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "129. Deputy Roderic O'Gorman asked the Minister for Education and Youth the working definition used by her Department for the term inclusion and for the term complex needs (details supplied); and if she will make a statement on the matter. [10532/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/129/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "582. Deputy Roderic O'Gorman asked the Minister for Education and Youth to outline the status of recently announced SNA reviews where schools have lost an SNA allocation, whether schools still need to lodge an SNA appeal if they do not wish to lose an SNA; the status of the 'pause' announced on 17 February; if will schools be directly informed regarding the status of the pause and how it impacts on the letter they received regarding the SNA allocation from September 2026, their need to appeal; and if she will make a statement on the matter. [15034/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/582/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "230. Deputy Roderic O'Gorman asked the Minister for Education and Youth the SET hours provided to each primary school in Dublin 15 under circular 0011/2026 for the 2026-2027 school year; if this represents an increase or decrease in the number of SET hours provided in each school, in tabular form; and if she will make a statement on the matter. [27811/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/230/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "620. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will commit to fund the WALK PEER Supported Transitions programme beyond the end of 2026; and if she will make a statement on the matter. [39934/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/620/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 10 June",
-                    "date_iso": "2026-06-10",
-                    "children": [
-                      {
-                        "name": "95. Deputy Roderic O'Gorman asked the Minister for Education and Youth to provide an update on plans to provide additional autism class places to the Dublin 15 area; and if she will make a statement on the matter. [44420/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/95/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "304. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the home-based summer provision sanction letters will be issued; the reasoning for the delay in the issuance of these letters; the measures her Department plan to take next year to prevent a repeat of such delays; and if she will make a statement on the matter. [46901/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/304/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Schools Building Projects",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "259. Deputy Roderic O'Gorman asked the Minister for Education and Youth if staff (coordinators and project workers) for School Completion Programme clusters are allocated according to specific criteria; if so, the criteria that determines the number of staff that each School Completion Programme have assigned to it; and if she will make a statement on the matter. [23278/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/259/"
-                      },
-                      {
-                        "name": "260. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will provide a list of all the School Completion Programme clusters in the country, outlining total population of school children within each cluster and the number of WTE coordinators and WTE project workers assigned to each cluster, in tabular form; and if she will make a statement on the matter. [23279/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/260/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "636. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the emergency works application submitted by a school (details supplied) will be approved; and if she will make a statement on the matter. [30979/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/636/"
-                      },
-                      {
-                        "name": "637. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the phase two redevelopment of a school (details supplied); when will it be approved; and if she will make a statement on the matter. [30980/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/637/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "573. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware that three schools in the Dublin west constituency (details supplied) are awaiting a meeting between their design team her Department to advance the project to demolish and rebuild their schools on a single campus; and if she will make a statement on the matter. [6531/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/573/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "188. Deputy Roderic O'Gorman asked the Minister for Education and Youth when her Department will provide a date for the Stage 2A review meeting to three schools in Dublin 7 (details supplied); and if she will make a statement on the matter. [10926/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/188/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "581. Deputy Roderic O'Gorman asked the Minister for Education and Youth to provide an update on when her Department will meet three schools in Dublin 7 (details supplied) for the Stage 2A review meeting regarding the proposal to demolish and rebuild their schools; and if she will make a statement on the matter. [15033/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/581/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "133. Deputy Roderic O'Gorman asked the Minister for Education and Youth the position regarding school planning for Knocknacarra County Galway; if consideration is being given to providing a new secondary school for the area; and if she will make a statement on the matter. [22915/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/133/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "89. Deputy Roderic O'Gorman asked the Minister for Education and Youth an update on the new build for a school (details supplied); and if she will make a statement on the matter. [40803/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/89/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "322. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the progress in undertaking a rebuild of three schools (details supplied) in Dublin 7; and if she will make a statement on the matter. [47136/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/322/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Accommodation",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "262. Deputy Roderic O'Gorman asked the Minister for Education and Youth the timeline for two schools to occupy or change their current location (details supplied); if it is also planned for an as yet un-established primary school to be located at this site; and if she will make a statement on the matter. [7183/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/262/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "875. Deputy Roderic O'Gorman asked the Minister for Education and Youth the position regarding the additional accommodation application submitted by a school (details supplied). [20255/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/875/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "543. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the application by a school (details supplied) for an emergency works grant to deal with leaks in the school building; and if she will make a statement on the matter. [22311/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/543/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 24 June",
-                    "date_iso": "2026-06-24",
-                    "children": [
-                      {
-                        "name": "179. Deputy Roderic O'Gorman asked the Minister for Education and Youth if there are plans for a new secondary school in the Cabra-Phibsborough-D7 school planning area; if these plans are for a Gaelscoil or an Educate Together Secondary School/ Non-denominational secondary school; and if she will make a statement on the matter. [48121/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/179/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Irish Language",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "625. Deputy Roderic O'Gorman asked the Minister for Education and Youth the rationale for the decision in Circular 0002/2026 to award bonus marks for both written examinations and continuous assessment components completed through Irish only from 2027 onwards, and not to extend this provision to students sitting the Leaving Certificate in 2026; and if she will make a statement on the matter. [12010/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/625/"
-                      },
-                      {
-                        "name": "626. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she recognises that the implications of Circular 0002/2026 creates a measurable disadvantage for the 2026 cohort of students, particularly for students attending Irish-medium schools, where significant assessed components including project work accounting for 20% of the overall mark in subjects such as history and geography are completed through Irish; and if she will make a statement on the matter. [12011/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/626/"
-                      },
-                      {
-                        "name": "627. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will consider extending the awarding of bonus marks for continuous assessment components completed through Irish to students sitting the 2026 Leaving Certificate, in order to ensure parity between students completing identical work in consecutive years and to uphold principles of fairness within the education system; and if she will make a statement on the matter. [12012/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/627/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 17 June",
-                    "date_iso": "2026-06-17",
-                    "children": [
-                      {
-                        "name": "81. Deputy Roderic O'Gorman asked the Minister for Education and Youth the areas in which there is a demand for the provision of Irish medium education from the findings of the primary schools survey; and if she will make a statement on the matter. [46088/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/81/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reports",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "134. Deputy Roderic O'Gorman asked the Minister for Education and Youth which recommendations contained in the report of the Dublin 15 Schools Task Force have already been implemented; and if she will make a statement on the matter. [22938/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/134/"
-                      },
-                      {
-                        "name": "135. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the report of the Dublin 15 Schools Task Force will be published; and if she will make a statement on the matter. [22939/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/135/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "611. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the report of the Dublin 15 Special Education Taskforce will be published; and if she will make a statement on the matter. [11891/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/611/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Educational Disadvantage",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "482. Deputy Roderic O'Gorman asked the Minister for Education and Youth the rationale for the current exclusion of schools designated as DEIS after 2022 from the Junior Certificate School Programme digital library service; her plans to end the exclusion; and if she will make a statement on the matter. [5659/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/482/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "178. Deputy Roderic O'Gorman asked the Minister for Education and Youth the appeals process for schools that failed to receive categorisation as Deis Plus; and if she will make a statement on the matter. [40804/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/178/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Renewable Energy Generation",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "535. Deputy Roderic O'Gorman asked the Minister for Education and Youth to report on the progress of the Schools Photovoltaic Programme; the number of schools that have completed installations, been approved for funding and expressed interest; the amount that has been spent on the scheme to date; and if she will make a statement on the matter. [8110/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/535/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "255. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the rollout of the Schools Photovoltaic Programme; the number of schools at primary and secondary level that have taken it up; if any schools indicated they will not take it up; the reasons they have outlined; the amount which has been spent on the scheme to date; the overall budget for the scheme to provide for solar panels on all schools in Ireland; and if she will make a statement on the matter. [27655/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/255/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Transport",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "182. Deputy Roderic O'Gorman asked the Minister for Education and Youth if a temporary bus could be provided to take students from the Mulhuddart_Tyrrelstown_D15 School Planning Area to a school (details supplied); and if she will make a statement on the matter. [10927/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/182/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "184. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the new school bus route between the temporary location of a school (details supplied) and the Hollywoodrath-Tyrrelstown area will be operational; and if she will make a statement on the matter. [13414/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/184/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Facilities",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "134. Deputy Roderic O'Gorman asked the Minister for Education and Youth when funding will be provided for a new school building (details supplied); and if she will make a statement on the matter. [15572/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/134/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "258. Deputy Roderic O'Gorman asked the Minister for Education and Youth the supports her Department is providing for a school (details supplied) as it undertakes the movement of the entire school from its current temporary location back to its permanent building between Wednesday 29 April 2026 and Friday 8 May 2026; and if she will make a statement on the matter. [23273/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/258/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Education Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "534. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason schools (details supplied) were not included in the list of DEIS Plus schools; if there is a mechanism for the schools to appeal this exclusion; and if she will make a statement on the matter. [28682/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/534/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 17 June",
-                    "date_iso": "2026-06-17",
-                    "children": [
-                      {
-                        "name": "93. Deputy Roderic O'Gorman asked the Minister for Education and Youth further to Parliamentary Question No. 233 of 17 December 2025, if she can provide an update on progress of the taskforce set to implement the Government’s commitment to ‘expand opportunities for students to attend Gaelscoileanna and Gaelcholáistí’, as set out in the Programme for Government 2025; to outline any plan given by the taskforce to her Department to fulfil this commitment; and if she will make a statement on the matter. [46159/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/93/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "640. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will consider increasing the ANA allocations for school (details supplied), and addressing the shortage of supports for both mainstream classes and autism units in the school; and if she will make a statement on the matter. [30991/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/640/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "843. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will reconsider the reduction of teaching post numbers for a school (details supplied) as they are at risk of losing the teaching post that currently supports the reception class; and if she will make a statement on the matter. [42381/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/843/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Management",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "201. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason a school (details supplied) has never been granted an English as an additional language teaching post as of right, given the significant need in the area; the reason the school has to appeal each year in order to be granted some hours, with the ensuing increase in paper work for the school management team; and if she will make a statement on the matter. [44815/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/201/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "340. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of significant health and safety concerns being raised by the management and parents of a school in Dublin 20 (details supplied); if her Department will fully support the school to ameliorate these issues in advance of the new academic year; and if she will make a statement on the matter. [49010/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/340/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1035. Deputy Roderic O'Gorman asked the Minister for Education and Youth her plans for tree planting and biodiversity at the site of (details supplied); if there could be planting of trees along the periphery wall for residents’ privacy; the funding available for schools to apply for tree planting; and if she will make a statement on the matter. [74004/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1035/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Circulars",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "347. Deputy Roderic O'Gorman asked the Minister for Education and Youth if her Department can issue a national circular stating that electric scooters are not permitted on the grounds of primary schools; and if she will make a statement on the matter. [15996/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/347/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Inquiries",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1425. Deputy Roderic O'Gorman asked the Minister for Education and Youth to review the decision not to include a school (details supplied) in the DEIS Plus scheme; and if she will make a statement on the matter. [25609/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1425/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1426. Deputy Roderic O'Gorman asked the Minister for Education and Youth to publish the criteria and data used in determining eligibility for the DEIS Plus scheme; and if she will make a statement on the matter. [25610/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1426/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Youth Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "483. Deputy Roderic O'Gorman asked the Minister for Education and Youth the status of plans to revise the salaries and allowances of liaison officers, youth workers, and senior youth workers; and if she will make a statement on the matter. [27961/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/483/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Schools Administration",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "312. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason a school (details supplied) was not included in the list of DEIS Plus schools; if there is any mechanism for the school to appeal this exclusion; and if she will make a statement on the matter. [31672/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/312/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disadvantaged Status",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "200. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of an appeal by a school (details supplied) regarding the failure to grant DEIS PLUS status; when the appeal will have a decision made; and if she will make a statement on the matter. [44814/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/200/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Surveys",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "469. Deputy Roderic O'Gorman asked the Minister for Education and Youth to provide clarity on the reason her Department has only published national results from the Primary School Survey for parents of children in denominational, single-sex and/or English medium schools; to request that national or regional rather than school-specific reports be published to include responses from parents/guardians of those in Gaelscoileanna, co-educational and multi-denominational schools; and if she will make a statement on the matter. [45414/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/469/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Foreign",
             "children": [
               {
@@ -7917,6 +7328,43 @@
                         "name": "76. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade to outline her plans to review the Israeli Settlements (Prohibition of Importation of Goods) Bill 2025; and if she will make a statement on the matter. [38342/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/76/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Humanitarian Aid",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "100. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade the humanitarian assistance her Department will provide to aid victims of the recent earthquakes in Venezuela; and if she will make a statement on the matter. [51098/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/100/"
+                      },
+                      {
+                        "name": "101. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if her Department will support Venezuelans living in Ireland to provide donations of aid to victims of the recent earthquakes in their country; and if she will make a statement on the matter. [51099/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/101/"
+                      },
+                      {
+                        "name": "111. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will raise EU coordination of humanitarian assistance to Sudan in the context of the relevant Council meetings as part of Ireland's Presidency of the EU; and if she will make a statement on the matter. [51631/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/111/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "214. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade the steps Ireland is currently taking to support the humanitarian crisis in Sudan; and if she will make a statement on the matter. [44916/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/214/"
                       }
                     ]
                   }
@@ -8285,16 +7733,694 @@
                 ]
               },
               {
-                "name": "Humanitarian Aid",
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "112. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade to provide an update on efforts to reach a target of 0.7% of gross national income in overseas development aid; when her Department hopes to meet that target; and if she will make a statement on the matter. [51632/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/112/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "6. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the report of the Dublin 15 special education task force will be published; and if she will make a statement on the matter. [29032/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/6/"
+                      },
+                      {
+                        "name": "47. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will clarify the working definition used by her Department for the term ‘inclusion’ and for the term ‘complex needs with respect to Departmental policy related to special schools and/or mainstream schooling for children with additional or complex needs; and if she will make a statement on the matter. [13306/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/47/"
+                      },
+                      {
+                        "name": "90. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the Dublin 15 Special Education Taskforce; and if she will make a statement on the matter. [29033/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/90/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "393. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will list the location and number of autism classes attached to secondary schools in the Dublin 1 area; and if she will make a statement on the matter. [32444/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/393/"
+                      },
+                      {
+                        "name": "394. Deputy Roderic O'Gorman asked the Minister for Education and Youth the location and number of autism classes attached to secondary schools in the Dublin 3 area; and if she will make a statement on the matter. [32445/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/394/"
+                      },
+                      {
+                        "name": "395. Deputy Roderic O'Gorman asked the Minister for Education and Youth the location and number of autism classes attached to secondary schools in the Dublin 7 area; and if she will make a statement on the matter. [32446/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/395/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "605. Deputy Roderic O'Gorman asked the Minister for Education and Youth if her attention has been drawn to the lack of ASD capacity in the Dublin 7 area for girls transitioning out of infant classes; if her Department is making the necessary arrangements to facilitate the opening of a second ASD class at a school in Dublin 7 (details supplied) to address this critical shortfall; the way in which her Department intends to better manage and forecast demand in the Dublin 7 area to ensure places are always available; if she will communicate with the parents of affected children to demonstrate how the situation is being urgently addressed; and if she will make a statement on the matter. [9906/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/605/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "129. Deputy Roderic O'Gorman asked the Minister for Education and Youth the working definition used by her Department for the term inclusion and for the term complex needs (details supplied); and if she will make a statement on the matter. [10532/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/129/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "582. Deputy Roderic O'Gorman asked the Minister for Education and Youth to outline the status of recently announced SNA reviews where schools have lost an SNA allocation, whether schools still need to lodge an SNA appeal if they do not wish to lose an SNA; the status of the 'pause' announced on 17 February; if will schools be directly informed regarding the status of the pause and how it impacts on the letter they received regarding the SNA allocation from September 2026, their need to appeal; and if she will make a statement on the matter. [15034/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/582/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "230. Deputy Roderic O'Gorman asked the Minister for Education and Youth the SET hours provided to each primary school in Dublin 15 under circular 0011/2026 for the 2026-2027 school year; if this represents an increase or decrease in the number of SET hours provided in each school, in tabular form; and if she will make a statement on the matter. [27811/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/230/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "620. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will commit to fund the WALK PEER Supported Transitions programme beyond the end of 2026; and if she will make a statement on the matter. [39934/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/620/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 10 June",
+                    "date_iso": "2026-06-10",
+                    "children": [
+                      {
+                        "name": "95. Deputy Roderic O'Gorman asked the Minister for Education and Youth to provide an update on plans to provide additional autism class places to the Dublin 15 area; and if she will make a statement on the matter. [44420/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-10/95/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "304. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the home-based summer provision sanction letters will be issued; the reasoning for the delay in the issuance of these letters; the measures her Department plan to take next year to prevent a repeat of such delays; and if she will make a statement on the matter. [46901/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/304/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "259. Deputy Roderic O'Gorman asked the Minister for Education and Youth if staff (coordinators and project workers) for School Completion Programme clusters are allocated according to specific criteria; if so, the criteria that determines the number of staff that each School Completion Programme have assigned to it; and if she will make a statement on the matter. [23278/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/259/"
+                      },
+                      {
+                        "name": "260. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will provide a list of all the School Completion Programme clusters in the country, outlining total population of school children within each cluster and the number of WTE coordinators and WTE project workers assigned to each cluster, in tabular form; and if she will make a statement on the matter. [23279/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/260/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "636. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the emergency works application submitted by a school (details supplied) will be approved; and if she will make a statement on the matter. [30979/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/636/"
+                      },
+                      {
+                        "name": "637. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the phase two redevelopment of a school (details supplied); when will it be approved; and if she will make a statement on the matter. [30980/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/637/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "573. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware that three schools in the Dublin west constituency (details supplied) are awaiting a meeting between their design team her Department to advance the project to demolish and rebuild their schools on a single campus; and if she will make a statement on the matter. [6531/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/573/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "188. Deputy Roderic O'Gorman asked the Minister for Education and Youth when her Department will provide a date for the Stage 2A review meeting to three schools in Dublin 7 (details supplied); and if she will make a statement on the matter. [10926/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/188/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "581. Deputy Roderic O'Gorman asked the Minister for Education and Youth to provide an update on when her Department will meet three schools in Dublin 7 (details supplied) for the Stage 2A review meeting regarding the proposal to demolish and rebuild their schools; and if she will make a statement on the matter. [15033/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/581/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "133. Deputy Roderic O'Gorman asked the Minister for Education and Youth the position regarding school planning for Knocknacarra County Galway; if consideration is being given to providing a new secondary school for the area; and if she will make a statement on the matter. [22915/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/133/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "89. Deputy Roderic O'Gorman asked the Minister for Education and Youth an update on the new build for a school (details supplied); and if she will make a statement on the matter. [40803/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/89/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "322. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the progress in undertaking a rebuild of three schools (details supplied) in Dublin 7; and if she will make a statement on the matter. [47136/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/322/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "262. Deputy Roderic O'Gorman asked the Minister for Education and Youth the timeline for two schools to occupy or change their current location (details supplied); if it is also planned for an as yet un-established primary school to be located at this site; and if she will make a statement on the matter. [7183/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/262/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "875. Deputy Roderic O'Gorman asked the Minister for Education and Youth the position regarding the additional accommodation application submitted by a school (details supplied). [20255/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/875/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "543. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the application by a school (details supplied) for an emergency works grant to deal with leaks in the school building; and if she will make a statement on the matter. [22311/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/543/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 24 June",
+                    "date_iso": "2026-06-24",
+                    "children": [
+                      {
+                        "name": "179. Deputy Roderic O'Gorman asked the Minister for Education and Youth if there are plans for a new secondary school in the Cabra-Phibsborough-D7 school planning area; if these plans are for a Gaelscoil or an Educate Together Secondary School/ Non-denominational secondary school; and if she will make a statement on the matter. [48121/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/179/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Irish Language",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "625. Deputy Roderic O'Gorman asked the Minister for Education and Youth the rationale for the decision in Circular 0002/2026 to award bonus marks for both written examinations and continuous assessment components completed through Irish only from 2027 onwards, and not to extend this provision to students sitting the Leaving Certificate in 2026; and if she will make a statement on the matter. [12010/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/625/"
+                      },
+                      {
+                        "name": "626. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she recognises that the implications of Circular 0002/2026 creates a measurable disadvantage for the 2026 cohort of students, particularly for students attending Irish-medium schools, where significant assessed components including project work accounting for 20% of the overall mark in subjects such as history and geography are completed through Irish; and if she will make a statement on the matter. [12011/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/626/"
+                      },
+                      {
+                        "name": "627. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will consider extending the awarding of bonus marks for continuous assessment components completed through Irish to students sitting the 2026 Leaving Certificate, in order to ensure parity between students completing identical work in consecutive years and to uphold principles of fairness within the education system; and if she will make a statement on the matter. [12012/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/627/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "81. Deputy Roderic O'Gorman asked the Minister for Education and Youth the areas in which there is a demand for the provision of Irish medium education from the findings of the primary schools survey; and if she will make a statement on the matter. [46088/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/81/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reports",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "134. Deputy Roderic O'Gorman asked the Minister for Education and Youth which recommendations contained in the report of the Dublin 15 Schools Task Force have already been implemented; and if she will make a statement on the matter. [22938/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/134/"
+                      },
+                      {
+                        "name": "135. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the report of the Dublin 15 Schools Task Force will be published; and if she will make a statement on the matter. [22939/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/135/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "611. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the report of the Dublin 15 Special Education Taskforce will be published; and if she will make a statement on the matter. [11891/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/611/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Facilities",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "134. Deputy Roderic O'Gorman asked the Minister for Education and Youth when funding will be provided for a new school building (details supplied); and if she will make a statement on the matter. [15572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/134/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "258. Deputy Roderic O'Gorman asked the Minister for Education and Youth the supports her Department is providing for a school (details supplied) as it undertakes the movement of the entire school from its current temporary location back to its permanent building between Wednesday 29 April 2026 and Friday 8 May 2026; and if she will make a statement on the matter. [23273/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/258/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "336. Deputy Roderic O'Gorman asked the Minister for Education and Youth if there are any potential plans for new schools in the Kellystown area; and if she will make a statement on the matter. [50906/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/336/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Educational Disadvantage",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "482. Deputy Roderic O'Gorman asked the Minister for Education and Youth the rationale for the current exclusion of schools designated as DEIS after 2022 from the Junior Certificate School Programme digital library service; her plans to end the exclusion; and if she will make a statement on the matter. [5659/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/482/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "178. Deputy Roderic O'Gorman asked the Minister for Education and Youth the appeals process for schools that failed to receive categorisation as Deis Plus; and if she will make a statement on the matter. [40804/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/178/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Renewable Energy Generation",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "535. Deputy Roderic O'Gorman asked the Minister for Education and Youth to report on the progress of the Schools Photovoltaic Programme; the number of schools that have completed installations, been approved for funding and expressed interest; the amount that has been spent on the scheme to date; and if she will make a statement on the matter. [8110/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/535/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "255. Deputy Roderic O'Gorman asked the Minister for Education and Youth for an update on the rollout of the Schools Photovoltaic Programme; the number of schools at primary and secondary level that have taken it up; if any schools indicated they will not take it up; the reasons they have outlined; the amount which has been spent on the scheme to date; the overall budget for the scheme to provide for solar panels on all schools in Ireland; and if she will make a statement on the matter. [27655/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/255/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "182. Deputy Roderic O'Gorman asked the Minister for Education and Youth if a temporary bus could be provided to take students from the Mulhuddart_Tyrrelstown_D15 School Planning Area to a school (details supplied); and if she will make a statement on the matter. [10927/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/182/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "184. Deputy Roderic O'Gorman asked the Minister for Education and Youth when the new school bus route between the temporary location of a school (details supplied) and the Hollywoodrath-Tyrrelstown area will be operational; and if she will make a statement on the matter. [13414/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/184/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "534. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason schools (details supplied) were not included in the list of DEIS Plus schools; if there is a mechanism for the schools to appeal this exclusion; and if she will make a statement on the matter. [28682/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/534/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "93. Deputy Roderic O'Gorman asked the Minister for Education and Youth further to Parliamentary Question No. 233 of 17 December 2025, if she can provide an update on progress of the taskforce set to implement the Government’s commitment to ‘expand opportunities for students to attend Gaelscoileanna and Gaelcholáistí’, as set out in the Programme for Government 2025; to outline any plan given by the taskforce to her Department to fulfil this commitment; and if she will make a statement on the matter. [46159/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/93/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "640. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will consider increasing the ANA allocations for school (details supplied), and addressing the shortage of supports for both mainstream classes and autism units in the school; and if she will make a statement on the matter. [30991/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/640/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "843. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she will reconsider the reduction of teaching post numbers for a school (details supplied) as they are at risk of losing the teaching post that currently supports the reception class; and if she will make a statement on the matter. [42381/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/843/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Management",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "201. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason a school (details supplied) has never been granted an English as an additional language teaching post as of right, given the significant need in the area; the reason the school has to appeal each year in order to be granted some hours, with the ensuing increase in paper work for the school management team; and if she will make a statement on the matter. [44815/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/201/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "340. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of significant health and safety concerns being raised by the management and parents of a school in Dublin 20 (details supplied); if her Department will fully support the school to ameliorate these issues in advance of the new academic year; and if she will make a statement on the matter. [49010/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/340/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1035. Deputy Roderic O'Gorman asked the Minister for Education and Youth her plans for tree planting and biodiversity at the site of (details supplied); if there could be planting of trees along the periphery wall for residents’ privacy; the funding available for schools to apply for tree planting; and if she will make a statement on the matter. [74004/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1035/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Circulars",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "347. Deputy Roderic O'Gorman asked the Minister for Education and Youth if her Department can issue a national circular stating that electric scooters are not permitted on the grounds of primary schools; and if she will make a statement on the matter. [15996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/347/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Inquiries",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1425. Deputy Roderic O'Gorman asked the Minister for Education and Youth to review the decision not to include a school (details supplied) in the DEIS Plus scheme; and if she will make a statement on the matter. [25609/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1425/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1426. Deputy Roderic O'Gorman asked the Minister for Education and Youth to publish the criteria and data used in determining eligibility for the DEIS Plus scheme; and if she will make a statement on the matter. [25610/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1426/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Youth Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "483. Deputy Roderic O'Gorman asked the Minister for Education and Youth the status of plans to revise the salaries and allowances of liaison officers, youth workers, and senior youth workers; and if she will make a statement on the matter. [27961/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/483/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Administration",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "312. Deputy Roderic O'Gorman asked the Minister for Education and Youth the reason a school (details supplied) was not included in the list of DEIS Plus schools; if there is any mechanism for the school to appeal this exclusion; and if she will make a statement on the matter. [31672/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/312/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disadvantaged Status",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "200. Deputy Roderic O'Gorman asked the Minister for Education and Youth if she is aware of an appeal by a school (details supplied) regarding the failure to grant DEIS PLUS status; when the appeal will have a decision made; and if she will make a statement on the matter. [44814/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/200/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Surveys",
                 "children": [
                   {
                     "name": "Tuesday, 16 June",
                     "date_iso": "2026-06-16",
                     "children": [
                       {
-                        "name": "214. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade the steps Ireland is currently taking to support the humanitarian crisis in Sudan; and if she will make a statement on the matter. [44916/26]",
+                        "name": "469. Deputy Roderic O'Gorman asked the Minister for Education and Youth to provide clarity on the reason her Department has only published national results from the Primary School Survey for parents of children in denominational, single-sex and/or English medium schools; to request that national or regional rather than school-specific reports be published to include responses from parents/guardians of those in Gaelscoileanna, co-educational and multi-denominational schools; and if she will make a statement on the matter. [45414/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/214/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/469/"
                       }
                     ]
                   }
@@ -9661,6 +9787,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Tax Reliefs",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "276. Deputy Roderic O'Gorman asked the Tánaiste and Minister for Finance if he will commit to conduct a review of the TaxSaver scheme with a view to extending to more modes of sustainable travels such as shared mobility; and to allow for new digital solutions to enhance the effectiveness and attractiveness of the scheme; and if he will make a statement on the matter. [51874/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/276/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -9936,6 +10078,239 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Trade Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "431. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment total value of dual-use exports to Israel from 2017 to 2025; and if he will make a statement on the matter. [13996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/431/"
+                      },
+                      {
+                        "name": "432. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the total number of dual-use export licenses granted to Israel from 2017 to 2025, detailing the type of product exported, the type of end user academic, medical, military and so on; and if he will make a statement on the matter. [13997/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/432/"
+                      },
+                      {
+                        "name": "433. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the total number of dual-use export licenses to Israel which were denied from 2017 to 2025, detailing the reason for denial, type of product requested for export, the type of end user academic, medical, military and so on; and if he will make a statement on the matter. [13998/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/433/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Export Controls",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "165. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment whether officials from his Department will be assisted by European Commission officials in their investigation into alumina exports from Ireland; and if he will make a statement on the matter. [45475/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/165/"
+                      },
+                      {
+                        "name": "167. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the timeline in relation to his Department's investigation into the possibility of alumina exported from Ireland being used in Russia's arms industry; and if he will make a statement on the matter. [45474/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/167/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1125. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the actions he and his Department are taking to ensure that Irish exported goods are not supplied to end users who utilise them for military or aggressive purposes, particularly against civilians; and if he will make a statement on the matter. [24439/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1125/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourism Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "150. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department is giving consideration to the introduction of a hotel bedroom charge, to be levied by local authorities; and if he will make a statement on the matter. [30518/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/150/"
+                      },
+                      {
+                        "name": "170. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department has assessed the potential revenue from a hotel bedroom charge; and if he will make a statement on the matter. [30519/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/170/"
+                      },
+                      {
+                        "name": "190. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department is giving consideration to a change to the tax code to allow local authorities to levy a hotel bedroom tax; and if he will make a statement on the matter. [28777/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/190/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1123. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the number and value of dual use export licenses granted to end users based in Israel, by quarter, since Q1 2020;; and if he will make a statement on the matter. [24435/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1123/"
+                      },
+                      {
+                        "name": "1124. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the number of dual use export licenses granted to end users based in Russia, since 2014, detailing the type of product exported, the type of end user such as academic, medical, military, industrial, and so on; and if he will make a statement on the matter. [24437/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1124/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Process",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "288. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment his views on the Industrial Relations (Provisions in Respect of Pension Entitlements of Retired Workers) Bill 2021; if he will advance this bill or a version of this bill; and if he will make a statement on the matter. [35957/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/288/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "318. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment for an update on the commitment to progress the General Scheme of the Co-Operative Societies Bill 2022; when he expects this bill to be introduced to Dáil Éireann; and if he will make a statement on the matter. [51735/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/318/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flexible Work Practices",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "451. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if he is aware of the move by Enterprise Ireland to roll back remote working entitlements of staff members; his views on whether this complies with Government policy supporting remote working; and if he will make a statement on the matter. [3522/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/451/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Industrial Development",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "426. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the number of WTE digital marketing specialists employed by IDA Ireland as of 16 January 2026. [5754/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/426/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "512. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment to provide a list of capital works projects funded by his Department that also received EU funding in the years of 2025, 2026; and the amount of EU funding received per project if known per year. in tabular form. [34582/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/512/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "161. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department has considered how, in the course of implementing its assigned actions under the Large Energy User Action Plan, it will ensure that renewable energy contracted by Green Energy Parks will be additional rather than infrastructure that might otherwise have been available to residential energy customers; and if he will make a statement on the matter. [45478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/161/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Centres",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "200. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if he is aware that a cost-benefit analysis was not included in a report (details supplied) commissioned by his Department; if he has considered a cost-benefit analysis to generate a net present value for data centres in Ireland to be made available to the public; and if he will make a statement on the matter. [45476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/200/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Construction Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "203. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment given that a greater proportion of data jobs related to data centres are related to construction (9,356 construction jobs compared to 7,636 additional operational jobs from 2010 to 2024), if the demand for construction roles related to data centres is being considered in the context of constructions skills needed for other infrastructure by his Department; and if he will make a statement on the matter. [45477/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/203/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -10203,220 +10578,201 @@
             ]
           },
           {
-            "name": "Enterprise",
+            "name": "Social",
             "children": [
               {
-                "name": "Trade Data",
+                "name": "Social Welfare Payments",
                 "children": [
                   {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
                     "children": [
                       {
-                        "name": "431. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment total value of dual-use exports to Israel from 2017 to 2025; and if he will make a statement on the matter. [13996/26]",
+                        "name": "25. Deputy Roderic O'Gorman asked the Minister for Social Protection the estimated cost of providing an emergency €200 energy payment to all households in receipt of the fuel allowance or household benefits package; and if he will make a statement on the matter. [31309/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/431/"
-                      },
-                      {
-                        "name": "432. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the total number of dual-use export licenses granted to Israel from 2017 to 2025, detailing the type of product exported, the type of end user academic, medical, military and so on; and if he will make a statement on the matter. [13997/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/432/"
-                      },
-                      {
-                        "name": "433. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the total number of dual-use export licenses to Israel which were denied from 2017 to 2025, detailing the reason for denial, type of product requested for export, the type of end user academic, medical, military and so on; and if he will make a statement on the matter. [13998/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/433/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Export Controls",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "165. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment whether officials from his Department will be assisted by European Commission officials in their investigation into alumina exports from Ireland; and if he will make a statement on the matter. [45475/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/165/"
-                      },
-                      {
-                        "name": "167. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the timeline in relation to his Department's investigation into the possibility of alumina exported from Ireland being used in Russia's arms industry; and if he will make a statement on the matter. [45474/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/167/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/25/"
                       }
                     ]
                   },
                   {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "532. Deputy Roderic O'Gorman asked the Minister for Social Protection if his Department is currently considering increasing the income disregard limit for Carer’s Allowance for couples; and if he will make a statement on the matter. [51843/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/532/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "37. Deputy Roderic O'Gorman asked the Minister for Social Protection if, in light of the ongoing conflict in the Middle East, consideration is being given to a further extension of the fuel allowance season; and if he will make a statement on the matter. [31311/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/37/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "349. Deputy Roderic O'Gorman asked the Minister for Social Protection when the comprehensive review of means tests across the social welfare system, committed to in the Programme for Government, will be completed and published; whether specific reforms to income disregards, capital assessments and cliff edges are planned; and if he will make a statement on the matter. [48818/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/349/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Code",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "429. Deputy Roderic O'Gorman asked the Minister for Social Protection if his Department plans to bring forward proposals on a cost of disability payment; and if he will make a statement on the matter. [5219/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/429/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "746. Deputy Roderic O'Gorman asked the Minister for Social Protection further to Parliamentary Question No. 1569 of 13 January 2026, whether he accepts that former members of religious orders who spent decades in full-time employment in nursing, caring and other public service roles were excluded from PRSI contributions through no fault of their own and are now structurally disadvantaged under the State pension (contributory) system; whether he will consider examining a limited, cohort-based mechanism to recognise such service for contributory pension purposes; and if he will make a statement on the matter. [9510/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/746/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "759. Deputy Roderic O'Gorman asked the Minister for Social Protection if his Department is considering a policy change to bring Ireland in line with the rest of Europe in terms of granting maternity and paternity benefit at 100% or a high percentage of salary for all or a portion of a person's entitlement to the corresponding leave; if there are policy learnings from the recent implementation of Jobseekers pay-related benefit scheme which could support a similar change in terms of maternity and paternity benefit; and if he will make a statement on the matter. [9908/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/759/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "4. Deputy Roderic O'Gorman asked the Minister for Social Protection for an update on the commitment to \"Introduce Pay Related Parents Benefit and explore other payments where a similar model could be applied\"; if maternity benefit is also being considered for pay related benefit status; and if he will make a statement on the matter. [14496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/4/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Poverty Data",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "351. Deputy Roderic O'Gorman asked the Minister for Social Protection to provide a detailed explanation, in light of recently released CSO figures, of the actions his Government is taking to reduce the poverty rate, and at risk poverty rate; and if he will make a statement on the matter. [21266/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/351/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
                     "name": "Tuesday, 14 April",
                     "date_iso": "2026-04-14",
                     "children": [
                       {
-                        "name": "1125. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the actions he and his Department are taking to ensure that Irish exported goods are not supplied to end users who utilise them for military or aggressive purposes, particularly against civilians; and if he will make a statement on the matter. [24439/26]",
+                        "name": "1916. Deputy Roderic O'Gorman asked the Minister for Social Protection the estimated cost in 2027 if the fuel allowance increased to €45 per week. [25933/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1125/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1916/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Tourism Policy",
+                "name": "Pensions Reform",
                 "children": [
                   {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
+                    "name": "Wednesday, 13 May",
+                    "date_iso": "2026-05-13",
                     "children": [
                       {
-                        "name": "150. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department is giving consideration to the introduction of a hotel bedroom charge, to be levied by local authorities; and if he will make a statement on the matter. [30518/26]",
+                        "name": "117. Deputy Roderic O'Gorman asked the Minister for Social Protection if he is aware that when the option to defer the State pension until age 70 was introduced in 2024, whereby people could continue to pay PRSI towards the threshold required for a contributory pension, the rules related to the treatment benefit scheme (optical and dental) rules remain linked to the \"relevant tax year\" model, which means for certain individuals, they cannot qualify for dental or optical benefits at 66, even if they continue to work and pay full Class S/A PRSI from 2026 to 2030; if he plans to bring forward proposals to address the anomaly; and if he will make a statement on the matter. [35570/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/150/"
-                      },
-                      {
-                        "name": "170. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department has assessed the potential revenue from a hotel bedroom charge; and if he will make a statement on the matter. [30519/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/170/"
-                      },
-                      {
-                        "name": "190. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department is giving consideration to a change to the tax code to allow local authorities to levy a hotel bedroom tax; and if he will make a statement on the matter. [28777/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/190/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/117/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Data",
+                "name": "Pension Provisions",
                 "children": [
                   {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
                     "children": [
                       {
-                        "name": "1123. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the number and value of dual use export licenses granted to end users based in Israel, by quarter, since Q1 2020;; and if he will make a statement on the matter. [24435/26]",
+                        "name": "1258. Deputy Roderic O'Gorman asked the Minister for Social Protection the engagement his Department has had with the Department of Children, Disability and Equality regarding the issue of pension provision for foster carers; and if he will make a statement on the matter. [43368/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1123/"
-                      },
-                      {
-                        "name": "1124. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the number of dual use export licenses granted to end users based in Russia, since 2014, detailing the type of product exported, the type of end user such as academic, medical, military, industrial, and so on; and if he will make a statement on the matter. [24437/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1124/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1258/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Flexible Work Practices",
+                "name": "Social Welfare Rates",
                 "children": [
                   {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
                     "children": [
                       {
-                        "name": "451. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if he is aware of the move by Enterprise Ireland to roll back remote working entitlements of staff members; his views on whether this complies with Government policy supporting remote working; and if he will make a statement on the matter. [3522/26]",
+                        "name": "533. Deputy Roderic O'Gorman asked the Minister for Social Protection if he will consider an increase in the rate of carer’s allowance in Budget 2027; and if he will make a statement on the matter. [49031/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/451/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Industrial Development",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "426. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment the number of WTE digital marketing specialists employed by IDA Ireland as of 16 January 2026. [5754/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/426/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EU Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "512. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment to provide a list of capital works projects funded by his Department that also received EU funding in the years of 2025, 2026; and the amount of EU funding received per project if known per year. in tabular form. [34582/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/512/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Process",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "288. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment his views on the Industrial Relations (Provisions in Respect of Pension Entitlements of Retired Workers) Bill 2021; if he will advance this bill or a version of this bill; and if he will make a statement on the matter. [35957/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/288/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Energy Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "161. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if his Department has considered how, in the course of implementing its assigned actions under the Large Energy User Action Plan, it will ensure that renewable energy contracted by Green Energy Parks will be additional rather than infrastructure that might otherwise have been available to residential energy customers; and if he will make a statement on the matter. [45478/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/161/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Data Centres",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "200. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment if he is aware that a cost-benefit analysis was not included in a report (details supplied) commissioned by his Department; if he has considered a cost-benefit analysis to generate a net present value for data centres in Ireland to be made available to the public; and if he will make a statement on the matter. [45476/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/200/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Construction Industry",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "203. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment given that a greater proportion of data jobs related to data centres are related to construction (9,356 construction jobs compared to 7,636 additional operational jobs from 2010 to 2024), if the demand for construction roles related to data centres is being considered in the context of constructions skills needed for other infrastructure by his Department; and if he will make a statement on the matter. [45477/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/203/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/533/"
                       }
                     ]
                   }
@@ -10603,198 +10959,6 @@
                         "name": "154. Deputy Roderic O'Gorman asked the Minister for Further and Higher Education, Research, Innovation and Science if he will support the City of Dublin Education and Training Board to open up additional spaces on specialist training courses operated by the National Learning Network, which is currently capped due to available funds; and if he will make a statement on the matter. [50197/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/154/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "37. Deputy Roderic O'Gorman asked the Minister for Social Protection if, in light of the ongoing conflict in the Middle East, consideration is being given to a further extension of the fuel allowance season; and if he will make a statement on the matter. [31311/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/37/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "349. Deputy Roderic O'Gorman asked the Minister for Social Protection when the comprehensive review of means tests across the social welfare system, committed to in the Programme for Government, will be completed and published; whether specific reforms to income disregards, capital assessments and cliff edges are planned; and if he will make a statement on the matter. [48818/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/349/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Code",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "429. Deputy Roderic O'Gorman asked the Minister for Social Protection if his Department plans to bring forward proposals on a cost of disability payment; and if he will make a statement on the matter. [5219/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/429/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "746. Deputy Roderic O'Gorman asked the Minister for Social Protection further to Parliamentary Question No. 1569 of 13 January 2026, whether he accepts that former members of religious orders who spent decades in full-time employment in nursing, caring and other public service roles were excluded from PRSI contributions through no fault of their own and are now structurally disadvantaged under the State pension (contributory) system; whether he will consider examining a limited, cohort-based mechanism to recognise such service for contributory pension purposes; and if he will make a statement on the matter. [9510/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/746/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "759. Deputy Roderic O'Gorman asked the Minister for Social Protection if his Department is considering a policy change to bring Ireland in line with the rest of Europe in terms of granting maternity and paternity benefit at 100% or a high percentage of salary for all or a portion of a person's entitlement to the corresponding leave; if there are policy learnings from the recent implementation of Jobseekers pay-related benefit scheme which could support a similar change in terms of maternity and paternity benefit; and if he will make a statement on the matter. [9908/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/759/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "4. Deputy Roderic O'Gorman asked the Minister for Social Protection for an update on the commitment to \"Introduce Pay Related Parents Benefit and explore other payments where a similar model could be applied\"; if maternity benefit is also being considered for pay related benefit status; and if he will make a statement on the matter. [14496/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/4/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Poverty Data",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "351. Deputy Roderic O'Gorman asked the Minister for Social Protection to provide a detailed explanation, in light of recently released CSO figures, of the actions his Government is taking to reduce the poverty rate, and at risk poverty rate; and if he will make a statement on the matter. [21266/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/351/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1916. Deputy Roderic O'Gorman asked the Minister for Social Protection the estimated cost in 2027 if the fuel allowance increased to €45 per week. [25933/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1916/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "25. Deputy Roderic O'Gorman asked the Minister for Social Protection the estimated cost of providing an emergency €200 energy payment to all households in receipt of the fuel allowance or household benefits package; and if he will make a statement on the matter. [31309/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/25/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pensions Reform",
-                "children": [
-                  {
-                    "name": "Wednesday, 13 May",
-                    "date_iso": "2026-05-13",
-                    "children": [
-                      {
-                        "name": "117. Deputy Roderic O'Gorman asked the Minister for Social Protection if he is aware that when the option to defer the State pension until age 70 was introduced in 2024, whereby people could continue to pay PRSI towards the threshold required for a contributory pension, the rules related to the treatment benefit scheme (optical and dental) rules remain linked to the \"relevant tax year\" model, which means for certain individuals, they cannot qualify for dental or optical benefits at 66, even if they continue to work and pay full Class S/A PRSI from 2026 to 2030; if he plans to bring forward proposals to address the anomaly; and if he will make a statement on the matter. [35570/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/117/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1258. Deputy Roderic O'Gorman asked the Minister for Social Protection the engagement his Department has had with the Department of Children, Disability and Equality regarding the issue of pension provision for foster carers; and if he will make a statement on the matter. [43368/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1258/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Rates",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "533. Deputy Roderic O'Gorman asked the Minister for Social Protection if he will consider an increase in the rate of carer’s allowance in Budget 2027; and if he will make a statement on the matter. [49031/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/533/"
                       }
                     ]
                   }
@@ -18477,6 +18641,132 @@
           "heading": "Poultry Sector",
           "question": "380. Deputy Roderic O'Gorman asked the Minister for Agriculture, Food and the Marine the number of day-old female chicks that were imported into Ireland in 2025; the countries from which these day-old chicks were imported; the breakdown in numbers for each country; the way in which the chicks were packed for transport; the method and duration of transport from the overseas hatchery to the egg producer; and if he will make a statement on the matter. [50439/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/380/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 100,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "100. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade the humanitarian assistance her Department will provide to aid victims of the recent earthquakes in Venezuela; and if she will make a statement on the matter. [51098/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/100/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 101,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "101. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if her Department will support Venezuelans living in Ireland to provide donations of aid to victims of the recent earthquakes in their country; and if she will make a statement on the matter. [51099/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/101/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 111,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "111. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade if she will raise EU coordination of humanitarian assistance to Sudan in the context of the relevant Council meetings as part of Ireland's Presidency of the EU; and if she will make a statement on the matter. [51631/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/111/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 112,
+          "department": "Foreign",
+          "heading": "Departmental Data",
+          "question": "112. Deputy Roderic O'Gorman asked the Minister for Foreign Affairs and Trade to provide an update on efforts to reach a target of 0.7% of gross national income in overseas development aid; when her Department hopes to meet that target; and if she will make a statement on the matter. [51632/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/112/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 205,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "205. Deputy Roderic O'Gorman asked the Minister for Transport if his Department has plans at present to legislate for a universal payment system for public electric vehicle charging points, or to ensure that customers have the option to pay directly with card rather than through an app; and if he will make a statement on the matter. [51176/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/205/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 235,
+          "department": "Transport",
+          "heading": "Transport Policy",
+          "question": "235. Deputy Roderic O'Gorman asked the Minister for Transport to provide an update on efforts to support the shared mobility sector in Ireland and to incentivise commuter take-up of shared mobility services; to outline his engagement with shared mobility providers; and if he will make a statement on the matter. [51873/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/235/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 236,
+          "department": "Transport",
+          "heading": "Transport Policy",
+          "question": "236. Deputy Roderic O'Gorman asked the Minister for Transport if his Department has engaged with the Department of Finance on a potential review of the TaxSaver scheme with a view to extending to more modes of sustainable travels such as shared mobility; and if he will make a statement on the matter. [51875/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/236/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 276,
+          "department": "Finance",
+          "heading": "Tax Reliefs",
+          "question": "276. Deputy Roderic O'Gorman asked the Tánaiste and Minister for Finance if he will commit to conduct a review of the TaxSaver scheme with a view to extending to more modes of sustainable travels such as shared mobility; and to allow for new digital solutions to enhance the effectiveness and attractiveness of the scheme; and if he will make a statement on the matter. [51874/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/276/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 318,
+          "department": "Enterprise",
+          "heading": "Legislative Process",
+          "question": "318. Deputy Roderic O'Gorman asked the Minister for Enterprise, Tourism and Employment for an update on the commitment to progress the General Scheme of the Co-Operative Societies Bill 2022; when he expects this bill to be introduced to Dáil Éireann; and if he will make a statement on the matter. [51735/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/318/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 336,
+          "department": "Education",
+          "heading": "School Facilities",
+          "question": "336. Deputy Roderic O'Gorman asked the Minister for Education and Youth if there are any potential plans for new schools in the Kellystown area; and if she will make a statement on the matter. [50906/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/336/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 469,
+          "department": "Housing",
+          "heading": "Arts Policy",
+          "question": "469. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage if he will consider adding public art as planning exempt under the revisions of the Planning and Development Regulations 2001 (details supplied). [51361/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/469/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 483,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "483. Deputy Roderic O'Gorman asked the Minister for Housing, Local Government and Heritage if he will consider amendments to apartment design guidelines to protect inhabitants from the adverse health consequences of extreme heat (details supplied); and if he will make a statement on the matter. [51553/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/483/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 532,
+          "department": "Social",
+          "heading": "Social Welfare Payments",
+          "question": "532. Deputy Roderic O'Gorman asked the Minister for Social Protection if his Department is currently considering increasing the income disregard limit for Carer’s Allowance for couples; and if he will make a statement on the matter. [51843/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/532/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 555,
+          "department": "Justice",
+          "heading": "Residency Permits",
+          "question": "555. Deputy Roderic O'Gorman asked the Minister for Justice, Home Affairs and Migration if his Department has plans to increase resources to immigration service delivery in order to rectify delays in the processing of Stamp 4 visas; and if he will make a statement on the matter. [51128/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/555/",
           "questionType": "written"
         }
       ]

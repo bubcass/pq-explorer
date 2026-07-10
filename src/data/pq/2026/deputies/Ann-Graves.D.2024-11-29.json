@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Ann-Graves.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 115,
+      "count": 119,
       "headingOptions": [
         "Air Corps",
         "Ambulance Service",
@@ -35,10 +35,12 @@
         "Derelict Sites",
         "Diplomatic Representation",
         "Disability Services",
+        "Driver Test",
         "Dublin Airport Authority",
         "Early Childhood Care and Education",
         "Education Welfare Service",
         "Electric Vehicles",
+        "Energy Policy",
         "Family Support Services",
         "Health Service Executive",
         "Health Services",
@@ -74,6 +76,7 @@
         "School Staff",
         "Schools Administration",
         "Schools Building Projects",
+        "Social Welfare Benefits",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
         "Special Educational Needs",
@@ -195,7 +198,7 @@
               },
               {
                 "name": "School Admissions",
-                "value": 3
+                "value": 4
               },
               {
                 "name": "Departmental Inquiries",
@@ -280,6 +283,10 @@
               },
               {
                 "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Driver Test",
                 "value": 1
               }
             ]
@@ -385,6 +392,27 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Payments",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Foreign",
             "children": [
               {
@@ -410,23 +438,6 @@
               },
               {
                 "name": "Public Sector Pensions",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Eligibility",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Payments",
                 "value": 1
               }
             ]
@@ -466,6 +477,15 @@
             "children": [
               {
                 "name": "Veterinary Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Policy",
                 "value": 1
               }
             ]
@@ -1062,6 +1082,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/497/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "331. Deputy Ann Graves asked the Minister for Education and Youth to ensure a student (details supplied) will get a place in an appropriate school in the local area by September 2026. [50862/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/331/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1464,6 +1495,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "213. Deputy Ann Graves asked the Minister for Transport the reason a person (details supplied) was denied a driving test; if he will confirm the insurance documentation that is acceptable to a driving test centre and the documentation that is not acceptable. [51418/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/213/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1835,6 +1882,75 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Wednesday, 21 January",
+                    "date_iso": "2026-01-21",
+                    "children": [
+                      {
+                        "name": "177. Deputy Ann Graves asked the Minister for Social Protection if he will review the eligibility criteria for jobseeker’s benefit or allowances, as they exclude many young people from welfare payments who are well deserving, as in the case of a person (details supplied). [4626/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/177/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "621. Deputy Ann Graves asked the Minister for Social Protection if his Department can be flexible when considering an application (details supplied); and if he will consider amending the relevant legislation to ensure that women born before 1946 are eligible for the home carer scheme. [16237/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/621/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1214. Deputy Ann Graves asked the Minister for Social Protection if he will consider adding disability recipients to the annual €2,000 lump sum payment in Budget 2027; and if he will make a permanent cost of disability payment to protect vulnerable people from poverty. [43096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1214/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "503. Deputy Ann Graves asked the Minister for Social Protection the reason a former Dublin Airport Authority employee (details supplied) has to wait two years for dental and optical benefit; and if he will make a statement on the matter. [50836/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/503/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Foreign",
             "children": [
               {
@@ -1922,59 +2038,6 @@
                         "name": "416. Deputy Ann Graves asked the Minister for Defence if her Department will review the case of a person (details supplied); if she will ensure that the person is not liable for the debt. [74785/25]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/416/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Wednesday, 21 January",
-                    "date_iso": "2026-01-21",
-                    "children": [
-                      {
-                        "name": "177. Deputy Ann Graves asked the Minister for Social Protection if he will review the eligibility criteria for jobseeker’s benefit or allowances, as they exclude many young people from welfare payments who are well deserving, as in the case of a person (details supplied). [4626/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/177/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "621. Deputy Ann Graves asked the Minister for Social Protection if his Department can be flexible when considering an application (details supplied); and if he will consider amending the relevant legislation to ensure that women born before 1946 are eligible for the home carer scheme. [16237/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/621/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1214. Deputy Ann Graves asked the Minister for Social Protection if he will consider adding disability recipients to the annual €2,000 lump sum payment in Budget 2027; and if he will make a permanent cost of disability payment to protect vulnerable people from poverty. [43096/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1214/"
                       }
                     ]
                   }
@@ -2086,6 +2149,27 @@
                         "name": "645. Deputy Ann Graves asked the Minister for Agriculture, Food and the Marine if he will support the introduction of salary bands for veterinary nurses (details supplied); and if he will support Government funding to support practices employing registered veterinary nurses enabling fair pay without passing the entire cost onto pet owners and farmers. [28022/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/645/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "131. Deputy Ann Graves asked the Minister for Climate, Energy and the Environment when plug-in solar systems will become available; and if he will make a statement on the matter. [51407/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/131/"
                       }
                     ]
                   }
@@ -3129,6 +3213,42 @@
           "heading": "Family Support Services",
           "question": "233. Deputy Ann Graves asked the Minister for Children, Disability and Equality the eligibility criteria for YAPAbility services; if Tusla's involvement is effectively becoming a prerequisite for access to certain family support services; the supports that exist for disabled children with significant needs who do not meet child protection thresholds; the preventative and intensive community-based supports that are available before families reach crisis point; the way in which socioeconomic need is assessed when disability-related costs leave families under significant financial strain despite living in areas perceived to be affluent; and the steps being taken to ensure that access to supports is based on need rather than postcode. [50071/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/233/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 131,
+          "department": "Climate",
+          "heading": "Energy Policy",
+          "question": "131. Deputy Ann Graves asked the Minister for Climate, Energy and the Environment when plug-in solar systems will become available; and if he will make a statement on the matter. [51407/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/131/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 213,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "213. Deputy Ann Graves asked the Minister for Transport the reason a person (details supplied) was denied a driving test; if he will confirm the insurance documentation that is acceptable to a driving test centre and the documentation that is not acceptable. [51418/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 331,
+          "department": "Education",
+          "heading": "School Admissions",
+          "question": "331. Deputy Ann Graves asked the Minister for Education and Youth to ensure a student (details supplied) will get a place in an appropriate school in the local area by September 2026. [50862/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/331/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 503,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "503. Deputy Ann Graves asked the Minister for Social Protection the reason a former Dublin Airport Authority employee (details supplied) has to wait two years for dental and optical benefit; and if he will make a statement on the matter. [50836/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/503/",
           "questionType": "written"
         }
       ]

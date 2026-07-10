@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paul-Murphy.D.2014-10-10/image/large",
   "types": {
     "all": {
-      "count": 410,
+      "count": 422,
       "headingOptions": [
         "Abortion Services",
         "Air Navigation Orders",
@@ -111,6 +111,7 @@
         "Housing Provision",
         "Housing Schemes",
         "Human Rights",
+        "Humanitarian Aid",
         "Immigration Policy",
         "Immigration Status",
         "Industrial Relations",
@@ -120,6 +121,7 @@
         "Irish Language",
         "Legal Aid",
         "Legislative Measures",
+        "Legislative Programme",
         "Local Area Plans",
         "Local Authorities",
         "Local Government Reform",
@@ -185,7 +187,7 @@
         "topHeading": "Greyhound Industry",
         "topHeadingCount": 17,
         "topDepartment": "Health",
-        "topDepartmentCount": 65
+        "topDepartmentCount": 66
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -214,6 +216,10 @@
                 "value": 4
               },
               {
+                "name": "Hospital Waiting Lists",
+                "value": 3
+              },
+              {
                 "name": "Mental Health Services",
                 "value": 3
               },
@@ -228,10 +234,6 @@
               {
                 "name": "Health Services Staff",
                 "value": 3
-              },
-              {
-                "name": "Hospital Waiting Lists",
-                "value": 2
               },
               {
                 "name": "Hospital Investigations",
@@ -540,6 +542,59 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Policy",
+                "value": 9
+              },
+              {
+                "name": "Climate Action Plan",
+                "value": 6
+              },
+              {
+                "name": "Environmental Impact Assessments",
+                "value": 3
+              },
+              {
+                "name": "Environmental Schemes",
+                "value": 3
+              },
+              {
+                "name": "EU Directives",
+                "value": 3
+              },
+              {
+                "name": "Legislative Programme",
+                "value": 2
+              },
+              {
+                "name": "Artificial Intelligence",
+                "value": 1
+              },
+              {
+                "name": "Electricity Grid",
+                "value": 1
+              },
+              {
+                "name": "Departmental Contracts",
+                "value": 1
+              },
+              {
+                "name": "Budget 2027",
+                "value": 1
+              },
+              {
+                "name": "Wildlife Protection",
+                "value": 1
+              },
+              {
+                "name": "Data Centres",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -608,51 +663,6 @@
               },
               {
                 "name": "Local Area Plans",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Policy",
-                "value": 9
-              },
-              {
-                "name": "Climate Action Plan",
-                "value": 6
-              },
-              {
-                "name": "Environmental Impact Assessments",
-                "value": 3
-              },
-              {
-                "name": "Environmental Schemes",
-                "value": 3
-              },
-              {
-                "name": "Artificial Intelligence",
-                "value": 1
-              },
-              {
-                "name": "Electricity Grid",
-                "value": 1
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 1
-              },
-              {
-                "name": "Budget 2027",
-                "value": 1
-              },
-              {
-                "name": "Wildlife Protection",
-                "value": 1
-              },
-              {
-                "name": "Data Centres",
                 "value": 1
               }
             ]
@@ -792,12 +802,20 @@
               {
                 "name": "Departmental Bodies",
                 "value": 1
+              },
+              {
+                "name": "Energy Conservation",
+                "value": 1
               }
             ]
           },
           {
             "name": "Foreign",
             "children": [
+              {
+                "name": "Humanitarian Aid",
+                "value": 3
+              },
               {
                 "name": "Military Aircraft",
                 "value": 2
@@ -1001,6 +1019,43 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "EU Directives",
+                "value": 2
+              },
+              {
+                "name": "Civil Service",
+                "value": 1
+              },
+              {
+                "name": "Strategic Infrastructure",
+                "value": 1
+              },
+              {
+                "name": "State Bodies",
+                "value": 1
+              },
+              {
+                "name": "State Art Collection",
+                "value": 1
+              },
+              {
+                "name": "Architectural Heritage",
+                "value": 1
+              },
+              {
+                "name": "National Development Plan",
+                "value": 1
+              },
+              {
+                "name": "Data Centres",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -1033,35 +1088,6 @@
               },
               {
                 "name": "Departmental Communications",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "EU Directives",
-                "value": 2
-              },
-              {
-                "name": "Civil Service",
-                "value": 1
-              },
-              {
-                "name": "Strategic Infrastructure",
-                "value": 1
-              },
-              {
-                "name": "State Bodies",
-                "value": 1
-              },
-              {
-                "name": "State Art Collection",
-                "value": 1
-              },
-              {
-                "name": "Architectural Heritage",
                 "value": 1
               }
             ]
@@ -1417,6 +1443,38 @@
                 ]
               },
               {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2056. Deputy Paul Murphy asked the Minister for Health the procedure for closing a waiting list for an outpatient service at a hospital, including what approvals are required. [73911/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2056/"
+                      },
+                      {
+                        "name": "2057. Deputy Paul Murphy asked the Minister for Health if management within St Columcille's Hospital, Ireland East Hospital Group, and the HSE were aware of the National Gender Service's decision to close the waiting list before the letter to him; and who among those had approved the closure before sending the letter. [73912/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2057/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "91. Deputy Paul Murphy asked the Minister for Health if children who are private patients have been prioritised over public patients for surgery in our public hospitals; and if she will make a statement on the matter. [52178/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/91/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Mental Health Services",
                 "children": [
                   {
@@ -1557,27 +1615,6 @@
                         "name": "193. Deputy Paul Murphy asked the Minister for Health if she will meet with striking workers from an organisation (details supplied); her views on their status as section 39 workers; and if she will make a statement on the matter. [28488/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/193/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Waiting Lists",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2056. Deputy Paul Murphy asked the Minister for Health the procedure for closing a waiting list for an outpatient service at a hospital, including what approvals are required. [73911/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2056/"
-                      },
-                      {
-                        "name": "2057. Deputy Paul Murphy asked the Minister for Health if management within St Columcille's Hospital, Ireland East Hospital Group, and the HSE were aware of the National Gender Service's decision to close the waiting list before the letter to him; and who among those had approved the closure before sending the letter. [73912/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2057/"
                       }
                     ]
                   }
@@ -3561,6 +3598,345 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Energy Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "297. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment when Ireland will transpose Article 12 of the Energy Efficiency Directive (2023/1791), regarding transparency reporting; if this will be achieved ahead of the third reporting deadline for data centre operators on 15 May 2026, given his prior statement recently that this was at an ‘advanced stage’; and if so, the date he expects to sign a Statutory Instrument on the matter. [30633/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/297/"
+                      },
+                      {
+                        "name": "298. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment to confirm whether the transposition of Article 12 of the Energy Efficiency Directive (2023/1791) will include specific conditions for penalties in the event of non-compliance with reporting obligations, as required by Article 32 of the Directive, similar to the German transposition of same (EnEfG Section 19) given only 18 Irish data centres have submitted reports to date. [30634/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/298/"
+                      },
+                      {
+                        "name": "299. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the public body which will be, whether it be the Sustainable Energy Authority of Ireland, EirGrid, the Commission for Regulation of Utilities, his own Department or a new or other body entirely, be empowered to investigate and sanction a data centre operator that fails to submit accurate and timely information to the European database as per requirements under Article 32 of the Energy Efficiency Directive (2023/1791) to establish “effective, proportionate, and dissuasive” penalties for non-compliance with national transposing measures. [30635/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/299/"
+                      },
+                      {
+                        "name": "300. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether his Department or any other delegated body currently has visibility of data being sent by Irish data centre operators to the European database, in accordance with their responsibilities under the Delegated Regulation (2024/1364); and if the lack of a related Statutory Instrument is impeding the Government’s ability to access and handle this information currently. [30636/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/300/"
+                      },
+                      {
+                        "name": "301. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment to confirm reports that the European Commission has advised Member States to ‘keep confidential all information and key performance indicators for individual data centres’; and if he has sought legal advice on whether this interpretation of confidentiality violates the Aarhus Convention and the EU Charter of Fundamental Rights. [30637/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/301/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "334. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he plans to introduce a new policy statement on the importation of fracked gas; and if he will make a statement on the matter. [74471/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/334/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "169. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he will introduce a €500 energy credit for households to respond to the cost-of-living crisis. [26786/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/169/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "61. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the plans he has or is making to phase out fossil fuels; and if he will make a statement on the matter. [44550/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/61/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "146. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the plans that exist nationally or locally to phase out AVGAS100LL in favour of unleaded alternatives. [49196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/146/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Climate Action Plan",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "120. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment given the statutory requirement under the Climate Action and Low Carbon Development (Amendment) Act 2021 to publish an annual update to the Climate Action Plan, can he clarify the precise legal and scientific basis for the delay in publishing the updated Plan for 2026; and if he will make a statement on the matter. [19827/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/120/"
+                      },
+                      {
+                        "name": "121. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment in light of correspondence from five senior climate and legal academics disputing his justification for the delay of the updated Climate Action Plan, the specific evidence or advice that underpins his position. [19828/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/121/"
+                      },
+                      {
+                        "name": "122. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the revised timeline for publication of the updated Climate Action Plan; and the way in which he assesses the impact of this delay on Ireland’s ability to meet its legally binding 2030 emissions reduction targets. [19829/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/122/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "345. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether data centres, which account for an estimated 25% of national electricity demand, are designated to receive fuel from the State’s strategic reserves in the event of a national fuel crisis or emergency; the criteria used to determine such prioritisation; and if he will make a statement on the matter. [28210/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/345/"
+                      },
+                      {
+                        "name": "346. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the amount of fuel that is currently held in the State’s strategic reserves; the equivalent duration in months of national demand that this represents; and if he will make a statement on the matter. [28211/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/346/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "43. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the new actions that will be included in future climate action plans to reduce agricultural emissions given they are likely to reduce by only 4% by 2030 with existing measures; and if he will make a statement on the matter. [44547/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/43/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Environmental Impact Assessments",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "144. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether any environmental or public health risk assessments regarding leaded aviation fuel emissions have been undertaken at an airport (details supplied). [49194/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/144/"
+                      },
+                      {
+                        "name": "145. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether any monitoring of airborne or deposited lead has been conducted in surrounding communities. [49195/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/145/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "123. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment given the Environmental Protection Agency’s assessment that current and planned measures will result in Ireland missing its 2030 targets by a significant margin, the additional measures being prepared to close this gap. [19830/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/123/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Environmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "135. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he will comment on his plans for decarbonising zones in 41 local authority areas nationally. [47195/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/135/"
+                      },
+                      {
+                        "name": "136. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he plans to fund local authorities to support decarbonising zones as a core pillar of local authority climate action strategies. [47196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/136/"
+                      },
+                      {
+                        "name": "137. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment to confirm the funding that has been allocated to local authorities to develop decarbonising zones since they were first proposed by Government. [47197/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/137/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Directives",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "136. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the result of the letter of formal notice sent by the European Commission on 21 November 2025 in relation to the transposition of the recast Energy Efficiency Directive 2023/1791, the content of his Department's reply; and whether a new deadline for transposition was agreed with the Commission. [51609/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/136/"
+                      },
+                      {
+                        "name": "137. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the number of communications email or otherwise with the European Commission in relation to the missed 11 October 2025 transposition deadline of the Energy Efficiency Directive 2023/1791, and related delegated regulations, in tabular form, with the associated dates of correspondence. [51610/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/137/"
+                      },
+                      {
+                        "name": "138. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the way in which primary legislation, such as the Heat (Networks and Miscellaneous Provisions) Bill 2024, will account for the transposition of Article 26 of the Energy Efficiency Directive (2023/1791). [51611/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/138/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Programme",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "134. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if the transposition of Article 12 of the Energy Efficiency Directive 2023/1791 will occur within the Summer Legislative Programme 2026, as it is not named within the programme, and if a specific timeline of its transposition can be provided. [51607/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/134/"
+                      },
+                      {
+                        "name": "135. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the number of Irish data centres, in aggregate, that have been reported to the European Commission database as per the most recent reporting deadline of 15 May 2026, pursuant to the data centre operators' responsibility under the delegated Regulation 2024/1364 and his Department's responsibility as Member State coordinator; and the aggregate number reported for the previous year's deadline, in tabular form. [51608/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/135/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artificial Intelligence",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "143. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if his Department has carried out an assessment of the climate impacts of AI; and if he will make a statement on the matter. [14504/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/143/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electricity Grid",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "249. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he is concerned that public capital investment in the electrical grid under NDP will be largely absorbed by data centre expansion; and if he will make a statement on the matter. [11096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/249/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "85. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the oversight of works done by SEAI recommended contractors when the works are 100% funded by Government grants and who ensures the work is completed to standard. [19091/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/85/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "195. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if electricity credits will be included in Budget 2027; and if he will make a statement on the matter. [39411/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/195/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wildlife Protection",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "19. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the action that will be taken against those responsible for killing over 20,000 fish in the River Glyde; the action he will take to prevent fish kills; and if he will make a statement on the matter. [44549/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/19/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Centres",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "41. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment his views on the use of Ireland as a cautionary tale of data centre growth in a recent UN report; and if he will make a statement on the matter. [44546/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/41/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -3927,298 +4303,6 @@
                         "name": "467. Deputy Paul Murphy asked the Minister for Housing, Local Government and Heritage the basis on which he decided not to intervene in respect of lands at Strandhill, County Sligo (details supplied); whether his office received any representations from any landowner, developer, or public representative in relation to those lands prior to that decision; and if so, to identify who made such representations and when. [47677/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/467/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "297. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment when Ireland will transpose Article 12 of the Energy Efficiency Directive (2023/1791), regarding transparency reporting; if this will be achieved ahead of the third reporting deadline for data centre operators on 15 May 2026, given his prior statement recently that this was at an ‘advanced stage’; and if so, the date he expects to sign a Statutory Instrument on the matter. [30633/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/297/"
-                      },
-                      {
-                        "name": "298. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment to confirm whether the transposition of Article 12 of the Energy Efficiency Directive (2023/1791) will include specific conditions for penalties in the event of non-compliance with reporting obligations, as required by Article 32 of the Directive, similar to the German transposition of same (EnEfG Section 19) given only 18 Irish data centres have submitted reports to date. [30634/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/298/"
-                      },
-                      {
-                        "name": "299. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the public body which will be, whether it be the Sustainable Energy Authority of Ireland, EirGrid, the Commission for Regulation of Utilities, his own Department or a new or other body entirely, be empowered to investigate and sanction a data centre operator that fails to submit accurate and timely information to the European database as per requirements under Article 32 of the Energy Efficiency Directive (2023/1791) to establish “effective, proportionate, and dissuasive” penalties for non-compliance with national transposing measures. [30635/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/299/"
-                      },
-                      {
-                        "name": "300. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether his Department or any other delegated body currently has visibility of data being sent by Irish data centre operators to the European database, in accordance with their responsibilities under the Delegated Regulation (2024/1364); and if the lack of a related Statutory Instrument is impeding the Government’s ability to access and handle this information currently. [30636/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/300/"
-                      },
-                      {
-                        "name": "301. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment to confirm reports that the European Commission has advised Member States to ‘keep confidential all information and key performance indicators for individual data centres’; and if he has sought legal advice on whether this interpretation of confidentiality violates the Aarhus Convention and the EU Charter of Fundamental Rights. [30637/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/301/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "334. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he plans to introduce a new policy statement on the importation of fracked gas; and if he will make a statement on the matter. [74471/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/334/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "169. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he will introduce a €500 energy credit for households to respond to the cost-of-living crisis. [26786/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/169/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "61. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the plans he has or is making to phase out fossil fuels; and if he will make a statement on the matter. [44550/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/61/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "146. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the plans that exist nationally or locally to phase out AVGAS100LL in favour of unleaded alternatives. [49196/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/146/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Climate Action Plan",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "120. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment given the statutory requirement under the Climate Action and Low Carbon Development (Amendment) Act 2021 to publish an annual update to the Climate Action Plan, can he clarify the precise legal and scientific basis for the delay in publishing the updated Plan for 2026; and if he will make a statement on the matter. [19827/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/120/"
-                      },
-                      {
-                        "name": "121. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment in light of correspondence from five senior climate and legal academics disputing his justification for the delay of the updated Climate Action Plan, the specific evidence or advice that underpins his position. [19828/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/121/"
-                      },
-                      {
-                        "name": "122. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the revised timeline for publication of the updated Climate Action Plan; and the way in which he assesses the impact of this delay on Ireland’s ability to meet its legally binding 2030 emissions reduction targets. [19829/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/122/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "345. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether data centres, which account for an estimated 25% of national electricity demand, are designated to receive fuel from the State’s strategic reserves in the event of a national fuel crisis or emergency; the criteria used to determine such prioritisation; and if he will make a statement on the matter. [28210/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/345/"
-                      },
-                      {
-                        "name": "346. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the amount of fuel that is currently held in the State’s strategic reserves; the equivalent duration in months of national demand that this represents; and if he will make a statement on the matter. [28211/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/346/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "43. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the new actions that will be included in future climate action plans to reduce agricultural emissions given they are likely to reduce by only 4% by 2030 with existing measures; and if he will make a statement on the matter. [44547/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/43/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Environmental Impact Assessments",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "144. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether any environmental or public health risk assessments regarding leaded aviation fuel emissions have been undertaken at an airport (details supplied). [49194/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/144/"
-                      },
-                      {
-                        "name": "145. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment whether any monitoring of airborne or deposited lead has been conducted in surrounding communities. [49195/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/145/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "123. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment given the Environmental Protection Agency’s assessment that current and planned measures will result in Ireland missing its 2030 targets by a significant margin, the additional measures being prepared to close this gap. [19830/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/123/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Environmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "135. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he will comment on his plans for decarbonising zones in 41 local authority areas nationally. [47195/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/135/"
-                      },
-                      {
-                        "name": "136. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he plans to fund local authorities to support decarbonising zones as a core pillar of local authority climate action strategies. [47196/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/136/"
-                      },
-                      {
-                        "name": "137. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment to confirm the funding that has been allocated to local authorities to develop decarbonising zones since they were first proposed by Government. [47197/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/137/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Artificial Intelligence",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "143. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if his Department has carried out an assessment of the climate impacts of AI; and if he will make a statement on the matter. [14504/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/143/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Electricity Grid",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "249. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if he is concerned that public capital investment in the electrical grid under NDP will be largely absorbed by data centre expansion; and if he will make a statement on the matter. [11096/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/249/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "85. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the oversight of works done by SEAI recommended contractors when the works are 100% funded by Government grants and who ensures the work is completed to standard. [19091/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/85/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Budget 2027",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "195. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if electricity credits will be included in Budget 2027; and if he will make a statement on the matter. [39411/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/195/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wildlife Protection",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "19. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the action that will be taken against those responsible for killing over 20,000 fish in the River Glyde; the action he will take to prevent fish kills; and if he will make a statement on the matter. [44549/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/19/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Data Centres",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "41. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment his views on the use of Ireland as a cautionary tale of data centre growth in a recent UN report; and if he will make a statement on the matter. [44546/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/41/"
                       }
                     ]
                   }
@@ -4858,12 +4942,54 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Energy Conservation",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "316. Deputy Paul Murphy asked the Minister for Enterprise, Tourism and Employment to provide the attendees, agendas, and scheduled meeting date of the “Annual Data Centre Sector Roundtable”, which was created through Action 9 of the Large Energy-user Action Plan (LEAP). [51612/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/316/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "name": "Foreign",
             "children": [
+              {
+                "name": "Humanitarian Aid",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "116. Deputy Paul Murphy asked the Minister for Foreign Affairs and Trade to instruct her Department to allocate emergency humanitarian funding through Irish Aid to support emergency medical care, clean water, food, temporary shelter, medicines, and other essential relief supplies in Venezuela. [51726/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/116/"
+                      },
+                      {
+                        "name": "117. Deputy Paul Murphy asked the Minister for Foreign Affairs and Trade to instruct her Department to support humanitarian initiatives being organised by Venezuelans living in Ireland. [51727/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/117/"
+                      },
+                      {
+                        "name": "118. Deputy Paul Murphy asked the Minister for Foreign Affairs and Trade working through the European Union Civil Protection Mechanism, to identify additional support Ireland could provide to Venezuela, whether through financial assistance, specialised equipment, logistics, technical expertise, or personnel, where appropriate, to complement the international response already underway. [51728/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/118/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Military Aircraft",
                 "children": [
@@ -5800,6 +5926,150 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "EU Directives",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "901. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if it has been brought to his attention that the EU whistleblower protection directive mandates that member states provide free, comprehensive legal aid and support for whistleblowers, and yet Ireland remains uncompliant with this directive; the steps the Government is taking or will be taking to ensure whisteblowers are provided with immediate and free legal aid. [74700/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/901/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1059. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his views on whether there is a flaw in the way in which EU Directive 2019/1937 has been transposed with the Protected Disclosures (Amendment) Act 2022 in relation to the fact that the burden of proof is reversed when penalisation is alleged, but this has only been applied during Court proceedings, meaning that it does not apply during the administration process, resulting in unnecessary litigation. [25242/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1059/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Civil Service",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "238. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his attention has been drawn to concerns regarding the operation of the civil service mobility scheme, specifically that some public bodies are apparently not implementing it at all; if he can provide, the number of staff appointments by grade made under this scheme over the past two years, broken down by public body; whether he is aware of any issues concerning public bodies cancelling appointments after acceptance; whether civil servants whose offers have been cancelled are permitted to avail of the civil service grievance procedure; if not whether are there other avenues of redress other than litigation, in tabular form; and if he will make a statement on the matter. [7077/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/238/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Strategic Infrastructure",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "47. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his views on whether public capital investment under the NDP in the electricity and water networks will be sufficient to enable delivery of housing and public transport; and if he will make a statement on the matter. [11097/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/47/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "529. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether there are any vacancies in the Standards in Public Office Commission; if so, the length of time they have been vacant; and the steps being taken to fill these vacancies. [12218/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/529/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Art Collection",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "477. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of art works managed by the OPW of which the location is currently unknown; and to provide a list of these works; and their estimated value. [30889/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/477/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Architectural Heritage",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "260. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current condition of Rathfarnham Castle, County Dublin (details supplied); whether any deterioration at the site has been linked to conservation or renovation works carried out as part of the 2014-2018 programme; the interim maintenance or remedial works planned for the site; when the facade render works previously announced will be completed; and if he will make a statement on the matter. [46461/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/260/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Development Plan",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "59. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a detailed and specific update on the constraints imposed on implementing the NDP due to grid capacity issues; and if he will make a statement on the matter. [51479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/59/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Centres",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "66. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his plans to designating any data centres as critical infrastructure; and if he will make a statement on the matter. [51478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/66/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -5930,118 +6200,6 @@
                         "name": "1715. Deputy Paul Murphy asked the Minister for Children, Disability and Equality if she is aware of the case of a child (details supplied); and if she will instruct her Department to engage with the family regarding this issue. [43895/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1715/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "EU Directives",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "901. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if it has been brought to his attention that the EU whistleblower protection directive mandates that member states provide free, comprehensive legal aid and support for whistleblowers, and yet Ireland remains uncompliant with this directive; the steps the Government is taking or will be taking to ensure whisteblowers are provided with immediate and free legal aid. [74700/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/901/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1059. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his views on whether there is a flaw in the way in which EU Directive 2019/1937 has been transposed with the Protected Disclosures (Amendment) Act 2022 in relation to the fact that the burden of proof is reversed when penalisation is alleged, but this has only been applied during Court proceedings, meaning that it does not apply during the administration process, resulting in unnecessary litigation. [25242/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1059/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Civil Service",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "238. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his attention has been drawn to concerns regarding the operation of the civil service mobility scheme, specifically that some public bodies are apparently not implementing it at all; if he can provide, the number of staff appointments by grade made under this scheme over the past two years, broken down by public body; whether he is aware of any issues concerning public bodies cancelling appointments after acceptance; whether civil servants whose offers have been cancelled are permitted to avail of the civil service grievance procedure; if not whether are there other avenues of redress other than litigation, in tabular form; and if he will make a statement on the matter. [7077/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/238/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Strategic Infrastructure",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "47. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his views on whether public capital investment under the NDP in the electricity and water networks will be sufficient to enable delivery of housing and public transport; and if he will make a statement on the matter. [11097/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/47/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "State Bodies",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "529. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether there are any vacancies in the Standards in Public Office Commission; if so, the length of time they have been vacant; and the steps being taken to fill these vacancies. [12218/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/529/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "State Art Collection",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "477. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of art works managed by the OPW of which the location is currently unknown; and to provide a list of these works; and their estimated value. [30889/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/477/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Architectural Heritage",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "260. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current condition of Rathfarnham Castle, County Dublin (details supplied); whether any deterioration at the site has been linked to conservation or renovation works carried out as part of the 2014-2018 programme; the interim maintenance or remedial works planned for the site; when the facade render works previously announced will be completed; and if he will make a statement on the matter. [46461/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/260/"
                       }
                     ]
                   }
@@ -9852,11 +10010,119 @@
           "question": "313. Deputy Paul Murphy asked the Minister for Education and Youth if she is aware of the case of a student (details supplied); and if she will instruct her Department to engage with the families affected. [50480/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/313/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 59,
+          "department": "Public Expenditure",
+          "heading": "National Development Plan",
+          "question": "59. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a detailed and specific update on the constraints imposed on implementing the NDP due to grid capacity issues; and if he will make a statement on the matter. [51479/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/59/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 66,
+          "department": "Public Expenditure",
+          "heading": "Data Centres",
+          "question": "66. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his plans to designating any data centres as critical infrastructure; and if he will make a statement on the matter. [51478/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/66/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 116,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "116. Deputy Paul Murphy asked the Minister for Foreign Affairs and Trade to instruct her Department to allocate emergency humanitarian funding through Irish Aid to support emergency medical care, clean water, food, temporary shelter, medicines, and other essential relief supplies in Venezuela. [51726/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/116/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 117,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "117. Deputy Paul Murphy asked the Minister for Foreign Affairs and Trade to instruct her Department to support humanitarian initiatives being organised by Venezuelans living in Ireland. [51727/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/117/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 118,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "118. Deputy Paul Murphy asked the Minister for Foreign Affairs and Trade working through the European Union Civil Protection Mechanism, to identify additional support Ireland could provide to Venezuela, whether through financial assistance, specialised equipment, logistics, technical expertise, or personnel, where appropriate, to complement the international response already underway. [51728/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/118/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 134,
+          "department": "Climate",
+          "heading": "Legislative Programme",
+          "question": "134. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment if the transposition of Article 12 of the Energy Efficiency Directive 2023/1791 will occur within the Summer Legislative Programme 2026, as it is not named within the programme, and if a specific timeline of its transposition can be provided. [51607/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/134/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 135,
+          "department": "Climate",
+          "heading": "Legislative Programme",
+          "question": "135. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the number of Irish data centres, in aggregate, that have been reported to the European Commission database as per the most recent reporting deadline of 15 May 2026, pursuant to the data centre operators' responsibility under the delegated Regulation 2024/1364 and his Department's responsibility as Member State coordinator; and the aggregate number reported for the previous year's deadline, in tabular form. [51608/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/135/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 136,
+          "department": "Climate",
+          "heading": "EU Directives",
+          "question": "136. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the result of the letter of formal notice sent by the European Commission on 21 November 2025 in relation to the transposition of the recast Energy Efficiency Directive 2023/1791, the content of his Department's reply; and whether a new deadline for transposition was agreed with the Commission. [51609/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/136/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 137,
+          "department": "Climate",
+          "heading": "EU Directives",
+          "question": "137. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the number of communications email or otherwise with the European Commission in relation to the missed 11 October 2025 transposition deadline of the Energy Efficiency Directive 2023/1791, and related delegated regulations, in tabular form, with the associated dates of correspondence. [51610/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/137/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 138,
+          "department": "Climate",
+          "heading": "EU Directives",
+          "question": "138. Deputy Paul Murphy asked the Minister for Climate, Energy and the Environment the way in which primary legislation, such as the Heat (Networks and Miscellaneous Provisions) Bill 2024, will account for the transposition of Article 26 of the Energy Efficiency Directive (2023/1791). [51611/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/138/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 316,
+          "department": "Enterprise",
+          "heading": "Energy Conservation",
+          "question": "316. Deputy Paul Murphy asked the Minister for Enterprise, Tourism and Employment to provide the attendees, agendas, and scheduled meeting date of the “Annual Data Centre Sector Roundtable”, which was created through Action 9 of the Large Energy-user Action Plan (LEAP). [51612/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/316/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 91,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "91. Deputy Paul Murphy asked the Minister for Health if children who are private patients have been prioritised over public patients for surgery in our public hospitals; and if she will make a statement on the matter. [52178/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/91/",
+          "questionType": "oral"
         }
       ]
     },
     "oral": {
-      "count": 48,
+      "count": 49,
       "headingOptions": [
         "Abortion Services",
         "Apprenticeship Programmes",
@@ -9869,6 +10135,7 @@
         "Disability Issues",
         "EU Summits",
         "Family Reunification",
+        "Hospital Waiting Lists",
         "Housing Policy",
         "Military Neutrality",
         "National Economic and Social Council",
@@ -9972,20 +10239,24 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Public Transport",
-                "value": 2
-              }
-            ]
-          },
-          {
             "name": "Health",
             "children": [
               {
                 "name": "Abortion Services",
                 "value": 1
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Public Transport",
+                "value": 2
               }
             ]
           },
@@ -10527,6 +10798,43 @@
             ]
           },
           {
+            "name": "Health",
+            "children": [
+              {
+                "name": "Abortion Services",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "11. Deputy Paul Murphy asked the Minister for Health if she will legislate to end the three-day wait for abortion services; and if she will make a statement on the matter. [4679/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/11/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "91. Deputy Paul Murphy asked the Minister for Health if children who are private patients have been prioritised over public patients for surgery in our public hospitals; and if she will make a statement on the matter. [52178/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/91/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Transport",
             "children": [
               {
@@ -10551,27 +10859,6 @@
                         "name": "113. Deputy Paul Murphy asked the Minister for Transport if he will seek additional investment in public transport in light of the fuel crisis; and if he will make a statement on the matter. [46090/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/113/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Health",
-            "children": [
-              {
-                "name": "Abortion Services",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "11. Deputy Paul Murphy asked the Minister for Health if she will legislate to end the three-day wait for abortion services; and if she will make a statement on the matter. [4679/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/11/"
                       }
                     ]
                   }
@@ -11180,6 +11467,15 @@
           "heading": "Apprenticeship Programmes",
           "question": "87. Deputy Paul Murphy asked the Minister for Further and Higher Education, Research, Innovation and Science the reforms he plans on implementing to increase take-up of craft apprenticeships; and if he will make a statement on the matter. [50241/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/87/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 91,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "91. Deputy Paul Murphy asked the Minister for Health if children who are private patients have been prioritised over public patients for surgery in our public hospitals; and if she will make a statement on the matter. [52178/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/91/",
           "questionType": "oral"
         }
       ]
