@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Tony-McCormack.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 130,
+      "count": 132,
       "headingOptions": [
         "Agriculture Industry",
         "Ambulance Service",
@@ -40,6 +40,7 @@
         "Family Resource Centres",
         "Financial Services",
         "Food Industry",
+        "Food Safety",
         "Food Security",
         "Foreign Direct Investment",
         "Further and Higher Education",
@@ -47,6 +48,7 @@
         "Health Services Staff",
         "Healthcare Infrastructure Provision",
         "Hospital Appointments Status",
+        "Hospital Waiting Lists",
         "Housing Policy",
         "Housing Provision",
         "Housing Schemes",
@@ -95,7 +97,7 @@
         "topHeading": "Hospital Appointments Status",
         "topHeadingCount": 12,
         "topDepartment": "Health",
-        "topDepartmentCount": 19
+        "topDepartmentCount": 20
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -129,6 +131,10 @@
               },
               {
                 "name": "Medical Cards",
+                "value": 1
+              },
+              {
+                "name": "Hospital Waiting Lists",
                 "value": 1
               }
             ]
@@ -453,6 +459,31 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Agriculture Industry",
+                "value": 1
+              },
+              {
+                "name": "Animal Diseases",
+                "value": 1
+              },
+              {
+                "name": "Food Security",
+                "value": 1
+              },
+              {
+                "name": "Food Industry",
+                "value": 1
+              },
+              {
+                "name": "Food Safety",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -486,27 +517,6 @@
               },
               {
                 "name": "Youth Services",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Agriculture Industry",
-                "value": 1
-              },
-              {
-                "name": "Animal Diseases",
-                "value": 1
-              },
-              {
-                "name": "Food Security",
-                "value": 1
-              },
-              {
-                "name": "Food Industry",
                 "value": 1
               }
             ]
@@ -773,6 +783,22 @@
                         "name": "1292. Deputy Tony McCormack asked the Minister for Health whether she is aware that the taxation of near-neighbour community payments arising from onshore wind farm developments affects eligibility for the means tested medical card; and if she will make a statement on the matter. [31559/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1292/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "770. Deputy Tony McCormack asked the Minister for Health when a person (details supplied) will receive an appointment for assessment with a consultant in the Mater Misericordiae University Hospital. [51108/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/770/"
                       }
                     ]
                   }
@@ -2085,6 +2111,91 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Agriculture Industry",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "34. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine following the publication of the Commission on Generational Renewal in Farming report, when he will publish a clear implementation plan and timeline for its recommendations, including measures to actively accelerate farm succession; and if he will make a statement on the matter. [6684/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/34/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Animal Diseases",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "77. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the current status of bovine TB nationally; whether incidence levels indicate that progress is being made under the TB eradication programme; and the metrics his Department uses to measure success; and if he will make a statement on the matter. [6685/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/77/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Security",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "100. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the actions being taken to strengthen Ireland's food security and domestic food production capacity; and if he will make a statement on the matter. [35441/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/100/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Industry",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "7. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the measures being taken to support the growth and international expansion of Irish-owned food and agrifood businesses; and if he will make a statement on the matter. [52234/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/7/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "65. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the steps being taken to reduce unnecessary administrative burdens and simplify regulatory compliance for farmers and agri-food businesses while maintaining Ireland's high environmental and food safety standards; and if he will make a statement on the matter. [52235/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/65/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -2215,75 +2326,6 @@
                         "name": "71. Deputy Tony McCormack asked the Minister for Justice, Home Affairs and Migration the measures being taken to expand youth diversion and early intervention programmes aimed at preventing criminal activity among young people; and if he will make a statement on the matter. [35443/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/71/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Agriculture Industry",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "34. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine following the publication of the Commission on Generational Renewal in Farming report, when he will publish a clear implementation plan and timeline for its recommendations, including measures to actively accelerate farm succession; and if he will make a statement on the matter. [6684/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/34/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Animal Diseases",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "77. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the current status of bovine TB nationally; whether incidence levels indicate that progress is being made under the TB eradication programme; and the metrics his Department uses to measure success; and if he will make a statement on the matter. [6685/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/77/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Food Security",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "100. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the actions being taken to strengthen Ireland's food security and domestic food production capacity; and if he will make a statement on the matter. [35441/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/100/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Food Industry",
-                "children": [
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "7. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the measures being taken to support the growth and international expansion of Irish-owned food and agrifood businesses; and if he will make a statement on the matter. [52234/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/7/"
                       }
                     ]
                   }
@@ -3582,6 +3624,15 @@
           "questionType": "written"
         },
         {
+          "date_iso": "2026-07-07",
+          "questionNumber": 770,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "770. Deputy Tony McCormack asked the Minister for Health when a person (details supplied) will receive an appointment for assessment with a consultant in the Mater Misericordiae University Hospital. [51108/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/770/",
+          "questionType": "written"
+        },
+        {
           "date_iso": "2026-07-09",
           "questionNumber": 7,
           "department": "Agriculture",
@@ -3589,6 +3640,15 @@
           "question": "7. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the measures being taken to support the growth and international expansion of Irish-owned food and agrifood businesses; and if he will make a statement on the matter. [52234/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/7/",
           "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 65,
+          "department": "Agriculture",
+          "heading": "Food Safety",
+          "question": "65. Deputy Tony McCormack asked the Minister for Agriculture, Food and the Marine the steps being taken to reduce unnecessary administrative burdens and simplify regulatory compliance for farmers and agri-food businesses while maintaining Ireland's high environmental and food safety standards; and if he will make a statement on the matter. [52235/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/65/",
+          "questionType": "written"
         }
       ]
     },

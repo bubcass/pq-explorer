@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-Paul-O'Shea.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 451,
+      "count": 460,
       "headingOptions": [
         "Active Travel",
         "Agriculture Schemes",
@@ -56,8 +56,10 @@
         "Disability Services",
         "Disease Management",
         "Early Childhood Care and Education",
+        "Education and Training Boards",
         "Education and Training Provision",
         "Education Policy",
+        "Education Schemes",
         "Educational Disadvantage",
         "Electricity Grid",
         "Energy Conservation",
@@ -104,6 +106,7 @@
         "Local Community Safety Partnerships",
         "Meals-on-Wheels Services",
         "Medicinal Products",
+        "Mental Health Services",
         "Mother and Baby Homes",
         "National Broadband Plan",
         "National Development Plan",
@@ -419,6 +422,10 @@
               {
                 "name": "Health Services Staff",
                 "value": 1
+              },
+              {
+                "name": "Mental Health Services",
+                "value": 1
               }
             ]
           },
@@ -512,7 +519,7 @@
               },
               {
                 "name": "Childcare Services",
-                "value": 8
+                "value": 9
               },
               {
                 "name": "Early Childhood Care and Education",
@@ -649,6 +656,10 @@
                 "value": 2
               },
               {
+                "name": "Departmental Schemes",
+                "value": 2
+              },
+              {
                 "name": "Social Enterprise Sector",
                 "value": 1
               },
@@ -748,6 +759,59 @@
             ]
           },
           {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Apprenticeship Programmes",
+                "value": 6
+              },
+              {
+                "name": "Education and Training Provision",
+                "value": 3
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 2
+              },
+              {
+                "name": "Courses Accreditation",
+                "value": 1
+              },
+              {
+                "name": "Third Level Education",
+                "value": 1
+              },
+              {
+                "name": "Further and Higher Education",
+                "value": 1
+              },
+              {
+                "name": "Third Level Fees",
+                "value": 1
+              },
+              {
+                "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Education Schemes",
+                "value": 1
+              },
+              {
+                "name": "Education and Training Boards",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -842,34 +906,38 @@
             ]
           },
           {
-            "name": "Further and Higher Education",
+            "name": "Public Expenditure",
             "children": [
               {
-                "name": "Apprenticeship Programmes",
-                "value": 5
-              },
-              {
-                "name": "Education and Training Provision",
+                "name": "National Development Plan",
                 "value": 3
               },
               {
-                "name": "Departmental Funding",
+                "name": "Office of Public Works",
                 "value": 2
               },
               {
-                "name": "Courses Accreditation",
+                "name": "Departmental Staff",
                 "value": 1
               },
               {
-                "name": "Third Level Education",
+                "name": "Departmental Properties",
                 "value": 1
               },
               {
-                "name": "Further and Higher Education",
+                "name": "Heritage Sites",
                 "value": 1
               },
               {
-                "name": "Third Level Fees",
+                "name": "An Garda Síochána",
+                "value": 1
+              },
+              {
+                "name": "Road Projects",
+                "value": 1
+              },
+              {
+                "name": "Departmental Projects",
                 "value": 1
               },
               {
@@ -877,11 +945,15 @@
                 "value": 1
               },
               {
-                "name": "Departmental Data",
+                "name": "Legislative Process",
                 "value": 1
               },
               {
-                "name": "Departmental Correspondence",
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Public Procurement Contracts",
                 "value": 1
               }
             ]
@@ -931,59 +1003,6 @@
               },
               {
                 "name": "Social Enterprise Sector",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "National Development Plan",
-                "value": 2
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Departmental Properties",
-                "value": 1
-              },
-              {
-                "name": "Heritage Sites",
-                "value": 1
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              },
-              {
-                "name": "Road Projects",
-                "value": 1
-              },
-              {
-                "name": "Departmental Projects",
-                "value": 1
-              },
-              {
-                "name": "Programme for Government",
-                "value": 1
-              },
-              {
-                "name": "Legislative Process",
-                "value": 1
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Office of Public Works",
-                "value": 1
-              },
-              {
-                "name": "Public Procurement Contracts",
                 "value": 1
               }
             ]
@@ -2922,6 +2941,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Mental Health Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "247. Deputy John Paul O'Shea asked the Minister for Health if a current contract is in place in the HSE South for a company (details supplied); if so, the amount paid for this service by the HSE South since the contract began; and if she will make a statement on the matter. [52224/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/247/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3599,6 +3634,17 @@
                         "name": "513. Deputy John Paul O'Shea asked the Minister for Children, Disability and Equality to provide an update on the payment of a building blocks extension grant scheme for a creche (details supplied); and if she will make a statement on the matter. [11323/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/513/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "640. Deputy John Paul O'Shea asked the Minister for Children, Disability and Equality to provide an update on the proposed establishment of a dedicated childcare agency; the current status of the proposal; the progress made to date; the expected timeline for its establishment; the functions and responsibilities the agency will have; and if she will make a statement on the matter. [51107/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/640/"
                       }
                     ]
                   }
@@ -4353,6 +4399,27 @@
                 ]
               },
               {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "23. Deputy John Paul O'Shea asked the Minister for Agriculture, Food and the Marine for an update on the social farming scheme; the level of take up on the scheme to date throughout the country; if he intends expanding the scheme in 2027; and if he will make a statement on the matter. [52196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/23/"
+                      },
+                      {
+                        "name": "25. Deputy John Paul O'Shea asked the Minister for Agriculture, Food and the Marine the progress being made in the forgotten farmer scheme; and if he will make a statement on the matter. [52195/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/25/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Social Enterprise Sector",
                 "children": [
                   {
@@ -4766,6 +4833,273 @@
                         "name": "553. Deputy John Paul O'Shea asked the Minister for Justice, Home Affairs and Migration the number of applicants, per county who are awaiting decisions under family reunification and other immigration permission schemes administered by Immigration Service Delivery; the average processing time for such applications; the steps being taken to reduce delays and improve customer service for applicants and their families; and if he will make a statement on the matter. [51095/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/553/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Apprenticeship Programmes",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "204. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the number of apprentice registrations across all construction trades from 2020 to 2025, in tabular form. [2764/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/204/"
+                      },
+                      {
+                        "name": "205. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if plans are in place to address the disparity between the number of registrations by electrical apprentices and the number of registrations by apprentice block layers and plasterers; and if he will make a statement on the matter. [2765/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/205/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1248. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the new national action plan for apprenticeships which set out an objective of developing a single model for apprenticeships, which would bring together craft and consortia into one model; the role the National Training Fund will play in the regard; and if he will make a statement on the matter. [12134/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1248/"
+                      },
+                      {
+                        "name": "1258. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the new national action plan for apprenticeships (details supplied); and if he will make a statement on the matter. [12135/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1258/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "116. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the targeted investment that is being provided by his Department to expand further education, apprenticeship, and skills training capacity in Cork North-West; and if he will make a statement on the matter. [37626/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/116/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "884. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the number of apprenticeship registrations in County Cork in each of the past three years, broken down by apprenticeship programme; the steps being taken to expand apprenticeship opportunities in Cork; and if he will make a statement on the matter. [51105/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/884/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education and Training Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "130. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science to outline the broad services provided in Millstreet FET Centre; the number of attendees in each of the years 2023-2025; and if he will make a statement on the matter. [6775/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/130/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1259. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science when details of Springboard+ 2026 courses will be made available; and if he will make a statement on the matter. [12136/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1259/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3461. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if he is aware of eligibility requirements for blended learning veterinary nursing programmes, including those provided by Technological University of the Shannon, which require applicants to be employed in practices with a registered veterinary nurse; if consideration will be given to allowing training in practices supervised by registered veterinary surgeons where no registered veterinary nurse is employed; and if he will review these requirements in order to ensure that students in rural areas or smaller practices are not excluded from accessing blended learning opportunities; and if he will make a statement on the matter. [24913/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3461/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1256. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the workings of the national training fund; to provide examples of the assistance it has given to date; the funding that has been spent to date; the amount which is expected to be expended by the fund to 2030; and if he will make a statement on the matter. [12132/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1256/"
+                      },
+                      {
+                        "name": "1257. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on Skillnet Ireland; the areas in the country where Skillnet is operational; the courses and training provided; and if he will make a statement on the matter. [12133/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1257/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Courses Accreditation",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2623. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the QQI Trust Ed Accreditation process; the number of applications that were received, and the number that have been awarded accreditation to date; and if he will make a statement on the matter. [2155/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2623/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Education",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "1084. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science whether his Department’s current systems can identify the number of students enrolled in each individual English language education provider at present; if so, whether it can be published in an anonymised format (details supplied) to avoid identifying individual organisations and to ensure that no commercially sensitive information is disclosed; and if he will make a statement on the matter. [4166/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/1084/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Further and Higher Education",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "168. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science to outline the broad services provided in Macroom FET Centre; the number of attendees for each of the years 2023-2025; and if he will make a statement on the matter. [6776/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/168/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Fees",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1254. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if he is aware of cases where Irish citizens who have lived abroad for a period are being classified as non-EU students for fee purposes on returning to Ireland for postgraduate study; the rationale for the residency requirement that results in such classifications; if any flexibility, review mechanism, or exemption exists for Irish citizens who were abroad for education or employment purposes, including those who contributed to essential services during the Covid-19 pandemic; and if he will consider reviewing this policy in order to facilitate Irish citizens wishing to return home to further their education and contribute to the Irish workforce; and if he will make a statement on the matter. [11935/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1254/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "915. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the progress made on each of the individual Programme for Government commitments assigned to his Department; and if he will make a statement on the matter. [28659/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/915/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "1266. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if he will provide a list of all capital projects, including further and higher education campus, ETB and research infrastructure projects, delivered under the remit of his Department which have been completed on time and within budget in Cork North-West in each of the past five years, in tabular form; and if he will make a statement on the matter. [34738/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1266/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "97. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on engagement between his Department, Cork Education and Training Board and employers in Cork North-West regarding skills shortages in sectors including construction, healthcare, agrifood, manufacturing and renewable energy; the new initiatives planned for the region; and if he will make a statement on the matter. [37625/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/97/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "883. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the number of students from County Cork in receipt of SUSI maintenance grants in the 2025-2026 academic years; the average processing time for applications; the measures being taken to ensure timely grant payments to students at the beginning of the academic year; and if he will make a statement on the matter. [51104/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/883/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education and Training Boards",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "900. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science further to Parliamentary Question No. 434 of 19 June 2025, if he will provide an update on the proposed Strategic Infrastructure Upgrade Fund (SIUF) project; whether the Stage 1 Report submitted by the ETB design team and reviewed by SOLAS has now been approved by his Department; whether the project has progressed to the next stage of the approval process; whether funding has been allocated to allow the project to proceed; the current estimated timeline for the completion of the design, planning, tender and construction phases; whether the proposed new outreach facility remains part of the approved project; and if he will make a statement on the matter. [51749/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/900/"
                       }
                     ]
                   }
@@ -5248,174 +5582,164 @@
             ]
           },
           {
-            "name": "Further and Higher Education",
+            "name": "Public Expenditure",
             "children": [
               {
-                "name": "Apprenticeship Programmes",
+                "name": "National Development Plan",
                 "children": [
                   {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
                     "children": [
                       {
-                        "name": "204. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the number of apprentice registrations across all construction trades from 2020 to 2025, in tabular form. [2764/26]",
+                        "name": "493. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a list of all capital projects delivered under the National Development Plan and otherwise within the remit of his Department, including the Office of Public Works, which have been completed on time and within budget in Cork North-West in each of the past five years, in tabular form; and if he will make a statement on the matter. [34720/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/204/"
-                      },
-                      {
-                        "name": "205. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if plans are in place to address the disparity between the number of registrations by electrical apprentices and the number of registrations by apprentice block layers and plasterers; and if he will make a statement on the matter. [2765/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/205/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/493/"
                       }
                     ]
                   },
                   {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "1248. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the new national action plan for apprenticeships which set out an objective of developing a single model for apprenticeships, which would bring together craft and consortia into one model; the role the National Training Fund will play in the regard; and if he will make a statement on the matter. [12134/26]",
+                        "name": "286. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the most recent update on the rollout of the National Development Plan; and if he will make a statement on the matter. [40912/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1248/"
-                      },
-                      {
-                        "name": "1258. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the new national action plan for apprenticeships (details supplied); and if he will make a statement on the matter. [12135/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1258/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/286/"
                       }
                     ]
                   },
                   {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
                     "children": [
                       {
-                        "name": "116. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the targeted investment that is being provided by his Department to expand further education, apprenticeship, and skills training capacity in Cork North-West; and if he will make a statement on the matter. [37626/26]",
+                        "name": "78. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the capital funding that has been allocated, or is proposed to be allocated, for public infrastructure projects in Cork north west under the National Development Plan during 2026 and 2027; if he will outline the projects included; and if he will make a statement on the matter. [52155/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/116/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/78/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Education and Training Provision",
+                "name": "Office of Public Works",
                 "children": [
                   {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
                     "children": [
                       {
-                        "name": "130. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science to outline the broad services provided in Millstreet FET Centre; the number of attendees in each of the years 2023-2025; and if he will make a statement on the matter. [6775/26]",
+                        "name": "654. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the position regarding a section 50 application (details supplied) with the OPW; and if he will make a statement on the matter. [43004/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/130/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/654/"
                       }
                     ]
                   },
                   {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
                     "children": [
                       {
-                        "name": "1259. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science when details of Springboard+ 2026 courses will be made available; and if he will make a statement on the matter. [12136/26]",
+                        "name": "77. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on the development of Doneraile House and grounds; and if he will make a statement on the matter. [52154/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1259/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "3461. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if he is aware of eligibility requirements for blended learning veterinary nursing programmes, including those provided by Technological University of the Shannon, which require applicants to be employed in practices with a registered veterinary nurse; if consideration will be given to allowing training in practices supervised by registered veterinary surgeons where no registered veterinary nurse is employed; and if he will review these requirements in order to ensure that students in rural areas or smaller practices are not excluded from accessing blended learning opportunities; and if he will make a statement on the matter. [24913/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3461/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/77/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Funding",
+                "name": "Departmental Staff",
                 "children": [
                   {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
                     "children": [
                       {
-                        "name": "1256. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the workings of the national training fund; to provide examples of the assistance it has given to date; the funding that has been spent to date; the amount which is expected to be expended by the fund to 2030; and if he will make a statement on the matter. [12132/26]",
+                        "name": "418. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total number of sick days taken by staff in his Department for each of the years 2022 to 2025; the average days lost per employee for each year, in tabular form; and if he will make a statement on the matter. [8170/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1256/"
-                      },
-                      {
-                        "name": "1257. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on Skillnet Ireland; the areas in the country where Skillnet is operational; the courses and training provided; and if he will make a statement on the matter. [12133/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1257/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/418/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Courses Accreditation",
+                "name": "Departmental Properties",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
                     "children": [
                       {
-                        "name": "2623. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the QQI Trust Ed Accreditation process; the number of applications that were received, and the number that have been awarded accreditation to date; and if he will make a statement on the matter. [2155/26]",
+                        "name": "198. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if the unused accommodation section of Castlemaine Garda station, Castlemaine, County Kerry, will be made available for community use; and if he will make a statement on the matter. [8963/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2623/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/198/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Third Level Education",
+                "name": "Heritage Sites",
                 "children": [
                   {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
                     "children": [
                       {
-                        "name": "1084. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science whether his Department’s current systems can identify the number of students enrolled in each individual English language education provider at present; if so, whether it can be published in an anonymised format (details supplied) to avoid identifying individual organisations and to ensure that no commercially sensitive information is disclosed; and if he will make a statement on the matter. [4166/26]",
+                        "name": "44. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the development of Doneraile Court and Estate, and in particular the re-construction of the orangery (conservatory) at Doneraile House; and if he will make a statement on the matter. [9968/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/1084/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/44/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Further and Higher Education",
+                "name": "An Garda Síochána",
                 "children": [
                   {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
                     "children": [
                       {
-                        "name": "168. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science to outline the broad services provided in Macroom FET Centre; the number of attendees for each of the years 2023-2025; and if he will make a statement on the matter. [6776/26]",
+                        "name": "91. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the development of the new Garda HQ in Macroom, County Cork; the current status of the project; if contracts have been signed; the value of the contract; the expected timeline for completion; and if he will make a statement on the matter. [9967/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/168/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/91/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Third Level Fees",
+                "name": "Road Projects",
                 "children": [
                   {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
                     "children": [
                       {
-                        "name": "1254. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if he is aware of cases where Irish citizens who have lived abroad for a period are being classified as non-EU students for fee purposes on returning to Ireland for postgraduate study; the rationale for the residency requirement that results in such classifications; if any flexibility, review mechanism, or exemption exists for Irish citizens who were abroad for education or employment purposes, including those who contributed to essential services during the Covid-19 pandemic; and if he will consider reviewing this policy in order to facilitate Irish citizens wishing to return home to further their education and contribute to the Irish workforce; and if he will make a statement on the matter. [11935/26]",
+                        "name": "297. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his Department will repair damage to a private road in County Kerry (details supplied) following their flood defence works; and if he will make a statement on the matter. [11154/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1254/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/297/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "221. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his Department will identify a site for a World War 1 memorial to remember all from the island of Ireland who served and lost their lives in World War 1 (details supplied); and if he will make a statement on the matter. [27590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/221/"
                       }
                     ]
                   }
@@ -5429,41 +5753,57 @@
                     "date_iso": "2026-04-21",
                     "children": [
                       {
-                        "name": "915. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the progress made on each of the individual Programme for Government commitments assigned to his Department; and if he will make a statement on the matter. [28659/26]",
+                        "name": "464. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the progress made on each of the individual Programme for Government commitments assigned to his Department; and if he will make a statement on the matter. [28663/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/915/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/464/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Data",
+                "name": "Legislative Process",
                 "children": [
                   {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "1266. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science if he will provide a list of all capital projects, including further and higher education campus, ETB and research infrastructure projects, delivered under the remit of his Department which have been completed on time and within budget in Cork North-West in each of the past five years, in tabular form; and if he will make a statement on the matter. [34738/26]",
+                        "name": "285. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the status of the Critical Infrastructure Bill 2026; and if he will make a statement on the matter. [40911/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1266/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/285/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Correspondence",
+                "name": "Departmental Funding",
                 "children": [
                   {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
                     "children": [
                       {
-                        "name": "97. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on engagement between his Department, Cork Education and Training Board and employers in Cork North-West regarding skills shortages in sectors including construction, healthcare, agrifood, manufacturing and renewable energy; the new initiatives planned for the region; and if he will make a statement on the matter. [37625/26]",
+                        "name": "287. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if additional funding will be provided to accelerate public infrastructure upgrades in rural towns such as Macroom and Charleville in Cork north-west which are both experiencing significant population growth; and if he will make a statement on the matter. [40913/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/97/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/287/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Procurement Contracts",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "278. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether consideration is being given to the establishment of a national procurement directory or centralised supplier portal to assist social enterprises, SMEs and innovative enterprises in identifying and accessing public procurement opportunities across the State; and if he will make a statement on the matter. [47769/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/278/"
                       }
                     ]
                   }
@@ -5666,214 +6006,6 @@
                         "name": "295. Deputy John Paul O'Shea asked the Minister for Enterprise, Tourism and Employment whether he will review the membership of the Cost of Business Advisory Forum to ensure that the social enterprise sector, including Social Enterprise Republic of Ireland (SERI), is appropriately represented; and if he will make a statement on the matter. [47772/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/295/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "National Development Plan",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "493. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a list of all capital projects delivered under the National Development Plan and otherwise within the remit of his Department, including the Office of Public Works, which have been completed on time and within budget in Cork North-West in each of the past five years, in tabular form; and if he will make a statement on the matter. [34720/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/493/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "286. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the most recent update on the rollout of the National Development Plan; and if he will make a statement on the matter. [40912/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/286/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "418. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total number of sick days taken by staff in his Department for each of the years 2022 to 2025; the average days lost per employee for each year, in tabular form; and if he will make a statement on the matter. [8170/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/418/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Properties",
-                "children": [
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "198. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if the unused accommodation section of Castlemaine Garda station, Castlemaine, County Kerry, will be made available for community use; and if he will make a statement on the matter. [8963/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/198/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Heritage Sites",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "44. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the development of Doneraile Court and Estate, and in particular the re-construction of the orangery (conservatory) at Doneraile House; and if he will make a statement on the matter. [9968/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/44/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "91. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the development of the new Garda HQ in Macroom, County Cork; the current status of the project; if contracts have been signed; the value of the contract; the expected timeline for completion; and if he will make a statement on the matter. [9967/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/91/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Projects",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "297. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his Department will repair damage to a private road in County Kerry (details supplied) following their flood defence works; and if he will make a statement on the matter. [11154/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/297/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Projects",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "221. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his Department will identify a site for a World War 1 memorial to remember all from the island of Ireland who served and lost their lives in World War 1 (details supplied); and if he will make a statement on the matter. [27590/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/221/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Programme for Government",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "464. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the progress made on each of the individual Programme for Government commitments assigned to his Department; and if he will make a statement on the matter. [28663/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/464/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Process",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "285. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the status of the Critical Infrastructure Bill 2026; and if he will make a statement on the matter. [40911/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/285/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "287. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if additional funding will be provided to accelerate public infrastructure upgrades in rural towns such as Macroom and Charleville in Cork north-west which are both experiencing significant population growth; and if he will make a statement on the matter. [40913/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/287/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Office of Public Works",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "654. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the position regarding a section 50 application (details supplied) with the OPW; and if he will make a statement on the matter. [43004/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/654/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Procurement Contracts",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "278. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether consideration is being given to the establishment of a national procurement directory or centralised supplier portal to assist social enterprises, SMEs and innovative enterprises in identifying and accessing public procurement opportunities across the State; and if he will make a statement on the matter. [47769/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/278/"
                       }
                     ]
                   }
@@ -10462,6 +10594,87 @@
           "heading": "Agriculture Schemes",
           "question": "615. Deputy John Paul O'Shea asked the Minister for Agriculture, Food and the Marine the supports available to assist sheep farmers in addressing the impact of rising costs and evolving environmental requirements; the uptake of each related such schemes for Cork; and if he will make a statement on the matter. [51097/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/615/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 640,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "640. Deputy John Paul O'Shea asked the Minister for Children, Disability and Equality to provide an update on the proposed establishment of a dedicated childcare agency; the current status of the proposal; the progress made to date; the expected timeline for its establishment; the functions and responsibilities the agency will have; and if she will make a statement on the matter. [51107/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/640/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 883,
+          "department": "Further and Higher Education",
+          "heading": "Education Schemes",
+          "question": "883. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the number of students from County Cork in receipt of SUSI maintenance grants in the 2025-2026 academic years; the average processing time for applications; the measures being taken to ensure timely grant payments to students at the beginning of the academic year; and if he will make a statement on the matter. [51104/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/883/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 884,
+          "department": "Further and Higher Education",
+          "heading": "Apprenticeship Programmes",
+          "question": "884. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science the number of apprenticeship registrations in County Cork in each of the past three years, broken down by apprenticeship programme; the steps being taken to expand apprenticeship opportunities in Cork; and if he will make a statement on the matter. [51105/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/884/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 900,
+          "department": "Further and Higher Education",
+          "heading": "Education and Training Boards",
+          "question": "900. Deputy John Paul O'Shea asked the Minister for Further and Higher Education, Research, Innovation and Science further to Parliamentary Question No. 434 of 19 June 2025, if he will provide an update on the proposed Strategic Infrastructure Upgrade Fund (SIUF) project; whether the Stage 1 Report submitted by the ETB design team and reviewed by SOLAS has now been approved by his Department; whether the project has progressed to the next stage of the approval process; whether funding has been allocated to allow the project to proceed; the current estimated timeline for the completion of the design, planning, tender and construction phases; whether the proposed new outreach facility remains part of the approved project; and if he will make a statement on the matter. [51749/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/900/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 77,
+          "department": "Public Expenditure",
+          "heading": "Office of Public Works",
+          "question": "77. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on the development of Doneraile House and grounds; and if he will make a statement on the matter. [52154/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/77/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 78,
+          "department": "Public Expenditure",
+          "heading": "National Development Plan",
+          "question": "78. Deputy John Paul O'Shea asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the capital funding that has been allocated, or is proposed to be allocated, for public infrastructure projects in Cork north west under the National Development Plan during 2026 and 2027; if he will outline the projects included; and if he will make a statement on the matter. [52155/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/78/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 247,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "247. Deputy John Paul O'Shea asked the Minister for Health if a current contract is in place in the HSE South for a company (details supplied); if so, the amount paid for this service by the HSE South since the contract began; and if she will make a statement on the matter. [52224/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/247/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 23,
+          "department": "Agriculture",
+          "heading": "Departmental Schemes",
+          "question": "23. Deputy John Paul O'Shea asked the Minister for Agriculture, Food and the Marine for an update on the social farming scheme; the level of take up on the scheme to date throughout the country; if he intends expanding the scheme in 2027; and if he will make a statement on the matter. [52196/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/23/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 25,
+          "department": "Agriculture",
+          "heading": "Departmental Schemes",
+          "question": "25. Deputy John Paul O'Shea asked the Minister for Agriculture, Food and the Marine the progress being made in the forgotten farmer scheme; and if he will make a statement on the matter. [52195/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/25/",
           "questionType": "written"
         }
       ]

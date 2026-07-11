@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Eoin-Hayes.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 236,
+      "count": 258,
       "headingOptions": [
         "Air Safety",
         "An Garda Síochána",
@@ -50,9 +50,11 @@
         "Energy Prices",
         "Enterprise Policy",
         "Enterprise Support Services",
+        "Foreign Policy",
         "Health Services",
         "Housing Provision",
         "Housing Schemes",
+        "Humanitarian Aid",
         "Immigration Support Services",
         "Insurance Industry",
         "International Protection",
@@ -69,6 +71,7 @@
         "Pensions Reform",
         "Poverty Data",
         "Public Services Card",
+        "Public Transport",
         "Pupil-Teacher Ratio",
         "Rental Sector",
         "Research and Development",
@@ -80,6 +83,7 @@
         "School Meals Programme",
         "Schools Building Projects",
         "Social Enterprise Sector",
+        "Social Welfare Appeals",
         "Social Welfare Benefits",
         "Social Welfare Eligibility",
         "Social Welfare Offices",
@@ -102,9 +106,9 @@
       ],
       "insights": {
         "topHeading": "Departmental Expenditure",
-        "topHeadingCount": 31,
+        "topHeadingCount": 43,
         "topDepartment": "Social",
-        "topDepartmentCount": 66
+        "topDepartmentCount": 67
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -218,6 +222,10 @@
               },
               {
                 "name": "Departmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Appeals",
                 "value": 1
               }
             ]
@@ -337,47 +345,6 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "value": 4
-              },
-              {
-                "name": "Departmental Reviews",
-                "value": 3
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 3
-              },
-              {
-                "name": "Housing Provision",
-                "value": 2
-              },
-              {
-                "name": "Rental Sector",
-                "value": 1
-              },
-              {
-                "name": "Road Projects",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Departmental Schemes",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Transport",
             "children": [
               {
@@ -423,6 +390,10 @@
               {
                 "name": "Departmental Expenditure",
                 "value": 1
+              },
+              {
+                "name": "Public Transport",
+                "value": 1
               }
             ]
           },
@@ -452,6 +423,55 @@
               {
                 "name": "Immigration Support Services",
                 "value": 1
+              },
+              {
+                "name": "Humanitarian Aid",
+                "value": 1
+              },
+              {
+                "name": "Foreign Policy",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "value": 4
+              },
+              {
+                "name": "Departmental Reviews",
+                "value": 3
+              },
+              {
+                "name": "Departmental Contracts",
+                "value": 3
+              },
+              {
+                "name": "Housing Provision",
+                "value": 2
+              },
+              {
+                "name": "Rental Sector",
+                "value": 1
+              },
+              {
+                "name": "Road Projects",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
               }
             ]
           },
@@ -460,6 +480,10 @@
             "children": [
               {
                 "name": "Health Services",
+                "value": 3
+              },
+              {
+                "name": "Departmental Expenditure",
                 "value": 3
               },
               {
@@ -493,9 +517,30 @@
               {
                 "name": "Medical Cards",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "value": 6
               },
               {
                 "name": "Departmental Expenditure",
+                "value": 5
+              },
+              {
+                "name": "Childcare Services",
+                "value": 2
+              },
+              {
+                "name": "Parental Leave",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
                 "value": 1
               }
             ]
@@ -626,6 +671,23 @@
             ]
           },
           {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Expenditure",
+                "value": 4
+              },
+              {
+                "name": "Community Development Projects",
+                "value": 1
+              },
+              {
+                "name": "Social Enterprise Sector",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Defence",
             "children": [
               {
@@ -634,27 +696,6 @@
               },
               {
                 "name": "National Security",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "value": 2
-              },
-              {
-                "name": "Parental Leave",
-                "value": 1
-              },
-              {
-                "name": "Disability Services",
                 "value": 1
               },
               {
@@ -690,28 +731,11 @@
             ]
           },
           {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Community Development Projects",
-                "value": 1
-              },
-              {
-                "name": "Social Enterprise Sector",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
                 "name": "Departmental Expenditure",
-                "value": 1
+                "value": 4
               }
             ]
           }
@@ -1457,6 +1481,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Social Welfare Appeals",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "131. Deputy Eoin Hayes asked the Minister for Social Protection the measures his Department is taking to address the current backlog and processing time of social welfare appeals; and if he will make a statement on the matter. [52103/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/131/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2008,207 +2048,6 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1704. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will engage with local authorities to agree a uniform set of rules for the application of the means assessment for HAP; and if he will make a statement on the matter. [24916/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1704/"
-                      },
-                      {
-                        "name": "1705. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage his view on whether carers allowances should be disregarded as assessable income for HAP; and if he will make a statement on the matter. [24917/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1705/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "563. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the estimated annual cost of providing a housing first tenancy, including the cost of wraparound health and social supports, to a single adult experiencing long-term homelessness; and if he will make a statement on the matter. [45062/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/563/"
-                      },
-                      {
-                        "name": "564. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the amount in the capital budget as set out in table 12 of the Annual Progress Report 2026 that is designated for the construction of new-build social housing units; and if he will make a statement on the matter. [45063/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/564/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reviews",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1093. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will share analysis undertaken by his Department to quantify the level of concentration of ownership of Irish housing stock by foreign investors, or subsidiaries of foreign investors by country of origin over the last past years, in tabular form; and if he will make a statement on the matter. [42860/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1093/"
-                      },
-                      {
-                        "name": "1094. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will share analysis undertaken by his Department to quantify the level of concentration of ownership of Dublin housing stock by foreign investors, or subsidiaries of foreign investors by country of origin over the past ten years, in tabular form; and if he will make a statement on the matter. [42861/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1094/"
-                      },
-                      {
-                        "name": "1095. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage to share analysis of the level of concentration of Canadian ownership of Irish housing stock over the past ten years, in tabular form; and if he will make a statement on the matter. [42862/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1095/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "496. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51770/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/496/"
-                      },
-                      {
-                        "name": "497. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51788/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/497/"
-                      },
-                      {
-                        "name": "498. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51806/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/498/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Provision",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1780. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total number of cost-rental homes delivered in 2025 in the Dublin City Council area and for Dublin bay south, the breakdown by the type of delivery such as, local authority builds, local authority acquisitions, tenant in-situ, and so on; and if he will make a statement on the matter. [26100/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1780/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "565. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the average all-in cost of delivering a new-build social housing unit in each of the years 2023, 2024 and 2025 respectively, by a one-bedroom apartment, two-bedroom apartment, three-bedroom house; the breakdown of these costs between construction, land acquisition, professional fees, VAT, and so on; and if he will make a statement on the matter. [45064/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/565/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Rental Sector",
-                "children": [
-                  {
-                    "name": "Wednesday, 21 January",
-                    "date_iso": "2026-01-21",
-                    "children": [
-                      {
-                        "name": "158. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the measures being taken by the Department to mitigate the anticipated issues arising from the new rent reforms for families renting properties owned by people on the fair deal scheme; and if he will make a statement on the matter. [4726/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/158/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1703. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will engage with Dublin City Council to review their budget shortfall for resurfacing and general road maintenance repairs across the city; and if he will make a statement on the matter. [24915/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1703/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "436. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he plans to extend the current waiver on the street furniture charge, which is due to expire at the end of September 2026; and if he will make a statement on the matter. [47204/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/436/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "474. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [49097/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/474/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "447. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the supports that are available from the Government and State agencies for old age pensioners in vulnerable positions whose mortgages and properties were bought by private equity funds and are now being evicted by such funds; and if he will make a statement on the matter. [51077/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/447/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Transport",
             "children": [
               {
@@ -2423,6 +2262,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "54. Deputy Eoin Hayes asked the Minister for Transport when the independent feasibility study for Metro Southwest in line with the Programme for Government will be commissioned; and if he will make a statement on the matter. [52126/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/54/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2575,6 +2430,239 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Humanitarian Aid",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "6. Deputy Eoin Hayes asked the Minister for Foreign Affairs and Trade to provide details of the humanitarian supports Ireland is providing to Venezuela in the aftermath of the recent earthquakes; and if she will make a statement on the matter. [52004/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/6/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Foreign Policy",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "9. Deputy Eoin Hayes asked the Minister for Foreign Affairs and Trade the Government's position on the Paris protocol and its operational applicability to economic relations between Palestine and Israel. [52144/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/9/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1704. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will engage with local authorities to agree a uniform set of rules for the application of the means assessment for HAP; and if he will make a statement on the matter. [24916/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1704/"
+                      },
+                      {
+                        "name": "1705. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage his view on whether carers allowances should be disregarded as assessable income for HAP; and if he will make a statement on the matter. [24917/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1705/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "563. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the estimated annual cost of providing a housing first tenancy, including the cost of wraparound health and social supports, to a single adult experiencing long-term homelessness; and if he will make a statement on the matter. [45062/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/563/"
+                      },
+                      {
+                        "name": "564. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the amount in the capital budget as set out in table 12 of the Annual Progress Report 2026 that is designated for the construction of new-build social housing units; and if he will make a statement on the matter. [45063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/564/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1093. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will share analysis undertaken by his Department to quantify the level of concentration of ownership of Irish housing stock by foreign investors, or subsidiaries of foreign investors by country of origin over the last past years, in tabular form; and if he will make a statement on the matter. [42860/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1093/"
+                      },
+                      {
+                        "name": "1094. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will share analysis undertaken by his Department to quantify the level of concentration of ownership of Dublin housing stock by foreign investors, or subsidiaries of foreign investors by country of origin over the past ten years, in tabular form; and if he will make a statement on the matter. [42861/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1094/"
+                      },
+                      {
+                        "name": "1095. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage to share analysis of the level of concentration of Canadian ownership of Irish housing stock over the past ten years, in tabular form; and if he will make a statement on the matter. [42862/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1095/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "496. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51770/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/496/"
+                      },
+                      {
+                        "name": "497. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51788/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/497/"
+                      },
+                      {
+                        "name": "498. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51806/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/498/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1780. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total number of cost-rental homes delivered in 2025 in the Dublin City Council area and for Dublin bay south, the breakdown by the type of delivery such as, local authority builds, local authority acquisitions, tenant in-situ, and so on; and if he will make a statement on the matter. [26100/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1780/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "565. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the average all-in cost of delivering a new-build social housing unit in each of the years 2023, 2024 and 2025 respectively, by a one-bedroom apartment, two-bedroom apartment, three-bedroom house; the breakdown of these costs between construction, land acquisition, professional fees, VAT, and so on; and if he will make a statement on the matter. [45064/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/565/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rental Sector",
+                "children": [
+                  {
+                    "name": "Wednesday, 21 January",
+                    "date_iso": "2026-01-21",
+                    "children": [
+                      {
+                        "name": "158. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the measures being taken by the Department to mitigate the anticipated issues arising from the new rent reforms for families renting properties owned by people on the fair deal scheme; and if he will make a statement on the matter. [4726/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/158/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1703. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he will engage with Dublin City Council to review their budget shortfall for resurfacing and general road maintenance repairs across the city; and if he will make a statement on the matter. [24915/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1703/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "436. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage if he plans to extend the current waiver on the street furniture charge, which is due to expire at the end of September 2026; and if he will make a statement on the matter. [47204/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/436/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "474. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [49097/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/474/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "447. Deputy Eoin Hayes asked the Minister for Housing, Local Government and Heritage the supports that are available from the Government and State agencies for old age pensioners in vulnerable positions whose mortgages and properties were bought by private equity funds and are now being evicted by such funds; and if he will make a statement on the matter. [51077/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/447/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2608,6 +2696,38 @@
                         "name": "306. Deputy Eoin Hayes asked the Minister for Health the measures being taken by her Department to review the preparations taken by the HSE in advance of the flu season; and if she will make a statement on the matter. [4729/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-21/306/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "859. Deputy Eoin Hayes asked the Minister for Health the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51769/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/859/"
+                      },
+                      {
+                        "name": "860. Deputy Eoin Hayes asked the Minister for Health the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51805/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/860/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "813. Deputy Eoin Hayes asked the Minister for Health the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [49096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/813/"
                       }
                     ]
                   }
@@ -2756,18 +2876,155 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "643. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the specific steps beyond the commissioning of reports, that her Department and its agencies have taken to identify the number of residential spaces required for adults with intellectual disabilities for each year from 2027 onwards for each county; the current projected requirement for each county for each of the years 2027 to 2037 inclusive; and if she will make a statement on the matter. [51152/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/643/"
+                      },
+                      {
+                        "name": "644. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential places currently in place for each county, for adults with an intellectual disability, broken down by those provided and resourced by the HSE, Section 38 and 39 bodies, and other State organisations, private or for-profit organisations; and if she will make a statement on the matter. [51153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/644/"
+                      },
+                      {
+                        "name": "645. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential places provided for adults with an intellectual disability for each of the years 2021 to 2025 inclusive, broken down by those provided and resourced by the HSE, Section 38 and 39 type bodies and other State organisations, and private or for-profit organisations; and if she will make a statement on the matter. [51154/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/645/"
+                      },
+                      {
+                        "name": "648. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential places provided to adults with intellectual disabilities, broken down between planned and unplanned for each of the year 2021 to 2025 inclusive; and if she will make a statement on the matter. [51157/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/648/"
+                      },
+                      {
+                        "name": "649. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential spaces for adults with an intellectual disability that have been decommissioned or closed by the HSE and Section 38 and Section 39 type organisations for each of the years 2021 to 2025 inclusive; and if she will make a statement on the matter. [51158/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/649/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "773. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the estimated first year and full-year cost of increasing the ECCE capitation grant by 10%; and if she will make a statement on the matter. [45047/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/773/"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Departmental Expenditure",
                 "children": [
                   {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "646. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality for a breakdown of the State's expenditure on the provision of residential accommodation for each of the years 2021 to 2025 inclusive, broken down by residential accommodation, including the provision of resources by the State or its agencies, and private or for-profit providers; and if she will make a statement on the matter. [51155/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/646/"
+                      },
+                      {
+                        "name": "680. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51760/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/680/"
+                      },
+                      {
+                        "name": "681. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51778/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/681/"
+                      },
+                      {
+                        "name": "682. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51796/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/682/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Tuesday, 30 June",
                     "date_iso": "2026-06-30",
                     "children": [
                       {
-                        "name": "813. Deputy Eoin Hayes asked the Minister for Health the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [49096/26]",
+                        "name": "698. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [49086/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/813/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/698/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "943. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the list of properties identified for refurbishment for childcare services; and if she will make a statement on the matter. [9872/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/943/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "772. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the estimated first year and full-year cost of increasing the affordable childcare subsidy for children under three years of age by €1 per hour; and if she will make a statement on the matter. [45046/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/772/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Parental Leave",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "907. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality if she will introduce the option to share/transfer parent's leave between parents; and if she will make a statement on the matter. [9871/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/907/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "647. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the specific criteria and guidelines that are used in the planning and allocation of residential accommodation to adults with intellectual disabilities; the details of the steps taken in ascertaining the preference and choices of the adult person to whom accommodation is being provided; the steps taken to ensure ease of access to family members and existing community; and if she will make a statement on the matter. [51156/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/647/"
                       }
                     ]
                   }
@@ -3310,6 +3567,80 @@
             ]
           },
           {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "910. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51773/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/910/"
+                      },
+                      {
+                        "name": "911. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51791/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/911/"
+                      },
+                      {
+                        "name": "912. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51809/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/912/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "953. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [49098/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/953/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Development Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "543. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the plans that are in place in his Department to improve the funding and resourcing of community centres; and if he will make a statement on the matter. [46268/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/543/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Enterprise Sector",
+                "children": [
+                  {
+                    "name": "Wednesday, 24 June",
+                    "date_iso": "2026-06-24",
+                    "children": [
+                      {
+                        "name": "346. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht if he accepts that the majority of social enterprises in Ireland operate in areas of persistent market failure, delivering services that are needed but cannot be made commercially self-sustaining, rather than functioning as conventional, profit-maximising market actors; and if he will make a statement on the matter. [48271/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/346/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Defence",
             "children": [
               {
@@ -3365,86 +3696,6 @@
                         "name": "155. Deputy Eoin Hayes asked the Minister for Defence the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [49089/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/155/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "943. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the list of properties identified for refurbishment for childcare services; and if she will make a statement on the matter. [9872/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/943/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "772. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the estimated first year and full-year cost of increasing the affordable childcare subsidy for children under three years of age by €1 per hour; and if she will make a statement on the matter. [45046/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/772/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Parental Leave",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "907. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality if she will introduce the option to share/transfer parent's leave between parents; and if she will make a statement on the matter. [9871/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/907/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "773. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the estimated first year and full-year cost of increasing the ECCE capitation grant by 10%; and if she will make a statement on the matter. [45047/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/773/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "698. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [49086/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/698/"
                       }
                     ]
                   }
@@ -3558,64 +3809,32 @@
             ]
           },
           {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Community Development Projects",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "543. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the plans that are in place in his Department to improve the funding and resourcing of community centres; and if he will make a statement on the matter. [46268/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/543/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Enterprise Sector",
-                "children": [
-                  {
-                    "name": "Wednesday, 24 June",
-                    "date_iso": "2026-06-24",
-                    "children": [
-                      {
-                        "name": "346. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht if he accepts that the majority of social enterprises in Ireland operate in areas of persistent market failure, delivering services that are needed but cannot be made commercially self-sustaining, rather than functioning as conventional, profit-maximising market actors; and if he will make a statement on the matter. [48271/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/346/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "953. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [49098/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/953/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
                 "name": "Departmental Expenditure",
                 "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "901. Deputy Eoin Hayes asked the Minister for Further and Higher Education, Research, Innovation and Science the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51768/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/901/"
+                      },
+                      {
+                        "name": "902. Deputy Eoin Hayes asked the Minister for Further and Higher Education, Research, Innovation and Science the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51786/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/902/"
+                      },
+                      {
+                        "name": "903. Deputy Eoin Hayes asked the Minister for Further and Higher Education, Research, Innovation and Science the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51804/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/903/"
+                      }
+                    ]
+                  },
                   {
                     "name": "Tuesday, 30 June",
                     "date_iso": "2026-06-30",
@@ -5756,6 +5975,204 @@
           "heading": "Departmental Expenditure",
           "question": "625. Deputy Eoin Hayes asked the Minister for Agriculture, Food and the Marine the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51795/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/625/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 643,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "643. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the specific steps beyond the commissioning of reports, that her Department and its agencies have taken to identify the number of residential spaces required for adults with intellectual disabilities for each year from 2027 onwards for each county; the current projected requirement for each county for each of the years 2027 to 2037 inclusive; and if she will make a statement on the matter. [51152/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/643/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 644,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "644. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential places currently in place for each county, for adults with an intellectual disability, broken down by those provided and resourced by the HSE, Section 38 and 39 bodies, and other State organisations, private or for-profit organisations; and if she will make a statement on the matter. [51153/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/644/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 645,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "645. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential places provided for adults with an intellectual disability for each of the years 2021 to 2025 inclusive, broken down by those provided and resourced by the HSE, Section 38 and 39 type bodies and other State organisations, and private or for-profit organisations; and if she will make a statement on the matter. [51154/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/645/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 646,
+          "department": "Children",
+          "heading": "Departmental Expenditure",
+          "question": "646. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality for a breakdown of the State's expenditure on the provision of residential accommodation for each of the years 2021 to 2025 inclusive, broken down by residential accommodation, including the provision of resources by the State or its agencies, and private or for-profit providers; and if she will make a statement on the matter. [51155/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/646/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 647,
+          "department": "Children",
+          "heading": "Departmental Policies",
+          "question": "647. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the specific criteria and guidelines that are used in the planning and allocation of residential accommodation to adults with intellectual disabilities; the details of the steps taken in ascertaining the preference and choices of the adult person to whom accommodation is being provided; the steps taken to ensure ease of access to family members and existing community; and if she will make a statement on the matter. [51156/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/647/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 648,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "648. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential places provided to adults with intellectual disabilities, broken down between planned and unplanned for each of the year 2021 to 2025 inclusive; and if she will make a statement on the matter. [51157/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/648/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 649,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "649. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the number of residential spaces for adults with an intellectual disability that have been decommissioned or closed by the HSE and Section 38 and Section 39 type organisations for each of the years 2021 to 2025 inclusive; and if she will make a statement on the matter. [51158/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/649/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 680,
+          "department": "Children",
+          "heading": "Departmental Expenditure",
+          "question": "680. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51760/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/680/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 681,
+          "department": "Children",
+          "heading": "Departmental Expenditure",
+          "question": "681. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51778/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/681/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 682,
+          "department": "Children",
+          "heading": "Departmental Expenditure",
+          "question": "682. Deputy Eoin Hayes asked the Minister for Children, Disability and Equality the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51796/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/682/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 859,
+          "department": "Health",
+          "heading": "Departmental Expenditure",
+          "question": "859. Deputy Eoin Hayes asked the Minister for Health the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51769/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/859/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 860,
+          "department": "Health",
+          "heading": "Departmental Expenditure",
+          "question": "860. Deputy Eoin Hayes asked the Minister for Health the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across her Department, by project, year and value; and if she will make a statement on the matter. [51805/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/860/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 901,
+          "department": "Further and Higher Education",
+          "heading": "Departmental Expenditure",
+          "question": "901. Deputy Eoin Hayes asked the Minister for Further and Higher Education, Research, Innovation and Science the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51768/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/901/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 902,
+          "department": "Further and Higher Education",
+          "heading": "Departmental Expenditure",
+          "question": "902. Deputy Eoin Hayes asked the Minister for Further and Higher Education, Research, Innovation and Science the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51786/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/902/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 903,
+          "department": "Further and Higher Education",
+          "heading": "Departmental Expenditure",
+          "question": "903. Deputy Eoin Hayes asked the Minister for Further and Higher Education, Research, Innovation and Science the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51804/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/903/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 910,
+          "department": "Rural",
+          "heading": "Departmental Expenditure",
+          "question": "910. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51773/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/910/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 911,
+          "department": "Rural",
+          "heading": "Departmental Expenditure",
+          "question": "911. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51791/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/911/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-07",
+          "questionNumber": 912,
+          "department": "Rural",
+          "heading": "Departmental Expenditure",
+          "question": "912. Deputy Eoin Hayes asked the Minister for Rural and Community Development and the Gaeltacht the total cost of engagement with a company (details supplied) in each of the years 2020 to 2025, across his Department, by project, year and value; and if he will make a statement on the matter. [51809/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/912/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 6,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "6. Deputy Eoin Hayes asked the Minister for Foreign Affairs and Trade to provide details of the humanitarian supports Ireland is providing to Venezuela in the aftermath of the recent earthquakes; and if she will make a statement on the matter. [52004/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/6/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 9,
+          "department": "Foreign",
+          "heading": "Foreign Policy",
+          "question": "9. Deputy Eoin Hayes asked the Minister for Foreign Affairs and Trade the Government's position on the Paris protocol and its operational applicability to economic relations between Palestine and Israel. [52144/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/9/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 54,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "54. Deputy Eoin Hayes asked the Minister for Transport when the independent feasibility study for Metro Southwest in line with the Programme for Government will be commissioned; and if he will make a statement on the matter. [52126/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/54/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 131,
+          "department": "Social",
+          "heading": "Social Welfare Appeals",
+          "question": "131. Deputy Eoin Hayes asked the Minister for Social Protection the measures his Department is taking to address the current backlog and processing time of social welfare appeals; and if he will make a statement on the matter. [52103/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/131/",
           "questionType": "written"
         }
       ]

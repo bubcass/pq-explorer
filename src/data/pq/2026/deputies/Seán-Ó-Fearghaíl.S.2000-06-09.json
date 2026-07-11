@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Ó-Fearghaíl.S.2000-06-09/image/large",
   "types": {
     "all": {
-      "count": 257,
+      "count": 276,
       "headingOptions": [
         "Adult Education Provision",
         "Ambulance Service",
@@ -27,9 +27,11 @@
         "Care of the Elderly",
         "Care Services",
         "Charitable and Voluntary Organisations",
+        "Child Protection",
         "Childcare Services",
         "Coast Guard Service",
         "Consular Services",
+        "Crime Prevention",
         "Data Centres",
         "Defence Forces",
         "Dental Services",
@@ -55,12 +57,14 @@
         "Education Costs",
         "Education Policy",
         "Education Schemes",
+        "Educational Disadvantage",
         "Electricity Grid",
         "Electricity Supply Board",
         "Emergency Departments",
         "Employment Rights",
         "Energy Policy",
         "Enterprise Support Services",
+        "Equality Issues",
         "EU Agreements",
         "EU Membership",
         "EU Presidency",
@@ -72,6 +76,7 @@
         "Foreign Policy",
         "Fuel Prices",
         "General Practitioner Services",
+        "Health Screening Programmes",
         "Health Services",
         "Health Services Staff",
         "Healthcare Policy",
@@ -101,6 +106,7 @@
         "Overseas Development Aid",
         "Parental Leave",
         "Pension Provisions",
+        "Pharmacy Services",
         "Planning Issues",
         "Prison Service",
         "Programme for Government",
@@ -113,6 +119,7 @@
         "School Admissions",
         "School Enrolments",
         "School Facilities",
+        "School Funding",
         "School Staff",
         "School Transport",
         "Schools Building Projects",
@@ -142,7 +149,7 @@
         "topHeading": "Departmental Correspondence",
         "topHeadingCount": 11,
         "topDepartment": "Education",
-        "topDepartmentCount": 37
+        "topDepartmentCount": 42
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -152,7 +159,7 @@
             "children": [
               {
                 "name": "Special Educational Needs",
-                "value": 7
+                "value": 8
               },
               {
                 "name": "School Transport",
@@ -175,6 +182,10 @@
                 "value": 3
               },
               {
+                "name": "Education Policy",
+                "value": 2
+              },
+              {
                 "name": "School Staff",
                 "value": 2
               },
@@ -195,10 +206,6 @@
                 "value": 1
               },
               {
-                "name": "Education Policy",
-                "value": 1
-              },
-              {
                 "name": "Ministerial Communications",
                 "value": 1
               },
@@ -208,6 +215,18 @@
               },
               {
                 "name": "Education Schemes",
+                "value": 1
+              },
+              {
+                "name": "Educational Disadvantage",
+                "value": 1
+              },
+              {
+                "name": "Employment Rights",
+                "value": 1
+              },
+              {
+                "name": "School Funding",
                 "value": 1
               }
             ]
@@ -220,6 +239,10 @@
                 "value": 6
               },
               {
+                "name": "General Practitioner Services",
+                "value": 3
+              },
+              {
                 "name": "Health Services Staff",
                 "value": 3
               },
@@ -228,11 +251,11 @@
                 "value": 2
               },
               {
-                "name": "General Practitioner Services",
+                "name": "Ambulance Service",
                 "value": 2
               },
               {
-                "name": "Ambulance Service",
+                "name": "Cancer Services",
                 "value": 2
               },
               {
@@ -241,6 +264,10 @@
               },
               {
                 "name": "Health Services",
+                "value": 2
+              },
+              {
+                "name": "Care Services",
                 "value": 2
               },
               {
@@ -264,10 +291,6 @@
                 "value": 1
               },
               {
-                "name": "Cancer Services",
-                "value": 1
-              },
-              {
                 "name": "Charitable and Voluntary Organisations",
                 "value": 1
               },
@@ -277,10 +300,6 @@
               },
               {
                 "name": "Hospital Services",
-                "value": 1
-              },
-              {
-                "name": "Care Services",
                 "value": 1
               },
               {
@@ -305,6 +324,14 @@
               },
               {
                 "name": "Emergency Departments",
+                "value": 1
+              },
+              {
+                "name": "Health Screening Programmes",
+                "value": 1
+              },
+              {
+                "name": "Pharmacy Services",
                 "value": 1
               }
             ]
@@ -391,11 +418,11 @@
               },
               {
                 "name": "Disability Services",
-                "value": 4
+                "value": 5
               },
               {
                 "name": "Childcare Services",
-                "value": 3
+                "value": 5
               },
               {
                 "name": "Special Educational Needs",
@@ -415,6 +442,55 @@
               },
               {
                 "name": "Early Childhood Care and Education",
+                "value": 1
+              },
+              {
+                "name": "Equality Issues",
+                "value": 1
+              },
+              {
+                "name": "Child Protection",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 11
+              },
+              {
+                "name": "Departmental Properties",
+                "value": 2
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 2
+              },
+              {
+                "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Illegal Dumping",
+                "value": 1
+              },
+              {
+                "name": "Official Engagements",
+                "value": 1
+              },
+              {
+                "name": "Animal Welfare",
                 "value": 1
               }
             ]
@@ -473,47 +549,6 @@
             ]
           },
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 8
-              },
-              {
-                "name": "Departmental Properties",
-                "value": 2
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 2
-              },
-              {
-                "name": "Programme for Government",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Illegal Dumping",
-                "value": 1
-              },
-              {
-                "name": "Official Engagements",
-                "value": 1
-              },
-              {
-                "name": "Animal Welfare",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Housing",
             "children": [
               {
@@ -555,6 +590,39 @@
             ]
           },
           {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "value": 4
+              },
+              {
+                "name": "Visa Applications",
+                "value": 3
+              },
+              {
+                "name": "International Protection",
+                "value": 3
+              },
+              {
+                "name": "Prison Service",
+                "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Youth Services",
+                "value": 1
+              },
+              {
+                "name": "Crime Prevention",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -591,35 +659,6 @@
               },
               {
                 "name": "Departmental Correspondence",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "value": 4
-              },
-              {
-                "name": "Visa Applications",
-                "value": 3
-              },
-              {
-                "name": "International Protection",
-                "value": 3
-              },
-              {
-                "name": "Prison Service",
-                "value": 1
-              },
-              {
-                "name": "Departmental Correspondence",
-                "value": 1
-              },
-              {
-                "name": "Youth Services",
                 "value": 1
               }
             ]
@@ -913,6 +952,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/286/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "96. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to improve special needs education provision since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51940/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/96/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1116,6 +1166,33 @@
                 ]
               },
               {
+                "name": "Education Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1318. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth to address the concerns regarding the preparedness of Irish schools for a medical emergency, raised in correspondence (details supplied); and if she will make a statement on the matter. [24622/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1318/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "97. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to improve primary education since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51941/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/97/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "School Staff",
                 "children": [
                   {
@@ -1223,22 +1300,6 @@
                 ]
               },
               {
-                "name": "Education Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1318. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth to address the concerns regarding the preparedness of Irish schools for a medical emergency, raised in correspondence (details supplied); and if she will make a statement on the matter. [24622/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1318/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Ministerial Communications",
                 "children": [
                   {
@@ -1281,6 +1342,54 @@
                         "name": "361. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the steps her Department is taking to address the ongoing lack of clarity surrounding the 2026 summer provision programme, particularly in relation to delays in issuing home-based sanctions, guidance to schools on staffing and enrolment numbers, and the potential financial implications for teachers and special needs assistants where attendance thresholds are not met on the first day; and if she will make a statement on the matter. [47495/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/361/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Educational Disadvantage",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "98. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to tackle educational disadvantage since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51942/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/98/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Employment Rights",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "99. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to improve employment conditions for teachers since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51943/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/99/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "100. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to support schools facing financial pressures since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51944/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/100/"
                       }
                     ]
                   }
@@ -1339,6 +1448,44 @@
                         "name": "1141. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE consultant in geriatric medicine based at St James's Hospital as of 27 January 2026; the average waiting times to see these consultants for the first time; and if she will make a statement on the matter. [8372/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1141/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "General Practitioner Services",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "444. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns regarding general practitioner services raised in correspondence (details supplied); and if she will make a statement on the matter. [7230/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/444/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "163. Deputy Seán Ó Fearghaíl asked the Minister for Health the plans in place to increase the number of GPs through a combination of international recruitment and increased training places; and if she will make a statement on the matter. [28359/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/163/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "212. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to support and improve GP services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51934/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/212/"
                       }
                     ]
                   }
@@ -1404,33 +1551,6 @@
                 ]
               },
               {
-                "name": "General Practitioner Services",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "444. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns regarding general practitioner services raised in correspondence (details supplied); and if she will make a statement on the matter. [7230/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/444/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "163. Deputy Seán Ó Fearghaíl asked the Minister for Health the plans in place to increase the number of GPs through a combination of international recruitment and increased training places; and if she will make a statement on the matter. [28359/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/163/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Ambulance Service",
                 "children": [
                   {
@@ -1452,6 +1572,33 @@
                         "name": "1728. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns regarding the National Ambulance Service (details supplied); and if she will make a statement on the matter. [18655/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1728/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cancer Services",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "83. Deputy Seán Ó Fearghaíl asked the Minister for Health the plans in place to bring forward a new cancer strategy; and if she will make a statement on the matter. [17300/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/83/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "208. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve cancer care since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/208/"
                       }
                     ]
                   }
@@ -1506,6 +1653,33 @@
                         "name": "1226. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will request the HSE to engage with a HIQA registered respite service (details supplied) with a view to establishing a service agreement to enable this ready-to-open service to become operational; and if she will make a statement on the matter. [30388/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1226/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Care Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "1006. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns regarding access to primary care services (details supplied); and if she will make a statement on the matter. [32547/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1006/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "211. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve social care services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51933/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/211/"
                       }
                     ]
                   }
@@ -1592,22 +1766,6 @@
                 ]
               },
               {
-                "name": "Cancer Services",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "83. Deputy Seán Ó Fearghaíl asked the Minister for Health the plans in place to bring forward a new cancer strategy; and if she will make a statement on the matter. [17300/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/83/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Charitable and Voluntary Organisations",
                 "children": [
                   {
@@ -1650,22 +1808,6 @@
                         "name": "153. Deputy Seán Ó Fearghaíl asked the Minister for Health the plans in place to expand trauma services; and if she will make a statement on the matter. [28358/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/153/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Care Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "1006. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns regarding access to primary care services (details supplied); and if she will make a statement on the matter. [32547/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1006/"
                       }
                     ]
                   }
@@ -1762,6 +1904,38 @@
                         "name": "291. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of resuscitation bays and minor treatment bays currently available for use within accident and emergency department of Naas General Hospital; and if she will make a statement on the matter. [48130/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/291/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Screening Programmes",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "209. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve screening services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51931/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/209/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pharmacy Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "210. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve pharmacy services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51932/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/210/"
                       }
                     ]
                   }
@@ -2241,12 +2415,39 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/399/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "199. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken to improve disability services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [52955/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/199/"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "name": "Childcare Services",
                 "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "185. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken to improve childcare and early learning services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51935/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/185/"
+                      },
+                      {
+                        "name": "186. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken to improve employment conditions in the childcare and early learning services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51936/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/186/"
+                      }
+                    ]
+                  },
                   {
                     "name": "Tuesday, 27 January",
                     "date_iso": "2026-01-27",
@@ -2357,6 +2558,295 @@
                         "name": "235. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will intervene to prevent the proposed closure of a school in Kildare (details supplied); and if she will make a statement on the matter. [31176/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/235/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Equality Issues",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "187. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key equality measures since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51938/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/187/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Child Protection",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "188. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken in child protection services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51939/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/188/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "18. Deputy Seán Ó Fearghaíl asked the Minister for Defence the key measures taken to increase recruitment to the Defence Forces since January 2025; her priorities for the rest of 2026; and if she will make a statement on the matter. [51927/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/18/"
+                      },
+                      {
+                        "name": "19. Deputy Seán Ó Fearghaíl asked the Minister for Defence the key measures taken to increase retention levels in the Defence Forces since January 2025; her priorities for the rest of 2026; and if she will make a statement on the matter. [51928/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/19/"
+                      },
+                      {
+                        "name": "20. Deputy Seán Ó Fearghaíl asked the Minister for Defence the key measures taken to support and expand the Reserve Defence Force since January 2025; her priorities for the rest of 2026; and if she will make a statement on the matter. [51929/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/20/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "200. Deputy Seán Ó Fearghaíl asked the Minister for Defence the plans in place for the residential units in the Curragh Camp; and if she will make a statement on the matter. [11996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/200/"
+                      },
+                      {
+                        "name": "220. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will report on the development of an Institute for Peace Support and Leadership Training at the Curragh; and if she will make a statement on the matter. [11997/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/220/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "185. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will address concerns regarding Defence Forces activity on the Curragh, raised in correspondence (details supplied); and if she will make a statement on the matter. [7232/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/185/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "218. Deputy Seán Ó Fearghaíl asked the Minister for Defence the number of vacancies by rank currently in the Defence Forces Equitation School; the timeframe for filling each of those vacancies, in tabular form; and if she will make a statement on the matter. [8187/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/218/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "183. Deputy Seán Ó Fearghaíl asked the Minister for Defence the amount that the Defence Forces spent on purchasing specialist fire appliances for Defence Forces fire services in 2025 and to date in 2026; the ages of the fire appliances that are currently in use, in tabular form; and if she will make a statement on the matter. [27454/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/183/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "76. Deputy Seán Ó Fearghaíl asked the Minister for Defence her plans to increase cadet pay; and if she will make a statement on the matter. [33119/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/76/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "164. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she is satisfied with current levels of recruitment and retention in the permanent Defence Forces; and if she will make a statement on the matter. [42805/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/164/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 24 June",
+                    "date_iso": "2026-06-24",
+                    "children": [
+                      {
+                        "name": "135. Deputy Seán Ó Fearghaíl asked the Minister for Defence the number of horses that had trials for the Defence Forces Equitation School in the years of 2025 and to date in 2026; of the number of horses that had trials the number that were successful in being accepted into the equitation school, in tabular form; and if she will make a statement on the matter. [48136/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/135/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "276. Deputy Seán Ó Fearghaíl asked the Minister for Defence her views on a request for a tenant purchase of a house owned by her Department (details supplied); and if she will make a statement on the matter. [15009/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/276/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "154. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will set out in detail the actions taken to date by her Department towards achieving the Programme for Government commitment to introduce a new management system for the Curragh Plains; if she will indicate which relevant State body or agency has lead responsibility for the development and implementation of this new management system; and if she will make a statement on the matter. [47489/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/154/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "152. Deputy Seán Ó Fearghaíl asked the Minister for Defence the total cumulative expenditure to date by her Department on legal proceedings relating to illegal encampments on the Curragh, County Kildare; the breakdown of such expenditure for each of the years 2024, 2025, and to date in 2026; and if she will make a statement on the matter. [47487/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/152/"
+                      },
+                      {
+                        "name": "153. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will detail the total expenditure incurred by her Department in each of the years 2021, 2022, 2023, 2024, 2025, and to date in 2026 on environmental clean-ups carried out on the Curragh Plains, County Kildare, arising from illegal encampments and associated fly-tipping; and if she will make a statement on the matter. [47488/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/153/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "277. Deputy Seán Ó Fearghaíl asked the Minister for Defence the progress that has been made towards implementing the Programme for Government's commitment to introduce a new management system for the Curragh Plains; and if she will make a statement on the matter. [15059/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/277/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "278. Deputy Seán Ó Fearghaíl asked the Minister for Defence in light of the annual establishment of illegal encampments on the Curragh Plains in late Spring early Summer, the strategies in place to prohibit these encampments occurring again in 2026; and if she will make a statement on the matter. [15060/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/278/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Inquiries",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "265. Deputy Seán Ó Fearghaíl asked the Minister for Defence the protocols in place at her Department headquarters in Newbridge, County Kildare to facilitate communication with those wishing to engage by phone with Department staff; the reason callers are put on hold and left on hold for excessive periods of time, and calls that need to be transferred are once again delayed or not completed; and if she will make a statement on the matter. [16673/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/265/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Illegal Dumping",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "258. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will address the concerns regarding illegal parking and waste disposal on the Curragh Plains, raised in correspondence (details supplied); and if she will make a statement on the matter. [21539/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/258/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Official Engagements",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "178. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will report on her attendance at the PDFORRA conference in May; and if she will make a statement on the matter. [42804/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/178/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Animal Welfare",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "142. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will ensure that unregistered and/or unvaccinated horses and ponies are not permitted to roam on the Curragh, where they may come into contact with valuable thoroughbred horses, thereby raising concerns regarding animal health and welfare; and if she will make a statement on the matter. [47490/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/142/"
                       }
                     ]
                   }
@@ -2627,242 +3117,6 @@
             ]
           },
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "200. Deputy Seán Ó Fearghaíl asked the Minister for Defence the plans in place for the residential units in the Curragh Camp; and if she will make a statement on the matter. [11996/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/200/"
-                      },
-                      {
-                        "name": "220. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will report on the development of an Institute for Peace Support and Leadership Training at the Curragh; and if she will make a statement on the matter. [11997/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/220/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "185. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will address concerns regarding Defence Forces activity on the Curragh, raised in correspondence (details supplied); and if she will make a statement on the matter. [7232/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/185/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "218. Deputy Seán Ó Fearghaíl asked the Minister for Defence the number of vacancies by rank currently in the Defence Forces Equitation School; the timeframe for filling each of those vacancies, in tabular form; and if she will make a statement on the matter. [8187/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/218/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "183. Deputy Seán Ó Fearghaíl asked the Minister for Defence the amount that the Defence Forces spent on purchasing specialist fire appliances for Defence Forces fire services in 2025 and to date in 2026; the ages of the fire appliances that are currently in use, in tabular form; and if she will make a statement on the matter. [27454/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/183/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "76. Deputy Seán Ó Fearghaíl asked the Minister for Defence her plans to increase cadet pay; and if she will make a statement on the matter. [33119/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/76/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "164. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she is satisfied with current levels of recruitment and retention in the permanent Defence Forces; and if she will make a statement on the matter. [42805/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/164/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 24 June",
-                    "date_iso": "2026-06-24",
-                    "children": [
-                      {
-                        "name": "135. Deputy Seán Ó Fearghaíl asked the Minister for Defence the number of horses that had trials for the Defence Forces Equitation School in the years of 2025 and to date in 2026; of the number of horses that had trials the number that were successful in being accepted into the equitation school, in tabular form; and if she will make a statement on the matter. [48136/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/135/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Properties",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "276. Deputy Seán Ó Fearghaíl asked the Minister for Defence her views on a request for a tenant purchase of a house owned by her Department (details supplied); and if she will make a statement on the matter. [15009/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/276/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "154. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will set out in detail the actions taken to date by her Department towards achieving the Programme for Government commitment to introduce a new management system for the Curragh Plains; if she will indicate which relevant State body or agency has lead responsibility for the development and implementation of this new management system; and if she will make a statement on the matter. [47489/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/154/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "152. Deputy Seán Ó Fearghaíl asked the Minister for Defence the total cumulative expenditure to date by her Department on legal proceedings relating to illegal encampments on the Curragh, County Kildare; the breakdown of such expenditure for each of the years 2024, 2025, and to date in 2026; and if she will make a statement on the matter. [47487/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/152/"
-                      },
-                      {
-                        "name": "153. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will detail the total expenditure incurred by her Department in each of the years 2021, 2022, 2023, 2024, 2025, and to date in 2026 on environmental clean-ups carried out on the Curragh Plains, County Kildare, arising from illegal encampments and associated fly-tipping; and if she will make a statement on the matter. [47488/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/153/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Programme for Government",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "277. Deputy Seán Ó Fearghaíl asked the Minister for Defence the progress that has been made towards implementing the Programme for Government's commitment to introduce a new management system for the Curragh Plains; and if she will make a statement on the matter. [15059/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/277/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "278. Deputy Seán Ó Fearghaíl asked the Minister for Defence in light of the annual establishment of illegal encampments on the Curragh Plains in late Spring early Summer, the strategies in place to prohibit these encampments occurring again in 2026; and if she will make a statement on the matter. [15060/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/278/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Inquiries",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "265. Deputy Seán Ó Fearghaíl asked the Minister for Defence the protocols in place at her Department headquarters in Newbridge, County Kildare to facilitate communication with those wishing to engage by phone with Department staff; the reason callers are put on hold and left on hold for excessive periods of time, and calls that need to be transferred are once again delayed or not completed; and if she will make a statement on the matter. [16673/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/265/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Illegal Dumping",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "258. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will address the concerns regarding illegal parking and waste disposal on the Curragh Plains, raised in correspondence (details supplied); and if she will make a statement on the matter. [21539/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/258/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Official Engagements",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "178. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will report on her attendance at the PDFORRA conference in May; and if she will make a statement on the matter. [42804/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/178/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Animal Welfare",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "142. Deputy Seán Ó Fearghaíl asked the Minister for Defence if she will ensure that unregistered and/or unvaccinated horses and ponies are not permitted to roam on the Curragh, where they may come into contact with valuable thoroughbred horses, thereby raising concerns regarding animal health and welfare; and if she will make a statement on the matter. [47490/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/142/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Housing",
             "children": [
               {
@@ -3088,6 +3342,188 @@
             ]
           },
           {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "824. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if a new recruitment campaign for An Garda Síochána will be launched before Easter; and if he will make a statement on the matter. [8185/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/824/"
+                      },
+                      {
+                        "name": "825. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of new marked Garda cars and vans that were allocated to the Kildare-Carlow Garda Division during 2025; the number of those vehicles that were withdrawn from the division during same period, in tabular form; and if he will make a statement on the matter. [8186/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/825/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "857. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of 4x4 vehicles currently in the Kildare-Carlow Garda Fleet; and if he will make a statement on the matter. [35214/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/857/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "355. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Gardaí trained and deployed in specialist units for cyber-crime and serious and organised crime within Kildare-Carlow Division; and if he will make a statement on the matter. [48463/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/355/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "472. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider matters raised in correspondence (details supplied); and if he will make a statement on the matter. [3223/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/472/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "910. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the difficulties raised in correspondence regarding a de facto partner visa (details supplied); and if he will make a statement on the matter. [12352/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/910/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2064. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider the appeal regarding the issuing of a short-stay visa raised in correspondence (details supplied); and if he will make a statement on the matter. [25150/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2064/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "879. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if in the context of reforming the accommodation system for displaced Ukrainians compassionate consideration will be given to elderly and disabled persons; to mothers of very young children; and if he will make a statement on the matter. [40192/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/879/"
+                      },
+                      {
+                        "name": "880. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if consideration is being given to a repatriation scheme for Ukrainian citizens; if so, if particular attention will be paid to the question of Ukrainian citizens returning to Russian occupied areas; and if he will make a statement on the matter. [40193/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/880/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "550. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the current average processing times for Afghan applicants seeking international protection or humanitarian admission to Ireland; the prioritisation criteria that are applied in cases involving women, educators, and families under threat from the Taliban; whether additional resources or emergency procedures are being considered to address long-standing cases exceeding four years; and if he will make a statement on the matter. [47764/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/550/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prison Service",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "347. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider important issues relating to the Irish Prison Service, raised in correspondence (details supplied); and if he will make a statement on the matter. [7231/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/347/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1943. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 217 of 24 March 2026, if he will address concerns raised in correspondence (details supplied) with specific focus on the fact that this is no longer a question of legal process, but one of enforcement failure and accountability; and if he will make a statement on the matter. [26418/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1943/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Youth Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "856. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Juvenile Liaison Officers attached to Kildare-Carlow Division as of 6 May 2026; if he will provide the same figures as of 31 December 2024, in tabular form; and if he will make a statement on the matter. [35213/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/856/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Crime Prevention",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "140. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the key measures taken to tackle crime and improve community safety since January 2025; his priorities for same for the rest of 2026; and if he will make a statement on the matter. [51945/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/140/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -3260,172 +3696,6 @@
                         "name": "296. Deputy Seán Ó Fearghaíl asked the Minister for Enterprise, Tourism and Employment if he will address concerns raised in correspondence (details supplied) regarding Ireland’s role in the importation of goods produced through forced labour and hazardous child labour, including enforcement gaps, delays in corporate accountability measures, and the adequacy of penalties and regulatory powers; and if he will make a statement on the matter. [50642/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/296/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "824. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if a new recruitment campaign for An Garda Síochána will be launched before Easter; and if he will make a statement on the matter. [8185/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/824/"
-                      },
-                      {
-                        "name": "825. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of new marked Garda cars and vans that were allocated to the Kildare-Carlow Garda Division during 2025; the number of those vehicles that were withdrawn from the division during same period, in tabular form; and if he will make a statement on the matter. [8186/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/825/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "857. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of 4x4 vehicles currently in the Kildare-Carlow Garda Fleet; and if he will make a statement on the matter. [35214/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/857/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "355. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Gardaí trained and deployed in specialist units for cyber-crime and serious and organised crime within Kildare-Carlow Division; and if he will make a statement on the matter. [48463/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/355/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "472. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider matters raised in correspondence (details supplied); and if he will make a statement on the matter. [3223/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/472/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "910. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the difficulties raised in correspondence regarding a de facto partner visa (details supplied); and if he will make a statement on the matter. [12352/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/910/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2064. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider the appeal regarding the issuing of a short-stay visa raised in correspondence (details supplied); and if he will make a statement on the matter. [25150/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2064/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "879. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if in the context of reforming the accommodation system for displaced Ukrainians compassionate consideration will be given to elderly and disabled persons; to mothers of very young children; and if he will make a statement on the matter. [40192/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/879/"
-                      },
-                      {
-                        "name": "880. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if consideration is being given to a repatriation scheme for Ukrainian citizens; if so, if particular attention will be paid to the question of Ukrainian citizens returning to Russian occupied areas; and if he will make a statement on the matter. [40193/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/880/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "550. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the current average processing times for Afghan applicants seeking international protection or humanitarian admission to Ireland; the prioritisation criteria that are applied in cases involving women, educators, and families under threat from the Taliban; whether additional resources or emergency procedures are being considered to address long-standing cases exceeding four years; and if he will make a statement on the matter. [47764/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/550/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Prison Service",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "347. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider important issues relating to the Irish Prison Service, raised in correspondence (details supplied); and if he will make a statement on the matter. [7231/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/347/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1943. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 217 of 24 March 2026, if he will address concerns raised in correspondence (details supplied) with specific focus on the fact that this is no longer a question of legal process, but one of enforcement failure and accountability; and if he will make a statement on the matter. [26418/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1943/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Youth Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "856. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Juvenile Liaison Officers attached to Kildare-Carlow Division as of 6 May 2026; if he will provide the same figures as of 31 December 2024, in tabular form; and if he will make a statement on the matter. [35213/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/856/"
                       }
                     ]
                   }
@@ -6543,6 +6813,177 @@
           "heading": "School Transport",
           "question": "375. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth if she will review the case of a student (details supplied) who has been refused school transport for the 2026-2027 school year; if consideration can be given to providing a concessionary place on an existing service; and if she will make a statement on the matter. [51435/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/375/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 18,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "18. Deputy Seán Ó Fearghaíl asked the Minister for Defence the key measures taken to increase recruitment to the Defence Forces since January 2025; her priorities for the rest of 2026; and if she will make a statement on the matter. [51927/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/18/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 19,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "19. Deputy Seán Ó Fearghaíl asked the Minister for Defence the key measures taken to increase retention levels in the Defence Forces since January 2025; her priorities for the rest of 2026; and if she will make a statement on the matter. [51928/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/19/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 20,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "20. Deputy Seán Ó Fearghaíl asked the Minister for Defence the key measures taken to support and expand the Reserve Defence Force since January 2025; her priorities for the rest of 2026; and if she will make a statement on the matter. [51929/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/20/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 96,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "96. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to improve special needs education provision since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51940/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/96/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 97,
+          "department": "Education",
+          "heading": "Education Policy",
+          "question": "97. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to improve primary education since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51941/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/97/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 98,
+          "department": "Education",
+          "heading": "Educational Disadvantage",
+          "question": "98. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to tackle educational disadvantage since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51942/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/98/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 99,
+          "department": "Education",
+          "heading": "Employment Rights",
+          "question": "99. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to improve employment conditions for teachers since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51943/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/99/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 100,
+          "department": "Education",
+          "heading": "School Funding",
+          "question": "100. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the key measures taken to support schools facing financial pressures since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51944/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/100/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 140,
+          "department": "Justice",
+          "heading": "Crime Prevention",
+          "question": "140. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the key measures taken to tackle crime and improve community safety since January 2025; his priorities for same for the rest of 2026; and if he will make a statement on the matter. [51945/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/140/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 185,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "185. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken to improve childcare and early learning services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51935/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/185/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 186,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "186. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken to improve employment conditions in the childcare and early learning services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51936/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/186/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 187,
+          "department": "Children",
+          "heading": "Equality Issues",
+          "question": "187. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key equality measures since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51938/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/187/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 188,
+          "department": "Children",
+          "heading": "Child Protection",
+          "question": "188. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken in child protection services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51939/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/188/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 199,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "199. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the key measures taken to improve disability services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [52955/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/199/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 208,
+          "department": "Health",
+          "heading": "Cancer Services",
+          "question": "208. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve cancer care since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51930/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/208/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 209,
+          "department": "Health",
+          "heading": "Health Screening Programmes",
+          "question": "209. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve screening services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51931/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/209/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 210,
+          "department": "Health",
+          "heading": "Pharmacy Services",
+          "question": "210. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve pharmacy services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51932/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/210/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 211,
+          "department": "Health",
+          "heading": "Care Services",
+          "question": "211. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to improve social care services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51933/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/211/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 212,
+          "department": "Health",
+          "heading": "General Practitioner Services",
+          "question": "212. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to support and improve GP services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51934/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/212/",
           "questionType": "written"
         }
       ]
