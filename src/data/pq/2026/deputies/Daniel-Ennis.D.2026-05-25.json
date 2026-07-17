@@ -9,22 +9,52 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Daniel-Ennis.D.2026-05-25/image/large",
   "types": {
     "all": {
-      "count": 9,
+      "count": 15,
       "headingOptions": [
+        "An Garda Síochána",
         "Childcare Services",
         "Departmental Expenditure",
+        "Departmental Funding",
         "Departmental Inquiries",
-        "Health Services Staff"
+        "Drug Dealing",
+        "Health Services Staff",
+        "Road Safety"
       ],
       "insights": {
-        "topHeading": "Health Services Staff",
-        "topHeadingCount": 3,
-        "topDepartment": "Health",
-        "topDepartmentCount": 3
+        "topHeading": "Childcare Services",
+        "topHeadingCount": 4,
+        "topDepartment": "Children",
+        "topDepartmentCount": 5
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 4
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Departmental Expenditure",
+                "value": 2
+              },
+              {
+                "name": "Road Safety",
+                "value": 1
+              }
+            ]
+          },
           {
             "name": "Health",
             "children": [
@@ -35,29 +65,24 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "value": 3
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Departmental Expenditure",
-                "value": 2
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
                 "name": "Departmental Inquiries",
                 "value": 1
+              },
+              {
+                "name": "Drug Dealing",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "value": 2
               }
             ]
           }
@@ -66,6 +91,106 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "651. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of people working as childminders in Ireland at present; and if she will make a statement on the matter. [51225/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/651/"
+                      },
+                      {
+                        "name": "652. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of childminders who have registered with Tusla under the new regulations for childminders; the figure as a percentage of the number of childminders operating in Ireland; and if she will make a statement on the matter. [51226/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/652/"
+                      },
+                      {
+                        "name": "653. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of childminders who have completed a pre-registration course via their local childcare committees; the figure as a percentage of the number of childminders operating in Ireland; and if she will make a statement on the matter. [51227/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/653/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "676. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality if she will provide an update on the number of childminders registered with Tusla to date since the implementation of the new childminding regulation in 2024; and to provide a breakdown of that uptake, per month, in tabular form. [53084/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/676/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "675. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality if she is aware of any early learning and childcare providers leaving core funding since the most recent price cap reduction from €198 per week to €183.70 per week; and if she will make a statement on the matter. [53083/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/675/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "240. Deputy Daniel Ennis asked the Minister for Transport the total amount allocated by his Department on the repair of footpaths across the country and for a breakdown of that cost allocation, based on county council, in tabular form. [46670/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/240/"
+                      },
+                      {
+                        "name": "246. Deputy Daniel Ennis asked the Minister for Transport the total amount of funding spent by transport bodies on footpaths in 2025; and the breakdown of that spending, by area, in tabular form. [46731/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/246/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "148. Deputy Daniel Ennis asked the Minister for Transport his plans to tackle a growing number of injuries received by children using e-scooters, given the news that six children have been placed on life support in the past two weeks in Children’s Health Ireland Temple Street hospital due to injuries they have sustained on e-scooters; and if he will make a statement on the matter. [53082/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/148/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Health",
             "children": [
@@ -98,63 +223,6 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "651. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of people working as childminders in Ireland at present; and if she will make a statement on the matter. [51225/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/651/"
-                      },
-                      {
-                        "name": "652. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of childminders who have registered with Tusla under the new regulations for childminders; the figure as a percentage of the number of childminders operating in Ireland; and if she will make a statement on the matter. [51226/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/652/"
-                      },
-                      {
-                        "name": "653. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of childminders who have completed a pre-registration course via their local childcare committees; the figure as a percentage of the number of childminders operating in Ireland; and if she will make a statement on the matter. [51227/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/653/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "240. Deputy Daniel Ennis asked the Minister for Transport the total amount allocated by his Department on the repair of footpaths across the country and for a breakdown of that cost allocation, based on county council, in tabular form. [46670/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/240/"
-                      },
-                      {
-                        "name": "246. Deputy Daniel Ennis asked the Minister for Transport the total amount of funding spent by transport bodies on footpaths in 2025; and the breakdown of that spending, by area, in tabular form. [46731/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/246/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
@@ -168,6 +236,48 @@
                         "name": "126. Deputy Daniel Ennis asked the Minister for Justice, Home Affairs and Migration if there will be a full independent inquiry into the death of a person (details supplied); and if he will make a statement on the matter. [46003/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/126/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Drug Dealing",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "559. Deputy Daniel Ennis asked the Minister for Justice, Home Affairs and Migration the measures his Department is taking to address a matter (details supplied); and if he will make a statement on the matter. [53297/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/559/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "229. Deputy Daniel Ennis asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works that the OPW carried out at the Bridewell Garda Station, Dublin in the years of 2024, 2025 and to-date in 2026, in tabular form. [52790/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/229/"
+                      },
+                      {
+                        "name": "230. Deputy Daniel Ennis asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works that the OPW carried out at Mountjoy Garda Station in the years of 2024, 2025 and to-date in 2026, in tabular form. [52791/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/230/"
                       }
                     ]
                   }
@@ -257,6 +367,60 @@
           "heading": "Childcare Services",
           "question": "653. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality the number of childminders who have completed a pre-registration course via their local childcare committees; the figure as a percentage of the number of childminders operating in Ireland; and if she will make a statement on the matter. [51227/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/653/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 148,
+          "department": "Transport",
+          "heading": "Road Safety",
+          "question": "148. Deputy Daniel Ennis asked the Minister for Transport his plans to tackle a growing number of injuries received by children using e-scooters, given the news that six children have been placed on life support in the past two weeks in Children’s Health Ireland Temple Street hospital due to injuries they have sustained on e-scooters; and if he will make a statement on the matter. [53082/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/148/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 229,
+          "department": "Public Expenditure",
+          "heading": "An Garda Síochána",
+          "question": "229. Deputy Daniel Ennis asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works that the OPW carried out at the Bridewell Garda Station, Dublin in the years of 2024, 2025 and to-date in 2026, in tabular form. [52790/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/229/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 230,
+          "department": "Public Expenditure",
+          "heading": "An Garda Síochána",
+          "question": "230. Deputy Daniel Ennis asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works that the OPW carried out at Mountjoy Garda Station in the years of 2024, 2025 and to-date in 2026, in tabular form. [52791/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/230/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 559,
+          "department": "Justice",
+          "heading": "Drug Dealing",
+          "question": "559. Deputy Daniel Ennis asked the Minister for Justice, Home Affairs and Migration the measures his Department is taking to address a matter (details supplied); and if he will make a statement on the matter. [53297/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/559/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 675,
+          "department": "Children",
+          "heading": "Departmental Funding",
+          "question": "675. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality if she is aware of any early learning and childcare providers leaving core funding since the most recent price cap reduction from €198 per week to €183.70 per week; and if she will make a statement on the matter. [53083/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/675/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 676,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "676. Deputy Daniel Ennis asked the Minister for Children, Disability and Equality if she will provide an update on the number of childminders registered with Tusla to date since the implementation of the new childminding regulation in 2024; and to provide a breakdown of that uptake, per month, in tabular form. [53084/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/676/",
           "questionType": "written"
         }
       ]

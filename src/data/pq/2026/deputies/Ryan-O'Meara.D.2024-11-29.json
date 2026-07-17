@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Ryan-O'Meara.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 363,
+      "count": 382,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -91,6 +91,7 @@
         "Programme for Government",
         "Public Sector Pensions",
         "Public Transport",
+        "Pupil-Teacher Ratio",
         "Rail Network",
         "Residential Institutions",
         "Road Network",
@@ -105,7 +106,10 @@
         "School Staff",
         "School Transport",
         "Schools Building Projects",
+        "Schools Refurbishment",
         "Social Enterprise Sector",
+        "Social Insurance",
+        "Social Welfare Code",
         "Social Welfare Eligibility",
         "Social Welfare Payments",
         "Social Welfare Schemes",
@@ -133,7 +137,7 @@
         "topHeading": "Agriculture Schemes",
         "topHeadingCount": 29,
         "topDepartment": "Health",
-        "topDepartmentCount": 81
+        "topDepartmentCount": 82
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -166,6 +170,10 @@
                 "value": 4
               },
               {
+                "name": "Health Services Staff",
+                "value": 3
+              },
+              {
                 "name": "Departmental Schemes",
                 "value": 2
               },
@@ -187,10 +195,6 @@
               },
               {
                 "name": "Departmental Funding",
-                "value": 2
-              },
-              {
-                "name": "Health Services Staff",
                 "value": 2
               },
               {
@@ -337,6 +341,14 @@
               {
                 "name": "Parental Leave",
                 "value": 1
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "value": 1
+              },
+              {
+                "name": "Schools Refurbishment",
+                "value": 1
               }
             ]
           },
@@ -443,6 +455,60 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "value": 10
+              },
+              {
+                "name": "Health Services",
+                "value": 8
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 2
+              },
+              {
+                "name": "Health Service Executive",
+                "value": 1
+              },
+              {
+                "name": "School Transport",
+                "value": 1
+              },
+              {
+                "name": "Paternity Leave",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Visa Applications",
+                "value": 9
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 7
+              },
+              {
+                "name": "Legal Aid",
+                "value": 4
+              },
+              {
+                "name": "Road Safety",
+                "value": 1
+              },
+              {
+                "name": "Family Reunification",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -492,60 +558,6 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Disability Services",
-                "value": 9
-              },
-              {
-                "name": "Health Services",
-                "value": 3
-              },
-              {
-                "name": "Disabilities Assessments",
-                "value": 2
-              },
-              {
-                "name": "Health Service Executive",
-                "value": 1
-              },
-              {
-                "name": "School Transport",
-                "value": 1
-              },
-              {
-                "name": "Paternity Leave",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "value": 7
-              },
-              {
-                "name": "Legal Aid",
-                "value": 4
-              },
-              {
-                "name": "Visa Applications",
-                "value": 3
-              },
-              {
-                "name": "Road Safety",
-                "value": 1
-              },
-              {
-                "name": "Family Reunification",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -570,6 +582,14 @@
               },
               {
                 "name": "Birth Certificates",
+                "value": 1
+              },
+              {
+                "name": "Social Insurance",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Code",
                 "value": 1
               }
             ]
@@ -617,6 +637,35 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Tax Code",
+                "value": 4
+              },
+              {
+                "name": "Primary Medical Certificates",
+                "value": 1
+              },
+              {
+                "name": "Insurance Industry",
+                "value": 1
+              },
+              {
+                "name": "Insurance Coverage",
+                "value": 1
+              },
+              {
+                "name": "Tax Credits",
+                "value": 1
+              },
+              {
+                "name": "Business Supports",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -646,35 +695,6 @@
               },
               {
                 "name": "National Economic and Social Council",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "value": 2
-              },
-              {
-                "name": "Primary Medical Certificates",
-                "value": 1
-              },
-              {
-                "name": "Insurance Industry",
-                "value": 1
-              },
-              {
-                "name": "Insurance Coverage",
-                "value": 1
-              },
-              {
-                "name": "Tax Credits",
-                "value": 1
-              },
-              {
-                "name": "Business Supports",
                 "value": 1
               }
             ]
@@ -1209,6 +1229,44 @@
                 ]
               },
               {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "1171. Deputy Ryan O'Meara asked the Minister for Health the staffing arrangements in place for UHL’s forensic medical examination service; and if she will make a statement on the matter. [30163/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1171/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "467. Deputy Ryan O'Meara asked the Minister for Health for an update on the national rollout plans for the HSE community neuro-rehabilitation teams, as committed to in the Programme for Government; the areas which do not currently have a CRNT in place; and if she will make a statement on the matter. [48541/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/467/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "737. Deputy Ryan O'Meara asked the Minister for Health the number of vacant posts in Cashel CDNT; the length of time each of these posts has been vacant; the efforts taken to fill each of these vacant posts to date; and if she will make a statement on the matter. [52811/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/737/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Schemes",
                 "children": [
                   {
@@ -1347,33 +1405,6 @@
                         "name": "1240. Deputy Ryan O'Meara asked the Minister for Health if she is aware of concerns raised by an organisation (details supplied) in their latest report around the lack of consultant neurology services available in Tipperary University Hospital; and if she will commit funding to increase this in line with the 2016 Model of Care for Neurology Services in Ireland and the current Programme for Government. [30561/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1240/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "1171. Deputy Ryan O'Meara asked the Minister for Health the staffing arrangements in place for UHL’s forensic medical examination service; and if she will make a statement on the matter. [30163/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1171/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "467. Deputy Ryan O'Meara asked the Minister for Health for an update on the national rollout plans for the HSE community neuro-rehabilitation teams, as committed to in the Programme for Government; the areas which do not currently have a CRNT in place; and if she will make a statement on the matter. [48541/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/467/"
                       }
                     ]
                   }
@@ -2339,6 +2370,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "6. Deputy Ryan O'Meara asked the Minister for Education and Youth to outline her plans to reduce the teacher-pupil ratio in primary schools to 19:1, as per the programme for Government commitment, and if she will make a statement on the matter. [54419/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/6/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Refurbishment",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "15. Deputy Ryan O'Meara asked the Minister for Education and Youth for an update on this year’s climate action summer works scheme; and if she will make a statement on the matter. [54102/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/15/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3134,6 +3197,428 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "915. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the supports and services available to assist a child in preschool, who is not deaf, transition from Lámh to ISL; if any such service is available through their CDNT service; and if she will make a statement on the matter. [9243/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/915/"
+                      },
+                      {
+                        "name": "916. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the supports and services available to assist a child in preschool,who is not deaf, transition from Lámh to ISL; and if she will make a statement on the matter. [9244/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/916/"
+                      },
+                      {
+                        "name": "917. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the supports and services available to assist a child (details supplied) transition from Lámh to ISL; and if she will make a statement on the matter. [9245/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/917/"
+                      },
+                      {
+                        "name": "951. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the services that are available for a child who has a brain tumour and requires a full-time nurse while attending preschool; and if she will make a statement on the matter. [10114/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/951/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1556. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the way in which an individual can qualify for the funding for a private assessment, given public wait times currently; and if she will make a statement on the matter. [19537/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1556/"
+                      },
+                      {
+                        "name": "1637. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the percentage of overall funding for the Rehab Group that was provided through State funding from 2016 to 2025, per year, in tabular form; and if she will make a statement on the matter. [20795/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1637/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "760. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the safeguarding measures that are currently in place for individuals living in residential disability services; and if she will make a statement on the matter. [17008/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/760/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "910. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a dedicated speech and language (SLT) post will be in place within the HSE Mid-West Adult Disability Service, as the service does not currently have a dedicated SLT post aligned to the staffing complement; and if she will make a statement on the matter. [30887/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/910/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "394. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a dietician post will be added to north Tipperary CDNT team, as there is no such post currently on the team; and if she will make a statement on the matter. [48448/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/394/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "655. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality if an interim physiotherapy service is being provided or is planned in Cashel CDNT, whilst the current physiotherapist is on leave; if not, the reason an interim service has not been established given the physiotherapist has been on leave since January 2026; and if she will make a statement on the matter. [52812/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/655/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "670. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality to provide an update on the provision of services and equipment in Tipperary for a child (details supplied) given current arrangements are in Temple Street, Dublin, and given it places a significant burden on the child and family; and if she will make a statement on the matter. [53068/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/670/"
+                      },
+                      {
+                        "name": "671. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child (details supplied) will get access to physiotherapy services close within Tipperary; and if she will make a statement on the matter. [53072/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/671/"
+                      },
+                      {
+                        "name": "672. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child and their family (details supplied) will get access to social worker support within Tipperary; and if she will make a statement on the matter. [53073/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/672/"
+                      },
+                      {
+                        "name": "673. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child (details supplied) will get access to an anterior marcy walker, as advised by their neurologist; and if she will make a statement on the matter. [53074/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/673/"
+                      },
+                      {
+                        "name": "674. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child (details supplied) will get access to the correct orthotics, which they currently don’t have access to; and if she will make a statement on the matter. [53075/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/674/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "407. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality for an update on national rollout plans for the HSE community neuro-rehabilitation teams, as committed to in the Programme for Government; the areas which do not currently have a CRNT in place; and if she will make a statement on the matter. [48544/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/407/"
+                      },
+                      {
+                        "name": "408. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the steps being taken to establish a community neuro-rehabilitation team within the south-east region; and if she will make a statement on the matter. [48546/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/408/"
+                      },
+                      {
+                        "name": "409. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality for an update on development of managed clinical rehabilitation networks across the country; and if she will make a statement on the matter. [48548/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/409/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "867. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality to outline the supports available for children diagnosed with chromosome deletion disorder 16p11.2, specifically those who are awaiting an assessment of need; and if she will make a statement on the matter. [4233/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/867/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "393. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the financial supports that are available to single parents who are seeking private assessment for autism for their child; and if she will make a statement on the matter. [48431/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/393/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Service Executive",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "761. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality in the instance where a PPP account is held by the HSE on behalf of an individual who is in long-term residential care, whether the individual can appoint parents, who have been lifelong carers, as a decision support to view how much money is in the account, as a safeguarding measure; and if she will make a statement on the matter. [17009/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/761/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "822. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality if specialised transport is available for students hoping to attend a facility (details supplied) in Thurles; if transport will be made available to an individual; and if she will make a statement on the matter. [21874/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/822/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Paternity Leave",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "947. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the plans to expand paid surrogacy leave to parents of new-born children born through surrogacy, either within Ireland or abroad; and if she will make a statement on the matter. [38744/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/947/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "571. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of IRP renewal applications refused by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [53532/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/571/"
+                      },
+                      {
+                        "name": "572. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of queries received via the customer service portal on the immigration portal per month in 2026, in tabular form; and if he will make a statement on the matter. [53534/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/572/"
+                      },
+                      {
+                        "name": "573. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of queries answered via the customer service portal on the immigration portal per month in 2026, in tabular form; and if he will make a statement on the matter. [53535/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/573/"
+                      },
+                      {
+                        "name": "574. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the average wait time for a query to be answered via the customer service portal on the immigration portal as of July 2026, in tabular form; and if he will make a statement on the matter. [53536/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/574/"
+                      },
+                      {
+                        "name": "575. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the median wait time for a query to be answered via the customer service portal on the immigration portal as of July 2026, in tabular form; and if he will make a statement on the matter. [53538/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/575/"
+                      },
+                      {
+                        "name": "576. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the way in which a person can make urgent contact with the registration team via the immigration portal on the customer service portal, given the delays individuals can experience with responses; and if he will make a statement on the matter. [53539/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/576/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "141. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of IRP renewal applications received by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [51960/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/141/"
+                      },
+                      {
+                        "name": "142. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of IRP renewal applications approved by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [51961/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/142/"
+                      },
+                      {
+                        "name": "143. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of physical IRPs issued by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [51963/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/143/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "163. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of recruits he expects to graduate at the next passing out ceremony in the Garda College in Templemore; and if he will make a statement on the matter. [6199/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/163/"
+                      },
+                      {
+                        "name": "168. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration when the next passing out ceremony will take place in the Garda College in Templemore; and if he will make a statement on the matter. [6198/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/168/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "17. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of gardaí stationed in Clare-Tipperary division in each of the past five years; and if he will make a statement on the matter. [35700/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/17/"
+                      },
+                      {
+                        "name": "67. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of recruits he expects to graduate at the next passing out ceremony in the Garda College in Templemore; and if he will make a statement on the matter. [35699/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/67/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "360. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of vacant civilian staff positions in Nenagh Garda Station; the length of time each of these positions have been vacant; when these positions will be filled; and if he will make a statement on the matter. [50463/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/360/"
+                      },
+                      {
+                        "name": "361. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of vacant civilian staff positions in Thurles Garda Station; the length of time each of these positions have been vacant; when these positions will be filled; and if he will make a statement on the matter. [50464/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/361/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "315. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the rationale for requiring an individual to undergo repeated Garda vetting when changing employment within the same regulated sector, including the school transport sector; whether his Department has examined options to allow Garda vetting to attach to an individual for a defined period irrespective of employer; and if he will make a statement on the matter. [9004/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/315/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legal Aid",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "545. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the system of compliance monitoring and oversight that has been in operation in respect of the criminal legal aid scheme by his Department during the past five years; and if he will make a statement on the matter. [47752/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/545/"
+                      },
+                      {
+                        "name": "546. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of applications for payment that were made to his Department in respect of certificates granted pursuant to Regulation 7(4) of the Criminal Justice (Legal Aid) Regulations, 1965 (S.I. No. 12/1965); the number of payments that were made on the basis of such claims for payment pursuant to Regulation (7)4, in each of the years 2021 to 2025, in tabular form; and if he will make a statement on the matter. [47753/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/546/"
+                      },
+                      {
+                        "name": "547. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the amount paid to solicitors and barristers based upon legal aid certificates granted pursuant to Regulation 7(4) of the Criminal Justice (Legal Aid) Regulations 1965 (S.I. No. 12/1965), in each of the years 2021 to 2025, in tabular form; and if he will make a statement on the matter. [47754/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/547/"
+                      },
+                      {
+                        "name": "548. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of applications for payment pursuant to Regulation 7(4) that have been made to his Department that were refused and the reason for the refusal, in each of the years 2021 to 2025, in tabular form; and if he will make a statement on the matter. [47755/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/548/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "367. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration with regards to phase 2 of the Road Safety Strategy, the issues that have been identified; the actions being taken to address the high level of roads policing enforcement cases; and if he will make a statement on the matter. [31586/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/367/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Family Reunification",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1441. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the way in which a concerned family reunification applicant can submit a request to expedite their application; and if he will make a statement on the matter. [43835/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1441/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -3385,350 +3870,6 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "915. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the supports and services available to assist a child in preschool, who is not deaf, transition from Lámh to ISL; if any such service is available through their CDNT service; and if she will make a statement on the matter. [9243/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/915/"
-                      },
-                      {
-                        "name": "916. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the supports and services available to assist a child in preschool,who is not deaf, transition from Lámh to ISL; and if she will make a statement on the matter. [9244/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/916/"
-                      },
-                      {
-                        "name": "917. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the supports and services available to assist a child (details supplied) transition from Lámh to ISL; and if she will make a statement on the matter. [9245/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/917/"
-                      },
-                      {
-                        "name": "951. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the services that are available for a child who has a brain tumour and requires a full-time nurse while attending preschool; and if she will make a statement on the matter. [10114/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/951/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1556. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the way in which an individual can qualify for the funding for a private assessment, given public wait times currently; and if she will make a statement on the matter. [19537/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1556/"
-                      },
-                      {
-                        "name": "1637. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the percentage of overall funding for the Rehab Group that was provided through State funding from 2016 to 2025, per year, in tabular form; and if she will make a statement on the matter. [20795/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1637/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "760. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the safeguarding measures that are currently in place for individuals living in residential disability services; and if she will make a statement on the matter. [17008/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/760/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "910. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a dedicated speech and language (SLT) post will be in place within the HSE Mid-West Adult Disability Service, as the service does not currently have a dedicated SLT post aligned to the staffing complement; and if she will make a statement on the matter. [30887/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/910/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "394. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a dietician post will be added to north Tipperary CDNT team, as there is no such post currently on the team; and if she will make a statement on the matter. [48448/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/394/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "407. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality for an update on national rollout plans for the HSE community neuro-rehabilitation teams, as committed to in the Programme for Government; the areas which do not currently have a CRNT in place; and if she will make a statement on the matter. [48544/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/407/"
-                      },
-                      {
-                        "name": "408. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the steps being taken to establish a community neuro-rehabilitation team within the south-east region; and if she will make a statement on the matter. [48546/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/408/"
-                      },
-                      {
-                        "name": "409. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality for an update on development of managed clinical rehabilitation networks across the country; and if she will make a statement on the matter. [48548/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/409/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disabilities Assessments",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "867. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality to outline the supports available for children diagnosed with chromosome deletion disorder 16p11.2, specifically those who are awaiting an assessment of need; and if she will make a statement on the matter. [4233/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/867/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "393. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the financial supports that are available to single parents who are seeking private assessment for autism for their child; and if she will make a statement on the matter. [48431/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/393/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Service Executive",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "761. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality in the instance where a PPP account is held by the HSE on behalf of an individual who is in long-term residential care, whether the individual can appoint parents, who have been lifelong carers, as a decision support to view how much money is in the account, as a safeguarding measure; and if she will make a statement on the matter. [17009/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/761/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Transport",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "822. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality if specialised transport is available for students hoping to attend a facility (details supplied) in Thurles; if transport will be made available to an individual; and if she will make a statement on the matter. [21874/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/822/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Paternity Leave",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "947. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality the plans to expand paid surrogacy leave to parents of new-born children born through surrogacy, either within Ireland or abroad; and if she will make a statement on the matter. [38744/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/947/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "163. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of recruits he expects to graduate at the next passing out ceremony in the Garda College in Templemore; and if he will make a statement on the matter. [6199/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/163/"
-                      },
-                      {
-                        "name": "168. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration when the next passing out ceremony will take place in the Garda College in Templemore; and if he will make a statement on the matter. [6198/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/168/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "17. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of gardaí stationed in Clare-Tipperary division in each of the past five years; and if he will make a statement on the matter. [35700/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/17/"
-                      },
-                      {
-                        "name": "67. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of recruits he expects to graduate at the next passing out ceremony in the Garda College in Templemore; and if he will make a statement on the matter. [35699/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/67/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
-                    "children": [
-                      {
-                        "name": "360. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of vacant civilian staff positions in Nenagh Garda Station; the length of time each of these positions have been vacant; when these positions will be filled; and if he will make a statement on the matter. [50463/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/360/"
-                      },
-                      {
-                        "name": "361. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of vacant civilian staff positions in Thurles Garda Station; the length of time each of these positions have been vacant; when these positions will be filled; and if he will make a statement on the matter. [50464/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/361/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "315. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the rationale for requiring an individual to undergo repeated Garda vetting when changing employment within the same regulated sector, including the school transport sector; whether his Department has examined options to allow Garda vetting to attach to an individual for a defined period irrespective of employer; and if he will make a statement on the matter. [9004/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/315/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legal Aid",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "545. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the system of compliance monitoring and oversight that has been in operation in respect of the criminal legal aid scheme by his Department during the past five years; and if he will make a statement on the matter. [47752/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/545/"
-                      },
-                      {
-                        "name": "546. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of applications for payment that were made to his Department in respect of certificates granted pursuant to Regulation 7(4) of the Criminal Justice (Legal Aid) Regulations, 1965 (S.I. No. 12/1965); the number of payments that were made on the basis of such claims for payment pursuant to Regulation (7)4, in each of the years 2021 to 2025, in tabular form; and if he will make a statement on the matter. [47753/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/546/"
-                      },
-                      {
-                        "name": "547. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the amount paid to solicitors and barristers based upon legal aid certificates granted pursuant to Regulation 7(4) of the Criminal Justice (Legal Aid) Regulations 1965 (S.I. No. 12/1965), in each of the years 2021 to 2025, in tabular form; and if he will make a statement on the matter. [47754/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/547/"
-                      },
-                      {
-                        "name": "548. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of applications for payment pursuant to Regulation 7(4) that have been made to his Department that were refused and the reason for the refusal, in each of the years 2021 to 2025, in tabular form; and if he will make a statement on the matter. [47755/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/548/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
-                    "children": [
-                      {
-                        "name": "141. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of IRP renewal applications received by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [51960/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/141/"
-                      },
-                      {
-                        "name": "142. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of IRP renewal applications approved by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [51961/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/142/"
-                      },
-                      {
-                        "name": "143. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of physical IRPs issued by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [51963/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/143/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Safety",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "367. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration with regards to phase 2 of the Road Safety Strategy, the issues that have been identified; the actions being taken to address the high level of roads policing enforcement cases; and if he will make a statement on the matter. [31586/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/367/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Family Reunification",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1441. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the way in which a concerned family reunification applicant can submit a request to expedite their application; and if he will make a statement on the matter. [43835/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1441/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -3870,6 +4011,38 @@
                         "name": "345. Deputy Ryan O'Meara asked the Minister for Social Protection if it is possible for a mother to change the name on her child’s birth certificate from her married name to her maiden name; and if he will make a statement on the matter. [50341/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/345/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Insurance",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "467. Deputy Ryan O'Meara asked the Minister for Social Protection if he has given consideration to removing employer PRSI on customer tips and gratuities; and if he will make a statement on the matter. [53515/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/467/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "468. Deputy Ryan O'Meara asked the Minister for Social Protection if his Department will give consideration to excluding the carer's allowance from the back to school clothing and footwear allowance means test, similar to the domiciliary care allowance, for parents caring for their children. [53571/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/468/"
                       }
                     ]
                   }
@@ -4101,6 +4274,134 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "217. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he plans to review benefit-in-kind being charged on staff events and hospitality related spending including working lunches and food deliveries; and if he will make a statement on the matter. [53513/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/217/"
+                      },
+                      {
+                        "name": "218. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he will consider a no-tax policy on customer tips and gratuities, allowing hospitality workers to retain 100% of tips voluntarily given to them, whether paid by cash or electronically; and if he will make a statement on the matter. [53514/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/218/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "204. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if the removal of the deemed disposal rule for certain classes of investments will be considered for Budget 2027; and if he will make a statement on the matter. [9553/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/204/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "248. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he will consider increasing the age tax credit or the tax bands for older people, particularly given that annual increases to the State pension are, in some cases, increasing individuals/couples tax liability; and if he will make a statement on the matter. [47049/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/248/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Primary Medical Certificates",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "933. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if there are plans to update or review the primary medical certificate system, given its limitations and the restrictions it poses to many people with disabilities who wish to apply for the disabled drivers and disabled passengers scheme; and if he will make a statement on the matter. [25374/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/933/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Insurance Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "293. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance for an update on the commitment in the Action Plan on Insurance Reform to develop a long-term approach to flood insurance; and if he will make a statement on the matter. [26618/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/293/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Insurance Coverage",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "308. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance his views on whether it is appropriate that some individuals are losing their no claims bonus for motor insurance while being off the road on medical grounds; and if he will make a statement on the matter. [26619/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/308/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Credits",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "157. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he is exploring the potential of a tax credit for memberships of gyms and sports clubs; and if he will make a statement on the matter. [39419/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/157/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Business Supports",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "263. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he will consider supporting an organisation's proposed measures (details supplied) as a means of supporting employment, tourism and enterprise development in rural Ireland; and if he will make a statement on the matter. [49626/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/263/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -4286,118 +4587,6 @@
                         "name": "27. Deputy Ryan O'Meara asked the Taoiseach his response to the recent NESC report, Building A Virtuous Demographic Cycle. [3794/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/27/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "204. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if the removal of the deemed disposal rule for certain classes of investments will be considered for Budget 2027; and if he will make a statement on the matter. [9553/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/204/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "248. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he will consider increasing the age tax credit or the tax bands for older people, particularly given that annual increases to the State pension are, in some cases, increasing individuals/couples tax liability; and if he will make a statement on the matter. [47049/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/248/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Primary Medical Certificates",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "933. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if there are plans to update or review the primary medical certificate system, given its limitations and the restrictions it poses to many people with disabilities who wish to apply for the disabled drivers and disabled passengers scheme; and if he will make a statement on the matter. [25374/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/933/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Insurance Industry",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "293. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance for an update on the commitment in the Action Plan on Insurance Reform to develop a long-term approach to flood insurance; and if he will make a statement on the matter. [26618/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/293/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Insurance Coverage",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "308. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance his views on whether it is appropriate that some individuals are losing their no claims bonus for motor insurance while being off the road on medical grounds; and if he will make a statement on the matter. [26619/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/308/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Credits",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "157. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he is exploring the potential of a tax credit for memberships of gyms and sports clubs; and if he will make a statement on the matter. [39419/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/157/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Business Supports",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "263. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he will consider supporting an organisation's proposed measures (details supplied) as a means of supporting employment, tourism and enterprise development in rural Ireland; and if he will make a statement on the matter. [49626/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/263/"
                       }
                     ]
                   }
@@ -8062,17 +8251,190 @@
           "question": "134. Deputy Ryan O'Meara asked the Minister for Health when a sexual assault treatment unit will be established in the mid-west; if Nenagh primary care centre will be the location for the unit; and if she will make a statement on the matter. [48221/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/134/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 217,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "217. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he plans to review benefit-in-kind being charged on staff events and hospitality related spending including working lunches and food deliveries; and if he will make a statement on the matter. [53513/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/217/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 218,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "218. Deputy Ryan O'Meara asked the Tánaiste and Minister for Finance if he will consider a no-tax policy on customer tips and gratuities, allowing hospitality workers to retain 100% of tips voluntarily given to them, whether paid by cash or electronically; and if he will make a statement on the matter. [53514/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/218/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 467,
+          "department": "Social",
+          "heading": "Social Insurance",
+          "question": "467. Deputy Ryan O'Meara asked the Minister for Social Protection if he has given consideration to removing employer PRSI on customer tips and gratuities; and if he will make a statement on the matter. [53515/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/467/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 468,
+          "department": "Social",
+          "heading": "Social Welfare Code",
+          "question": "468. Deputy Ryan O'Meara asked the Minister for Social Protection if his Department will give consideration to excluding the carer's allowance from the back to school clothing and footwear allowance means test, similar to the domiciliary care allowance, for parents caring for their children. [53571/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/468/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 571,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "571. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of IRP renewal applications refused by his Department per month in 2026, in tabular form; and if he will make a statement on the matter. [53532/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/571/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 572,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "572. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of queries received via the customer service portal on the immigration portal per month in 2026, in tabular form; and if he will make a statement on the matter. [53534/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/572/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 573,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "573. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of queries answered via the customer service portal on the immigration portal per month in 2026, in tabular form; and if he will make a statement on the matter. [53535/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/573/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 574,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "574. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the average wait time for a query to be answered via the customer service portal on the immigration portal as of July 2026, in tabular form; and if he will make a statement on the matter. [53536/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/574/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 575,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "575. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the median wait time for a query to be answered via the customer service portal on the immigration portal as of July 2026, in tabular form; and if he will make a statement on the matter. [53538/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/575/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 576,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "576. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the way in which a person can make urgent contact with the registration team via the immigration portal on the customer service portal, given the delays individuals can experience with responses; and if he will make a statement on the matter. [53539/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/576/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 655,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "655. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality if an interim physiotherapy service is being provided or is planned in Cashel CDNT, whilst the current physiotherapist is on leave; if not, the reason an interim service has not been established given the physiotherapist has been on leave since January 2026; and if she will make a statement on the matter. [52812/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/655/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 670,
+          "department": "Children",
+          "heading": "Health Services",
+          "question": "670. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality to provide an update on the provision of services and equipment in Tipperary for a child (details supplied) given current arrangements are in Temple Street, Dublin, and given it places a significant burden on the child and family; and if she will make a statement on the matter. [53068/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/670/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 671,
+          "department": "Children",
+          "heading": "Health Services",
+          "question": "671. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child (details supplied) will get access to physiotherapy services close within Tipperary; and if she will make a statement on the matter. [53072/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/671/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 672,
+          "department": "Children",
+          "heading": "Health Services",
+          "question": "672. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child and their family (details supplied) will get access to social worker support within Tipperary; and if she will make a statement on the matter. [53073/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/672/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 673,
+          "department": "Children",
+          "heading": "Health Services",
+          "question": "673. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child (details supplied) will get access to an anterior marcy walker, as advised by their neurologist; and if she will make a statement on the matter. [53074/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/673/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 674,
+          "department": "Children",
+          "heading": "Health Services",
+          "question": "674. Deputy Ryan O'Meara asked the Minister for Children, Disability and Equality when a child (details supplied) will get access to the correct orthotics, which they currently don’t have access to; and if she will make a statement on the matter. [53075/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/674/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 737,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "737. Deputy Ryan O'Meara asked the Minister for Health the number of vacant posts in Cashel CDNT; the length of time each of these posts has been vacant; the efforts taken to fill each of these vacant posts to date; and if she will make a statement on the matter. [52811/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/737/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 6,
+          "department": "Education",
+          "heading": "Pupil-Teacher Ratio",
+          "question": "6. Deputy Ryan O'Meara asked the Minister for Education and Youth to outline her plans to reduce the teacher-pupil ratio in primary schools to 19:1, as per the programme for Government commitment, and if she will make a statement on the matter. [54419/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/6/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 15,
+          "department": "Education",
+          "heading": "Schools Refurbishment",
+          "question": "15. Deputy Ryan O'Meara asked the Minister for Education and Youth for an update on this year’s climate action summer works scheme; and if she will make a statement on the matter. [54102/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/15/",
+          "questionType": "oral"
         }
       ]
     },
     "oral": {
-      "count": 12,
+      "count": 14,
       "headingOptions": [
         "Cabinet Committees",
         "Departmental Reports",
         "Housing Policy",
         "National Economic and Social Council",
         "Passport Services",
+        "Pupil-Teacher Ratio",
+        "Schools Refurbishment",
         "Sports Funding",
         "Teacher Training"
       ],
@@ -8103,6 +8465,23 @@
             ]
           },
           {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Teacher Training",
+                "value": 1
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "value": 1
+              },
+              {
+                "name": "Schools Refurbishment",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -8116,15 +8495,6 @@
             "children": [
               {
                 "name": "Passport Services",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Teacher Training",
                 "value": 1
               }
             ]
@@ -8235,6 +8605,59 @@
             ]
           },
           {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Teacher Training",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "10. Deputy Ryan O'Meara asked the Minister for Education and Youth the training available for teachers to support them in their AI literacy skills; and if she will make a statement on the matter. [29161/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/10/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "6. Deputy Ryan O'Meara asked the Minister for Education and Youth to outline her plans to reduce the teacher-pupil ratio in primary schools to 19:1, as per the programme for Government commitment, and if she will make a statement on the matter. [54419/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/6/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Refurbishment",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "15. Deputy Ryan O'Meara asked the Minister for Education and Youth for an update on this year’s climate action summer works scheme; and if she will make a statement on the matter. [54102/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/15/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -8274,27 +8697,6 @@
                         "name": "78. Deputy Ryan O'Meara asked the Minister for Foreign Affairs and Trade the current turnaround time for new passport applications and for renewals; and if she will make a statement on the matter. [22522/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/78/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Teacher Training",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "10. Deputy Ryan O'Meara asked the Minister for Education and Youth the training available for teachers to support them in their AI literacy skills; and if she will make a statement on the matter. [29161/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/10/"
                       }
                     ]
                   }
@@ -8432,6 +8834,24 @@
           "heading": "Cabinet Committees",
           "question": "3. Deputy Ryan O'Meara asked the Taoiseach when the Cabinet committee on housing will next meet. [12365/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/3/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 6,
+          "department": "Education",
+          "heading": "Pupil-Teacher Ratio",
+          "question": "6. Deputy Ryan O'Meara asked the Minister for Education and Youth to outline her plans to reduce the teacher-pupil ratio in primary schools to 19:1, as per the programme for Government commitment, and if she will make a statement on the matter. [54419/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/6/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 15,
+          "department": "Education",
+          "heading": "Schools Refurbishment",
+          "question": "15. Deputy Ryan O'Meara asked the Minister for Education and Youth for an update on this year’s climate action summer works scheme; and if she will make a statement on the matter. [54102/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/15/",
           "questionType": "oral"
         }
       ]
