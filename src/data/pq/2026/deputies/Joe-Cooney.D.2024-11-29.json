@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Joe-Cooney.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 156,
+      "count": 174,
       "headingOptions": [
         "Agriculture Industry",
         "Agriculture Schemes",
@@ -41,6 +41,7 @@
         "Departmental Staff",
         "Digital Hubs",
         "Diplomatic Representation",
+        "Disabilities Assessments",
         "Disability Services",
         "Driver Test",
         "Eating Disorders",
@@ -49,6 +50,8 @@
         "Electricity Grid",
         "Emergency Departments",
         "Employment Schemes",
+        "Fire Service",
+        "Flood Relief Schemes",
         "Forestry Sector",
         "Fuel Prices",
         "General Practitioner Services",
@@ -68,6 +71,7 @@
         "Insurance Industry",
         "International Protection",
         "Job Creation",
+        "Maritime Safety",
         "Medical Aids and Appliances",
         "Medicinal Products",
         "Mental Health Services",
@@ -80,6 +84,7 @@
         "Paternity Leave",
         "Planning Issues",
         "Policing of Events",
+        "Post Office Network",
         "Public Appointments Service",
         "Public Services Provision",
         "Rail Network",
@@ -99,6 +104,7 @@
         "Tax Code",
         "Tax Credits",
         "Tax Reliefs",
+        "Telecommunications Services",
         "Third Level Education",
         "Third Level Fees",
         "Tobacco Control Measures",
@@ -116,7 +122,7 @@
         "topHeading": "An Garda Síochána",
         "topHeadingCount": 6,
         "topDepartment": "Health",
-        "topDepartmentCount": 34
+        "topDepartmentCount": 39
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -125,11 +131,27 @@
             "name": "Health",
             "children": [
               {
+                "name": "Ambulance Service",
+                "value": 4
+              },
+              {
                 "name": "Health Strategies",
                 "value": 4
               },
               {
+                "name": "Hospital Waiting Lists",
+                "value": 3
+              },
+              {
                 "name": "Health Services Staff",
+                "value": 3
+              },
+              {
+                "name": "Nursing Homes",
+                "value": 3
+              },
+              {
+                "name": "Mental Health Services",
                 "value": 3
               },
               {
@@ -137,23 +159,7 @@
                 "value": 2
               },
               {
-                "name": "Hospital Waiting Lists",
-                "value": 2
-              },
-              {
-                "name": "Ambulance Service",
-                "value": 2
-              },
-              {
                 "name": "Medicinal Products",
-                "value": 2
-              },
-              {
-                "name": "Nursing Homes",
-                "value": 2
-              },
-              {
-                "name": "Mental Health Services",
                 "value": 2
               },
               {
@@ -219,6 +225,43 @@
             ]
           },
           {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "value": 3
+              },
+              {
+                "name": "Schools Building Projects",
+                "value": 3
+              },
+              {
+                "name": "School Staff",
+                "value": 3
+              },
+              {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "School Accommodation",
+                "value": 2
+              },
+              {
+                "name": "Educational Disadvantage",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "School Costs",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Transport",
             "children": [
               {
@@ -264,43 +307,6 @@
             ]
           },
           {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Special Educational Needs",
-                "value": 3
-              },
-              {
-                "name": "Schools Building Projects",
-                "value": 3
-              },
-              {
-                "name": "School Staff",
-                "value": 2
-              },
-              {
-                "name": "School Accommodation",
-                "value": 2
-              },
-              {
-                "name": "Educational Disadvantage",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "School Costs",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Housing",
             "children": [
               {
@@ -313,6 +319,10 @@
               },
               {
                 "name": "Housing Policy",
+                "value": 2
+              },
+              {
+                "name": "Fire Service",
                 "value": 2
               },
               {
@@ -329,6 +339,10 @@
               },
               {
                 "name": "Housing Schemes",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -461,7 +475,7 @@
             "children": [
               {
                 "name": "Disability Services",
-                "value": 4
+                "value": 5
               },
               {
                 "name": "Childcare Services",
@@ -473,6 +487,10 @@
               },
               {
                 "name": "Paternity Leave",
+                "value": 1
+              },
+              {
+                "name": "Disabilities Assessments",
                 "value": 1
               }
             ]
@@ -507,6 +525,39 @@
               {
                 "name": "Civil Service",
                 "value": 1
+              },
+              {
+                "name": "Flood Relief Schemes",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "value": 2
+              },
+              {
+                "name": "National Broadband Plan",
+                "value": 2
+              },
+              {
+                "name": "Arts Funding",
+                "value": 1
+              },
+              {
+                "name": "Sports Events",
+                "value": 1
+              },
+              {
+                "name": "Post Office Network",
+                "value": 1
+              },
+              {
+                "name": "Telecommunications Services",
+                "value": 1
               }
             ]
           },
@@ -527,27 +578,6 @@
               },
               {
                 "name": "Trade Agreements",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Sports Funding",
-                "value": 2
-              },
-              {
-                "name": "National Broadband Plan",
-                "value": 1
-              },
-              {
-                "name": "Arts Funding",
-                "value": 1
-              },
-              {
-                "name": "Sports Events",
                 "value": 1
               }
             ]
@@ -633,20 +663,28 @@
             ]
           },
           {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Electricity Grid",
-                "value": 2
-              }
-            ]
-          },
-          {
             "name": "Defence",
             "children": [
               {
                 "name": "Naval Service",
                 "value": 1
+              },
+              {
+                "name": "Maritime Safety",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Electricity Grid",
+                "value": 2
               }
             ]
           }
@@ -658,6 +696,49 @@
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Ambulance Service",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "394. Deputy Joe Cooney asked the Minister for Health the average ambulance response times for emergency call-outs in County Clare during each of the past three years, broken down by call category; and the measures being undertaken in Clare and the wider Mid-West Region to reduce response times. [53836/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/394/"
+                      },
+                      {
+                        "name": "395. Deputy Joe Cooney asked the Minister for Health the number of ambulance call-outs in County Clare that exceeded the national target response time during each of the past three years. [53837/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/395/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1154. Deputy Joe Cooney asked the Minister for Health to provide the number of instances that the National Ambulance Service has provided an ambulance to Shannon Airport for medical cover from January 2024 to January 2025, inclusive; the number of hours those resources were onsite for those instances for the same dates by month, in tabular form; and if she will make a statement on the matter. [8499/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1154/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "198. Deputy Joe Cooney asked the Minister for Health for an update on the delivery of the recently announced increase in National Ambulance Service resources for County Clare; and if she will make a statement on the matter. [52215/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/198/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Health Strategies",
                 "children": [
@@ -690,6 +771,44 @@
                         "name": "858. Deputy Joe Cooney asked the Minister for Health the work that has been undertaken within her Department or the HSE to evaluate the consistency of the Small Hospitals Framework 2013 with current clinical guidance, including national clinical programmes and Sláintecare-aligned models of care; if a review of the framework is planned and the reasons for that decision; and if she will make a statement on the matter. [45042/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/858/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "161. Deputy Joe Cooney asked the Minister for Health the number of patients who have been waiting to see an otolaryngologist at University Hospital Limerick for longer than 3 months, 6 months, and 12 months for 2024 and 2025, in tabular form. [2570/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/161/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1729. Deputy Joe Cooney asked the Minister for Health the number of persons on a waiting list to see a consultant ophthalmologist at University Hospital Limerick. [18660/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1729/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "396. Deputy Joe Cooney asked the Minister for Health the number of patients waiting longer than 6, 12 and 24 months for outpatient appointments at University Hospital Limerick who are resident in County Clare, broken down by specialty for the time periods of June 2025 and June 2026. [53838/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/396/"
                       }
                     ]
                   }
@@ -734,114 +853,6 @@
                 ]
               },
               {
-                "name": "Dental Services ",
-                "children": [
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "158. Deputy Joe Cooney asked the Minister for Health the number of WTE dentists and dental nurse posts filled at each health centre in County Clare for 2024 and 2025, in tabular form; and if she will make a statement on the matter. [2567/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/158/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1731. Deputy Joe Cooney asked the Minister for Health the number of WTE orthodontists currently working within Clare dental services, in tabular form. [18662/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1731/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Waiting Lists",
-                "children": [
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "161. Deputy Joe Cooney asked the Minister for Health the number of patients who have been waiting to see an otolaryngologist at University Hospital Limerick for longer than 3 months, 6 months, and 12 months for 2024 and 2025, in tabular form. [2570/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/161/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1729. Deputy Joe Cooney asked the Minister for Health the number of persons on a waiting list to see a consultant ophthalmologist at University Hospital Limerick. [18660/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1729/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ambulance Service",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1154. Deputy Joe Cooney asked the Minister for Health to provide the number of instances that the National Ambulance Service has provided an ambulance to Shannon Airport for medical cover from January 2024 to January 2025, inclusive; the number of hours those resources were onsite for those instances for the same dates by month, in tabular form; and if she will make a statement on the matter. [8499/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1154/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "198. Deputy Joe Cooney asked the Minister for Health for an update on the delivery of the recently announced increase in National Ambulance Service resources for County Clare; and if she will make a statement on the matter. [52215/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/198/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Medicinal Products",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "945. Deputy Joe Cooney asked the Minister for Health the reasons the drug acarizax is not included in either the medical card scheme or the drugs payment scheme; if she will consider the inclusion of the drug; and if she will make a statement on the matter. [17057/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/945/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "992. Deputy Joe Cooney asked the Minister for Health further to Parliamentary Question No. 945 of 3 March 2026, for an indicative timeline for when a decision on a case (details supplied) is expected; confirmation of what stage of the review process the application is currently at; whether any interim supports or exceptional access arrangements may be available for patients currently prescribed this treatment; and if she will make a statement on the matter. [22266/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/992/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Nursing Homes",
                 "children": [
                   {
@@ -863,6 +874,17 @@
                         "name": "3014. Deputy Joe Cooney asked the Minister for Health the number of State-operated community nursing homes currently in operation, by county; the total number of long-term residential beds provided, by county; the projected demand for such beds nationally over the next ten, 20 and 30 years in light of demographic trends; the strategy in place to plan for an ageing population; and the way in which it is intended to ensure that existing and future accommodation capacity will align with anticipated demand, in tabular form. [25325/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3014/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "397. Deputy Joe Cooney asked the Minister for Health the number of nursing home beds in County Clare, broken down by public and private providers. [53840/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/397/"
                       }
                     ]
                   }
@@ -890,6 +912,71 @@
                         "name": "787. Deputy Joe Cooney asked the Minister for Health the number of children and adults from County Clare currently awaiting an appointment with primary care psychology and CAMHS services, broken down by waiting time, for the end of June 2025 and end of June 2026; and the measures being undertaken to reduce waiting times. [53031/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/787/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "542. Deputy Joe Cooney asked the Minister for Health the budget allocation for mental health services for the years 2024, 2025 and to date in 2026, by health services region, in tabular form; her plans for increased investment in mental health services for 2027; and if she will make a statement on the matter. [54523/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/542/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dental Services ",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "158. Deputy Joe Cooney asked the Minister for Health the number of WTE dentists and dental nurse posts filled at each health centre in County Clare for 2024 and 2025, in tabular form; and if she will make a statement on the matter. [2567/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/158/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1731. Deputy Joe Cooney asked the Minister for Health the number of WTE orthodontists currently working within Clare dental services, in tabular form. [18662/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1731/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medicinal Products",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "945. Deputy Joe Cooney asked the Minister for Health the reasons the drug acarizax is not included in either the medical card scheme or the drugs payment scheme; if she will consider the inclusion of the drug; and if she will make a statement on the matter. [17057/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/945/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "992. Deputy Joe Cooney asked the Minister for Health further to Parliamentary Question No. 945 of 3 March 2026, for an indicative timeline for when a decision on a case (details supplied) is expected; confirmation of what stage of the review process the application is currently at; whether any interim supports or exceptional access arrangements may be available for patients currently prescribed this treatment; and if she will make a statement on the matter. [22266/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/992/"
                       }
                     ]
                   }
@@ -1138,6 +1225,215 @@
             ]
           },
           {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "54. Deputy Joe Cooney asked the Minister for Education and Youth if she will consider revising the requirement for substitute SNAs to have individual Garda vetting undertaken for each school they work in, and move to a single vetting process, similar to that for teachers through the Teaching Council; and if she will make a statement on the matter. [2575/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/54/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "535. Deputy Joe Cooney asked the Minister for Education and Youth if she will confirm that the SNA review outcome letters that have already issued to schools in the past few weeks will be rescinded until the conclusion of the further engagement that is being undertaken; and if she will make a statement on the matter. [14590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/535/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "516. Deputy Joe Cooney asked the Minister for Education and Youth if she will consider the application by a school (details supplied) to open a second special class for children with autism, which will meet the documented demand in the wider geographical area; and if she will make a statement on the matter. [17058/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/516/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "55. Deputy Joe Cooney asked the Minister for Education and Youth the progress made on the delivery of a new school building for a school (details supplied); when a Stage 2a presentation will be made to her Department; if she is aware of any capital budget constraints that is slowing down the delivery of this project; and if she will make a statement on the matter. [2576/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/55/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "404. Deputy Joe Cooney asked the Minister for Education and Youth the way in which a school (details supplied) performed under each of the individual criteria used to prioritise school building projects included in the recent announcement of 105 school building projects; the relative ranking or position for this school under each criterion and overall compared with projects selected for inclusion; and if she will make a statement on the matter. [16241/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/404/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "779. Deputy Joe Cooney asked the Minister for Education and Youth if she will outline when a school (details supplied) will be issued with approval to proceed to Stage 2a; and if she will make a statement on the matter. [19415/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/779/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Staff",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "20. Deputy Joe Cooney asked the Minister for Education and Youth the steps she is taking to ensure the stability of special needs assistant allocations in County Clare following the distress caused to schools, children and parents by the proposed NCSE review earlier in 2026; whether she will confirm that no school in Clare will face a reduction in SNA support for the 2026-2027 academic year; and if she will make a statement on the matter. [28760/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/20/"
+                      },
+                      {
+                        "name": "77. Deputy Joe Cooney asked the Minister for Education and Youth the steps she is taking to address the precarious employment conditions facing newly qualified teachers; her views on the current contractual arrangements are contributing to the substitution crisis being experienced by schools in County Clare and nationally; the timeline for systemic reform of teacher employment pathways; and if she will make a statement on the matter. [28761/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/77/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "28. Deputy Joe Cooney asked the Minister for Education and Youth the number of schools in County Clare that were notified of a reduction in their special needs assistant allocation arising from the National Council for Special Education's 2025-2026 review process; the current status of those allocations following the pause announced in February 2026; if every school who was notified of a reduction will retain the number of SNAs they had previously; if this has been communicated to them; and if she will make a statement on the matter. [53904/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/28/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1398. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025 inclusive; the cost of purchasing the land; the estimated construction cost for the delivery of a new school; and if she will make a statement on the matter. [25324/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1398/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "106. Deputy Joe Cooney asked the Minister for Education and Youth the steps her Department is taking to establish a fully independent, stand-alone Gaelcholáiste in County Clare; if she will address the limitations impacting students who wish to complete second-level education through the medium of the Irish language; and if she will make a statement on the matter. [53903/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/106/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "145. Deputy Joe Cooney asked the Minister for Education and Youth the total costs incurred in Clare for land rental and prefab rental for primary and for post primary schools for the years 2020-2025; the total duration for which each school has had prefab accommodation; the comparison cost of long-term rental against the cost of permanent construction; and if she will make a statement on the matter. [40523/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/145/"
+                      },
+                      {
+                        "name": "161. Deputy Joe Cooney asked the Minister for Education and Youth if she will publish a breakdown of schools currently relying on temporary or modular accommodation and the duration for which that accommodation has been in place, by county; if her Department has a definition of ‘temporary accommodation’; if there is a policy timeline trigger at which a prefab unit must be replaced by a permanent structure; and if she will make a statement on the matter. [40524/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/161/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Educational Disadvantage",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "405. Deputy Joe Cooney asked the Minister for Education and Youth if she will provide an update on the application by a school (details supplied) for their inclusion in the DEIS 1 Plus programme; and if she will make a statement on the matter. [16242/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/405/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "497. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025 inclusive; and if she will make a statement on the matter. [28295/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/497/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Costs",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "318. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025, inclusive. [31718/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/318/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Transport",
             "children": [
               {
@@ -1346,193 +1642,6 @@
             ]
           },
           {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "54. Deputy Joe Cooney asked the Minister for Education and Youth if she will consider revising the requirement for substitute SNAs to have individual Garda vetting undertaken for each school they work in, and move to a single vetting process, similar to that for teachers through the Teaching Council; and if she will make a statement on the matter. [2575/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/54/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "535. Deputy Joe Cooney asked the Minister for Education and Youth if she will confirm that the SNA review outcome letters that have already issued to schools in the past few weeks will be rescinded until the conclusion of the further engagement that is being undertaken; and if she will make a statement on the matter. [14590/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/535/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "516. Deputy Joe Cooney asked the Minister for Education and Youth if she will consider the application by a school (details supplied) to open a second special class for children with autism, which will meet the documented demand in the wider geographical area; and if she will make a statement on the matter. [17058/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/516/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Schools Building Projects",
-                "children": [
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "55. Deputy Joe Cooney asked the Minister for Education and Youth the progress made on the delivery of a new school building for a school (details supplied); when a Stage 2a presentation will be made to her Department; if she is aware of any capital budget constraints that is slowing down the delivery of this project; and if she will make a statement on the matter. [2576/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/55/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "404. Deputy Joe Cooney asked the Minister for Education and Youth the way in which a school (details supplied) performed under each of the individual criteria used to prioritise school building projects included in the recent announcement of 105 school building projects; the relative ranking or position for this school under each criterion and overall compared with projects selected for inclusion; and if she will make a statement on the matter. [16241/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/404/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "779. Deputy Joe Cooney asked the Minister for Education and Youth if she will outline when a school (details supplied) will be issued with approval to proceed to Stage 2a; and if she will make a statement on the matter. [19415/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/779/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Staff",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "20. Deputy Joe Cooney asked the Minister for Education and Youth the steps she is taking to ensure the stability of special needs assistant allocations in County Clare following the distress caused to schools, children and parents by the proposed NCSE review earlier in 2026; whether she will confirm that no school in Clare will face a reduction in SNA support for the 2026-2027 academic year; and if she will make a statement on the matter. [28760/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/20/"
-                      },
-                      {
-                        "name": "77. Deputy Joe Cooney asked the Minister for Education and Youth the steps she is taking to address the precarious employment conditions facing newly qualified teachers; her views on the current contractual arrangements are contributing to the substitution crisis being experienced by schools in County Clare and nationally; the timeline for systemic reform of teacher employment pathways; and if she will make a statement on the matter. [28761/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/77/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Accommodation",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "145. Deputy Joe Cooney asked the Minister for Education and Youth the total costs incurred in Clare for land rental and prefab rental for primary and for post primary schools for the years 2020-2025; the total duration for which each school has had prefab accommodation; the comparison cost of long-term rental against the cost of permanent construction; and if she will make a statement on the matter. [40523/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/145/"
-                      },
-                      {
-                        "name": "161. Deputy Joe Cooney asked the Minister for Education and Youth if she will publish a breakdown of schools currently relying on temporary or modular accommodation and the duration for which that accommodation has been in place, by county; if her Department has a definition of ‘temporary accommodation’; if there is a policy timeline trigger at which a prefab unit must be replaced by a permanent structure; and if she will make a statement on the matter. [40524/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/161/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Educational Disadvantage",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "405. Deputy Joe Cooney asked the Minister for Education and Youth if she will provide an update on the application by a school (details supplied) for their inclusion in the DEIS 1 Plus programme; and if she will make a statement on the matter. [16242/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/405/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1398. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025 inclusive; the cost of purchasing the land; the estimated construction cost for the delivery of a new school; and if she will make a statement on the matter. [25324/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1398/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "497. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025 inclusive; and if she will make a statement on the matter. [28295/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/497/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Costs",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "318. Deputy Joe Cooney asked the Minister for Education and Youth the annual costs of renting the land and prefab classrooms for a school (details supplied) for each of the years 1998 to 2025, inclusive. [31718/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/318/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Housing",
             "children": [
               {
@@ -1621,6 +1730,27 @@
                 ]
               },
               {
+                "name": "Fire Service",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "370. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number of retained firefighters serving each fire station in County Clare compared with the approved establishment. [54529/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/370/"
+                      },
+                      {
+                        "name": "371. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number of emergency call-outs attended by Clare fire service, by station, in each of the past five years. [54530/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/371/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Weather Events",
                 "children": [
                   {
@@ -1679,6 +1809,22 @@
                         "name": "126. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number of local authority home loans issued, by county in 2023, 2024, 2025 and to date in 2026; the number of LAHLs, by county that have been refused for the same periods; the average household income by county, for those who have been refused a LAHL; and if he will make a statement on the matter. [48244/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/126/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "372. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number and value of built heritage investment scheme grants awarded in County Clare during each of the past five years. [54531/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/372/"
                       }
                     ]
                   }
@@ -2257,6 +2403,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/405/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "355. Deputy Joe Cooney asked the Minister for Children, Disability and Equality the number of adults with intellectual disabilities in County Clare awaiting residential placements. [53839/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/355/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2314,6 +2471,22 @@
                         "name": "836. Deputy Joe Cooney asked the Minister for Children, Disability and Equality her plans to extend paid paternity leave to eight weeks; and if she will make a statement on the matter. [22265/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/836/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "356. Deputy Joe Cooney asked the Minister for Children, Disability and Equality the number of County Clare children awaiting an assessment of need under the Disability Act 2005, broken down by waiting time. [53841/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/356/"
                       }
                     ]
                   }
@@ -2440,6 +2613,145 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Flood Relief Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "180. Deputy Joe Cooney asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the status of all flood relief schemes in County Clare, including the funding allocated, expenditure to date, estimated completion dates and current stage of delivery. [53845/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/180/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "25. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the current status of the two outstanding Large Scale Sport Infrastructure Fund applications submitted by Clare County Council in 2024 in respect of clubs (details supplied); and if he will make a statement on the matter. [33117/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/25/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "375. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the amount of sport related grant funding allocated that remains unspent and the year those funds were allocated, by local authority, in tabular form; and if he will make a statement on the matter. [40929/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/375/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Broadband Plan",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "29. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the current status of the National Broadband Plan rollout in County Clare, with particular reference to the remaining premises in rural and coastal areas that were identified as on track for connection in the second half of 2026; the steps being taken to ensure those premises are connected within that timeline; whether any risk of delay has been identified; and if he will make a statement on the matter. [33118/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/29/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "239. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the number of premises in County Clare connected under the National Broadband Plan to date; the number remaining; the scheduled works for the remainder of 2026; and the projected completion timeline for the county. [53842/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/239/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "69. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport to provide an update on the basic income for the arts scheme, the number of applicants by county in tabular form; the timeline for approvals and to outline if each county will be given an equitable allocation of recipients; and if he will make a statement on the matter. [44127/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/69/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Events",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "118. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the current status of any application submitted in support of the Grand Départ of the Tour de France being considered for Counties Clare, Limerick and Galway, and the wider Wild Atlantic Way corridor; if any engagement has taken place with cycling and tourism bodies on the subject; and if he will make a statement on the matter. [44128/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/118/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Post Office Network",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "240. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the number of post offices operating in County Clare, and to provide corresponding figures for 2016. [53843/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/240/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Telecommunications Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "241. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the number of mobile phone coverage blackspots identified in County Clare and to outline any plans to address them. [53844/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/241/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2521,86 +2833,6 @@
                         "name": "78. Deputy Joe Cooney asked the Minister for Foreign Affairs and Trade the steps her Department has taken at EU level to secure investment and trade opportunities for the more rural areas of counties such as Clare; and if she will make a statement on the matter. [50190/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/78/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "25. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the current status of the two outstanding Large Scale Sport Infrastructure Fund applications submitted by Clare County Council in 2024 in respect of clubs (details supplied); and if he will make a statement on the matter. [33117/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/25/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "375. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the amount of sport related grant funding allocated that remains unspent and the year those funds were allocated, by local authority, in tabular form; and if he will make a statement on the matter. [40929/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/375/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Broadband Plan",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "29. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the current status of the National Broadband Plan rollout in County Clare, with particular reference to the remaining premises in rural and coastal areas that were identified as on track for connection in the second half of 2026; the steps being taken to ensure those premises are connected within that timeline; whether any risk of delay has been identified; and if he will make a statement on the matter. [33118/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/29/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "69. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport to provide an update on the basic income for the arts scheme, the number of applicants by county in tabular form; the timeline for approvals and to outline if each county will be given an equitable allocation of recipients; and if he will make a statement on the matter. [44127/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/69/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Events",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "118. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the current status of any application submitted in support of the Grand Départ of the Tour de France being considered for Counties Clare, Limerick and Galway, and the wider Wild Atlantic Way corridor; if any engagement has taken place with cycling and tourism bodies on the subject; and if he will make a statement on the matter. [44128/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/118/"
                       }
                     ]
                   }
@@ -2869,6 +3101,59 @@
             ]
           },
           {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Naval Service",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "120. Deputy Joe Cooney asked the Minister for Defence whether the Shannon Estuary and County Clare will be included for consideration as a potential location for the proposed new Naval Service base on the west coast of Ireland, as referenced in the National Maritime Security Strategy 2026–2030; the criteria are being applied as part of the site selection process for this base; and if she will make a statement on the matter. [33116/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/120/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Maritime Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "129. Deputy Joe Cooney asked the Minister for Defence for an update on the GUARD, OVERSIGHT and SeaDOM projects on maritime and subsea object detection at the Centre for Robotics and Intelligent Systems (CRIS) at the University of Limerick; whether any of these projects have become operationally capable; and if she will make a statement on the matter. [54118/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/129/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "145. Deputy Joe Cooney asked the Minister for Defence the extent of her Department's engagement with the Centre for Robotics and Intelligent Systems (CRIS) at the University of Limerick; the details of all projects at CRIS for which funding is currently being provided by her Department; the plans to expand strategic funding for field robotics innovation; her plans to visit the facility; and if she will make a statement on the matter. [54117/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/145/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -2887,27 +3172,6 @@
                         "name": "38. Deputy Joe Cooney asked the Minister for Climate, Energy and the Environment the steps being taken to ensure that retail electricity prices are brought to a level that makes electrification a genuinely affordable proposition for ordinary households, given the Government’s ambition to accelerate the electrification of Irish homes through heat pumps, electric vehicles, and other demand-side measures; and if he will make a statement on the matter. [44139/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/38/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Naval Service",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "120. Deputy Joe Cooney asked the Minister for Defence whether the Shannon Estuary and County Clare will be included for consideration as a potential location for the proposed new Naval Service base on the west coast of Ireland, as referenced in the National Maritime Security Strategy 2026–2030; the criteria are being applied as part of the site selection process for this base; and if she will make a statement on the matter. [33116/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/120/"
                       }
                     ]
                   }
@@ -4320,6 +4584,168 @@
           "heading": "General Practitioner Services",
           "question": "788. Deputy Joe Cooney asked the Minister for Health the number of GP vacancies in County Clare at the end of June 2025 and the end of June 2026; the number of GMS patients currently without an assigned GP; and the steps being taken to improve access to GP services across the county. [53032/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/788/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 180,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "180. Deputy Joe Cooney asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the status of all flood relief schemes in County Clare, including the funding allocated, expenditure to date, estimated completion dates and current stage of delivery. [53845/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/180/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 239,
+          "department": "Culture",
+          "heading": "National Broadband Plan",
+          "question": "239. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the number of premises in County Clare connected under the National Broadband Plan to date; the number remaining; the scheduled works for the remainder of 2026; and the projected completion timeline for the county. [53842/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/239/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 240,
+          "department": "Culture",
+          "heading": "Post Office Network",
+          "question": "240. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the number of post offices operating in County Clare, and to provide corresponding figures for 2016. [53843/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/240/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 241,
+          "department": "Culture",
+          "heading": "Telecommunications Services",
+          "question": "241. Deputy Joe Cooney asked the Minister for Culture, Communications and Sport the number of mobile phone coverage blackspots identified in County Clare and to outline any plans to address them. [53844/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/241/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 355,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "355. Deputy Joe Cooney asked the Minister for Children, Disability and Equality the number of adults with intellectual disabilities in County Clare awaiting residential placements. [53839/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/355/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 356,
+          "department": "Children",
+          "heading": "Disabilities Assessments",
+          "question": "356. Deputy Joe Cooney asked the Minister for Children, Disability and Equality the number of County Clare children awaiting an assessment of need under the Disability Act 2005, broken down by waiting time. [53841/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/356/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 394,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "394. Deputy Joe Cooney asked the Minister for Health the average ambulance response times for emergency call-outs in County Clare during each of the past three years, broken down by call category; and the measures being undertaken in Clare and the wider Mid-West Region to reduce response times. [53836/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/394/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 395,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "395. Deputy Joe Cooney asked the Minister for Health the number of ambulance call-outs in County Clare that exceeded the national target response time during each of the past three years. [53837/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/395/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 396,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "396. Deputy Joe Cooney asked the Minister for Health the number of patients waiting longer than 6, 12 and 24 months for outpatient appointments at University Hospital Limerick who are resident in County Clare, broken down by specialty for the time periods of June 2025 and June 2026. [53838/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/396/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 397,
+          "department": "Health",
+          "heading": "Nursing Homes",
+          "question": "397. Deputy Joe Cooney asked the Minister for Health the number of nursing home beds in County Clare, broken down by public and private providers. [53840/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/397/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 28,
+          "department": "Education",
+          "heading": "School Staff",
+          "question": "28. Deputy Joe Cooney asked the Minister for Education and Youth the number of schools in County Clare that were notified of a reduction in their special needs assistant allocation arising from the National Council for Special Education's 2025-2026 review process; the current status of those allocations following the pause announced in February 2026; if every school who was notified of a reduction will retain the number of SNAs they had previously; if this has been communicated to them; and if she will make a statement on the matter. [53904/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/28/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 106,
+          "department": "Education",
+          "heading": "Departmental Data",
+          "question": "106. Deputy Joe Cooney asked the Minister for Education and Youth the steps her Department is taking to establish a fully independent, stand-alone Gaelcholáiste in County Clare; if she will address the limitations impacting students who wish to complete second-level education through the medium of the Irish language; and if she will make a statement on the matter. [53903/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/106/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 129,
+          "department": "Defence",
+          "heading": "Maritime Safety",
+          "question": "129. Deputy Joe Cooney asked the Minister for Defence for an update on the GUARD, OVERSIGHT and SeaDOM projects on maritime and subsea object detection at the Centre for Robotics and Intelligent Systems (CRIS) at the University of Limerick; whether any of these projects have become operationally capable; and if she will make a statement on the matter. [54118/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/129/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 145,
+          "department": "Defence",
+          "heading": "Departmental Data",
+          "question": "145. Deputy Joe Cooney asked the Minister for Defence the extent of her Department's engagement with the Centre for Robotics and Intelligent Systems (CRIS) at the University of Limerick; the details of all projects at CRIS for which funding is currently being provided by her Department; the plans to expand strategic funding for field robotics innovation; her plans to visit the facility; and if she will make a statement on the matter. [54117/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/145/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 370,
+          "department": "Housing",
+          "heading": "Fire Service",
+          "question": "370. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number of retained firefighters serving each fire station in County Clare compared with the approved establishment. [54529/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/370/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 371,
+          "department": "Housing",
+          "heading": "Fire Service",
+          "question": "371. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number of emergency call-outs attended by Clare fire service, by station, in each of the past five years. [54530/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/371/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 372,
+          "department": "Housing",
+          "heading": "Departmental Schemes",
+          "question": "372. Deputy Joe Cooney asked the Minister for Housing, Local Government and Heritage the number and value of built heritage investment scheme grants awarded in County Clare during each of the past five years. [54531/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/372/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 542,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "542. Deputy Joe Cooney asked the Minister for Health the budget allocation for mental health services for the years 2024, 2025 and to date in 2026, by health services region, in tabular form; her plans for increased investment in mental health services for 2027; and if she will make a statement on the matter. [54523/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/542/",
           "questionType": "written"
         }
       ]

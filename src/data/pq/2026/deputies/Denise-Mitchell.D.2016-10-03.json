@@ -9,13 +9,14 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Denise-Mitchell.D.2016-10-03/image/large",
   "types": {
     "all": {
-      "count": 77,
+      "count": 87,
       "headingOptions": [
         "Air Services",
         "Ambulance Service",
         "Animal Welfare",
         "Business Supports",
         "Childcare Services",
+        "Defective Building Materials",
         "Departmental Inquiries",
         "Departmental Properties",
         "Departmental Reviews",
@@ -31,6 +32,7 @@
         "Health Promotion",
         "Health Services",
         "Health Services Staff",
+        "Health Services Waiting Lists",
         "Healthcare Policy",
         "Hospital Services",
         "Housing Policy",
@@ -39,10 +41,12 @@
         "Naturalisation Applications",
         "Office of Government Procurement",
         "Pension Provisions",
+        "Public Sector Staff",
         "Renewable Energy Generation",
         "Residency Permits",
         "Road Safety",
         "School Admissions",
+        "School Equipment",
         "School Facilities",
         "School Management",
         "School Staff",
@@ -58,7 +62,7 @@
         "topHeading": "Special Educational Needs",
         "topHeadingCount": 8,
         "topDepartment": "Education",
-        "topDepartmentCount": 24
+        "topDepartmentCount": 26
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -97,12 +101,24 @@
               {
                 "name": "School Staff",
                 "value": 1
+              },
+              {
+                "name": "School Equipment",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Staff",
+                "value": 1
               }
             ]
           },
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Health Services Waiting Lists",
+                "value": 6
+              },
               {
                 "name": "Health Services",
                 "value": 5
@@ -113,7 +129,7 @@
               },
               {
                 "name": "Health Services Staff",
-                "value": 1
+                "value": 2
               },
               {
                 "name": "Healthcare Policy",
@@ -229,6 +245,10 @@
               },
               {
                 "name": "Water Services",
+                "value": 1
+              },
+              {
+                "name": "Defective Building Materials",
                 "value": 1
               }
             ]
@@ -561,12 +581,85 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "School Equipment",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "192. Deputy Denise Mitchell asked the Minister for Education and Youth the steps being taken to tackle the increasing number of schools mandating students to purchase laptops or tablets from single-vendor suppliers; if she accepts that this additional cost is placing a significant burden on families; and if she will make a statement on the matter. [53763/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/192/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "193. Deputy Denise Mitchell asked the Minister for Education and Youth the reason her Department decided to withdraw from the local bargaining measures for special needs assistants which formed part of the Public Service Agreement 2024-2026; and if she will make a statement on the matter. [53797/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/193/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Health Services Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "829. Deputy Denise Mitchell asked the Minister for Health the current waiting times for an occupational therapy assessment at the Kilbarrack Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53168/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/829/"
+                      },
+                      {
+                        "name": "830. Deputy Denise Mitchell asked the Minister for Health the current waiting times for an occupational therapy assessment at the Edenmore Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53169/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/830/"
+                      },
+                      {
+                        "name": "831. Deputy Denise Mitchell asked the Minister for Health the current waiting times for an occupational therapy assessment at the Killester Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/831/"
+                      },
+                      {
+                        "name": "832. Deputy Denise Mitchell asked the Minister for Health the current waiting times for a speech and language therapy at the Kilbarrack Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/832/"
+                      },
+                      {
+                        "name": "833. Deputy Denise Mitchell asked the Minister for Health the current waiting times for a speech and language therapy at the Killester Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/833/"
+                      },
+                      {
+                        "name": "834. Deputy Denise Mitchell asked the Minister for Health the current waiting times for a speech and language therapy at the Edenmore Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/834/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Health Services",
                 "children": [
@@ -687,6 +780,17 @@
                         "name": "1035. Deputy Denise Mitchell asked the Minister for Health the steps she and her Department have taken to address grievances of staff at a facility (details supplied) in Coolock, which has seen them on indefinite strike since 16 January 2026; if she and her Department will liaise with the workers and their union to come to a satisfactory agreement around pay; and if she will make a statement on the matter. [5912/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1035/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "835. Deputy Denise Mitchell asked the Minister for Health the number of whole-time equivalent physiotherapists employed in the HSE in Dublin; the number of vacancies in such posts; if she is satisfied there is a satisfactory number of staff to meet the needs of the area in this regard; and if she will make a statement on the matter. [53174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/835/"
                       }
                     ]
                   }
@@ -1188,6 +1292,22 @@
                         "name": "325. Deputy Denise Mitchell asked the Minister for Housing, Local Government and Heritage if he is aware of a dispute between Dublin City Council and staff who worked in the leakage department who decided not to transfer to Uisce Éireann; if he will intervene to ensure that Dublin City Council meets its obligations under the service level agreements to ensure these workers are reassigned to suitable vacancies in other areas of council work while maintaining their current pay, conditions and rostered hours; and if he will make a statement on the matter. [48460/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/325/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defective Building Materials",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "436. Deputy Denise Mitchell asked the Minister for Housing, Local Government and Heritage if there are plans to expand the eligibility criteria for the defective concrete blocks grant scheme to include non-primary residences once remediation works have been completed for those currently availing of the scheme; if he plans to create some form of register whereby those whose non-primary residences are affected by defective blocks can notify his Department in order to obtain a true picture of the number of dwellings affected by this issue; and if he will make a statement on the matter. [53633/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/436/"
                       }
                     ]
                   }
@@ -2031,6 +2151,96 @@
           "heading": "Visa Applications",
           "question": "161. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if he can clarify the situation for a person in an instance where their Stamp 4 work permit expires while the individual is awaiting the renewal of their Irish residence permit (IRP) card, particularly in an instance where the wait for the IRP card has gone beyond the twelve week grace period; if he is aware that delays in IRP renewals processing means that employers are seeking clarity on their obligations when a Stamp 4 expires during this limbo period; and if he will make a statement on the matter. [52229/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/161/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 436,
+          "department": "Housing",
+          "heading": "Defective Building Materials",
+          "question": "436. Deputy Denise Mitchell asked the Minister for Housing, Local Government and Heritage if there are plans to expand the eligibility criteria for the defective concrete blocks grant scheme to include non-primary residences once remediation works have been completed for those currently availing of the scheme; if he plans to create some form of register whereby those whose non-primary residences are affected by defective blocks can notify his Department in order to obtain a true picture of the number of dwellings affected by this issue; and if he will make a statement on the matter. [53633/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/436/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 829,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "829. Deputy Denise Mitchell asked the Minister for Health the current waiting times for an occupational therapy assessment at the Kilbarrack Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53168/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/829/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 830,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "830. Deputy Denise Mitchell asked the Minister for Health the current waiting times for an occupational therapy assessment at the Edenmore Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53169/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/830/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 831,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "831. Deputy Denise Mitchell asked the Minister for Health the current waiting times for an occupational therapy assessment at the Killester Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53170/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/831/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 832,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "832. Deputy Denise Mitchell asked the Minister for Health the current waiting times for a speech and language therapy at the Kilbarrack Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53171/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/832/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 833,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "833. Deputy Denise Mitchell asked the Minister for Health the current waiting times for a speech and language therapy at the Killester Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53172/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/833/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 834,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "834. Deputy Denise Mitchell asked the Minister for Health the current waiting times for a speech and language therapy at the Edenmore Health Centre, Dublin; the number of people currently on the waiting list; the average and longest waiting time for an assessment; the measures being taken to reduce waiting times; and if she will make a statement on the matter. [53173/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/834/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-14",
+          "questionNumber": 835,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "835. Deputy Denise Mitchell asked the Minister for Health the number of whole-time equivalent physiotherapists employed in the HSE in Dublin; the number of vacancies in such posts; if she is satisfied there is a satisfactory number of staff to meet the needs of the area in this regard; and if she will make a statement on the matter. [53174/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/835/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 192,
+          "department": "Education",
+          "heading": "School Equipment",
+          "question": "192. Deputy Denise Mitchell asked the Minister for Education and Youth the steps being taken to tackle the increasing number of schools mandating students to purchase laptops or tablets from single-vendor suppliers; if she accepts that this additional cost is placing a significant burden on families; and if she will make a statement on the matter. [53763/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/192/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-15",
+          "questionNumber": 193,
+          "department": "Education",
+          "heading": "Public Sector Staff",
+          "question": "193. Deputy Denise Mitchell asked the Minister for Education and Youth the reason her Department decided to withdraw from the local bargaining measures for special needs assistants which formed part of the Public Service Agreement 2024-2026; and if she will make a statement on the matter. [53797/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/193/",
           "questionType": "written"
         }
       ]
