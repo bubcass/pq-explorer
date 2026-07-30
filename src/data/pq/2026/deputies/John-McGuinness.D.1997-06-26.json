@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-McGuinness.D.1997-06-26/image/large",
   "types": {
     "all": {
-      "count": 110,
+      "count": 111,
       "headingOptions": [
         "Adoption Services",
         "Agriculture Industry",
@@ -78,6 +78,7 @@
         "Special Educational Needs",
         "State Examinations",
         "State Pensions",
+        "Taxi Licences",
         "Technological Universities",
         "Third Level Costs",
         "Third Level Education",
@@ -424,6 +425,23 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
+                "value": 1
+              },
+              {
+                "name": "Taxi Licences",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -471,19 +489,6 @@
               },
               {
                 "name": "Trade Relations",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Bus Services",
-                "value": 1
-              },
-              {
-                "name": "Road Network",
                 "value": 1
               }
             ]
@@ -1948,6 +1953,59 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "112. Deputy John McGuinness asked the Minister for Transport if the discontinued route 4 bus service from Waterford to Dublin-Dublin Airport and the stops along the route will be reinstated following the withdrawal of a service (details supplied). [46260/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/112/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "115. Deputy John McGuinness asked the Minister for Transport if he will provide an update on progress regarding approval of the completion of the final two stages of the Kilkenny ring road and the maintenance and upgrade of the existing sections of the same road. [46261/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/115/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Taxi Licences",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "352. Deputy John McGuinness asked the Minister for Transport if he will consider policy changes in the review of the Taxi Regulation Act 2013 to include the transfer of licences to other family members where a business is providing for succession planning in the lifetime of the licence holder; if he plans to request all stakeholders for submissions relative to proposed amendments and policy changes; if the heads of the Bill will be brought before the appropriate Oireachtas Committee; and if he will make a statement on the matter. [54900/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/352/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -2088,43 +2146,6 @@
                         "name": "17. Deputy John McGuinness asked the Minister for Foreign Affairs and Trade if she will join other European countries that already have well established trade offices in Taiwan and are benefiting substantially from their presence there; and if the Irish office will be reopened immediately. [50201/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/17/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "112. Deputy John McGuinness asked the Minister for Transport if the discontinued route 4 bus service from Waterford to Dublin-Dublin Airport and the stops along the route will be reinstated following the withdrawal of a service (details supplied). [46260/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/112/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Network",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "115. Deputy John McGuinness asked the Minister for Transport if he will provide an update on progress regarding approval of the completion of the final two stages of the Kilkenny ring road and the maintenance and upgrade of the existing sections of the same road. [46261/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/115/"
                       }
                     ]
                   }
@@ -3165,6 +3186,15 @@
           "heading": "Defence Forces",
           "question": "169. Deputy John McGuinness asked the Minister for Defence if all Defence Forces personnel placed on-call for duty during the EU Presidency will be paid promptly. [54134/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/169/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 352,
+          "department": "Transport",
+          "heading": "Taxi Licences",
+          "question": "352. Deputy John McGuinness asked the Minister for Transport if he will consider policy changes in the review of the Taxi Regulation Act 2013 to include the transfer of licences to other family members where a business is providing for succession planning in the lifetime of the licence holder; if he plans to request all stakeholders for submissions relative to proposed amendments and policy changes; if the heads of the Bill will be brought before the appropriate Oireachtas Committee; and if he will make a statement on the matter. [54900/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/352/",
           "questionType": "written"
         }
       ]

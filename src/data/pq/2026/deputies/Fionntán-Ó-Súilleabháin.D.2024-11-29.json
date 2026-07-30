@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Fionntán-Ó-Súilleabháin.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 135,
+      "count": 137,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -48,6 +48,7 @@
         "Military Aircraft",
         "Ministerial Communications",
         "National Parks",
+        "National Transport Authority",
         "Natural Heritage Areas",
         "Online Safety",
         "Pension Provisions",
@@ -67,6 +68,7 @@
         "Social Welfare Eligibility",
         "Special Educational Needs",
         "Sports Funding",
+        "State Properties",
         "Weather Events"
       ],
       "insights": {
@@ -205,6 +207,10 @@
               },
               {
                 "name": "Disability Issues",
+                "value": 1
+              },
+              {
+                "name": "National Transport Authority",
                 "value": 1
               }
             ]
@@ -371,6 +377,19 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Public Sector Pensions",
+                "value": 1
+              },
+              {
+                "name": "State Properties",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -388,15 +407,6 @@
             "children": [
               {
                 "name": "Social Welfare Eligibility",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Public Sector Pensions",
                 "value": 1
               }
             ]
@@ -1345,6 +1355,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "National Transport Authority",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "539. Deputy Fionntán Ó Súilleabháin asked the Minister for Transport if he will engage with the National Transport Authority (NTA) regarding the lengthy delays and, in some cases, lack of responses to correspondence from Oireachtas Members and constituency offices; whether he is satisfied with the current level of engagement and communication between the NTA and public representatives on behalf of constituents; the measures being taken to improve response times and accountability; and if he will make a statement on the matter. [57790/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/539/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1920,6 +1946,43 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Public Sector Pensions",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "507. Deputy Fionntán Ó Súilleabháin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will reinstate or replace the supplementary pension for fast accrual public servants under the 2013 single pension scheme, given that its removal leaves post 2013 members approximately €13,800 per year worse off until they reach State Pension age. [18831/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/507/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "847. Deputy Fionntán Ó Súilleabháin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of State-owned properties currently vacant in counties Wicklow and Wexford; their locations and the duration of vacancy; and if he will make a statement on the matter. [57799/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/847/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -1970,27 +2033,6 @@
                         "name": "679. Deputy Fionntán Ó Súilleabháin asked the Minister for Social Protection the reason a person (details supplied) has been refused any form of financial disability aid or other financial supports; and if he will make a statement on the matter. [5454/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/679/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Public Sector Pensions",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "507. Deputy Fionntán Ó Súilleabháin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will reinstate or replace the supplementary pension for fast accrual public servants under the 2013 single pension scheme, given that its removal leaves post 2013 members approximately €13,800 per year worse off until they reach State Pension age. [18831/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/507/"
                       }
                     ]
                   }
@@ -3235,6 +3277,24 @@
           "heading": "Primary Care Centres",
           "question": "555. Deputy Fionntán Ó Súilleabháin asked the Minister for Health whether a successful tenderer was notified in quarter two of 2026 for a care centre (details supplied); whether a timeline for the project is now available; and if she will make a statement on the matter. [54583/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/555/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 539,
+          "department": "Transport",
+          "heading": "National Transport Authority",
+          "question": "539. Deputy Fionntán Ó Súilleabháin asked the Minister for Transport if he will engage with the National Transport Authority (NTA) regarding the lengthy delays and, in some cases, lack of responses to correspondence from Oireachtas Members and constituency offices; whether he is satisfied with the current level of engagement and communication between the NTA and public representatives on behalf of constituents; the measures being taken to improve response times and accountability; and if he will make a statement on the matter. [57790/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/539/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 847,
+          "department": "Public Expenditure",
+          "heading": "State Properties",
+          "question": "847. Deputy Fionntán Ó Súilleabháin asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of State-owned properties currently vacant in counties Wicklow and Wexford; their locations and the duration of vacancy; and if he will make a statement on the matter. [57799/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/847/",
           "questionType": "written"
         }
       ]
