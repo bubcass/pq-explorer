@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Conor-Sheehan.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 319,
+      "count": 335,
       "headingOptions": [
         "Air Safety",
         "Ambulance Service",
@@ -51,6 +51,7 @@
         "Educational Disadvantage",
         "Electoral Commission",
         "Emergency Departments",
+        "Energy Infrastructure",
         "Family Reunification",
         "Fire Service",
         "Fishing Industry",
@@ -65,6 +66,7 @@
         "Healthcare Policy",
         "Hospital Admissions",
         "Hospital Equipment",
+        "Hospital Facilities",
         "Hospital Services",
         "Hospital Staff",
         "Housing Policy",
@@ -112,14 +114,17 @@
         "Schools Building Projects",
         "Semi-State Bodies",
         "Social Welfare Code",
+        "Social Welfare Schemes",
         "Special Educational Needs",
         "Sports Events",
         "Sports Funding",
         "State Bodies",
+        "Student Visas",
         "Substance Misuse",
         "Tax Code",
         "Tax Reliefs",
         "Tax Yield",
+        "Third Level Admissions",
         "Third Level Costs",
         "Tobacco Control Measures",
         "Transport of Animals",
@@ -134,7 +139,7 @@
         "topHeading": "Rental Sector",
         "topHeadingCount": 19,
         "topDepartment": "Health",
-        "topDepartmentCount": 94
+        "topDepartmentCount": 101
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -163,11 +168,19 @@
                 "value": 6
               },
               {
+                "name": "Hospital Facilities",
+                "value": 6
+              },
+              {
                 "name": "Hospital Services",
                 "value": 3
               },
               {
                 "name": "Nursing Homes",
+                "value": 3
+              },
+              {
+                "name": "Hospital Equipment",
                 "value": 3
               },
               {
@@ -180,10 +193,6 @@
               },
               {
                 "name": "Departmental Reviews",
-                "value": 2
-              },
-              {
-                "name": "Hospital Equipment",
                 "value": 2
               },
               {
@@ -332,6 +341,10 @@
                 "value": 2
               },
               {
+                "name": "National Parks",
+                "value": 2
+              },
+              {
                 "name": "Legislative Reviews",
                 "value": 2
               },
@@ -368,10 +381,6 @@
                 "value": 1
               },
               {
-                "name": "National Parks",
-                "value": 1
-              },
-              {
                 "name": "Departmental Reviews",
                 "value": 1
               },
@@ -389,6 +398,10 @@
               },
               {
                 "name": "Approved Housing Bodies",
+                "value": 1
+              },
+              {
+                "name": "Energy Infrastructure",
                 "value": 1
               }
             ]
@@ -439,47 +452,18 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Rail Network",
-                "value": 9
-              },
-              {
-                "name": "Driver Licences",
-                "value": 2
-              },
-              {
-                "name": "Bus Services",
-                "value": 2
-              },
-              {
-                "name": "Air Safety",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "National Transport Authority",
-                "value": 1
-              },
-              {
-                "name": "Transport of Animals",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
                 "name": "An Garda Síochána",
-                "value": 3
+                "value": 4
               },
               {
                 "name": "Mental Health Services",
+                "value": 3
+              },
+              {
+                "name": "Visa Applications",
                 "value": 3
               },
               {
@@ -513,9 +497,38 @@
               {
                 "name": "Legal Services Regulation",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Rail Network",
+                "value": 9
               },
               {
-                "name": "Visa Applications",
+                "name": "Driver Licences",
+                "value": 2
+              },
+              {
+                "name": "Bus Services",
+                "value": 2
+              },
+              {
+                "name": "Air Safety",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "National Transport Authority",
+                "value": 1
+              },
+              {
+                "name": "Transport of Animals",
                 "value": 1
               }
             ]
@@ -712,15 +725,10 @@
               {
                 "name": "Third Level Costs",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Taoiseach",
-            "children": [
+              },
               {
-                "name": "Cabinet Committees",
-                "value": 5
+                "name": "Student Visas",
+                "value": 1
               }
             ]
           },
@@ -734,19 +742,19 @@
               {
                 "name": "Passport Services",
                 "value": 1
+              },
+              {
+                "name": "Third Level Admissions",
+                "value": 1
               }
             ]
           },
           {
-            "name": "Climate",
+            "name": "Taoiseach",
             "children": [
               {
-                "name": "Fishing Industry",
-                "value": 1
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
+                "name": "Cabinet Committees",
+                "value": 5
               }
             ]
           },
@@ -756,6 +764,10 @@
               {
                 "name": "Library Projects",
                 "value": 2
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
               }
             ]
           },
@@ -768,6 +780,23 @@
               },
               {
                 "name": "Social Welfare Code",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Fishing Industry",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -1216,6 +1245,47 @@
                 ]
               },
               {
+                "name": "Hospital Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3405. Deputy Conor Sheehan asked the Minister for Health the status of the planning application for the oncology day unit at Cavan General Hospital as outlined in the 2026 HSE Capital Plan; and if she will make a statement on the matter. [56236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3405/"
+                      },
+                      {
+                        "name": "3406. Deputy Conor Sheehan asked the Minister for Health the progress of the design phase of the oncology day units at Tallaght University Hospital, Kerry University Hospital and the Midland Regional Hospital Tullamore respectively as outlined, in the 2026 HSE Capital Plan; and if she will make a statement on the matter. [56237/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3406/"
+                      },
+                      {
+                        "name": "3407. Deputy Conor Sheehan asked the Minister for Health the progress of expanding or upgrading the endoscopy facilities as outlined in the 2025 HSE Capital Plan at Naas General Hospital, Connolly Hospital Blanchardstown, Our Lady of Lourdes Hospital (Drogheda) and Cavan General Hospital respectively; and if she will make a statement on the matter. [56238/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3407/"
+                      },
+                      {
+                        "name": "3409. Deputy Conor Sheehan asked the Minister for Health the progress of extending oncology units/day wards as outlined in the 2025 HSE Capital Plan at Portiuncula University Hospital, Naas General Hospital, Midland Regional Hospital Tullamore, University Hospital Kerry respectively; and if she will make a statement on the matter. [56240/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3409/"
+                      },
+                      {
+                        "name": "3410. Deputy Conor Sheehan asked the Minister for Health the progress of expanding bronchoscopy capacity and recovery room at University Hospital Limerick as outlined in the 2025 HSE Capital Plan; and if she will make a statement on the matter. [56241/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3410/"
+                      },
+                      {
+                        "name": "3411. Deputy Conor Sheehan asked the Minister for Health the progress of the aseptic oncology drug compounding unit at Mayo University Hospital listed as under the appraisal phase in the 2026 HSE Capital Plan; and if she will make a statement on the matter. [56242/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3411/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Hospital Services",
                 "children": [
                   {
@@ -1274,6 +1344,38 @@
                         "name": "1015. Deputy Conor Sheehan asked the Minister for Health the total budget allocated to the ‘Under 65 Programme’ to get people out of inappropriate nursing home settings in each of the years 2023 to 2025, in tabular form; and if she will make a statement on the matter. [14669/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/1015/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Equipment",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "954. Deputy Conor Sheehan asked the Minister for Health her plans to develop additional endoscopy capacity; and if she will make a statement on the matter. [17126/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/954/"
+                      },
+                      {
+                        "name": "955. Deputy Conor Sheehan asked the Minister for Health if there will be additional endoscopy capacity provided for in the new elective hospitals; and if she will make a statement on the matter. [17127/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/955/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3408. Deputy Conor Sheehan asked the Minister for Health the progress of expanding or upgrading radiology equipment as outlined in the 2025 HSE Capital Plan at Cork University Hospital, University Hospital Limerick, Sligo University Hospital, Mater Misericordiae University Hospital, Connolly Hospital Blanchardstown respectively; and if she will make a statement on the matter. [56239/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3408/"
                       }
                     ]
                   }
@@ -1353,27 +1455,6 @@
                         "name": "751. Deputy Conor Sheehan asked the Minister for Health when the review of the 2018 Model of Care is expected to begin; and if she will make a statement on the matter. [47309/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/751/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Equipment",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "954. Deputy Conor Sheehan asked the Minister for Health her plans to develop additional endoscopy capacity; and if she will make a statement on the matter. [17126/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/954/"
-                      },
-                      {
-                        "name": "955. Deputy Conor Sheehan asked the Minister for Health if there will be additional endoscopy capacity provided for in the new elective hospitals; and if she will make a statement on the matter. [17127/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/955/"
                       }
                     ]
                   }
@@ -2453,6 +2534,33 @@
                 ]
               },
               {
+                "name": "National Parks",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "987. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage the refurbishment works that were carried out at each National Park during 2025; if each of those refurbishment works projects are completed or still ongoing at present, in tabular form; and if he will make a statement on the matter. [18229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/987/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1664. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage the number of capital works projects currently ongoing at each National Park under the remit of his Department; when each of those projects will be completed, in tabular form; and if he will make a statement on the matter. [56066/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1664/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Legislative Reviews",
                 "children": [
                   {
@@ -2624,22 +2732,6 @@
                 ]
               },
               {
-                "name": "National Parks",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "987. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage the refurbishment works that were carried out at each National Park during 2025; if each of those refurbishment works projects are completed or still ongoing at present, in tabular form; and if he will make a statement on the matter. [18229/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/987/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Departmental Reviews",
                 "children": [
                   {
@@ -2714,6 +2806,22 @@
                         "name": "459. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage whether he intends to undertake a review of the approved housing body sector to examine governance, financial sustainability, value-for-money, asset management, rent-setting practices and tenant protections; and if he will make a statement on the matter. [51245/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/459/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Infrastructure",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1665. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage when he last met formally with the CEO of Gas Network Ireland; and if he will make a statement on the matter. [56067/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1665/"
                       }
                     ]
                   }
@@ -3021,6 +3129,251 @@
             ]
           },
           {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1657. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the total number of Gardaí broken down by rank in each Garda division in the country; and the number of Garda retirements in each division between 2020 and 2025, in tabular form; and if he will make a statement on the matter. [74600/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1657/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1233. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of new Garda community support vans that came into fleet in each of the years of 2024, 2025 and to date in 2026; the number of those Garda community support vans that were withdrawn from the fleet during same period, in tabular form; and if he will make a statement on the matter. [18231/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1233/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "628. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of vehicles seized by Gardaí for having no valid insurance in the Limerick division in 2025 and to-date in 2026, in tabular form; and if he will make a statement on the matter. [28264/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/628/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2206. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of new marked and unmarked Garda cars that were added to the Limerick roads policing unit fleet in 2025 and to date in 2026; the number of marked and unmarked Garda cars that were withdrawn from Limerick RPU during the same period, in tabular form; and if he will make a statement on the matter. [56072/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2206/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mental Health Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "205. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if his Department has received the University of Limerick evaluation of the CAST pilot; and if he will make a statement on the matter. [38238/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/205/"
+                      },
+                      {
+                        "name": "206. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the total number of callouts the CAST team responded to between January 2025 and May 2026, in tabular form; and if he will make a statement on the matter. [38239/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/206/"
+                      },
+                      {
+                        "name": "207. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of individuals successfully diverted from custody to acute psychiatric care via the CAST initiative; and if he will make a statement on the matter. [38240/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/207/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2134. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the status of visa applications (details supplied); the steps his Department is taking to expedite these specific cases to ensure students arrive ahead of the September semester; and if he will make a statement on the matter. [54846/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2134/"
+                      },
+                      {
+                        "name": "2200. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the steps he is taking to address delays in the processing of short-stay (C) tourist visa applications for individuals seeking to visit family members resident in Ireland, particularly in cases where visas have previously been granted for visits; the current average processing time for such applications, by country where available; the reasons for the delays being experienced in recent months; the measures he plans to implement to reduce waiting times and ensure that families are able to reunite for short visits in a timely manner; and if he will make a statement on the matter. [55863/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2200/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "491. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the current average processing time for join-family visa applications sponsored by general employment permit holders; the steps being taken by ISD to expedite applications involving minor children separated from a parent working in the Irish care sector; and if he will make a statement on the matter. [52696/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/491/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Family Reunification",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "489. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if his Department will review the net income thresholds required for non-EEA family reunification, specifically for category C sponsors holding general employment permits in the health and social care sector; if he recognises the systemic barrier created when the State accepts a healthcare assistant's salary as sufficient for an essential work permit but insufficient to sponsor their minor children; and if he will make a statement on the matter. [52694/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/489/"
+                      },
+                      {
+                        "name": "490. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if he will consider amending the non-EEA family reunification policy to grant immediate family reunification rights to general employment permit holders working in essential healthcare and home care roles, bringing their entitlements into alignment with critical skills employment permit holders; and if he will make a statement on the matter. [52695/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/490/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1653. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of people in Irish prisons with a personality disorder diagnosis between 2020 and 2025; and if he will make a statement on the matter. [74550/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1653/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prison Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1654. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the measures he will take to reduce the number of people in prison on short term sentences of less than 12 months; and if he will make a statement on the matter. [74551/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1654/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Inspector of Prisons",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1656. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the position regarding the latest Inspector of Prisons report into Limerick Prison; and if he will make a statement on the matter. [74599/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1656/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deportation Orders",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "722. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of persons classified as tradespeople and/or construction workers that have been deported or voluntarily returned to their home countries in each of the years 2020 to 2025, by occupational sector, in tabular form; and if he will make a statement on the matter. [3579/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/722/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "469. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question Nos. 494 and 493 of 11 December 2025, when he intends to publish and enact legislation to reform this process (details supplied); and if he will make a statement on the matter. [5216/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/469/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Substance Misuse",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "56. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if he will provide an updateon future funding of the CAST pilot in Limerick; and if he will make a statement on the matter. [35711/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/56/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legal Services Regulation",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "711. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if his Department has formally consulted with the Legal Services Regulatory Authority (LSRA) regarding the structural framework required to establish an independent conveyancing profession as recommended by the CCPC; the measures being taken to overcome the implementation challenges previously cited by the LSRA; and if he will make a statement on the matter. [37362/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/711/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Transport",
             "children": [
               {
@@ -3204,224 +3557,6 @@
                         "name": "118. Deputy Conor Sheehan asked the Minister for Transport if he will instruct public transport operators to allow dogs on all scheduled bus, rail and light rail services; the steps his Department is taking to standardise pet travel policies across all public transport operators; and if he will make a statement on the matter. [52774/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/118/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1657. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the total number of Gardaí broken down by rank in each Garda division in the country; and the number of Garda retirements in each division between 2020 and 2025, in tabular form; and if he will make a statement on the matter. [74600/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1657/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1233. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of new Garda community support vans that came into fleet in each of the years of 2024, 2025 and to date in 2026; the number of those Garda community support vans that were withdrawn from the fleet during same period, in tabular form; and if he will make a statement on the matter. [18231/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1233/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "628. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of vehicles seized by Gardaí for having no valid insurance in the Limerick division in 2025 and to-date in 2026, in tabular form; and if he will make a statement on the matter. [28264/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/628/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Mental Health Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "205. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if his Department has received the University of Limerick evaluation of the CAST pilot; and if he will make a statement on the matter. [38238/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/205/"
-                      },
-                      {
-                        "name": "206. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the total number of callouts the CAST team responded to between January 2025 and May 2026, in tabular form; and if he will make a statement on the matter. [38239/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/206/"
-                      },
-                      {
-                        "name": "207. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of individuals successfully diverted from custody to acute psychiatric care via the CAST initiative; and if he will make a statement on the matter. [38240/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/207/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Family Reunification",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "489. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if his Department will review the net income thresholds required for non-EEA family reunification, specifically for category C sponsors holding general employment permits in the health and social care sector; if he recognises the systemic barrier created when the State accepts a healthcare assistant's salary as sufficient for an essential work permit but insufficient to sponsor their minor children; and if he will make a statement on the matter. [52694/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/489/"
-                      },
-                      {
-                        "name": "490. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if he will consider amending the non-EEA family reunification policy to grant immediate family reunification rights to general employment permit holders working in essential healthcare and home care roles, bringing their entitlements into alignment with critical skills employment permit holders; and if he will make a statement on the matter. [52695/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/490/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1653. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of people in Irish prisons with a personality disorder diagnosis between 2020 and 2025; and if he will make a statement on the matter. [74550/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1653/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Prison Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1654. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the measures he will take to reduce the number of people in prison on short term sentences of less than 12 months; and if he will make a statement on the matter. [74551/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1654/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Inspector of Prisons",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1656. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the position regarding the latest Inspector of Prisons report into Limerick Prison; and if he will make a statement on the matter. [74599/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1656/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Deportation Orders",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "722. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of persons classified as tradespeople and/or construction workers that have been deported or voluntarily returned to their home countries in each of the years 2020 to 2025, by occupational sector, in tabular form; and if he will make a statement on the matter. [3579/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/722/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Measures",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "469. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question Nos. 494 and 493 of 11 December 2025, when he intends to publish and enact legislation to reform this process (details supplied); and if he will make a statement on the matter. [5216/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/469/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Substance Misuse",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "56. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if he will provide an updateon future funding of the CAST pilot in Limerick; and if he will make a statement on the matter. [35711/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/56/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legal Services Regulation",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "711. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration if his Department has formally consulted with the Legal Services Regulatory Authority (LSRA) regarding the structural framework required to establish an independent conveyancing profession as recommended by the CCPC; the measures being taken to overcome the implementation challenges previously cited by the LSRA; and if he will make a statement on the matter. [37362/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/711/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "491. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the current average processing time for join-family visa applications sponsored by general employment permit holders; the steps being taken by ISD to expedite applications involving minor children separated from a parent working in the Irish care sector; and if he will make a statement on the matter. [52696/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/491/"
                       }
                     ]
                   }
@@ -4271,49 +4406,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Taoiseach",
-            "children": [
+              },
               {
-                "name": "Cabinet Committees",
+                "name": "Student Visas",
                 "children": [
                   {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "13. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [37534/26]",
+                        "name": "4172. Deputy Conor Sheehan asked the Minister for Further and Higher Education, Research, Innovation and Science if his Department is aware of administrative and visa delays affecting a cohort of ten Palestinian students due to take up funded sanctuary places at the University of Limerick this September; the engagement his Department has had with the Department of Justice to ensure these students can arrive early to settle and prepare; the supports being made available to the university to manage this process; and if he will make a statement on the matter. [54847/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/13/"
-                      },
-                      {
-                        "name": "22. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on infrastructure will meet next [39593/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/22/"
-                      },
-                      {
-                        "name": "46. Deputy Conor Sheehan asked the Taoiseach when the Cabinet Committee on Housing will meet next. [37535/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/46/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "11. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on housing will meet next [39594/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/11/"
-                      },
-                      {
-                        "name": "14. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on housing will meet next. [42080/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/14/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4172/"
                       }
                     ]
                   }
@@ -4371,39 +4475,65 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
+              },
               {
-                "name": "Fishing Industry",
+                "name": "Third Level Admissions",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "312. Deputy Conor Sheehan asked the Minister for Climate, Energy and the Environment in light of the opposition by anglers to the proposed new catch and release bye laws, if he will take action on the issues highlighted by a group (details supplied); and if he will make a statement on the matter. [1314/26]",
+                        "name": "37. Deputy Conor Sheehan asked the Minister for Foreign Affairs and Trade the diplomatic pathways and evacuation assistance currently available to Palestinian students who have secured academic places in Irish higher education institutions for the upcoming academic year; if her Department is coordinating with international partners or UK evacuation schemes to assist these students in exiting the region safely; and if she will make a statement on the matter. [54848/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/312/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/37/"
                       }
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "name": "Taoiseach",
+            "children": [
               {
-                "name": "Departmental Funding",
+                "name": "Cabinet Committees",
                 "children": [
                   {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
                     "children": [
                       {
-                        "name": "86. Deputy Conor Sheehan asked the Minister for Climate, Energy and the Environment the supports available to people who are unable to afford the upfront costs of retrofitting their homes prior to receiving grant monies from the SEAI; and if he will make a statement on the matter. [19094/26]",
+                        "name": "13. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [37534/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/86/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/13/"
+                      },
+                      {
+                        "name": "22. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on infrastructure will meet next [39593/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/22/"
+                      },
+                      {
+                        "name": "46. Deputy Conor Sheehan asked the Taoiseach when the Cabinet Committee on Housing will meet next. [37535/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/46/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "11. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on housing will meet next [39594/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/11/"
+                      },
+                      {
+                        "name": "14. Deputy Conor Sheehan asked the Taoiseach when the Cabinet committee on housing will meet next. [42080/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/14/"
                       }
                     ]
                   }
@@ -4436,6 +4566,22 @@
                         "name": "994. Deputy Conor Sheehan asked the Minister for Rural and Community Development and the Gaeltacht for an update on funding for a new library (details supplied); and if he will make a statement on the matter. [17137/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/994/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4266. Deputy Conor Sheehan asked the Minister for Rural and Community Development and the Gaeltacht the capital and current funding allocated to the Charities Regulator in 2026; and if he will make a statement on the matter. [56065/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4266/"
                       }
                     ]
                   }
@@ -4473,6 +4619,59 @@
                         "name": "1202. Deputy Conor Sheehan asked the Minister for Social Protection if the qualifying criteria for the living alone allowance can be expanded so that a public sector pensioner (details supplied) who is ineligible for a qualifying payment may be considered eligible; and if he will make a statement on the matter. [20038/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1202/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1973. Deputy Conor Sheehan asked the Minister for Social Protection the number of applications for jobseeker’s benefit that were refused in each of the first six months of 2026, per county, in tabular form; and if he will make a statement on the matter. [56068/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1973/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Fishing Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "312. Deputy Conor Sheehan asked the Minister for Climate, Energy and the Environment in light of the opposition by anglers to the proposed new catch and release bye laws, if he will take action on the issues highlighted by a group (details supplied); and if he will make a statement on the matter. [1314/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/312/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "86. Deputy Conor Sheehan asked the Minister for Climate, Energy and the Environment the supports available to people who are unable to afford the upfront costs of retrofitting their homes prior to receiving grant monies from the SEAI; and if he will make a statement on the matter. [19094/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/86/"
                       }
                     ]
                   }
@@ -7293,6 +7492,15 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 37,
+          "department": "Foreign",
+          "heading": "Third Level Admissions",
+          "question": "37. Deputy Conor Sheehan asked the Minister for Foreign Affairs and Trade the diplomatic pathways and evacuation assistance currently available to Palestinian students who have secured academic places in Irish higher education institutions for the upcoming academic year; if her Department is coordinating with international partners or UK evacuation schemes to assist these students in exiting the region safely; and if she will make a statement on the matter. [54848/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/37/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 434,
           "department": "Transport",
           "heading": "Rail Network",
@@ -7338,6 +7546,60 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 1664,
+          "department": "Housing",
+          "heading": "National Parks",
+          "question": "1664. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage the number of capital works projects currently ongoing at each National Park under the remit of his Department; when each of those projects will be completed, in tabular form; and if he will make a statement on the matter. [56066/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1664/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1665,
+          "department": "Housing",
+          "heading": "Energy Infrastructure",
+          "question": "1665. Deputy Conor Sheehan asked the Minister for Housing, Local Government and Heritage when he last met formally with the CEO of Gas Network Ireland; and if he will make a statement on the matter. [56067/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1665/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1973,
+          "department": "Social",
+          "heading": "Social Welfare Schemes",
+          "question": "1973. Deputy Conor Sheehan asked the Minister for Social Protection the number of applications for jobseeker’s benefit that were refused in each of the first six months of 2026, per county, in tabular form; and if he will make a statement on the matter. [56068/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1973/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2134,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "2134. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the status of visa applications (details supplied); the steps his Department is taking to expedite these specific cases to ensure students arrive ahead of the September semester; and if he will make a statement on the matter. [54846/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2134/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2200,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "2200. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the steps he is taking to address delays in the processing of short-stay (C) tourist visa applications for individuals seeking to visit family members resident in Ireland, particularly in cases where visas have previously been granted for visits; the current average processing time for such applications, by country where available; the reasons for the delays being experienced in recent months; the measures he plans to implement to reduce waiting times and ensure that families are able to reunite for short visits in a timely manner; and if he will make a statement on the matter. [55863/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2200/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2206,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "2206. Deputy Conor Sheehan asked the Minister for Justice, Home Affairs and Migration the number of new marked and unmarked Garda cars that were added to the Limerick roads policing unit fleet in 2025 and to date in 2026; the number of marked and unmarked Garda cars that were withdrawn from Limerick RPU during the same period, in tabular form; and if he will make a statement on the matter. [56072/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2206/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 3374,
           "department": "Health",
           "heading": "Health Services Staff",
@@ -7352,6 +7614,87 @@
           "heading": "Health Services Staff",
           "question": "3375. Deputy Conor Sheehan asked the Minister for Health the number of WTE physiotherapists, by grade posts, filled within CHO3 older persons services as of 16 July 2026, in tabular form; and if she will make a statement on the matter. [56064/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3375/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3405,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "3405. Deputy Conor Sheehan asked the Minister for Health the status of the planning application for the oncology day unit at Cavan General Hospital as outlined in the 2026 HSE Capital Plan; and if she will make a statement on the matter. [56236/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3405/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3406,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "3406. Deputy Conor Sheehan asked the Minister for Health the progress of the design phase of the oncology day units at Tallaght University Hospital, Kerry University Hospital and the Midland Regional Hospital Tullamore respectively as outlined, in the 2026 HSE Capital Plan; and if she will make a statement on the matter. [56237/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3406/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3407,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "3407. Deputy Conor Sheehan asked the Minister for Health the progress of expanding or upgrading the endoscopy facilities as outlined in the 2025 HSE Capital Plan at Naas General Hospital, Connolly Hospital Blanchardstown, Our Lady of Lourdes Hospital (Drogheda) and Cavan General Hospital respectively; and if she will make a statement on the matter. [56238/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3407/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3408,
+          "department": "Health",
+          "heading": "Hospital Equipment",
+          "question": "3408. Deputy Conor Sheehan asked the Minister for Health the progress of expanding or upgrading radiology equipment as outlined in the 2025 HSE Capital Plan at Cork University Hospital, University Hospital Limerick, Sligo University Hospital, Mater Misericordiae University Hospital, Connolly Hospital Blanchardstown respectively; and if she will make a statement on the matter. [56239/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3408/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3409,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "3409. Deputy Conor Sheehan asked the Minister for Health the progress of extending oncology units/day wards as outlined in the 2025 HSE Capital Plan at Portiuncula University Hospital, Naas General Hospital, Midland Regional Hospital Tullamore, University Hospital Kerry respectively; and if she will make a statement on the matter. [56240/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3409/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3410,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "3410. Deputy Conor Sheehan asked the Minister for Health the progress of expanding bronchoscopy capacity and recovery room at University Hospital Limerick as outlined in the 2025 HSE Capital Plan; and if she will make a statement on the matter. [56241/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3410/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3411,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "3411. Deputy Conor Sheehan asked the Minister for Health the progress of the aseptic oncology drug compounding unit at Mayo University Hospital listed as under the appraisal phase in the 2026 HSE Capital Plan; and if she will make a statement on the matter. [56242/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3411/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4172,
+          "department": "Further and Higher Education",
+          "heading": "Student Visas",
+          "question": "4172. Deputy Conor Sheehan asked the Minister for Further and Higher Education, Research, Innovation and Science if his Department is aware of administrative and visa delays affecting a cohort of ten Palestinian students due to take up funded sanctuary places at the University of Limerick this September; the engagement his Department has had with the Department of Justice to ensure these students can arrive early to settle and prepare; the supports being made available to the university to manage this process; and if he will make a statement on the matter. [54847/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4172/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4266,
+          "department": "Rural",
+          "heading": "Departmental Funding",
+          "question": "4266. Deputy Conor Sheehan asked the Minister for Rural and Community Development and the Gaeltacht the capital and current funding allocated to the Charities Regulator in 2026; and if he will make a statement on the matter. [56065/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4266/",
           "questionType": "written"
         }
       ]

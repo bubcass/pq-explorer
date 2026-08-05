@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paul-Lawless.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 1049,
+      "count": 1074,
       "headingOptions": [
         "Abortion Services",
         "Active Travel",
@@ -45,6 +45,7 @@
         "Commercial Rates",
         "Common Agricultural Policy",
         "Community Development Projects",
+        "Compulsory Purchase Orders",
         "Consular Services",
         "Court Orders",
         "Courts Service",
@@ -117,6 +118,7 @@
         "Hospital Admissions",
         "Hospital Appointments Status",
         "Hospital Complaints Procedures",
+        "Hospital Deaths",
         "Hospital Equipment",
         "Hospital Facilities",
         "Hospital Services",
@@ -126,6 +128,7 @@
         "Housing Provision",
         "Housing Schemes",
         "Humanitarian Aid",
+        "Illegal Dumping",
         "Infectious Diseases",
         "Inland Fisheries",
         "Insurance Coverage",
@@ -234,7 +237,7 @@
         "topHeading": "Departmental Funding",
         "topHeadingCount": 55,
         "topDepartment": "Health",
-        "topDepartmentCount": 207
+        "topDepartmentCount": 223
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -242,6 +245,10 @@
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Ambulance Service",
+                "value": 25
+              },
               {
                 "name": "Health Services",
                 "value": 21
@@ -251,23 +258,19 @@
                 "value": 20
               },
               {
-                "name": "Ambulance Service",
+                "name": "Health Services Staff",
                 "value": 18
               },
               {
-                "name": "Health Services Staff",
+                "name": "Hospital Services",
                 "value": 16
               },
               {
-                "name": "Hospital Services",
-                "value": 15
+                "name": "General Practitioner Services",
+                "value": 11
               },
               {
                 "name": "Mental Health Services",
-                "value": 10
-              },
-              {
-                "name": "General Practitioner Services",
                 "value": 10
               },
               {
@@ -275,12 +278,12 @@
                 "value": 7
               },
               {
-                "name": "Hospital Staff",
+                "name": "Departmental Data",
                 "value": 7
               },
               {
-                "name": "Departmental Data",
-                "value": 6
+                "name": "Hospital Staff",
+                "value": 7
               },
               {
                 "name": "Medical Research and Training",
@@ -311,6 +314,10 @@
                 "value": 4
               },
               {
+                "name": "Hospital Appointments Status",
+                "value": 4
+              },
+              {
                 "name": "Medicinal Products",
                 "value": 4
               },
@@ -323,11 +330,11 @@
                 "value": 3
               },
               {
-                "name": "Hospital Appointments Status",
+                "name": "Ministerial Communications",
                 "value": 3
               },
               {
-                "name": "Ministerial Communications",
+                "name": "Health Service Executive",
                 "value": 3
               },
               {
@@ -343,7 +350,7 @@
                 "value": 2
               },
               {
-                "name": "Health Service Executive",
+                "name": "Health Services Waiting Lists",
                 "value": 2
               },
               {
@@ -387,10 +394,6 @@
                 "value": 1
               },
               {
-                "name": "Health Services Waiting Lists",
-                "value": 1
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "value": 1
               },
@@ -400,6 +403,10 @@
               },
               {
                 "name": "Legislative Measures",
+                "value": 1
+              },
+              {
+                "name": "Hospital Deaths",
                 "value": 1
               }
             ]
@@ -557,6 +564,10 @@
                 "value": 5
               },
               {
+                "name": "Visa Applications",
+                "value": 4
+              },
+              {
                 "name": "Closed-Circuit Television Systems",
                 "value": 4
               },
@@ -578,10 +589,6 @@
               },
               {
                 "name": "Domestic, Sexual and Gender-based Violence",
-                "value": 2
-              },
-              {
-                "name": "Visa Applications",
                 "value": 2
               },
               {
@@ -715,16 +722,16 @@
             "name": "Housing",
             "children": [
               {
+                "name": "Housing Provision",
+                "value": 18
+              },
+              {
                 "name": "Vacant Properties",
                 "value": 17
               },
               {
-                "name": "Housing Provision",
-                "value": 17
-              },
-              {
                 "name": "Housing Schemes",
-                "value": 13
+                "value": 14
               },
               {
                 "name": "Fire Service",
@@ -805,6 +812,10 @@
               {
                 "name": "Homeless Accommodation",
                 "value": 1
+              },
+              {
+                "name": "Compulsory Purchase Orders",
+                "value": 1
               }
             ]
           },
@@ -833,6 +844,10 @@
               },
               {
                 "name": "Legislative Programme",
+                "value": 4
+              },
+              {
+                "name": "Animal Welfare",
                 "value": 4
               },
               {
@@ -873,10 +888,6 @@
               },
               {
                 "name": "Common Agricultural Policy",
-                "value": 1
-              },
-              {
-                "name": "Animal Welfare",
                 "value": 1
               },
               {
@@ -1195,6 +1206,10 @@
               {
                 "name": "Electricity Supply Board",
                 "value": 1
+              },
+              {
+                "name": "Illegal Dumping",
+                "value": 1
               }
             ]
           },
@@ -1469,6 +1484,160 @@
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Ambulance Service",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 March",
+                    "date_iso": "2026-03-25",
+                    "children": [
+                      {
+                        "name": "342. Deputy Paul Lawless asked the Minister for Health the total number of ambulances that were over one hour awaiting handover in Mayo University Hospital, including the percentage, in each of the past ten years. [22601/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/342/"
+                      },
+                      {
+                        "name": "343. Deputy Paul Lawless asked the Minister for Health the number of 999 calls made from County Mayo which requested an ambulance in each of the past ten years. [22602/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/343/"
+                      },
+                      {
+                        "name": "344. Deputy Paul Lawless asked the Minister for Health the number of times where a patient in County Mayo was deceased by the time an ambulance reached the scene, in each of the past ten years. [22603/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/344/"
+                      },
+                      {
+                        "name": "345. Deputy Paul Lawless asked the Minister for Health the location of each ambulance station; the number of emergency ambulances assigned to each station; and the number of WTE assigned to each station in the country. [22604/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/345/"
+                      },
+                      {
+                        "name": "346. Deputy Paul Lawless asked the Minister for Health the top ten longest lengths of time a person was left waiting for an ambulance in the State in each of the past ten years. [22605/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/346/"
+                      },
+                      {
+                        "name": "347. Deputy Paul Lawless asked the Minister for Health the longest length of time a person was left waiting for an ambulance to arrive in each of the past ten years, by ambulance station and dispatch point. [22606/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/347/"
+                      },
+                      {
+                        "name": "348. Deputy Paul Lawless asked the Minister for Health the longest length of time a person was left waiting for an ambulance to dispatch to them, perhaps due to a lack of available ambulances, in each of the past ten years, by ambulance station and dispatch point. [22607/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/348/"
+                      },
+                      {
+                        "name": "349. Deputy Paul Lawless asked the Minister for Health the average ambulance response time per region, per year, for each of the past ten years, in tabular form. [22608/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/349/"
+                      },
+                      {
+                        "name": "350. Deputy Paul Lawless asked the Minister for Health the number persons who have retired from the National Ambulance Service in each of the past five years; and the number of new persons employed by the National Ambulance Service in each of the past five years, in tabular form. [22609/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/350/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "939. Deputy Paul Lawless asked the Minister for Health the precise deployment locations of all National Ambulance Service units assigned to County Mayo between 10pm on 10 January 2026 and 1am on 11 January 2026, including which units were on call; which were responding to other incidents; which were unavailable; the reasons for any unavailability; and if she will make a statement on the matter. [7366/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/939/"
+                      },
+                      {
+                        "name": "940. Deputy Paul Lawless asked the Minister for Health the decision-making process undertaken by the National Ambulance Service control centre when an emergency call concerning a person (details supplied) was received including the units which were considered; the units which were rejected; the reasons for any delay in dispatch; and if she will make a statement on the matter. [7367/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/940/"
+                      },
+                      {
+                        "name": "941. Deputy Paul Lawless asked the Minister for Health to provide the real-time tracking data, including timestamps, for all ambulances assigned to County Mayo between 10pm on 10 January 2026 and 1am on 11 January 2026, indicating their movements, dispatch times, and any periods spent awaiting assignment; and if she will make a statement on the matter. [7368/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/941/"
+                      },
+                      {
+                        "name": "943. Deputy Paul Lawless asked the Minister for Health whether cross-county ambulance support from Sligo, Galway, or Roscommon was available, requested, or dispatched during an emergency (details supplied); if not, the reasons; and if she will make a statement on the matter. [7370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/943/"
+                      },
+                      {
+                        "name": "944. Deputy Paul Lawless asked the Minister for Health whether communication difficulties arising from mobile coverage blackspots in north Mayo contributed to the delay in ambulance response in the case of a person (details supplied); and if she will make a statement on the matter. [7371/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/944/"
+                      },
+                      {
+                        "name": "945. Deputy Paul Lawless asked the Minister for Health whether the National Ambulance Service met its category-one response-time obligations in County Mayo on 10 January 2026 in relation to an emergency (details supplied); if not, to provide the reasons for non-compliance; and if she will make a statement on the matter. [7372/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/945/"
+                      },
+                      {
+                        "name": "946. Deputy Paul Lawless asked the Minister for Health to identify any systemic, staffing, operational, or logistical issues within the National Ambulance Service that contributed to the unavailability of an ambulance for a person (details supplied); and if she will make a statement on the matter. [7373/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/946/"
+                      },
+                      {
+                        "name": "947. Deputy Paul Lawless asked the Minister for Health whether any ambulances or ambulance staff assigned to County Mayo were prevented from responding to emergencies on the night of 10 January 2026 due to being delayed outside Mayo University Hospital with patients who could not be admitted immediately; if so, the number of such patients waiting in ambulances; the length of time each ambulance was delayed; the impact this had on emergency cover for areas such as Erris (details supplied); and if she will make a statement on the matter. [7374/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/947/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3575. Deputy Paul Lawless asked the Minister for Health if she is aware of concerns regarding ambulance response times in County Mayo; the steps being taken to improve National Ambulance Service coverage and response capacity across the county; the number of frontline ambulances currently assigned to County Mayo; the number of ambulance personnel employed in the county by grade; and if she will make a statement on the matter. [56937/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3575/"
+                      },
+                      {
+                        "name": "3576. Deputy Paul Lawless asked the Minister for Health the average ambulance response times in County Mayo for category one, category two and category three emergency calls in each of the past five years; the way these compare with the relevant national targets; and if she will make a statement on the matter. [56938/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3576/"
+                      },
+                      {
+                        "name": "3577. Deputy Paul Lawless asked the Minister for Health the number of emergency incidents in County Mayo in each of the past five years in which patients waited more than one hour, two hours and three hours respectively for an ambulance response; and if she will make a statement on the matter. [56939/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3577/"
+                      },
+                      {
+                        "name": "3578. Deputy Paul Lawless asked the Minister for Health whether any review has been carried out into ambulance resource levels, staffing requirements and fleet capacity in County Mayo in light of population growth and increasing service demand; the outcome of any such review; and if she will make a statement on the matter. [56940/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3578/"
+                      },
+                      {
+                        "name": "3974. Deputy Paul Lawless asked the Minister for Health the number of ambulance call outs across the State in 2025, by county. [58375/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3974/"
+                      },
+                      {
+                        "name": "3975. Deputy Paul Lawless asked the Minister for Health the number of ambulance call outs made across the State in each of the past ten years. [58376/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3975/"
+                      },
+                      {
+                        "name": "3976. Deputy Paul Lawless asked the Minister for Health the number of persons recruited to work for the National Ambulance Service in each of the past ten years; and the number of persons to retire from the service in each of those years. [58377/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3976/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2825. Deputy Paul Lawless asked the Minister for Health if he will clarify the current policy regarding the employment pathway for newly qualified paramedics within the National Ambulance Service (NAS); the reason for the recent change whereby paramedics who successfully complete the three-year Bachelor of Science in Paramedic Studies and associated NAS training are no longer offered permanent positions upon qualification, and are instead placed on short-term contract extensions and required to apply for permanent posts through internal competitions; the timelines for the provision of permanent posts for both recently qualified and soon-to-qualify paramedics; and if she will make a statement on the matter. [24428/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2825/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Health Services",
                 "children": [
@@ -1751,119 +1920,6 @@
                 ]
               },
               {
-                "name": "Ambulance Service",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 March",
-                    "date_iso": "2026-03-25",
-                    "children": [
-                      {
-                        "name": "342. Deputy Paul Lawless asked the Minister for Health the total number of ambulances that were over one hour awaiting handover in Mayo University Hospital, including the percentage, in each of the past ten years. [22601/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/342/"
-                      },
-                      {
-                        "name": "343. Deputy Paul Lawless asked the Minister for Health the number of 999 calls made from County Mayo which requested an ambulance in each of the past ten years. [22602/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/343/"
-                      },
-                      {
-                        "name": "344. Deputy Paul Lawless asked the Minister for Health the number of times where a patient in County Mayo was deceased by the time an ambulance reached the scene, in each of the past ten years. [22603/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/344/"
-                      },
-                      {
-                        "name": "345. Deputy Paul Lawless asked the Minister for Health the location of each ambulance station; the number of emergency ambulances assigned to each station; and the number of WTE assigned to each station in the country. [22604/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/345/"
-                      },
-                      {
-                        "name": "346. Deputy Paul Lawless asked the Minister for Health the top ten longest lengths of time a person was left waiting for an ambulance in the State in each of the past ten years. [22605/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/346/"
-                      },
-                      {
-                        "name": "347. Deputy Paul Lawless asked the Minister for Health the longest length of time a person was left waiting for an ambulance to arrive in each of the past ten years, by ambulance station and dispatch point. [22606/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/347/"
-                      },
-                      {
-                        "name": "348. Deputy Paul Lawless asked the Minister for Health the longest length of time a person was left waiting for an ambulance to dispatch to them, perhaps due to a lack of available ambulances, in each of the past ten years, by ambulance station and dispatch point. [22607/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/348/"
-                      },
-                      {
-                        "name": "349. Deputy Paul Lawless asked the Minister for Health the average ambulance response time per region, per year, for each of the past ten years, in tabular form. [22608/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/349/"
-                      },
-                      {
-                        "name": "350. Deputy Paul Lawless asked the Minister for Health the number persons who have retired from the National Ambulance Service in each of the past five years; and the number of new persons employed by the National Ambulance Service in each of the past five years, in tabular form. [22609/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/350/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "939. Deputy Paul Lawless asked the Minister for Health the precise deployment locations of all National Ambulance Service units assigned to County Mayo between 10pm on 10 January 2026 and 1am on 11 January 2026, including which units were on call; which were responding to other incidents; which were unavailable; the reasons for any unavailability; and if she will make a statement on the matter. [7366/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/939/"
-                      },
-                      {
-                        "name": "940. Deputy Paul Lawless asked the Minister for Health the decision-making process undertaken by the National Ambulance Service control centre when an emergency call concerning a person (details supplied) was received including the units which were considered; the units which were rejected; the reasons for any delay in dispatch; and if she will make a statement on the matter. [7367/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/940/"
-                      },
-                      {
-                        "name": "941. Deputy Paul Lawless asked the Minister for Health to provide the real-time tracking data, including timestamps, for all ambulances assigned to County Mayo between 10pm on 10 January 2026 and 1am on 11 January 2026, indicating their movements, dispatch times, and any periods spent awaiting assignment; and if she will make a statement on the matter. [7368/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/941/"
-                      },
-                      {
-                        "name": "943. Deputy Paul Lawless asked the Minister for Health whether cross-county ambulance support from Sligo, Galway, or Roscommon was available, requested, or dispatched during an emergency (details supplied); if not, the reasons; and if she will make a statement on the matter. [7370/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/943/"
-                      },
-                      {
-                        "name": "944. Deputy Paul Lawless asked the Minister for Health whether communication difficulties arising from mobile coverage blackspots in north Mayo contributed to the delay in ambulance response in the case of a person (details supplied); and if she will make a statement on the matter. [7371/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/944/"
-                      },
-                      {
-                        "name": "945. Deputy Paul Lawless asked the Minister for Health whether the National Ambulance Service met its category-one response-time obligations in County Mayo on 10 January 2026 in relation to an emergency (details supplied); if not, to provide the reasons for non-compliance; and if she will make a statement on the matter. [7372/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/945/"
-                      },
-                      {
-                        "name": "946. Deputy Paul Lawless asked the Minister for Health to identify any systemic, staffing, operational, or logistical issues within the National Ambulance Service that contributed to the unavailability of an ambulance for a person (details supplied); and if she will make a statement on the matter. [7373/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/946/"
-                      },
-                      {
-                        "name": "947. Deputy Paul Lawless asked the Minister for Health whether any ambulances or ambulance staff assigned to County Mayo were prevented from responding to emergencies on the night of 10 January 2026 due to being delayed outside Mayo University Hospital with patients who could not be admitted immediately; if so, the number of such patients waiting in ambulances; the length of time each ambulance was delayed; the impact this had on emergency cover for areas such as Erris (details supplied); and if she will make a statement on the matter. [7374/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/947/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2825. Deputy Paul Lawless asked the Minister for Health if he will clarify the current policy regarding the employment pathway for newly qualified paramedics within the National Ambulance Service (NAS); the reason for the recent change whereby paramedics who successfully complete the three-year Bachelor of Science in Paramedic Studies and associated NAS training are no longer offered permanent positions upon qualification, and are instead placed on short-term contract extensions and required to apply for permanent posts through internal competitions; the timelines for the provision of permanent posts for both recently qualified and soon-to-qualify paramedics; and if she will make a statement on the matter. [24428/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2825/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Health Services Staff",
                 "children": [
                   {
@@ -1961,6 +2017,22 @@
                         "name": "1245. Deputy Paul Lawless asked the Minister for Health the specific background checks, verification processes, and credential assessments carried out by the Health Service Executive and relevant regulatory bodies on foreign-trained nurses and doctors seeking employment within the HSE; the way in which their qualifications and clinical training are benchmarked against those required of Irish-trained health professionals and by which council; the robustness and consistency of these equivalency assessments; and if she will make a statement on the matter. [12892/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1245/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3579. Deputy Paul Lawless asked the Minister for Health the measures being taken to recruit and retain paramedics and advanced paramedics in County Mayo; whether additional ambulance resources are planned for the county during each of the years 2026 and 2027; and if she will make a statement on the matter. [56941/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3579/"
+                      },
+                      {
+                        "name": "3970. Deputy Paul Lawless asked the Minister for Health the number of nurses employed by the HSE, broken down per county, in tabular form. [58371/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3970/"
                       }
                     ]
                   }
@@ -2085,6 +2157,89 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/948/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3971. Deputy Paul Lawless asked the Minister for Health the number of adverse incidents reported through the National Incident Management System by each hospital in the State in each of the past ten years, by hospital and severity-categorisation of incident, in tabular form. [58372/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3971/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "General Practitioner Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3256. Deputy Paul Lawless asked the Minister for Health whether the HSE is aware of reports that the medical centre in Ballindine, County Mayo, has ceased operating or is at risk of permanent closure; whether any decision has been made regarding the future provision of GP services in Ballindine; and if she will make a statement on the matter. [26638/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3256/"
+                      },
+                      {
+                        "name": "3257. Deputy Paul Lawless asked the Minister for Health the number of GPs and nursing staff previously providing services from the Ballindine medical centre; the number that remain providing services in the Ballindine area; and the assessment that has been made of the impact of any reduction or cessation of services on local patients, particularly older people. [26639/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3257/"
+                      },
+                      {
+                        "name": "3258. Deputy Paul Lawless asked the Minister for Health the way in which the apparent loss of a GP practice in Ballindine aligns with Government policy to protect rural health services; and the measures being taken to ensure communities such as Ballindine retain access to local GP care [26640/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3258/"
+                      },
+                      {
+                        "name": "3259. Deputy Paul Lawless asked the Minister for Health the contingency plans that the HSE has in place to maintain GP services in Ballindine should the medical centre close; whether outreach, satellite clinics, or support for a new GP practice have been considered; and if she will make a statement on the matter. [26641/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3259/"
+                      },
+                      {
+                        "name": "3260. Deputy Paul Lawless asked the Minister for Health whether the relocation of doctors previously practising in Ballindine to Claremorris has been formally approved or supported by the HSE; and whether consideration was given to maintaining at least a part-time or shared GP service in Ballindine. [26642/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3260/"
+                      },
+                      {
+                        "name": "3261. Deputy Paul Lawless asked the Minister for Health whether the HSE has assessed the suitability of the existing medical centre premises in Ballindine for continued or future GP use; and whether any supports are available to retain the building as a community healthcare facility. [26643/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3261/"
+                      },
+                      {
+                        "name": "3262. Deputy Paul Lawless asked the Minister for Health the assessment that has been made of increased travel distances for patients accessing GP services; and the impact this has on older residents and those without access to private transport. [26644/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3262/"
+                      },
+                      {
+                        "name": "3263. Deputy Paul Lawless asked the Minister for Health the incentives or supports that are currently available to attract GPs to practise in rural villages such as Ballindine; whether these have been proactively applied in this case; and if further measures are under consideration. [26645/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3263/"
+                      },
+                      {
+                        "name": "3264. Deputy Paul Lawless asked the Minister for Health whether the HSE has engaged with local community representatives, including active retirement groups and patient committees, regarding the future of GP services in Ballindine; and if not, whether she will instruct the HSE to do so as a matter of urgency. [26646/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3264/"
+                      },
+                      {
+                        "name": "3273. Deputy Paul Lawless asked the Minister for Health whether her Department is aware of concerns regarding the loss of essential services in Ballindine, County Mayo, following reports that the local medical centre is no longer operating; the rural or community support measures that may be available to assist communities facing the withdrawal of vital local services; and if she will make a statement on the matter. [26666/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3273/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3978. Deputy Paul Lawless asked the Minister for Health the number of general practitioners working in each county in the State, in tabular form. [58379/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3978/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2168,67 +2323,6 @@
                 ]
               },
               {
-                "name": "General Practitioner Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "3256. Deputy Paul Lawless asked the Minister for Health whether the HSE is aware of reports that the medical centre in Ballindine, County Mayo, has ceased operating or is at risk of permanent closure; whether any decision has been made regarding the future provision of GP services in Ballindine; and if she will make a statement on the matter. [26638/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3256/"
-                      },
-                      {
-                        "name": "3257. Deputy Paul Lawless asked the Minister for Health the number of GPs and nursing staff previously providing services from the Ballindine medical centre; the number that remain providing services in the Ballindine area; and the assessment that has been made of the impact of any reduction or cessation of services on local patients, particularly older people. [26639/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3257/"
-                      },
-                      {
-                        "name": "3258. Deputy Paul Lawless asked the Minister for Health the way in which the apparent loss of a GP practice in Ballindine aligns with Government policy to protect rural health services; and the measures being taken to ensure communities such as Ballindine retain access to local GP care [26640/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3258/"
-                      },
-                      {
-                        "name": "3259. Deputy Paul Lawless asked the Minister for Health the contingency plans that the HSE has in place to maintain GP services in Ballindine should the medical centre close; whether outreach, satellite clinics, or support for a new GP practice have been considered; and if she will make a statement on the matter. [26641/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3259/"
-                      },
-                      {
-                        "name": "3260. Deputy Paul Lawless asked the Minister for Health whether the relocation of doctors previously practising in Ballindine to Claremorris has been formally approved or supported by the HSE; and whether consideration was given to maintaining at least a part-time or shared GP service in Ballindine. [26642/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3260/"
-                      },
-                      {
-                        "name": "3261. Deputy Paul Lawless asked the Minister for Health whether the HSE has assessed the suitability of the existing medical centre premises in Ballindine for continued or future GP use; and whether any supports are available to retain the building as a community healthcare facility. [26643/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3261/"
-                      },
-                      {
-                        "name": "3262. Deputy Paul Lawless asked the Minister for Health the assessment that has been made of increased travel distances for patients accessing GP services; and the impact this has on older residents and those without access to private transport. [26644/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3262/"
-                      },
-                      {
-                        "name": "3263. Deputy Paul Lawless asked the Minister for Health the incentives or supports that are currently available to attract GPs to practise in rural villages such as Ballindine; whether these have been proactively applied in this case; and if further measures are under consideration. [26645/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3263/"
-                      },
-                      {
-                        "name": "3264. Deputy Paul Lawless asked the Minister for Health whether the HSE has engaged with local community representatives, including active retirement groups and patient committees, regarding the future of GP services in Ballindine; and if not, whether she will instruct the HSE to do so as a matter of urgency. [26646/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3264/"
-                      },
-                      {
-                        "name": "3273. Deputy Paul Lawless asked the Minister for Health whether her Department is aware of concerns regarding the loss of essential services in Ballindine, County Mayo, following reports that the local medical centre is no longer operating; the rural or community support measures that may be available to assist communities facing the withdrawal of vital local services; and if she will make a statement on the matter. [26666/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3273/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Emergency Services",
                 "children": [
                   {
@@ -2275,6 +2369,70 @@
                         "name": "942. Deputy Paul Lawless asked the Minister for Health the number of EMTs, paramedics, and advanced paramedics rostered for duty in County Mayo on 10 January 2026; the number which were actively available for emergency response at a time (details supplied); and if she will make a statement on the matter. [7369/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/942/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "710. Deputy Paul Lawless asked the Minister for Health the number of surgeries cancelled in Ireland in each of the past ten years; and if a breakdown by hospital can be provided on this figure, in tabular form. [50851/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/710/"
+                      },
+                      {
+                        "name": "712. Deputy Paul Lawless asked the Minister for Health the number of cancelled hospital appointments in Ireland in each of the past ten years, by hospital breakdown, in tabular form. [50853/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/712/"
+                      },
+                      {
+                        "name": "713. Deputy Paul Lawless asked the Minister for Health the amount paid out in medical compensation in Ireland in each of the past ten years; and if a regional hospital, HSE, CHO area breakdown can be provided on that figure. [50854/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/713/"
+                      },
+                      {
+                        "name": "714. Deputy Paul Lawless asked the Minister for Health the total number of adverse incidents reported through the national incident management system in each of the past ten years; if a breakdown can be provided on the number of these incidents that resulted in death, disability, incapacity; and the number of incidents that were severe, moderate and mild, in tabular form. [50855/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/714/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "781. Deputy Paul Lawless asked the Minister for Health the number of doctors who qualified in each of the years 2024 and 2025; the number of those graduates who subsequently entered employment within the Irish Health Service; and if she will make a statement on the matter. [16236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/781/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2240. Deputy Paul Lawless asked the Minister for Health the annual cost to the HSE of providing orthodontic assessment clinics, including staffing and operational expenses; the proportion of these assessments that do not lead to treatment being approved; whether any cost-benefit analysis has been conducted on this model of service delivery; and if she will consider reforms to ensure better value for public money, particularly where large numbers of families are required to attend appointments that do not result in access to care. [43345/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2240/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3110. Deputy Paul Lawless asked the Minister for Health the number of patients admitted or discharged to or from Mayo University Hospital's emergency department in each of the past ten years and to date in 2026.; and if she will make a statement on the matter. [54853/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3110/"
                       }
                     ]
                   }
@@ -2333,59 +2491,6 @@
                         "name": "711. Deputy Paul Lawless asked the Minister for Health the number of agency nurses employed to work in HSE hospitals in each of the past ten years, by hospital, in tabular form. [50852/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/711/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "710. Deputy Paul Lawless asked the Minister for Health the number of surgeries cancelled in Ireland in each of the past ten years; and if a breakdown by hospital can be provided on this figure, in tabular form. [50851/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/710/"
-                      },
-                      {
-                        "name": "712. Deputy Paul Lawless asked the Minister for Health the number of cancelled hospital appointments in Ireland in each of the past ten years, by hospital breakdown, in tabular form. [50853/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/712/"
-                      },
-                      {
-                        "name": "713. Deputy Paul Lawless asked the Minister for Health the amount paid out in medical compensation in Ireland in each of the past ten years; and if a regional hospital, HSE, CHO area breakdown can be provided on that figure. [50854/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/713/"
-                      },
-                      {
-                        "name": "714. Deputy Paul Lawless asked the Minister for Health the total number of adverse incidents reported through the national incident management system in each of the past ten years; if a breakdown can be provided on the number of these incidents that resulted in death, disability, incapacity; and the number of incidents that were severe, moderate and mild, in tabular form. [50855/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/714/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "781. Deputy Paul Lawless asked the Minister for Health the number of doctors who qualified in each of the years 2024 and 2025; the number of those graduates who subsequently entered employment within the Irish Health Service; and if she will make a statement on the matter. [16236/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/781/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2240. Deputy Paul Lawless asked the Minister for Health the annual cost to the HSE of providing orthodontic assessment clinics, including staffing and operational expenses; the proportion of these assessments that do not lead to treatment being approved; whether any cost-benefit analysis has been conducted on this model of service delivery; and if she will consider reforms to ensure better value for public money, particularly where large numbers of families are required to attend appointments that do not result in access to care. [43345/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2240/"
                       }
                     ]
                   }
@@ -2697,6 +2802,55 @@
                 ]
               },
               {
+                "name": "Hospital Appointments Status",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "605. Deputy Paul Lawless asked the Minister for Health when a person (details supplied) will receive an appointment to see the paediatric spinal neurosurgery service at Beaumont Hospital; if she is aware of the delay in scheduling a consultation despite clinical findings indicating a suspected tethered spinal cord and progressive neurological deterioration; and if she will ensure that this case is prioritised given the time-sensitive nature of the condition. [11478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/605/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "947. Deputy Paul Lawless asked the Minister for Health when a person (details supplied) will receive an appointment for cataract surgery, given that there was a delay through no fault of their own in the referral made by their optician to the HSE; and if she will make a statement on the matter. [32378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/947/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "496. Deputy Paul Lawless asked the Minister for Health when a person (details supplied) will receive an appointment at University Hospital Galway. [54376/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/496/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3977. Deputy Paul Lawless asked the Minister for Health the number of cancelled hospital appointments in each hospital in the country in each of the past ten years and to date in 2026, by hospital, in tabular form. [58378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3977/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Medicinal Products",
                 "children": [
                   {
@@ -2803,44 +2957,6 @@
                 ]
               },
               {
-                "name": "Hospital Appointments Status",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "605. Deputy Paul Lawless asked the Minister for Health when a person (details supplied) will receive an appointment to see the paediatric spinal neurosurgery service at Beaumont Hospital; if she is aware of the delay in scheduling a consultation despite clinical findings indicating a suspected tethered spinal cord and progressive neurological deterioration; and if she will ensure that this case is prioritised given the time-sensitive nature of the condition. [11478/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/605/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "947. Deputy Paul Lawless asked the Minister for Health when a person (details supplied) will receive an appointment for cataract surgery, given that there was a delay through no fault of their own in the referral made by their optician to the HSE; and if she will make a statement on the matter. [32378/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/947/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "496. Deputy Paul Lawless asked the Minister for Health when a person (details supplied) will receive an appointment at University Hospital Galway. [54376/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/496/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Ministerial Communications",
                 "children": [
                   {
@@ -2861,6 +2977,44 @@
                         "name": "211. Deputy Paul Lawless asked the Minister for Health if she will list the dates upon which she has met with, or corresponded with the CEO of a company (details supplied) since she took office. [40378/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/211/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Service Executive",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1962. Deputy Paul Lawless asked the Minister for Health the total amount paid out in compensation by the HSE in each year since 2015; and if a breakdown can be provided per CHO area or hospital group, in tabular form. [41970/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1962/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 1 July",
+                    "date_iso": "2026-07-01",
+                    "children": [
+                      {
+                        "name": "308. Deputy Paul Lawless asked the Minister for Health the reason the HSE does not fully reimburse patients who avail of the cross border directive through providers such as Kingsbridge in northern Ireland, in circumstances where those patients were on Irish public waiting lists and had been informed that their procedure would not be available within six months; and if she will make a statement on the matter. [50061/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/308/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3972. Deputy Paul Lawless asked the Minister for Health the amount paid out in medical compensation by the HSE in each of the past ten years and to date in 2026, by CHO area or hospital group, in tabular form. [58373/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3972/"
                       }
                     ]
                   }
@@ -2947,27 +3101,27 @@
                 ]
               },
               {
-                "name": "Health Service Executive",
+                "name": "Health Services Waiting Lists",
                 "children": [
                   {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
                     "children": [
                       {
-                        "name": "1962. Deputy Paul Lawless asked the Minister for Health the total amount paid out in compensation by the HSE in each year since 2015; and if a breakdown can be provided per CHO area or hospital group, in tabular form. [41970/26]",
+                        "name": "328. Deputy Paul Lawless asked the Minister for Health if a hospital appointment will be expedited for a person (details supplied). [44717/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1962/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/328/"
                       }
                     ]
                   },
                   {
-                    "name": "Wednesday, 1 July",
-                    "date_iso": "2026-07-01",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "308. Deputy Paul Lawless asked the Minister for Health the reason the HSE does not fully reimburse patients who avail of the cross border directive through providers such as Kingsbridge in northern Ireland, in circumstances where those patients were on Irish public waiting lists and had been informed that their procedure would not be available within six months; and if she will make a statement on the matter. [50061/26]",
+                        "name": "3109. Deputy Paul Lawless asked the Minister for Health the number of patients, not the percentage, in Mayo University Hospital waiting more than 8, 12 and 24 hours in the emergency department, in each of the past five years.; and if she will make a statement on the matter. [54852/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/308/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3109/"
                       }
                     ]
                   }
@@ -3139,22 +3293,6 @@
                 ]
               },
               {
-                "name": "Health Services Waiting Lists",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "328. Deputy Paul Lawless asked the Minister for Health if a hospital appointment will be expedited for a person (details supplied). [44717/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/328/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "children": [
                   {
@@ -3197,6 +3335,22 @@
                         "name": "895. Deputy Paul Lawless asked the Minister for Health the steps she is taking to ensure that vape shops do not specifically target children or young people in the sale of their products as at present some shops are using bright colours and words such as “candy” next to the word “vape” in their shop names, signage and advertisements; and if she will make a statement on the matter. [49532/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/895/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Deaths",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3973. Deputy Paul Lawless asked the Minister for Health the number of patients who died on hospital trolleys in each of the past five years and to date in 2026, by county, in tabular form. [58374/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3973/"
                       }
                     ]
                   }
@@ -5004,6 +5158,49 @@
                 ]
               },
               {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2135. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration the current status of the family reunification-spouse visa application by a person (details supplied) submitted on 28 October 2025; and when a decision is expected. [54894/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2135/"
+                      },
+                      {
+                        "name": "2136. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration the current status of the family reunification/spouse visa application by a person (details supplied) submitted on 28 October 2025; and when a decision is expected. [54895/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2136/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "946. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration to outline residency and citizenship pathways for a non-Irish spouse of a returning Irish citizen, and processing timelines. [12786/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/946/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "691. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration when a person (details supplied) will receive a decision on their Irish visa application, which was submitted on 27 July 2025 and has now been pending for over six months; the current status of the application; if he will address the difficulties experienced in attempting to register on the immigration portal; and if he will make a statement on the matter. [21773/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/691/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Closed-Circuit Television Systems",
                 "children": [
                   {
@@ -5149,33 +5346,6 @@
                         "name": "174. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration for an update on the work of Cuan, including progress to date on its mandate; the current programmes in operation, staffing and budget allocations; the planned developments for 2026; and if he will make a statement on the matter. [5984/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/174/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "946. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration to outline residency and citizenship pathways for a non-Irish spouse of a returning Irish citizen, and processing timelines. [12786/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/946/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "691. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration when a person (details supplied) will receive a decision on their Irish visa application, which was submitted on 27 July 2025 and has now been pending for over six months; the current status of the application; if he will address the difficulties experienced in attempting to register on the immigration portal; and if he will make a statement on the matter. [21773/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/691/"
                       }
                     ]
                   }
@@ -6253,120 +6423,6 @@
             "name": "Housing",
             "children": [
               {
-                "name": "Vacant Properties",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1354. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage for a timeline on the introduction of the \"above the shop\" vacant grant proposed; the criteria to qualify; and if he will make a statement on the matter. [73904/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1354/"
-                      },
-                      {
-                        "name": "1355. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the timeline for the introduction of the enhanced “Above the Shop” Vacant Property Refurbishment Grant; and if he will make a statement on the matter. [73906/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1355/"
-                      },
-                      {
-                        "name": "1356. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the eligibility criteria that will apply to the enhanced “Above the Shop” grant, including vacancy period, construction date, and any additional requirements; and if he will make a statement on the matter. [73907/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1356/"
-                      },
-                      {
-                        "name": "1357. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if multi-unit conversions above commercial premises will qualify for the full €140,000 grant package; the number of units which must be included to avail of this amount; and if he will make a statement on the matter. [73908/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1357/"
-                      },
-                      {
-                        "name": "1358. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if a single-unit conversion above a shop will remain eligible only for the standard €50,000 grant plus €20,000 top-up for dereliction; and if he will make a statement on the matter. [73909/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1358/"
-                      },
-                      {
-                        "name": "1359. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if there are plans to amend the current rules requiring properties to be used as a principal private residence or for one rental unit in the context of multi-unit conversions; and if he will make a statement on the matter. [73910/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1359/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "336. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of local authority owned houses currently lying vacant in County Mayo; the reasons these properties remain idle; and the steps being taken to bring them back into use as social housing, particularly in light of ongoing homelessness and housing shortages. [35805/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/336/"
-                      },
-                      {
-                        "name": "337. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if he is aware of five council owned houses in Swinford that have been lying vacant for approximately two years; the reasons refurbishment works have not yet been completed; and when these homes will be made available to families on the housing list. [35806/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/337/"
-                      },
-                      {
-                        "name": "338. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the funding that is available to Mayo County Council to refurbish and re-let vacant council houses; whether additional emergency funding will be provided to speed up turnaround times; and if he will act to ensure vacant properties are prioritised over long-term emergency accommodation. [35807/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/338/"
-                      },
-                      {
-                        "name": "339. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage how he justifies council-owned houses remaining vacant for extended periods while families and individuals are forced to stay in homeless shelters and emergency accommodation; and the measures being introduced to prevent prolonged vacancy of local authority housing stock. [35808/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/339/"
-                      },
-                      {
-                        "name": "340. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the average length of time council houses remain vacant before being reallocated; whether targets exist for bringing such houses back into use; and if specific action will be taken regarding vacant properties in Swinford, given the increasing number of people struggling to secure permanent housing. [35809/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/340/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "732. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if his Department has assessed the cashflow impact on applicants arising from the requirement to complete all works and submit all receipts before any payment under the Croí Cónaithe grant is made; and if he will make a statement on the matter. [35059/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/732/"
-                      },
-                      {
-                        "name": "733. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if his Department has examined the feasibility of allowing drawdown of Croí Cónaithe grant funding on the basis of a completion certificate issued by a qualified local engineer, with receipts retained for potential audit, as proposed by Mayo County Council; and if he will make a statement on the matter. [35060/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/733/"
-                      },
-                      {
-                        "name": "734. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if his Department has consulted local authorities regarding administrative or operational challenges associated with the current Croí Cónaithe grant payment process, including the requirement for applicants to submit all receipts prior to payment; and if he will make a statement on the matter. [35061/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/734/"
-                      },
-                      {
-                        "name": "735. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if he intends to review the design of the Croí Cónaithe grant process in light of motions passed by local authorities, including Mayo County Council, requesting that applicants be permitted to draw down funds on the basis of a completion certificate issued by a qualified local engineer; and if he will make a statement on the matter. [35062/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/735/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "299. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the estimated number of vacant homes and holiday homes in Kilkee and the wider west Clare area; the measures in place to bring such properties into long-term residential use; and whether targeted measures will be considered for high-tourism areas where housing supply for permanent residents is severely restricted; and if he will make a statement on the matter. [23178/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/299/"
-                      },
-                      {
-                        "name": "302. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of properties in County Clare registered or operating as short-term lets; the proportion of housing stock this represents in towns such as Kilkee; whether additional restrictions are being considered in areas experiencing housing shortages; and if he will make a statement on the matter. [23181/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/302/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Housing Provision",
                 "children": [
                   {
@@ -6483,6 +6539,131 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/102/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1827. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of new local authority homes built in Ireland in each of the past ten years; and if a county by county breakdown can be provided. [58526/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1827/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vacant Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1354. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage for a timeline on the introduction of the \"above the shop\" vacant grant proposed; the criteria to qualify; and if he will make a statement on the matter. [73904/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1354/"
+                      },
+                      {
+                        "name": "1355. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the timeline for the introduction of the enhanced “Above the Shop” Vacant Property Refurbishment Grant; and if he will make a statement on the matter. [73906/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1355/"
+                      },
+                      {
+                        "name": "1356. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the eligibility criteria that will apply to the enhanced “Above the Shop” grant, including vacancy period, construction date, and any additional requirements; and if he will make a statement on the matter. [73907/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1356/"
+                      },
+                      {
+                        "name": "1357. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if multi-unit conversions above commercial premises will qualify for the full €140,000 grant package; the number of units which must be included to avail of this amount; and if he will make a statement on the matter. [73908/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1357/"
+                      },
+                      {
+                        "name": "1358. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if a single-unit conversion above a shop will remain eligible only for the standard €50,000 grant plus €20,000 top-up for dereliction; and if he will make a statement on the matter. [73909/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1358/"
+                      },
+                      {
+                        "name": "1359. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if there are plans to amend the current rules requiring properties to be used as a principal private residence or for one rental unit in the context of multi-unit conversions; and if he will make a statement on the matter. [73910/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1359/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "336. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of local authority owned houses currently lying vacant in County Mayo; the reasons these properties remain idle; and the steps being taken to bring them back into use as social housing, particularly in light of ongoing homelessness and housing shortages. [35805/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/336/"
+                      },
+                      {
+                        "name": "337. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage if he is aware of five council owned houses in Swinford that have been lying vacant for approximately two years; the reasons refurbishment works have not yet been completed; and when these homes will be made available to families on the housing list. [35806/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/337/"
+                      },
+                      {
+                        "name": "338. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the funding that is available to Mayo County Council to refurbish and re-let vacant council houses; whether additional emergency funding will be provided to speed up turnaround times; and if he will act to ensure vacant properties are prioritised over long-term emergency accommodation. [35807/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/338/"
+                      },
+                      {
+                        "name": "339. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage how he justifies council-owned houses remaining vacant for extended periods while families and individuals are forced to stay in homeless shelters and emergency accommodation; and the measures being introduced to prevent prolonged vacancy of local authority housing stock. [35808/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/339/"
+                      },
+                      {
+                        "name": "340. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the average length of time council houses remain vacant before being reallocated; whether targets exist for bringing such houses back into use; and if specific action will be taken regarding vacant properties in Swinford, given the increasing number of people struggling to secure permanent housing. [35809/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/340/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "732. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if his Department has assessed the cashflow impact on applicants arising from the requirement to complete all works and submit all receipts before any payment under the Croí Cónaithe grant is made; and if he will make a statement on the matter. [35059/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/732/"
+                      },
+                      {
+                        "name": "733. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if his Department has examined the feasibility of allowing drawdown of Croí Cónaithe grant funding on the basis of a completion certificate issued by a qualified local engineer, with receipts retained for potential audit, as proposed by Mayo County Council; and if he will make a statement on the matter. [35060/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/733/"
+                      },
+                      {
+                        "name": "734. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if his Department has consulted local authorities regarding administrative or operational challenges associated with the current Croí Cónaithe grant payment process, including the requirement for applicants to submit all receipts prior to payment; and if he will make a statement on the matter. [35061/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/734/"
+                      },
+                      {
+                        "name": "735. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 717 of 28 April 2026, if he intends to review the design of the Croí Cónaithe grant process in light of motions passed by local authorities, including Mayo County Council, requesting that applicants be permitted to draw down funds on the basis of a completion certificate issued by a qualified local engineer; and if he will make a statement on the matter. [35062/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/735/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "299. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the estimated number of vacant homes and holiday homes in Kilkee and the wider west Clare area; the measures in place to bring such properties into long-term residential use; and whether targeted measures will be considered for high-tourism areas where housing supply for permanent residents is severely restricted; and if he will make a statement on the matter. [23178/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/299/"
+                      },
+                      {
+                        "name": "302. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of properties in County Clare registered or operating as short-term lets; the proportion of housing stock this represents in towns such as Kilkee; whether additional restrictions are being considered in areas experiencing housing shortages; and if he will make a statement on the matter. [23181/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/302/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -6581,6 +6762,17 @@
                         "name": "300. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of properties purchased by Clare County Council under tenant-in-situ or other acquisition schemes in west Clare, including Kilkee, in the past two years; and whether additional funding will be provided to increase such acquisitions; and if he will make a statement on the matter. [23179/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/300/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1826. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the total number of people who have applied for the vacant property refurbishment grant since it was established; the number that have been approved for the grant; and the number to whom moneys have been paid out. [58525/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1826/"
                       }
                     ]
                   }
@@ -7135,6 +7327,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Compulsory Purchase Orders",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1828. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of residential properties issued a compulsory purchase order, by each local authority in the State in each of the past five years. [58527/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1828/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -7474,6 +7682,43 @@
                 ]
               },
               {
+                "name": "Animal Welfare",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2612. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine when he intends to appoint a dedicated Animal Welfare Inspector for County Mayo; whether he is satisfied that there are sufficient animal welfare inspection and enforcement resources available in the county to investigate reports of animal cruelty and neglect; the plans in place to ensure adequate inspection and enforcement of animal welfare standards at agricultural shows and other public events involving animals in County Mayo; and if he will make a statement on the matter. [57470/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2612/"
+                      },
+                      {
+                        "name": "2613. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the funding arrangements that apply to the appointment of a dedicated Animal Welfare Inspector in County Mayo; whether funding has been allocated or identified for such a post; whether additional Exchequer resources will be required to support inspections and enforcement actions in relation to animal cruelty cases and animal welfare standards at agricultural shows and other events; and if he will make a statement on the matter. [57471/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2613/"
+                      },
+                      {
+                        "name": "2614. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the funding allocated for animal welfare inspection and enforcement services includes provision for inspections of agricultural shows and other events involving animals in County Mayo; whether a dedicated Animal Welfare Inspector, if appointed, will have responsibility for monitoring compliance with animal welfare legislation at such events; and if he will make a statement on the matter. [57472/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2614/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "836. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the measures being taken to prevent the importation of pests such as the Tropilaelaps mite (described by experts as potentially more destructive than Varroa) and other invasive species including the Small Hive Beetle and the Asian Hornet; if his Department will commit to mandatory physical inspection of all honey bee consignments entering the State; and if he will make a statement on the matter. [15047/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/836/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Export Controls",
                 "children": [
                   {
@@ -7711,22 +7956,6 @@
                         "name": "815. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the average annual CAP payments received by farmers in each county in 2025; the breakdown of the total payments issued by his Department (including Direct Payments and Capital Payments such as TAMS) to farmers by county; and to indicate the average farmer payment (rounded to the nearest €500), in tabular form. [14011/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/815/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Animal Welfare",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "836. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the measures being taken to prevent the importation of pests such as the Tropilaelaps mite (described by experts as potentially more destructive than Varroa) and other invasive species including the Small Hive Beetle and the Asian Hornet; if his Department will commit to mandatory physical inspection of all honey bee consignments entering the State; and if he will make a statement on the matter. [15047/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/836/"
                       }
                     ]
                   }
@@ -9704,6 +9933,22 @@
                         "name": "26. Deputy Paul Lawless asked the Minister for Climate, Energy and the Environment the level of profit made by ESB in recent years; the portion returned to the State versus shareholders; and whether the Government can intervene to reduce profit levels in order to lower electricity costs for ordinary consumers. [46389/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/26/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Illegal Dumping",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "214. Deputy Paul Lawless asked the Minister for Climate, Energy and the Environment if he is aware of the ongoing issues of illegal dumping and littering at clothing recycling banks and bottle banks in communities across the country; if he will review the management, maintenance and monitoring of these facilities to ensure they are emptied more frequently and adequately supervised; and if he will outline any measures being considered to reduce illegal dumping and improve the cleanliness and accessibility of these recycling sites. [57646/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/214/"
                       }
                     ]
                   }
@@ -20323,6 +20568,15 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 214,
+          "department": "Climate",
+          "heading": "Illegal Dumping",
+          "question": "214. Deputy Paul Lawless asked the Minister for Climate, Energy and the Environment if he is aware of the ongoing issues of illegal dumping and littering at clothing recycling banks and bottle banks in communities across the country; if he will review the management, maintenance and monitoring of these facilities to ensure they are emptied more frequently and adequately supervised; and if he will outline any measures being considered to reduce illegal dumping and improve the cleanliness and accessibility of these recycling sites. [57646/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/214/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 355,
           "department": "Transport",
           "heading": "Road Safety Authority",
@@ -20422,6 +20676,96 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 1826,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "1826. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the total number of people who have applied for the vacant property refurbishment grant since it was established; the number that have been approved for the grant; and the number to whom moneys have been paid out. [58525/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1826/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1827,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1827. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of new local authority homes built in Ireland in each of the past ten years; and if a county by county breakdown can be provided. [58526/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1827/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1828,
+          "department": "Housing",
+          "heading": "Compulsory Purchase Orders",
+          "question": "1828. Deputy Paul Lawless asked the Minister for Housing, Local Government and Heritage the number of residential properties issued a compulsory purchase order, by each local authority in the State in each of the past five years. [58527/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1828/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2135,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "2135. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration the current status of the family reunification-spouse visa application by a person (details supplied) submitted on 28 October 2025; and when a decision is expected. [54894/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2135/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2136,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "2136. Deputy Paul Lawless asked the Minister for Justice, Home Affairs and Migration the current status of the family reunification/spouse visa application by a person (details supplied) submitted on 28 October 2025; and when a decision is expected. [54895/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2136/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2612,
+          "department": "Agriculture",
+          "heading": "Animal Welfare",
+          "question": "2612. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine when he intends to appoint a dedicated Animal Welfare Inspector for County Mayo; whether he is satisfied that there are sufficient animal welfare inspection and enforcement resources available in the county to investigate reports of animal cruelty and neglect; the plans in place to ensure adequate inspection and enforcement of animal welfare standards at agricultural shows and other public events involving animals in County Mayo; and if he will make a statement on the matter. [57470/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2612/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2613,
+          "department": "Agriculture",
+          "heading": "Animal Welfare",
+          "question": "2613. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the funding arrangements that apply to the appointment of a dedicated Animal Welfare Inspector in County Mayo; whether funding has been allocated or identified for such a post; whether additional Exchequer resources will be required to support inspections and enforcement actions in relation to animal cruelty cases and animal welfare standards at agricultural shows and other events; and if he will make a statement on the matter. [57471/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2613/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2614,
+          "department": "Agriculture",
+          "heading": "Animal Welfare",
+          "question": "2614. Deputy Paul Lawless asked the Minister for Agriculture, Food and the Marine the funding allocated for animal welfare inspection and enforcement services includes provision for inspections of agricultural shows and other events involving animals in County Mayo; whether a dedicated Animal Welfare Inspector, if appointed, will have responsibility for monitoring compliance with animal welfare legislation at such events; and if he will make a statement on the matter. [57472/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2614/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3109,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "3109. Deputy Paul Lawless asked the Minister for Health the number of patients, not the percentage, in Mayo University Hospital waiting more than 8, 12 and 24 hours in the emergency department, in each of the past five years.; and if she will make a statement on the matter. [54852/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3109/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3110,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "3110. Deputy Paul Lawless asked the Minister for Health the number of patients admitted or discharged to or from Mayo University Hospital's emergency department in each of the past ten years and to date in 2026.; and if she will make a statement on the matter. [54853/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3110/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 3227,
           "department": "Health",
           "heading": "Health Services",
@@ -20436,6 +20780,132 @@
           "heading": "Health Services",
           "question": "3249. Deputy Paul Lawless asked the Minister for Health if she will urgently intervene in the case of a person (details supplied); if a review of the case will be expedited in light of the serious risks. [55411/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3249/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3575,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3575. Deputy Paul Lawless asked the Minister for Health if she is aware of concerns regarding ambulance response times in County Mayo; the steps being taken to improve National Ambulance Service coverage and response capacity across the county; the number of frontline ambulances currently assigned to County Mayo; the number of ambulance personnel employed in the county by grade; and if she will make a statement on the matter. [56937/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3575/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3576,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3576. Deputy Paul Lawless asked the Minister for Health the average ambulance response times in County Mayo for category one, category two and category three emergency calls in each of the past five years; the way these compare with the relevant national targets; and if she will make a statement on the matter. [56938/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3576/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3577,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3577. Deputy Paul Lawless asked the Minister for Health the number of emergency incidents in County Mayo in each of the past five years in which patients waited more than one hour, two hours and three hours respectively for an ambulance response; and if she will make a statement on the matter. [56939/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3577/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3578,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3578. Deputy Paul Lawless asked the Minister for Health whether any review has been carried out into ambulance resource levels, staffing requirements and fleet capacity in County Mayo in light of population growth and increasing service demand; the outcome of any such review; and if she will make a statement on the matter. [56940/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3578/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3579,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "3579. Deputy Paul Lawless asked the Minister for Health the measures being taken to recruit and retain paramedics and advanced paramedics in County Mayo; whether additional ambulance resources are planned for the county during each of the years 2026 and 2027; and if she will make a statement on the matter. [56941/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3579/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3970,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "3970. Deputy Paul Lawless asked the Minister for Health the number of nurses employed by the HSE, broken down per county, in tabular form. [58371/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3970/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3971,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "3971. Deputy Paul Lawless asked the Minister for Health the number of adverse incidents reported through the National Incident Management System by each hospital in the State in each of the past ten years, by hospital and severity-categorisation of incident, in tabular form. [58372/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3971/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3972,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "3972. Deputy Paul Lawless asked the Minister for Health the amount paid out in medical compensation by the HSE in each of the past ten years and to date in 2026, by CHO area or hospital group, in tabular form. [58373/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3972/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3973,
+          "department": "Health",
+          "heading": "Hospital Deaths",
+          "question": "3973. Deputy Paul Lawless asked the Minister for Health the number of patients who died on hospital trolleys in each of the past five years and to date in 2026, by county, in tabular form. [58374/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3973/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3974,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3974. Deputy Paul Lawless asked the Minister for Health the number of ambulance call outs across the State in 2025, by county. [58375/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3974/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3975,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3975. Deputy Paul Lawless asked the Minister for Health the number of ambulance call outs made across the State in each of the past ten years. [58376/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3975/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3976,
+          "department": "Health",
+          "heading": "Ambulance Service",
+          "question": "3976. Deputy Paul Lawless asked the Minister for Health the number of persons recruited to work for the National Ambulance Service in each of the past ten years; and the number of persons to retire from the service in each of those years. [58377/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3976/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3977,
+          "department": "Health",
+          "heading": "Hospital Appointments Status",
+          "question": "3977. Deputy Paul Lawless asked the Minister for Health the number of cancelled hospital appointments in each hospital in the country in each of the past ten years and to date in 2026, by hospital, in tabular form. [58378/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3977/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3978,
+          "department": "Health",
+          "heading": "General Practitioner Services",
+          "question": "3978. Deputy Paul Lawless asked the Minister for Health the number of general practitioners working in each county in the State, in tabular form. [58379/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3978/",
           "questionType": "written"
         }
       ]

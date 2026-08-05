@@ -9,10 +9,12 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Jennifer-Whitmore.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 332,
+      "count": 349,
       "headingOptions": [
         "Agriculture Schemes",
         "Animal Breeding",
+        "Animal Culls",
+        "Animal Diseases",
         "Animal Welfare",
         "Antisocial Behaviour",
         "Artificial Intelligence",
@@ -71,6 +73,7 @@
         "Health Services Waiting Lists",
         "Health Strategies",
         "Healthcare Policy",
+        "Horse Racing Industry",
         "Horticulture Sector",
         "Hospital Waiting Lists",
         "Housing Policy",
@@ -274,6 +277,10 @@
                 "value": 2
               },
               {
+                "name": "Marine Protected Areas",
+                "value": 2
+              },
+              {
                 "name": "Solar Energy Guidelines",
                 "value": 1
               },
@@ -319,10 +326,6 @@
               },
               {
                 "name": "Greenhouse Gas Emissions",
-                "value": 1
-              },
-              {
-                "name": "Marine Protected Areas",
                 "value": 1
               }
             ]
@@ -424,11 +427,11 @@
                 "value": 4
               },
               {
-                "name": "Control of Dogs",
-                "value": 3
+                "name": "Greyhound Industry",
+                "value": 4
               },
               {
-                "name": "Greyhound Industry",
+                "name": "Control of Dogs",
                 "value": 3
               },
               {
@@ -456,6 +459,14 @@
                 "value": 2
               },
               {
+                "name": "Animal Breeding",
+                "value": 2
+              },
+              {
+                "name": "Horse Racing Industry",
+                "value": 2
+              },
+              {
                 "name": "Special Areas of Conservation",
                 "value": 1
               },
@@ -480,7 +491,11 @@
                 "value": 1
               },
               {
-                "name": "Animal Breeding",
+                "name": "Animal Diseases",
+                "value": 1
+              },
+              {
+                "name": "Animal Culls",
                 "value": 1
               }
             ]
@@ -490,7 +505,7 @@
             "children": [
               {
                 "name": "Cabinet Committees",
-                "value": 14
+                "value": 15
               },
               {
                 "name": "Taoiseach's Meetings and Engagements",
@@ -632,6 +647,27 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 8
+              },
+              {
+                "name": "Early Childhood Care and Education",
+                "value": 5
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 4
+              },
+              {
+                "name": "Disability Services",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -677,26 +713,13 @@
               {
                 "name": "Environmental Impact Assessments",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Early Childhood Care and Education",
-                "value": 5
               },
               {
-                "name": "Disabilities Assessments",
-                "value": 4
-              },
-              {
-                "name": "Disability Services",
+                "name": "Environmental Schemes",
                 "value": 1
               },
               {
-                "name": "Childcare Services",
+                "name": "Departmental Reports",
                 "value": 1
               }
             ]
@@ -1864,6 +1887,33 @@
                 ]
               },
               {
+                "name": "Marine Protected Areas",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "228. Deputy Jennifer Whitmore asked the Minister for Climate, Energy and the Environment for an update on the marine protected areas legislation; and if he will make a statement on the matter. [52307/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/228/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "110. Deputy Jennifer Whitmore asked the Minister for Climate, Energy and the Environment the resources being put into the development of legislation for the creation of the Marine Protected Areas (General Scheme of a Maritime Area Planning (Marine Protected Areas) (Amendment) Bill 2026); whether his Department is engaging with the MPA LIFE project; and if he will make a statement on the matter. [55164/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/110/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Solar Energy Guidelines",
                 "children": [
                   {
@@ -2050,22 +2100,6 @@
                         "name": "150. Deputy Jennifer Whitmore asked the Minister for Climate, Energy and the Environment if he is aware of the Environmental Protection Agency's latest greenhouse gas emissions projections (details supplied); the reasons for this reduction in projected renewable electricity penetration; the extent to which delays to offshore wind projects, delays to the Celtic Interconnector and increased electricity demand have contributed to the revised projections; the measures he intends to take to ensure that Ireland achieves the Government's target of sourcing 80% of electricity from renewable sources by 2030; and if he will make a statement on the matter. [49469/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/150/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Marine Protected Areas",
-                "children": [
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "228. Deputy Jennifer Whitmore asked the Minister for Climate, Energy and the Environment for an update on the marine protected areas legislation; and if he will make a statement on the matter. [52307/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/228/"
                       }
                     ]
                   }
@@ -2752,38 +2786,6 @@
                 ]
               },
               {
-                "name": "Control of Dogs",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "219. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine when the dog control stakeholder group will publish its report; and if he will make a statement on the matter. [17468/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/219/"
-                      },
-                      {
-                        "name": "220. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine when his Department will publish the results of the public consultation of the dog breeding regulations; and if he will make a statement on the matter. [17469/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/220/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "83. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine when he will publish the Dog Control Stakeholder Group Report; and if he will make a statement on the matter. [52305/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/83/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Greyhound Industry",
                 "children": [
                   {
@@ -2810,6 +2812,49 @@
                         "name": "749. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine whether his Department has received reports or complaints concerning the welfare of greyhounds associated with the Parteen case in County Clare; the number of greyhounds involved; the actions taken by his Department and any relevant agencies in response; whether an investigation is ongoing; and if he will make a statement on the matter. [45685/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/749/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2510. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the amount of Exchequer funding provided to Greyhound Racing Ireland in each of the past five years; the proportion of this funding allocated specifically to welfare measures; and if he will make a statement on the matter. [55840/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2510/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Control of Dogs",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "219. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine when the dog control stakeholder group will publish its report; and if he will make a statement on the matter. [17468/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/219/"
+                      },
+                      {
+                        "name": "220. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine when his Department will publish the results of the public consultation of the dog breeding regulations; and if he will make a statement on the matter. [17469/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/220/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "83. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine when he will publish the Dog Control Stakeholder Group Report; and if he will make a statement on the matter. [52305/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/83/"
                       }
                     ]
                   }
@@ -2954,6 +2999,54 @@
                 ]
               },
               {
+                "name": "Animal Breeding",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "50. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the reason he is not introducing a cap on the number of breeding dogs a dog breeding establishment can have on site in his review of the Dog Welfare (Amendment) Bill 2025; and if he will make a statement on the matter. [52306/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/50/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2507. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the number of inspections carried out at commercial dog breeding establishments in each of the past five years; the number of non-compliances identified; the number of enforcement actions taken; and if he will make a statement on the matter. [55837/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2507/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Horse Racing Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2508. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the number of inspections, investigations and enforcement actions carried out in relation to organised sulky racing events in each of the past five years;; and if he will make a statement on the matter. [55838/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2508/"
+                      },
+                      {
+                        "name": "2509. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the measures being taken to improve welfare standards for horses used in sulky racing and to prevent the operation of unregulated racing events; and if he will make a statement on the matter. [55839/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2509/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Special Areas of Conservation",
                 "children": [
                   {
@@ -3050,16 +3143,32 @@
                 ]
               },
               {
-                "name": "Animal Breeding",
+                "name": "Animal Diseases",
                 "children": [
                   {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "50. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the reason he is not introducing a cap on the number of breeding dogs a dog breeding establishment can have on site in his review of the Dog Welfare (Amendment) Bill 2025; and if he will make a statement on the matter. [52306/26]",
+                        "name": "2511. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the number of badgers culled as part of the bovine tuberculosis eradication programme in each of the past five years, by county; and if he will make a statement on the matter. [55841/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/50/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2511/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Animal Culls",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2512. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the progress made in the rollout of badger vaccinations as an alternative to culling; the number of badgers vaccinated in each of the past five years; and if he will make a statement on the matter. [55842/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2512/"
                       }
                     ]
                   }
@@ -3200,6 +3309,17 @@
                         "name": "67. Deputy Jennifer Whitmore asked the Taoiseach when the Cabinet committee on Children and Education will next meet. [53686/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/67/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2. Deputy Jennifer Whitmore asked the Taoiseach when the Cabinet committee on Children and Education will next meet. [54752/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2/"
                       }
                     ]
                   }
@@ -3928,6 +4048,151 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2796. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality for an update on the community crèche pilot scheme; the locations that have been identified to date; and if she will make a statement on the matter. [55854/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2796/"
+                      },
+                      {
+                        "name": "2797. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of childcare provider closures there have been in County Wicklow since 2021; and if she will make a statement on the matter. [55855/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2797/"
+                      },
+                      {
+                        "name": "2798. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of childcare providers in County Wicklow that have pulled out of the core funding scheme since 2021; and if she will make a statement on the matter. [55856/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2798/"
+                      },
+                      {
+                        "name": "2799. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of new childcare providers that have opened in County Wicklow since 2021; and if she will make a statement on the matter. [55857/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2799/"
+                      },
+                      {
+                        "name": "2800. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality for an update on the Government's commitment to reduce the cost of childcare to €200 per child per month; and if she will make a statement on the matter. [55858/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2800/"
+                      },
+                      {
+                        "name": "2801. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of registered childcare providers in County Wicklow; and if she will make a statement on the matter. [55859/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2801/"
+                      },
+                      {
+                        "name": "2833. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the measures being considered to reduce childcare costs for families in Wicklow; and if she will make a statement on the matter. [56344/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2833/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "843. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality if childcare providers in receipt of core funding are obliged under their funding agreement to maintain continuity of services for enrolled families; the obligations that exist where a provider changes the age cohorts it caters for, resulting in families losing access to childcare services; and if she will make a statement on the matter. [36751/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/843/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Early Childhood Care and Education",
+                "children": [
+                  {
+                    "name": "Wednesday, 28 January",
+                    "date_iso": "2026-01-28",
+                    "children": [
+                      {
+                        "name": "171. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of new early learning and childcare providers that have opened and closed since 2020 to-date in 2026, by county, by year, in tabular form; and if she will make a statement on the matter. [6731/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/171/"
+                      },
+                      {
+                        "name": "172. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of early learning and childcare places available for children between the ages of one and three, from 2020 to-date in 2026, in Wicklow; and if she will make a statement on the matter. [6732/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/172/"
+                      },
+                      {
+                        "name": "173. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of early learning and childcare providers that have pulled out of the core funding scheme since its introduction in 2021 to-date in 2026, by county, by year, in tabular form; and if she will make a statement on the matter. [6733/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/173/"
+                      },
+                      {
+                        "name": "174. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the locations of the community childcare facilities in County Wicklow; the capacity and age groups of each; and if she will make a statement on the matter. [6734/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/174/"
+                      },
+                      {
+                        "name": "175. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of community childcare facilities nationwide; the capacity and age group of each, by county, in tabular form; and if she will make a statement on the matter. [6735/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/175/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2597. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality whether her Department has assessed the potential impact of the revised assessment of need model on the identification of children whose needs may be masked by high cognitive ability or compensatory functioning; the safeguards that are in place to prevent under-identification of twice-exceptional children; and if she will make a statement on the matter. [27187/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2597/"
+                      },
+                      {
+                        "name": "2598. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality whether cognitive or psychological assessments will remain available under the revised assessment of need framework where there is evidence of significant developmental discrepancy or unexplained underachievement; and if she will make a statement on the matter. [27188/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2598/"
+                      },
+                      {
+                        "name": "2599. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the training or guidance that is being provided to assessment officers and multidisciplinary teams to ensure complex developmental presentations, including masking and twice-exceptionality, are recognised under the revised assessment of need framework; and if she will make a statement on the matter. [27189/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2599/"
+                      },
+                      {
+                        "name": "2600. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality whether her Department plans to review the implementation of the revised assessment of need framework to ensure that no cohort of children is excluded from identification or support as a result of the streamlined assessment process; and if she will make a statement on the matter. [27190/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2600/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2382. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of service providers in Wicklow that have submitted disability support management advisory team forms to the HSE; and if she will make a statement on the matter. [23995/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2382/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -4131,106 +4396,34 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
+              },
               {
-                "name": "Early Childhood Care and Education",
+                "name": "Environmental Schemes",
                 "children": [
                   {
-                    "name": "Wednesday, 28 January",
-                    "date_iso": "2026-01-28",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "171. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of new early learning and childcare providers that have opened and closed since 2020 to-date in 2026, by county, by year, in tabular form; and if she will make a statement on the matter. [6731/26]",
+                        "name": "1634. Deputy Jennifer Whitmore asked the Minister for Housing, Local Government and Heritage whether the Government has considered the introduction of a grant scheme or other financial supports for household rainwater harvesting systems; and if he will make a statement on the matter. [55614/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/171/"
-                      },
-                      {
-                        "name": "172. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of early learning and childcare places available for children between the ages of one and three, from 2020 to-date in 2026, in Wicklow; and if she will make a statement on the matter. [6732/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/172/"
-                      },
-                      {
-                        "name": "173. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of early learning and childcare providers that have pulled out of the core funding scheme since its introduction in 2021 to-date in 2026, by county, by year, in tabular form; and if she will make a statement on the matter. [6733/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/173/"
-                      },
-                      {
-                        "name": "174. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the locations of the community childcare facilities in County Wicklow; the capacity and age groups of each; and if she will make a statement on the matter. [6734/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/174/"
-                      },
-                      {
-                        "name": "175. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of community childcare facilities nationwide; the capacity and age group of each, by county, in tabular form; and if she will make a statement on the matter. [6735/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/175/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1634/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Departmental Reports",
                 "children": [
                   {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "2597. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality whether her Department has assessed the potential impact of the revised assessment of need model on the identification of children whose needs may be masked by high cognitive ability or compensatory functioning; the safeguards that are in place to prevent under-identification of twice-exceptional children; and if she will make a statement on the matter. [27187/26]",
+                        "name": "1635. Deputy Jennifer Whitmore asked the Minister for Housing, Local Government and Heritage when the report into the fire in Killarney National Park in 2021 will be published; the reason for the delay in making it public; and if he will make a statement on the matter. [55615/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2597/"
-                      },
-                      {
-                        "name": "2598. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality whether cognitive or psychological assessments will remain available under the revised assessment of need framework where there is evidence of significant developmental discrepancy or unexplained underachievement; and if she will make a statement on the matter. [27188/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2598/"
-                      },
-                      {
-                        "name": "2599. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the training or guidance that is being provided to assessment officers and multidisciplinary teams to ensure complex developmental presentations, including masking and twice-exceptionality, are recognised under the revised assessment of need framework; and if she will make a statement on the matter. [27189/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2599/"
-                      },
-                      {
-                        "name": "2600. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality whether her Department plans to review the implementation of the revised assessment of need framework to ensure that no cohort of children is excluded from identification or support as a result of the streamlined assessment process; and if she will make a statement on the matter. [27190/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2600/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2382. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of service providers in Wicklow that have submitted disability support management advisory team forms to the HSE; and if she will make a statement on the matter. [23995/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2382/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "843. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality if childcare providers in receipt of core funding are obliged under their funding agreement to maintain continuity of services for enrolled families; the obligations that exist where a provider changes the age cohorts it caters for, resulting in families losing access to childcare services; and if she will make a statement on the matter. [36751/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/843/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1635/"
                       }
                     ]
                   }
@@ -7268,6 +7461,24 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 2,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "2. Deputy Jennifer Whitmore asked the Taoiseach when the Cabinet committee on Children and Education will next meet. [54752/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 110,
+          "department": "Climate",
+          "heading": "Marine Protected Areas",
+          "question": "110. Deputy Jennifer Whitmore asked the Minister for Climate, Energy and the Environment the resources being put into the development of legislation for the creation of the Marine Protected Areas (General Scheme of a Maritime Area Planning (Marine Protected Areas) (Amendment) Bill 2026); whether his Department is engaging with the MPA LIFE project; and if he will make a statement on the matter. [55164/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/110/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 442,
           "department": "Transport",
           "heading": "Bus Services",
@@ -7363,6 +7574,141 @@
           "heading": "Departmental Policies",
           "question": "1237. Deputy Jennifer Whitmore asked the Minister for Education and Youth to provide an update on her Department's consideration of the need for a new post-primary school in Newtownmountkennedy, County Wicklow; the current stage of her Department's assessment; and if she will make a statement on the matter. [56343/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1237/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1634,
+          "department": "Housing",
+          "heading": "Environmental Schemes",
+          "question": "1634. Deputy Jennifer Whitmore asked the Minister for Housing, Local Government and Heritage whether the Government has considered the introduction of a grant scheme or other financial supports for household rainwater harvesting systems; and if he will make a statement on the matter. [55614/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1634/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1635,
+          "department": "Housing",
+          "heading": "Departmental Reports",
+          "question": "1635. Deputy Jennifer Whitmore asked the Minister for Housing, Local Government and Heritage when the report into the fire in Killarney National Park in 2021 will be published; the reason for the delay in making it public; and if he will make a statement on the matter. [55615/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1635/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2507,
+          "department": "Agriculture",
+          "heading": "Animal Breeding",
+          "question": "2507. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the number of inspections carried out at commercial dog breeding establishments in each of the past five years; the number of non-compliances identified; the number of enforcement actions taken; and if he will make a statement on the matter. [55837/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2507/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2508,
+          "department": "Agriculture",
+          "heading": "Horse Racing Industry",
+          "question": "2508. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the number of inspections, investigations and enforcement actions carried out in relation to organised sulky racing events in each of the past five years;; and if he will make a statement on the matter. [55838/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2508/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2509,
+          "department": "Agriculture",
+          "heading": "Horse Racing Industry",
+          "question": "2509. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the measures being taken to improve welfare standards for horses used in sulky racing and to prevent the operation of unregulated racing events; and if he will make a statement on the matter. [55839/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2509/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2510,
+          "department": "Agriculture",
+          "heading": "Greyhound Industry",
+          "question": "2510. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the amount of Exchequer funding provided to Greyhound Racing Ireland in each of the past five years; the proportion of this funding allocated specifically to welfare measures; and if he will make a statement on the matter. [55840/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2510/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2511,
+          "department": "Agriculture",
+          "heading": "Animal Diseases",
+          "question": "2511. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the number of badgers culled as part of the bovine tuberculosis eradication programme in each of the past five years, by county; and if he will make a statement on the matter. [55841/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2511/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2512,
+          "department": "Agriculture",
+          "heading": "Animal Culls",
+          "question": "2512. Deputy Jennifer Whitmore asked the Minister for Agriculture, Food and the Marine the progress made in the rollout of badger vaccinations as an alternative to culling; the number of badgers vaccinated in each of the past five years; and if he will make a statement on the matter. [55842/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2512/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2796,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2796. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality for an update on the community crèche pilot scheme; the locations that have been identified to date; and if she will make a statement on the matter. [55854/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2796/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2797,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2797. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of childcare provider closures there have been in County Wicklow since 2021; and if she will make a statement on the matter. [55855/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2797/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2798,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2798. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of childcare providers in County Wicklow that have pulled out of the core funding scheme since 2021; and if she will make a statement on the matter. [55856/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2798/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2799,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2799. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of new childcare providers that have opened in County Wicklow since 2021; and if she will make a statement on the matter. [55857/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2799/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2800,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2800. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality for an update on the Government's commitment to reduce the cost of childcare to €200 per child per month; and if she will make a statement on the matter. [55858/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2800/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2801,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2801. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the number of registered childcare providers in County Wicklow; and if she will make a statement on the matter. [55859/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2801/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2833,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2833. Deputy Jennifer Whitmore asked the Minister for Children, Disability and Equality the measures being considered to reduce childcare costs for families in Wicklow; and if she will make a statement on the matter. [56344/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2833/",
           "questionType": "written"
         },
         {

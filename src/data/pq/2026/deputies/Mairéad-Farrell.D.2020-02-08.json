@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Mairéad-Farrell.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 449,
+      "count": 467,
       "headingOptions": [
         "After-School Support Services",
         "Agriculture Schemes",
@@ -61,6 +61,7 @@
         "Eating Disorders",
         "Economic and Social Research Institute",
         "Education and Training Boards",
+        "Education and Training Provision",
         "Electricity Generation",
         "Emergency Services",
         "Employment Rights",
@@ -88,6 +89,7 @@
         "Health Service Executive",
         "Health Services",
         "Health Services Staff",
+        "Health Strategies",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
         "Home Care Packages",
@@ -131,6 +133,7 @@
         "Planning Issues",
         "Poverty Data",
         "Primary Care Centres",
+        "Primary Care Services",
         "Prison Service",
         "Proposed Legislation",
         "Public Expenditure Policy",
@@ -194,7 +197,7 @@
         "topHeading": "Fisheries Protection",
         "topHeadingCount": 46,
         "topDepartment": "Climate",
-        "topDepartmentCount": 85
+        "topDepartmentCount": 87
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -232,6 +235,10 @@
               },
               {
                 "name": "Energy Prices",
+                "value": 2
+              },
+              {
+                "name": "Departmental Expenditure",
                 "value": 2
               },
               {
@@ -287,11 +294,11 @@
                 "value": 1
               },
               {
-                "name": "Departmental Expenditure",
+                "name": "Energy Conservation",
                 "value": 1
               },
               {
-                "name": "Energy Conservation",
+                "name": "Departmental Projects",
                 "value": 1
               }
             ]
@@ -377,6 +384,10 @@
               },
               {
                 "name": "Fisheries Protection",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -506,6 +517,14 @@
               },
               {
                 "name": "Home Care Packages",
+                "value": 1
+              },
+              {
+                "name": "Health Strategies",
+                "value": 1
+              },
+              {
+                "name": "Primary Care Services",
                 "value": 1
               }
             ]
@@ -781,6 +800,10 @@
                 "value": 2
               },
               {
+                "name": "Fishing Industry",
+                "value": 2
+              },
+              {
                 "name": "Bord Bia",
                 "value": 1
               },
@@ -813,7 +836,56 @@
                 "value": 1
               },
               {
-                "name": "Fishing Industry",
+                "name": "Public Expenditure Policy",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Schemes",
+                "value": 5
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 4
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "value": 2
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 2
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Fraud",
+                "value": 1
+              },
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Tax Data",
+                "value": 1
+              },
+              {
+                "name": "School Meals Programme",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Code",
                 "value": 1
               }
             ]
@@ -880,55 +952,6 @@
             ]
           },
           {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Schemes",
-                "value": 5
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "value": 4
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "value": 2
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Fraud",
-                "value": 1
-              },
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Tax Data",
-                "value": 1
-              },
-              {
-                "name": "School Meals Programme",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Code",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
@@ -986,6 +1009,51 @@
               {
                 "name": "Immigration Support Services",
                 "value": 1
+              },
+              {
+                "name": "Departmental Strategies",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 3
+              },
+              {
+                "name": "Disability Services",
+                "value": 3
+              },
+              {
+                "name": "Mother and Baby Homes",
+                "value": 3
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 1
+              },
+              {
+                "name": "After-School Support Services",
+                "value": 1
+              },
+              {
+                "name": "Early Childhood Care and Education",
+                "value": 1
+              },
+              {
+                "name": "Budget 2026",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
               }
             ]
           },
@@ -1031,38 +1099,67 @@
             ]
           },
           {
-            "name": "Children",
+            "name": "Culture",
             "children": [
               {
-                "name": "Childcare Services",
-                "value": 3
+                "name": "Sports Events",
+                "value": 2
               },
               {
-                "name": "Mother and Baby Homes",
-                "value": 3
+                "name": "Departmental Schemes",
+                "value": 2
               },
               {
-                "name": "Disability Services",
+                "name": "Artists' Remuneration",
                 "value": 1
               },
               {
-                "name": "Departmental Funding",
+                "name": "Arts Funding",
                 "value": 1
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Sport and Recreational Development",
                 "value": 1
               },
               {
-                "name": "After-School Support Services",
+                "name": "Forestry Sector",
                 "value": 1
               },
               {
-                "name": "Early Childhood Care and Education",
+                "name": "National Cultural Institutions",
                 "value": 1
               },
               {
-                "name": "Budget 2026",
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Student Accommodation",
+                "value": 5
+              },
+              {
+                "name": "Education and Training Boards",
+                "value": 2
+              },
+              {
+                "name": "Departmental Budgets",
+                "value": 2
+              },
+              {
+                "name": "Grant Payments",
+                "value": 1
+              },
+              {
+                "name": "Research Funding",
                 "value": 1
               }
             ]
@@ -1105,70 +1202,12 @@
             ]
           },
           {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Sports Events",
-                "value": 2
-              },
-              {
-                "name": "Departmental Schemes",
-                "value": 2
-              },
-              {
-                "name": "Artists' Remuneration",
-                "value": 1
-              },
-              {
-                "name": "Arts Funding",
-                "value": 1
-              },
-              {
-                "name": "Sport and Recreational Development",
-                "value": 1
-              },
-              {
-                "name": "Forestry Sector",
-                "value": 1
-              },
-              {
-                "name": "National Cultural Institutions",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Further and Higher Education",
-            "children": [
-              {
-                "name": "Student Accommodation",
-                "value": 5
-              },
-              {
-                "name": "Education and Training Boards",
-                "value": 2
-              },
-              {
-                "name": "Grant Payments",
-                "value": 1
-              },
-              {
-                "name": "Research Funding",
-                "value": 1
-              },
-              {
-                "name": "Departmental Budgets",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
+              {
+                "name": "Departmental Budgets",
+                "value": 2
+              },
               {
                 "name": "Departmental Expenditure",
                 "value": 1
@@ -1190,11 +1229,11 @@
                 "value": 1
               },
               {
-                "name": "Departmental Budgets",
+                "name": "Departmental Policies",
                 "value": 1
               },
               {
-                "name": "Departmental Policies",
+                "name": "Education and Training Provision",
                 "value": 1
               }
             ]
@@ -1204,7 +1243,7 @@
             "children": [
               {
                 "name": "Departmental Policies",
-                "value": 1
+                "value": 2
               },
               {
                 "name": "Shannon Airport Facilities",
@@ -1237,6 +1276,10 @@
             "children": [
               {
                 "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
                 "value": 1
               }
             ]
@@ -1784,6 +1827,33 @@
                 ]
               },
               {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "153. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49653/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/153/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "243. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment if the money from the Sceirde Wind Project has been recouped by the State; and if he will make a statement on the matter. [58953/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/243/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Water Quality",
                 "children": [
                   {
@@ -1992,22 +2062,6 @@
                 ]
               },
               {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "153. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49653/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/153/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Energy Conservation",
                 "children": [
                   {
@@ -2018,6 +2072,22 @@
                         "name": "125. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment the financial supports that are available for the replacement of solid fuel stoves; and if he will make a statement on the matter. [51023/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/125/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "138. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55530/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/138/"
                       }
                     ]
                   }
@@ -2655,6 +2725,22 @@
                         "name": "493. Deputy Mairéad Farrell asked the Minister for Housing, Local Government and Heritage if he will confirm if ranched Atlantic salmon will be added to the Third Schedule, Part 2A of the European Communities (Birds and Natural Habitats) Regulations 2011 (S.I. No. 477 of 2011), in light of recent statements by Inland Fisheries Ireland (IFI) confirming that ranched fish are a negative influence on native biodiversity in Special Areas of Conservation (SACs); and if he will make a statement on the matter. [51743/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/493/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1617. Deputy Mairéad Farrell asked the Minister for Housing, Local Government and Heritage the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55539/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1617/"
                       }
                     ]
                   }
@@ -3375,6 +3461,38 @@
                         "name": "877. Deputy Mairéad Farrell asked the Minister for Health the steps she is taking to ensure that people living with dementia can access the home care they have been assessed as needing; and if she will make a statement on the matter. [53429/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/877/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3806. Deputy Mairéad Farrell asked the Minister for Health if she is considering developing a national clinical pathway for Functional Neurological Disorder (FND); if such a pathway could include equitable access to multidisciplinary care, improved access to rehabilitation services, consideration of financial supports for those living with disabling FND; and if she will make a statement on the matter. [57844/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3806/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Primary Care Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4054. Deputy Mairéad Farrell asked the Minister for Health the position regarding the Primary Health Centre in Spiddal; and if she will make a statement on the matter. [58952/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4054/"
                       }
                     ]
                   }
@@ -4895,6 +5013,33 @@
                 ]
               },
               {
+                "name": "Fishing Industry",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "326. Deputy Mairéad Farrell asked the Minister for Agriculture, Food and the Marine to provide an update on ongoing work to secure a national quota for bluefin tuna; and if he will make a statement on the matter. [53798/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/326/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2494. Deputy Mairéad Farrell asked the Minister for Agriculture, Food and the Marine the date on which a recent mass mortality event of farmed salmon took place at a location (details supplied); the number of the five licenced sites in Kilkieran Bay which were affected; the number of farmed salmon that died in total at the five farm sites; the reason for the mass mortalities; the way in which the mass mortalities were disposed of; the number of employees that were made redundant as a result of the mortality event; and if he will make a statement on the matter. [55236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2494/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Bord Bia",
                 "children": [
                   {
@@ -5023,16 +5168,290 @@
                 ]
               },
               {
-                "name": "Fishing Industry",
+                "name": "Public Expenditure Policy",
                 "children": [
                   {
-                    "name": "Wednesday, 15 July",
-                    "date_iso": "2026-07-15",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "326. Deputy Mairéad Farrell asked the Minister for Agriculture, Food and the Marine to provide an update on ongoing work to secure a national quota for bluefin tuna; and if he will make a statement on the matter. [53798/26]",
+                        "name": "2502. Deputy Mairéad Farrell asked the Minister for Agriculture, Food and the Marine the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55528/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/326/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2502/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "735. Deputy Mairéad Farrell asked the Minister for Social Protection the reason his Department is putting resources into reviewing existing carers allowance applications given the move towards abolishing the means test for this payment; if his attention has been drawn to the stress that carers experience when they receive letters which indicate that their means are being review and that they may have to make repayments to the Department; and if he will make a statement on the matter. [8265/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/735/"
+                      },
+                      {
+                        "name": "736. Deputy Mairéad Farrell asked the Minister for Social Protection to provide an update on plans to abolish the carers allowance means test; and if he will make a statement on the matter. [8266/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/736/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "195. Deputy Mairéad Farrell asked the Minister for Social Protection if carer’s allowance is an income or an allowance; if clarified as an income, the reason it is not subject to minimum wage legislation; or if clarified as an allowance the reason it is subject to tax; and if he will make a statement on the matter. [17272/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/195/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "577. Deputy Mairéad Farrell asked the Minister for Social Protection if there are any allowances, other than the carer's allowance, which require the recipient to work at least 35 hours per week; and if he will make a statement on the matter. [32969/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/577/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "344. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify if capital allowances are deducted from self-employed income for the carer's allowance means test; and if he will make a statement on the matter. [46502/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/344/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "69. Deputy Mairéad Farrell asked the Minister for Social Protection if he will provide an update on abolishing the means test for the carer’s allowance; and if he will make a statement on the matter. [15568/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/69/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "709. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify if an individual resident in Ireland on stamp 1 permission becomes incapacitated due to illness is eligible to apply for disability allowance; and if he will make a statement on the matter. [37737/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/709/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "762. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify the rules around eligibility for fuel allowance while on long-term SWA; if an individual is eligible for fuel allowance if they are waiting for a decision on another payment whose application has been ongoing for two years; and if he will make a statement on the matter. [39948/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/762/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 24 June",
+                    "date_iso": "2026-06-24",
+                    "children": [
+                      {
+                        "name": "222. Deputy Mairéad Farrell asked the Minister for Social Protection further to Parliamentary Question No. 344 of 18 June 2026, to clarify if capital allowances, such as business-related expenses are deducted from self-employed income for the carer's allowance means test; and if he will make a statement on the matter. [48217/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/222/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "755. Deputy Mairéad Farrell asked the Minister for Social Protection if his attention has been drawn to workers who temporarily leave the workforce due to unemployment, caring responsibilities, illness, or other life circumstances, and cannot access the PRSI treatment benefit scheme when they return to work, which can leave working people with many years of PRSI contributions losing access to support for dental bills because of a temporary break in employment; if his Department are considering any alternatives to make this scheme more inclusive; and if he will make a statement on the matter. [39572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/755/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "345. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify the reason there is a discrepancy between his Department and the Revenue Commissioners in relation to an application for maternity benefit (details supplied). [46513/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/345/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "544. Deputy Mairéad Farrell asked the Minister for Social Protection to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49666/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/544/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1957. Deputy Mairéad Farrell asked the Minister for Social Protection the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55543/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1957/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1544. Deputy Mairéad Farrell asked the Minister for Social Protection if his attention has been drawn to the Karshan disclosure opportunity guidance; if his Department was consulted before the Revenue Commissioners launched this scheme; the way in which his Department will ensure workers’ PRSI records pre-2024 are corrected in line with Karshan; the reason his Department failed to prosecute employers under SS251–252 despite repeated confirmation of bogus self-employment; and if he will make a statement on the matter. [74842/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1544/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Fraud",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1606. Deputy Mairéad Farrell asked the Minister for Social Protection if the Government can reconcile the “Welfare Cheats Cheat Us All” campaign with an amnesty that forgives employer welfare fraud. [2904/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1606/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Inquiries",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "760. Deputy Mairéad Farrell asked the Minister for Social Protection further to FOI decision FOI-2026-28668 stating that no documents exist regarding enforcement of PRSI liabilities arising from scope section employment-status decisions, to reconcile this with replies from the Department of Enterprise, Trade and Employment and the Department of Finance which confirm that PRSI liabilities from misclassification are enforceable and material; the Department of Social Protection has been consulted by Revenue on the Karshan Disclosure Opportunity and related PRSI matters; and manual PRSI records for 2024–2025 are now being created under the Karshan scheme to protect workers’ entitlements; in view of this, to clarify whether any internal briefings, guidance documents, emails, or policy notes were prepared in relation to the enforcement or tracking of PRSI liabilities arising from Scope decisions; if such records now exist or previously existed; and if he will make a statement on the matter. [10144/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/760/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "620. Deputy Mairéad Farrell asked the Minister for Social Protection the plans in place to reduce the number of years that a carer must care for in order to receive the carer’s pension; and if he will make a statement on the matter. [16184/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/620/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Data",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "415. Deputy Mairéad Farrell asked the Minister for Social Protection further to Parliamentary Question No. 760 of 10 February 2026, if any internal briefing notes, guidance documents, policy papers, emails, memoranda or tracking systems exist within his Department concerning the enforcement, monitoring or recovery of retrospective PRSI liabilities arising from Scope decisions (details supplied); whether any records exist documenting engagement with the Revenue Commissioners regarding the operational interaction between Scope determinations and the Karshan Disclosure Opportunity; if such records exist, whether he will reconcile their existence with FOI-2026-28668, which stated that no such records exist; if no such records exist, to explain how full-period enforcement and tracking of PRSI liabilities is operationalised in practice; and if he will make a statement on the matter. [17986/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/415/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Meals Programme",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1152. Deputy Mairéad Farrell asked the Minister for Social Protection the specific nutritional standards mandated by his Department under the School Meals Programme; the way in which compliance with those standards are monitored at supplier level; the auditing or oversight mechanisms currently in place; if there is a formal mechanism for parents and schools to raise concerns about the food provided to their children; and if he will make a statement on the matter. [18475/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1152/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Code",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "327. Deputy Mairéad Farrell asked the Minister for Social Protection the per diem rate of payment for electricity allowance for the years 2010 to 2026, in tabular form; the way this rate is calculated; and if he will make a statement on the matter. [23147/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/327/"
                       }
                     ]
                   }
@@ -5324,269 +5743,6 @@
             ]
           },
           {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Schemes",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "735. Deputy Mairéad Farrell asked the Minister for Social Protection the reason his Department is putting resources into reviewing existing carers allowance applications given the move towards abolishing the means test for this payment; if his attention has been drawn to the stress that carers experience when they receive letters which indicate that their means are being review and that they may have to make repayments to the Department; and if he will make a statement on the matter. [8265/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/735/"
-                      },
-                      {
-                        "name": "736. Deputy Mairéad Farrell asked the Minister for Social Protection to provide an update on plans to abolish the carers allowance means test; and if he will make a statement on the matter. [8266/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/736/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "195. Deputy Mairéad Farrell asked the Minister for Social Protection if carer’s allowance is an income or an allowance; if clarified as an income, the reason it is not subject to minimum wage legislation; or if clarified as an allowance the reason it is subject to tax; and if he will make a statement on the matter. [17272/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/195/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "577. Deputy Mairéad Farrell asked the Minister for Social Protection if there are any allowances, other than the carer's allowance, which require the recipient to work at least 35 hours per week; and if he will make a statement on the matter. [32969/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/577/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "344. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify if capital allowances are deducted from self-employed income for the carer's allowance means test; and if he will make a statement on the matter. [46502/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/344/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "69. Deputy Mairéad Farrell asked the Minister for Social Protection if he will provide an update on abolishing the means test for the carer’s allowance; and if he will make a statement on the matter. [15568/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/69/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "709. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify if an individual resident in Ireland on stamp 1 permission becomes incapacitated due to illness is eligible to apply for disability allowance; and if he will make a statement on the matter. [37737/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/709/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "762. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify the rules around eligibility for fuel allowance while on long-term SWA; if an individual is eligible for fuel allowance if they are waiting for a decision on another payment whose application has been ongoing for two years; and if he will make a statement on the matter. [39948/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/762/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 24 June",
-                    "date_iso": "2026-06-24",
-                    "children": [
-                      {
-                        "name": "222. Deputy Mairéad Farrell asked the Minister for Social Protection further to Parliamentary Question No. 344 of 18 June 2026, to clarify if capital allowances, such as business-related expenses are deducted from self-employed income for the carer's allowance means test; and if he will make a statement on the matter. [48217/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/222/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "755. Deputy Mairéad Farrell asked the Minister for Social Protection if his attention has been drawn to workers who temporarily leave the workforce due to unemployment, caring responsibilities, illness, or other life circumstances, and cannot access the PRSI treatment benefit scheme when they return to work, which can leave working people with many years of PRSI contributions losing access to support for dental bills because of a temporary break in employment; if his Department are considering any alternatives to make this scheme more inclusive; and if he will make a statement on the matter. [39572/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/755/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "345. Deputy Mairéad Farrell asked the Minister for Social Protection to clarify the reason there is a discrepancy between his Department and the Revenue Commissioners in relation to an application for maternity benefit (details supplied). [46513/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/345/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1544. Deputy Mairéad Farrell asked the Minister for Social Protection if his attention has been drawn to the Karshan disclosure opportunity guidance; if his Department was consulted before the Revenue Commissioners launched this scheme; the way in which his Department will ensure workers’ PRSI records pre-2024 are corrected in line with Karshan; the reason his Department failed to prosecute employers under SS251–252 despite repeated confirmation of bogus self-employment; and if he will make a statement on the matter. [74842/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1544/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Fraud",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1606. Deputy Mairéad Farrell asked the Minister for Social Protection if the Government can reconcile the “Welfare Cheats Cheat Us All” campaign with an amnesty that forgives employer welfare fraud. [2904/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1606/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Inquiries",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "760. Deputy Mairéad Farrell asked the Minister for Social Protection further to FOI decision FOI-2026-28668 stating that no documents exist regarding enforcement of PRSI liabilities arising from scope section employment-status decisions, to reconcile this with replies from the Department of Enterprise, Trade and Employment and the Department of Finance which confirm that PRSI liabilities from misclassification are enforceable and material; the Department of Social Protection has been consulted by Revenue on the Karshan Disclosure Opportunity and related PRSI matters; and manual PRSI records for 2024–2025 are now being created under the Karshan scheme to protect workers’ entitlements; in view of this, to clarify whether any internal briefings, guidance documents, emails, or policy notes were prepared in relation to the enforcement or tracking of PRSI liabilities arising from Scope decisions; if such records now exist or previously existed; and if he will make a statement on the matter. [10144/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/760/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "620. Deputy Mairéad Farrell asked the Minister for Social Protection the plans in place to reduce the number of years that a carer must care for in order to receive the carer’s pension; and if he will make a statement on the matter. [16184/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/620/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Data",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "415. Deputy Mairéad Farrell asked the Minister for Social Protection further to Parliamentary Question No. 760 of 10 February 2026, if any internal briefing notes, guidance documents, policy papers, emails, memoranda or tracking systems exist within his Department concerning the enforcement, monitoring or recovery of retrospective PRSI liabilities arising from Scope decisions (details supplied); whether any records exist documenting engagement with the Revenue Commissioners regarding the operational interaction between Scope determinations and the Karshan Disclosure Opportunity; if such records exist, whether he will reconcile their existence with FOI-2026-28668, which stated that no such records exist; if no such records exist, to explain how full-period enforcement and tracking of PRSI liabilities is operationalised in practice; and if he will make a statement on the matter. [17986/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/415/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Meals Programme",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1152. Deputy Mairéad Farrell asked the Minister for Social Protection the specific nutritional standards mandated by his Department under the School Meals Programme; the way in which compliance with those standards are monitored at supplier level; the auditing or oversight mechanisms currently in place; if there is a formal mechanism for parents and schools to raise concerns about the food provided to their children; and if he will make a statement on the matter. [18475/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1152/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Code",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "327. Deputy Mairéad Farrell asked the Minister for Social Protection the per diem rate of payment for electricity allowance for the years 2010 to 2026, in tabular form; the way this rate is calculated; and if he will make a statement on the matter. [23147/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/327/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "544. Deputy Mairéad Farrell asked the Minister for Social Protection to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49666/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/544/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
@@ -5834,6 +5990,213 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2188. Deputy Mairéad Farrell asked the Minister for Justice, Home Affairs and Migration the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55540/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2188/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "133. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if she will provide an update on the provision of affordable childcare across Galway; and if she will make a statement on the matter. [13317/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/133/"
+                      },
+                      {
+                        "name": "165. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if she will provide an update on the provision of childcare services across Connemara; and if she will make a statement on the matter. [13318/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/165/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "997. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if her attention has been drawn to the lack of childcare services currently available in the Clifden area, County Galway; if she has considered the potential of establishing a community crèche in the Clifden area; and if she will make a statement on the matter. [35034/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/997/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2757. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the number of WTE psychologists attached to Galway City West Children's Disability Network Team as of 13 July 2026, in tabular form; and if she will make a statement on the matter. [55206/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2757/"
+                      },
+                      {
+                        "name": "2758. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the number of WTE speech and language therapists attached to Central Galway and Galway City East Children's Disability Network Team as of 13 July 2026, in tabular form; and if she will make a statement on the matter. [55207/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2758/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "762. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality her plans to provide support in facilitating an independent review of the governance and communication structures within disability day services; and if she will make a statement on the matter. [17038/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/762/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mother and Baby Homes",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "223. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if the Government will release the records relating to mother and baby institutions instead of keeping them restricted for up to 30 years. [17276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/223/"
+                      },
+                      {
+                        "name": "224. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if the Government will fully investigate and, if necessary, excavate the Angels' Plot burial ground at Sean Ross Abbey in order that the children who died there can finally be found, and their mothers told the truth. [17277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/224/"
+                      },
+                      {
+                        "name": "225. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if the Government will reform the mother and baby institutions redress scheme in order that survivors are judged by what was done to them, not by a rigid 180 day cut-off. [17278/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/225/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "268. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the amount of funding provided to an organisation (details supplied) by her Department in 2025; if she will list the sources of all funding; and if she will make a statement on the matter. [27710/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/268/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "400. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the current time frame to receive a decision on an assessment of needs once submitted in Galway; and if she will make a statement on the matter. [31750/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/400/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "After-School Support Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "737. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if her attention has been drawn to the difficulty of accessing after-school support for children with autism in rural areas; to provide an update on after-school support services for children with autism in the Carraroe/Connemara area; if work is being carried out to ensure that there are accessible, local supports for families who cannot travel long distances; and if she will make a statement on the matter. [31981/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/737/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Early Childhood Care and Education",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "472. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the supports in place for new service providers of early years education and after school provision; and if she will make a statement on the matter. [35975/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/472/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2026",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "722. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality to provide figures of the cost overruns by her Department, relative to the budgeted amount in Budget 2026 ; the cost overruns by her Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of her Department; and if she will make a statement on the matter. [49652/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/722/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2775. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the efficiency and reform proposals that her Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within her Department; and if she will make a statement on the matter. [55529/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2775/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -6020,157 +6383,308 @@
             ]
           },
           {
-            "name": "Children",
+            "name": "Culture",
             "children": [
               {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "133. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if she will provide an update on the provision of affordable childcare across Galway; and if she will make a statement on the matter. [13317/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/133/"
-                      },
-                      {
-                        "name": "165. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if she will provide an update on the provision of childcare services across Connemara; and if she will make a statement on the matter. [13318/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/165/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "997. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if her attention has been drawn to the lack of childcare services currently available in the Clifden area, County Galway; if she has considered the potential of establishing a community crèche in the Clifden area; and if she will make a statement on the matter. [35034/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/997/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Mother and Baby Homes",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "223. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if the Government will release the records relating to mother and baby institutions instead of keeping them restricted for up to 30 years. [17276/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/223/"
-                      },
-                      {
-                        "name": "224. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if the Government will fully investigate and, if necessary, excavate the Angels' Plot burial ground at Sean Ross Abbey in order that the children who died there can finally be found, and their mothers told the truth. [17277/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/224/"
-                      },
-                      {
-                        "name": "225. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if the Government will reform the mother and baby institutions redress scheme in order that survivors are judged by what was done to them, not by a rigid 180 day cut-off. [17278/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/225/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
+                "name": "Sports Events",
                 "children": [
                   {
                     "name": "Tuesday, 3 March",
                     "date_iso": "2026-03-03",
                     "children": [
                       {
-                        "name": "762. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality her plans to provide support in facilitating an independent review of the governance and communication structures within disability day services; and if she will make a statement on the matter. [17038/26]",
+                        "name": "145. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport to provide an update on the possibility of derogation from the World Athletics 1934 political boundary rule that prohibits athletes from the North of Ireland from representing Ireland at European and world athletics competitions; and if he will make a statement on the matter. [16819/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/762/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/145/"
+                      },
+                      {
+                        "name": "194. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if he supports a boycott of the upcoming Nations League matches between Ireland and Israel on the grounds that Israel is an apartheid state that has engaged in ethnic cleansing and genocide; and if he will make a statement on the matter. [16820/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/194/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Funding",
+                "name": "Departmental Schemes",
                 "children": [
                   {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
                     "children": [
                       {
-                        "name": "268. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the amount of funding provided to an organisation (details supplied) by her Department in 2025; if she will list the sources of all funding; and if she will make a statement on the matter. [27710/26]",
+                        "name": "646. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport the documentation that is required to apply for the basic income for the arts scheme to prove that people are artists; if proof of being an artist must be validated through the third party (details supplied); and if he will make a statement on the matter. [30027/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/268/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/646/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "379. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if the funding for the Creative Ireland Programme is winding down; if so, if a new funding stream will become available; and if he will make a statement on the matter. [53561/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/379/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Artists' Remuneration",
                 "children": [
                   {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
                     "children": [
                       {
-                        "name": "400. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the current time frame to receive a decision on an assessment of needs once submitted in Galway; and if she will make a statement on the matter. [31750/26]",
+                        "name": "619. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport for an update on the basic income for artists scheme, which will end in February 2026; and if he will make a statement on the matter. [4189/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/400/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/619/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "After-School Support Services",
+                "name": "Arts Funding",
                 "children": [
                   {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
                     "children": [
                       {
-                        "name": "737. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality if her attention has been drawn to the difficulty of accessing after-school support for children with autism in rural areas; to provide an update on after-school support services for children with autism in the Carraroe/Connemara area; if work is being carried out to ensure that there are accessible, local supports for families who cannot travel long distances; and if she will make a statement on the matter. [31981/26]",
+                        "name": "743. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if the 2,000 artists who currently avail of the basic income for artists will face a six-month gap in payments; if this is the case, the financial supports his Department is providing for these people; and if he will make a statement on the matter. [12561/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/737/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/743/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Early Childhood Care and Education",
+                "name": "Sport and Recreational Development",
                 "children": [
                   {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
                     "children": [
                       {
-                        "name": "472. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the supports in place for new service providers of early years education and after school provision; and if she will make a statement on the matter. [35975/26]",
+                        "name": "145. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if he will facilitate discussions with all relevant stakeholders in athletics across the island of Ireland, to engage in discussions on possibility of derogation from the World Athletics’ 1934 Political Boundary rule that prohibits athletes from the North of Ireland from representing Ireland at European and World Athletics Competitions; and if he will make a statement on the matter. [15377/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/472/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/145/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Budget 2026",
+                "name": "Forestry Sector",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "553. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport to give an update on his Departments’ provision for the establishment and maintenance of forestry corridors to improve resilience and operational safety of the telecommunications network; and if he will make a statement on the matter. [22404/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/553/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Cultural Institutions",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "551. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if he, or his Department had any involvement in the booking process of an event (details supplied) at the national concert hall; and if he will make a statement on the matter. [28208/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/551/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
                 "children": [
                   {
                     "name": "Tuesday, 30 June",
                     "date_iso": "2026-06-30",
                     "children": [
                       {
-                        "name": "722. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality to provide figures of the cost overruns by her Department, relative to the budgeted amount in Budget 2026 ; the cost overruns by her Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of her Department; and if she will make a statement on the matter. [49652/26]",
+                        "name": "450. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49654/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/722/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/450/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Expenditure Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1490. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55531/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1490/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Student Accommodation",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "1267. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science for an updated version of the table on page 26 of the National Student Accommodation Strategy (2017), that details the actual supply and demand figures for purpose-built student accommodation bedspaces, broken down by cities, in the years 2017, 2019 and 2024; and if he will make a statement on the matter. [10210/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1267/"
+                      },
+                      {
+                        "name": "1268. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science for an updated version of the table on page 18 of the National Student Accommodation Strategy (2017), that details existing purpose-built student accommodation bedspaces, broken down by cities, for the academic year 2025-2026; and if he will make a statement on the matter. [10211/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1268/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "147. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science the date for the publication of the updated National Student Accommodation Strategy (2025-2035), which was due to be published in 2024; the reason for the delay in publication; and if he will make a statement on the matter. [7006/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/147/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "687. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science further to Parliamentary Question No. 1268 of 10 February 2026, if he will provide an updated table (details supplied); and if he will make a statement on the matter. [13925/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/687/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "230. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on the recently published National Student Accommodation Strategy 2026-2035; and if he will make a statement on the matter. [29011/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/230/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education and Training Boards",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "2249. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science if his Department has made changes to funding to the Galway-Roscommon ETB for Adult English language classes; if he is aware of cuts to the number of Adult Education Teachers working in the Galway-Roscommon ETB network and how many teaching roles have been cut; if he is aware of cuts to classes available within the Galway-Roscommon ETB network; whether these cuts were a result of funding cuts; and if he will make a statement on the matter. [19283/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2249/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "217. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on funding cuts to the Galway and Roscommon Education and Training Board; and if he will make a statement on the matter. [29090/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/217/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Budgets",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "944. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49660/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/944/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4183. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55537/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4183/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Grant Payments",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "142. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science if his attention has been drawn to independent students who have become estranged from their families after the age of 18 years, but are struggling to provide sufficient documentation to prove their independence in order that they can access SUSI; if he plans to revise the rules regarding eligibility to be classed as an independent student for SUSI purposes; and if he will make a statement on the matter. [7005/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/142/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Research Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2504. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science if his attention has been drawn to the academic backlash to recently published priorities by an organisation (details supplied) that neglect social sciences and humanities subjects; and if he will make a statement on the matter. [43896/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2504/"
                       }
                     ]
                   }
@@ -6322,270 +6836,8 @@
             ]
           },
           {
-            "name": "Culture",
+            "name": "Rural",
             "children": [
-              {
-                "name": "Sports Events",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "145. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport to provide an update on the possibility of derogation from the World Athletics 1934 political boundary rule that prohibits athletes from the North of Ireland from representing Ireland at European and world athletics competitions; and if he will make a statement on the matter. [16819/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/145/"
-                      },
-                      {
-                        "name": "194. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if he supports a boycott of the upcoming Nations League matches between Ireland and Israel on the grounds that Israel is an apartheid state that has engaged in ethnic cleansing and genocide; and if he will make a statement on the matter. [16820/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/194/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "646. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport the documentation that is required to apply for the basic income for the arts scheme to prove that people are artists; if proof of being an artist must be validated through the third party (details supplied); and if he will make a statement on the matter. [30027/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/646/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "379. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if the funding for the Creative Ireland Programme is winding down; if so, if a new funding stream will become available; and if he will make a statement on the matter. [53561/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/379/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Artists' Remuneration",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "619. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport for an update on the basic income for artists scheme, which will end in February 2026; and if he will make a statement on the matter. [4189/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/619/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "743. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if the 2,000 artists who currently avail of the basic income for artists will face a six-month gap in payments; if this is the case, the financial supports his Department is providing for these people; and if he will make a statement on the matter. [12561/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/743/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sport and Recreational Development",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "145. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if he will facilitate discussions with all relevant stakeholders in athletics across the island of Ireland, to engage in discussions on possibility of derogation from the World Athletics’ 1934 Political Boundary rule that prohibits athletes from the North of Ireland from representing Ireland at European and World Athletics Competitions; and if he will make a statement on the matter. [15377/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/145/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Forestry Sector",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "553. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport to give an update on his Departments’ provision for the establishment and maintenance of forestry corridors to improve resilience and operational safety of the telecommunications network; and if he will make a statement on the matter. [22404/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/553/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Cultural Institutions",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "551. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport if he, or his Department had any involvement in the booking process of an event (details supplied) at the national concert hall; and if he will make a statement on the matter. [28208/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/551/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "450. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49654/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/450/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Further and Higher Education",
-            "children": [
-              {
-                "name": "Student Accommodation",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "1267. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science for an updated version of the table on page 26 of the National Student Accommodation Strategy (2017), that details the actual supply and demand figures for purpose-built student accommodation bedspaces, broken down by cities, in the years 2017, 2019 and 2024; and if he will make a statement on the matter. [10210/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1267/"
-                      },
-                      {
-                        "name": "1268. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science for an updated version of the table on page 18 of the National Student Accommodation Strategy (2017), that details existing purpose-built student accommodation bedspaces, broken down by cities, for the academic year 2025-2026; and if he will make a statement on the matter. [10211/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/1268/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "147. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science the date for the publication of the updated National Student Accommodation Strategy (2025-2035), which was due to be published in 2024; the reason for the delay in publication; and if he will make a statement on the matter. [7006/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/147/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "687. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science further to Parliamentary Question No. 1268 of 10 February 2026, if he will provide an updated table (details supplied); and if he will make a statement on the matter. [13925/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/687/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "230. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on the recently published National Student Accommodation Strategy 2026-2035; and if he will make a statement on the matter. [29011/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/230/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Education and Training Boards",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "2249. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science if his Department has made changes to funding to the Galway-Roscommon ETB for Adult English language classes; if he is aware of cuts to the number of Adult Education Teachers working in the Galway-Roscommon ETB network and how many teaching roles have been cut; if he is aware of cuts to classes available within the Galway-Roscommon ETB network; whether these cuts were a result of funding cuts; and if he will make a statement on the matter. [19283/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/2249/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "217. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on funding cuts to the Galway and Roscommon Education and Training Board; and if he will make a statement on the matter. [29090/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/217/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Grant Payments",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "142. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science if his attention has been drawn to independent students who have become estranged from their families after the age of 18 years, but are struggling to provide sufficient documentation to prove their independence in order that they can access SUSI; if he plans to revise the rules regarding eligibility to be classed as an independent student for SUSI purposes; and if he will make a statement on the matter. [7005/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/142/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Research Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2504. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science if his attention has been drawn to the academic backlash to recently published priorities by an organisation (details supplied) that neglect social sciences and humanities subjects; and if he will make a statement on the matter. [43896/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2504/"
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "name": "Departmental Budgets",
                 "children": [
@@ -6594,19 +6846,25 @@
                     "date_iso": "2026-06-30",
                     "children": [
                       {
-                        "name": "944. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department; and if he will make a statement on the matter. [49660/26]",
+                        "name": "959. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht to provide figures for the cost overruns by his Department, relative to the budgeted amount in budget 2026; the cost overruns by his Department, relative to the budgeted amount in budget 2026 for each State agency under the aegis of his Department; and if he will make a statement on the matter. [49665/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/944/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/959/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4257. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to its request for such proposals, with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55542/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4257/"
                       }
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Rural",
-            "children": [
+              },
               {
                 "name": "Departmental Expenditure",
                 "children": [
@@ -6688,22 +6946,6 @@
                 ]
               },
               {
-                "name": "Departmental Budgets",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "959. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht to provide figures for the cost overruns by his Department, relative to the budgeted amount in budget 2026; the cost overruns by his Department, relative to the budgeted amount in budget 2026 for each State agency under the aegis of his Department; and if he will make a statement on the matter. [49665/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/959/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Departmental Policies",
                 "children": [
                   {
@@ -6714,6 +6956,22 @@
                         "name": "52. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht if his attention has been drawn to community wealth building, as a model for retaining public expenditure within our towns and counties and promoting balanced economic development; and if he will make a statement on the matter. [51495/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/52/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education and Training Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4304. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht the number and value of tenders for an educational building (details supplied); and if he will make a statement on the matter. [58950/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4304/"
                       }
                     ]
                   }
@@ -6735,6 +6993,17 @@
                         "name": "182. Deputy Mairéad Farrell asked the Minister for Defence if she will commit to holding a referendum on any changes the Government seeks to make to the triple lock, considering the triple lock is an expression of Irish sovereignty and, under Article 6 of Bunreacht na hÉireann, sovereignty is vested in the people; and if she will make a statement on the matter. [8695/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/182/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "260. Deputy Mairéad Farrell asked the Minister for Defence the efficiency and reform proposals that her Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to its request for such proposals with a deadline of 17 July 2026; the impact that these spending cuts will have on public services within her Department; and if she will make a statement on the matter. [55532/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/260/"
                       }
                     ]
                   }
@@ -6852,6 +7121,22 @@
                         "name": "99. Deputy Mairéad Farrell asked the Taoiseach to provide figures of the cost overruns by his Department, relative to the budgeted amount in Budget 2026; the cost overruns by his Department, relative to the budgeted amount in Budget 2026 for each State Agency under the aegis of his Department. [49667/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/99/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "9. Deputy Mairéad Farrell asked the Taoiseach the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department. [55544/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/9/"
                       }
                     ]
                   }
@@ -10707,6 +10992,15 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 9,
+          "department": "Taoiseach",
+          "heading": "Departmental Policies",
+          "question": "9. Deputy Mairéad Farrell asked the Taoiseach the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department. [55544/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/9/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 49,
           "department": "Foreign",
           "heading": "Departmental Expenditure",
@@ -10721,6 +11015,33 @@
           "heading": "Passport Services",
           "question": "76. Deputy Mairéad Farrell asked the Minister for Foreign Affairs and Trade if assistance can be provided for an individual (details supplied) in accessing an appointment with the Ukrainian Embassy regarding passport renewal; and if she will make a statement on the matter. [57815/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/76/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 138,
+          "department": "Climate",
+          "heading": "Departmental Projects",
+          "question": "138. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55530/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/138/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 243,
+          "department": "Climate",
+          "heading": "Departmental Expenditure",
+          "question": "243. Deputy Mairéad Farrell asked the Minister for Climate, Energy and the Environment if the money from the Sceirde Wind Project has been recouped by the State; and if he will make a statement on the matter. [58953/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/243/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 260,
+          "department": "Defence",
+          "heading": "Departmental Policies",
+          "question": "260. Deputy Mairéad Farrell asked the Minister for Defence the efficiency and reform proposals that her Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to its request for such proposals with a deadline of 17 July 2026; the impact that these spending cuts will have on public services within her Department; and if she will make a statement on the matter. [55532/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/260/",
           "questionType": "written"
         },
         {
@@ -10860,6 +11181,87 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 1490,
+          "department": "Culture",
+          "heading": "Public Expenditure Policy",
+          "question": "1490. Deputy Mairéad Farrell asked the Minister for Culture, Communications and Sport the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55531/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1490/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1617,
+          "department": "Housing",
+          "heading": "Departmental Funding",
+          "question": "1617. Deputy Mairéad Farrell asked the Minister for Housing, Local Government and Heritage the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55539/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1617/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1957,
+          "department": "Social",
+          "heading": "Departmental Expenditure",
+          "question": "1957. Deputy Mairéad Farrell asked the Minister for Social Protection the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55543/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1957/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2188,
+          "department": "Justice",
+          "heading": "Departmental Strategies",
+          "question": "2188. Deputy Mairéad Farrell asked the Minister for Justice, Home Affairs and Migration the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55540/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2188/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2494,
+          "department": "Agriculture",
+          "heading": "Fishing Industry",
+          "question": "2494. Deputy Mairéad Farrell asked the Minister for Agriculture, Food and the Marine the date on which a recent mass mortality event of farmed salmon took place at a location (details supplied); the number of the five licenced sites in Kilkieran Bay which were affected; the number of farmed salmon that died in total at the five farm sites; the reason for the mass mortalities; the way in which the mass mortalities were disposed of; the number of employees that were made redundant as a result of the mortality event; and if he will make a statement on the matter. [55236/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2494/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2502,
+          "department": "Agriculture",
+          "heading": "Public Expenditure Policy",
+          "question": "2502. Deputy Mairéad Farrell asked the Minister for Agriculture, Food and the Marine the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55528/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2502/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2757,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2757. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the number of WTE psychologists attached to Galway City West Children's Disability Network Team as of 13 July 2026, in tabular form; and if she will make a statement on the matter. [55206/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2757/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2758,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "2758. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the number of WTE speech and language therapists attached to Central Galway and Galway City East Children's Disability Network Team as of 13 July 2026, in tabular form; and if she will make a statement on the matter. [55207/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2758/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2775,
+          "department": "Children",
+          "heading": "Departmental Expenditure",
+          "question": "2775. Deputy Mairéad Farrell asked the Minister for Children, Disability and Equality the efficiency and reform proposals that her Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within her Department; and if she will make a statement on the matter. [55529/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2775/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 3196,
           "department": "Health",
           "heading": "Mental Health Services",
@@ -10901,6 +11303,51 @@
           "heading": "Departmental Expenditure",
           "question": "3280. Deputy Mairéad Farrell asked the Minister for Health the efficiency and reform proposals her Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to its request for such proposals with a deadline of 17 July 2026; the impact these spending cuts will have on public services within her Department; and if she will make a statement on the matter. [55538/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3280/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3806,
+          "department": "Health",
+          "heading": "Health Strategies",
+          "question": "3806. Deputy Mairéad Farrell asked the Minister for Health if she is considering developing a national clinical pathway for Functional Neurological Disorder (FND); if such a pathway could include equitable access to multidisciplinary care, improved access to rehabilitation services, consideration of financial supports for those living with disabling FND; and if she will make a statement on the matter. [57844/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3806/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4054,
+          "department": "Health",
+          "heading": "Primary Care Services",
+          "question": "4054. Deputy Mairéad Farrell asked the Minister for Health the position regarding the Primary Health Centre in Spiddal; and if she will make a statement on the matter. [58952/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4054/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4183,
+          "department": "Further and Higher Education",
+          "heading": "Departmental Budgets",
+          "question": "4183. Deputy Mairéad Farrell asked the Minister for Further and Higher Education, Research, Innovation and Science the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to their request for such proposals with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55537/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4183/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4257,
+          "department": "Rural",
+          "heading": "Departmental Budgets",
+          "question": "4257. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht the efficiency and reform proposals that his Department has submitted to the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation in response to its request for such proposals, with a deadline of the 17 July 2026; the impact that these spending cuts will have on public services within his Department; and if he will make a statement on the matter. [55542/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4257/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4304,
+          "department": "Rural",
+          "heading": "Education and Training Provision",
+          "question": "4304. Deputy Mairéad Farrell asked the Minister for Rural and Community Development and the Gaeltacht the number and value of tenders for an educational building (details supplied); and if he will make a statement on the matter. [58950/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4304/",
           "questionType": "written"
         }
       ]

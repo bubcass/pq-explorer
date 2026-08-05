@@ -9,12 +9,13 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Maeve-O'Connell.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 126,
+      "count": 141,
       "headingOptions": [
         "Active Travel",
         "Animal Passports",
         "Apprenticeship Programmes",
         "Approved Housing Bodies",
+        "Assisted Decision-Making",
         "Bus Services",
         "Childcare Services",
         "Consumer Prices",
@@ -22,6 +23,7 @@
         "Cycling Policy",
         "Defence Forces",
         "Departmental Correspondence",
+        "Departmental Data",
         "Departmental Expenditure",
         "Departmental Policies",
         "Departmental Projects",
@@ -62,6 +64,7 @@
         "Tax Data",
         "Teacher Training",
         "Third Level Education",
+        "Third Level Fees",
         "Third Level Staff",
         "Traffic Management",
         "Transport Infrastructure Ireland",
@@ -180,11 +183,11 @@
             "name": "Further and Higher Education",
             "children": [
               {
-                "name": "Apprenticeship Programmes",
-                "value": 3
+                "name": "Student Accommodation",
+                "value": 4
               },
               {
-                "name": "Student Accommodation",
+                "name": "Apprenticeship Programmes",
                 "value": 3
               },
               {
@@ -218,6 +221,39 @@
               {
                 "name": "Education Costs",
                 "value": 1
+              },
+              {
+                "name": "Departmental Projects",
+                "value": 1
+              },
+              {
+                "name": "Third Level Fees",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Departmental Data",
+                "value": 8
+              },
+              {
+                "name": "Assisted Decision-Making",
+                "value": 2
+              },
+              {
+                "name": "Guardians Ad Litem",
+                "value": 1
+              },
+              {
+                "name": "Childcare Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Strategies",
+                "value": 1
               }
             ]
           },
@@ -226,7 +262,7 @@
             "children": [
               {
                 "name": "Housing Policy",
-                "value": 4
+                "value": 6
               },
               {
                 "name": "Rental Sector",
@@ -323,23 +359,6 @@
               },
               {
                 "name": "Animal Passports",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Guardians Ad Litem",
-                "value": 1
-              },
-              {
-                "name": "Childcare Services",
-                "value": 1
-              },
-              {
-                "name": "Departmental Strategies",
                 "value": 1
               }
             ]
@@ -1067,38 +1086,6 @@
             "name": "Further and Higher Education",
             "children": [
               {
-                "name": "Apprenticeship Programmes",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "258. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on the work of his Department in establishing new apprenticeships. [29115/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/258/"
-                      },
-                      {
-                        "name": "569. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science the number of apprentices registered to the construction sector in 2025. [22085/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/569/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2629. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science if a one day a week class training model is being considered for craft apprentices to reduce the impact on employers as a result of the six week block class model and encourage apprenticeships. [2505/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2629/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Student Accommodation",
                 "children": [
                   {
@@ -1125,6 +1112,49 @@
                         "name": "240. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science the number of additional accommodation units supplied by the rent-a-room scheme. [46116/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/240/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4211. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science the number of units and locations proposed for student accommodation under Phase 2 of the Technological Sector Student Accommodation Programme. [58419/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4211/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Apprenticeship Programmes",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "258. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on the work of his Department in establishing new apprenticeships. [29115/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/258/"
+                      },
+                      {
+                        "name": "569. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science the number of apprentices registered to the construction sector in 2025. [22085/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/569/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2629. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science if a one day a week class training model is being considered for craft apprentices to reduce the impact on employers as a result of the six week block class model and encourage apprenticeships. [2505/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2629/"
                       }
                     ]
                   }
@@ -1262,6 +1292,163 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4159. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the work of his Department in establishing an online portal to replace the CAO system. [52410/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4159/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Fees",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4210. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on his Department’s plans to reduce the student contribution fee as per the Programme for Government commitment. [58418/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4210/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3020. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality if her Department will improve availability of a paper-based application form for the setting up of enduring power of attorney. [58391/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3020/"
+                      },
+                      {
+                        "name": "3021. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality how an individual can obtain a paper-based application for enduring power of attorney. [58392/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3021/"
+                      },
+                      {
+                        "name": "3022. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of applications for enduring power of attorney that have been made per year since 2020. [58393/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3022/"
+                      },
+                      {
+                        "name": "3023. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of applications to set up an enduring power of attorney that were projected to be made with the decision support service each year following the enacting of the Assisted Decision-Making (Capacity) Act 2015, the establishment of the decision support service and the actual numbers of enduring power of attorney that have been registered with the decision support service. [58394/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3023/"
+                      },
+                      {
+                        "name": "3024. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the shortest, longest and average length of time it takes to set up an enduring power of attorney with the decision support service from the initial application. [58395/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3024/"
+                      },
+                      {
+                        "name": "3025. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality to state the procedure by the decision support service to enable an emergency application to set up an enduring power of attorney under the Assisted Decision-Making (Capacity) Act 2015. [58396/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3025/"
+                      },
+                      {
+                        "name": "3026. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of emergency applications to set up an enduring power of attorney received by the decision support service since the enacting of the Assisted Decision-Making (Capacity) Act 2015 and the establishment of the decision support service. [58397/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3026/"
+                      },
+                      {
+                        "name": "3027. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of emergency applications to set up an enduring power of attorney received by the decision support service, each year since the enacting of the Assisted Decision-Making (Capacity) Act 2015 and the establishment of the decision support service. [58398/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3027/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assisted Decision-Making",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3018. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality when the review enabled by the Assisted Decision-Making Capacity Act 2015 will take place. [58389/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3018/"
+                      },
+                      {
+                        "name": "3019. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality when the solicitors portal enabling the applications of enduring power of attorney, as committed to in the Programme for Government will become available. [58390/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3019/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Guardians Ad Litem",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2027. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality if she is aware of the concerns of an organisation (details supplied) in relation to changes to the role of guardians ad litem; and if she will engage with the organisation in relation to these concerns. [2476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2027/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "145. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality for an update on the work of her Department in encouraging childcare providers to engage in core funding. [12770/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/145/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "851. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality for an update on the implementation for the National Strategy for Women and Girls 2025 - 2030. [36882/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/851/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1300,6 +1487,22 @@
                         "name": "170. Deputy Maeve O'Connell asked the Minister for Housing, Local Government and Heritage for an update on the progress of the working group established by his Department in reviewing the code of practice to allow pets in social housing and AHBs. [38131/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/170/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1815. Deputy Maeve O'Connell asked the Minister for Housing, Local Government and Heritage for an update on the work of the Working Group examining the ban on pets in social housing; and if it has met its H2 2026 deadline. [58381/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1815/"
+                      },
+                      {
+                        "name": "1816. Deputy Maeve O'Connell asked the Minister for Housing, Local Government and Heritage when the ban on pets in social housing will be lifted. [58382/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1816/"
                       }
                     ]
                   }
@@ -1703,59 +1906,6 @@
                         "name": "787. Deputy Maeve O'Connell asked the Minister for Agriculture, Food and the Marine if his Department will develop an exotic pets register, similar to practices in Northern Ireland. [3379/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/787/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Guardians Ad Litem",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2027. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality if she is aware of the concerns of an organisation (details supplied) in relation to changes to the role of guardians ad litem; and if she will engage with the organisation in relation to these concerns. [2476/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2027/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "145. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality for an update on the work of her Department in encouraging childcare providers to engage in core funding. [12770/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/145/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Strategies",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "851. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality for an update on the implementation for the National Strategy for Women and Girls 2025 - 2030. [36882/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/851/"
                       }
                     ]
                   }
@@ -2961,6 +3111,141 @@
           "heading": "Departmental Policies",
           "question": "580. Deputy Maeve O'Connell asked the Minister for Transport if he will consider creating or appointing a common information service provider, CISP, that enables the provision of U-space services for the management of unmanned aircraft traffic. [58424/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/580/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1815,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1815. Deputy Maeve O'Connell asked the Minister for Housing, Local Government and Heritage for an update on the work of the Working Group examining the ban on pets in social housing; and if it has met its H2 2026 deadline. [58381/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1815/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1816,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1816. Deputy Maeve O'Connell asked the Minister for Housing, Local Government and Heritage when the ban on pets in social housing will be lifted. [58382/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1816/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3018,
+          "department": "Children",
+          "heading": "Assisted Decision-Making",
+          "question": "3018. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality when the review enabled by the Assisted Decision-Making Capacity Act 2015 will take place. [58389/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3018/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3019,
+          "department": "Children",
+          "heading": "Assisted Decision-Making",
+          "question": "3019. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality when the solicitors portal enabling the applications of enduring power of attorney, as committed to in the Programme for Government will become available. [58390/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3019/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3020,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3020. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality if her Department will improve availability of a paper-based application form for the setting up of enduring power of attorney. [58391/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3020/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3021,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3021. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality how an individual can obtain a paper-based application for enduring power of attorney. [58392/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3021/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3022,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3022. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of applications for enduring power of attorney that have been made per year since 2020. [58393/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3022/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3023,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3023. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of applications to set up an enduring power of attorney that were projected to be made with the decision support service each year following the enacting of the Assisted Decision-Making (Capacity) Act 2015, the establishment of the decision support service and the actual numbers of enduring power of attorney that have been registered with the decision support service. [58394/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3023/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3024,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3024. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the shortest, longest and average length of time it takes to set up an enduring power of attorney with the decision support service from the initial application. [58395/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3024/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3025,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3025. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality to state the procedure by the decision support service to enable an emergency application to set up an enduring power of attorney under the Assisted Decision-Making (Capacity) Act 2015. [58396/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3025/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3026,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3026. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of emergency applications to set up an enduring power of attorney received by the decision support service since the enacting of the Assisted Decision-Making (Capacity) Act 2015 and the establishment of the decision support service. [58397/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3026/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3027,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3027. Deputy Maeve O'Connell asked the Minister for Children, Disability and Equality the number of emergency applications to set up an enduring power of attorney received by the decision support service, each year since the enacting of the Assisted Decision-Making (Capacity) Act 2015 and the establishment of the decision support service. [58398/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3027/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4159,
+          "department": "Further and Higher Education",
+          "heading": "Departmental Projects",
+          "question": "4159. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science for an update on the work of his Department in establishing an online portal to replace the CAO system. [52410/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4159/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4210,
+          "department": "Further and Higher Education",
+          "heading": "Third Level Fees",
+          "question": "4210. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science to provide an update on his Department’s plans to reduce the student contribution fee as per the Programme for Government commitment. [58418/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4210/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4211,
+          "department": "Further and Higher Education",
+          "heading": "Student Accommodation",
+          "question": "4211. Deputy Maeve O'Connell asked the Minister for Further and Higher Education, Research, Innovation and Science the number of units and locations proposed for student accommodation under Phase 2 of the Technological Sector Student Accommodation Programme. [58419/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4211/",
           "questionType": "written"
         }
       ]

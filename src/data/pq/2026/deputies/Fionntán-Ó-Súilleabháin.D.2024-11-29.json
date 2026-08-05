@@ -9,20 +9,26 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Fionntán-Ó-Súilleabháin.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 140,
+      "count": 178,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
         "An Garda Síochána",
+        "Animal Welfare",
         "Artists' Remuneration",
+        "Assisted Decision-Making",
+        "Assisted Human Reproduction",
         "Asylum Applications",
         "Bus Services",
         "Child and Family Agency",
         "Childcare Services",
+        "Citizenship Ceremonies",
         "Coast Guard Service",
         "Commemorative Events",
+        "Data Centres",
         "Departmental Correspondence",
         "Departmental Data",
+        "Departmental Funding",
         "Departmental Policies",
         "Departmental Websites",
         "Disability Issues",
@@ -30,6 +36,7 @@
         "Domestic, Sexual and Gender-based Violence",
         "Education Policy",
         "Energy Prices",
+        "EU Agreements",
         "Fire Service",
         "Food Safety",
         "Fuel Prices",
@@ -40,22 +47,28 @@
         "Healthcare Infrastructure Provision",
         "Heritage Sites",
         "Home Care Packages",
+        "Housing Policy",
         "Housing Schemes",
         "Immigration Policy",
         "International Agreements",
         "Job Losses",
         "Language Schools",
+        "Local Authorities",
+        "Media Sector",
         "Mental Health Services",
         "Military Aircraft",
         "Ministerial Communications",
         "National Parks",
         "National Transport Authority",
         "Natural Heritage Areas",
+        "Naturalisation Applications",
+        "Nursing Homes",
         "Online Safety",
         "Pension Provisions",
         "Planning Issues",
         "Primary Care Centres",
         "Public Sector Pensions",
+        "Public Sector Staff",
         "Question Heading for question(s)  654",
         "Rail Network",
         "Road Network",
@@ -70,13 +83,14 @@
         "Special Educational Needs",
         "Sports Funding",
         "State Properties",
+        "Water Conservation",
         "Weather Events"
       ],
       "insights": {
         "topHeading": "Mental Health Services",
         "topHeadingCount": 21,
         "topDepartment": "Health",
-        "topDepartmentCount": 47
+        "topDepartmentCount": 48
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -131,6 +145,10 @@
               {
                 "name": "Disability Services",
                 "value": 1
+              },
+              {
+                "name": "Assisted Human Reproduction",
+                "value": 1
               }
             ]
           },
@@ -151,7 +169,7 @@
               },
               {
                 "name": "School Curriculum",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Departmental Data",
@@ -171,6 +189,92 @@
               },
               {
                 "name": "Commemorative Events",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Naturalisation Applications",
+                "value": 11
+              },
+              {
+                "name": "Media Sector",
+                "value": 4
+              },
+              {
+                "name": "Immigration Policy",
+                "value": 3
+              },
+              {
+                "name": "Citizenship Ceremonies",
+                "value": 2
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 1
+              },
+              {
+                "name": "Asylum Applications",
+                "value": 1
+              },
+              {
+                "name": "EU Agreements",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Staff",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Heritage Sites",
+                "value": 4
+              },
+              {
+                "name": "Housing Policy",
+                "value": 4
+              },
+              {
+                "name": "Fire Service",
+                "value": 2
+              },
+              {
+                "name": "Local Authorities",
+                "value": 2
+              },
+              {
+                "name": "Housing Schemes",
+                "value": 1
+              },
+              {
+                "name": "National Parks",
+                "value": 1
+              },
+              {
+                "name": "Planning Issues",
+                "value": 1
+              },
+              {
+                "name": "Natural Heritage Areas",
+                "value": 1
+              },
+              {
+                "name": "Water Conservation",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Disability Services",
                 "value": 1
               }
             ]
@@ -217,35 +321,6 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Heritage Sites",
-                "value": 4
-              },
-              {
-                "name": "Housing Schemes",
-                "value": 1
-              },
-              {
-                "name": "National Parks",
-                "value": 1
-              },
-              {
-                "name": "Planning Issues",
-                "value": 1
-              },
-              {
-                "name": "Fire Service",
-                "value": 1
-              },
-              {
-                "name": "Natural Heritage Areas",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Children",
             "children": [
               {
@@ -262,6 +337,14 @@
               },
               {
                 "name": "Childcare Services",
+                "value": 1
+              },
+              {
+                "name": "Assisted Decision-Making",
+                "value": 1
+              },
+              {
+                "name": "Nursing Homes",
                 "value": 1
               }
             ]
@@ -309,23 +392,6 @@
             ]
           },
           {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Immigration Policy",
-                "value": 1
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              },
-              {
-                "name": "Asylum Applications",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Climate",
             "children": [
               {
@@ -334,6 +400,27 @@
               },
               {
                 "name": "Departmental Websites",
+                "value": 1
+              },
+              {
+                "name": "Data Centres",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Ministerial Communications",
+                "value": 1
+              },
+              {
+                "name": "Agriculture Schemes",
+                "value": 1
+              },
+              {
+                "name": "Animal Welfare",
                 "value": 1
               }
             ]
@@ -352,14 +439,14 @@
             ]
           },
           {
-            "name": "Agriculture",
+            "name": "Social",
             "children": [
               {
-                "name": "Ministerial Communications",
+                "name": "Social Welfare Eligibility",
                 "value": 1
               },
               {
-                "name": "Agriculture Schemes",
+                "name": "Departmental Policies",
                 "value": 1
               }
             ]
@@ -412,15 +499,6 @@
               },
               {
                 "name": "Departmental Correspondence",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Eligibility",
                 "value": 1
               }
             ]
@@ -889,6 +967,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Assisted Human Reproduction",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3799. Deputy Fionntán Ó Súilleabháin asked the Minister for Health if she will consider extending the current state funded IVF scheme to allow who had previous IVF Treatment to be admitted to the scheme; and if she will make a statement on the matter. [57810/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3799/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1128,6 +1222,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/202/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1343. Deputy Fionntán Ó Súilleabháin asked the Minister for Education and Youth if a schools folklore collection could be re-instated for school children, of primary age, similar to the 1937 and 1939 scheme which stands as one of the largest grassroots oral history projects ever undertaken anywhere and built almost entirely by children simply listening to their elders; and if she will make a statement on the matter. [57811/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1343/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1206,6 +1311,452 @@
                         "name": "56. Deputy Fionntán Ó Súilleabháin asked the Minister for Education and Youth if she will arrange for her Department to send a framed copy of the 1916 Proclamation to all primary and secondary schools; and if she will make a statement on the matter. [17285/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/56/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Naturalisation Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2124. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the Government will revisit its Migrant Integration Strategy 2017-2020; to commission the Irish naturalisation and immigration service to carry out a piece of research to include a review of civics and language testing; to include a mapping exercise on international activity and best practice; and if he will make a statement on the matter. [58427/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2124/"
+                      },
+                      {
+                        "name": "2125. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the reason Ireland is the only European Union member state that does not require applicants for naturalised citizenship to demonstrate language proficiency or undergo a civics examination before becoming citizens; if he will consider such proposals; and if he will make a statement on the matter. [58428/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2125/"
+                      },
+                      {
+                        "name": "2126. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration to examine the insertion of a definition of \"good character\" in terms of Ireland's naturalisation process, which relies on residency requirements and an assessment of \"good character\"; and if he will make a statement on the matter. [58429/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2126/"
+                      },
+                      {
+                        "name": "2387. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration his views on whether, if Ireland wants a sustainable immigration system that retains public confidence, policymakers must be prepared to have an honest conversation about immigration, integration, and citizenship; and if he will make a statement on the matter. [58345/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2387/"
+                      },
+                      {
+                        "name": "2388. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the recent revelation that a person (details supplied) convicted over the 2023 Parnell Square stabbing attack, had been granted Irish citizenship despite reportedly not speaking English or Irish and having no work history in Ireland after 25 years, should prompt a wider national debate about immigration, integration and the criteria for Irish citizenship; and if he will make a statement on the matter. [58347/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2388/"
+                      },
+                      {
+                        "name": "2389. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration his views on whether Ireland is an outlier in the EU in terms of the absence of a language requirement for people seeking naturalised Irish citizenship; and if he will make a statement on the matter. [58350/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2389/"
+                      },
+                      {
+                        "name": "2390. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the Government will introduce language and civics tests for people seeking naturalised Irish citizenship; and if he will make a statement on the matter. [58352/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2390/"
+                      },
+                      {
+                        "name": "2391. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the Government will revisit its Migrant Integration Strategy 2017-2020, and commission the Irish Naturalisation and Immigration Service (INIS) to carry out a piece of research to include a review of civics and language testing, and a mapping exercise on international activity and best practice; and if he will make a statement on the matter. [58353/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2391/"
+                      },
+                      {
+                        "name": "2395. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the reason Ireland is the only European Union member state that does not require applicants for naturalised citizenship to demonstrate language proficiency or undergo a civics examination before becoming citizens; if he will consider such proposals; and if he will make a statement on the matter. [58430/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2395/"
+                      },
+                      {
+                        "name": "2396. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if his Department will consider placing more emphasis on expectations such as working, contributing to society, learning the language and integrating into Irish life at citizenship ceremonies; and if he will make a statement on the matter. [58431/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2396/"
+                      },
+                      {
+                        "name": "2397. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration to examine the insertion of a definition of \"good character\" in terms of Ireland's naturalisation process, which relies on residency requirements and an assessment of \"good character\" [58432/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2397/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Media Sector",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2439. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the extent to which section 26 of the International Protection Act 2015 impacts the reporting of criminal proceedings by the media; if his Department has issued, or intends to issue, updated guidance to media organisations to clarify the distinction between protecting an applicant's identity and reporting on public court proceedings; and if he will make a statement on the matter. [59081/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2439/"
+                      },
+                      {
+                        "name": "2440. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that Ireland is an outlier in the EU in terms of being the only EU country that has a criminal law which specifically prohibits naming asylum seekers who commit crimes; if he has plans to address this anomaly; and if he will make a statement on the matter. [59082/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2440/"
+                      },
+                      {
+                        "name": "2442. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the extent to which section 26 of the International Protection Act 2015 impacts the reporting of criminal proceedings by the media; if his Department has issued, or intends to issue, updated guidance to media organisations. [59187/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2442/"
+                      },
+                      {
+                        "name": "2443. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that Ireland is an outlier in the EU in terms of being the only EU country that has a criminal law which specifically prohibits naming asylum seekers who commit crimes; if he plans to address this anomaly; and if he will make a statement on the matter. [59188/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2443/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Immigration Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2441. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that the Government's assertion that there is 'no evidence to link increased migration with an increase in crime' is contradicted by data and statistics from across the EU; and if he will make a statement on the matter. [59084/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2441/"
+                      },
+                      {
+                        "name": "2444. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that the Governments assertion that there is 'no evidence to link increased migration with an increase in crime' is contradicted by data and statistics from across the EU; and if he will make a statement on the matter. [59190/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2444/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "690. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he is prepared to follow the example of countries such as Sweden, and publish anonymised annual statistics on the nationality and immigration status of persons convicted of sexual-related offences in Ireland, in the interests of transparency, objectivity and better-informed policy discussions; and if he will make a statement on the matter. [21640/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/690/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Ceremonies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2337. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration to provide a breakdown of the cost of each citizenship ceremony that has taken place since 2000; the number of new citizens sworn in at each ceremony; and if he will make a statement on the matter. [57801/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2337/"
+                      },
+                      {
+                        "name": "2338. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he will confirm that a singer has been available to sing \"Amhrán na bhFiann\" at each citizenship ceremony; if not, the reason; and if he will make a statement on the matter. [57802/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2338/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "287. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the reason there has been a significant delay in delivering the recommendations in the Garda Vetting Review in 2021; when these recommendations will be implemented; and if he will make a statement on the matter. [27406/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/287/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Asylum Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1362. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the number of asylum applications made at the immigration office in Dublin city centre compared with those at the airports and seaports in each of the past five years, in tabular form; and if he will make a statement on the matter. [42541/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1362/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Agreements",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2335. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the initial projected implementation cost of the EU Migration Pact between 2026 and 2030; and if he will make a statement on the matter. [57796/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2335/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2336. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the number of additional staff recruited to implement the EU Migration pact; and if he will make a statement on the matter. [57797/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2336/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Heritage Sites",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "815. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the reason the National Monuments Service has not carried out an official inspection following notification in August 2025 of the possible discovery of a rare Souterrain in Courtown Woods, north County Wexford; when such an inspection will take place; and if he will make a statement on the matter. [12597/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/815/"
+                      },
+                      {
+                        "name": "816. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the interim measures that are in place to protect the site of the possible rare Souterrain in Courtown Woods, north County Wexford, pending an official inspection by the National Monuments Service; and if he will make a statement on the matter. [12598/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/816/"
+                      },
+                      {
+                        "name": "817. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage whether the National Monuments Service has engaged with the local heritage group in Courtown Woods, north County Wexford, following notification in August 2025 of the possible discovery of a rare Souterrain; and if he will make a statement on the matter. [12599/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/817/"
+                      },
+                      {
+                        "name": "818. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage whether staffing or resource constraints within the National Monuments Service contributed to the delay in carrying out an inspection of the possible rare Souterrain reported in August 2025 in Courtown Woods, north County Wexford; and if he will make a statement on the matter. [12600/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/818/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1818. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage in the interest of transparency, objectivity, better-informed policy discussions, and having an evidence-based democracy, if he would accept that the vacuum of information in relation to the nationalities of those on the housing list is contributing to misinformation online around the subject; and if he will make a statement on the matter. [58434/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1818/"
+                      },
+                      {
+                        "name": "1819. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he would be prepared to request that local authorities record anonymised annual statistics on the nationality of those on their housing and HAP lists in Ireland, that elected reps can access, in terms of numbers of Irish citizens, EU citizens and non-EU citizens; and if he will make a statement on the matter. [58435/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1819/"
+                      },
+                      {
+                        "name": "1820. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he would be prepared to publish anonymised annual statistics on the nationality of those on the housing and HAP lists in Ireland, that elected reps can access, in terms of numbers of Irish citizens, EU citizens and non-EU citizens; and if he will make a statement on the matter. [58436/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1820/"
+                      },
+                      {
+                        "name": "1821. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if Ireland's habitual residency rule, that allows access to state Housing supports, HAP and other public services after 52 weeks residency, makes us an outlier in the EU; if Ireland has considered increasing the timescale beyond one year; and if he will make a statement on the matter. [58437/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1821/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fire Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "716. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he will consider proposing the extension of the mandatory retirement age for firefighters from 62 years-of-age to the State pension age of 66, in view of the enactment of the Employment (Restriction on Certain Mandatory Retirement Ages) Act 2025, which recognises that employees should not be required to retire before the State pension age where they are fit, capable and willing to continue working; if he accepts that the continued use of age as a proxy for occupational risk in the fire service is unnecessary, given that firefighters are already subject to robust and objective annual medical assessments, fitness testing and competency evaluations; and if he will make a statement on the matter. [30362/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/716/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1761. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the training that is being made available to firefighters, in the event of a fire at a solar farm; if funding for future training is being made available to each of the fire stations in the country; and if he will make a statement on the matter. [57809/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1761/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Local Authorities",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1759. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the amount spent by each of the local authorities on consultants in the past five years; and if he will provide a breakdown by county. [57795/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1759/"
+                      },
+                      {
+                        "name": "1760. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the number of residential estates in Wicklow and Wexford where residents have applied to be taken in charge, but have not yet been approved; if he will provide a breakdown, for Wicklow and Wexford and list the timeframe residents have been waiting; and if he will make a statement on the matter. [57800/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1760/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "426. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the reason a pensioner (details supplied) has not received essential repair works to their home; if he will prioritise these emergency works; and if he will make a statement on the matter. [5336/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/426/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Parks",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "581. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the status of proposals to develop a national park at the Blackstairs Mountains on the Wexford/Carlow border; and if he will make a statement on the matter. [21538/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/581/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Planning Issues",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1702. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage when he will publish the list of the new planning regulations that are coming into effect this year; and if he will make a statement on the matter. [24907/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1702/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Natural Heritage Areas",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "150. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he would consider purchasing the land at Lugnaquilla, County Wicklow on behalf of the residents of County Wicklow, noting the importance of this land; and if he will make a statement on the matter. [31063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/150/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Water Conservation",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1755. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage whether he will examine measures to increase the harvesting and storage of rainwater, given growing concerns about water shortages during periods of prolonged high temperatures; whether consideration has been given to a national strategy for rainwater harvesting and water storage infrastructure, recognising that Ireland receives significant rainfall throughout much of the year; and if he will make a statement on the matter. [57783/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1755/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1756. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the amount of funding allocated by his Department to Wicklow County Council in each of the last five years; if he will provide a breakdown of this funding on a year-by-year basis, detailing the schemes, programmes and initiatives under which the funding was provided, in tabular form; and if he will make a statement on the matter. [57786/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1756/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1757. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he will engage with Wicklow County Council regarding the housing adaptation grant for older people and the reported decision to cease accepting new applications; the reasons for this decision; whether additional funding will be provided to allow the scheme to reopen to new applicants; the number of applications currently awaiting assessment or approval in County Wicklow; and if he will make a statement on the matter. [57787/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1757/"
                       }
                     ]
                   }
@@ -1396,122 +1947,6 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Heritage Sites",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "815. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the reason the National Monuments Service has not carried out an official inspection following notification in August 2025 of the possible discovery of a rare Souterrain in Courtown Woods, north County Wexford; when such an inspection will take place; and if he will make a statement on the matter. [12597/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/815/"
-                      },
-                      {
-                        "name": "816. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the interim measures that are in place to protect the site of the possible rare Souterrain in Courtown Woods, north County Wexford, pending an official inspection by the National Monuments Service; and if he will make a statement on the matter. [12598/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/816/"
-                      },
-                      {
-                        "name": "817. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage whether the National Monuments Service has engaged with the local heritage group in Courtown Woods, north County Wexford, following notification in August 2025 of the possible discovery of a rare Souterrain; and if he will make a statement on the matter. [12599/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/817/"
-                      },
-                      {
-                        "name": "818. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage whether staffing or resource constraints within the National Monuments Service contributed to the delay in carrying out an inspection of the possible rare Souterrain reported in August 2025 in Courtown Woods, north County Wexford; and if he will make a statement on the matter. [12600/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/818/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "426. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the reason a pensioner (details supplied) has not received essential repair works to their home; if he will prioritise these emergency works; and if he will make a statement on the matter. [5336/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/426/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Parks",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "581. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the status of proposals to develop a national park at the Blackstairs Mountains on the Wexford/Carlow border; and if he will make a statement on the matter. [21538/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/581/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Planning Issues",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1702. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage when he will publish the list of the new planning regulations that are coming into effect this year; and if he will make a statement on the matter. [24907/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1702/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Fire Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "716. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he will consider proposing the extension of the mandatory retirement age for firefighters from 62 years-of-age to the State pension age of 66, in view of the enactment of the Employment (Restriction on Certain Mandatory Retirement Ages) Act 2025, which recognises that employees should not be required to retire before the State pension age where they are fit, capable and willing to continue working; if he accepts that the continued use of age as a proxy for occupational risk in the fire service is unnecessary, given that firefighters are already subject to robust and objective annual medical assessments, fitness testing and competency evaluations; and if he will make a statement on the matter. [30362/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/716/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Natural Heritage Areas",
-                "children": [
-                  {
-                    "name": "Wednesday, 29 April",
-                    "date_iso": "2026-04-29",
-                    "children": [
-                      {
-                        "name": "150. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he would consider purchasing the land at Lugnaquilla, County Wicklow on behalf of the residents of County Wicklow, noting the importance of this land; and if he will make a statement on the matter. [31063/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/150/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Children",
             "children": [
               {
@@ -1593,6 +2028,38 @@
                         "name": "614. Deputy Fionntán Ó Súilleabháin asked the Minister for Children, Disability and Equality in light of reports that more than 50 childcare providers have exited the core funding scheme in the past two years, to outline the analysis her Department has undertaken into the reasons for these withdrawals; whether rising operating costs are being fully met under current funding arrangements; the immediate measures that are being considered to prevent further providers from leaving the scheme; and if she will make a statement on the matter. [47320/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/614/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assisted Decision-Making",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2715. Deputy Fionntán Ó Súilleabháin asked the Minister for Children, Disability and Equality the current processing times for enduring power of attorney, EPA; and if she will make a statement on the matter. [57794/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2715/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Nursing Homes",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2947. Deputy Fionntán Ó Súilleabháin asked the Minister for Children, Disability and Equality the actions she is taking to address the situation whereby 1,209 people under the age of 65 are currently living in nursing homes due to a lack of appropriate community-based support options, including 169 people under the age of 50; her plans to provide suitable alternative accommodation and supports to enable these individuals to live independently within their communities; and if she will make a statement on the matter. [57814/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2947/"
                       }
                     ]
                   }
@@ -1766,59 +2233,6 @@
             ]
           },
           {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Immigration Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "690. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he is prepared to follow the example of countries such as Sweden, and publish anonymised annual statistics on the nationality and immigration status of persons convicted of sexual-related offences in Ireland, in the interests of transparency, objectivity and better-informed policy discussions; and if he will make a statement on the matter. [21640/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/690/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "287. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the reason there has been a significant delay in delivering the recommendations in the Garda Vetting Review in 2021; when these recommendations will be implemented; and if he will make a statement on the matter. [27406/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/287/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Asylum Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1362. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the number of asylum applications made at the immigration office in Dublin city centre compared with those at the airports and seaports in each of the past five years, in tabular form; and if he will make a statement on the matter. [42541/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1362/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Climate",
             "children": [
               {
@@ -1848,6 +2262,75 @@
                         "name": "94. Deputy Fionntán Ó Súilleabháin asked the Minister for Climate, Energy and the Environment if his attention has been drawn to the official website (details supplied) of the national litter pollution monitoring system that is no longer operational and that the domain is currently offered for sale by a third party, given that his Department's published material refers to the public; when his Department became aware of this; who was responsible for maintaining the domain; the reason it was allowed to lapse; the public data, reports, photographs or guidance that were lost; the steps being taken to restore public access to this data source which provides \"vital\" information to the Department; and if he will make a statement on the matter. [50062/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/94/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Centres",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "215. Deputy Fionntán Ó Súilleabháin asked the Minister for Climate, Energy and the Environment the policy surrounding e-waste, particularly around data centres; the way in which the tracking from cradle to grave is documented; and if he will make a statement on the matter. [57793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/215/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Ministerial Communications",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "440. Deputy Fionntán Ó Súilleabháin asked the Minister for Agriculture, Food and the Marine to provide an update on a matter (details supplied); and if he will make a statement on the matter. [17920/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/440/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "619. Deputy Fionntán Ó Súilleabháin asked the Minister for Agriculture, Food and the Marine if he will provide a guarantee that no potential reduction in tillage environmental payment will occur (details supplied); and if he will make a statement on the matter. [53403/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/619/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Animal Welfare",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2616. Deputy Fionntán Ó Súilleabháin asked the Minister for Agriculture, Food and the Marine if he will establish an independent investigation into the enforcement operation that saw a large number of cattle euthanised, with a view to determining whether departmental procedures were followed; whether every reasonable option was considered before the decision was made to destroy the animals; whether the operation was conducted in an appropriate and proportionate manner; if shortcomings or mistakes were identified, if he will ensure that they are acknowledged and addressed; and if he will make a statement on the matter. [57791/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2616/"
                       }
                     ]
                   }
@@ -1893,35 +2376,35 @@
             ]
           },
           {
-            "name": "Agriculture",
+            "name": "Social",
             "children": [
               {
-                "name": "Ministerial Communications",
+                "name": "Social Welfare Eligibility",
                 "children": [
                   {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
                     "children": [
                       {
-                        "name": "440. Deputy Fionntán Ó Súilleabháin asked the Minister for Agriculture, Food and the Marine to provide an update on a matter (details supplied); and if he will make a statement on the matter. [17920/26]",
+                        "name": "679. Deputy Fionntán Ó Súilleabháin asked the Minister for Social Protection the reason a person (details supplied) has been refused any form of financial disability aid or other financial supports; and if he will make a statement on the matter. [5454/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/440/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/679/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Agriculture Schemes",
+                "name": "Departmental Policies",
                 "children": [
                   {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "619. Deputy Fionntán Ó Súilleabháin asked the Minister for Agriculture, Food and the Marine if he will provide a guarantee that no potential reduction in tillage environmental payment will occur (details supplied); and if he will make a statement on the matter. [53403/26]",
+                        "name": "1936. Deputy Fionntán Ó Súilleabháin asked the Minister for Social Protection if consideration will be given to introducing a dedicated re-training and education support scheme for people who have spent significant periods outside the workforce undertaking unpaid caring and homemaking duties and who now wish to return to employment but face financial barriers to accessing education and training; and if he will make a statement on the matter. [57798/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/619/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1936/"
                       }
                     ]
                   }
@@ -2070,27 +2553,6 @@
                         "name": "954. Deputy Fionntán Ó Súilleabháin asked the Minister for Rural and Community Development and the Gaeltacht if a matter will be examined and addressed (details supplied); and if he will make a statement on the matter. [49530/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/954/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "679. Deputy Fionntán Ó Súilleabháin asked the Minister for Social Protection the reason a person (details supplied) has been refused any form of financial disability aid or other financial supports; and if he will make a statement on the matter. [5454/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/679/"
                       }
                     ]
                   }
@@ -3318,6 +3780,15 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 215,
+          "department": "Climate",
+          "heading": "Data Centres",
+          "question": "215. Deputy Fionntán Ó Súilleabháin asked the Minister for Climate, Energy and the Environment the policy surrounding e-waste, particularly around data centres; the way in which the tracking from cradle to grave is documented; and if he will make a statement on the matter. [57793/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/215/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 539,
           "department": "Transport",
           "heading": "National Transport Authority",
@@ -3359,6 +3830,339 @@
           "heading": "School Transport",
           "question": "1104. Deputy Fionntán Ó Súilleabháin asked the Minister for Education and Youth if she will engage with Bus Éireann regarding the length of time being taken to respond to correspondence from Oireachtas members and constituency offices on school transport matters; whether she is concerned about the delays and non-responses being experienced by families and their public representatives; the measures being taken to improve communication and response times; and if she will make a statement on the matter. [57789/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1104/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1343,
+          "department": "Education",
+          "heading": "School Curriculum",
+          "question": "1343. Deputy Fionntán Ó Súilleabháin asked the Minister for Education and Youth if a schools folklore collection could be re-instated for school children, of primary age, similar to the 1937 and 1939 scheme which stands as one of the largest grassroots oral history projects ever undertaken anywhere and built almost entirely by children simply listening to their elders; and if she will make a statement on the matter. [57811/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1343/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1755,
+          "department": "Housing",
+          "heading": "Water Conservation",
+          "question": "1755. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage whether he will examine measures to increase the harvesting and storage of rainwater, given growing concerns about water shortages during periods of prolonged high temperatures; whether consideration has been given to a national strategy for rainwater harvesting and water storage infrastructure, recognising that Ireland receives significant rainfall throughout much of the year; and if he will make a statement on the matter. [57783/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1755/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1756,
+          "department": "Housing",
+          "heading": "Departmental Funding",
+          "question": "1756. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the amount of funding allocated by his Department to Wicklow County Council in each of the last five years; if he will provide a breakdown of this funding on a year-by-year basis, detailing the schemes, programmes and initiatives under which the funding was provided, in tabular form; and if he will make a statement on the matter. [57786/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1756/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1757,
+          "department": "Housing",
+          "heading": "Disability Services",
+          "question": "1757. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he will engage with Wicklow County Council regarding the housing adaptation grant for older people and the reported decision to cease accepting new applications; the reasons for this decision; whether additional funding will be provided to allow the scheme to reopen to new applicants; the number of applications currently awaiting assessment or approval in County Wicklow; and if he will make a statement on the matter. [57787/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1757/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1759,
+          "department": "Housing",
+          "heading": "Local Authorities",
+          "question": "1759. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the amount spent by each of the local authorities on consultants in the past five years; and if he will provide a breakdown by county. [57795/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1759/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1760,
+          "department": "Housing",
+          "heading": "Local Authorities",
+          "question": "1760. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the number of residential estates in Wicklow and Wexford where residents have applied to be taken in charge, but have not yet been approved; if he will provide a breakdown, for Wicklow and Wexford and list the timeframe residents have been waiting; and if he will make a statement on the matter. [57800/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1760/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1761,
+          "department": "Housing",
+          "heading": "Fire Service",
+          "question": "1761. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage the training that is being made available to firefighters, in the event of a fire at a solar farm; if funding for future training is being made available to each of the fire stations in the country; and if he will make a statement on the matter. [57809/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1761/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1818,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1818. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage in the interest of transparency, objectivity, better-informed policy discussions, and having an evidence-based democracy, if he would accept that the vacuum of information in relation to the nationalities of those on the housing list is contributing to misinformation online around the subject; and if he will make a statement on the matter. [58434/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1818/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1819,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1819. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he would be prepared to request that local authorities record anonymised annual statistics on the nationality of those on their housing and HAP lists in Ireland, that elected reps can access, in terms of numbers of Irish citizens, EU citizens and non-EU citizens; and if he will make a statement on the matter. [58435/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1819/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1820,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1820. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if he would be prepared to publish anonymised annual statistics on the nationality of those on the housing and HAP lists in Ireland, that elected reps can access, in terms of numbers of Irish citizens, EU citizens and non-EU citizens; and if he will make a statement on the matter. [58436/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1820/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1821,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1821. Deputy Fionntán Ó Súilleabháin asked the Minister for Housing, Local Government and Heritage if Ireland's habitual residency rule, that allows access to state Housing supports, HAP and other public services after 52 weeks residency, makes us an outlier in the EU; if Ireland has considered increasing the timescale beyond one year; and if he will make a statement on the matter. [58437/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1821/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1936,
+          "department": "Social",
+          "heading": "Departmental Policies",
+          "question": "1936. Deputy Fionntán Ó Súilleabháin asked the Minister for Social Protection if consideration will be given to introducing a dedicated re-training and education support scheme for people who have spent significant periods outside the workforce undertaking unpaid caring and homemaking duties and who now wish to return to employment but face financial barriers to accessing education and training; and if he will make a statement on the matter. [57798/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1936/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2124,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2124. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the Government will revisit its Migrant Integration Strategy 2017-2020; to commission the Irish naturalisation and immigration service to carry out a piece of research to include a review of civics and language testing; to include a mapping exercise on international activity and best practice; and if he will make a statement on the matter. [58427/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2124/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2125,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2125. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the reason Ireland is the only European Union member state that does not require applicants for naturalised citizenship to demonstrate language proficiency or undergo a civics examination before becoming citizens; if he will consider such proposals; and if he will make a statement on the matter. [58428/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2125/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2126,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2126. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration to examine the insertion of a definition of \"good character\" in terms of Ireland's naturalisation process, which relies on residency requirements and an assessment of \"good character\"; and if he will make a statement on the matter. [58429/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2126/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2335,
+          "department": "Justice",
+          "heading": "EU Agreements",
+          "question": "2335. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the initial projected implementation cost of the EU Migration Pact between 2026 and 2030; and if he will make a statement on the matter. [57796/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2335/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2336,
+          "department": "Justice",
+          "heading": "Public Sector Staff",
+          "question": "2336. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the number of additional staff recruited to implement the EU Migration pact; and if he will make a statement on the matter. [57797/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2336/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2337,
+          "department": "Justice",
+          "heading": "Citizenship Ceremonies",
+          "question": "2337. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration to provide a breakdown of the cost of each citizenship ceremony that has taken place since 2000; the number of new citizens sworn in at each ceremony; and if he will make a statement on the matter. [57801/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2337/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2338,
+          "department": "Justice",
+          "heading": "Citizenship Ceremonies",
+          "question": "2338. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he will confirm that a singer has been available to sing \"Amhrán na bhFiann\" at each citizenship ceremony; if not, the reason; and if he will make a statement on the matter. [57802/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2338/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2387,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2387. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration his views on whether, if Ireland wants a sustainable immigration system that retains public confidence, policymakers must be prepared to have an honest conversation about immigration, integration, and citizenship; and if he will make a statement on the matter. [58345/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2387/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2388,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2388. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the recent revelation that a person (details supplied) convicted over the 2023 Parnell Square stabbing attack, had been granted Irish citizenship despite reportedly not speaking English or Irish and having no work history in Ireland after 25 years, should prompt a wider national debate about immigration, integration and the criteria for Irish citizenship; and if he will make a statement on the matter. [58347/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2388/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2389,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2389. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration his views on whether Ireland is an outlier in the EU in terms of the absence of a language requirement for people seeking naturalised Irish citizenship; and if he will make a statement on the matter. [58350/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2389/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2390,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2390. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the Government will introduce language and civics tests for people seeking naturalised Irish citizenship; and if he will make a statement on the matter. [58352/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2390/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2391,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2391. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if the Government will revisit its Migrant Integration Strategy 2017-2020, and commission the Irish Naturalisation and Immigration Service (INIS) to carry out a piece of research to include a review of civics and language testing, and a mapping exercise on international activity and best practice; and if he will make a statement on the matter. [58353/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2391/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2395,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2395. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the reason Ireland is the only European Union member state that does not require applicants for naturalised citizenship to demonstrate language proficiency or undergo a civics examination before becoming citizens; if he will consider such proposals; and if he will make a statement on the matter. [58430/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2395/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2396,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2396. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if his Department will consider placing more emphasis on expectations such as working, contributing to society, learning the language and integrating into Irish life at citizenship ceremonies; and if he will make a statement on the matter. [58431/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2396/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2397,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2397. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration to examine the insertion of a definition of \"good character\" in terms of Ireland's naturalisation process, which relies on residency requirements and an assessment of \"good character\" [58432/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2397/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2439,
+          "department": "Justice",
+          "heading": "Media Sector",
+          "question": "2439. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the extent to which section 26 of the International Protection Act 2015 impacts the reporting of criminal proceedings by the media; if his Department has issued, or intends to issue, updated guidance to media organisations to clarify the distinction between protecting an applicant's identity and reporting on public court proceedings; and if he will make a statement on the matter. [59081/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2439/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2440,
+          "department": "Justice",
+          "heading": "Media Sector",
+          "question": "2440. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that Ireland is an outlier in the EU in terms of being the only EU country that has a criminal law which specifically prohibits naming asylum seekers who commit crimes; if he has plans to address this anomaly; and if he will make a statement on the matter. [59082/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2440/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2441,
+          "department": "Justice",
+          "heading": "Immigration Policy",
+          "question": "2441. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that the Government's assertion that there is 'no evidence to link increased migration with an increase in crime' is contradicted by data and statistics from across the EU; and if he will make a statement on the matter. [59084/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2441/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2442,
+          "department": "Justice",
+          "heading": "Media Sector",
+          "question": "2442. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration the extent to which section 26 of the International Protection Act 2015 impacts the reporting of criminal proceedings by the media; if his Department has issued, or intends to issue, updated guidance to media organisations. [59187/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2442/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2443,
+          "department": "Justice",
+          "heading": "Media Sector",
+          "question": "2443. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that Ireland is an outlier in the EU in terms of being the only EU country that has a criminal law which specifically prohibits naming asylum seekers who commit crimes; if he plans to address this anomaly; and if he will make a statement on the matter. [59188/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2443/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2444,
+          "department": "Justice",
+          "heading": "Immigration Policy",
+          "question": "2444. Deputy Fionntán Ó Súilleabháin asked the Minister for Justice, Home Affairs and Migration if he accepts that the Governments assertion that there is 'no evidence to link increased migration with an increase in crime' is contradicted by data and statistics from across the EU; and if he will make a statement on the matter. [59190/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2444/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2616,
+          "department": "Agriculture",
+          "heading": "Animal Welfare",
+          "question": "2616. Deputy Fionntán Ó Súilleabháin asked the Minister for Agriculture, Food and the Marine if he will establish an independent investigation into the enforcement operation that saw a large number of cattle euthanised, with a view to determining whether departmental procedures were followed; whether every reasonable option was considered before the decision was made to destroy the animals; whether the operation was conducted in an appropriate and proportionate manner; if shortcomings or mistakes were identified, if he will ensure that they are acknowledged and addressed; and if he will make a statement on the matter. [57791/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2616/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2715,
+          "department": "Children",
+          "heading": "Assisted Decision-Making",
+          "question": "2715. Deputy Fionntán Ó Súilleabháin asked the Minister for Children, Disability and Equality the current processing times for enduring power of attorney, EPA; and if she will make a statement on the matter. [57794/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2715/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2947,
+          "department": "Children",
+          "heading": "Nursing Homes",
+          "question": "2947. Deputy Fionntán Ó Súilleabháin asked the Minister for Children, Disability and Equality the actions she is taking to address the situation whereby 1,209 people under the age of 65 are currently living in nursing homes due to a lack of appropriate community-based support options, including 169 people under the age of 50; her plans to provide suitable alternative accommodation and supports to enable these individuals to live independently within their communities; and if she will make a statement on the matter. [57814/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2947/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3799,
+          "department": "Health",
+          "heading": "Assisted Human Reproduction",
+          "question": "3799. Deputy Fionntán Ó Súilleabháin asked the Minister for Health if she will consider extending the current state funded IVF scheme to allow who had previous IVF Treatment to be admitted to the scheme; and if she will make a statement on the matter. [57810/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3799/",
           "questionType": "written"
         }
       ]

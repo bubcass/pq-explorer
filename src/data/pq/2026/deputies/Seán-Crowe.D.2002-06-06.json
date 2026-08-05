@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Crowe.D.2002-06-06/image/large",
   "types": {
     "all": {
-      "count": 93,
+      "count": 117,
       "headingOptions": [
         "An Garda Síochána",
         "Bus Services",
@@ -21,12 +21,17 @@
         "Departmental Data",
         "Departmental Expenditure",
         "Departmental Policies",
+        "Departmental Reports",
+        "Departmental Reviews",
+        "Departmental Schemes",
         "Disability Services",
         "Driver Licences",
         "Driver Test",
         "Employment Rights",
         "Energy Policy",
         "Environmental Schemes",
+        "EU Presidency",
+        "Fire Service",
         "Flood Relief Schemes",
         "Foreign Conflicts",
         "Grant Payments",
@@ -35,6 +40,7 @@
         "Health Services Waiting Lists",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
+        "Home Care Packages",
         "Human Rights",
         "Humanitarian Aid",
         "International Protection",
@@ -43,9 +49,11 @@
         "Medicinal Products",
         "Mental Health Services",
         "National Transport Authority",
+        "Naturalisation Applications",
         "Naval Service",
         "Office of Public Works",
         "Passport Services",
+        "Peace Commissioners",
         "Public Transport",
         "Rental Sector",
         "Residency Permits",
@@ -65,12 +73,61 @@
       "insights": {
         "topHeading": "Data Protection",
         "topHeadingCount": 10,
-        "topDepartment": "Transport",
-        "topDepartmentCount": 20
+        "topDepartment": "Health",
+        "topDepartmentCount": 22
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Health",
+            "children": [
+              {
+                "name": "Health Services Waiting Lists",
+                "value": 6
+              },
+              {
+                "name": "Healthcare Infrastructure Provision",
+                "value": 3
+              },
+              {
+                "name": "Healthcare Policy",
+                "value": 2
+              },
+              {
+                "name": "Mental Health Services",
+                "value": 2
+              },
+              {
+                "name": "Health Services",
+                "value": 2
+              },
+              {
+                "name": "Health Services Staff",
+                "value": 2
+              },
+              {
+                "name": "Data Protection",
+                "value": 1
+              },
+              {
+                "name": "Medicinal Products",
+                "value": 1
+              },
+              {
+                "name": "Departmental Contracts",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Home Care Packages",
+                "value": 1
+              }
+            ]
+          },
           {
             "name": "Transport",
             "children": [
@@ -108,6 +165,72 @@
               },
               {
                 "name": "Road Safety Authority",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Departmental Data",
+                "value": 4
+              },
+              {
+                "name": "Health Services Staff",
+                "value": 3
+              },
+              {
+                "name": "Disability Services",
+                "value": 3
+              },
+              {
+                "name": "Data Protection",
+                "value": 1
+              },
+              {
+                "name": "Health Services",
+                "value": 1
+              },
+              {
+                "name": "Childcare Services",
+                "value": 1
+              },
+              {
+                "name": "Special Educational Needs",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 7
+              },
+              {
+                "name": "Naval Service",
+                "value": 1
+              },
+              {
+                "name": "United Nations",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Commemorative Events",
+                "value": 1
+              },
+              {
+                "name": "Departmental Reports",
                 "value": 1
               }
             ]
@@ -154,99 +277,12 @@
             ]
           },
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 7
-              },
-              {
-                "name": "Naval Service",
-                "value": 1
-              },
-              {
-                "name": "United Nations",
-                "value": 1
-              },
-              {
-                "name": "Legislative Measures",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Commemorative Events",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Health",
-            "children": [
-              {
-                "name": "Healthcare Policy",
-                "value": 2
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "value": 2
-              },
-              {
-                "name": "Health Services",
-                "value": 2
-              },
-              {
-                "name": "Data Protection",
-                "value": 1
-              },
-              {
-                "name": "Health Services Waiting Lists",
-                "value": 1
-              },
-              {
-                "name": "Mental Health Services",
-                "value": 1
-              },
-              {
-                "name": "Medicinal Products",
-                "value": 1
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Health Services Staff",
-                "value": 3
-              },
-              {
-                "name": "Disability Services",
-                "value": 3
-              },
-              {
-                "name": "Data Protection",
-                "value": 1
-              },
-              {
-                "name": "Health Services",
-                "value": 1
-              },
-              {
-                "name": "Childcare Services",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
+              {
+                "name": "International Protection",
+                "value": 2
+              },
               {
                 "name": "Data Protection",
                 "value": 1
@@ -268,7 +304,15 @@
                 "value": 1
               },
               {
-                "name": "International Protection",
+                "name": "Peace Commissioners",
+                "value": 1
+              },
+              {
+                "name": "Naturalisation Applications",
+                "value": 1
+              },
+              {
+                "name": "EU Presidency",
                 "value": 1
               }
             ]
@@ -290,6 +334,27 @@
               },
               {
                 "name": "Foreign Conflicts",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Data Protection",
+                "value": 1
+              },
+              {
+                "name": "Rental Sector",
+                "value": 1
+              },
+              {
+                "name": "Fire Service",
+                "value": 1
+              },
+              {
+                "name": "Departmental Reviews",
                 "value": 1
               }
             ]
@@ -325,18 +390,9 @@
               {
                 "name": "Environmental Schemes",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Data Protection",
-                "value": 1
               },
               {
-                "name": "Rental Sector",
+                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -408,6 +464,272 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Health",
+            "children": [
+              {
+                "name": "Health Services Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3072. Deputy Seán Crowe asked the Minister for Health the number of children currently awaiting occupational therapy in CHO7; and the number of those waiting longer than 12 months. [57054/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3072/"
+                      },
+                      {
+                        "name": "3073. Deputy Seán Crowe asked the Minister for Health the number of children currently awaiting speech and language therapy in CHO7; and the number of those waiting longer than 12 months. [57055/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3073/"
+                      },
+                      {
+                        "name": "3614. Deputy Seán Crowe asked the Minister for Health the number of children on a waiting list for orthodontic treatment in the CHO7 area; the average waiting time; and the number of those waiting more than 12 months, in tabular form. [57063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3614/"
+                      },
+                      {
+                        "name": "3620. Deputy Seán Crowe asked the Minister for Health the number of people currently on the waiting list for the Centre for Obesity Management; and the average waiting time to access services once a referral has been made. [57069/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3620/"
+                      },
+                      {
+                        "name": "3621. Deputy Seán Crowe asked the Minister for Health the average waiting time for a lower limb prosthesis in the public hospital system. [57070/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3621/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "1053. Deputy Seán Crowe asked the Minister for Health the number of children on a waiting list for orthodontic treatment in the CHO7 area; the average waiting time; and the number of those waiting more than 12 months, in tabular form. [6105/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1053/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Healthcare Infrastructure Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1847. Deputy Seán Crowe asked the Minister for Health the number of WTEs in children’s respite services in the CHO7 area each year for the past five years, in tabular form. [41732/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1847/"
+                      },
+                      {
+                        "name": "1848. Deputy Seán Crowe asked the Minister for Health the number of properties that are in use for the provision of children’s respite services in the CHO7 area each year for the past five years, in tabular form. [41733/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1848/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3617. Deputy Seán Crowe asked the Minister for Health the status of Kelvin Grove, Carlow; the plans in place for its use; and the date by which it will be brought back into use. [57066/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3617/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Healthcare Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "950. Deputy Seán Crowe asked the Minister for Health her plans to expand the list of accepted providers under the ESAIS to include centres in Greece and Romania. [3892/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/950/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2143. Deputy Seán Crowe asked the Minister for Health if the HSE will continue their harm reduction programme of on-site drug analysis and surrender bins at music festivals in 2026. [42959/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2143/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mental Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "859. Deputy Seán Crowe asked the Minister for Health the number of CAMHS WTE vacancies in CHO7; the length of time these roles have been vacant for; the number of patients waiting for an appointment in the area; if she will report on the recruitment campaign to fill these vacant posts; and if she will make a statement on the matter. [16629/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/859/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3618. Deputy Seán Crowe asked the Minister for Health the number of posts in perinatal mental health services per CHO area; and the number of posts filled and the number of vacancies, in tabular form. [57067/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3618/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "1001. Deputy Seán Crowe asked the Minister for Health the number of mobile and temporary blood donation clinics that have been held each year for the past five years and to the end of May 2026, in tabular form. [45781/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/1001/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "914. Deputy Seán Crowe asked the Minister for Health to report on the inability to print European Health Insurance Cards; the date by which printing will be resumed; and if she will make a statement on the matter. [49621/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/914/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3615. Deputy Seán Crowe asked the Minister for Health the number of filled and vacant dietitian WTEs in the CHO7 area, in tabular form. [57064/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3615/"
+                      },
+                      {
+                        "name": "3616. Deputy Seán Crowe asked the Minister for Health the number of public health nurse posts per CHO; and the number of posts filled and the number of vacancies, in tabular form. [57065/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3616/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2275. Deputy Seán Crowe asked the Minister for Health the number of data breaches recorded by her Department in 2025; and the number that were reported to the Data Protection Commissioner. [74898/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2275/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medicinal Products",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1939. Deputy Seán Crowe asked the Minister for Health if a pricing and reimbursement application has been received by the HSE for zolbetuximab (Vyloy®); if the national assessment and decision process has begun; and if she will make a statement on the matter. [19668/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1939/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1849. Deputy Seán Crowe asked the Minister for Health to report on the sale of a property (details supplied) which is being sold despite its former use and suitability for children’s respite services. [41734/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1849/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3613. Deputy Seán Crowe asked the Minister for Health the number of public health nurse posts per CHO; and the number of posts filled and the number of vacancies, in tabular form. [57062/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3613/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Home Care Packages",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3619. Deputy Seán Crowe asked the Minister for Health the number of older persons on a waiting list for home care packages in the CHO7 area; and the number of those who have been waiting more than six months. [57068/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3619/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Transport",
             "children": [
@@ -655,6 +977,353 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2865. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of children waiting to access speech and language therapy in the CHO7 area, by CDNT; the number of those waiting more than one year; the number waiting more than four years; and the average waiting time to access those therapies, in tabular form; and if she will make a statement on the matter. [57049/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2865/"
+                      },
+                      {
+                        "name": "2866. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on children's speech and language therapy services in CDNT 2 Ballyboden of CHO7; if services have been resumed; and if she will make a statement on the matter. [57050/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2866/"
+                      },
+                      {
+                        "name": "2868. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the average waiting time for an occupational therapist to make an assessment for a housing adaptation in the CHO7 area. [57052/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2868/"
+                      },
+                      {
+                        "name": "2869. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of individuals who have left State care provided by Tusla upon reaching 18 years-of-age in each of the past five years; the number who have entered homelessness upon leaving care each year for the past five years, in tabular form; and the number who were unable to be allocated an aftercare plan by Tusla each year for the past five years, in tabular form. [57053/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2869/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 28 January",
+                    "date_iso": "2026-01-28",
+                    "children": [
+                      {
+                        "name": "176. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of WTEs assigned to CDNT8, Chamber House in CHO7 each year since the formation of the team; and the number of those posts that were filled each year, in tabular form. [6768/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/176/"
+                      },
+                      {
+                        "name": "178. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of WTEs assigned to CDNT8 Chamber House in CHO7 each year since the formation of the team; and the number of those posts that were filled each year, in tabular form. [6781/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/178/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "160. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the current number of WTEs; and the current number of WTEs vacant in the CDNTs of CHO7, in tabular form. [46213/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/160/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "507. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of funded full-time residential places for disability services in the CHO7; the number of individuals listed on the disability supports application management tool database in CHO7 who are in need of such a placement; the number of those waiting more than a year; more than two years; and more than three years, in tabular form. [11216/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/507/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1549. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of respite beds available for children in the CHO7 area each year for the past five years; and the number of children currently on a waiting list for a respite place in CHO7, in tabular form. [41731/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1549/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 17 June",
+                    "date_iso": "2026-06-17",
+                    "children": [
+                      {
+                        "name": "161. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on the lack of speech and language therapy available for children in CDNT2 Ballyboden of CHO7; the date by which services will be resumed; and if she will make a statement on the matter. [46214/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/161/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1940. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of data breaches recorded by her Department in 2025; and the number that were reported to the Data Protection Commissioner. [74889/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1940/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "654. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on a case of a person (details supplied) who is unable to gain access to scheduled respite care; and the date by which they will be provided with scheduled respite care. [51228/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/654/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "370. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on an instruction by Tusla to an ASD childcare provider (details supplied) that services may not be provided to any child over five years and 11 months; her views that such an instruction removes an invaluable service to many families; and if she will make a statement on the matter. [52548/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/370/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2867. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of children awaiting an assessment of needs in the CHO7 area; the number of children waiting longer than 12 months; and the number of children waiting longer than 24 months. [57051/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2867/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "190. Deputy Seán Crowe asked the Minister for Defence to report on the Defence Forces capacity to provide an anti-drone umbrella; to confirm if that capacity is limited to Casement Aerodrome; the measures that will be put in place to expand that capacity; and if she will make a statement on the matter. [11579/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/190/"
+                      },
+                      {
+                        "name": "199. Deputy Seán Crowe asked the Minister for Defence the timeframe for the recommendation on the replacement for the Irish Army’s LTAV fleet; the date by which she expects to give permission to purchase replacement vehicles; to report on the manner in which the existing LTAV stock will be disposed of; and if she will make a statement on the matter. [11578/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/199/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "314. Deputy Seán Crowe asked the Minister for Defence to report on the sale of a carriers (details supplied), the personnel carriers from the Civil Defence vehicle fleet; and the replacement vehicles that are being secured to ensure that there is not a loss of capability in Civil Defence transport needs. [29560/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/314/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "96. Deputy Seán Crowe asked the Minister for Defence the number of personnel who have joined the three branches of the Defence Forces in 2026; the number who have been discharged, retired, or otherwise left service; her views on recruitment in 2025 and 2026; her plans to increase or incentivise recruitment in 2026 and 2027; and if she will make a statement on the matter. [33213/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/96/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "179. Deputy Seán Crowe asked the Minister for Defence to give an update on the armour modernisation programme; if vehicles have been identified for purchase; the most recent estimated cost of the modernisation effort; and the date by which the vehicles will be delivered to the Defence Forces. [43593/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/179/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "154. Deputy Seán Crowe asked the Minister for Defence the number of leaseholds her Department holds for company headquarters for the Reserve Defence Forces; the number surrendered to local authorities since 1 January 2016; and if her Department requested that any surrendered sites were reserved for potential future use by the Defence Forces. [49030/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/154/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "161. Deputy Seán Crowe asked the Minister for Defence to report on any anti-drone technology that has been acquired by the Defence Forces for use during the EU Presidency; if training on the system has been completed; if it is operational; and if she will make a statement on the matter. [53953/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/161/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naval Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "142. Deputy Seán Crowe asked the Minister for Defence if she will report on the damage sustained by LÉ Aoibhinn as a result of Storm Chandra and all necessary repairs that will need to be carried out; the operational status of LÉ Gobnait and her readiness to go to sea should the damage to LÉ Aoibhinn have been more severe; the status of the proposed forward operating base, FOB, on the east coast and the current suitability of Carlisle Pier in light of the damage sustained at the berth there; the criteria by which Dún Laoghaire harbour was selected to berth LÉ Aoibhinn; and if she will make a statement on the matter. [12540/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/142/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "United Nations",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "125. Deputy Seán Crowe asked the Minister for Defence if she will report on any discussions had with the UN regarding any missions that Irish peacekeepers may take part in following the cessation of the UNIFIL mission; if discussions have been had regarding Irish peacekeepers remaining in Lebanon after 2026 to support the Lebanese armed forces; and if she will make a statement on the matter. [33212/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/125/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "141. Deputy Seán Crowe asked the Minister for Defence the date by which she will publish the Defence (Amendment) Bill 2026; the Oireachtas Committee before which it will be discussed at Committee Stage; and if her Department intends to request that pre-legislative scrutiny be waived. [43592/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/141/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "267. Deputy Seán Crowe asked the Minister for Defence to report on the emergency preparedness campaign; his plans to deliver a booklet to every household in the State; the cost of the campaign as of the end of May 2026; and if she will make a statement on the matter. [45483/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/267/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Commemorative Events",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "164. Deputy Seán Crowe asked the Minister for Defence if there are plans for a public commemoration ceremony to mark the end of the UNIFIL mission given its pre-eminence in terms of Irish involvement with UN peacekeeping due to the number of personnel who have served in Lebanon since Ireland’s first involvement almost a half century ago; and if she will make a statement on the matter. [53954/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/164/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reports",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "254. Deputy Seán Crowe asked the Minister for Defence to report on the scrapping of the LTAV fleet; the estimated cost of the scrappage process; and if she will make a statement on the matter. [55029/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/254/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Education",
             "children": [
               {
@@ -831,452 +1500,35 @@
             ]
           },
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "190. Deputy Seán Crowe asked the Minister for Defence to report on the Defence Forces capacity to provide an anti-drone umbrella; to confirm if that capacity is limited to Casement Aerodrome; the measures that will be put in place to expand that capacity; and if she will make a statement on the matter. [11579/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/190/"
-                      },
-                      {
-                        "name": "199. Deputy Seán Crowe asked the Minister for Defence the timeframe for the recommendation on the replacement for the Irish Army’s LTAV fleet; the date by which she expects to give permission to purchase replacement vehicles; to report on the manner in which the existing LTAV stock will be disposed of; and if she will make a statement on the matter. [11578/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/199/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "314. Deputy Seán Crowe asked the Minister for Defence to report on the sale of a carriers (details supplied), the personnel carriers from the Civil Defence vehicle fleet; and the replacement vehicles that are being secured to ensure that there is not a loss of capability in Civil Defence transport needs. [29560/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/314/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "96. Deputy Seán Crowe asked the Minister for Defence the number of personnel who have joined the three branches of the Defence Forces in 2026; the number who have been discharged, retired, or otherwise left service; her views on recruitment in 2025 and 2026; her plans to increase or incentivise recruitment in 2026 and 2027; and if she will make a statement on the matter. [33213/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/96/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "179. Deputy Seán Crowe asked the Minister for Defence to give an update on the armour modernisation programme; if vehicles have been identified for purchase; the most recent estimated cost of the modernisation effort; and the date by which the vehicles will be delivered to the Defence Forces. [43593/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/179/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "154. Deputy Seán Crowe asked the Minister for Defence the number of leaseholds her Department holds for company headquarters for the Reserve Defence Forces; the number surrendered to local authorities since 1 January 2016; and if her Department requested that any surrendered sites were reserved for potential future use by the Defence Forces. [49030/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/154/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "161. Deputy Seán Crowe asked the Minister for Defence to report on any anti-drone technology that has been acquired by the Defence Forces for use during the EU Presidency; if training on the system has been completed; if it is operational; and if she will make a statement on the matter. [53953/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/161/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Naval Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "142. Deputy Seán Crowe asked the Minister for Defence if she will report on the damage sustained by LÉ Aoibhinn as a result of Storm Chandra and all necessary repairs that will need to be carried out; the operational status of LÉ Gobnait and her readiness to go to sea should the damage to LÉ Aoibhinn have been more severe; the status of the proposed forward operating base, FOB, on the east coast and the current suitability of Carlisle Pier in light of the damage sustained at the berth there; the criteria by which Dún Laoghaire harbour was selected to berth LÉ Aoibhinn; and if she will make a statement on the matter. [12540/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/142/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "United Nations",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "125. Deputy Seán Crowe asked the Minister for Defence if she will report on any discussions had with the UN regarding any missions that Irish peacekeepers may take part in following the cessation of the UNIFIL mission; if discussions have been had regarding Irish peacekeepers remaining in Lebanon after 2026 to support the Lebanese armed forces; and if she will make a statement on the matter. [33212/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/125/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Measures",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "141. Deputy Seán Crowe asked the Minister for Defence the date by which she will publish the Defence (Amendment) Bill 2026; the Oireachtas Committee before which it will be discussed at Committee Stage; and if her Department intends to request that pre-legislative scrutiny be waived. [43592/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/141/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "267. Deputy Seán Crowe asked the Minister for Defence to report on the emergency preparedness campaign; his plans to deliver a booklet to every household in the State; the cost of the campaign as of the end of May 2026; and if she will make a statement on the matter. [45483/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/267/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Commemorative Events",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "164. Deputy Seán Crowe asked the Minister for Defence if there are plans for a public commemoration ceremony to mark the end of the UNIFIL mission given its pre-eminence in terms of Irish involvement with UN peacekeeping due to the number of personnel who have served in Lebanon since Ireland’s first involvement almost a half century ago; and if she will make a statement on the matter. [53954/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/164/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Health",
-            "children": [
-              {
-                "name": "Healthcare Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "950. Deputy Seán Crowe asked the Minister for Health her plans to expand the list of accepted providers under the ESAIS to include centres in Greece and Romania. [3892/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/950/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2143. Deputy Seán Crowe asked the Minister for Health if the HSE will continue their harm reduction programme of on-site drug analysis and surrender bins at music festivals in 2026. [42959/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2143/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1847. Deputy Seán Crowe asked the Minister for Health the number of WTEs in children’s respite services in the CHO7 area each year for the past five years, in tabular form. [41732/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1847/"
-                      },
-                      {
-                        "name": "1848. Deputy Seán Crowe asked the Minister for Health the number of properties that are in use for the provision of children’s respite services in the CHO7 area each year for the past five years, in tabular form. [41733/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1848/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "1001. Deputy Seán Crowe asked the Minister for Health the number of mobile and temporary blood donation clinics that have been held each year for the past five years and to the end of May 2026, in tabular form. [45781/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/1001/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "914. Deputy Seán Crowe asked the Minister for Health to report on the inability to print European Health Insurance Cards; the date by which printing will be resumed; and if she will make a statement on the matter. [49621/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/914/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Data Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2275. Deputy Seán Crowe asked the Minister for Health the number of data breaches recorded by her Department in 2025; and the number that were reported to the Data Protection Commissioner. [74898/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2275/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services Waiting Lists",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "1053. Deputy Seán Crowe asked the Minister for Health the number of children on a waiting list for orthodontic treatment in the CHO7 area; the average waiting time; and the number of those waiting more than 12 months, in tabular form. [6105/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1053/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Mental Health Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "859. Deputy Seán Crowe asked the Minister for Health the number of CAMHS WTE vacancies in CHO7; the length of time these roles have been vacant for; the number of patients waiting for an appointment in the area; if she will report on the recruitment campaign to fill these vacant posts; and if she will make a statement on the matter. [16629/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/859/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Medicinal Products",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1939. Deputy Seán Crowe asked the Minister for Health if a pricing and reimbursement application has been received by the HSE for zolbetuximab (Vyloy®); if the national assessment and decision process has begun; and if she will make a statement on the matter. [19668/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1939/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1849. Deputy Seán Crowe asked the Minister for Health to report on the sale of a property (details supplied) which is being sold despite its former use and suitability for children’s respite services. [41734/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1849/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Health Services Staff",
-                "children": [
-                  {
-                    "name": "Wednesday, 28 January",
-                    "date_iso": "2026-01-28",
-                    "children": [
-                      {
-                        "name": "176. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of WTEs assigned to CDNT8, Chamber House in CHO7 each year since the formation of the team; and the number of those posts that were filled each year, in tabular form. [6768/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/176/"
-                      },
-                      {
-                        "name": "178. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of WTEs assigned to CDNT8 Chamber House in CHO7 each year since the formation of the team; and the number of those posts that were filled each year, in tabular form. [6781/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/178/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 17 June",
-                    "date_iso": "2026-06-17",
-                    "children": [
-                      {
-                        "name": "160. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the current number of WTEs; and the current number of WTEs vacant in the CDNTs of CHO7, in tabular form. [46213/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/160/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "507. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of funded full-time residential places for disability services in the CHO7; the number of individuals listed on the disability supports application management tool database in CHO7 who are in need of such a placement; the number of those waiting more than a year; more than two years; and more than three years, in tabular form. [11216/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/507/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "1549. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of respite beds available for children in the CHO7 area each year for the past five years; and the number of children currently on a waiting list for a respite place in CHO7, in tabular form. [41731/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1549/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 17 June",
-                    "date_iso": "2026-06-17",
-                    "children": [
-                      {
-                        "name": "161. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on the lack of speech and language therapy available for children in CDNT2 Ballyboden of CHO7; the date by which services will be resumed; and if she will make a statement on the matter. [46214/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/161/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Data Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1940. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of data breaches recorded by her Department in 2025; and the number that were reported to the Data Protection Commissioner. [74889/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1940/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "654. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on a case of a person (details supplied) who is unable to gain access to scheduled respite care; and the date by which they will be provided with scheduled respite care. [51228/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/654/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Childcare Services",
-                "children": [
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "370. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on an instruction by Tusla to an ASD childcare provider (details supplied) that services may not be provided to any child over five years and 11 months; her views that such an instruction removes an invaluable service to many families; and if she will make a statement on the matter. [52548/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/370/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "162. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration to report on the removal and confiscation of private fridges and a prohibition of the storing of food or medication in the rooms at an IPAS centre (details supplied); if he is concerned that this may have a deleterious effect on elderly or very young residents; and if he will make a statement on the matter. [52231/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/162/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2314. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the medical reasons in which an individual would not be transferred from an IPAS centre to an alternative location; and if this would include ongoing cancer treatment. [57572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2314/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Data Protection",
                 "children": [
@@ -1358,16 +1610,48 @@
                 ]
               },
               {
-                "name": "International Protection",
+                "name": "Peace Commissioners",
                 "children": [
                   {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "162. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration to report on the removal and confiscation of private fridges and a prohibition of the storing of food or medication in the rooms at an IPAS centre (details supplied); if he is concerned that this may have a deleterious effect on elderly or very young residents; and if he will make a statement on the matter. [52231/26]",
+                        "name": "2285. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the number of peace commissioners registered on the most recent roll maintained by his Department. [57072/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/162/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2285/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naturalisation Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2286. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the average waiting time for successful naturalisation applications to be processed at present; and the number of applications currently being considered. [57073/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2286/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Presidency",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2287. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the number of garda personnel seconded to duties relating specifically to and for the duration of the EU Presidency. [57074/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2287/"
                       }
                     ]
                   }
@@ -1459,6 +1743,75 @@
                         "name": "164. Deputy Seán Crowe asked the Minister for Foreign Affairs and Trade her views on the current conflict in Lebanon and the increasingly destructive campaign being waged by Israel that has displaced over one million people; if they feel that the UNIFIL mission’s planned ending is premature; and if she will make a statement on the matter. [23139/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/164/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Data Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1410. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage the number of data breaches recorded by his Department in 2025; and the number that were reported to the Data Protection Commissioner. [74899/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1410/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rental Sector",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1442. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage if he is aware of reports that REITs are increasing rental prices for car parking spaces adjoining homes at a rate that far exceeds the rate of allowable increase in property rents in a rent pressure zone and that the RTB has no legislative ability to offer guidance or protection to renters whose spaces are now becoming unaffordable; if he is concerned that REITs are using rent increases on parking spaces as a means of bypassing RPZ limits; and if he has plans to expand protection for renters to include the car parking spaces adjoining their homes. [1363/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1442/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fire Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1722. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage the number of retained firefighters in each local authority area, each year for the past five years, in tabular form. [57075/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1722/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1723. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage if there will be a review of the Sustainable Residential Development and Compact Settlement Guidelines given the difficulty in the rollout of sustainable transport options in some areas and the resulting conflict with the urban proximity criteria. [57076/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1723/"
                       }
                     ]
                   }
@@ -1580,39 +1933,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Data Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1410. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage the number of data breaches recorded by his Department in 2025; and the number that were reported to the Data Protection Commissioner. [74899/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1410/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "Rental Sector",
+                "name": "Departmental Schemes",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "1442. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage if he is aware of reports that REITs are increasing rental prices for car parking spaces adjoining homes at a rate that far exceeds the rate of allowable increase in property rents in a rent pressure zone and that the RTB has no legislative ability to offer guidance or protection to renters whose spaces are now becoming unaffordable; if he is concerned that REITs are using rent increases on parking spaces as a means of bypassing RPZ limits; and if he has plans to expand protection for renters to include the car parking spaces adjoining their homes. [1363/26]",
+                        "name": "206. Deputy Seán Crowe asked the Minister for Climate, Energy and the Environment the current average waiting time for the home surveys that are required to access the Sustainable Energy Authority of Ireland's free energy upgrades. [57057/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1442/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/206/"
                       }
                     ]
                   }
@@ -2593,6 +2925,24 @@
         },
         {
           "date_iso": "2026-07-28",
+          "questionNumber": 206,
+          "department": "Climate",
+          "heading": "Departmental Schemes",
+          "question": "206. Deputy Seán Crowe asked the Minister for Climate, Energy and the Environment the current average waiting time for the home surveys that are required to access the Sustainable Energy Authority of Ireland's free energy upgrades. [57057/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/206/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 254,
+          "department": "Defence",
+          "heading": "Departmental Reports",
+          "question": "254. Deputy Seán Crowe asked the Minister for Defence to report on the scrapping of the LTAV fleet; the estimated cost of the scrappage process; and if she will make a statement on the matter. [55029/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/254/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
           "questionNumber": 339,
           "department": "Transport",
           "heading": "Departmental Policies",
@@ -2616,6 +2966,204 @@
           "heading": "Special Educational Needs",
           "question": "1272. Deputy Seán Crowe asked the Minister for Education and Youth the number of SEN ASD places that will be available in schools, both primary and post-primary, in the Dublin south-west area for the 2026-2027 academic year, in tabular form. [57056/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1272/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1722,
+          "department": "Housing",
+          "heading": "Fire Service",
+          "question": "1722. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage the number of retained firefighters in each local authority area, each year for the past five years, in tabular form. [57075/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1722/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 1723,
+          "department": "Housing",
+          "heading": "Departmental Reviews",
+          "question": "1723. Deputy Seán Crowe asked the Minister for Housing, Local Government and Heritage if there will be a review of the Sustainable Residential Development and Compact Settlement Guidelines given the difficulty in the rollout of sustainable transport options in some areas and the resulting conflict with the urban proximity criteria. [57076/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1723/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2285,
+          "department": "Justice",
+          "heading": "Peace Commissioners",
+          "question": "2285. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the number of peace commissioners registered on the most recent roll maintained by his Department. [57072/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2285/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2286,
+          "department": "Justice",
+          "heading": "Naturalisation Applications",
+          "question": "2286. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the average waiting time for successful naturalisation applications to be processed at present; and the number of applications currently being considered. [57073/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2286/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2287,
+          "department": "Justice",
+          "heading": "EU Presidency",
+          "question": "2287. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the number of garda personnel seconded to duties relating specifically to and for the duration of the EU Presidency. [57074/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2287/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2314,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "2314. Deputy Seán Crowe asked the Minister for Justice, Home Affairs and Migration the medical reasons in which an individual would not be transferred from an IPAS centre to an alternative location; and if this would include ongoing cancer treatment. [57572/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2314/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2865,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "2865. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of children waiting to access speech and language therapy in the CHO7 area, by CDNT; the number of those waiting more than one year; the number waiting more than four years; and the average waiting time to access those therapies, in tabular form; and if she will make a statement on the matter. [57049/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2865/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2866,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "2866. Deputy Seán Crowe asked the Minister for Children, Disability and Equality to report on children's speech and language therapy services in CDNT 2 Ballyboden of CHO7; if services have been resumed; and if she will make a statement on the matter. [57050/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2866/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2867,
+          "department": "Children",
+          "heading": "Special Educational Needs",
+          "question": "2867. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of children awaiting an assessment of needs in the CHO7 area; the number of children waiting longer than 12 months; and the number of children waiting longer than 24 months. [57051/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2867/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2868,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "2868. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the average waiting time for an occupational therapist to make an assessment for a housing adaptation in the CHO7 area. [57052/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2868/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 2869,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "2869. Deputy Seán Crowe asked the Minister for Children, Disability and Equality the number of individuals who have left State care provided by Tusla upon reaching 18 years-of-age in each of the past five years; the number who have entered homelessness upon leaving care each year for the past five years, in tabular form; and the number who were unable to be allocated an aftercare plan by Tusla each year for the past five years, in tabular form. [57053/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2869/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3072,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "3072. Deputy Seán Crowe asked the Minister for Health the number of children currently awaiting occupational therapy in CHO7; and the number of those waiting longer than 12 months. [57054/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3072/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3073,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "3073. Deputy Seán Crowe asked the Minister for Health the number of children currently awaiting speech and language therapy in CHO7; and the number of those waiting longer than 12 months. [57055/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3073/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3613,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "3613. Deputy Seán Crowe asked the Minister for Health the number of public health nurse posts per CHO; and the number of posts filled and the number of vacancies, in tabular form. [57062/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3613/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3614,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "3614. Deputy Seán Crowe asked the Minister for Health the number of children on a waiting list for orthodontic treatment in the CHO7 area; the average waiting time; and the number of those waiting more than 12 months, in tabular form. [57063/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3614/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3615,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "3615. Deputy Seán Crowe asked the Minister for Health the number of filled and vacant dietitian WTEs in the CHO7 area, in tabular form. [57064/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3615/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3616,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "3616. Deputy Seán Crowe asked the Minister for Health the number of public health nurse posts per CHO; and the number of posts filled and the number of vacancies, in tabular form. [57065/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3616/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3617,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "3617. Deputy Seán Crowe asked the Minister for Health the status of Kelvin Grove, Carlow; the plans in place for its use; and the date by which it will be brought back into use. [57066/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3617/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3618,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "3618. Deputy Seán Crowe asked the Minister for Health the number of posts in perinatal mental health services per CHO area; and the number of posts filled and the number of vacancies, in tabular form. [57067/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3618/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3619,
+          "department": "Health",
+          "heading": "Home Care Packages",
+          "question": "3619. Deputy Seán Crowe asked the Minister for Health the number of older persons on a waiting list for home care packages in the CHO7 area; and the number of those who have been waiting more than six months. [57068/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3619/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3620,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "3620. Deputy Seán Crowe asked the Minister for Health the number of people currently on the waiting list for the Centre for Obesity Management; and the average waiting time to access services once a referral has been made. [57069/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3620/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3621,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "3621. Deputy Seán Crowe asked the Minister for Health the average waiting time for a lower limb prosthesis in the public hospital system. [57070/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3621/",
           "questionType": "written"
         }
       ]
