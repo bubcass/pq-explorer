@@ -7,9 +7,9 @@
 <title>Deputies | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.9867243c.css">
+<link rel="preload" as="style" href="./_import/style.e71a0c94.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.9867243c.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.e71a0c94.css">
 <link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
@@ -21,6 +21,7 @@
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
 <link rel="modulepreload" href="./_import/generated/deputy-detail-urls.96a69a31.js">
 <link rel="modulepreload" href="./_import/components/section-nav.2b57c9bf.js">
+<link rel="modulepreload" href="./_import/components/hero-share.a8054805.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -83,8 +84,8 @@ registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-
 registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.af27478a.json","lastModified":1786093994710,"size":286});
 registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
-define({id: "2ab4d85b", inputs: ["ResizeObserver","parent","FileAttachment","IntersectionObserver"], outputs: ["d3","bubbleChart","pqControls","packedCircleChart","downloadButton","zoomableTreemap","deputyDetailUrls","renderSectionNav","format","heroVideoPromise","deputyRollups","summaries","partyColorMap","deputyDetailCache","getState","getVariantKey","getSummary","getSurname","getPartyColor","truncateLabel","formatDisplayDate","cardPlaceholder","chartPlaceholder","getYearRows","getBubbleRows","getDeputyOptions","ensureValidDeputySelection","getSelectedDeputyOption","getSelectedDeputyBubbleRow","getDeputyDetailUrls","getDeputyDetail","getSelectedDeputyDetail","getVariantDetail","getSelectedDeputyViewModel","ensureValidHeadingSelection","getSelectedDeputyTableRows","dispatchChange","dispatchTableChange","withPreservedScroll","mountReactive","mountDeferred"], body: async (ResizeObserver,parent,FileAttachment,IntersectionObserver) => {
-const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}, {deputyDetailUrls}, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/generated/deputy-detail-urls.96a69a31.js"), import("./_import/components/section-nav.2b57c9bf.js")]);
+define({id: "dd6e6f64", inputs: ["ResizeObserver","parent","FileAttachment","IntersectionObserver"], outputs: ["d3","bubbleChart","pqControls","packedCircleChart","downloadButton","zoomableTreemap","deputyDetailUrls","renderSectionNav","enhanceHeroWithShare","format","heroVideoPromise","deputyRollups","summaries","partyColorMap","deputyDetailCache","getState","getVariantKey","getSummary","getSurname","getPartyColor","truncateLabel","formatDisplayDate","cardPlaceholder","chartPlaceholder","getYearRows","getBubbleRows","getDeputyOptions","ensureValidDeputySelection","getSelectedDeputyOption","getSelectedDeputyBubbleRow","getDeputyDetailUrls","getDeputyDetail","getSelectedDeputyDetail","getVariantDetail","getSelectedDeputyViewModel","ensureValidHeadingSelection","getSelectedDeputyTableRows","dispatchChange","dispatchTableChange","withPreservedScroll","mountReactive","mountDeferred"], body: async (ResizeObserver,parent,FileAttachment,IntersectionObserver) => {
+const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}, {deputyDetailUrls}, {renderSectionNav}, {enhanceHeroWithShare}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/generated/deputy-detail-urls.96a69a31.js"), import("./_import/components/section-nav.2b57c9bf.js"), import("./_import/components/hero-share.a8054805.js")]);
 
 if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
   window.__pqDeputiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -560,10 +561,10 @@ function mountDeferred(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,bubbleChart,pqControls,packedCircleChart,downloadButton,zoomableTreemap,deputyDetailUrls,renderSectionNav,format,heroVideoPromise,deputyRollups,summaries,partyColorMap,deputyDetailCache,getState,getVariantKey,getSummary,getSurname,getPartyColor,truncateLabel,formatDisplayDate,cardPlaceholder,chartPlaceholder,getYearRows,getBubbleRows,getDeputyOptions,ensureValidDeputySelection,getSelectedDeputyOption,getSelectedDeputyBubbleRow,getDeputyDetailUrls,getDeputyDetail,getSelectedDeputyDetail,getVariantDetail,getSelectedDeputyViewModel,ensureValidHeadingSelection,getSelectedDeputyTableRows,dispatchChange,dispatchTableChange,withPreservedScroll,mountReactive,mountDeferred};
+return {d3,bubbleChart,pqControls,packedCircleChart,downloadButton,zoomableTreemap,deputyDetailUrls,renderSectionNav,enhanceHeroWithShare,format,heroVideoPromise,deputyRollups,summaries,partyColorMap,deputyDetailCache,getState,getVariantKey,getSummary,getSurname,getPartyColor,truncateLabel,formatDisplayDate,cardPlaceholder,chartPlaceholder,getYearRows,getBubbleRows,getDeputyOptions,ensureValidDeputySelection,getSelectedDeputyOption,getSelectedDeputyBubbleRow,getDeputyDetailUrls,getDeputyDetail,getSelectedDeputyDetail,getVariantDetail,getSelectedDeputyViewModel,ensureValidHeadingSelection,getSelectedDeputyTableRows,dispatchChange,dispatchTableChange,withPreservedScroll,mountReactive,mountDeferred};
 }});
 
-define({id: "5fa798cc", inputs: ["display","mountReactive","heroVideoPromise"], body: (display,mountReactive,heroVideoPromise) => {
+define({id: "d6b91d06", inputs: ["display","mountReactive","heroVideoPromise","enhanceHeroWithShare"], body: (display,mountReactive,heroVideoPromise,enhanceHeroWithShare) => {
 display(
   mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
     if (skeletonOnly) {
@@ -597,6 +598,7 @@ display(
         </div>
       </div>
     `;
+    enhanceHeroWithShare(el, {title: "Deputies — PQ Explorer"});
   })
 );
 }});
@@ -1250,8 +1252,8 @@ display(
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:2ab4d85b:--></div>
-<div class="observablehq observablehq--block"><!--:5fa798cc:--></div>
+<div class="observablehq observablehq--block"><!--:dd6e6f64:--></div>
+<div class="observablehq observablehq--block"><!--:d6b91d06:--></div>
 <div class="observablehq observablehq--block"><!--:e5e2974a:--></div>
 <div class="observablehq observablehq--block"><!--:fd91af6b:--></div>
 <div class="chart-block">

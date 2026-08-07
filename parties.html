@@ -7,9 +7,9 @@
 <title>Parties | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.9867243c.css">
+<link rel="preload" as="style" href="./_import/style.e71a0c94.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.9867243c.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.e71a0c94.css">
 <link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
@@ -19,6 +19,7 @@
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
 <link rel="modulepreload" href="./_import/components/download-button.cf825c31.js">
 <link rel="modulepreload" href="./_import/components/section-nav.2b57c9bf.js">
+<link rel="modulepreload" href="./_import/components/hero-share.a8054805.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -89,8 +90,8 @@ registerFile("./data/pq/2026/treemap-parties-all.json", {"name":"./data/pq/2026/
 registerFile("./data/pq/2026/treemap-parties-oral.json", {"name":"./data/pq/2026/treemap-parties-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-parties-oral.7884802a.json","lastModified":1786093994904,"size":1167134});
 registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
-define({id: "f4b29e25", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","bubbleChart","pqControls","zoomableTreemap","downloadButton","renderSectionNav","format","heroVideoPromise","partyRollups","summaries","partyTreemapData","partyDetailsData","partyColorMap","getState","getVariantKey","getSummary","getYearRows","getPartyTreemapData","getPartyDetailsRows","getPartyRows","getPartyOptions","ensureValidPartySelection","getSelectedPartyDetail","getPartyOrder","getPartyColors","dispatchChange","dispatchPartyChange","withPreservedScroll","chartPlaceholder","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
-const [d3, {bubbleChart}, {pqControls}, {zoomableTreemap}, {downloadButton}, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/section-nav.2b57c9bf.js")]);
+define({id: "caee86db", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","bubbleChart","pqControls","zoomableTreemap","downloadButton","renderSectionNav","enhanceHeroWithShare","format","heroVideoPromise","partyRollups","summaries","partyTreemapData","partyDetailsData","partyColorMap","getState","getVariantKey","getSummary","getYearRows","getPartyTreemapData","getPartyDetailsRows","getPartyRows","getPartyOptions","ensureValidPartySelection","getSelectedPartyDetail","getPartyOrder","getPartyColors","dispatchChange","dispatchPartyChange","withPreservedScroll","chartPlaceholder","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
+const [d3, {bubbleChart}, {pqControls}, {zoomableTreemap}, {downloadButton}, {renderSectionNav}, {enhanceHeroWithShare}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/section-nav.2b57c9bf.js"), import("./_import/components/hero-share.a8054805.js")]);
 
 if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
   window.__pqPartiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -359,10 +360,10 @@ function mountReactive(className, renderFn, options = {}) {
 
   return el;
 }
-return {d3,bubbleChart,pqControls,zoomableTreemap,downloadButton,renderSectionNav,format,heroVideoPromise,partyRollups,summaries,partyTreemapData,partyDetailsData,partyColorMap,getState,getVariantKey,getSummary,getYearRows,getPartyTreemapData,getPartyDetailsRows,getPartyRows,getPartyOptions,ensureValidPartySelection,getSelectedPartyDetail,getPartyOrder,getPartyColors,dispatchChange,dispatchPartyChange,withPreservedScroll,chartPlaceholder,mountReactive};
+return {d3,bubbleChart,pqControls,zoomableTreemap,downloadButton,renderSectionNav,enhanceHeroWithShare,format,heroVideoPromise,partyRollups,summaries,partyTreemapData,partyDetailsData,partyColorMap,getState,getVariantKey,getSummary,getYearRows,getPartyTreemapData,getPartyDetailsRows,getPartyRows,getPartyOptions,ensureValidPartySelection,getSelectedPartyDetail,getPartyOrder,getPartyColors,dispatchChange,dispatchPartyChange,withPreservedScroll,chartPlaceholder,mountReactive};
 }});
 
-define({id: "e2335b43", inputs: ["display","mountReactive","heroVideoPromise"], body: (display,mountReactive,heroVideoPromise) => {
+define({id: "506b6566", inputs: ["display","mountReactive","heroVideoPromise","enhanceHeroWithShare"], body: (display,mountReactive,heroVideoPromise,enhanceHeroWithShare) => {
 display(
   mountReactive("hero", async (el, { skeletonOnly, isCurrent }) => {
     if (skeletonOnly) {
@@ -396,6 +397,7 @@ display(
         </div>
       </div>
     `;
+    enhanceHeroWithShare(el, {title: "Parties — PQ Explorer"});
   })
 );
 }});
@@ -750,8 +752,8 @@ display(
 <body>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:f4b29e25:--></div>
-<div class="observablehq observablehq--block"><!--:e2335b43:--></div>
+<div class="observablehq observablehq--block"><!--:caee86db:--></div>
+<div class="observablehq observablehq--block"><!--:506b6566:--></div>
 <div class="observablehq observablehq--block"><!--:3a7da3ff:--></div>
 <div class="observablehq observablehq--block"><!--:ce11fe82:--></div>
 <div class="prose-block controls-block">
