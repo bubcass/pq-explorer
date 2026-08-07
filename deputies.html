@@ -7,9 +7,9 @@
 <title>Deputies | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.3aa4791e.css">
+<link rel="preload" as="style" href="./_import/style.9867243c.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.3aa4791e.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.9867243c.css">
 <link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
@@ -19,8 +19,8 @@
 <link rel="modulepreload" href="./_import/components/packed-circle-chart.8c317a95.js">
 <link rel="modulepreload" href="./_import/components/download-button.cf825c31.js">
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
-<link rel="modulepreload" href="./_import/generated/deputy-detail-urls.60edb539.js">
-<link rel="modulepreload" href="./_import/components/section-nav.85e4ab42.js">
+<link rel="modulepreload" href="./_import/generated/deputy-detail-urls.96a69a31.js">
+<link rel="modulepreload" href="./_import/components/section-nav.2b57c9bf.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -78,13 +78,13 @@ import {registerFile} from "./_observablehq/stdlib.277aeab8.js";
 registerFile("./data/pq/2025/rollup-deputies.json", {"name":"./data/pq/2025/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2025/rollup-deputies.62394520.json","lastModified":1781256724291,"size":176981});
 registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1781256724070,"size":290});
 registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1781256724070,"size":286});
-registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.33b51c65.json","lastModified":1782567042915,"size":170322});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.a592612c.json","lastModified":1782567042916,"size":288});
-registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.642e8838.json","lastModified":1782567042917,"size":287});
+registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.79797b42.json","lastModified":1786093994708,"size":170343});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.6e66e8ae.json","lastModified":1786093994710,"size":288});
+registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.af27478a.json","lastModified":1786093994710,"size":286});
 registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
 define({id: "2ab4d85b", inputs: ["ResizeObserver","parent","FileAttachment","IntersectionObserver"], outputs: ["d3","bubbleChart","pqControls","packedCircleChart","downloadButton","zoomableTreemap","deputyDetailUrls","renderSectionNav","format","heroVideoPromise","deputyRollups","summaries","partyColorMap","deputyDetailCache","getState","getVariantKey","getSummary","getSurname","getPartyColor","truncateLabel","formatDisplayDate","cardPlaceholder","chartPlaceholder","getYearRows","getBubbleRows","getDeputyOptions","ensureValidDeputySelection","getSelectedDeputyOption","getSelectedDeputyBubbleRow","getDeputyDetailUrls","getDeputyDetail","getSelectedDeputyDetail","getVariantDetail","getSelectedDeputyViewModel","ensureValidHeadingSelection","getSelectedDeputyTableRows","dispatchChange","dispatchTableChange","withPreservedScroll","mountReactive","mountDeferred"], body: async (ResizeObserver,parent,FileAttachment,IntersectionObserver) => {
-const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}, {deputyDetailUrls}, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/generated/deputy-detail-urls.60edb539.js"), import("./_import/components/section-nav.85e4ab42.js")]);
+const [d3, {bubbleChart}, {pqControls}, {packedCircleChart}, {downloadButton}, {zoomableTreemap}, {deputyDetailUrls}, {renderSectionNav}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/packed-circle-chart.8c317a95.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/generated/deputy-detail-urls.96a69a31.js"), import("./_import/components/section-nav.2b57c9bf.js")]);
 
 if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
   window.__pqDeputiesResizeObserver = new ResizeObserver(([entry]) => {
