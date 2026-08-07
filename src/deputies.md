@@ -14,6 +14,7 @@ import { downloadButton } from "./components/download-button.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 import { deputyDetailUrls } from "./generated/deputy-detail-urls.js";
 import { renderSectionNav } from "./components/section-nav.js";
+import { enhanceHeroWithShare } from "./components/hero-share.js";
 
 if (typeof window !== "undefined" && !window.__pqDeputiesResizeObserver) {
   window.__pqDeputiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -525,6 +526,7 @@ display(
         </div>
       </div>
     `;
+    enhanceHeroWithShare(el, {title: "Deputies — PQ Explorer"});
   })
 );
 ```

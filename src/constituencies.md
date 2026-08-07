@@ -11,8 +11,14 @@ import * as d3 from "npm:d3";
 import * as Plot from "npm:@observablehq/plot";
 import { pqControls } from "./components/pq-controls.js";
 import { constituencyMap } from "./components/constituency-map.js";
-import * as turf from "npm:@turf/turf";
+import {
+  detectConstituencyFromLocation,
+  findConstituencyForCoordinates,
+  readSavedConstituency,
+  saveSelectedConstituency
+} from "./components/constituency-location.js";
 import { renderSectionNav } from "./components/section-nav.js";
+import { enhanceHeroWithShare } from "./components/hero-share.js";
 
 async function ensureLeafletCss() {
   if (typeof document === "undefined") return;
@@ -172,60 +178,6 @@ function cleanConstituencyName(name) {
   return clean(name).replace(/\s*\(\d+\)\s*$/, "");
 }
 
-function pointInFeature(feature, lon, lat) {
-  try {
-    const pt = turf.point([lon, lat]);
-
-    if (turf.booleanPointInPolygon(pt, feature)) return true;
-
-    const buffered = turf.buffer(feature, 0.01, { units: "kilometers" });
-    return turf.booleanPointInPolygon(pt, buffered);
-  } catch {
-    return false;
-  }
-}
-
-async function detectUserConstituencyFromLocation() {
-  if (typeof window === "undefined" || !navigator.geolocation) return null;
-
-  const geo = await getConstituenciesGeo();
-  const features = geo?.features ?? [];
-  if (!features.length) return null;
-
-  const position = await new Promise((resolve) => {
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        console.log("Geolocation success:", pos.coords.latitude, pos.coords.longitude);
-        resolve(pos);
-      },
-      (err) => {
-        console.warn("Geolocation error:", err);
-        resolve(null);
-      },
-      {
-        enableHighAccuracy: false,
-        timeout: 15000,
-        maximumAge: 300000
-      }
-    );
-  });
-
-  if (!position) return null;
-
-  const lat = position.coords.latitude;
-  const lon = position.coords.longitude;
-
-  const matched = features.find((feature) =>
-    pointInFeature(feature, lon, lat)
-  );
-
-  console.log("Matched constituency feature:", matched);
-
-  if (!matched) return null;
-
-  return cleanConstituencyName(matched?.properties?.ENG_NAME_VALUE);
-}
-
 async function initialiseConstituencySelection() {
   const options = await getConstituencyOptions();
   const state = getState();
@@ -235,16 +187,24 @@ async function initialiseConstituencySelection() {
     return;
   }
 
-  const detected = await detectUserConstituencyFromLocation();
+  const saved = readSavedConstituency(options);
 
-  if (detected && options.includes(detected)) {
-    state.selectedConstituency = detected;
+  if (saved) {
+    state.selectedConstituency = saved;
     return;
   }
 
   if (!state.selectedConstituency || !options.includes(state.selectedConstituency)) {
     state.selectedConstituency = options[0];
   }
+
+  const detected = await detectConstituencyFromLocation({
+    constituencyGeoJSON: await getConstituenciesGeo(),
+    availableConstituencies: options,
+    prompt: false
+  });
+
+  if (detected.ok) state.selectedConstituency = detected.constituency;
 }
 
 async function getConstituenciesGeo() {
@@ -495,6 +455,7 @@ display(
         </div>
       </div>
     `;
+    enhanceHeroWithShare(el, {title: "Constituencies — PQ Explorer"});
   }, { skeletonDelay: 120 })
 );
 ```
@@ -561,15 +522,30 @@ display(
   async function renderConstituencySelect() {
     wrap.replaceChildren();
 
-    const label = document.createElement("label");
-    label.className = "control";
+    const control = document.createElement("div");
+    control.className = "control control--constituency";
 
-    const labelText = document.createElement("span");
+    const heading = document.createElement("div");
+    heading.className = "constituency-control-heading";
+
+    const labelText = document.createElement("label");
     labelText.className = "control-label";
     labelText.textContent = "Constituency";
+    labelText.htmlFor = "pq-constituency-select";
+
+    const locateButton = document.createElement("button");
+    locateButton.type = "button";
+    locateButton.className = "constituency-location-action";
+    locateButton.textContent = "Use my location";
 
     const select = document.createElement("select");
+    select.id = "pq-constituency-select";
     select.className = "control-input";
+
+    const locateStatus = document.createElement("span");
+    locateStatus.className = "constituency-location-status";
+    locateStatus.setAttribute("aria-live", "polite");
+    locateStatus.textContent = getState().locationStatus ?? "";
 
     const options = await getConstituencyOptions();
     const selected = await ensureValidConstituencySelection();
@@ -585,15 +561,49 @@ display(
     select.addEventListener("change", async (event) => {
       window.pqConstituenciesState.selectedConstituency =
         event.target.value || null;
+      window.pqConstituenciesState.locationStatus = "";
+      saveSelectedConstituency(window.pqConstituenciesState.selectedConstituency);
 
       await withPreservedScroll(async () => {
         dispatchConstituencyChange();
       });
     });
 
-    label.appendChild(labelText);
-    label.appendChild(select);
-    wrap.appendChild(label);
+    locateButton.addEventListener("click", async () => {
+      locateButton.disabled = true;
+      locateButton.textContent = "Finding constituency…";
+      locateStatus.textContent = "";
+
+      try {
+        const result = await detectConstituencyFromLocation({
+          constituencyGeoJSON: await getConstituenciesGeo(),
+          availableConstituencies: options,
+          prompt: true
+        });
+
+        if (result.ok) {
+          window.pqConstituenciesState.selectedConstituency = result.constituency;
+          window.pqConstituenciesState.locationStatus = `Showing ${result.constituency}`;
+          saveSelectedConstituency(result.constituency);
+          select.value = result.constituency;
+
+          await withPreservedScroll(async () => {
+            dispatchConstituencyChange();
+          });
+        } else {
+          locateStatus.textContent = "Location unavailable — choose from the list.";
+        }
+      } catch {
+        locateStatus.textContent = "Location unavailable — choose from the list.";
+      } finally {
+        locateButton.disabled = false;
+        locateButton.textContent = "Use my location";
+      }
+    });
+
+    heading.append(labelText, locateButton);
+    control.append(heading, select, locateStatus);
+    wrap.appendChild(control);
 
     lastOptionsKey = options.join("||");
   }
@@ -659,22 +669,20 @@ display(
           if (!ok) return;
 
           const geoAll = await getConstituenciesGeo();
-          const features = geoAll?.features ?? [];
-
-          const matched = features.find((feature) =>
-            pointInFeature(feature, lon, lat)
-          );
-
-          if (!matched) return;
-
-          const nextConstituency = cleanConstituencyName(
-            matched?.properties?.ENG_NAME_VALUE
-          );
+          const options = await getConstituencyOptions();
+          const nextConstituency = findConstituencyForCoordinates({
+            longitude: lon,
+            latitude: lat,
+            constituencyGeoJSON: geoAll,
+            availableConstituencies: options
+          });
 
           if (!nextConstituency) return;
+          saveSelectedConstituency(nextConstituency);
           if (window.pqConstituenciesState.selectedConstituency === nextConstituency) return;
 
           window.pqConstituenciesState.selectedConstituency = nextConstituency;
+          window.pqConstituenciesState.locationStatus = `Showing ${nextConstituency}`;
 
           await withPreservedScroll(async () => {
             dispatchConstituencyChange();

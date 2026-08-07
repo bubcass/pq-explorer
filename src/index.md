@@ -12,6 +12,7 @@ import { packedCircleChart } from "./components/packed-circle-chart.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 import { pqControls } from "./components/pq-controls.js";
 import { renderSectionNav } from "./components/section-nav.js";
+import { enhanceHeroWithShare } from "./components/hero-share.js";
 
 const format = d3.format(",d");
 const formatMean = d3.format(".2f");
@@ -283,6 +284,7 @@ display(
         </div>
       </div>
     `;
+    enhanceHeroWithShare(el, {title: "PQ Explorer"});
   })
 );
 ```

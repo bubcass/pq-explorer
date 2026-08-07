@@ -12,6 +12,7 @@ import { pqControls } from "./components/pq-controls.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";
 import { downloadButton } from "./components/download-button.js";
 import { renderSectionNav } from "./components/section-nav.js";
+import { enhanceHeroWithShare } from "./components/hero-share.js";
 
 if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
   window.__pqPartiesResizeObserver = new ResizeObserver(([entry]) => {
@@ -316,6 +317,7 @@ display(
         </div>
       </div>
     `;
+    enhanceHeroWithShare(el, {title: "Parties — PQ Explorer"});
   })
 );
 ```
