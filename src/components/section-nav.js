@@ -52,6 +52,7 @@ export function renderSectionNav(currentSection) {
     let frame = null;
     let menuOpen = false;
     const mobileQuery = window.matchMedia("(max-width: 720px)");
+    const mastheadQuery = window.matchMedia("(min-width: 901px)");
 
     const setMenuOpen = (open, {focusToggle = false} = {}) => {
       menuOpen = mobileQuery.matches && open;
@@ -68,9 +69,32 @@ export function renderSectionNav(currentSection) {
 
     const syncFloating = () => {
       frame = null;
-      const shouldFloat = shell.getBoundingClientRect().top <= 0;
+      const masthead = document.querySelector(".oireachtas-masthead");
+      const mastheadInner = masthead?.querySelector(".oireachtas-masthead__inner");
+      const mastheadActions = mastheadInner?.querySelector(".oireachtas-masthead__actions");
+      const mobileTools = document.querySelector(".mobile-reading-tools");
+      const mobileMore = mobileTools?.querySelector(".mobile-reading-tools__more-wrap");
+      const mastheadHeight = masthead?.offsetHeight || 0;
+      const navHeight = nav.offsetHeight;
+      const dockingLine = mobileQuery.matches ? 12 : mastheadHeight;
+      const shouldFloat = shell.getBoundingClientRect().top <= dockingLine;
+      const shouldDockInMasthead = shouldFloat && mastheadQuery.matches && mastheadInner;
+      const shouldDockInMobileTools = shouldFloat && mobileQuery.matches && mobileTools;
+
+      shell.style.height = shouldFloat ? `${navHeight}px` : "";
       shell.classList.toggle("section-nav-shell--floating", shouldFloat);
-      shell.style.height = shouldFloat ? `${nav.offsetHeight}px` : "";
+      nav.classList.toggle("section-nav--floating", shouldFloat);
+      nav.classList.toggle("section-nav--masthead", Boolean(shouldDockInMasthead));
+      nav.classList.toggle("section-nav--mobile-tools", Boolean(shouldDockInMobileTools));
+      document.documentElement.classList.toggle("has-floating-section-nav", shouldFloat);
+
+      if (shouldDockInMobileTools && nav.parentNode !== mobileTools) {
+        mobileTools.insertBefore(nav, mobileMore || null);
+      } else if (shouldDockInMasthead && nav.parentNode !== mastheadInner) {
+        mastheadInner.insertBefore(nav, mastheadActions || null);
+      } else if (!shouldDockInMobileTools && !shouldDockInMasthead && nav.parentNode !== shell) {
+        shell.appendChild(nav);
+      }
     };
 
     const scheduleSync = () => {
@@ -89,6 +113,7 @@ export function renderSectionNav(currentSection) {
       if (event.target.closest("a")) setMenuOpen(false);
     });
     mobileQuery.addEventListener("change", syncNavigationMode);
+    mastheadQuery.addEventListener("change", scheduleSync);
 
     window.addEventListener("scroll", scheduleSync, { passive: true });
     window.addEventListener("resize", scheduleSync);

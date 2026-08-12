@@ -14,7 +14,11 @@
     --gold: #6b5922;
     --gold-hover: #473a16;
     --focus-ring: #3f3414;
+    --surface: #fffdf8;
+    --surface-soft: #ebe6da;
+    --surface-glass: rgba(255, 253, 248, 0.9);
     --page-max: 1100px;
+    --masthead-height: 58px;
     --text-max: 76ch;
     --data-max: 92ch;
     --chart-max: var(--data-max);
@@ -28,6 +32,7 @@
     --space-8: 3rem;
     --radius: 4px;
     --shadow-soft: 0 6px 20px rgba(47, 47, 47, 0.06);
+    color-scheme: light;
 }
 
 html {
@@ -35,6 +40,8 @@ html {
 }
 
 body {
+    width: 100%;
+    max-width: none;
     margin: 0 auto;
     background: var(--page-bg);
     color: var(--text);
@@ -236,6 +243,48 @@ main,
     white-space: nowrap;
 }
 
+.page-back-to-top {
+    position: fixed;
+    right: max(var(--space-4), env(safe-area-inset-right));
+    bottom: max(var(--space-4), env(safe-area-inset-bottom));
+    z-index: 1300;
+    display: grid;
+    width: 2.7rem;
+    height: 2.7rem;
+    padding: 0;
+    place-items: center;
+    border: 3px solid color-mix(in srgb, var(--gold) 72%, white 28%);
+    border-radius: 999px;
+    background: var(--surface);
+    box-shadow: 0 0.35rem 1rem rgba(47, 47, 47, 0.14);
+    color: var(--gold-hover);
+    cursor: pointer;
+    transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.page-back-to-top[hidden] {
+    display: none;
+}
+
+.page-back-to-top:hover,
+.page-back-to-top:focus-visible {
+    box-shadow: 0 0.6rem 1.2rem rgba(47, 47, 47, 0.2);
+    transform: translateY(-1px);
+}
+
+.page-back-to-top:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
+}
+
+.page-back-to-top__chevron {
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1;
+    transform: translateY(0.02em);
+}
+
 h1,
 h2,
 h3,
@@ -428,6 +477,17 @@ a:focus-visible {
 
     .hero__subtitle {
         font-size: 0.95rem;
+    }
+
+    .page-back-to-top {
+        right: max(var(--space-3), env(safe-area-inset-right));
+        bottom: max(var(--space-3), env(safe-area-inset-bottom));
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .page-back-to-top__chevron {
+        font-size: 1.08rem;
     }
 
     main,
