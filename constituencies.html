@@ -7,10 +7,10 @@
 <title>Constituencies | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.e71a0c94.css">
+<link rel="preload" as="style" href="./_import/style.5ed1de58.css">
 <link rel="preload" as="style" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.e71a0c94.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.5ed1de58.css">
 <link rel="stylesheet" type="text/css" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
 <link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
@@ -20,8 +20,8 @@
 <link rel="modulepreload" href="./_import/components/pq-controls.6cfd96bb.js">
 <link rel="modulepreload" href="./_import/components/constituency-map.1513561b.js">
 <link rel="modulepreload" href="./_import/components/constituency-location.d619dde1.js">
-<link rel="modulepreload" href="./_import/components/section-nav.2b57c9bf.js">
-<link rel="modulepreload" href="./_import/components/hero-share.a8054805.js">
+<link rel="modulepreload" href="./_import/components/section-nav.4f81c751.js">
+<link rel="modulepreload" href="./_import/components/hero-share.be98b6e2.js">
 <link rel="modulepreload" href="./_npm/leaflet@1.9.4/721623d8.js">
 <link rel="modulepreload" href="./_npm/@turf/turf@7.3.4/55001c14.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
@@ -199,6 +199,7 @@
 <link rel="modulepreload" href="./_npm/bignumber.js@9.3.1/031d311e.js">
 <link rel="modulepreload" href="./_npm/splaytree-ts@1.0.2/8a48eb63.js">
 
+    <link rel="preload" href="./_file/oireachtas-logo.be2bef67.svg" as="image" type="image/svg+xml">
     <link rel="icon" href="./_file/logo.2bab7aac.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
@@ -212,6 +213,144 @@
         meta.content = "width=device-width, initial-scale=1";
         document.head.appendChild(meta);
       }
+
+      (() => {
+        const setupOireachtasMasthead = () => {
+          if (!document.body || document.querySelector(".oireachtas-masthead")) return;
+
+          const masthead = document.createElement("header");
+          masthead.className = "oireachtas-masthead";
+
+          const inner = document.createElement("div");
+          inner.className = "oireachtas-masthead__inner";
+
+          const homeLink = document.createElement("a");
+          homeLink.className = "oireachtas-masthead__home";
+          homeLink.href = "https://www.oireachtas.ie/";
+          homeLink.setAttribute("aria-label", "Return to oireachtas.ie");
+          homeLink.title = "Return to oireachtas.ie";
+
+          const logo = document.createElement("img");
+          logo.className = "oireachtas-masthead__logo";
+          logo.alt = "";
+          logo.width = 163;
+          logo.height = 69;
+          logo.src = document.querySelector('link[rel="preload"][as="image"]')?.href || "oireachtas-logo.svg";
+          homeLink.appendChild(logo);
+
+          const resourceLink = document.createElement("a");
+          resourceLink.className = "oireachtas-masthead__resource";
+          resourceLink.textContent = "Open Data Insights";
+          resourceLink.href = "https://bubcass.github.io/open-data-insights/";
+          resourceLink.setAttribute("aria-label", "Open Data Insights home");
+
+          const explorerRoot = new URL(logo.src, window.location.href);
+          explorerRoot.pathname = explorerRoot.pathname.replace(/_file\/.*$/, "");
+          explorerRoot.search = "";
+          explorerRoot.hash = "";
+
+          const normalizePath = (path) => path
+            .replace(/index(?:\.html)?$/, "")
+            .replace(/\/+$/, "/");
+
+          const syncMastheadRoute = () => {
+            const isExplorerIndex = normalizePath(window.location.pathname) === normalizePath(explorerRoot.pathname);
+            masthead.classList.toggle("oireachtas-masthead--index", isExplorerIndex);
+          };
+
+          const actions = document.createElement("div");
+          actions.className = "oireachtas-masthead__actions";
+          inner.append(homeLink, resourceLink, actions);
+          masthead.appendChild(inner);
+          syncMastheadRoute();
+
+          const mobileTools = document.createElement("div");
+          mobileTools.className = "mobile-reading-tools";
+          mobileTools.hidden = true;
+          mobileTools.innerHTML = `
+            <button class="mobile-reading-tools__back" type="button" aria-label="Go back" title="Go back">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg>
+            </button>
+            <div class="mobile-reading-tools__more-wrap">
+              <button class="mobile-reading-tools__more" type="button" aria-label="More options" aria-expanded="false" title="More options">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>
+              </button>
+              <div class="mobile-reading-tools__menu" hidden></div>
+            </div>
+          `;
+
+          const backButton = mobileTools.querySelector(".mobile-reading-tools__back");
+          const moreButton = mobileTools.querySelector(".mobile-reading-tools__more");
+          const moreMenu = mobileTools.querySelector(".mobile-reading-tools__menu");
+          backButton.addEventListener("click", () => {
+            if (window.history.length > 1) window.history.back();
+            else window.location.href = explorerRoot.href;
+          });
+          const setMoreOpen = (open) => {
+            moreMenu.hidden = !open;
+            moreButton.setAttribute("aria-expanded", String(open));
+          };
+          moreButton.addEventListener("click", () => setMoreOpen(moreMenu.hidden));
+          document.addEventListener("pointerdown", (event) => {
+            if (!moreMenu.hidden && !mobileTools.contains(event.target)) setMoreOpen(false);
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && !moreMenu.hidden) {
+              setMoreOpen(false);
+              moreButton.focus();
+            }
+          });
+
+          const mobileQuery = window.matchMedia("(max-width: 720px)");
+          let updatePending = false;
+          const updateMobileTools = () => {
+            updatePending = false;
+            const navShell = document.querySelector(".section-nav-shell");
+            const pastSectionNav = navShell
+              ? navShell.getBoundingClientRect().top <= 12
+              : window.scrollY > masthead.offsetHeight + 48;
+            const visible = mobileQuery.matches && pastSectionNav;
+            mobileTools.hidden = !visible;
+            if (!visible) setMoreOpen(false);
+          };
+          const scheduleMobileToolsUpdate = () => {
+            if (updatePending) return;
+            updatePending = true;
+            window.requestAnimationFrame(updateMobileTools);
+          };
+          window.addEventListener("scroll", scheduleMobileToolsUpdate, {passive: true});
+          window.addEventListener("resize", scheduleMobileToolsUpdate, {passive: true});
+          window.addEventListener("popstate", syncMastheadRoute);
+          window.navigation?.addEventListener("navigatesuccess", syncMastheadRoute);
+          document.addEventListener("click", (event) => {
+            const link = event.target.closest?.("a[href]");
+            if (!link) return;
+            const destination = new URL(link.href, window.location.href);
+            if (destination.origin !== window.location.origin) return;
+            window.setTimeout(syncMastheadRoute, 0);
+            window.setTimeout(syncMastheadRoute, 120);
+          });
+          const titleElement = document.querySelector("title");
+          if (titleElement) {
+            new MutationObserver(syncMastheadRoute).observe(titleElement, {
+              childList: true,
+              characterData: true,
+              subtree: true,
+            });
+          }
+          mobileQuery.addEventListener("change", scheduleMobileToolsUpdate);
+
+          document.body.prepend(masthead);
+          document.body.appendChild(mobileTools);
+          updateMobileTools();
+        };
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", setupOireachtasMasthead, {once: true});
+        } else {
+          setupOireachtasMasthead();
+        }
+      })();
     </script>
   
 <script type="module">
@@ -230,20 +369,20 @@ registerFile("./data/pq/2025/constituency-summary-all.json", {"name":"./data/pq/
 registerFile("./data/pq/2025/constituency-summary-oral.json", {"name":"./data/pq/2025/constituency-summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/constituency-summary-oral.bf15444b.json","lastModified":1781256733446,"size":124094});
 registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-all.eeaedfe5.json","lastModified":1781256724070,"size":290});
 registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1781256724070,"size":286});
-registerFile("./data/pq/2026/constituency-download-all.json", {"name":"./data/pq/2026/constituency-download-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-all.4b279452.json","lastModified":1786093993816,"size":31519225});
+registerFile("./data/pq/2026/constituency-download-all.json", {"name":"./data/pq/2026/constituency-download-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-all.fa5698e7.json","lastModified":1786564956250,"size":31519703});
 registerFile("./data/pq/2026/constituency-download-oral.json", {"name":"./data/pq/2026/constituency-download-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-download-oral.8949dd7a.json","lastModified":1786093993832,"size":798947});
-registerFile("./data/pq/2026/constituency-members-all.json", {"name":"./data/pq/2026/constituency-members-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-all.bcaab387.json","lastModified":1786093993833,"size":67097});
+registerFile("./data/pq/2026/constituency-members-all.json", {"name":"./data/pq/2026/constituency-members-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-all.53b21ceb.json","lastModified":1786564956251,"size":67097});
 registerFile("./data/pq/2026/constituency-members-oral.json", {"name":"./data/pq/2026/constituency-members-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-members-oral.1d99de65.json","lastModified":1786093993833,"size":66887});
 registerFile("./data/pq/2026/constituency-recent-questions-all.json", {"name":"./data/pq/2026/constituency-recent-questions-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-recent-questions-all.19ab5ab5.json","lastModified":1786093993834,"size":359533});
 registerFile("./data/pq/2026/constituency-recent-questions-oral.json", {"name":"./data/pq/2026/constituency-recent-questions-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-recent-questions-oral.7b9dc454.json","lastModified":1786093993834,"size":275641});
-registerFile("./data/pq/2026/constituency-summary-all.json", {"name":"./data/pq/2026/constituency-summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-all.65ba1d38.json","lastModified":1786093993835,"size":860129});
+registerFile("./data/pq/2026/constituency-summary-all.json", {"name":"./data/pq/2026/constituency-summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-all.c75be8ef.json","lastModified":1786564956253,"size":860129});
 registerFile("./data/pq/2026/constituency-summary-oral.json", {"name":"./data/pq/2026/constituency-summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/constituency-summary-oral.e3791b4d.json","lastModified":1786093993837,"size":99405});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.6e66e8ae.json","lastModified":1786093994710,"size":288});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.12d820e3.json","lastModified":1786564956393,"size":288});
 registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.af27478a.json","lastModified":1786093994710,"size":286});
 registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
 define({id: "edea6231", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","Plot","pqControls","constituencyMap","detectConstituencyFromLocation","findConstituencyForCoordinates","readSavedConstituency","saveSelectedConstituency","renderSectionNav","enhanceHeroWithShare","ensureLeafletCss","format","heroVideoPromise","constituenciesGeoPromise","summaries","constituencyMembersData","constituencySummaryData","constituencyDownloadData","partyColorMap","constituencyRecentQuestionsData","getState","getVariantKey","getMembersData","getConstituencySummaryRows","clean","cleanConstituencyName","initialiseConstituencySelection","getConstituenciesGeo","getConstituencyOptions","formatIrishDate","getSelectedConstituencyTopHeadings","ensureValidConstituencySelection","getFilteredMembers","getSelectedConstituencySummary","getFilteredConstituencyGeo","dispatchChange","dispatchConstituencyChange","getRecentQuestionsForSelectedConstituency","getDownloadRowsForSelectedConstituency","csvEscape","buildConstituencyCsv","downloadTextFile","withPreservedScroll","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
-const [d3, Plot, {pqControls}, {constituencyMap}, {detectConstituencyFromLocation, findConstituencyForCoordinates, readSavedConstituency, saveSelectedConstituency}, {renderSectionNav}, {enhanceHeroWithShare}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_npm/@observablehq/plot@0.6.17/a96a6bbb.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/constituency-map.1513561b.js"), import("./_import/components/constituency-location.d619dde1.js"), import("./_import/components/section-nav.2b57c9bf.js"), import("./_import/components/hero-share.a8054805.js")]);
+const [d3, Plot, {pqControls}, {constituencyMap}, {detectConstituencyFromLocation, findConstituencyForCoordinates, readSavedConstituency, saveSelectedConstituency}, {renderSectionNav}, {enhanceHeroWithShare}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_npm/@observablehq/plot@0.6.17/a96a6bbb.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/constituency-map.1513561b.js"), import("./_import/components/constituency-location.d619dde1.js"), import("./_import/components/section-nav.4f81c751.js"), import("./_import/components/hero-share.be98b6e2.js")]);
 
 async function ensureLeafletCss() {
   if (typeof document === "undefined") return;

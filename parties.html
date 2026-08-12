@@ -7,9 +7,9 @@
 <title>Parties | PQ Explorer</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.e71a0c94.css">
+<link rel="preload" as="style" href="./_import/style.5ed1de58.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.e71a0c94.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.5ed1de58.css">
 <link rel="modulepreload" href="./_observablehq/client.68f9776d.js">
 <link rel="modulepreload" href="./_observablehq/runtime.607a8173.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.277aeab8.js">
@@ -18,8 +18,8 @@
 <link rel="modulepreload" href="./_import/components/pq-controls.6cfd96bb.js">
 <link rel="modulepreload" href="./_import/components/zoomable-treemap.91ece40e.js">
 <link rel="modulepreload" href="./_import/components/download-button.cf825c31.js">
-<link rel="modulepreload" href="./_import/components/section-nav.2b57c9bf.js">
-<link rel="modulepreload" href="./_import/components/hero-share.a8054805.js">
+<link rel="modulepreload" href="./_import/components/section-nav.4f81c751.js">
+<link rel="modulepreload" href="./_import/components/hero-share.be98b6e2.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -54,6 +54,7 @@
 <link rel="modulepreload" href="./_npm/delaunator@5.1.0/d4ec0aa1.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.3/42820bfa.js">
 
+    <link rel="preload" href="./_file/oireachtas-logo.be2bef67.svg" as="image" type="image/svg+xml">
     <link rel="icon" href="./_file/logo.2bab7aac.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
@@ -67,6 +68,144 @@
         meta.content = "width=device-width, initial-scale=1";
         document.head.appendChild(meta);
       }
+
+      (() => {
+        const setupOireachtasMasthead = () => {
+          if (!document.body || document.querySelector(".oireachtas-masthead")) return;
+
+          const masthead = document.createElement("header");
+          masthead.className = "oireachtas-masthead";
+
+          const inner = document.createElement("div");
+          inner.className = "oireachtas-masthead__inner";
+
+          const homeLink = document.createElement("a");
+          homeLink.className = "oireachtas-masthead__home";
+          homeLink.href = "https://www.oireachtas.ie/";
+          homeLink.setAttribute("aria-label", "Return to oireachtas.ie");
+          homeLink.title = "Return to oireachtas.ie";
+
+          const logo = document.createElement("img");
+          logo.className = "oireachtas-masthead__logo";
+          logo.alt = "";
+          logo.width = 163;
+          logo.height = 69;
+          logo.src = document.querySelector('link[rel="preload"][as="image"]')?.href || "oireachtas-logo.svg";
+          homeLink.appendChild(logo);
+
+          const resourceLink = document.createElement("a");
+          resourceLink.className = "oireachtas-masthead__resource";
+          resourceLink.textContent = "Open Data Insights";
+          resourceLink.href = "https://bubcass.github.io/open-data-insights/";
+          resourceLink.setAttribute("aria-label", "Open Data Insights home");
+
+          const explorerRoot = new URL(logo.src, window.location.href);
+          explorerRoot.pathname = explorerRoot.pathname.replace(/_file\/.*$/, "");
+          explorerRoot.search = "";
+          explorerRoot.hash = "";
+
+          const normalizePath = (path) => path
+            .replace(/index(?:\.html)?$/, "")
+            .replace(/\/+$/, "/");
+
+          const syncMastheadRoute = () => {
+            const isExplorerIndex = normalizePath(window.location.pathname) === normalizePath(explorerRoot.pathname);
+            masthead.classList.toggle("oireachtas-masthead--index", isExplorerIndex);
+          };
+
+          const actions = document.createElement("div");
+          actions.className = "oireachtas-masthead__actions";
+          inner.append(homeLink, resourceLink, actions);
+          masthead.appendChild(inner);
+          syncMastheadRoute();
+
+          const mobileTools = document.createElement("div");
+          mobileTools.className = "mobile-reading-tools";
+          mobileTools.hidden = true;
+          mobileTools.innerHTML = `
+            <button class="mobile-reading-tools__back" type="button" aria-label="Go back" title="Go back">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg>
+            </button>
+            <div class="mobile-reading-tools__more-wrap">
+              <button class="mobile-reading-tools__more" type="button" aria-label="More options" aria-expanded="false" title="More options">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>
+              </button>
+              <div class="mobile-reading-tools__menu" hidden></div>
+            </div>
+          `;
+
+          const backButton = mobileTools.querySelector(".mobile-reading-tools__back");
+          const moreButton = mobileTools.querySelector(".mobile-reading-tools__more");
+          const moreMenu = mobileTools.querySelector(".mobile-reading-tools__menu");
+          backButton.addEventListener("click", () => {
+            if (window.history.length > 1) window.history.back();
+            else window.location.href = explorerRoot.href;
+          });
+          const setMoreOpen = (open) => {
+            moreMenu.hidden = !open;
+            moreButton.setAttribute("aria-expanded", String(open));
+          };
+          moreButton.addEventListener("click", () => setMoreOpen(moreMenu.hidden));
+          document.addEventListener("pointerdown", (event) => {
+            if (!moreMenu.hidden && !mobileTools.contains(event.target)) setMoreOpen(false);
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && !moreMenu.hidden) {
+              setMoreOpen(false);
+              moreButton.focus();
+            }
+          });
+
+          const mobileQuery = window.matchMedia("(max-width: 720px)");
+          let updatePending = false;
+          const updateMobileTools = () => {
+            updatePending = false;
+            const navShell = document.querySelector(".section-nav-shell");
+            const pastSectionNav = navShell
+              ? navShell.getBoundingClientRect().top <= 12
+              : window.scrollY > masthead.offsetHeight + 48;
+            const visible = mobileQuery.matches && pastSectionNav;
+            mobileTools.hidden = !visible;
+            if (!visible) setMoreOpen(false);
+          };
+          const scheduleMobileToolsUpdate = () => {
+            if (updatePending) return;
+            updatePending = true;
+            window.requestAnimationFrame(updateMobileTools);
+          };
+          window.addEventListener("scroll", scheduleMobileToolsUpdate, {passive: true});
+          window.addEventListener("resize", scheduleMobileToolsUpdate, {passive: true});
+          window.addEventListener("popstate", syncMastheadRoute);
+          window.navigation?.addEventListener("navigatesuccess", syncMastheadRoute);
+          document.addEventListener("click", (event) => {
+            const link = event.target.closest?.("a[href]");
+            if (!link) return;
+            const destination = new URL(link.href, window.location.href);
+            if (destination.origin !== window.location.origin) return;
+            window.setTimeout(syncMastheadRoute, 0);
+            window.setTimeout(syncMastheadRoute, 120);
+          });
+          const titleElement = document.querySelector("title");
+          if (titleElement) {
+            new MutationObserver(syncMastheadRoute).observe(titleElement, {
+              childList: true,
+              characterData: true,
+              subtree: true,
+            });
+          }
+          mobileQuery.addEventListener("change", scheduleMobileToolsUpdate);
+
+          document.body.prepend(masthead);
+          document.body.appendChild(mobileTools);
+          updateMobileTools();
+        };
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", setupOireachtasMasthead, {once: true});
+        } else {
+          setupOireachtasMasthead();
+        }
+      })();
     </script>
   
 <script type="module">
@@ -81,17 +220,17 @@ registerFile("./data/pq/2025/summary-all.json", {"name":"./data/pq/2025/summary-
 registerFile("./data/pq/2025/summary-oral.json", {"name":"./data/pq/2025/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/summary-oral.a9ffe860.json","lastModified":1781256724070,"size":286});
 registerFile("./data/pq/2025/treemap-parties-all.json", {"name":"./data/pq/2025/treemap-parties-all.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-parties-all.7ed77e05.json","lastModified":1781256732349,"size":44575464});
 registerFile("./data/pq/2025/treemap-parties-oral.json", {"name":"./data/pq/2025/treemap-parties-oral.json","mimeType":"application/json","path":"./_file/data/pq/2025/treemap-parties-oral.93e9634c.json","lastModified":1781256732353,"size":1522972});
-registerFile("./data/pq/2026/party-details-all.json", {"name":"./data/pq/2026/party-details-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/party-details-all.53339045.json","lastModified":1786093994706,"size":384136});
+registerFile("./data/pq/2026/party-details-all.json", {"name":"./data/pq/2026/party-details-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/party-details-all.e4ea37d1.json","lastModified":1786564956391,"size":384136});
 registerFile("./data/pq/2026/party-details-oral.json", {"name":"./data/pq/2026/party-details-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/party-details-oral.e60dcc09.json","lastModified":1786093994707,"size":58574});
-registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.79797b42.json","lastModified":1786093994708,"size":170343});
-registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.6e66e8ae.json","lastModified":1786093994710,"size":288});
+registerFile("./data/pq/2026/rollup-deputies.json", {"name":"./data/pq/2026/rollup-deputies.json","mimeType":"application/json","path":"./_file/data/pq/2026/rollup-deputies.a0376cfe.json","lastModified":1786564956392,"size":170343});
+registerFile("./data/pq/2026/summary-all.json", {"name":"./data/pq/2026/summary-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-all.12d820e3.json","lastModified":1786564956393,"size":288});
 registerFile("./data/pq/2026/summary-oral.json", {"name":"./data/pq/2026/summary-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/summary-oral.af27478a.json","lastModified":1786093994710,"size":286});
-registerFile("./data/pq/2026/treemap-parties-all.json", {"name":"./data/pq/2026/treemap-parties-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-parties-all.d89d2b42.json","lastModified":1786093994902,"size":36356858});
+registerFile("./data/pq/2026/treemap-parties-all.json", {"name":"./data/pq/2026/treemap-parties-all.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-parties-all.5cea22d3.json","lastModified":1786564956530,"size":36357289});
 registerFile("./data/pq/2026/treemap-parties-oral.json", {"name":"./data/pq/2026/treemap-parties-oral.json","mimeType":"application/json","path":"./_file/data/pq/2026/treemap-parties-oral.7884802a.json","lastModified":1786093994904,"size":1167134});
 registerFile("./media/PQs.mp4", {"name":"./media/PQs.mp4","mimeType":"video/mp4","path":"./_file/media/PQs.4585f947.mp4","lastModified":1780669145139,"size":2465005});
 
 define({id: "caee86db", inputs: ["ResizeObserver","parent","FileAttachment"], outputs: ["d3","bubbleChart","pqControls","zoomableTreemap","downloadButton","renderSectionNav","enhanceHeroWithShare","format","heroVideoPromise","partyRollups","summaries","partyTreemapData","partyDetailsData","partyColorMap","getState","getVariantKey","getSummary","getYearRows","getPartyTreemapData","getPartyDetailsRows","getPartyRows","getPartyOptions","ensureValidPartySelection","getSelectedPartyDetail","getPartyOrder","getPartyColors","dispatchChange","dispatchPartyChange","withPreservedScroll","chartPlaceholder","mountReactive"], body: async (ResizeObserver,parent,FileAttachment) => {
-const [d3, {bubbleChart}, {pqControls}, {zoomableTreemap}, {downloadButton}, {renderSectionNav}, {enhanceHeroWithShare}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/section-nav.2b57c9bf.js"), import("./_import/components/hero-share.a8054805.js")]);
+const [d3, {bubbleChart}, {pqControls}, {zoomableTreemap}, {downloadButton}, {renderSectionNav}, {enhanceHeroWithShare}] = await Promise.all([import("./_npm/d3@7.9.0/66d82917.js"), import("./_import/components/bubble-chart.8c584e91.js"), import("./_import/components/pq-controls.6cfd96bb.js"), import("./_import/components/zoomable-treemap.91ece40e.js"), import("./_import/components/download-button.cf825c31.js"), import("./_import/components/section-nav.4f81c751.js"), import("./_import/components/hero-share.be98b6e2.js")]);
 
 if (typeof window !== "undefined" && !window.__pqPartiesResizeObserver) {
   window.__pqPartiesResizeObserver = new ResizeObserver(([entry]) => {
