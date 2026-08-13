@@ -49,14 +49,15 @@
     grid-row: 1;
     margin: 0;
     color: rgba(255, 255, 255, 0.94);
+    font-size: clamp(1.15rem, 1.65vw, 1.45rem);
     font-weight: 600;
     line-height: 1.1;
+    letter-spacing: -0.012em;
     text-decoration: none;
     white-space: nowrap;
     transition: opacity 260ms ease;
 }
 
-.oireachtas-masthead__resource { font-size: 0.9rem; letter-spacing: 0.01em; }
 .oireachtas-masthead__resource:hover,
 .oireachtas-masthead__resource:focus-visible { color: #fff; text-decoration: none; }
 .oireachtas-masthead__resource:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
@@ -185,7 +186,7 @@
         max-width: min(10.75rem, calc(100% - 13rem));
         margin-inline: auto;
         color: var(--text);
-        font-size: 0.84rem;
+        font-size: 0.9rem;
         line-height: 1.2;
         text-align: center;
         white-space: nowrap;
@@ -196,7 +197,6 @@
     .oireachtas-masthead__resource:focus-visible { color: var(--text); }
     .oireachtas-masthead--index .oireachtas-masthead__resource {
         color: #fff;
-        font-size: 1.05rem;
     }
     .oireachtas-masthead--index .oireachtas-masthead__resource:hover,
     .oireachtas-masthead--index .oireachtas-masthead__resource:focus-visible { color: #fff; }
