@@ -104,7 +104,7 @@ export function renderSectionNav(currentSection) {
 
     toggle.addEventListener("click", () => setMenuOpen(!menuOpen));
     document.addEventListener("pointerdown", (event) => {
-      if (menuOpen && !shell.contains(event.target)) setMenuOpen(false);
+      if (menuOpen && !nav.contains(event.target)) setMenuOpen(false);
     });
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && menuOpen) setMenuOpen(false, {focusToggle: true});
