@@ -5,9 +5,9 @@
     width: 100%;
     height: var(--masthead-height);
     border-top: 1px solid #55544f;
-    border-bottom: 1px solid #292825;
+    border-bottom: 0;
     background: #3f3e3a;
-    box-shadow: 0 1px 0 rgba(179, 152, 65, 0.38);
+    box-shadow: none;
     color: #fff;
     box-sizing: border-box;
     transition: background-color 460ms cubic-bezier(0.22, 1, 0.36, 1), border-color 460ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 460ms cubic-bezier(0.22, 1, 0.36, 1), color 360ms ease;
@@ -115,10 +115,12 @@
 
 @media (min-width: 721px) {
     :root.has-floating-section-nav .oireachtas-masthead {
-        border-color: var(--border);
-        background: var(--page-bg);
-        box-shadow: 0 1px 0 color-mix(in srgb, var(--border) 78%, transparent);
+        border-color: transparent;
+        background: var(--nav-glass);
+        box-shadow: none;
         color: var(--text);
+        backdrop-filter: blur(14px) saturate(120%);
+        -webkit-backdrop-filter: blur(14px) saturate(120%);
     }
 
     :root.has-floating-section-nav .oireachtas-masthead__logo {
@@ -146,17 +148,19 @@
     .oireachtas-masthead {
         position: relative;
         top: auto;
-        border-color: var(--border);
-        background: var(--page-bg);
-        box-shadow: 0 1px 0 color-mix(in srgb, var(--border) 78%, transparent);
+        border-color: transparent;
+        background: var(--nav-glass);
+        box-shadow: none;
         color: var(--text);
+        backdrop-filter: blur(14px) saturate(120%);
+        -webkit-backdrop-filter: blur(14px) saturate(120%);
     }
 
     :root .oireachtas-masthead__logo {
         filter: brightness(0) saturate(100%) invert(25%) sepia(7%) saturate(523%) hue-rotate(3deg) brightness(94%) contrast(91%);
     }
 
-    .oireachtas-masthead--index { border-color: #292825; background: #3f3e3a; box-shadow: 0 1px 0 rgba(179, 152, 65, 0.38); color: #fff; }
+    .oireachtas-masthead--index { border-color: transparent; background: #3f3e3a; box-shadow: none; color: #fff; }
     :root .oireachtas-masthead--index .oireachtas-masthead__logo { filter: none; }
     .oireachtas-masthead__inner,
     .oireachtas-masthead--index .oireachtas-masthead__inner { grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.75rem; }
@@ -210,6 +214,11 @@
         animation: mobile-reading-tools-in 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
     }
 
+    .mobile-reading-tools__back {
+        grid-column: 1;
+        justify-self: start;
+    }
+
     .mobile-reading-tools__back,
     .mobile-reading-tools__more {
         display: grid;
@@ -231,7 +240,7 @@
     .mobile-reading-tools__back svg,
     .mobile-reading-tools__more svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
     .mobile-reading-tools__more svg { fill: currentColor; stroke: none; }
-    .mobile-reading-tools__more-wrap { position: relative; justify-self: end; pointer-events: auto; }
+    .mobile-reading-tools__more-wrap { position: relative; grid-column: 3; justify-self: end; pointer-events: auto; }
     .mobile-reading-tools__menu {
         position: absolute;
         top: calc(100% + 8px);

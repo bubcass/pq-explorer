@@ -780,9 +780,9 @@
     max-width: none;
     margin: 0;
     border: 0;
-    background: color-mix(in srgb, var(--page-bg) 84%, transparent);
-    backdrop-filter: blur(13px) saturate(120%);
-    -webkit-backdrop-filter: blur(13px) saturate(120%);
+    background: var(--nav-glass);
+    backdrop-filter: blur(14px) saturate(120%);
+    -webkit-backdrop-filter: blur(14px) saturate(120%);
 }
 
 .section-nav--floating:not(.section-nav--masthead):not(.section-nav--mobile-tools) {
@@ -791,9 +791,9 @@
     top: var(--masthead-height);
     left: 50%;
     width: 100vw;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 0;
     transform: translateX(-50%);
-    box-shadow: 0 4px 12px rgba(47, 47, 47, 0.08);
+    box-shadow: none;
 }
 
 @media (min-width: 901px) {
@@ -1261,7 +1261,7 @@ nav a {
         padding: 0.6rem 1rem;
         border: 1px solid color-mix(in srgb, var(--border) 82%, transparent);
         border-radius: 999px;
-        background: var(--surface-glass);
+        background: var(--nav-glass);
         box-shadow: 0 4px 16px rgba(47, 47, 47, 0.06);
         color: var(--text);
         font: inherit;
@@ -1359,6 +1359,7 @@ nav a {
     }
 
     .section-nav--mobile-tools {
+        grid-column: 2;
         align-self: start;
         justify-self: center;
         width: 100%;
@@ -1373,7 +1374,7 @@ nav a {
         min-height: 46px;
         padding-inline: 0.8rem;
         overflow: hidden;
-        background: color-mix(in srgb, var(--surface) 82%, transparent);
+        background: var(--nav-glass);
         box-shadow: 0 5px 20px rgba(32, 31, 28, 0.14);
         text-overflow: ellipsis;
         white-space: nowrap;
