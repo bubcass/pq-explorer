@@ -163,12 +163,19 @@
     .oireachtas-masthead--index { border-color: transparent; background: #3f3e3a; box-shadow: none; color: #fff; }
     :root .oireachtas-masthead--index .oireachtas-masthead__logo { filter: none; }
     .oireachtas-masthead__inner,
-    .oireachtas-masthead--index .oireachtas-masthead__inner { grid-template-columns: auto minmax(0, 1fr) auto; gap: 0.75rem; }
+    .oireachtas-masthead--index .oireachtas-masthead__inner {
+        position: relative;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        gap: 0.75rem;
+    }
     .oireachtas-masthead__home { grid-column: 1; }
     .oireachtas-masthead__home:hover { background: var(--surface-soft); }
     .oireachtas-masthead--index .oireachtas-masthead__home:hover { background: rgba(255, 255, 255, 0.08); }
 
     .oireachtas-masthead__resource {
+        position: absolute;
+        left: 50%;
+        top: 50%;
         display: block;
         grid-column: 2;
         justify-self: center;
@@ -179,6 +186,7 @@
         line-height: 1.2;
         text-align: center;
         white-space: normal;
+        transform: translate(-50%, -50%);
     }
 
     .oireachtas-masthead__resource:hover,
