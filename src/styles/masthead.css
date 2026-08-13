@@ -178,17 +178,17 @@
         left: 0;
         top: 50%;
         display: block;
-        grid-column: 2;
+        grid-column: 1 / -1;
         justify-self: center;
         width: max-content;
         min-width: 0;
-        max-width: min(9rem, calc(100% - 15rem));
+        max-width: min(10.75rem, calc(100% - 13rem));
         margin-inline: auto;
         color: var(--text);
-        font-size: 0.76rem;
+        font-size: 0.84rem;
         line-height: 1.2;
         text-align: center;
-        white-space: normal;
+        white-space: nowrap;
         transform: translateY(-50%);
     }
 
@@ -344,5 +344,13 @@
 
     .oireachtas-footer__links a {
         font-size: 0.86rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .oireachtas-masthead__resource {
+        max-width: calc(100% - 12.5rem);
+        font-size: 0.76rem;
+        white-space: normal;
     }
 }
