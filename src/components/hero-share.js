@@ -135,7 +135,7 @@ function ensureBackToTop() {
   button.setAttribute("aria-label", "Back to top");
   button.title = "Back to top";
   button.hidden = true;
-  button.innerHTML = `<span class="page-back-to-top__chevron" aria-hidden="true">⌃</span>`;
+  button.innerHTML = `<svg class="page-back-to-top__arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="m6.5 14.5 5.5-5.5 5.5 5.5"/></svg>`;
 
   const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
   button.addEventListener("click", () => {
