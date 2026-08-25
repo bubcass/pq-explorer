@@ -1,5 +1,5 @@
-import * as d3 from "npm:d3";
-import * as d3Sankey from "npm:d3-sankey";
+import * as d3 from "npm:d3@7.9.0";
+import * as d3Sankey from "npm:d3-sankey@0.12.3";
 
 export function SankeyChart(
   { nodes, links },

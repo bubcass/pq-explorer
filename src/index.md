@@ -6,7 +6,7 @@ footer: false
 toc: false
 ---
 ```js
-import * as d3 from "npm:d3";
+import * as d3 from "npm:d3@7.9.0";
 import { SankeyChart } from "./components/sankey-chart.js";
 import { packedCircleChart } from "./components/packed-circle-chart.js";
 import { zoomableTreemap } from "./components/zoomable-treemap.js";

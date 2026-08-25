@@ -6,7 +6,7 @@ footer: false
 toc: false
 ---
 ```js
-import * as d3 from "npm:d3";
+import * as d3 from "npm:d3@7.9.0";
 import { bubbleChart } from "./components/bubble-chart.js";
 import { pqControls } from "./components/pq-controls.js";
 import { packedCircleChart } from "./components/packed-circle-chart.js";

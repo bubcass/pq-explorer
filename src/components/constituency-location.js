@@ -1,4 +1,4 @@
-import * as turf from "npm:@turf/turf";
+import * as turf from "npm:@turf/turf@7.3.4";
 
 const STORAGE_KEY = "pq-explorer:selected-constituency";
 

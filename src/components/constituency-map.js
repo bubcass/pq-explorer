@@ -1,5 +1,5 @@
-import L from "npm:leaflet";
-import * as turf from "npm:@turf/turf";
+import L from "npm:leaflet@1.9.4";
+import * as turf from "npm:@turf/turf@7.3.4";
 
 const BLANK_TILE =
   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";

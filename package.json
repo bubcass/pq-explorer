@@ -1,6 +1,7 @@
 {
   "type": "module",
   "private": true,
+  "packageManager": "npm@10.9.2",
   "scripts": {
     "clean": "rimraf src/.observablehq/cache",
     "build": "observable build",
@@ -9,18 +10,19 @@
     "build:data": "node scripts/pq/build-all.js",
     "build:2025": "node scripts/pq/build-year.js 2025",
     "build:2026": "node scripts/pq/build-year.js 2026",
-    "observable": "observable"
-  },
-  "dependencies": {
-    "@observablehq/framework": "^1.13.4",
-    "@turf/turf": "^7.3.4",
-    "leaflet.fullscreen": "^5.3.1"
+    "observable": "observable",
+    "security:audit": "npm audit --audit-level=critical",
+    "security:runtime": "npm audit --omit=dev --audit-level=high",
+    "verify": "npm run build && npm run security:runtime"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "rimraf": "^5.0.5"
+    "@observablehq/framework": "1.13.4",
+    "@turf/turf": "7.3.4",
+    "gh-pages": "6.3.0",
+    "leaflet": "1.9.4",
+    "rimraf": "5.0.10"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.12.0 <25"
   }
 }
