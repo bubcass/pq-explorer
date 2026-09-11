@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Aisling-Dempsey.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 129,
+      "count": 133,
       "headingOptions": [
         "Active Travel",
         "Animal Breeding",
@@ -52,6 +52,7 @@
         "Housing Provision",
         "Housing Schemes",
         "Immigration Policy",
+        "Insurance Coverage",
         "Insurance Industry",
         "International Protection",
         "Job Creation",
@@ -63,6 +64,7 @@
         "Office of Public Works",
         "Official Engagements",
         "Overseas Development Aid",
+        "Parking Provision",
         "Paternity Leave",
         "Pension Provisions",
         "Pharmacy Services",
@@ -70,6 +72,7 @@
         "Public Transport",
         "Regional Development",
         "Rental Sector",
+        "Road Network",
         "Rural Schemes",
         "School Curriculum",
         "School Equipment",
@@ -351,6 +354,10 @@
               {
                 "name": "Tax Code",
                 "value": 1
+              },
+              {
+                "name": "Insurance Coverage",
+                "value": 1
               }
             ]
           },
@@ -430,6 +437,31 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Active Travel",
+                "value": 1
+              },
+              {
+                "name": "Public Transport",
+                "value": 1
+              },
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Parking Provision",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -460,18 +492,14 @@
             ]
           },
           {
-            "name": "Transport",
+            "name": "Climate",
             "children": [
               {
-                "name": "Active Travel",
-                "value": 1
+                "name": "Energy Policy",
+                "value": 2
               },
               {
-                "name": "Public Transport",
-                "value": 1
-              },
-              {
-                "name": "Bus Services",
+                "name": "Legislative Measures",
                 "value": 1
               }
             ]
@@ -490,15 +518,6 @@
             "children": [
               {
                 "name": "Pension Provisions",
-                "value": 2
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Policy",
                 "value": 2
               }
             ]
@@ -1713,6 +1732,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Insurance Coverage",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "789. Deputy Aisling Dempsey asked the Tánaiste and Minister for Finance in the context of the soon to be commenced Insurance (Disregard of Certain Medical History and Miscellaneous Provisions) Act 2026, if an application submitted before the 15 October 2026 commencement date but underwritten after 15 October 2026 will fall under the terms of the new legislation; and if he will make a statement on the matter. [62487/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/789/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1983,6 +2018,91 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Active Travel",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "65. Deputy Aisling Dempsey asked the Minister for Transport if he will re-open the Safe Routes to School Programme for applications; and if he will make a statement on the matter. [15463/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/65/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "123. Deputy Aisling Dempsey asked the Minister for Transport if he will consider the introduction of a fare cap for Young Adult Card holders travelling within commuter zones, similar to the daily and weekly fare caps currently available within the Dublin City Zone; and if he will make a statement on the matter. [15477/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/123/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "189. Deputy Aisling Dempsey asked the Minister for Transport if he is aware of ongoing capacity constraints and overcrowding on the NX bus service between Navan and Dublin, despite the current 20 minute frequency and the introduction of additional peak services; whether he has engaged with the NTA and Bus Éireann with regard to these issues; and if he will consider the introduction of additional NX services originating in Navan town and Johnstown to help alleviate overcrowding and meet growing demand. [15478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/189/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Parking Provision",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "476. Deputy Aisling Dempsey asked the Minister for Transport if he will consider a parking permit scheme for those with hidden disabilities and neurodivergence who may need accommodations; and if he will make a statement on the matter. [62325/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/476/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "478. Deputy Aisling Dempsey asked the Minister for Transport the status of the Alexandra Road roadworks, which are currently restricting freight and rail movements from Tara mines to Dublin Port. [62334/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/478/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -2094,51 +2214,40 @@
             ]
           },
           {
-            "name": "Transport",
+            "name": "Climate",
             "children": [
               {
-                "name": "Active Travel",
+                "name": "Energy Policy",
                 "children": [
                   {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
                     "children": [
                       {
-                        "name": "65. Deputy Aisling Dempsey asked the Minister for Transport if he will re-open the Safe Routes to School Programme for applications; and if he will make a statement on the matter. [15463/26]",
+                        "name": "113. Deputy Aisling Dempsey asked the Minister for Climate, Energy and the Environment if he will report on the work of the National Energy Affordability Taskforce; and if he will make a statement on the matter. [27491/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/65/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/113/"
+                      },
+                      {
+                        "name": "137. Deputy Aisling Dempsey asked the Minister for Climate, Energy and the Environment the steps he is taking to reduce Ireland's dependence on imported fossil fuels; and if he will make a statement on the matter. [27492/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/137/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Public Transport",
+                "name": "Legislative Measures",
                 "children": [
                   {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
                     "children": [
                       {
-                        "name": "123. Deputy Aisling Dempsey asked the Minister for Transport if he will consider the introduction of a fare cap for Young Adult Card holders travelling within commuter zones, similar to the daily and weekly fare caps currently available within the Dublin City Zone; and if he will make a statement on the matter. [15477/26]",
+                        "name": "180. Deputy Aisling Dempsey asked the Minister for Climate, Energy and the Environment if he is satisfied that current legislation adequately addresses the use of ultrasonic animal deterrent devices, particularly in built up areas; and if he will make a statement on the matter. [62324/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/123/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "189. Deputy Aisling Dempsey asked the Minister for Transport if he is aware of ongoing capacity constraints and overcrowding on the NX bus service between Navan and Dublin, despite the current 20 minute frequency and the introduction of additional peak services; whether he has engaged with the NTA and Bus Éireann with regard to these issues; and if he will consider the introduction of additional NX services originating in Navan town and Johnstown to help alleviate overcrowding and meet growing demand. [15478/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/189/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/180/"
                       }
                     ]
                   }
@@ -2203,32 +2312,6 @@
                         "name": "189. Deputy Aisling Dempsey asked the Minister for Culture, Communications and Sport when he will deal with the proposed pension increase outstanding for retired postal workers; if he will treat this matter urgently as it is causing hardship; and if he will make a statement on the matter. [10894/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/189/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "113. Deputy Aisling Dempsey asked the Minister for Climate, Energy and the Environment if he will report on the work of the National Energy Affordability Taskforce; and if he will make a statement on the matter. [27491/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/113/"
-                      },
-                      {
-                        "name": "137. Deputy Aisling Dempsey asked the Minister for Climate, Energy and the Environment the steps he is taking to reduce Ireland's dependence on imported fossil fuels; and if he will make a statement on the matter. [27492/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/137/"
                       }
                     ]
                   }
@@ -3419,6 +3502,42 @@
           "heading": "Programme for Government",
           "question": "3190. Deputy Aisling Dempsey asked the Minister for Health the status of the programme for Government commitment to examine the introduction of free pelvic floor physical therapy sessions for women after childbirth; and if she will make a statement on the matter. [55180/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3190/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 180,
+          "department": "Climate",
+          "heading": "Legislative Measures",
+          "question": "180. Deputy Aisling Dempsey asked the Minister for Climate, Energy and the Environment if he is satisfied that current legislation adequately addresses the use of ultrasonic animal deterrent devices, particularly in built up areas; and if he will make a statement on the matter. [62324/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/180/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 476,
+          "department": "Transport",
+          "heading": "Parking Provision",
+          "question": "476. Deputy Aisling Dempsey asked the Minister for Transport if he will consider a parking permit scheme for those with hidden disabilities and neurodivergence who may need accommodations; and if he will make a statement on the matter. [62325/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/476/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 478,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "478. Deputy Aisling Dempsey asked the Minister for Transport the status of the Alexandra Road roadworks, which are currently restricting freight and rail movements from Tara mines to Dublin Port. [62334/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/478/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 789,
+          "department": "Finance",
+          "heading": "Insurance Coverage",
+          "question": "789. Deputy Aisling Dempsey asked the Tánaiste and Minister for Finance in the context of the soon to be commenced Insurance (Disregard of Certain Medical History and Miscellaneous Provisions) Act 2026, if an application submitted before the 15 October 2026 commencement date but underwritten after 15 October 2026 will fall under the terms of the new legislation; and if he will make a statement on the matter. [62487/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/789/",
           "questionType": "written"
         }
       ]

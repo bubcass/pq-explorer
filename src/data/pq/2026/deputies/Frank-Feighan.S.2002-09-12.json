@@ -9,10 +9,11 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Frank-Feighan.S.2002-09-12/image/large",
   "types": {
     "all": {
-      "count": 9,
+      "count": 10,
       "headingOptions": [
         "Departmental Administrative Arrangements",
         "Departmental Inquiries",
+        "Departmental Schemes",
         "Energy Infrastructure",
         "Haulage Industry",
         "School Meals Programme",
@@ -61,6 +62,19 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Haulage Industry",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -83,15 +97,6 @@
             "children": [
               {
                 "name": "Wastewater Treatment",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Haulage Industry",
                 "value": 1
               }
             ]
@@ -192,6 +197,43 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Haulage Industry",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "53. Deputy Frankie Feighan asked the Minister for Transport the approximate timeframe for the processing and payment of an application for a person (details supplied) under the road transporters support scheme; and if he will make a statement on the matter. [52124/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/53/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "381. Deputy Frankie Feighan asked the Minister for Transport the approximate timeframe for the processing of an application for a person (details supplied) under the road transporters support scheme; if the application is still live; if the application requires further information; when payment will be issued; and if he will make a statement on the matter. [60348/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/381/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -247,27 +289,6 @@
                         "name": "433. Deputy Frankie Feighan asked the Minister for Housing, Local Government and Heritage if his Department has reviewed the current criteria around the T-test (subsurface percolation test), which assesses subsoil permeability for an on-site wastewater treatment system (e.g., a septic tank or treatment plant) as part of the on-going review around rural planning guidelines (details supplied). [50901/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/433/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Haulage Industry",
-                "children": [
-                  {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
-                    "children": [
-                      {
-                        "name": "53. Deputy Frankie Feighan asked the Minister for Transport the approximate timeframe for the processing and payment of an application for a person (details supplied) under the road transporters support scheme; and if he will make a statement on the matter. [52124/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/53/"
                       }
                     ]
                   }
@@ -357,6 +378,15 @@
           "heading": "Haulage Industry",
           "question": "53. Deputy Frankie Feighan asked the Minister for Transport the approximate timeframe for the processing and payment of an application for a person (details supplied) under the road transporters support scheme; and if he will make a statement on the matter. [52124/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/53/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 381,
+          "department": "Transport",
+          "heading": "Departmental Schemes",
+          "question": "381. Deputy Frankie Feighan asked the Minister for Transport the approximate timeframe for the processing of an application for a person (details supplied) under the road transporters support scheme; if the application is still live; if the application requires further information; when payment will be issued; and if he will make a statement on the matter. [60348/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/381/",
           "questionType": "written"
         }
       ]
