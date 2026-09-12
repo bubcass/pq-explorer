@@ -77,7 +77,12 @@ export function mountMastheadActions({title, text} = {}) {
   };
 
   const button = createShareButton("oireachtas-masthead__action");
-  actions.append(button, status);
+  const more = document.createElement("button");
+  more.type = "button"; more.className = "oireachtas-masthead__action oireachtas-masthead__more"; more.setAttribute("aria-label", "More page actions"); more.setAttribute("aria-expanded", "false");
+  more.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>';
+  const menu = document.createElement("div"); menu.className = "oireachtas-masthead__menu"; menu.hidden = true;
+  button.classList.add("oireachtas-masthead__menu-action"); button.insertAdjacentHTML("beforeend", "<span>Share</span>"); menu.append(button);
+  more.addEventListener("click", () => { menu.hidden = !menu.hidden; more.setAttribute("aria-expanded", String(!menu.hidden)); }); actions.append(more, menu, status);
 
   const mobileMenu = document.querySelector(".mobile-reading-tools__menu");
   if (mobileMenu) {
