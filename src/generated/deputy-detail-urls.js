@@ -302,6 +302,7 @@ export const deputyDetailUrls = {
     "Timmy-Dooley.S.2002-09-12": import.meta.resolve("../data/pq/2026/deputies/Timmy-Dooley.S.2002-09-12.json"),
     "Tom-Brabazon.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/Tom-Brabazon.D.2024-11-29.json"),
     "Tony-McCormack.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/Tony-McCormack.D.2024-11-29.json"),
+    "Verona-Murphy.D.2020-02-08": import.meta.resolve("../data/pq/2026/deputies/Verona-Murphy.D.2020-02-08.json"),
     "William-Aird.D.2024-11-29": import.meta.resolve("../data/pq/2026/deputies/William-Aird.D.2024-11-29.json"),
     "Willie-O'Dea.D.1982-03-09": import.meta.resolve("../data/pq/2026/deputies/Willie-O'Dea.D.1982-03-09.json")
   }

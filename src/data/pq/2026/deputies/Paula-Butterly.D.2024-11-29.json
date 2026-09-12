@@ -9,10 +9,11 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paula-Butterly.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 215,
+      "count": 238,
       "headingOptions": [
         "An Garda Síochána",
         "Apprenticeship Programmes",
+        "Budget 2027",
         "Bus Services",
         "Childcare Services",
         "Children in Care",
@@ -23,6 +24,7 @@
         "Court Accommodation",
         "Court Judgments",
         "Court Procedures",
+        "Courts Service",
         "Covid-19 Pandemic Supports",
         "Crime Prevention",
         "Culture Policy",
@@ -55,6 +57,7 @@
         "EU Regulations",
         "Export Controls",
         "Fire Service",
+        "Fishing Industry",
         "Food Promotion",
         "Food Safety",
         "Foreign Policy",
@@ -67,6 +70,7 @@
         "Hospital Procedures",
         "Hospital Waiting Lists",
         "Housing Policy",
+        "Housing Provision",
         "Housing Schemes",
         "Illicit Trade",
         "Immigration Support Services",
@@ -86,13 +90,16 @@
         "National Council for Special Education",
         "National Development Plan",
         "Nursing Homes",
+        "Oideachas trí Ghaeilge",
         "Online Safety",
+        "Pension Provisions",
         "Planning Issues",
         "Poultry Sector",
         "Prison Service",
         "Public Sector Pensions",
         "Public Transport",
         "Renewable Energy Generation",
+        "Rental Sector",
         "Road Network",
         "Road Projects",
         "School Accommodation",
@@ -104,6 +111,7 @@
         "Schools Refurbishment",
         "Social Welfare Benefits",
         "Social Welfare Eligibility",
+        "Social Welfare Fraud",
         "Social Welfare Payments",
         "Social Welfare Schemes",
         "Special Educational Needs",
@@ -132,7 +140,7 @@
         "topHeading": "Departmental Correspondence",
         "topHeadingCount": 10,
         "topDepartment": "Education",
-        "topDepartmentCount": 51
+        "topDepartmentCount": 54
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -140,6 +148,10 @@
           {
             "name": "Education",
             "children": [
+              {
+                "name": "School Accommodation",
+                "value": 6
+              },
               {
                 "name": "Schools Building Projects",
                 "value": 5
@@ -149,11 +161,11 @@
                 "value": 5
               },
               {
-                "name": "School Accommodation",
-                "value": 5
+                "name": "Education Policy",
+                "value": 4
               },
               {
-                "name": "Education Policy",
+                "name": "School Staff",
                 "value": 4
               },
               {
@@ -166,10 +178,6 @@
               },
               {
                 "name": "Special Educational Needs",
-                "value": 3
-              },
-              {
-                "name": "School Staff",
                 "value": 3
               },
               {
@@ -238,6 +246,79 @@
               },
               {
                 "name": "School Admissions",
+                "value": 1
+              },
+              {
+                "name": "Oideachas trí Ghaeilge",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Domestic Violence",
+                "value": 10
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 8
+              },
+              {
+                "name": "Visa Applications",
+                "value": 3
+              },
+              {
+                "name": "Legal Aid",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Payments",
+                "value": 2
+              },
+              {
+                "name": "Courts Service",
+                "value": 2
+              },
+              {
+                "name": "Prison Service",
+                "value": 1
+              },
+              {
+                "name": "Citizenship Applications",
+                "value": 1
+              },
+              {
+                "name": "Crime Prevention",
+                "value": 1
+              },
+              {
+                "name": "Export Controls",
+                "value": 1
+              },
+              {
+                "name": "Court Accommodation",
+                "value": 1
+              },
+              {
+                "name": "International Protection",
+                "value": 1
+              },
+              {
+                "name": "Court Procedures",
+                "value": 1
+              },
+              {
+                "name": "Court Judgments",
+                "value": 1
+              },
+              {
+                "name": "Legislative Programme",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
                 "value": 1
               }
             ]
@@ -328,72 +409,19 @@
             ]
           },
           {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Domestic Violence",
-                "value": 10
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 8
-              },
-              {
-                "name": "Legal Aid",
-                "value": 2
-              },
-              {
-                "name": "Visa Applications",
-                "value": 2
-              },
-              {
-                "name": "Prison Service",
-                "value": 1
-              },
-              {
-                "name": "Citizenship Applications",
-                "value": 1
-              },
-              {
-                "name": "Crime Prevention",
-                "value": 1
-              },
-              {
-                "name": "Export Controls",
-                "value": 1
-              },
-              {
-                "name": "Court Accommodation",
-                "value": 1
-              },
-              {
-                "name": "International Protection",
-                "value": 1
-              },
-              {
-                "name": "Court Procedures",
-                "value": 1
-              },
-              {
-                "name": "Court Judgments",
-                "value": 1
-              },
-              {
-                "name": "Legislative Programme",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Housing",
             "children": [
               {
-                "name": "Housing Schemes",
-                "value": 3
+                "name": "Housing Policy",
+                "value": 4
               },
               {
-                "name": "Housing Policy",
-                "value": 2
+                "name": "Housing Schemes",
+                "value": 4
+              },
+              {
+                "name": "Housing Provision",
+                "value": 3
               },
               {
                 "name": "Defective Building Materials",
@@ -429,6 +457,14 @@
               },
               {
                 "name": "Vacant Properties",
+                "value": 1
+              },
+              {
+                "name": "Rental Sector",
+                "value": 1
+              },
+              {
+                "name": "Legislative Measures",
                 "value": 1
               }
             ]
@@ -569,6 +605,43 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Fraud",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 1
+              },
+              {
+                "name": "International Protection",
+                "value": 1
+              },
+              {
+                "name": "Children in Care",
+                "value": 1
+              },
+              {
+                "name": "Budget 2027",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Foreign",
             "children": [
               {
@@ -673,31 +746,6 @@
             ]
           },
           {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Schemes",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "value": 1
-              },
-              {
-                "name": "International Protection",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "value": 1
-              },
-              {
-                "name": "Children in Care",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
               {
@@ -736,6 +784,27 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Poultry Sector",
+                "value": 1
+              },
+              {
+                "name": "Food Promotion",
+                "value": 1
+              },
+              {
+                "name": "Tillage Sector",
+                "value": 1
+              },
+              {
+                "name": "Fishing Industry",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -751,23 +820,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Poultry Sector",
-                "value": 1
-              },
-              {
-                "name": "Food Promotion",
-                "value": 1
-              },
-              {
-                "name": "Tillage Sector",
-                "value": 1
-              }
-            ]
           }
         ]
       },
@@ -777,6 +829,53 @@
           {
             "name": "Education",
             "children": [
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "344. Deputy Paula Butterly asked the Minister for Education and Youth the current status of the additional school accommodation applications submitted by a school (details supplied) in 2023 and again in 2025; the stage each application is presently at within the Planning and Building Unit; and when the school can expect a formal decision. [17953/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/344/"
+                      },
+                      {
+                        "name": "345. Deputy Paula Butterly asked the Minister for Education and Youth if interim modular accommodation will be approved for a school (details supplied) as an urgent measure ahead of September 2026, in light of projected enrolment growth and the school’s current lack of adequate teaching space. [17954/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/345/"
+                      },
+                      {
+                        "name": "346. Deputy Paula Butterly asked the Minister for Education and Youth the reason NCSE withdrew its October 2023 commitment to provide modular accommodation for two autism classes at a school (details supplied); and if she will address the discrepancy between the NCSE’s stated position of “no demand” locally and the recent sanctioning of a special class in a neighbouring school. [17955/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/346/"
+                      },
+                      {
+                        "name": "347. Deputy Paula Butterly asked the Minister for Education and Youth if she is satisfied that the current accommodation at a school (details supplied) complies with her Department’s technical guidance documents, including TGD-022, TGD-020 and TGD-026; and if not, the immediate actions which will be taken to ensure compliance and safeguard pupil and staff welfare. [17956/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/347/"
+                      },
+                      {
+                        "name": "348. Deputy Paula Butterly asked the Minister for Education and Youth when a school (details supplied) last received capital investment from her Department; if she is aware that the 2000 extension is now affected by damp, leaks and mould; and the remedial works which will be undertaken to address these issues. [17957/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/348/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1463. Deputy Paula Butterly asked the Minister for Education and Youth her plans in the short and medium term future to develop primary/secondary schools in Haggardstown, County Louth. [63202/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1463/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Schools Building Projects",
                 "children": [
@@ -886,42 +985,6 @@
                 ]
               },
               {
-                "name": "School Accommodation",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "344. Deputy Paula Butterly asked the Minister for Education and Youth the current status of the additional school accommodation applications submitted by a school (details supplied) in 2023 and again in 2025; the stage each application is presently at within the Planning and Building Unit; and when the school can expect a formal decision. [17953/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/344/"
-                      },
-                      {
-                        "name": "345. Deputy Paula Butterly asked the Minister for Education and Youth if interim modular accommodation will be approved for a school (details supplied) as an urgent measure ahead of September 2026, in light of projected enrolment growth and the school’s current lack of adequate teaching space. [17954/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/345/"
-                      },
-                      {
-                        "name": "346. Deputy Paula Butterly asked the Minister for Education and Youth the reason NCSE withdrew its October 2023 commitment to provide modular accommodation for two autism classes at a school (details supplied); and if she will address the discrepancy between the NCSE’s stated position of “no demand” locally and the recent sanctioning of a special class in a neighbouring school. [17955/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/346/"
-                      },
-                      {
-                        "name": "347. Deputy Paula Butterly asked the Minister for Education and Youth if she is satisfied that the current accommodation at a school (details supplied) complies with her Department’s technical guidance documents, including TGD-022, TGD-020 and TGD-026; and if not, the immediate actions which will be taken to ensure compliance and safeguard pupil and staff welfare. [17956/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/347/"
-                      },
-                      {
-                        "name": "348. Deputy Paula Butterly asked the Minister for Education and Youth when a school (details supplied) last received capital investment from her Department; if she is aware that the 2000 extension is now affected by damp, leaks and mould; and the remedial works which will be undertaken to address these issues. [17957/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/348/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Education Policy",
                 "children": [
                   {
@@ -959,6 +1022,55 @@
                         "name": "17. Deputy Paula Butterly asked the Minister for Education and Youth if she will consider the introduction of a national programme for post-primary schools aimed at educating students about domestic violence and gender-based violence; and if she will make a statement on the matter. [52669/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/17/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "434. Deputy Paula Butterly asked the Minister for Education and Youth if a response will issue to matters raised in correspondence (details supplied); and if she will make a statement on the matter. [33035/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/434/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "590. Deputy Paula Butterly asked the Minister for Education and Youth if she will address the ongoing inequities in the pay for principals of special schools given that principal allowances are currently calculated solely on the number of teaching staff, despite special school principals routinely managing significantly larger multidisciplinary teams. [39544/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/590/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "936. Deputy Paula Butterly asked the Minister for Education and Youth further to Parliamentary Question No. 590 of 26 May 2026, the specific additional measures she is considering to support principals of special schools in recognition of the unique complexity and demands of their roles; if she will outline any proposals to provide differentiated allowances, enhanced administrative supports, or reduced teaching commitments specifically for special school principals (details supplied); and if she will make a statement on the matter. [43677/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/936/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1480. Deputy Paula Butterly asked the Minister for Education and Youth if she will clarify whether job-sharing teachers will be permitted to undertake substitute teaching work on their non-working days during the 2026/27 school year; if a decision on this matter has been made by her Department; if discussions have taken place, or are ongoing, with education stakeholders including the INTO regarding the continuation of the temporary arrangements that have applied in recent years; when a formal announcement can be expected; and if she will make a statement on the matter. [63323/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1480/"
                       }
                     ]
                   }
@@ -1067,44 +1179,6 @@
                         "name": "508. Deputy Paula Butterly asked the Minister for Education and Youth to respond to correspondence (details supplied); and if she will make a statement on the matter. [45731/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/508/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Staff",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "434. Deputy Paula Butterly asked the Minister for Education and Youth if a response will issue to matters raised in correspondence (details supplied); and if she will make a statement on the matter. [33035/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/434/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "590. Deputy Paula Butterly asked the Minister for Education and Youth if she will address the ongoing inequities in the pay for principals of special schools given that principal allowances are currently calculated solely on the number of teaching staff, despite special school principals routinely managing significantly larger multidisciplinary teams. [39544/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/590/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "936. Deputy Paula Butterly asked the Minister for Education and Youth further to Parliamentary Question No. 590 of 26 May 2026, the specific additional measures she is considering to support principals of special schools in recognition of the unique complexity and demands of their roles; if she will outline any proposals to provide differentiated allowances, enhanced administrative supports, or reduced teaching commitments specifically for special school principals (details supplied); and if she will make a statement on the matter. [43677/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/936/"
                       }
                     ]
                   }
@@ -1410,6 +1484,424 @@
                         "name": "1130. Deputy Paula Butterly asked the Minister for Education and Youth the reason the date for the opening of the online portal for applications for special school places for the 2027-2028 school year has been moved to September; to outline the rationale for this change; and if she will make a statement on the matter. [55044/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1130/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Oideachas trí Ghaeilge",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1095. Deputy Paula Butterly asked the Minister for Education and Youth whether there are any plans to establish a secondary school Gaelcholáiste in the Drogheda area to meet current and projected demand for Irish secondary school education; whether her Department has received any applications, expressions of interest or demographic assessments in relation to the establishment of such a school; and if she will make a statement on the matter. [59603/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1095/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Domestic Violence",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2346. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the current status of the recommendation contained in the study on familicide and domestic and family violence death reviews to establish a statutory domestic and family violence death review system; whether a preferred governance model has been identified; the timeline for bringing legislative proposals before Government; and if he will make a statement on the matter. [57921/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2346/"
+                      },
+                      {
+                        "name": "2347. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of meetings held by the interdepartmental group established to oversee implementation of the recommendations of the study on familicide and domestic and family violence death reviews; the departments and agencies represented; whether meeting minutes or progress reports will be published; and if he will make a statement on the matter. [57922/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2347/"
+                      },
+                      {
+                        "name": "2348. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if drafting instructions have been issued to the office of parliamentary counsel in respect of legislation to establish domestic and family violence death reviews; if he will provide an indicative timeline for publication of a general scheme or heads of bill; and if he will make a statement on the matter. [57923/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2348/"
+                      },
+                      {
+                        "name": "2349. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration whether consideration has been given to commencing a pilot domestic and family violence death review process in advance of primary legislation; and if he will make a statement on the matter. [57924/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2349/"
+                      },
+                      {
+                        "name": "2350. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the measures being taken to implement the recommendation that bereaved families should be meaningfully involved in domestic and family violence death reviews; whether a family advisory mechanism has been established; the number of family representatives that have participated in the implementation process to date; and if he will make a statement on the matter. [57925/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2350/"
+                      },
+                      {
+                        "name": "2351. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the progress made toward the recommendation to establish a national database of domestic and family violence deaths; the agencies participating in its design; whether the database will include data relating to coercive control, prior Garda interactions, court orders and other recorded risk factors; and if he will make a statement on the matter. [57926/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2351/"
+                      },
+                      {
+                        "name": "2352. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the progress made in implementing the recommendation to establish Regional Multi-Agency Critical Planning and Response (MACPAR) Teams following incidents of domestic homicide or familicide; whether any region is currently operating such a model; if funding has been allocated for nationwide rollout; and if he will make a statement on the matter. [57927/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2352/"
+                      },
+                      {
+                        "name": "2353. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of the 195 recommendations contained in the Study on Familicide and Domestic and Family Violence Death Reviews have been fully implemented, partially implemented, commenced but not completed, not yet commenced; and if he will publish an implementation tracker for each recommendation; and if he will make a statement on the matter. [57928/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2353/"
+                      },
+                      {
+                        "name": "2354. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the level of funding allocated since publication of the Study on Familicide and Domestic and Family Violence Death Reviews for implementation of a Domestic and Family Violence Death Review system; whether a dedicated budget line exists; the estimated annual cost of operating the system once established; and if he will make a statement on the matter. [57929/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2354/"
+                      },
+                      {
+                        "name": "2355. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the mechanisms currently in place to identify systemic learning from domestic homicides and familicides pending the establishment of a formal Domestic and Family Violence Death Review System; whether any multi-agency reviews of domestic homicide cases have taken place since publication of the Study in 2023; and if he will make a statement on the matter. [57930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2355/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1382. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of members of An Garda Síochána who resigned, as opposed to retired for each year from 1 January 2022 to 4 January 2026, broken down by rank ,in tabular form; and if he will make a statement on the matter. [20426/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1382/"
+                      },
+                      {
+                        "name": "1383. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of members of An Garda Síochána who were dismissed in each year from 2022 to 2026, with a breakdown by rank and by the reason for dismissal; and if he will make a statement on the matter. [20427/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1383/"
+                      },
+                      {
+                        "name": "1384. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of Garda members or Garda staff who have been accused of sexual assault and/or rape from 1 January 2019 to 1 March 2026; the rank or job title of each accused person; the number of cases investigated; the outcomes, including any disciplinary or criminal proceedings initiated, in tabular form; and if he will make a statement on the matter. [20428/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1384/"
+                      },
+                      {
+                        "name": "1385. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration in respect of all allegations of sexual assault, rape or sexual harassment involving Garda members or staff between 2019 and 2026, the number that proceeded to disciplinary action, suspension, dismissal, criminal investigation, GSOC referral, prosecution, or other proceedings; and if he will make a statement on the matter. [20429/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1385/"
+                      },
+                      {
+                        "name": "1386. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of Garda members or staff investigated for criminal or disciplinary offences, broken down by the nature of the alleged offence, for each year from 2019 to date in 2026; and if he will make a statement on the matter. [20430/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1386/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "35. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the spend to date on the counter drone technology for An Garda Síochána; and if he will make a statement on the matter. [20109/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/35/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "821. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider establishing a scheme within An Garda Síochána that would allow retiring Garda members to continue serving on a part-time or reduced hours basis, similar to the arrangements available to retired teachers who may return as substitute or fixed term teachers; and if he will make a statement on the matter. [30048/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/821/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2202. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of reported breaches of barring orders and interim barring orders recorded by An Garda Síochána in each of the past five years; the number of prosecutions and convictions arising from such breaches; the Garda division and county breakdown of these figures; and if he will make a statement on the matter. [55899/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2202/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "573. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration to respond to correspondence received (details supplied) in relation to Irish Residence Permit applications; and if he will make a statement on the matter. [48969/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/573/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "599. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the measures being taken to address delays in the processing of re-entry visas (details supplied); the current average waiting time for applicants; the number of applications awaiting decision for more than three months; whether consideration is being given to reintroducing or expanding the use of travel certificates or other temporary travel arrangements for persons awaiting the issuance of a re-entry visa who have urgent travel commitment; and if he will make a statement on the matter. [51694/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/599/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2348. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the timeframe within which an approved employment permit is notified from the Department of Enterprise, Tourism and Employment for the purposes of a visa application; the average time currently taken between employment permit approval and visa processing commencing; and if he will make a statement on the matter. [59584/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2348/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legal Aid",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "10. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration to outline the proposed changes to the legal aid scheme; how these proposals are consistent with the programme for Government commitment to restore legal fees; to clarify the extent to which relevant stakeholders were consulted prior to the publication of these proposals; and if he will make a statement on the matter. [35591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/10/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2207. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the total expenditure on criminal legal aid in each of the past five years, broken down by the District Court, Circuit Court, High Court, Court of Appeal and Supreme Court, in tabular form; and if he will make a statement on the matter. [56081/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2207/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2161. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider introducing attachment orders, or a similar mechanism, on social welfare payments for persons convicted of ten or more offences; and if he will make a statement on the matter. [60064/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2161/"
+                      },
+                      {
+                        "name": "2162. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider introducing attachment orders on social welfare payments for persons who breach maintenance orders; and if he will make a statement on the matter. [60067/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2162/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Courts Service",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2163. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the timeframe for court reform, including but not limited to increasing the number of judges, and accelerating the establishment and operation of the family courts; and if he will make a statement on the matter. [60073/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2163/"
+                      },
+                      {
+                        "name": "2165. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider removing responsibility for the preparation and prosecution of District Court matters from members of An Garda Síochána, expanding the role and resources of the State prosecutions service to assume these functions; and if he will make a statement on the matter. [60102/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2165/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prison Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "751. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of persons currently in prison serving short sentences; the number of persons currently on remand in prison; the number of those persons on remand in prison who were already in prison serving a sentence for another offence; the length of time they have been in custody, broken down by 0–1 years, 1–2 years, 2–5 years, over 5 years, in tabular form; and if he will make a statement on the matter. [4322/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/751/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Applications",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "466. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider introducing a policy whereby applications for citizenship made by members of the same family could be processed and approved simultaneously, in order to avoid delays in decision-making across related applications. [5170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/466/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Crime Prevention",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "181. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the way in which the Rural Safety Plan 2025–2027 is being implemented to address the rise in burglaries and theft of farm equipment; and if he will make a statement on the matter. [5962/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/181/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Export Controls",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "853. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration to address matters raised in correspondence (details supplied) in relation to the continuous export licence; and if he will make a statement on the matter. [30551/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/853/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Court Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "7. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the current status of funding allocated for essential repair and flood remediation works at Drogheda Courthouse following the recent flooding that resulted in the transfer of District Court sittings to Dundalk Courthouse in January 2025; the timeframe for completion of those works; the total amount of capital funding allocated for courthouse repair, maintenance and flood prevention works nationally in 2025; and if he will make a statement on the matter. [35785/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/7/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "723. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the supports that are currently in place and provided by his Department or agencies within his Department to support BOTPs and Ukrainian citizens; and if he will make a statement on the matter. [36892/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/723/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Court Procedures",
+                "children": [
+                  {
+                    "name": "Wednesday, 1 July",
+                    "date_iso": "2026-07-01",
+                    "children": [
+                      {
+                        "name": "27. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will confirm whether the proposed reforms will create a presumption of non-disclosure of counselling records in rape and sexual offence trials; the legal test that will apply before any such records can be disclosed; and if he will make a statement on the matter. [49374/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/27/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Court Judgments",
+                "children": [
+                  {
+                    "name": "Wednesday, 1 July",
+                    "date_iso": "2026-07-01",
+                    "children": [
+                      {
+                        "name": "36. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of prosecutions under the Criminal Justice (Engagement of Children in Criminal Activity) Act 2024 since its commencement in May 2024; and if he will make a statement on the matter. [49370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/36/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Programme",
+                "children": [
+                  {
+                    "name": "Wednesday, 1 July",
+                    "date_iso": "2026-07-01",
+                    "children": [
+                      {
+                        "name": "219. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the current status of legislative provisions to restrict the disclosure of counselling notes in rape and sexual offence trials; the expected timeline for enactment and commencement; and if he will make a statement on the matter. [49373/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/219/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2164. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will amend section 12 of the Criminal Justice (Theft and Fraud Offences) Act 2001 to provide that any vehicle suspected of having been used in the commission of a crime be automatically forfeited to the State; and if he will make a statement on the matter. [60091/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2164/"
                       }
                     ]
                   }
@@ -1878,341 +2370,51 @@
             ]
           },
           {
-            "name": "Justice",
+            "name": "Housing",
             "children": [
               {
-                "name": "Domestic Violence",
+                "name": "Housing Policy",
                 "children": [
                   {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
                     "children": [
                       {
-                        "name": "2346. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the current status of the recommendation contained in the study on familicide and domestic and family violence death reviews to establish a statutory domestic and family violence death review system; whether a preferred governance model has been identified; the timeline for bringing legislative proposals before Government; and if he will make a statement on the matter. [57921/26]",
+                        "name": "1700. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will review the regulations governing the purchase of social housing local authority homes so that it will require tenants to wait 30 years before becoming eligible to purchase their home; and if he will make a statement on the matter. [59850/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2346/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1700/"
                       },
                       {
-                        "name": "2347. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of meetings held by the interdepartmental group established to oversee implementation of the recommendations of the study on familicide and domestic and family violence death reviews; the departments and agencies represented; whether meeting minutes or progress reports will be published; and if he will make a statement on the matter. [57922/26]",
+                        "name": "1705. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will consider introducing legislation or regulations to ensure that any person who is the subject of a barring order is removed from the tenancy agreement relating to a local authority social housing dwelling; and if he will make a statement on the matter. [59893/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2347/"
-                      },
-                      {
-                        "name": "2348. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if drafting instructions have been issued to the office of parliamentary counsel in respect of legislation to establish domestic and family violence death reviews; if he will provide an indicative timeline for publication of a general scheme or heads of bill; and if he will make a statement on the matter. [57923/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2348/"
-                      },
-                      {
-                        "name": "2349. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration whether consideration has been given to commencing a pilot domestic and family violence death review process in advance of primary legislation; and if he will make a statement on the matter. [57924/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2349/"
-                      },
-                      {
-                        "name": "2350. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the measures being taken to implement the recommendation that bereaved families should be meaningfully involved in domestic and family violence death reviews; whether a family advisory mechanism has been established; the number of family representatives that have participated in the implementation process to date; and if he will make a statement on the matter. [57925/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2350/"
-                      },
-                      {
-                        "name": "2351. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the progress made toward the recommendation to establish a national database of domestic and family violence deaths; the agencies participating in its design; whether the database will include data relating to coercive control, prior Garda interactions, court orders and other recorded risk factors; and if he will make a statement on the matter. [57926/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2351/"
-                      },
-                      {
-                        "name": "2352. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the progress made in implementing the recommendation to establish Regional Multi-Agency Critical Planning and Response (MACPAR) Teams following incidents of domestic homicide or familicide; whether any region is currently operating such a model; if funding has been allocated for nationwide rollout; and if he will make a statement on the matter. [57927/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2352/"
-                      },
-                      {
-                        "name": "2353. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of the 195 recommendations contained in the Study on Familicide and Domestic and Family Violence Death Reviews have been fully implemented, partially implemented, commenced but not completed, not yet commenced; and if he will publish an implementation tracker for each recommendation; and if he will make a statement on the matter. [57928/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2353/"
-                      },
-                      {
-                        "name": "2354. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the level of funding allocated since publication of the Study on Familicide and Domestic and Family Violence Death Reviews for implementation of a Domestic and Family Violence Death Review system; whether a dedicated budget line exists; the estimated annual cost of operating the system once established; and if he will make a statement on the matter. [57929/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2354/"
-                      },
-                      {
-                        "name": "2355. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the mechanisms currently in place to identify systemic learning from domestic homicides and familicides pending the establishment of a formal Domestic and Family Violence Death Review System; whether any multi-agency reviews of domestic homicide cases have taken place since publication of the Study in 2023; and if he will make a statement on the matter. [57930/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2355/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1382. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of members of An Garda Síochána who resigned, as opposed to retired for each year from 1 January 2022 to 4 January 2026, broken down by rank ,in tabular form; and if he will make a statement on the matter. [20426/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1382/"
-                      },
-                      {
-                        "name": "1383. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of members of An Garda Síochána who were dismissed in each year from 2022 to 2026, with a breakdown by rank and by the reason for dismissal; and if he will make a statement on the matter. [20427/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1383/"
-                      },
-                      {
-                        "name": "1384. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of Garda members or Garda staff who have been accused of sexual assault and/or rape from 1 January 2019 to 1 March 2026; the rank or job title of each accused person; the number of cases investigated; the outcomes, including any disciplinary or criminal proceedings initiated, in tabular form; and if he will make a statement on the matter. [20428/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1384/"
-                      },
-                      {
-                        "name": "1385. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration in respect of all allegations of sexual assault, rape or sexual harassment involving Garda members or staff between 2019 and 2026, the number that proceeded to disciplinary action, suspension, dismissal, criminal investigation, GSOC referral, prosecution, or other proceedings; and if he will make a statement on the matter. [20429/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1385/"
-                      },
-                      {
-                        "name": "1386. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of Garda members or staff investigated for criminal or disciplinary offences, broken down by the nature of the alleged offence, for each year from 2019 to date in 2026; and if he will make a statement on the matter. [20430/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1386/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1705/"
                       }
                     ]
                   },
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "35. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the spend to date on the counter drone technology for An Garda Síochána; and if he will make a statement on the matter. [20109/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/35/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "821. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider establishing a scheme within An Garda Síochána that would allow retiring Garda members to continue serving on a part-time or reduced hours basis, similar to the arrangements available to retired teachers who may return as substitute or fixed term teachers; and if he will make a statement on the matter. [30048/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/821/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2202. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of reported breaches of barring orders and interim barring orders recorded by An Garda Síochána in each of the past five years; the number of prosecutions and convictions arising from such breaches; the Garda division and county breakdown of these figures; and if he will make a statement on the matter. [55899/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2202/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legal Aid",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "10. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration to outline the proposed changes to the legal aid scheme; how these proposals are consistent with the programme for Government commitment to restore legal fees; to clarify the extent to which relevant stakeholders were consulted prior to the publication of these proposals; and if he will make a statement on the matter. [35591/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/10/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2207. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the total expenditure on criminal legal aid in each of the past five years, broken down by the District Court, Circuit Court, High Court, Court of Appeal and Supreme Court, in tabular form; and if he will make a statement on the matter. [56081/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2207/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "573. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration to respond to correspondence received (details supplied) in relation to Irish Residence Permit applications; and if he will make a statement on the matter. [48969/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/573/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "599. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the measures being taken to address delays in the processing of re-entry visas (details supplied); the current average waiting time for applicants; the number of applications awaiting decision for more than three months; whether consideration is being given to reintroducing or expanding the use of travel certificates or other temporary travel arrangements for persons awaiting the issuance of a re-entry visa who have urgent travel commitment; and if he will make a statement on the matter. [51694/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/599/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Prison Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "751. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of persons currently in prison serving short sentences; the number of persons currently on remand in prison; the number of those persons on remand in prison who were already in prison serving a sentence for another offence; the length of time they have been in custody, broken down by 0–1 years, 1–2 years, 2–5 years, over 5 years, in tabular form; and if he will make a statement on the matter. [4322/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/751/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Citizenship Applications",
-                "children": [
                   {
                     "name": "Thursday, 22 January",
                     "date_iso": "2026-01-22",
                     "children": [
                       {
-                        "name": "466. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider introducing a policy whereby applications for citizenship made by members of the same family could be processed and approved simultaneously, in order to avoid delays in decision-making across related applications. [5170/26]",
+                        "name": "207. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage whether he has examined the use of compulsory sales orders, whereby local authorities could compel the sale of vacant or derelict properties, as a means of activating dormant assets and supporting regeneration; and if he will make a statement on the matter. [3420/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/466/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/207/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "233. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will introduce a statutory instrument requiring developers to provide essential amenities and infrastructure before new housing developments are occupied; and if he will make a statement on the matter. [44868/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/233/"
                       }
                     ]
                   }
                 ]
               },
-              {
-                "name": "Crime Prevention",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "181. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the way in which the Rural Safety Plan 2025–2027 is being implemented to address the rise in burglaries and theft of farm equipment; and if he will make a statement on the matter. [5962/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/181/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Export Controls",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "853. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration to address matters raised in correspondence (details supplied) in relation to the continuous export licence; and if he will make a statement on the matter. [30551/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/853/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Court Accommodation",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "7. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the current status of funding allocated for essential repair and flood remediation works at Drogheda Courthouse following the recent flooding that resulted in the transfer of District Court sittings to Dundalk Courthouse in January 2025; the timeframe for completion of those works; the total amount of capital funding allocated for courthouse repair, maintenance and flood prevention works nationally in 2025; and if he will make a statement on the matter. [35785/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/7/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "723. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the supports that are currently in place and provided by his Department or agencies within his Department to support BOTPs and Ukrainian citizens; and if he will make a statement on the matter. [36892/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/723/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Court Procedures",
-                "children": [
-                  {
-                    "name": "Wednesday, 1 July",
-                    "date_iso": "2026-07-01",
-                    "children": [
-                      {
-                        "name": "27. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will confirm whether the proposed reforms will create a presumption of non-disclosure of counselling records in rape and sexual offence trials; the legal test that will apply before any such records can be disclosed; and if he will make a statement on the matter. [49374/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/27/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Court Judgments",
-                "children": [
-                  {
-                    "name": "Wednesday, 1 July",
-                    "date_iso": "2026-07-01",
-                    "children": [
-                      {
-                        "name": "36. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the number of prosecutions under the Criminal Justice (Engagement of Children in Criminal Activity) Act 2024 since its commencement in May 2024; and if he will make a statement on the matter. [49370/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/36/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Legislative Programme",
-                "children": [
-                  {
-                    "name": "Wednesday, 1 July",
-                    "date_iso": "2026-07-01",
-                    "children": [
-                      {
-                        "name": "219. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the current status of legislative provisions to restrict the disclosure of counselling notes in rape and sexual offence trials; the expected timeline for enactment and commencement; and if he will make a statement on the matter. [49373/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-01/219/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
               {
                 "name": "Housing Schemes",
                 "children": [
@@ -2248,31 +2450,41 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/105/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1698. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will review the eligibility criteria for the first home scheme to allow a greater number of first-time buyers to qualify for and purchase their homes; and if he will make a statement on the matter. [59832/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1698/"
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "name": "Housing Policy",
+                "name": "Housing Provision",
                 "children": [
                   {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
                     "children": [
                       {
-                        "name": "207. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage whether he has examined the use of compulsory sales orders, whereby local authorities could compel the sale of vacant or derelict properties, as a means of activating dormant assets and supporting regeneration; and if he will make a statement on the matter. [3420/26]",
+                        "name": "1701. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will consider introducing legislation or regulations placing a positive obligation on developers to complete all promised amenities, including playgrounds, crèches and other community facilities, and requiring development works to pause until such amenities are at least 20% complete; and if he will make a statement on the matter. [59862/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/207/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1701/"
+                      },
                       {
-                        "name": "233. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will introduce a statutory instrument requiring developers to provide essential amenities and infrastructure before new housing developments are occupied; and if he will make a statement on the matter. [44868/26]",
+                        "name": "1703. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage the number and location of State-owned land parcels in County Louth that have been identified for housing development; whether he will ensure that appropriate portions of such lands are reserved for affordable housing to increase the delivery of affordable homes in the county; and if he will make a statement on the matter. [59882/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/233/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1703/"
+                      },
+                      {
+                        "name": "1704. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage the proportion of State-owned land parcels in County Louth that have been allocated for affordable housing in comparison to social housing, in tabular form. [59887/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1704/"
                       }
                     ]
                   }
@@ -2428,6 +2640,38 @@
                         "name": "710. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage the supports, remedial measures or discretionary arrangements that are available to a person who purchased a vacant or derelict property but was not advised by the local authority or any relevant State body at the time of purchase of their potential eligibility for the Vacant Property Refurbishment Grant; whether any flexibility exists for such cases (details supplied); and if he will make a statement on the matter. [34886/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/710/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rental Sector",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1699. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will provide local authorities with the necessary funding to reinstate rent control and compliance inspector positions to ensure that tenants continue to comply with the rules set out in their tenancy agreements and tenant handbooks; and if he will make a statement on the matter. [59838/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1699/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Legislative Measures",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1702. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will consider introducing legislation or regulations to make it mandatory for all new residential developments comprising of more than ten units to include solar energy systems, or alternative renewable energy technologies, together with battery storage facilities; and if he will make a statement on the matter. [59869/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1702/"
                       }
                     ]
                   }
@@ -3029,6 +3273,155 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "21. Deputy Paula Butterly asked the Minister for Social Protection if he will review the adequacy of supports available to individuals who pay PRSI, whether employed or self-employed, who find themselves out of work due to circumstances such as illness, bereavement and injury and to students who are engaged in employment, given concerns that many such individuals are not eligible for supplementary welfare allowance due to the means test criteria, leaving them without timely access to appropriate State supports; and if he will make a statement on the matter. [46300/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/21/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1987. Deputy Paula Butterly asked the Minister for Social Protection if he will consider the introduction of a new PRSI class for students engaged in part-time employment, which will enable them to establish entitlement to social welfare benefits; and if he will make a statement on the matter. [59990/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1987/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Fraud",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1983. Deputy Paula Butterly asked the Minister for Social Protection the total amount of moneys recouped by his Department arising from social welfare fraud in each of the past five years, by category, in tabular form; and if he will make a statement on the matter. [59969/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1983/"
+                      },
+                      {
+                        "name": "1984. Deputy Paula Butterly asked the Minister for Social Protection the measures currently being undertaken by his Department to tackle social welfare fraud; the additional initiatives planned over the coming years to strengthen fraud detection and prevention; and if he will make a statement on the matter. [59975/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1984/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "27. Deputy Paula Butterly asked the Minister for Social Protection if he will conduct a full review of the CE scheme to ensure that placement processes are efficient, responsive, and supportive of participants seeking to return to work; and if he will make a statement on the matter. [14229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/27/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "564. Deputy Paula Butterly asked the Minister for Social Protection the reason a worker who paid Class A PRSI contributions up to 2022 (details supplied) before becoming self-employed, is excluded from illness benefit during a short term illness despite having a substantial contribution record; if he accepts that this creates a gap in income protection for self-employed individuals; and if he will outline any plans to extend illness benefit or introduce a short term illness support for class S contributors. [32099/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/564/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "667. Deputy Paula Butterly asked the Minister for Social Protection the supports currently in place and provided by his Department or agencies within his Department to support BOTPs and Ukrainian citizens; and if he will make a statement on the matter. [36891/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/667/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Children in Care",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "529. Deputy Paula Butterly asked the Minister for Social Protection if he will consider extending eligibility for the back to school clothing and footwear allowance to all children in foster care, regardless of the assessed income of the foster household, in recognition of the additional supports required for children in care; and if he will make a statement on the matter. [48793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/529/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1985. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, extending eligibility for illness benefit to self-employed workers who are unable to work due to illness; and if he will make a statement on the matter. [59979/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1985/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1986. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, introducing a provision whereby recipients of the widow's, widower's or surviving civil partner's pension will also be entitled to receive illness benefit; and if he will make a statement on the matter. [59982/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1986/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Foreign",
             "children": [
               {
@@ -3412,91 +3805,6 @@
             ]
           },
           {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "27. Deputy Paula Butterly asked the Minister for Social Protection if he will conduct a full review of the CE scheme to ensure that placement processes are efficient, responsive, and supportive of participants seeking to return to work; and if he will make a statement on the matter. [14229/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/27/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "564. Deputy Paula Butterly asked the Minister for Social Protection the reason a worker who paid Class A PRSI contributions up to 2022 (details supplied) before becoming self-employed, is excluded from illness benefit during a short term illness despite having a substantial contribution record; if he accepts that this creates a gap in income protection for self-employed individuals; and if he will outline any plans to extend illness benefit or introduce a short term illness support for class S contributors. [32099/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/564/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "667. Deputy Paula Butterly asked the Minister for Social Protection the supports currently in place and provided by his Department or agencies within his Department to support BOTPs and Ukrainian citizens; and if he will make a statement on the matter. [36891/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/667/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "21. Deputy Paula Butterly asked the Minister for Social Protection if he will review the adequacy of supports available to individuals who pay PRSI, whether employed or self-employed, who find themselves out of work due to circumstances such as illness, bereavement and injury and to students who are engaged in employment, given concerns that many such individuals are not eligible for supplementary welfare allowance due to the means test criteria, leaving them without timely access to appropriate State supports; and if he will make a statement on the matter. [46300/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/21/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Children in Care",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "529. Deputy Paula Butterly asked the Minister for Social Protection if he will consider extending eligibility for the back to school clothing and footwear allowance to all children in foster care, regardless of the assessed income of the foster household, in recognition of the additional supports required for children in care; and if he will make a statement on the matter. [48793/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/529/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
               {
@@ -3630,59 +3938,6 @@
             ]
           },
           {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Culture Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "137. Deputy Paula Butterly asked the Minister for Culture, Communications and Sport if he will consider establishing and funding a dedicated Irish town of culture programme to support local creative initiatives and community-based cultural development in Louth; and if he will make a statement on the matter. [16277/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/137/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "317. Deputy Paula Butterly asked the Minister for Culture, Communications and Sport if he will provide a list of all capital projects, including sports, cultural and communications infrastructure projects funded under the remit of his Department (including under the Sports Capital and Equipment Programme and the Large Scale Sport Infrastructure Fund), which have been completed on time and within budget in Louth in each of the past five years, in tabular form; and if he will make a statement on the matter. [33655/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/317/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Online Safety",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "319. Deputy Paula Butterly asked the Minister for Culture, Communications and Sport the steps being taken to ensure that young people have a meaningful and structured voice in decision making on social media regulation and other online safety policies that directly affect them, including proposals to restrict access based on age; the mechanisms in place to consult with children and young people on such measures; the way in which he plans to ensure that youth perspectives inform the development of future digital and online safety policies; and if he will make a statement on the matter. [33711/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/319/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -3728,6 +3983,75 @@
                         "name": "47. Deputy Paula Butterly asked the Minister for Agriculture, Food and the Marine to provide an update on progress towards the Food Vision 2030 target of increasing the national tillage area to 400,000 hectares by 2030; if Ireland is on track to reach its targets; and if he will make a statement on the matter. [49544/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/47/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fishing Industry",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2660. Deputy Paula Butterly asked the Minister for Agriculture, Food and the Marine if he will consider introducing a guaranteed annual income for fishermen operating in areas of special conservation (details supplied); and if he will make a statement on the matter. [60106/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2660/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Culture Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "137. Deputy Paula Butterly asked the Minister for Culture, Communications and Sport if he will consider establishing and funding a dedicated Irish town of culture programme to support local creative initiatives and community-based cultural development in Louth; and if he will make a statement on the matter. [16277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/137/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "317. Deputy Paula Butterly asked the Minister for Culture, Communications and Sport if he will provide a list of all capital projects, including sports, cultural and communications infrastructure projects funded under the remit of his Department (including under the Sports Capital and Equipment Programme and the Large Scale Sport Infrastructure Fund), which have been completed on time and within budget in Louth in each of the past five years, in tabular form; and if he will make a statement on the matter. [33655/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/317/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Online Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "319. Deputy Paula Butterly asked the Minister for Culture, Communications and Sport the steps being taken to ensure that young people have a meaningful and structured voice in decision making on social media regulation and other online safety policies that directly affect them, including proposals to restrict access based on age; the mechanisms in place to consult with children and young people on such measures; the way in which he plans to ensure that youth perspectives inform the development of future digital and online safety policies; and if he will make a statement on the matter. [33711/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/319/"
                       }
                     ]
                   }
@@ -5671,6 +5995,213 @@
           "heading": "Tax Rebates",
           "question": "745. Deputy Paula Butterly asked the Tánaiste and Minister for Finance if he will consider increasing the help to buy scheme to allow two applicants to claim the maximum refund from their income tax or DIRT liabilities, increasing the available support to €30,000 per applicant or €50,000 per couple; and if he will make a statement on the matter. [59829/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/745/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1095,
+          "department": "Education",
+          "heading": "Oideachas trí Ghaeilge",
+          "question": "1095. Deputy Paula Butterly asked the Minister for Education and Youth whether there are any plans to establish a secondary school Gaelcholáiste in the Drogheda area to meet current and projected demand for Irish secondary school education; whether her Department has received any applications, expressions of interest or demographic assessments in relation to the establishment of such a school; and if she will make a statement on the matter. [59603/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1095/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1463,
+          "department": "Education",
+          "heading": "School Accommodation",
+          "question": "1463. Deputy Paula Butterly asked the Minister for Education and Youth her plans in the short and medium term future to develop primary/secondary schools in Haggardstown, County Louth. [63202/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1463/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1480,
+          "department": "Education",
+          "heading": "School Staff",
+          "question": "1480. Deputy Paula Butterly asked the Minister for Education and Youth if she will clarify whether job-sharing teachers will be permitted to undertake substitute teaching work on their non-working days during the 2026/27 school year; if a decision on this matter has been made by her Department; if discussions have taken place, or are ongoing, with education stakeholders including the INTO regarding the continuation of the temporary arrangements that have applied in recent years; when a formal announcement can be expected; and if she will make a statement on the matter. [63323/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1480/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1698,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "1698. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will review the eligibility criteria for the first home scheme to allow a greater number of first-time buyers to qualify for and purchase their homes; and if he will make a statement on the matter. [59832/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1698/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1699,
+          "department": "Housing",
+          "heading": "Rental Sector",
+          "question": "1699. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will provide local authorities with the necessary funding to reinstate rent control and compliance inspector positions to ensure that tenants continue to comply with the rules set out in their tenancy agreements and tenant handbooks; and if he will make a statement on the matter. [59838/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1699/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1700,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1700. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will review the regulations governing the purchase of social housing local authority homes so that it will require tenants to wait 30 years before becoming eligible to purchase their home; and if he will make a statement on the matter. [59850/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1700/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1701,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1701. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will consider introducing legislation or regulations placing a positive obligation on developers to complete all promised amenities, including playgrounds, crèches and other community facilities, and requiring development works to pause until such amenities are at least 20% complete; and if he will make a statement on the matter. [59862/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1701/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1702,
+          "department": "Housing",
+          "heading": "Legislative Measures",
+          "question": "1702. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will consider introducing legislation or regulations to make it mandatory for all new residential developments comprising of more than ten units to include solar energy systems, or alternative renewable energy technologies, together with battery storage facilities; and if he will make a statement on the matter. [59869/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1702/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1703,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1703. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage the number and location of State-owned land parcels in County Louth that have been identified for housing development; whether he will ensure that appropriate portions of such lands are reserved for affordable housing to increase the delivery of affordable homes in the county; and if he will make a statement on the matter. [59882/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1703/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1704,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1704. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage the proportion of State-owned land parcels in County Louth that have been allocated for affordable housing in comparison to social housing, in tabular form. [59887/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1704/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1705,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "1705. Deputy Paula Butterly asked the Minister for Housing, Local Government and Heritage if he will consider introducing legislation or regulations to ensure that any person who is the subject of a barring order is removed from the tenancy agreement relating to a local authority social housing dwelling; and if he will make a statement on the matter. [59893/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1705/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1983,
+          "department": "Social",
+          "heading": "Social Welfare Fraud",
+          "question": "1983. Deputy Paula Butterly asked the Minister for Social Protection the total amount of moneys recouped by his Department arising from social welfare fraud in each of the past five years, by category, in tabular form; and if he will make a statement on the matter. [59969/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1983/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1984,
+          "department": "Social",
+          "heading": "Social Welfare Fraud",
+          "question": "1984. Deputy Paula Butterly asked the Minister for Social Protection the measures currently being undertaken by his Department to tackle social welfare fraud; the additional initiatives planned over the coming years to strengthen fraud detection and prevention; and if he will make a statement on the matter. [59975/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1984/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1985,
+          "department": "Social",
+          "heading": "Budget 2027",
+          "question": "1985. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, extending eligibility for illness benefit to self-employed workers who are unable to work due to illness; and if he will make a statement on the matter. [59979/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1985/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1986,
+          "department": "Social",
+          "heading": "Pension Provisions",
+          "question": "1986. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, introducing a provision whereby recipients of the widow's, widower's or surviving civil partner's pension will also be entitled to receive illness benefit; and if he will make a statement on the matter. [59982/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1986/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1987,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "1987. Deputy Paula Butterly asked the Minister for Social Protection if he will consider the introduction of a new PRSI class for students engaged in part-time employment, which will enable them to establish entitlement to social welfare benefits; and if he will make a statement on the matter. [59990/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1987/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2161,
+          "department": "Justice",
+          "heading": "Social Welfare Payments",
+          "question": "2161. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider introducing attachment orders, or a similar mechanism, on social welfare payments for persons convicted of ten or more offences; and if he will make a statement on the matter. [60064/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2161/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2162,
+          "department": "Justice",
+          "heading": "Social Welfare Payments",
+          "question": "2162. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider introducing attachment orders on social welfare payments for persons who breach maintenance orders; and if he will make a statement on the matter. [60067/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2162/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2163,
+          "department": "Justice",
+          "heading": "Courts Service",
+          "question": "2163. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the timeframe for court reform, including but not limited to increasing the number of judges, and accelerating the establishment and operation of the family courts; and if he will make a statement on the matter. [60073/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2163/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2164,
+          "department": "Justice",
+          "heading": "Legislative Measures",
+          "question": "2164. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will amend section 12 of the Criminal Justice (Theft and Fraud Offences) Act 2001 to provide that any vehicle suspected of having been used in the commission of a crime be automatically forfeited to the State; and if he will make a statement on the matter. [60091/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2164/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2165,
+          "department": "Justice",
+          "heading": "Courts Service",
+          "question": "2165. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration if he will consider removing responsibility for the preparation and prosecution of District Court matters from members of An Garda Síochána, expanding the role and resources of the State prosecutions service to assume these functions; and if he will make a statement on the matter. [60102/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2165/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2348,
+          "department": "Justice",
+          "heading": "Visa Applications",
+          "question": "2348. Deputy Paula Butterly asked the Minister for Justice, Home Affairs and Migration the timeframe within which an approved employment permit is notified from the Department of Enterprise, Tourism and Employment for the purposes of a visa application; the average time currently taken between employment permit approval and visa processing commencing; and if he will make a statement on the matter. [59584/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2348/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2660,
+          "department": "Agriculture",
+          "heading": "Fishing Industry",
+          "question": "2660. Deputy Paula Butterly asked the Minister for Agriculture, Food and the Marine if he will consider introducing a guaranteed annual income for fishermen operating in areas of special conservation (details supplied); and if he will make a statement on the matter. [60106/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2660/",
           "questionType": "written"
         }
       ]

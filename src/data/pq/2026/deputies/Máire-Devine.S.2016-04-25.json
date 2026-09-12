@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Máire-Devine.S.2016-04-25/image/large",
   "types": {
     "all": {
-      "count": 66,
+      "count": 67,
       "headingOptions": [
         "An Garda Síochána",
         "Bus Services",
@@ -40,6 +40,7 @@
         "School Transport",
         "Schools Building Projects",
         "Social Welfare Benefits",
+        "Social Welfare Eligibility",
         "Special Educational Needs",
         "Undefined"
       ],
@@ -190,6 +191,19 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -199,15 +213,6 @@
               {
                 "name": "Social Welfare Benefits",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "value": 2
               }
             ]
           },
@@ -918,6 +923,54 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "211. Deputy Máire Devine asked the Minister for Social Protection for assistance related to a welfare application (details supplied). [13165/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/211/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "767. Deputy Máire Devine asked the Minister for Social Protection to outline any supports available to a person (details supplied) who is currently undergoing chemotherapy following a breast cancer diagnosis, and experiencing significant financial hardship due to their ineligibility for illness benefit. [35140/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/767/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2063. Deputy Máire Devine asked the Minister for Social Protection if a rent allowance will be reinstated (details supplied). [62702/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2063/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -947,38 +1000,6 @@
                         "name": "211. Deputy Máire Devine asked the Tánaiste and Minister for Finance if he will make the carer's allowance and carer's benefit tax exempt and non-means-tested, the same as other social welfare supports including disability allowance, jobseeker's allowance, domiciliary care allowance and child benefit, in recognition of carers saving the State over €20 billion each year through their unpaid care; and if he will make a statement on the matter. [9945/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/211/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "211. Deputy Máire Devine asked the Minister for Social Protection for assistance related to a welfare application (details supplied). [13165/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/211/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "767. Deputy Máire Devine asked the Minister for Social Protection to outline any supports available to a person (details supplied) who is currently undergoing chemotherapy following a breast cancer diagnosis, and experiencing significant financial hardship due to their ineligibility for illness benefit. [35140/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/767/"
                       }
                     ]
                   }
@@ -1602,6 +1623,15 @@
           "heading": "Residency Permits",
           "question": "2198. Deputy Máire Devine asked the Minister for Justice, Home Affairs and Migration the guidance available to beneficiaries of temporary protection who are travelling internationally while awaiting the issuance or renewal of an Irish Residence Permit (IRP) card; whether holders of a valid temporary protection certificate who have not yet received a renewed IRP card are entitled to travel and re-enter the State; the documentation that should be presented to immigration authorities and airline operators where an individual has applied for or renewed an IRP card but has not received confirmation that their application is being processed; whether his Department is aware of cases in which beneficiaries of temporary protection have been refused boarding by airline operators due to an expired IRP card while awaiting a renewed card; the steps being taken to prevent such situations arising; and if he will make a statement on the matter. [55751/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2198/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2063,
+          "department": "Social",
+          "heading": "Social Welfare Eligibility",
+          "question": "2063. Deputy Máire Devine asked the Minister for Social Protection if a rent allowance will be reinstated (details supplied). [62702/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2063/",
           "questionType": "written"
         }
       ]
