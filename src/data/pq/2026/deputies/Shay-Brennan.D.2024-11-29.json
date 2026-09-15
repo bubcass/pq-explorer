@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Shay-Brennan.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 149,
+      "count": 162,
       "headingOptions": [
         "Air Quality",
         "Air Services",
@@ -23,6 +23,7 @@
         "Cancer Services",
         "Company Law",
         "Credit Unions",
+        "Dental Services",
         "Departmental Consultations",
         "Departmental Meetings",
         "Departmental Policies",
@@ -48,12 +49,14 @@
         "Hospital Facilities",
         "Housing Policy",
         "Housing Provision",
+        "Housing Schemes",
         "International Protection",
         "International Relations",
         "Land Development Agency",
         "Legislative Measures",
         "Legislative Process",
         "Local Authorities",
+        "Medical Aids and Appliances",
         "Medical Records",
         "Medicinal Products",
         "Mental Health Policy",
@@ -93,7 +96,7 @@
         "topHeading": "Departmental Policies",
         "topHeadingCount": 17,
         "topDepartment": "Health",
-        "topDepartmentCount": 28
+        "topDepartmentCount": 36
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -106,15 +109,19 @@
                 "value": 5
               },
               {
+                "name": "Dental Services",
+                "value": 5
+              },
+              {
                 "name": "Medicinal Products",
                 "value": 4
               },
               {
-                "name": "Health Services Staff",
-                "value": 3
+                "name": "General Practitioner Services",
+                "value": 4
               },
               {
-                "name": "General Practitioner Services",
+                "name": "Health Services Staff",
                 "value": 3
               },
               {
@@ -123,6 +130,10 @@
               },
               {
                 "name": "Home Care Packages",
+                "value": 2
+              },
+              {
+                "name": "Medical Aids and Appliances",
                 "value": 2
               },
               {
@@ -221,6 +232,47 @@
             ]
           },
           {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Rental Sector",
+                "value": 5
+              },
+              {
+                "name": "Local Authorities",
+                "value": 2
+              },
+              {
+                "name": "Housing Policy",
+                "value": 2
+              },
+              {
+                "name": "Housing Provision",
+                "value": 2
+              },
+              {
+                "name": "Vacant Properties",
+                "value": 1
+              },
+              {
+                "name": "Land Development Agency",
+                "value": 1
+              },
+              {
+                "name": "Departmental Reports",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Housing Schemes",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -299,43 +351,6 @@
               },
               {
                 "name": "Legislative Process",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Local Authorities",
-                "value": 2
-              },
-              {
-                "name": "Housing Policy",
-                "value": 2
-              },
-              {
-                "name": "Housing Provision",
-                "value": 2
-              },
-              {
-                "name": "Vacant Properties",
-                "value": 1
-              },
-              {
-                "name": "Rental Sector",
-                "value": 1
-              },
-              {
-                "name": "Land Development Agency",
-                "value": 1
-              },
-              {
-                "name": "Departmental Reports",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
                 "value": 1
               }
             ]
@@ -575,6 +590,42 @@
                 ]
               },
               {
+                "name": "Dental Services ",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3200. Deputy Shay Brennan asked the Minister for Health whether any interim, expedited, or alternative public pathway exists for children with the highest-priority orthodontic assessments (details supplied). [60405/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3200/"
+                      },
+                      {
+                        "name": "3221. Deputy Shay Brennan asked the Minister for Health the number of modified IOTN grade 5 patients on orthodontic treatment waiting lists, by region and time band; and whether the private provider waiting list initiative currently accepts grade 5 referrals. [60644/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3221/"
+                      },
+                      {
+                        "name": "3222. Deputy Shay Brennan asked the Minister for Health if the 2024 grade 5 tender (orthodontic treatment) has been completed; and the details of the resultant resources assigned to each region. [60648/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3222/"
+                      },
+                      {
+                        "name": "3224. Deputy Shay Brennan asked the Minister for Health the grade 5 orthodontic treatment waiting list details for individuals in each region. [60649/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3224/"
+                      },
+                      {
+                        "name": "3515. Deputy Shay Brennan asked the Minister for Health the steps being taken to reduce waiting times for grade five patients specifically, given the clinical urgency attached to that classification (details supplied). [60412/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3515/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Medicinal Products",
                 "children": [
                   {
@@ -606,6 +657,49 @@
                         "name": "211. Deputy Shay Brennan asked the Minister for Health the mechanisms that are in place to ensure that high cost oncology medicines are prescribed in the most cost effective manner without compromising patient outcomes. [28353/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/211/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "General Practitioner Services",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "517. Deputy Shay Brennan asked the Minister for Health the number of GP practices that have been identified to receive the Social Deprivation Practice Support Grant for GMS for the 2025-2027 term; to list the name and locations of each of those practices; the level of funding allocation provided to each of those practices; and if she will make a statement on the matter. [35827/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/517/"
+                      },
+                      {
+                        "name": "518. Deputy Shay Brennan asked the Minister for Health the total number of practices that applied for the Social Deprivation Practice Support Grant for GMS for the 2025-2027 term; appeals process that exist for those who were not selected; the way in which those appeals will be adjudicated; and if she will make a statement on the matter. [35828/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/518/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3373. Deputy Shay Brennan asked the Minister for Health further to Parliamentary Question No. 517 of 14 May 2026, the name and location of the GP practices that have been identified to receive the social deprivation practice support grant for GMS for the 2025-2027 term; the level of funding allocated to each of those practices; and if she will make a statement on the matter. [56051/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3373/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3606. Deputy Shay Brennan asked the Minister for Health further to Parliamentary Question No. 3373 of 28 July 2026, the name and address at the time of application for each GP who has so far been identified to receive the social deprivation grant for the 2025-2027 term; the level of funding allocated to each of those GPs to date in 2026; and if she will make a statement on the matter. [61920/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3606/"
                       }
                     ]
                   }
@@ -644,38 +738,6 @@
                         "name": "1076. Deputy Shay Brennan asked the Minister for Health when the review of the physician associate role will be published; the reasons for the repeated delays to its publication since the original due date of 31 October 2025; the current status of the HSE embargo affecting the recruitment of physician associates; the expected timeline for lifting this embargo; and the steps her Department and the HSE will take to provide clarity to students, graduates, and working physician associates regarding regulation, employment pathways, and integration into the health service [34496/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1076/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "General Practitioner Services",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "517. Deputy Shay Brennan asked the Minister for Health the number of GP practices that have been identified to receive the Social Deprivation Practice Support Grant for GMS for the 2025-2027 term; to list the name and locations of each of those practices; the level of funding allocation provided to each of those practices; and if she will make a statement on the matter. [35827/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/517/"
-                      },
-                      {
-                        "name": "518. Deputy Shay Brennan asked the Minister for Health the total number of practices that applied for the Social Deprivation Practice Support Grant for GMS for the 2025-2027 term; appeals process that exist for those who were not selected; the way in which those appeals will be adjudicated; and if she will make a statement on the matter. [35828/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/518/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "3373. Deputy Shay Brennan asked the Minister for Health further to Parliamentary Question No. 517 of 14 May 2026, the name and location of the GP practices that have been identified to receive the social deprivation practice support grant for GMS for the 2025-2027 term; the level of funding allocated to each of those practices; and if she will make a statement on the matter. [56051/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3373/"
                       }
                     ]
                   }
@@ -724,6 +786,27 @@
                         "name": "3259. Deputy Shay Brennan asked the Minister for Health the method which the HSE determines the number of supported living packages funded each year; and the way unmet demand is reflected in future planning. [55432/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3259/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medical Aids and Appliances",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3502. Deputy Shay Brennan asked the Minister for Health the way in which patients who are diagnosed with latent autoimmune diabetes in adults (LADA) an autoimmune form of type 1 diabetes, after an initial, and later corrected, type 2 diagnosis can access the continuous glucose monitoring (CGM) sensor reimbursement pathway. [61429/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3502/"
+                      },
+                      {
+                        "name": "3506. Deputy Shay Brennan asked the Minister for Health to review and reform the exclusionary ‘from the outset’ and diabetes-type restriction tied to continuous glucose monitoring (CGM) reimbursement. [61427/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3506/"
                       }
                     ]
                   }
@@ -1174,6 +1257,214 @@
             ]
           },
           {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Rental Sector",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1823. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if his Department, in consultation with the Residential Tenancies Board, has conducted a policy review regarding the impact of the 11 June 2022 cut-off date on security of tenure for families in long-term rented accommodation; and the planned reforms to close this gap before affected tenancies expire. [61878/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1823/"
+                      },
+                      {
+                        "name": "1824. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage whether consideration has been given to removing the end-of-cycle no-fault termination right for pre-11 June 2022 tenancies where the landlord is a corporate body, institutional investment fund, or owner of four or more residential tenancies; if he acknowledges the policy distinction between smaller private landlords and institutional build-to-tent providers in this context; and if he will make a statement on the matter. [61877/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1824/"
+                      },
+                      {
+                        "name": "1825. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if he will consider legislative provisions allowing compliant tenants operating under transitional Part 4 cycles to automatically convert to tenancies of unlimited duration without triggering an end-of-cycle termination right for landlords; and if he will make a statement on the matter. [61876/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1825/"
+                      },
+                      {
+                        "name": "1826. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if his Department intends to introduce legislative measures to protect tenants whose tenancies commenced prior to 11 June 2022 from end-of-Part-4 no-fault terminations upon the expiry of their remaining six-year cycles; if his attention has been drawn to the discrepancy where post-June 2022 tenancies benefit from unlimited duration while long-standing, fully compliant pre-June 2022 tenants remain exposed to no-fault eviction; and if he will make a statement on the matter. [61874/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1826/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "689. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage the steps he is taking to ensure that the forthcoming National Planning Statement on Short-Term Letting provides a workable and proportionate framework for small coastal towns where tourism is a key part of the local economy; whether a multi-year derogation will be made available for homeowners who commit to applying for planning permission for short-term letting but cannot secure such permission before the 20 May 2026 registration deadline imposed by Fáilte Ireland; if guidance will be issued to local authorities to enable them to make planning decisions that reflect the accommodation needs of towns; and if he will make a statement on the matter. [15001/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/689/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Local Authorities",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1417. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if the working group key findings are recommendations under section F acknowledging the changing role of engineering in the sector, section ii and section iii (details supplied). [75121/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1417/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "713. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if an assessment of the number of staff currently employed in local authorities which will be adversely affected has taken place before implementing the new engineering qualification criteria for engineers progressing their careers in the local authority; if his Department identified the number of serving local authority engineers which will lose eligibility for promotion; if his Department has considered the workforce retention and attrition risks arising from blocking progression for experienced staff; and if they assessed the operational and service delivery consequences for local authorities nationwide (details supplied) [8657/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/713/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "251. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage his plans to review the local authority home loan; and if he will make a statement on the matter. [4869/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/251/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "205. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for an update on the work of the Housing Activation Office; and if he will make a statement on the matter. [37515/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/205/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "165. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage the way in which he is working to reduce the overall cost of apartment delivery; and if he will make a statement on the matter. [17490/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/165/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "135. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for a report on the work of the Housing Activation Office. [48062/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/135/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vacant Properties",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "190. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage the actions he is taking to address vacancy and dereliction across the country; and if he will make a statement on the matter. [4868/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/190/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Land Development Agency",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "196. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for a report on the work of the LDA to develop State-owned lands and strategically assemble land from both public and private sources to create a more stable and affordable housing market; and if he will make a statement on the matter. [17491/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/196/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reports",
+                "children": [
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "90. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for a report on the Housing Infrastructure Investment Fund. [48063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/90/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1612. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage his plans to deliver commitments to independent community living where the availability of supported housing is significantly constrained by funding and provider capacity. [55434/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1612/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1759. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage when the redress scheme for the owners of apartments in Beacon South Quarter will commence (details supplied). [61238/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1759/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Public Expenditure",
             "children": [
               {
@@ -1591,172 +1882,6 @@
                         "name": "747. Deputy Shay Brennan asked the Minister for Justice, Home Affairs and Migration if he will review the operation of the High Court fee regime under S.I. No. 492 of 2014, in particular the requirement for citizens to pay court stamp fees when initiating proceedings whose primary purpose is the protection or vindication of constitutional rights other than applications under Article 40.4; and if he will consider amending the fees order under section 65 of the Courts of Justice Act 1936 (as amended) to ensure that individuals seeking to enforce fundamental rights are not impeded by financial barriers. [6039/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/747/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Local Authorities",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1417. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if the working group key findings are recommendations under section F acknowledging the changing role of engineering in the sector, section ii and section iii (details supplied). [75121/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1417/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "713. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if an assessment of the number of staff currently employed in local authorities which will be adversely affected has taken place before implementing the new engineering qualification criteria for engineers progressing their careers in the local authority; if his Department identified the number of serving local authority engineers which will lose eligibility for promotion; if his Department has considered the workforce retention and attrition risks arising from blocking progression for experienced staff; and if they assessed the operational and service delivery consequences for local authorities nationwide (details supplied) [8657/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/713/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "251. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage his plans to review the local authority home loan; and if he will make a statement on the matter. [4869/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/251/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "205. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for an update on the work of the Housing Activation Office; and if he will make a statement on the matter. [37515/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/205/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Provision",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "165. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage the way in which he is working to reduce the overall cost of apartment delivery; and if he will make a statement on the matter. [17490/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/165/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "135. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for a report on the work of the Housing Activation Office. [48062/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/135/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Vacant Properties",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "190. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage the actions he is taking to address vacancy and dereliction across the country; and if he will make a statement on the matter. [4868/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/190/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Rental Sector",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "689. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage the steps he is taking to ensure that the forthcoming National Planning Statement on Short-Term Letting provides a workable and proportionate framework for small coastal towns where tourism is a key part of the local economy; whether a multi-year derogation will be made available for homeowners who commit to applying for planning permission for short-term letting but cannot secure such permission before the 20 May 2026 registration deadline imposed by Fáilte Ireland; if guidance will be issued to local authorities to enable them to make planning decisions that reflect the accommodation needs of towns; and if he will make a statement on the matter. [15001/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/689/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Land Development Agency",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "196. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for a report on the work of the LDA to develop State-owned lands and strategically assemble land from both public and private sources to create a more stable and affordable housing market; and if he will make a statement on the matter. [17491/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/196/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reports",
-                "children": [
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "90. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage for a report on the Housing Infrastructure Investment Fund. [48063/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/90/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1612. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage his plans to deliver commitments to independent community living where the availability of supported housing is significantly constrained by funding and provider capacity. [55434/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1612/"
                       }
                     ]
                   }
@@ -3743,6 +3868,51 @@
         },
         {
           "date_iso": "2026-09-07",
+          "questionNumber": 1759,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "1759. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage when the redress scheme for the owners of apartments in Beacon South Quarter will commence (details supplied). [61238/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1759/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1823,
+          "department": "Housing",
+          "heading": "Rental Sector",
+          "question": "1823. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if his Department, in consultation with the Residential Tenancies Board, has conducted a policy review regarding the impact of the 11 June 2022 cut-off date on security of tenure for families in long-term rented accommodation; and the planned reforms to close this gap before affected tenancies expire. [61878/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1823/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1824,
+          "department": "Housing",
+          "heading": "Rental Sector",
+          "question": "1824. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage whether consideration has been given to removing the end-of-cycle no-fault termination right for pre-11 June 2022 tenancies where the landlord is a corporate body, institutional investment fund, or owner of four or more residential tenancies; if he acknowledges the policy distinction between smaller private landlords and institutional build-to-tent providers in this context; and if he will make a statement on the matter. [61877/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1824/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1825,
+          "department": "Housing",
+          "heading": "Rental Sector",
+          "question": "1825. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if he will consider legislative provisions allowing compliant tenants operating under transitional Part 4 cycles to automatically convert to tenancies of unlimited duration without triggering an end-of-cycle termination right for landlords; and if he will make a statement on the matter. [61876/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1825/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1826,
+          "department": "Housing",
+          "heading": "Rental Sector",
+          "question": "1826. Deputy Shay Brennan asked the Minister for Housing, Local Government and Heritage if his Department intends to introduce legislative measures to protect tenants whose tenancies commenced prior to 11 June 2022 from end-of-Part-4 no-fault terminations upon the expiry of their remaining six-year cycles; if his attention has been drawn to the discrepancy where post-June 2022 tenancies benefit from unlimited duration while long-standing, fully compliant pre-June 2022 tenants remain exposed to no-fault eviction; and if he will make a statement on the matter. [61874/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1826/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
           "questionNumber": 2251,
           "department": "Justice",
           "heading": "Visa Applications",
@@ -3757,6 +3927,78 @@
           "heading": "Visa Applications",
           "question": "2252. Deputy Shay Brennan asked the Minister for Justice, Home Affairs and Migration the reason the Dublin visa office is still processing tourism or visit a family and-or friend applications received in May 2025; and the steps being taken to reduce this backlog. [60892/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2252/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3200,
+          "department": "Health",
+          "heading": "Dental Services ",
+          "question": "3200. Deputy Shay Brennan asked the Minister for Health whether any interim, expedited, or alternative public pathway exists for children with the highest-priority orthodontic assessments (details supplied). [60405/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3200/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3221,
+          "department": "Health",
+          "heading": "Dental Services ",
+          "question": "3221. Deputy Shay Brennan asked the Minister for Health the number of modified IOTN grade 5 patients on orthodontic treatment waiting lists, by region and time band; and whether the private provider waiting list initiative currently accepts grade 5 referrals. [60644/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3221/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3222,
+          "department": "Health",
+          "heading": "Dental Services ",
+          "question": "3222. Deputy Shay Brennan asked the Minister for Health if the 2024 grade 5 tender (orthodontic treatment) has been completed; and the details of the resultant resources assigned to each region. [60648/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3222/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3224,
+          "department": "Health",
+          "heading": "Dental Services ",
+          "question": "3224. Deputy Shay Brennan asked the Minister for Health the grade 5 orthodontic treatment waiting list details for individuals in each region. [60649/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3224/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3502,
+          "department": "Health",
+          "heading": "Medical Aids and Appliances",
+          "question": "3502. Deputy Shay Brennan asked the Minister for Health the way in which patients who are diagnosed with latent autoimmune diabetes in adults (LADA) an autoimmune form of type 1 diabetes, after an initial, and later corrected, type 2 diagnosis can access the continuous glucose monitoring (CGM) sensor reimbursement pathway. [61429/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3502/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3506,
+          "department": "Health",
+          "heading": "Medical Aids and Appliances",
+          "question": "3506. Deputy Shay Brennan asked the Minister for Health to review and reform the exclusionary ‘from the outset’ and diabetes-type restriction tied to continuous glucose monitoring (CGM) reimbursement. [61427/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3506/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3515,
+          "department": "Health",
+          "heading": "Dental Services ",
+          "question": "3515. Deputy Shay Brennan asked the Minister for Health the steps being taken to reduce waiting times for grade five patients specifically, given the clinical urgency attached to that classification (details supplied). [60412/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3515/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3606,
+          "department": "Health",
+          "heading": "General Practitioner Services",
+          "question": "3606. Deputy Shay Brennan asked the Minister for Health further to Parliamentary Question No. 3373 of 28 July 2026, the name and address at the time of application for each GP who has so far been identified to receive the social deprivation grant for the 2025-2027 term; the level of funding allocated to each of those GPs to date in 2026; and if she will make a statement on the matter. [61920/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3606/",
           "questionType": "written"
         }
       ]

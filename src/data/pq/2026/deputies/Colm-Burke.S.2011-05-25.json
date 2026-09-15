@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Colm-Burke.S.2011-05-25/image/large",
   "types": {
     "all": {
-      "count": 535,
+      "count": 546,
       "headingOptions": [
         "Action Plan for Rural Development",
         "Addiction Treatment Services",
@@ -71,6 +71,7 @@
         "EU Directives",
         "EU Funding",
         "EU Presidency",
+        "EU Summits",
         "Flood Relief Schemes",
         "Fuel Prices",
         "Grant Payments",
@@ -89,6 +90,7 @@
         "Hospital Services",
         "Housing Policy",
         "Housing Provision",
+        "Housing Schemes",
         "Immigration Policy",
         "Immigration Status",
         "Legislative Measures",
@@ -110,6 +112,7 @@
         "Pension Provisions",
         "Primary Care Centres",
         "Prison Service",
+        "Public Procurement Contracts",
         "Public Sector Pay",
         "Public Transport",
         "Renewable Energy Generation",
@@ -167,7 +170,7 @@
         "topHeading": "School Accommodation",
         "topHeadingCount": 22,
         "topDepartment": "Health",
-        "topDepartmentCount": 168
+        "topDepartmentCount": 172
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -189,7 +192,7 @@
               },
               {
                 "name": "Tobacco Control Measures",
-                "value": 14
+                "value": 15
               },
               {
                 "name": "Dental Services",
@@ -200,12 +203,12 @@
                 "value": 10
               },
               {
-                "name": "Health Services Staff",
+                "name": "Mental Health Services",
                 "value": 9
               },
               {
-                "name": "Mental Health Services",
-                "value": 8
+                "name": "Health Services Staff",
+                "value": 9
               },
               {
                 "name": "Obesity Levels",
@@ -341,6 +344,14 @@
               },
               {
                 "name": "Patient Files",
+                "value": 1
+              },
+              {
+                "name": "Public Procurement Contracts",
+                "value": 1
+              },
+              {
+                "name": "EU Summits",
                 "value": 1
               }
             ]
@@ -598,6 +609,51 @@
             ]
           },
           {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Policy",
+                "value": 7
+              },
+              {
+                "name": "Wastewater Treatment",
+                "value": 3
+              },
+              {
+                "name": "Housing Provision",
+                "value": 3
+              },
+              {
+                "name": "Septic Tanks",
+                "value": 3
+              },
+              {
+                "name": "Vacant Properties",
+                "value": 2
+              },
+              {
+                "name": "Housing Schemes",
+                "value": 2
+              },
+              {
+                "name": "Local Authorities",
+                "value": 1
+              },
+              {
+                "name": "Commercial Rates",
+                "value": 1
+              },
+              {
+                "name": "Water Services",
+                "value": 1
+              },
+              {
+                "name": "Budget 2027",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -630,47 +686,6 @@
               },
               {
                 "name": "Departmental Funding",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Policy",
-                "value": 7
-              },
-              {
-                "name": "Septic Tanks",
-                "value": 3
-              },
-              {
-                "name": "Wastewater Treatment",
-                "value": 2
-              },
-              {
-                "name": "Vacant Properties",
-                "value": 2
-              },
-              {
-                "name": "Housing Provision",
-                "value": 2
-              },
-              {
-                "name": "Local Authorities",
-                "value": 1
-              },
-              {
-                "name": "Commercial Rates",
-                "value": 1
-              },
-              {
-                "name": "Water Services",
-                "value": 1
-              },
-              {
-                "name": "Budget 2027",
                 "value": 1
               }
             ]
@@ -775,36 +790,11 @@
             ]
           },
           {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Rural Schemes",
-                "value": 5
-              },
-              {
-                "name": "Community Development Projects",
-                "value": 3
-              },
-              {
-                "name": "Departmental Schemes",
-                "value": 2
-              },
-              {
-                "name": "Departmental Programmes",
-                "value": 1
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Children",
             "children": [
               {
                 "name": "Childcare Services",
-                "value": 3
+                "value": 6
               },
               {
                 "name": "Youth Services",
@@ -832,6 +822,31 @@
               },
               {
                 "name": "Special Educational Needs",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Rural Schemes",
+                "value": 5
+              },
+              {
+                "name": "Community Development Projects",
+                "value": 3
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 2
+              },
+              {
+                "name": "Departmental Programmes",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -1477,6 +1492,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/1036/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3709. Deputy Colm Burke asked the Minister for Health if any conferences dedicated to tobacco control or vaping control will take place during the Irish Presidency of the EU; her views on whether such events can help accelerate the long-awaited tobacco products directive; and if she will make a statement on the matter. [62424/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3709/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1648,6 +1674,74 @@
                 ]
               },
               {
+                "name": "Mental Health Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1784. Deputy Colm Burke asked the Minister for Health to provide a detailed breakdown of the €1.6 billion allocated to mental health services in 2026 budget; and if she will make a statement on the matter. [18946/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1784/"
+                      },
+                      {
+                        "name": "1785. Deputy Colm Burke asked the Minister for Health the average wait time for mental health services in each HSE health region, and the national average, in tabular form; and if she will make a statement on the matter. [18947/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1785/"
+                      },
+                      {
+                        "name": "1786. Deputy Colm Burke asked the Minister for Health the estimated per capita expenditure on mental health services in each of the years 2020, 2021, 2022, 2023, 2024, and 2025, in tabular form; and if she will make a statement on the matter. [18948/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1786/"
+                      },
+                      {
+                        "name": "1787. Deputy Colm Burke asked the Minister for Health the total number of consultant psychiatrists per 100,000 population in 2025; the way in which this compares with the OECD average; and if she will make a statement on the matter. [18949/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1787/"
+                      },
+                      {
+                        "name": "1788. Deputy Colm Burke asked the Minister for Health the measures her Department are taking to address persistent recruitment challenges in psychology, psychiatry, and mental health nursing in Ireland; and if she will make a statement on the matter. [18950/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1788/"
+                      },
+                      {
+                        "name": "1789. Deputy Colm Burke asked the Minister for Health the number of new community mental health hubs delivered and fully operational from 2020 to date in 2026; and if she will make a statement on the matter. [18951/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1789/"
+                      },
+                      {
+                        "name": "1790. Deputy Colm Burke asked the Minister for Health the percentage of mental health spending in regard to the total health budget for 2026; and the comparative figures to other EU countries, such as Finland, Belgium, and Germany, in tabular form; and if she will make a statement on the matter. [18952/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1790/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 13 May",
+                    "date_iso": "2026-05-13",
+                    "children": [
+                      {
+                        "name": "232. Deputy Colm Burke asked the Minister for Health if she is aware that a survey conducted by the Psychosis Education Network of psychiatrists' views identified an ongoing lack of a national programme of comprehensive, evidence-based psychoeducation for people with experience of psychosis and their families; given the World Health Organization recommendations in this regard, the steps her Department and the HSE will take to address this gap in services; and the timeframe for implementation of any such programme. [35422/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/232/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3556. Deputy Colm Burke asked the Minister for Health when a child (details supplied) will receive an assessment by the CAMHS intellectual disability, CAMHS ID, team in Blackrock, Cork; whether support will be provided to the family; and if she will make a statement on the matter. [61621/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3556/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Services Staff",
                 "children": [
                   {
@@ -1728,63 +1822,6 @@
                         "name": "250. Deputy Colm Burke asked the Minister for Health her views on the fact that while the number of NHDs has risen by 52% between 2012 and 2021, the number of hospital consultants has risen by 44% over the past decade, while the number of nurses and midwives has risen by 36% and the number of administrators and managers has risen by 50%, the number of dentists employed by the HSE has in fact fallen by 30% between 2009 and 2024; and if she will make a statement on the matter. [52250/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/250/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Mental Health Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "1784. Deputy Colm Burke asked the Minister for Health to provide a detailed breakdown of the €1.6 billion allocated to mental health services in 2026 budget; and if she will make a statement on the matter. [18946/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1784/"
-                      },
-                      {
-                        "name": "1785. Deputy Colm Burke asked the Minister for Health the average wait time for mental health services in each HSE health region, and the national average, in tabular form; and if she will make a statement on the matter. [18947/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1785/"
-                      },
-                      {
-                        "name": "1786. Deputy Colm Burke asked the Minister for Health the estimated per capita expenditure on mental health services in each of the years 2020, 2021, 2022, 2023, 2024, and 2025, in tabular form; and if she will make a statement on the matter. [18948/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1786/"
-                      },
-                      {
-                        "name": "1787. Deputy Colm Burke asked the Minister for Health the total number of consultant psychiatrists per 100,000 population in 2025; the way in which this compares with the OECD average; and if she will make a statement on the matter. [18949/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1787/"
-                      },
-                      {
-                        "name": "1788. Deputy Colm Burke asked the Minister for Health the measures her Department are taking to address persistent recruitment challenges in psychology, psychiatry, and mental health nursing in Ireland; and if she will make a statement on the matter. [18950/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1788/"
-                      },
-                      {
-                        "name": "1789. Deputy Colm Burke asked the Minister for Health the number of new community mental health hubs delivered and fully operational from 2020 to date in 2026; and if she will make a statement on the matter. [18951/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1789/"
-                      },
-                      {
-                        "name": "1790. Deputy Colm Burke asked the Minister for Health the percentage of mental health spending in regard to the total health budget for 2026; and the comparative figures to other EU countries, such as Finland, Belgium, and Germany, in tabular form; and if she will make a statement on the matter. [18952/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1790/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 13 May",
-                    "date_iso": "2026-05-13",
-                    "children": [
-                      {
-                        "name": "232. Deputy Colm Burke asked the Minister for Health if she is aware that a survey conducted by the Psychosis Education Network of psychiatrists' views identified an ongoing lack of a national programme of comprehensive, evidence-based psychoeducation for people with experience of psychosis and their families; given the World Health Organization recommendations in this regard, the steps her Department and the HSE will take to address this gap in services; and the timeframe for implementation of any such programme. [35422/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/232/"
                       }
                     ]
                   }
@@ -2517,6 +2554,38 @@
                         "name": "3792. Deputy Colm Burke asked the Minister for Health the total number of the 19 maternity hospitals that are fully computerised/digitised, which can operate without paper files; and if she will make a statement on the matter. [57718/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3792/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Procurement Contracts",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3633. Deputy Colm Burke asked the Minister for Health further to Parliamentary Question No. 223 of 8 July 2026, whether the NTPF procurement opportunity published on eTenders on 10 August 2026 under “Establishment of a Framework of Private Healthcare Providers for the Provision of Additional Healthcare Capacity” is the framework referred to in that response; whether this procurement forms part of her previously outlined plans for the procurement of ophthalmology services or if it is a separate procurement opportunity; and if she will make a statement on the matter. [62011/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3633/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Summits",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3710. Deputy Colm Burke asked the Minister for Health the number of health related conferences, summits, technical or high level meetings that have been scheduled to be held in Ireland, as part of Ireland's Presidency of the European Union; the number of these that involve the participation of international health organisations such as the WHO and the OECD health committee; the nature of Ireland's participation in such events; and if she will make a statement on the matter. [62425/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3710/"
                       }
                     ]
                   }
@@ -4782,6 +4851,289 @@
             ]
           },
           {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1490. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if his attention has been drawn to concerns regarding the proposed six-year tenancy requirement contained in forthcoming residential tenancies legislation, particularly in cases where families are availing of the fair deal nursing home loan scheme; if he accepts that the proposed measure may create a conflict with the requirement to repay nursing home loans within one year of a resident’s death; if any exemptions or safeguards are being considered prior to enactment; and if he will make a statement on the matter. [2203/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1490/"
+                      },
+                      {
+                        "name": "1491. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he has considered the impact of the proposed six-year tenancy requirement on executors administering estates under the fair deal nursing home loan scheme; if he accepts that the proposed measure may prevent executors from selling properties in a timely manner in order to discharge debts and distribute estates; if he will consider amending the proposed legislation to allow for short-term tenancies or termination of leases in such circumstances; and if he will make a statement on the matter. [2204/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1491/"
+                      },
+                      {
+                        "name": "1492. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he acknowledges that, in the context of the fair deal scheme, while properties may technically be sold with tenants in situ, doing so may significantly reduce the value of an estate and conflict with executors’ fiduciary duties; if this issue has been considered in the drafting of the proposed six-year tenancy requirement; and if he will make a statement on the matter. [2205/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1492/"
+                      },
+                      {
+                        "name": "1493. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he will provide clarity on the way in which the proposed six-year tenancy requirement is intended to operate in cases involving fair deal loan repayments and estate administration; if guidance or exemptions will be included in the legislation prior to enactment; and if he will make a statement on the matter. [2207/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1493/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "772. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he would consider introducing measures to assist people to downsize, in particular older people who have 3/4 bedroom houses and are unable to afford the maintenance and upkeep of a larger property;; and if he will make a statement on the matter. [11751/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/772/"
+                      },
+                      {
+                        "name": "773. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if consideration would be given to introducing measures to assist people to downsize, in view that many homeowners are unable to maintain larger homes and wish to downsize to smaller property; and if he will make a statement on the matter. [11752/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/773/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 March",
+                    "date_iso": "2026-03-04",
+                    "children": [
+                      {
+                        "name": "176. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the process put in place to arrange for property registered to Cork County Council to be transferred to Cork City Council after the extension of the city boundary; the reason three houses in an area (details supplied) which are vacant for over ten years remain registered to Cork County Council but are now in Cork City Council area; and if he will make a statement on the matter. [17618/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/176/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wastewater Treatment",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "313. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the grants which are available for community groups to upgrade existing wastewater treatment system/septic tank to a bio system on land owned by the group; and if he will make a statement on the matter. [7309/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/313/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "198. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on a review of eligibility criteria and the identification of priority areas for grant aid schemes administered by local authorities to upgrade, repair or replace domestic wastewater treatment system/septic tank systems; when it is likely that these changes will come into effect; and if he will make a statement on the matter. [37228/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/198/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1767. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on the review of eligibility criteria and the identification of priority areas for grant aid schemes administered by local authorities to upgrade, repair or replace domestic wastewater treatment systems/septic tank systems; the timeframe for these changes to come into effect; and if he will make a statement on the matter. [61087/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1767/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "161. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the number of social, affordable and cost rental homes completed in Cork in 2025; and if he will make a statement on the matter. [17538/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/161/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "91. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to confirm the number of housing completions in Cork in 2025; the number of homes completed to date in 2026 in Cork; the number expected to be completed by the end of 2026; and if he will make a statement on the matter. [48241/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/91/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1944. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the measures being taken to increase the supply of homes at price points affordable to single first-time buyers, particularly in Cork; whether specific consideration is being given to the housing needs of people who earn above the thresholds for certain State supports but remain unable to purchase on the private market; and if he will make a statement on the matter. [63592/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1944/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Septic Tanks",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1630. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if consideration would be given to reviewing the eligibility areas of grant aid schemes administered by a local authority (details supplied) to upgrade, repair or replace domestic wastewater treatment system/septic tank systems, to ensure that those who are in most need of the grant and who would have difficulty in financing such works could utilise the grants; and if he will make a statement on the matter. [23571/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1630/"
+                      },
+                      {
+                        "name": "1631. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if consideration will be given to reviewing the eligibility areas of grant aid schemes administered by a local authority (details supplied) to upgrade, repair or replace domestic wastewater treatment system/septic tank systems, to ensure that those who are in most need of the grant and who would have difficulty in financing such works could utilise the grants; and if he will make a statement on the matter. [23572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1631/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "466. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on a review of eligibility criteria and the identification of priority areas for grant aid schemes administered by local authorities to upgrade, repair or replace domestic wastewater treatment systems/septic tank systems; when it is likely that these changes will come into effect; and if he will make a statement on the matter. [48965/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/466/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vacant Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "585. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the process that was put in place to arrange for property registered to Cork County Council to be transferred to Cork City Council after the extension of the city boundary; the reason three houses in an area (details supplied) which have been vacant for over ten years remain registered to Cork County Council but are not in Cork City Council area; and if he will make a statement on the matter. [16452/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/585/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "207. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage when the vacant above the shop grant will be introduced; and if he will make a statement on the matter. [17539/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/207/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1950. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the measures being taken to ensure that single-income earners can access homes delivered through affordable purchase schemes; whether his Department has examined the affordability gap facing single applicants in Cork; and if he will make a statement on the matter. [63591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1950/"
+                      },
+                      {
+                        "name": "1951. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage whether he has examined the accessibility and uptake of the first home scheme among single income first-time buyers; whether consideration is being given to changes which could further assist single applicants facing affordability constraints; and if he will make a statement on the matter. [63590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1951/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Local Authorities",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "610. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if there is an audit process in place between his Department and the local authorities setting out the time from which a property is completed and ready to occupy to the time that the property is then made available to those who are on the housing waiting list; and if he will make a statement on the matter. [16970/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/610/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Commercial Rates",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "682. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if his Department is engaging with local authorities with a view to giving rates relief to childcare facilities given these facilitates are now being required to pay commercial rates even though they are providing an essential service to the community, and as a result of this additional cost many of them will not be reopening in September 2026; and if he will make a statement on the matter. [29731/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/682/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Water Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "180. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on the Programme for Government commitment to establish a new procedure for large developments where developers can engage with Uisce Éireann and Local Authority Planners to ensure that services can be delivered in a timely manner; and if he will make a statement on the matter. [37229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/180/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1753. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he will consider exempting childcare facilities from rates in the Budget process; and if he will make a statement on the matter. [61196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1753/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -5001,246 +5353,6 @@
                         "name": "323. Deputy Colm Burke asked the Minister for Culture, Communications and Sport to provide a detailed breakdown of funding provided in 2026 by his Department for mental health and wellbeing support services for elite athletes; and if he will make a statement on the matter. [33901/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/323/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1490. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if his attention has been drawn to concerns regarding the proposed six-year tenancy requirement contained in forthcoming residential tenancies legislation, particularly in cases where families are availing of the fair deal nursing home loan scheme; if he accepts that the proposed measure may create a conflict with the requirement to repay nursing home loans within one year of a resident’s death; if any exemptions or safeguards are being considered prior to enactment; and if he will make a statement on the matter. [2203/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1490/"
-                      },
-                      {
-                        "name": "1491. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he has considered the impact of the proposed six-year tenancy requirement on executors administering estates under the fair deal nursing home loan scheme; if he accepts that the proposed measure may prevent executors from selling properties in a timely manner in order to discharge debts and distribute estates; if he will consider amending the proposed legislation to allow for short-term tenancies or termination of leases in such circumstances; and if he will make a statement on the matter. [2204/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1491/"
-                      },
-                      {
-                        "name": "1492. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he acknowledges that, in the context of the fair deal scheme, while properties may technically be sold with tenants in situ, doing so may significantly reduce the value of an estate and conflict with executors’ fiduciary duties; if this issue has been considered in the drafting of the proposed six-year tenancy requirement; and if he will make a statement on the matter. [2205/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1492/"
-                      },
-                      {
-                        "name": "1493. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he will provide clarity on the way in which the proposed six-year tenancy requirement is intended to operate in cases involving fair deal loan repayments and estate administration; if guidance or exemptions will be included in the legislation prior to enactment; and if he will make a statement on the matter. [2207/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1493/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "772. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he would consider introducing measures to assist people to downsize, in particular older people who have 3/4 bedroom houses and are unable to afford the maintenance and upkeep of a larger property;; and if he will make a statement on the matter. [11751/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/772/"
-                      },
-                      {
-                        "name": "773. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if consideration would be given to introducing measures to assist people to downsize, in view that many homeowners are unable to maintain larger homes and wish to downsize to smaller property; and if he will make a statement on the matter. [11752/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/773/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 March",
-                    "date_iso": "2026-03-04",
-                    "children": [
-                      {
-                        "name": "176. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the process put in place to arrange for property registered to Cork County Council to be transferred to Cork City Council after the extension of the city boundary; the reason three houses in an area (details supplied) which are vacant for over ten years remain registered to Cork County Council but are now in Cork City Council area; and if he will make a statement on the matter. [17618/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-04/176/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Septic Tanks",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1630. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if consideration would be given to reviewing the eligibility areas of grant aid schemes administered by a local authority (details supplied) to upgrade, repair or replace domestic wastewater treatment system/septic tank systems, to ensure that those who are in most need of the grant and who would have difficulty in financing such works could utilise the grants; and if he will make a statement on the matter. [23571/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1630/"
-                      },
-                      {
-                        "name": "1631. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if consideration will be given to reviewing the eligibility areas of grant aid schemes administered by a local authority (details supplied) to upgrade, repair or replace domestic wastewater treatment system/septic tank systems, to ensure that those who are in most need of the grant and who would have difficulty in financing such works could utilise the grants; and if he will make a statement on the matter. [23572/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1631/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "466. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on a review of eligibility criteria and the identification of priority areas for grant aid schemes administered by local authorities to upgrade, repair or replace domestic wastewater treatment systems/septic tank systems; when it is likely that these changes will come into effect; and if he will make a statement on the matter. [48965/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/466/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wastewater Treatment",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "313. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the grants which are available for community groups to upgrade existing wastewater treatment system/septic tank to a bio system on land owned by the group; and if he will make a statement on the matter. [7309/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/313/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "198. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on a review of eligibility criteria and the identification of priority areas for grant aid schemes administered by local authorities to upgrade, repair or replace domestic wastewater treatment system/septic tank systems; when it is likely that these changes will come into effect; and if he will make a statement on the matter. [37228/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/198/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Vacant Properties",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "585. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the process that was put in place to arrange for property registered to Cork County Council to be transferred to Cork City Council after the extension of the city boundary; the reason three houses in an area (details supplied) which have been vacant for over ten years remain registered to Cork County Council but are not in Cork City Council area; and if he will make a statement on the matter. [16452/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/585/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "207. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage when the vacant above the shop grant will be introduced; and if he will make a statement on the matter. [17539/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/207/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Provision",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "161. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the number of social, affordable and cost rental homes completed in Cork in 2025; and if he will make a statement on the matter. [17538/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/161/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "91. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to confirm the number of housing completions in Cork in 2025; the number of homes completed to date in 2026 in Cork; the number expected to be completed by the end of 2026; and if he will make a statement on the matter. [48241/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/91/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Local Authorities",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "610. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if there is an audit process in place between his Department and the local authorities setting out the time from which a property is completed and ready to occupy to the time that the property is then made available to those who are on the housing waiting list; and if he will make a statement on the matter. [16970/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/610/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Commercial Rates",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "682. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if his Department is engaging with local authorities with a view to giving rates relief to childcare facilities given these facilitates are now being required to pay commercial rates even though they are providing an essential service to the community, and as a result of this additional cost many of them will not be reopening in September 2026; and if he will make a statement on the matter. [29731/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/682/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Water Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "180. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on the Programme for Government commitment to establish a new procedure for large developments where developers can engage with Uisce Éireann and Local Authority Planners to ensure that services can be delivered in a timely manner; and if he will make a statement on the matter. [37229/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/180/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Budget 2027",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1753. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage if he will consider exempting childcare facilities from rates in the Budget process; and if he will make a statement on the matter. [61196/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1753/"
                       }
                     ]
                   }
@@ -5846,161 +5958,32 @@
             ]
           },
           {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Rural Schemes",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "331. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when the 2026 town and village renewal scheme will be opened for applications; the amount of funding that will be allocated to the scheme; and if he will make a statement on the matter. [38286/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/331/"
-                      },
-                      {
-                        "name": "332. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the amount of funding that was allocated to groups in Cork under previous iterations of the town and village renewal scheme; and if he will make a statement on the matter. [38287/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/332/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "59. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when applications for the next round of the town and village renewal scheme will open for applications; and if he will make a statement on the matter. [21757/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/59/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 21 May",
-                    "date_iso": "2026-05-21",
-                    "children": [
-                      {
-                        "name": "150. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht to provide an update on the Local Enhancement Programme (LEP) 2026; when it is likely that allocations under the programme will be announced; and if he will make a statement on the matter. [38282/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/150/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "23. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when it is intended that the town and village renewal scheme will open to communities for applications; and if he will make a statement on the matter. [53271/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/23/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Community Development Projects",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "624. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht if the €20 million fund to support outdoor recreation in rural areas is open to communities under the authority of city councils; if not, when similar funds that will be made available; and if he will make a statement on the matter. [54691/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/624/"
-                      },
-                      {
-                        "name": "625. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the supports outside of the CCIF that are available to community groups under the authority of city councils who wish to build new community facilities rather than refurbish existing ones; and if he will make a statement on the matter. [54692/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/625/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "448. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when applications for the next round of the Community Centre Investment Fund will open; whether it will be for new builds or refurbishments; and if he will make a statement on the matter. [8947/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/448/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "11. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when applications for the next round of the community centre investment fund will open; whether it will be for new builds or refurbishments; and if he will make a statement on the matter. [21756/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/11/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "4278. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the status of an application (details supplied) to the Community Centre Investment Fund; when a decision is likely to be reached; if consideration will be given to awarding the requested funding; and if he will make a statement on the matter. [57780/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4278/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Programmes",
-                "children": [
-                  {
-                    "name": "Thursday, 21 May",
-                    "date_iso": "2026-05-21",
-                    "children": [
-                      {
-                        "name": "132. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht to provide an update on the development of a new RAPID (Revitalising Areas through Planning, Investment and Development) programme, which was allocated €5 million in capital funding in budget 2026; when it is likely that the programme will be launched; and if he will make a statement on the matter. [38281/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/132/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "42. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the funding available from his Department for communities for new-build community facilities where the area is within the boundaries of a city, rather than a county council; and if he will make a statement on the matter. [53270/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/42/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Children",
             "children": [
               {
                 "name": "Childcare Services",
                 "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2875. Deputy Colm Burke asked the Minister for Children, Disability and Equality if she will consider providing a capital funding mechanism for community associations seeking to construct new childcare facilities where the association would own the facility but lease its operation to a registered childcare provider; and if she will make a statement on the matter. [61070/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2875/"
+                      },
+                      {
+                        "name": "2876. Deputy Colm Burke asked the Minister for Children, Disability and Equality whether a community association which proposes to construct a purpose-built childcare facility, with the service subsequently operated by an independent childcare provider, is eligible for any existing or planned capital funding schemes; and if she will provide details of the funding options available. [61073/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2876/"
+                      },
+                      {
+                        "name": "2877. Deputy Colm Burke asked the Minister for Children, Disability and Equality whether she is aware of a potential gap in existing childcare capital schemes whereby community organisations seeking to develop new childcare facilities may be ineligible because they are not themselves existing childcare providers; whether this issue will be examined; and if she will make a statement on the matter. [61076/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2877/"
+                      }
+                    ]
+                  },
                   {
                     "name": "Thursday, 29 January",
                     "date_iso": "2026-01-29",
@@ -6148,6 +6131,156 @@
                         "name": "2744. Deputy Colm Burke asked the Minister for Children, Disability and Equality to confirm that an assessment of need will be urgently provided for a child (details supplied), noting the serious nature of this case and that further assessments that require to be carried out following this that cannot commence until the assessment of need is concluded; to give consideration to expediting the case due to the very serious circumstances in the case; to confirm that a complaint procedure to request an expedite has been received and that consideration for expediting a decision on this too will be considered given the circumstances; and if she will make a statement on the matter. [59196/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2744/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Rural Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "331. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when the 2026 town and village renewal scheme will be opened for applications; the amount of funding that will be allocated to the scheme; and if he will make a statement on the matter. [38286/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/331/"
+                      },
+                      {
+                        "name": "332. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the amount of funding that was allocated to groups in Cork under previous iterations of the town and village renewal scheme; and if he will make a statement on the matter. [38287/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/332/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "59. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when applications for the next round of the town and village renewal scheme will open for applications; and if he will make a statement on the matter. [21757/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/59/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "150. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht to provide an update on the Local Enhancement Programme (LEP) 2026; when it is likely that allocations under the programme will be announced; and if he will make a statement on the matter. [38282/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/150/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "23. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when it is intended that the town and village renewal scheme will open to communities for applications; and if he will make a statement on the matter. [53271/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/23/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Development Projects",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "624. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht if the €20 million fund to support outdoor recreation in rural areas is open to communities under the authority of city councils; if not, when similar funds that will be made available; and if he will make a statement on the matter. [54691/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/624/"
+                      },
+                      {
+                        "name": "625. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the supports outside of the CCIF that are available to community groups under the authority of city councils who wish to build new community facilities rather than refurbish existing ones; and if he will make a statement on the matter. [54692/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/625/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "448. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when applications for the next round of the Community Centre Investment Fund will open; whether it will be for new builds or refurbishments; and if he will make a statement on the matter. [8947/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/448/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "11. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht when applications for the next round of the community centre investment fund will open; whether it will be for new builds or refurbishments; and if he will make a statement on the matter. [21756/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/11/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4278. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the status of an application (details supplied) to the Community Centre Investment Fund; when a decision is likely to be reached; if consideration will be given to awarding the requested funding; and if he will make a statement on the matter. [57780/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4278/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Thursday, 21 May",
+                    "date_iso": "2026-05-21",
+                    "children": [
+                      {
+                        "name": "132. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht to provide an update on the development of a new RAPID (Revitalising Areas through Planning, Investment and Development) programme, which was allocated €5 million in capital funding in budget 2026; when it is likely that the programme will be launched; and if he will make a statement on the matter. [38281/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-21/132/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "42. Deputy Colm Burke asked the Minister for Rural and Community Development and the Gaeltacht the funding available from his Department for communities for new-build community facilities where the area is within the boundaries of a city, rather than a county council; and if he will make a statement on the matter. [53270/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/42/"
                       }
                     ]
                   }
@@ -11584,6 +11717,42 @@
         },
         {
           "date_iso": "2026-09-07",
+          "questionNumber": 1767,
+          "department": "Housing",
+          "heading": "Wastewater Treatment",
+          "question": "1767. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage to provide an update on the review of eligibility criteria and the identification of priority areas for grant aid schemes administered by local authorities to upgrade, repair or replace domestic wastewater treatment systems/septic tank systems; the timeframe for these changes to come into effect; and if he will make a statement on the matter. [61087/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1767/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1944,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1944. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the measures being taken to increase the supply of homes at price points affordable to single first-time buyers, particularly in Cork; whether specific consideration is being given to the housing needs of people who earn above the thresholds for certain State supports but remain unable to purchase on the private market; and if he will make a statement on the matter. [63592/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1944/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1950,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "1950. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage the measures being taken to ensure that single-income earners can access homes delivered through affordable purchase schemes; whether his Department has examined the affordability gap facing single applicants in Cork; and if he will make a statement on the matter. [63591/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1950/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1951,
+          "department": "Housing",
+          "heading": "Housing Schemes",
+          "question": "1951. Deputy Colm Burke asked the Minister for Housing, Local Government and Heritage whether he has examined the accessibility and uptake of the first home scheme among single income first-time buyers; whether consideration is being given to changes which could further assist single applicants facing affordability constraints; and if he will make a statement on the matter. [63590/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1951/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
           "questionNumber": 2176,
           "department": "Justice",
           "heading": "Citizenship Ceremonies",
@@ -11598,6 +11767,69 @@
           "heading": "Citizenship Ceremonies",
           "question": "2177. Deputy Colm Burke asked the Minister for Justice, Home Affairs and Migration if a person (details supplied) will be considered for the upcoming citizenship ceremony in view that their citizenship application was recently granted; and if he will make a statement on the matter. [60319/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2177/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2875,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2875. Deputy Colm Burke asked the Minister for Children, Disability and Equality if she will consider providing a capital funding mechanism for community associations seeking to construct new childcare facilities where the association would own the facility but lease its operation to a registered childcare provider; and if she will make a statement on the matter. [61070/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2875/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2876,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2876. Deputy Colm Burke asked the Minister for Children, Disability and Equality whether a community association which proposes to construct a purpose-built childcare facility, with the service subsequently operated by an independent childcare provider, is eligible for any existing or planned capital funding schemes; and if she will provide details of the funding options available. [61073/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2876/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2877,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "2877. Deputy Colm Burke asked the Minister for Children, Disability and Equality whether she is aware of a potential gap in existing childcare capital schemes whereby community organisations seeking to develop new childcare facilities may be ineligible because they are not themselves existing childcare providers; whether this issue will be examined; and if she will make a statement on the matter. [61076/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2877/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3556,
+          "department": "Health",
+          "heading": "Mental Health Services",
+          "question": "3556. Deputy Colm Burke asked the Minister for Health when a child (details supplied) will receive an assessment by the CAMHS intellectual disability, CAMHS ID, team in Blackrock, Cork; whether support will be provided to the family; and if she will make a statement on the matter. [61621/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3556/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3633,
+          "department": "Health",
+          "heading": "Public Procurement Contracts",
+          "question": "3633. Deputy Colm Burke asked the Minister for Health further to Parliamentary Question No. 223 of 8 July 2026, whether the NTPF procurement opportunity published on eTenders on 10 August 2026 under “Establishment of a Framework of Private Healthcare Providers for the Provision of Additional Healthcare Capacity” is the framework referred to in that response; whether this procurement forms part of her previously outlined plans for the procurement of ophthalmology services or if it is a separate procurement opportunity; and if she will make a statement on the matter. [62011/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3633/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3709,
+          "department": "Health",
+          "heading": "Tobacco Control Measures",
+          "question": "3709. Deputy Colm Burke asked the Minister for Health if any conferences dedicated to tobacco control or vaping control will take place during the Irish Presidency of the EU; her views on whether such events can help accelerate the long-awaited tobacco products directive; and if she will make a statement on the matter. [62424/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3709/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3710,
+          "department": "Health",
+          "heading": "EU Summits",
+          "question": "3710. Deputy Colm Burke asked the Minister for Health the number of health related conferences, summits, technical or high level meetings that have been scheduled to be held in Ireland, as part of Ireland's Presidency of the European Union; the number of these that involve the participation of international health organisations such as the WHO and the OECD health committee; the nature of Ireland's participation in such events; and if she will make a statement on the matter. [62425/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3710/",
           "questionType": "written"
         }
       ]
