@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-Clendennen.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 462,
+      "count": 493,
       "headingOptions": [
         "Agriculture Industry",
         "Agriculture Schemes",
@@ -24,6 +24,7 @@
         "Care Services",
         "Civil Registration Service",
         "Civil Service",
+        "Climate Change Policy",
         "Common Agricultural Policy",
         "Community Development Projects",
         "Control of Firearms",
@@ -46,6 +47,7 @@
         "Derelict Sites",
         "Disabilities Assessments",
         "Disability Services",
+        "Disease Management",
         "Driver Licences",
         "Driver Test",
         "Early Childhood Care and Education",
@@ -63,6 +65,7 @@
         "Family Support Services",
         "Food Prices",
         "Food Promotion",
+        "Fuel Prices",
         "Health Service Executive",
         "Health Services",
         "Health Services Staff",
@@ -99,6 +102,7 @@
         "Pharmacy Services",
         "Programme for Government",
         "Public Procurement Contracts",
+        "Public Sector Pay",
         "Public Transport",
         "Rail Network",
         "Renewable Energy Generation",
@@ -216,15 +220,23 @@
             "name": "Health",
             "children": [
               {
+                "name": "Hospital Services",
+                "value": 8
+              },
+              {
                 "name": "Health Services Staff",
                 "value": 7
+              },
+              {
+                "name": "Health Services Waiting Lists",
+                "value": 6
               },
               {
                 "name": "Mental Health Services",
                 "value": 6
               },
               {
-                "name": "Health Services Waiting Lists",
+                "name": "Medicinal Products",
                 "value": 5
               },
               {
@@ -236,20 +248,20 @@
                 "value": 5
               },
               {
-                "name": "Hospital Services",
-                "value": 5
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "value": 4
               },
               {
-                "name": "Medicinal Products",
+                "name": "Health Services",
                 "value": 3
               },
               {
                 "name": "Health Service Executive",
                 "value": 3
+              },
+              {
+                "name": "Health Strategies",
+                "value": 2
               },
               {
                 "name": "Care Services",
@@ -264,16 +276,12 @@
                 "value": 2
               },
               {
-                "name": "Health Services",
-                "value": 2
-              },
-              {
                 "name": "Ambulance Service",
                 "value": 2
               },
               {
-                "name": "Health Strategies",
-                "value": 1
+                "name": "Disease Management",
+                "value": 2
               },
               {
                 "name": "Departmental Strategies",
@@ -333,6 +341,10 @@
                 "value": 6
               },
               {
+                "name": "Departmental Schemes",
+                "value": 4
+              },
+              {
                 "name": "Road Safety",
                 "value": 4
               },
@@ -345,11 +357,11 @@
                 "value": 3
               },
               {
-                "name": "Departmental Schemes",
+                "name": "Electric Vehicles",
                 "value": 2
               },
               {
-                "name": "Electric Vehicles",
+                "name": "Departmental Advertising",
                 "value": 2
               },
               {
@@ -374,10 +386,6 @@
               },
               {
                 "name": "Road Network",
-                "value": 1
-              },
-              {
-                "name": "Departmental Advertising",
                 "value": 1
               },
               {
@@ -503,6 +511,10 @@
                 "value": 2
               },
               {
+                "name": "Disabilities Assessments",
+                "value": 2
+              },
+              {
                 "name": "Capital Expenditure Programme",
                 "value": 1
               },
@@ -531,7 +543,7 @@
                 "value": 1
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Health Service Executive",
                 "value": 1
               }
             ]
@@ -564,6 +576,10 @@
                 "value": 2
               },
               {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
                 "name": "Sentencing Policy",
                 "value": 2
               },
@@ -585,10 +601,6 @@
               },
               {
                 "name": "Legislative Programme",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
                 "value": 1
               },
               {
@@ -629,6 +641,10 @@
                 "value": 2
               },
               {
+                "name": "Climate Change Policy",
+                "value": 2
+              },
+              {
                 "name": "Departmental Contracts",
                 "value": 1
               },
@@ -638,6 +654,55 @@
               },
               {
                 "name": "Energy Prices",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "value": 5
+              },
+              {
+                "name": "Office of Public Works",
+                "value": 4
+              },
+              {
+                "name": "Public Sector Pay",
+                "value": 4
+              },
+              {
+                "name": "Public Procurement Contracts",
+                "value": 3
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "value": 1
+              },
+              {
+                "name": "Departmental Contracts",
+                "value": 1
+              },
+              {
+                "name": "Departmental Projects",
+                "value": 1
+              },
+              {
+                "name": "Civil Service",
+                "value": 1
+              },
+              {
+                "name": "State Properties",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Industrial Relations",
                 "value": 1
               }
             ]
@@ -700,84 +765,6 @@
             ]
           },
           {
-            "name": "Rural",
-            "children": [
-              {
-                "name": "Departmental Schemes",
-                "value": 4
-              },
-              {
-                "name": "Community Development Projects",
-                "value": 3
-              },
-              {
-                "name": "Rural Schemes",
-                "value": 3
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 3
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "value": 1
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 1
-              },
-              {
-                "name": "Departmental Projects",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "value": 5
-              },
-              {
-                "name": "Office of Public Works",
-                "value": 4
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "value": 1
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 1
-              },
-              {
-                "name": "Departmental Projects",
-                "value": 1
-              },
-              {
-                "name": "Civil Service",
-                "value": 1
-              },
-              {
-                "name": "State Properties",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Industrial Relations",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
@@ -790,6 +777,10 @@
               },
               {
                 "name": "Agriculture Schemes",
+                "value": 2
+              },
+              {
+                "name": "Fuel Prices",
                 "value": 2
               },
               {
@@ -830,6 +821,43 @@
               },
               {
                 "name": "Departmental Strategies",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Schemes",
+                "value": 4
+              },
+              {
+                "name": "Community Development Projects",
+                "value": 3
+              },
+              {
+                "name": "Rural Schemes",
+                "value": 3
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 3
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "value": 1
+              },
+              {
+                "name": "Departmental Contracts",
+                "value": 1
+              },
+              {
+                "name": "Departmental Projects",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
                 "value": 1
               }
             ]
@@ -954,7 +982,11 @@
             "children": [
               {
                 "name": "Social Welfare Schemes",
-                "value": 3
+                "value": 4
+              },
+              {
+                "name": "Social Welfare Payments",
+                "value": 4
               },
               {
                 "name": "Capital Expenditure Programme",
@@ -974,10 +1006,6 @@
               },
               {
                 "name": "Departmental Advertising",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Payments",
                 "value": 1
               }
             ]
@@ -1712,6 +1740,63 @@
             "name": "Health",
             "children": [
               {
+                "name": "Hospital Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "814. Deputy John Clendennen asked the Minister for Health the steps her Department is taking to ensure that Midlands Regional Hospital Tullamore complies with the 2016 national model of care for neurology services, which stipulates that all model 3 hospitals should have a dedicated neurology service; and if she will make a statement on the matter. [47588/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/814/"
+                      },
+                      {
+                        "name": "815. Deputy John Clendennen asked the Minister for Health if she is aware that Midlands Regional Hospital Tullamore currently operates with only 0.2 of a neurology consultant contract, provided on a visiting basis from St James's Hospital; her plans to transition this to a full-time, dedicated, and sustainable neurology service within the hospital; and if she will make a statement on the matter. [47589/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/815/"
+                      },
+                      {
+                        "name": "816. Deputy John Clendennen asked the Minister for Health her views on the findings of the April 2026 Neurological Alliance of Ireland report, Towards an Equitable Integrated Neurology Service for Ireland, regarding regional variation in access to specialist expertise; if she will commit to the necessary investment in budget 2027 to establish a full neurology service in Tullamore to serve patients across the midlands, including Offaly; and if she will make a statement on the matter. [47590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/816/"
+                      },
+                      {
+                        "name": "817. Deputy John Clendennen asked the Minister for Health the number of patients from the midlands region, by county (Laois, Offaly, Westmeath and Longford) who were required to travel to St James’s Hospital Dublin for neurology appointments in 2024, 2025 and to date in 2026 due to the lack of a full service in Tullamore; the impact this travel burden has on patient outcomes, in tabular form; and if she will make a statement on the matter. [47591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/817/"
+                      },
+                      {
+                        "name": "818. Deputy John Clendennen asked the Minister for Health the specific recruitment plans in place for 2026 and 2027 to provide a multidisciplinary neurology team at Midlands Regional Hospital Tullamore, including consultant neurologists, specialist nurses, and health and social care professionals, as recommended by the Neurological Alliance of Ireland; and if she will make a statement on the matter. [47592/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/818/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "415. Deputy John Clendennen asked the Minister for Health the number of patients in the State in receipt of dialysis treatment in each of the years 2021-2025 and to date in 2026, broken down by type of treatment, in tabular form. [66249/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/415/"
+                      },
+                      {
+                        "name": "423. Deputy John Clendennen asked the Minister for Health to list each acute hospital diabetes service in the State which currently has the capacity to initiate adult patients with type 1 diabetes onto insulin-pump therapy; to provide details of each hospital which can provide ongoing pump management and aftercare but cannot initiate patients; and to provide details of each hospital providing neither service, in tabular form. [66265/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/423/"
+                      },
+                      {
+                        "name": "425. Deputy John Clendennen asked the Minister for Health the number of patients with type 1 diabetes ordinarily resident in County Offaly who are currently receiving insulin-pump therapy, by adults and children; the hospitals at which those patients receive insulin-pump initiation and follow-up care and the number who are required to travel outside of County Offaly for such care, in tabular form. [66263/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/425/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Services Staff",
                 "children": [
                   {
@@ -1782,6 +1867,53 @@
                 ]
               },
               {
+                "name": "Health Services Waiting Lists",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "613. Deputy John Clendennen asked the Minister for Health the current average waiting times, by county, for those awaiting a first-time appointment for occupational therapy, through primary care services; and if she will make a statement on the matter. [11510/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/613/"
+                      },
+                      {
+                        "name": "614. Deputy John Clendennen asked the Minister for Health the current average waiting times, by county, for those awaiting a first-time appointment for speech and language therapy, through primary care services; and if she will make a statement on the matter. [11511/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/614/"
+                      },
+                      {
+                        "name": "615. Deputy John Clendennen asked the Minister for Health the current average waiting times, by county, for those awaiting a first-time appointment for physiotherapy services, through primary care services; and if she will make a statement on the matter. [11512/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/615/"
+                      },
+                      {
+                        "name": "616. Deputy John Clendennen asked the Minister for Health the number of children currently on waiting lists for primary care occupational therapy, speech and language therapy and physiotherapy services, by discipline, by county, and length of time waiting (under six months, six–12 months, 12–24 months and over 24 months); and if she will make a statement on the matter. [11513/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/616/"
+                      },
+                      {
+                        "name": "617. Deputy John Clendennen asked the Minister for Health the measures currently in place to reduce waiting times for access to primary care occupational therapy, speech and language therapy and physiotherapy services for children; the impact these measures have had to date; and if she will make a statement on the matter. [11514/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/617/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "422. Deputy John Clendennen asked the Minister for Health the number of persons with type 1 diabetes currently awaiting commencement of insulin-pump therapy, by HSE health region and hospital; the number waiting less than three months, three to six months, six to 12 months and more than 12 months; and the median and longest waiting time for commencement of therapy in each location, in tabular form. [66267/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/422/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Mental Health Services",
                 "children": [
                   {
@@ -1823,36 +1955,42 @@
                 ]
               },
               {
-                "name": "Health Services Waiting Lists",
+                "name": "Medicinal Products",
                 "children": [
                   {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
                     "children": [
                       {
-                        "name": "613. Deputy John Clendennen asked the Minister for Health the current average waiting times, by county, for those awaiting a first-time appointment for occupational therapy, through primary care services; and if she will make a statement on the matter. [11510/26]",
+                        "name": "512. Deputy John Clendennen asked the Minister for Health for an update on the accessibility of the drug Givinostat (brand name Duvyzat) for the treatment of Duchenne muscular dystrophy, given the outcome of the NCPE assessment as of 3 March 2026; and if she will make a statement on the matter. [21310/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/613/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/512/"
                       },
                       {
-                        "name": "614. Deputy John Clendennen asked the Minister for Health the current average waiting times, by county, for those awaiting a first-time appointment for speech and language therapy, through primary care services; and if she will make a statement on the matter. [11511/26]",
+                        "name": "513. Deputy John Clendennen asked the Minister for Health for an update on the accessibility of Belzutifan (brand name Welireg) for the treatment of Von Hippel-Lindau syndrome; and if she will make a statement on the matter. [21311/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/614/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/513/"
                       },
                       {
-                        "name": "615. Deputy John Clendennen asked the Minister for Health the current average waiting times, by county, for those awaiting a first-time appointment for physiotherapy services, through primary care services; and if she will make a statement on the matter. [11512/26]",
+                        "name": "514. Deputy John Clendennen asked the Minister for Health for an update on the accessibility of Omaveloxolone (brand name Skyclarys) for the treatment of Friedreich’s ataxia; and if she will make a statement on the matter. [21312/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/615/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/514/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "414. Deputy John Clendennen asked the Minister for Health for an update on the reimbursement of belzutifan, for the treatment of von Hippel-Lindau (VHL) disease, by the HSE; whether the application is being assessed on the most up to date information on the performance of the drug and subsequent patient outcomes; and when a final decision is likely. [66250/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/414/"
                       },
                       {
-                        "name": "616. Deputy John Clendennen asked the Minister for Health the number of children currently on waiting lists for primary care occupational therapy, speech and language therapy and physiotherapy services, by discipline, by county, and length of time waiting (under six months, six–12 months, 12–24 months and over 24 months); and if she will make a statement on the matter. [11513/26]",
+                        "name": "416. Deputy John Clendennen asked the Minister for Health whether the pharmacoeconomic and reimbursement assessment of belzutifan for von Hippel Lindau disease takes account of the full long-term healthcare costs associated with the natural progression of the disease and repeated treatment of VHL-associated tumors including renal surgery, loss of renal function, chronic kidney disease, dialysis, renal transplantation and other VHL-related interventions; and the manner in which such potentially avoided or deferred costs are incorporated into the assessment. [66248/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/616/"
-                      },
-                      {
-                        "name": "617. Deputy John Clendennen asked the Minister for Health the measures currently in place to reduce waiting times for access to primary care occupational therapy, speech and language therapy and physiotherapy services for children; the impact these measures have had to date; and if she will make a statement on the matter. [11514/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/617/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/416/"
                       }
                     ]
                   }
@@ -1943,42 +2081,6 @@
                 ]
               },
               {
-                "name": "Hospital Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "814. Deputy John Clendennen asked the Minister for Health the steps her Department is taking to ensure that Midlands Regional Hospital Tullamore complies with the 2016 national model of care for neurology services, which stipulates that all model 3 hospitals should have a dedicated neurology service; and if she will make a statement on the matter. [47588/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/814/"
-                      },
-                      {
-                        "name": "815. Deputy John Clendennen asked the Minister for Health if she is aware that Midlands Regional Hospital Tullamore currently operates with only 0.2 of a neurology consultant contract, provided on a visiting basis from St James's Hospital; her plans to transition this to a full-time, dedicated, and sustainable neurology service within the hospital; and if she will make a statement on the matter. [47589/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/815/"
-                      },
-                      {
-                        "name": "816. Deputy John Clendennen asked the Minister for Health her views on the findings of the April 2026 Neurological Alliance of Ireland report, Towards an Equitable Integrated Neurology Service for Ireland, regarding regional variation in access to specialist expertise; if she will commit to the necessary investment in budget 2027 to establish a full neurology service in Tullamore to serve patients across the midlands, including Offaly; and if she will make a statement on the matter. [47590/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/816/"
-                      },
-                      {
-                        "name": "817. Deputy John Clendennen asked the Minister for Health the number of patients from the midlands region, by county (Laois, Offaly, Westmeath and Longford) who were required to travel to St James’s Hospital Dublin for neurology appointments in 2024, 2025 and to date in 2026 due to the lack of a full service in Tullamore; the impact this travel burden has on patient outcomes, in tabular form; and if she will make a statement on the matter. [47591/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/817/"
-                      },
-                      {
-                        "name": "818. Deputy John Clendennen asked the Minister for Health the specific recruitment plans in place for 2026 and 2027 to provide a multidisciplinary neurology team at Midlands Regional Hospital Tullamore, including consultant neurologists, specialist nurses, and health and social care professionals, as recommended by the Neurological Alliance of Ireland; and if she will make a statement on the matter. [47592/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/818/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Healthcare Infrastructure Provision",
                 "children": [
                   {
@@ -2016,26 +2118,38 @@
                 ]
               },
               {
-                "name": "Medicinal Products",
+                "name": "Health Services",
                 "children": [
                   {
                     "name": "Thursday, 19 March",
                     "date_iso": "2026-03-19",
                     "children": [
                       {
-                        "name": "512. Deputy John Clendennen asked the Minister for Health for an update on the accessibility of the drug Givinostat (brand name Duvyzat) for the treatment of Duchenne muscular dystrophy, given the outcome of the NCPE assessment as of 3 March 2026; and if she will make a statement on the matter. [21310/26]",
+                        "name": "511. Deputy John Clendennen asked the Minister for Health the current status of a service (details supplied) including current opening hours and staffing levels, recent alterations or future plans for same; and if she will make a statement on the matter. [21305/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/512/"
-                      },
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/511/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
                       {
-                        "name": "513. Deputy John Clendennen asked the Minister for Health for an update on the accessibility of Belzutifan (brand name Welireg) for the treatment of Von Hippel-Lindau syndrome; and if she will make a statement on the matter. [21311/26]",
+                        "name": "822. Deputy John Clendennen asked the Minister for Health to provide a comprehensive list of all health services intended to be operational at the Birr primary care centre by the end of 2026; and if she will make a statement on the matter. [47596/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/513/"
-                      },
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/822/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
                       {
-                        "name": "514. Deputy John Clendennen asked the Minister for Health for an update on the accessibility of Omaveloxolone (brand name Skyclarys) for the treatment of Friedreich’s ataxia; and if she will make a statement on the matter. [21312/26]",
+                        "name": "419. Deputy John Clendennen asked the Minister for Health the number of persons with type 1 diabetes currently receiving insulin-pump therapy through the public health service, by adults and children, HSE health region and hospital at which their diabetes care is provided, in tabular form. [66269/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/514/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/419/"
                       }
                     ]
                   }
@@ -2062,6 +2176,33 @@
                         "name": "234. Deputy John Clendennen asked the Minister for Health whether she has engaged with the Minister for Justice; Home Affairs and Migration regarding the implementation of a portable Garda vetting system specifically tailored for healthcare workers moving between roles or locations within the HSE or funded agencies to reduce administrative burdens and prevent delays in staff commencing work; and if she will make a statement on the matter. [46403/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-17/234/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2553. Deputy John Clendennen asked the Minister for Health the progress made on the National Stroke Strategy 2022-2027; and if she will make a statement on the matter. [2400/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2553/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "424. Deputy John Clendennen asked the Minister for Health for an update on the implementation framework to complement The Diabetes Policy and Services Review; A strategy for Better Care. [66259/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/424/"
                       }
                     ]
                   }
@@ -2137,33 +2278,6 @@
                 ]
               },
               {
-                "name": "Health Services",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "511. Deputy John Clendennen asked the Minister for Health the current status of a service (details supplied) including current opening hours and staffing levels, recent alterations or future plans for same; and if she will make a statement on the matter. [21305/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/511/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "822. Deputy John Clendennen asked the Minister for Health to provide a comprehensive list of all health services intended to be operational at the Birr primary care centre by the end of 2026; and if she will make a statement on the matter. [47596/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/822/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Ambulance Service",
                 "children": [
                   {
@@ -2185,16 +2299,21 @@
                 ]
               },
               {
-                "name": "Health Strategies",
+                "name": "Disease Management",
                 "children": [
                   {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
                     "children": [
                       {
-                        "name": "2553. Deputy John Clendennen asked the Minister for Health the progress made on the National Stroke Strategy 2022-2027; and if she will make a statement on the matter. [2400/26]",
+                        "name": "420. Deputy John Clendennen asked the Minister for Health for an update on the development and implementation of a national care pathway for Huntington's disease, including the estimated annual cost of fully implementing the proposed pathway; and whether funding has been sought for implementation in 2026 and 2027. [66287/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2553/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/420/"
+                      },
+                      {
+                        "name": "421. Deputy John Clendennen asked the Minister for Health whether the proposed national care pathway for Huntington's disease provides for the establishment of regional specialist multidisciplinary services; the proposed number and locations of such services; and the disciplines that will comprise each multidisciplinary team. [66286/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/421/"
                       }
                     ]
                   }
@@ -2585,6 +2704,49 @@
                 ]
               },
               {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "165. Deputy John Clendennen asked the Minister for Transport the number of recipients and the total value of payments made under the 2026 road transporters support scheme to operators based in County Offaly, by category of operator such as licensed road haulage operators, licensed bus operators or otherwise, in tabular form. [66277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/165/"
+                      },
+                      {
+                        "name": "169. Deputy John Clendennen asked the Minister for Transport the number of businesses and operators based in County Offaly that applied for support under the 2026 road transporters support scheme; the number approved; the number refused or deemed ineligible; and the total amount of funding approved and paid to County Offaly operators, in tabular form. [66285/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/169/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "209. Deputy John Clendennen asked the Minister for Transport if the community involvement scheme will be open for applications in 2026; the anticipated timeline for the announcement of funding allocations; and if he will make a statement on the matter. [7496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/209/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 22 April",
+                    "date_iso": "2026-04-22",
+                    "children": [
+                      {
+                        "name": "46. Deputy John Clendennen asked the Minister for Transport for an update on the development of a new vehicle adaptation scheme; and if he will make a statement on the matter. [29122/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/46/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Road Safety",
                 "children": [
                   {
@@ -2691,33 +2853,6 @@
                 ]
               },
               {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "209. Deputy John Clendennen asked the Minister for Transport if the community involvement scheme will be open for applications in 2026; the anticipated timeline for the announcement of funding allocations; and if he will make a statement on the matter. [7496/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/209/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 22 April",
-                    "date_iso": "2026-04-22",
-                    "children": [
-                      {
-                        "name": "46. Deputy John Clendennen asked the Minister for Transport for an update on the development of a new vehicle adaptation scheme; and if he will make a statement on the matter. [29122/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/46/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Electric Vehicles",
                 "children": [
                   {
@@ -2733,6 +2868,33 @@
                         "name": "205. Deputy John Clendennen asked the Minister for Transport the supports being considered for the second-hand electric vehicle (EV) market as the number of registered EV’s on our roads continue to rise; and if he will make a statement on the matter. [21320/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/205/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Advertising",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "243. Deputy John Clendennen asked the Minister for Transport if he will provide a breakdown of spending on advertising that was funded or overseen by his Department, and bodies under its aegis, in each of the past five yeras, including a breakdown by medium, that is, radio, television and social media, in tabular form; and if he will make a statement on the matter. [36498/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/243/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "168. Deputy John Clendennen asked the Minister for Transport further to Parliamentary Question No. 243 of 14 May 2026, for a breakdown of each figure as provided by an organisation (details supplied); indicating the number of campaigns associated with each figure; the name of each individual campaign; and associated cost; in tabular form. [66246/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/168/"
                       }
                     ]
                   }
@@ -2829,22 +2991,6 @@
                         "name": "207. Deputy John Clendennen asked the Minister for Transport for an update on Connecting Ireland route 826 which will service Mullingar, Kinnegad, Edenderry, Clonbullogue, Bracknagh, Portarlington, Monasterevin and Kildare Village; the expected commencement date of same; and if he will make a statement on the matter. [21322/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/207/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Advertising",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "243. Deputy John Clendennen asked the Minister for Transport if he will provide a breakdown of spending on advertising that was funded or overseen by his Department, and bodies under its aegis, in each of the past five yeras, including a breakdown by medium, that is, radio, television and social media, in tabular form; and if he will make a statement on the matter. [36498/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/243/"
                       }
                     ]
                   }
@@ -3571,6 +3717,33 @@
                 ]
               },
               {
+                "name": "Disabilities Assessments",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3109. Deputy John Clendennen asked the Minister for Children, Disability and Equality for an update on the waiting times for an assessment of need in County Offaly. [64082/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3109/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "106. Deputy John Clendennen asked the Minister for Children, Disability and Equality the current status of the implementation of the new Autism Assessment and Intervention Pathway Protocol; and the number of the proposed in-reach teams that have been established to date. [65879/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/106/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Capital Expenditure Programme",
                 "children": [
                   {
@@ -3683,16 +3856,16 @@
                 ]
               },
               {
-                "name": "Disabilities Assessments",
+                "name": "Health Service Executive",
                 "children": [
                   {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
                     "children": [
                       {
-                        "name": "3109. Deputy John Clendennen asked the Minister for Children, Disability and Equality for an update on the waiting times for an assessment of need in County Offaly. [64082/26]",
+                        "name": "119. Deputy John Clendennen asked the Minister for Children, Disability and Equality the targets that have been established for the new Autism Assessment and Intervention Pathway Protocol in relation to the number of assessments to be completed, waiting times and anticipated reduction in demand for statutory Assessments of Need. [65880/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3109/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/119/"
                       }
                     ]
                   }
@@ -3856,6 +4029,33 @@
                 ]
               },
               {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "440. Deputy John Clendennen asked the Minister for Justice, Home Affairs and Migration if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium that is radio, television, social media, in tabular form; and if he will make a statement on the matter. [36494/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/440/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "289. Deputy John Clendennen asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 239 of 26 November 2025, if he will confirm the current status of the office (details supplied). [66268/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/289/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Sentencing Policy",
                 "children": [
                   {
@@ -3951,22 +4151,6 @@
                         "name": "214. Deputy John Clendennen asked the Minister for Justice, Home Affairs and Migration whether the Intoxicating Liquor Bill 2024 and associated Sale of Alcohol Bill 2022 as mentioned in the Spring 2026 Government Legislation Programme will be prioritised in the next Government Legislation Programme; and if he will make a statement on the matter. [23034/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-25/214/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "440. Deputy John Clendennen asked the Minister for Justice, Home Affairs and Migration if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium that is radio, television, social media, in tabular form; and if he will make a statement on the matter. [36494/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/440/"
                       }
                     ]
                   }
@@ -4181,6 +4365,27 @@
                 ]
               },
               {
+                "name": "Climate Change Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "43. Deputy John Clendennen asked the Minister for Climate, Energy and the Environment his plans to address the particular challenges associated with decarbonising rural homes that remain dependent on oil (kerosene) and other fossil fuels for heating; and whether his Department is developing a transitional pathway for households for which immediate installation of a heat pump and associated retrofit works may not be technically or financially feasible. [65877/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/43/"
+                      },
+                      {
+                        "name": "47. Deputy John Clendennen asked the Minister for Climate, Energy and the Environment the role he envisages for sustainable bio-liquids, renewable liquid fuels and other lower carbon heating solutions in reducing emissions from rural homes during their transition away from fossil fuel heating; and whether such fuel options could provide an interim decarbonisation pathway for such households. [65878/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/47/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Departmental Contracts",
                 "children": [
                   {
@@ -4223,6 +4428,253 @@
                         "name": "94. Deputy John Clendennen asked the Minister for Climate, Energy and the Environment for an update on the energy affordability action plan; the timeframe for the plan to be published; and if he will make a statement on the matter. [53721/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/94/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Wednesday, 22 April",
+                    "date_iso": "2026-04-22",
+                    "children": [
+                      {
+                        "name": "69. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the upgrade refurbishment or capital works completed at Garda stations across County Offaly in 2025; the nature and scope of works carried out at each station; the total expenditure per project; and whether each project was completed on time and within budget; and if he will make a statement on the matter. [29128/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/69/"
+                      },
+                      {
+                        "name": "70. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the full list of Garda stations in County Offaly scheduled for upgrade, refurbishment or capital works in 2026; the nature and scope of works planned for each station; the budget allocated to each project; the current status of each project, including design, procurement or construction stage; and the expected timelines for delivery; and if he will make a statement on the matter. [29131/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/70/"
+                      },
+                      {
+                        "name": "71. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on plans for upgrade or refurbishment works at Kilcormac Garda Station, County Offaly in 2026; the scope of any such works; the budget allocated; the current stage of the project; and the expected timeline for commencement and completion; and if he will make a statement on the matter. [29132/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/71/"
+                      },
+                      {
+                        "name": "72. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the works completed at Kilcormac Garda Station, County Offaly over the past two years; the nature and scope of those works; the total expenditure; whether the works were completed on time and within budget; and if he will make a statement on the matter. [29133/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/72/"
+                      },
+                      {
+                        "name": "73. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on plans for upgrade or refurbishment works at Kinnitty Garda Station, County Offaly in 2026; the scope of any such works; the budget allocated; the current stage of the project; and the expected timeline for commencement and completion; and if he will make a statement on the matter. [29134/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/73/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Office of Public Works",
+                "children": [
+                  {
+                    "name": "Wednesday, 28 January",
+                    "date_iso": "2026-01-28",
+                    "children": [
+                      {
+                        "name": "34. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the Office of Public Works’ engagement in relation to a site (details supplied); the current status of any assessments, conservation works or development proposals at the site; the plans in place or under consideration for its future development and public access; and if he will make a statement on the matter. [6743/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/34/"
+                      },
+                      {
+                        "name": "35. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the Office of Public Works’ engagement in relation to a site (details supplied); the current status of any assessments, conservation works or development proposals at the site; the plans in place or under consideration for its future development; and if he will make a statement on the matter. [6744/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/35/"
+                      },
+                      {
+                        "name": "36. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current status of considerations by a State body in relation to a location (details supplied); the timeframe within which a decision is expected to be made regarding its future status or development; and if he will make a statement on the matter. [6745/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/36/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "41. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will consider a proposal (details supplied); and if he will make a statement on the matter. [2624/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/41/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Pay",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "196. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to correspondence (details supplied), the engagement he or members of his Department has had with an organisation on the topic of (details supplied) and the outcome of any such engagement. [66258/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/196/"
+                      },
+                      {
+                        "name": "197. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to correspondence (details supplied); the engagement he or members of his Department has had with an organisation on a topic; and the outcome of any such engagement. [66257/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/197/"
+                      },
+                      {
+                        "name": "198. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether excluding retired medical scientists (having retired pre 1/1/2024) from the Labour Court-recommended pay adjustments implemented for medical scientists active or retiring from 01/01/2024, is consistent with past practice on pension parity for public servants. [66255/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/198/"
+                      },
+                      {
+                        "name": "199. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will agree to and action the pay increase (details supplied). [66254/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/199/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Procurement Contracts",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "193. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to list the public procurement contracts recorded on eTenders as having been awarded to businesses with an address in County Offaly and the value of each of those contracts in each of the years 2021-2025 and to date in 2026, broken down by micro, small, medium and large enterprise, in tabular form. [66251/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/193/"
+                      },
+                      {
+                        "name": "194. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the way in which the National Public Procurement Strategy will increase participation by micro, small and medium-sized enterprises in public procurement; and whether there will be specific targets or measurable outcomes for SME participation. [66290/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/194/"
+                      },
+                      {
+                        "name": "195. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance provided to public bodies regarding engagement with local micro and small enterprises when seeking quotations for contracts below the national advertising thresholds; and the measures in place to ensure that such opportunities are accessible to new and emerging suppliers and are not repeatedly confined to established or larger suppliers. [66289/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/195/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "957. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a list of the top ten capital or programme projects delivered by his Department or its agencies over the past three years which were completed on time and within the originally approved budget; the project name, location, delivery timeframe, original approved budget, final outturn cost, and delivery body, for each project; and if he will make a statement on the matter. [2434/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/957/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "958. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to detail the annual spend on external consultants by his Department and its agencies in each of the past three years; the number of consultancy contracts, the largest individual consultancy engagements by value, and whether internal capacity-building or cost-benefit assessments were undertaken prior to engaging external consultants; and if he will make a statement on the matter. [2452/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/958/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "959. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a list, for each of the past three years of the top ten projects per annum delivered by his Department or its agencies which were completed late and over the originally approved budget; the project name, location, original approved completion date, actual completion date, original approved budget, final outturn cost, cost overrun expressed in euro and percentage terms, and the delivery body for each project; and if he will make a statement on the matter. [2470/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/959/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Civil Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "960. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the civil service mobility scheme; when the scheme will be opened to the professional/technical grades; and if he will make a statement on the matter. [2485/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/960/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "444. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the redevelopment of a visitor’s centre (details supplied); and if he will make a statement on the matter. [4467/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/444/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "285. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium that is radio, television, social media, in tabular form; and if he will make a statement on the matter. [36495/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/285/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Industrial Relations",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "924. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether provision has been made, or is being considered within Budget 2027 to facilitate a negotiated settlement of outstanding industrial relations issues affecting school secretaries and caretakers; and if he will make a statement on the matter. [58748/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/924/"
                       }
                     ]
                   }
@@ -4474,6 +4926,255 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Capital Expenditure Programme",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1872. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to provide a list of the top ten capital or programme projects delivered by his Department or its agencies over the past three years which were completed on time and within the originally approved budget; the project name, location, delivery timeframe, original approved budget, final outturn cost, and delivery body, for each project; and if he will make a statement on the matter. [2421/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1872/"
+                      },
+                      {
+                        "name": "1874. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to provide a list, for each of the past three years of the top ten projects per annum delivered by his Department or its agencies which were completed late and over the originally approved budget; the project name, location, original approved completion date, actual completion date, original approved budget, final outturn cost, cost overrun expressed in euro and percentage terms, and the delivery body for each project; and if he will make a statement on the matter. [2457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1874/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Industry",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "455. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the additional measures he intends to introduce to support generational renewal in the farming sector, particularly in relation to land access, succession planning and support for young farmers entering agriculture; and if he will make a statement on the matter. [36476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/455/"
+                      },
+                      {
+                        "name": "457. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to evaluate the impact of the EU's trade performance on the Irish agricultural sector, noting that 39% of respondents in Ireland view trade as the area where the EU's performance is strongest according to the recent European Movement Ireland EU Poll 2026; and if he will make a statement on the matter. [36478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/457/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2633. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will establish a dedicated farm succession scheme as part of Budget 2027 to support the progressive transfer of the managerial, financial and decision-making responsibilities of farm enterprises to younger farmers; the proposed eligibility criteria, payment structure and timeframe for such a scheme; and if he will make a statement on the matter. [58180/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2633/"
+                      },
+                      {
+                        "name": "2637. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the allocation Ireland will receive from the EU agricultural crisis reserve to address increased fertiliser costs, whether the Government will provide the maximum level of co-financing permitted in respect of that allocation; when a fertiliser support scheme will be opened; and if he will make a statement on the matter. [58187/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2637/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fuel Prices",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "302. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the number of agricultural and forestry contractors based in County Offaly who applied for support under the 2026 fuel income support scheme; the number approved; the total value of payments approved and paid; and the average and highest individual payments made to qualifying contractors, in tabular form. [66284/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/302/"
+                      },
+                      {
+                        "name": "303. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the number of farmers in County Offaly who applied for support under the 2026 fuel income support scheme; the number approved; the number refused or deemed ineligible; the total value of payments approved and paid to farmers in County Offaly; and the average payment per successful applicant, in tabular form. [66283/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/303/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1873. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to detail the annual spend on external consultants by his Department and its agencies in each of the past three years; the number of consultancy contracts, the largest individual consultancy engagements by value, and whether internal capacity-building or cost-benefit assessments were undertaken prior to engaging external consultants; and if he will make a statement on the matter. [2439/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1873/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Promotion",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "104. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the actions being taken by his Department and agencies to promote Irish agri-food exports in international markets; and if he will make a statement on the matter. [20868/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/104/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Common Agricultural Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "125. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the priorities both he and his Department are considering ahead of the Common Agricultural Policy (CAP) negotiations during Ireland's upcoming EU presidency; and if he will make a statement on the matter. [20867/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/125/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Prices",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "454. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the steps being taken by his Department to address continued food price inflation and to ensure primary producers receive fair share of retail prices while maintaining affordability for consumers; and if he will make a statement on the matter. [36475/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/454/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Prices",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "456. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the measures being implemented to support the agricultural sector in managing energy costs and ensuring energy security, given that 36% of respondents in Ireland identified energy as a significant concern at the EU level in the EU Poll 2026; and if he will make a statement on the matter. [36477/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/456/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Thursday, 14 May",
+                    "date_iso": "2026-05-14",
+                    "children": [
+                      {
+                        "name": "458. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium, that is, radio, television, social media, in tabular form; and if he will make a statement on the matter. [36482/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/458/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2634. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will review the requirement that a successor participate in a succession farm partnership for a prescribed period before the farm is transferred; if he has assessed whether this condition is delaying or discouraging otherwise viable farm transfers; if he will consider its removal or amendment; and if he will make a statement on the matter. [58181/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2634/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2635. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will provide an independent, multi-annual Exchequer funding stream for the Land Mobility Service, including the €150,000 annual allocation sought by an organisation (details supplied) in its Pre-Budget 2027 Submission; and if he will make a statement on the matter. [58182/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2635/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2636. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the additional expenditure that would be required in Budget 2027 to ensure that increased participation in the national beef welfare scheme, straw incorporation measure, national sheep welfare scheme and other demand-led agricultural schemes does not result in reduced payment rates or the exclusion of otherwise eligible applicants; whether he has submitted the necessary funding requirements to the Department of Public Expenditure, National Development Plan Delivery and Reform and Digitalisation; and if he will make a statement on the matter. [58186/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2636/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2638. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine what measures are being considered ahead of Budget 2027 to address the volatile nature of farm income; and if he will make a statement on the matter. [58188/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2638/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -4668,424 +5369,6 @@
                         "name": "802. Deputy John Clendennen asked the Minister for Rural and Community Development and the Gaeltacht if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium that is radio, television, social media, in tabular form y; and if he will make a statement on the matter. [36496/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/802/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Wednesday, 22 April",
-                    "date_iso": "2026-04-22",
-                    "children": [
-                      {
-                        "name": "69. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the upgrade refurbishment or capital works completed at Garda stations across County Offaly in 2025; the nature and scope of works carried out at each station; the total expenditure per project; and whether each project was completed on time and within budget; and if he will make a statement on the matter. [29128/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/69/"
-                      },
-                      {
-                        "name": "70. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the full list of Garda stations in County Offaly scheduled for upgrade, refurbishment or capital works in 2026; the nature and scope of works planned for each station; the budget allocated to each project; the current status of each project, including design, procurement or construction stage; and the expected timelines for delivery; and if he will make a statement on the matter. [29131/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/70/"
-                      },
-                      {
-                        "name": "71. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on plans for upgrade or refurbishment works at Kilcormac Garda Station, County Offaly in 2026; the scope of any such works; the budget allocated; the current stage of the project; and the expected timeline for commencement and completion; and if he will make a statement on the matter. [29132/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/71/"
-                      },
-                      {
-                        "name": "72. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the works completed at Kilcormac Garda Station, County Offaly over the past two years; the nature and scope of those works; the total expenditure; whether the works were completed on time and within budget; and if he will make a statement on the matter. [29133/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/72/"
-                      },
-                      {
-                        "name": "73. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide an update on plans for upgrade or refurbishment works at Kinnitty Garda Station, County Offaly in 2026; the scope of any such works; the budget allocated; the current stage of the project; and the expected timeline for commencement and completion; and if he will make a statement on the matter. [29134/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/73/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Office of Public Works",
-                "children": [
-                  {
-                    "name": "Wednesday, 28 January",
-                    "date_iso": "2026-01-28",
-                    "children": [
-                      {
-                        "name": "34. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the Office of Public Works’ engagement in relation to a site (details supplied); the current status of any assessments, conservation works or development proposals at the site; the plans in place or under consideration for its future development and public access; and if he will make a statement on the matter. [6743/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/34/"
-                      },
-                      {
-                        "name": "35. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the Office of Public Works’ engagement in relation to a site (details supplied); the current status of any assessments, conservation works or development proposals at the site; the plans in place or under consideration for its future development; and if he will make a statement on the matter. [6744/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/35/"
-                      },
-                      {
-                        "name": "36. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current status of considerations by a State body in relation to a location (details supplied); the timeframe within which a decision is expected to be made regarding its future status or development; and if he will make a statement on the matter. [6745/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-28/36/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "41. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will consider a proposal (details supplied); and if he will make a statement on the matter. [2624/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/41/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "957. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a list of the top ten capital or programme projects delivered by his Department or its agencies over the past three years which were completed on time and within the originally approved budget; the project name, location, delivery timeframe, original approved budget, final outturn cost, and delivery body, for each project; and if he will make a statement on the matter. [2434/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/957/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "958. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to detail the annual spend on external consultants by his Department and its agencies in each of the past three years; the number of consultancy contracts, the largest individual consultancy engagements by value, and whether internal capacity-building or cost-benefit assessments were undertaken prior to engaging external consultants; and if he will make a statement on the matter. [2452/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/958/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "959. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to provide a list, for each of the past three years of the top ten projects per annum delivered by his Department or its agencies which were completed late and over the originally approved budget; the project name, location, original approved completion date, actual completion date, original approved budget, final outturn cost, cost overrun expressed in euro and percentage terms, and the delivery body for each project; and if he will make a statement on the matter. [2470/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/959/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Civil Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "960. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the civil service mobility scheme; when the scheme will be opened to the professional/technical grades; and if he will make a statement on the matter. [2485/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/960/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "State Properties",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "444. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the redevelopment of a visitor’s centre (details supplied); and if he will make a statement on the matter. [4467/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/444/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "285. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium that is radio, television, social media, in tabular form; and if he will make a statement on the matter. [36495/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/285/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Industrial Relations",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "924. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether provision has been made, or is being considered within Budget 2027 to facilitate a negotiated settlement of outstanding industrial relations issues affecting school secretaries and caretakers; and if he will make a statement on the matter. [58748/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/924/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Capital Expenditure Programme",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1872. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to provide a list of the top ten capital or programme projects delivered by his Department or its agencies over the past three years which were completed on time and within the originally approved budget; the project name, location, delivery timeframe, original approved budget, final outturn cost, and delivery body, for each project; and if he will make a statement on the matter. [2421/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1872/"
-                      },
-                      {
-                        "name": "1874. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to provide a list, for each of the past three years of the top ten projects per annum delivered by his Department or its agencies which were completed late and over the originally approved budget; the project name, location, original approved completion date, actual completion date, original approved budget, final outturn cost, cost overrun expressed in euro and percentage terms, and the delivery body for each project; and if he will make a statement on the matter. [2457/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1874/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Industry",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "455. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the additional measures he intends to introduce to support generational renewal in the farming sector, particularly in relation to land access, succession planning and support for young farmers entering agriculture; and if he will make a statement on the matter. [36476/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/455/"
-                      },
-                      {
-                        "name": "457. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to evaluate the impact of the EU's trade performance on the Irish agricultural sector, noting that 39% of respondents in Ireland view trade as the area where the EU's performance is strongest according to the recent European Movement Ireland EU Poll 2026; and if he will make a statement on the matter. [36478/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/457/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Agriculture Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2633. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will establish a dedicated farm succession scheme as part of Budget 2027 to support the progressive transfer of the managerial, financial and decision-making responsibilities of farm enterprises to younger farmers; the proposed eligibility criteria, payment structure and timeframe for such a scheme; and if he will make a statement on the matter. [58180/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2633/"
-                      },
-                      {
-                        "name": "2637. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the allocation Ireland will receive from the EU agricultural crisis reserve to address increased fertiliser costs, whether the Government will provide the maximum level of co-financing permitted in respect of that allocation; when a fertiliser support scheme will be opened; and if he will make a statement on the matter. [58187/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2637/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1873. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine to detail the annual spend on external consultants by his Department and its agencies in each of the past three years; the number of consultancy contracts, the largest individual consultancy engagements by value, and whether internal capacity-building or cost-benefit assessments were undertaken prior to engaging external consultants; and if he will make a statement on the matter. [2439/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1873/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Food Promotion",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "104. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the actions being taken by his Department and agencies to promote Irish agri-food exports in international markets; and if he will make a statement on the matter. [20868/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/104/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Common Agricultural Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "125. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the priorities both he and his Department are considering ahead of the Common Agricultural Policy (CAP) negotiations during Ireland's upcoming EU presidency; and if he will make a statement on the matter. [20867/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/125/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Food Prices",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "454. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the steps being taken by his Department to address continued food price inflation and to ensure primary producers receive fair share of retail prices while maintaining affordability for consumers; and if he will make a statement on the matter. [36475/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/454/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Energy Prices",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "456. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the measures being implemented to support the agricultural sector in managing energy costs and ensuring energy security, given that 36% of respondents in Ireland identified energy as a significant concern at the EU level in the EU Poll 2026; and if he will make a statement on the matter. [36477/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/456/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Thursday, 14 May",
-                    "date_iso": "2026-05-14",
-                    "children": [
-                      {
-                        "name": "458. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium, that is, radio, television, social media, in tabular form; and if he will make a statement on the matter. [36482/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/458/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reviews",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2634. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will review the requirement that a successor participate in a succession farm partnership for a prescribed period before the farm is transferred; if he has assessed whether this condition is delaying or discouraging otherwise viable farm transfers; if he will consider its removal or amendment; and if he will make a statement on the matter. [58181/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2634/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2635. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine if he will provide an independent, multi-annual Exchequer funding stream for the Land Mobility Service, including the €150,000 annual allocation sought by an organisation (details supplied) in its Pre-Budget 2027 Submission; and if he will make a statement on the matter. [58182/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2635/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2636. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the additional expenditure that would be required in Budget 2027 to ensure that increased participation in the national beef welfare scheme, straw incorporation measure, national sheep welfare scheme and other demand-led agricultural schemes does not result in reduced payment rates or the exclusion of otherwise eligible applicants; whether he has submitted the necessary funding requirements to the Department of Public Expenditure, National Development Plan Delivery and Reform and Digitalisation; and if he will make a statement on the matter. [58186/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2636/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Strategies",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2638. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine what measures are being considered ahead of Budget 2027 to address the volatile nature of farm income; and if he will make a statement on the matter. [58188/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2638/"
                       }
                     ]
                   }
@@ -5633,6 +5916,54 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1507/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "268. Deputy John Clendennen asked the Minister for Social Protection the number of households in Offaly consisting of a person aged over 70 who are entitled to claim the Household Benefits Package; the number currently receiving the payment; and the number not in receipt of the payment, in tabular form. [66245/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/268/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Payments",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "269. Deputy John Clendennen asked the Minister for Social Protection the number of households in County Offaly that have become eligible for fuel allowance in 2026 as a result of the extension of eligibility to recipients of the working family payment; the total value of these fuel allowance payments made to date in 2026; and the projected full-year value of these payments in County Offaly, in tabular form. [66282/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/269/"
+                      },
+                      {
+                        "name": "270. Deputy John Clendennen asked the Minister for Social Protection the number of fuel allowance recipients in County Offaly in each of the years 2021 to 2025 and to date in 2026, by the primary qualifying payment or scheme through which eligibility was established, in tabular form. [66280/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/270/"
+                      },
+                      {
+                        "name": "271. Deputy John Clendennen asked the Minister for Social Protection the number of households in County Offaly that received fuel allowance under the national fuel scheme in each of the years 2021 to 2025 and to date in 2026; and the total value of payments made to recipients in County Offaly, by year, in tabular form. [66278/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/271/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2047. Deputy John Clendennen asked the Minister for Social Protection whether consideration can be given to a backdated payment of carer's allowance (details supplied); and if he will make a statement on the matter. [57758/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2047/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -5711,22 +6042,6 @@
                         "name": "413. Deputy John Clendennen asked the Minister for Social Protection if he will provide a breakdown of spending on advertising which was funded or overseen by his Department, and bodies under its aegis, in each of the past five, including a breakdown by medium that is radio, television, social media, in tabular form; and if he will make a statement on the matter. [36497/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-14/413/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Payments",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2047. Deputy John Clendennen asked the Minister for Social Protection whether consideration can be given to a backdated payment of carer's allowance (details supplied); and if he will make a statement on the matter. [57758/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2047/"
                       }
                     ]
                   }
@@ -10097,6 +10412,285 @@
           "heading": "Community Development Projects",
           "question": "4177. Deputy John Clendennen asked the Minister for Rural and Community Development and the Gaeltacht the amount of funding provided specifically to Women’s Sheds in each of the years 2021 to 2025 and to date in 2026. [64096/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/4177/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 43,
+          "department": "Climate",
+          "heading": "Climate Change Policy",
+          "question": "43. Deputy John Clendennen asked the Minister for Climate, Energy and the Environment his plans to address the particular challenges associated with decarbonising rural homes that remain dependent on oil (kerosene) and other fossil fuels for heating; and whether his Department is developing a transitional pathway for households for which immediate installation of a heat pump and associated retrofit works may not be technically or financially feasible. [65877/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/43/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 47,
+          "department": "Climate",
+          "heading": "Climate Change Policy",
+          "question": "47. Deputy John Clendennen asked the Minister for Climate, Energy and the Environment the role he envisages for sustainable bio-liquids, renewable liquid fuels and other lower carbon heating solutions in reducing emissions from rural homes during their transition away from fossil fuel heating; and whether such fuel options could provide an interim decarbonisation pathway for such households. [65878/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/47/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 106,
+          "department": "Children",
+          "heading": "Disabilities Assessments",
+          "question": "106. Deputy John Clendennen asked the Minister for Children, Disability and Equality the current status of the implementation of the new Autism Assessment and Intervention Pathway Protocol; and the number of the proposed in-reach teams that have been established to date. [65879/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/106/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 119,
+          "department": "Children",
+          "heading": "Health Service Executive",
+          "question": "119. Deputy John Clendennen asked the Minister for Children, Disability and Equality the targets that have been established for the new Autism Assessment and Intervention Pathway Protocol in relation to the number of assessments to be completed, waiting times and anticipated reduction in demand for statutory Assessments of Need. [65880/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/119/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 165,
+          "department": "Transport",
+          "heading": "Departmental Schemes",
+          "question": "165. Deputy John Clendennen asked the Minister for Transport the number of recipients and the total value of payments made under the 2026 road transporters support scheme to operators based in County Offaly, by category of operator such as licensed road haulage operators, licensed bus operators or otherwise, in tabular form. [66277/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/165/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 168,
+          "department": "Transport",
+          "heading": "Departmental Advertising",
+          "question": "168. Deputy John Clendennen asked the Minister for Transport further to Parliamentary Question No. 243 of 14 May 2026, for a breakdown of each figure as provided by an organisation (details supplied); indicating the number of campaigns associated with each figure; the name of each individual campaign; and associated cost; in tabular form. [66246/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/168/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 169,
+          "department": "Transport",
+          "heading": "Departmental Schemes",
+          "question": "169. Deputy John Clendennen asked the Minister for Transport the number of businesses and operators based in County Offaly that applied for support under the 2026 road transporters support scheme; the number approved; the number refused or deemed ineligible; and the total amount of funding approved and paid to County Offaly operators, in tabular form. [66285/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/169/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 193,
+          "department": "Public Expenditure",
+          "heading": "Public Procurement Contracts",
+          "question": "193. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation to list the public procurement contracts recorded on eTenders as having been awarded to businesses with an address in County Offaly and the value of each of those contracts in each of the years 2021-2025 and to date in 2026, broken down by micro, small, medium and large enterprise, in tabular form. [66251/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/193/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 194,
+          "department": "Public Expenditure",
+          "heading": "Public Procurement Contracts",
+          "question": "194. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the way in which the National Public Procurement Strategy will increase participation by micro, small and medium-sized enterprises in public procurement; and whether there will be specific targets or measurable outcomes for SME participation. [66290/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/194/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 195,
+          "department": "Public Expenditure",
+          "heading": "Public Procurement Contracts",
+          "question": "195. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance provided to public bodies regarding engagement with local micro and small enterprises when seeking quotations for contracts below the national advertising thresholds; and the measures in place to ensure that such opportunities are accessible to new and emerging suppliers and are not repeatedly confined to established or larger suppliers. [66289/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/195/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 196,
+          "department": "Public Expenditure",
+          "heading": "Public Sector Pay",
+          "question": "196. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to correspondence (details supplied), the engagement he or members of his Department has had with an organisation on the topic of (details supplied) and the outcome of any such engagement. [66258/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/196/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 197,
+          "department": "Public Expenditure",
+          "heading": "Public Sector Pay",
+          "question": "197. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to correspondence (details supplied); the engagement he or members of his Department has had with an organisation on a topic; and the outcome of any such engagement. [66257/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/197/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 198,
+          "department": "Public Expenditure",
+          "heading": "Public Sector Pay",
+          "question": "198. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether excluding retired medical scientists (having retired pre 1/1/2024) from the Labour Court-recommended pay adjustments implemented for medical scientists active or retiring from 01/01/2024, is consistent with past practice on pension parity for public servants. [66255/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/198/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 199,
+          "department": "Public Expenditure",
+          "heading": "Public Sector Pay",
+          "question": "199. Deputy John Clendennen asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will agree to and action the pay increase (details supplied). [66254/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/199/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 268,
+          "department": "Social",
+          "heading": "Social Welfare Schemes",
+          "question": "268. Deputy John Clendennen asked the Minister for Social Protection the number of households in Offaly consisting of a person aged over 70 who are entitled to claim the Household Benefits Package; the number currently receiving the payment; and the number not in receipt of the payment, in tabular form. [66245/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/268/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 269,
+          "department": "Social",
+          "heading": "Social Welfare Payments",
+          "question": "269. Deputy John Clendennen asked the Minister for Social Protection the number of households in County Offaly that have become eligible for fuel allowance in 2026 as a result of the extension of eligibility to recipients of the working family payment; the total value of these fuel allowance payments made to date in 2026; and the projected full-year value of these payments in County Offaly, in tabular form. [66282/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/269/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 270,
+          "department": "Social",
+          "heading": "Social Welfare Payments",
+          "question": "270. Deputy John Clendennen asked the Minister for Social Protection the number of fuel allowance recipients in County Offaly in each of the years 2021 to 2025 and to date in 2026, by the primary qualifying payment or scheme through which eligibility was established, in tabular form. [66280/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/270/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 271,
+          "department": "Social",
+          "heading": "Social Welfare Payments",
+          "question": "271. Deputy John Clendennen asked the Minister for Social Protection the number of households in County Offaly that received fuel allowance under the national fuel scheme in each of the years 2021 to 2025 and to date in 2026; and the total value of payments made to recipients in County Offaly, by year, in tabular form. [66278/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/271/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 289,
+          "department": "Justice",
+          "heading": "Departmental Data",
+          "question": "289. Deputy John Clendennen asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 239 of 26 November 2025, if he will confirm the current status of the office (details supplied). [66268/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/289/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 302,
+          "department": "Agriculture",
+          "heading": "Fuel Prices",
+          "question": "302. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the number of agricultural and forestry contractors based in County Offaly who applied for support under the 2026 fuel income support scheme; the number approved; the total value of payments approved and paid; and the average and highest individual payments made to qualifying contractors, in tabular form. [66284/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/302/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 303,
+          "department": "Agriculture",
+          "heading": "Fuel Prices",
+          "question": "303. Deputy John Clendennen asked the Minister for Agriculture, Food and the Marine the number of farmers in County Offaly who applied for support under the 2026 fuel income support scheme; the number approved; the number refused or deemed ineligible; the total value of payments approved and paid to farmers in County Offaly; and the average payment per successful applicant, in tabular form. [66283/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/303/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 414,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "414. Deputy John Clendennen asked the Minister for Health for an update on the reimbursement of belzutifan, for the treatment of von Hippel-Lindau (VHL) disease, by the HSE; whether the application is being assessed on the most up to date information on the performance of the drug and subsequent patient outcomes; and when a final decision is likely. [66250/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/414/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 415,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "415. Deputy John Clendennen asked the Minister for Health the number of patients in the State in receipt of dialysis treatment in each of the years 2021-2025 and to date in 2026, broken down by type of treatment, in tabular form. [66249/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/415/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 416,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "416. Deputy John Clendennen asked the Minister for Health whether the pharmacoeconomic and reimbursement assessment of belzutifan for von Hippel Lindau disease takes account of the full long-term healthcare costs associated with the natural progression of the disease and repeated treatment of VHL-associated tumors including renal surgery, loss of renal function, chronic kidney disease, dialysis, renal transplantation and other VHL-related interventions; and the manner in which such potentially avoided or deferred costs are incorporated into the assessment. [66248/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/416/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 419,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "419. Deputy John Clendennen asked the Minister for Health the number of persons with type 1 diabetes currently receiving insulin-pump therapy through the public health service, by adults and children, HSE health region and hospital at which their diabetes care is provided, in tabular form. [66269/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/419/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 420,
+          "department": "Health",
+          "heading": "Disease Management",
+          "question": "420. Deputy John Clendennen asked the Minister for Health for an update on the development and implementation of a national care pathway for Huntington's disease, including the estimated annual cost of fully implementing the proposed pathway; and whether funding has been sought for implementation in 2026 and 2027. [66287/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/420/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 421,
+          "department": "Health",
+          "heading": "Disease Management",
+          "question": "421. Deputy John Clendennen asked the Minister for Health whether the proposed national care pathway for Huntington's disease provides for the establishment of regional specialist multidisciplinary services; the proposed number and locations of such services; and the disciplines that will comprise each multidisciplinary team. [66286/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/421/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 422,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "422. Deputy John Clendennen asked the Minister for Health the number of persons with type 1 diabetes currently awaiting commencement of insulin-pump therapy, by HSE health region and hospital; the number waiting less than three months, three to six months, six to 12 months and more than 12 months; and the median and longest waiting time for commencement of therapy in each location, in tabular form. [66267/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/422/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 423,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "423. Deputy John Clendennen asked the Minister for Health to list each acute hospital diabetes service in the State which currently has the capacity to initiate adult patients with type 1 diabetes onto insulin-pump therapy; to provide details of each hospital which can provide ongoing pump management and aftercare but cannot initiate patients; and to provide details of each hospital providing neither service, in tabular form. [66265/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/423/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 424,
+          "department": "Health",
+          "heading": "Health Strategies",
+          "question": "424. Deputy John Clendennen asked the Minister for Health for an update on the implementation framework to complement The Diabetes Policy and Services Review; A strategy for Better Care. [66259/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/424/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 425,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "425. Deputy John Clendennen asked the Minister for Health the number of patients with type 1 diabetes ordinarily resident in County Offaly who are currently receiving insulin-pump therapy, by adults and children; the hospitals at which those patients receive insulin-pump initiation and follow-up care and the number who are required to travel outside of County Offaly for such care, in tabular form. [66263/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/425/",
           "questionType": "written"
         }
       ]

@@ -9,13 +9,14 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Pádraig-MacLochlainn.D.2011-03-09/image/large",
   "types": {
     "all": {
-      "count": 228,
+      "count": 236,
       "headingOptions": [
         "Agriculture Schemes",
         "Air Services",
         "Ambulance Service",
         "Aquaculture Industry",
         "Banking Sector",
+        "Bus Services",
         "Community Development Projects",
         "Community Employment Schemes",
         "Cross-Border Co-operation",
@@ -84,6 +85,7 @@
         "Social Welfare Eligibility",
         "Social Welfare Payments",
         "Sports Facilities",
+        "Sports Funding",
         "State Bodies",
         "State Pensions",
         "State Properties",
@@ -196,11 +198,11 @@
             "name": "Health",
             "children": [
               {
-                "name": "Healthcare Infrastructure Provision",
-                "value": 5
+                "name": "Hospital Services",
+                "value": 7
               },
               {
-                "name": "Hospital Services",
+                "name": "Healthcare Infrastructure Provision",
                 "value": 5
               },
               {
@@ -221,6 +223,10 @@
               },
               {
                 "name": "Medicinal Products",
+                "value": 3
+              },
+              {
+                "name": "Health Service Executive",
                 "value": 3
               },
               {
@@ -249,10 +255,6 @@
               },
               {
                 "name": "Men's Sheds",
-                "value": 1
-              },
-              {
-                "name": "Health Service Executive",
                 "value": 1
               },
               {
@@ -397,6 +399,14 @@
               {
                 "name": "Departmental Data",
                 "value": 1
+              },
+              {
+                "name": "Bus Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
               }
             ]
           },
@@ -509,27 +519,6 @@
             ]
           },
           {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Visa Applications",
-                "value": 2
-              },
-              {
-                "name": "Legislative Measures",
-                "value": 1
-              },
-              {
-                "name": "Community Employment Schemes",
-                "value": 1
-              },
-              {
-                "name": "Immigration Policy",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Culture",
             "children": [
               {
@@ -547,6 +536,10 @@
               {
                 "name": "Sports Facilities",
                 "value": 1
+              },
+              {
+                "name": "Sports Funding",
+                "value": 1
               }
             ]
           },
@@ -555,7 +548,28 @@
             "children": [
               {
                 "name": "Passport Services",
-                "value": 3
+                "value": 4
+              },
+              {
+                "name": "Immigration Policy",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Visa Applications",
+                "value": 2
+              },
+              {
+                "name": "Legislative Measures",
+                "value": 1
+              },
+              {
+                "name": "Community Employment Schemes",
+                "value": 1
               },
               {
                 "name": "Immigration Policy",
@@ -1315,56 +1329,24 @@
             "name": "Health",
             "children": [
               {
-                "name": "Healthcare Infrastructure Provision",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "893. Deputy Pádraig Mac Lochlainn asked the Minister for Health the latest projected timeline for the delivery of the surgical hub at Letterkenny University Hospital. [3333/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/893/"
-                      },
-                      {
-                        "name": "991. Deputy Pádraig Mac Lochlainn asked the Minister for Health when capital approval will be granted to transition a medical facility, Radharc na Sléibhte, Carndonagh, County Donegal, from a residential model to a recovery focused crisis intervention/set down facility, supported with 24-hour staff cover, as requested by the HSE's Donegal mental health management team. [4083/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/991/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "165. Deputy Pádraig Mac Lochlainn asked the Minister for Health the current projected timeline for the completion and opening of the surgical hub and ambulatory oncology unit at Letterkenny University Hospital; and if she will make a statement on the matter. [51753/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/165/"
-                      },
-                      {
-                        "name": "171. Deputy Pádraig Mac Lochlainn asked the Minister for Health to clarify when the Model 3 Report (details supplied) at Letterkenny University Hospital will be published along with a plan to address the issues raised by the report. [51754/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/171/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "3210. Deputy Pádraig Mac Lochlainn asked the Minister for Health further to Parliamentary Question No. 171 of 9 July 2026, to clarify the reason the manager at Letterkenny University Hospital was tasked with the response when the report is awaiting sign off and agreement by the HSE at national level and by the Minister; and the timeframe for this decision. [55223/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3210/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Hospital Services",
                 "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "1474. Deputy Pádraig Mac Lochlainn asked the Minister for Health if the design brief for the new surgical hub building at Letterkenny University Hospital incorporates inpatient wards on the upper floors of the building and a link corridor connecting said wards to the main hospital; and if so, if the architectural design brief specifically references the need to isolate the surgical hub from such inpatient wards as may be built on the upper floors of the building. [65930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1474/"
+                      },
+                      {
+                        "name": "1476. Deputy Pádraig Mac Lochlainn asked the Minister for Health if, 13 months after she awarded a surgical hub to Letterkenny University Hospital, the HSE has identified the precise site on the hospital campus where the hub is to be built; and if not, the reason. [65937/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1476/"
+                      }
+                    ]
+                  },
                   {
                     "name": "Thursday, 22 January",
                     "date_iso": "2026-01-22",
@@ -1417,6 +1399,54 @@
                         "name": "3751. Deputy Pádraig Mac Lochlainn asked the Minister for Health the current projected timeline for the completion and opening of the surgical hub and ambulatory oncology unit at Letterkenny University Hospital; and if she will make a statement on the matter. [62710/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3751/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Healthcare Infrastructure Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "893. Deputy Pádraig Mac Lochlainn asked the Minister for Health the latest projected timeline for the delivery of the surgical hub at Letterkenny University Hospital. [3333/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/893/"
+                      },
+                      {
+                        "name": "991. Deputy Pádraig Mac Lochlainn asked the Minister for Health when capital approval will be granted to transition a medical facility, Radharc na Sléibhte, Carndonagh, County Donegal, from a residential model to a recovery focused crisis intervention/set down facility, supported with 24-hour staff cover, as requested by the HSE's Donegal mental health management team. [4083/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/991/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "165. Deputy Pádraig Mac Lochlainn asked the Minister for Health the current projected timeline for the completion and opening of the surgical hub and ambulatory oncology unit at Letterkenny University Hospital; and if she will make a statement on the matter. [51753/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/165/"
+                      },
+                      {
+                        "name": "171. Deputy Pádraig Mac Lochlainn asked the Minister for Health to clarify when the Model 3 Report (details supplied) at Letterkenny University Hospital will be published along with a plan to address the issues raised by the report. [51754/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/171/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3210. Deputy Pádraig Mac Lochlainn asked the Minister for Health further to Parliamentary Question No. 171 of 9 July 2026, to clarify the reason the manager at Letterkenny University Hospital was tasked with the response when the report is awaiting sign off and agreement by the HSE at national level and by the Minister; and the timeframe for this decision. [55223/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3210/"
                       }
                     ]
                   }
@@ -1610,6 +1640,44 @@
                 ]
               },
               {
+                "name": "Health Service Executive",
+                "children": [
+                  {
+                    "name": "Wednesday, 22 April",
+                    "date_iso": "2026-04-22",
+                    "children": [
+                      {
+                        "name": "247. Deputy Pádraig Mac Lochlainn asked the Minister for Health if a permanent location and additional days will be supported for the HSE's day services in Carndonagh, County Donegal. [29141/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/247/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "1298. Deputy Pádraig Mac Lochlainn asked the Minister for Health when HSE estates will carry out the requisite preparatory work to allow the new ambulance base at Buncrana, County Donegal to proceed; and to provide a timeframe for the completion and opening of the new base. [65006/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1298/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "352. Deputy Pádraig Mac Lochlainn asked the Minister for Health if an update can be provided for an application (details supplied) submitted in April for reimbursement under the Northern Ireland planned healthcare scheme. [66058/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/352/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Strategies",
                 "children": [
                   {
@@ -1737,22 +1805,6 @@
                         "name": "976. Deputy Pádraig Mac Lochlainn asked the Minister for Health if she will report on her plans to introduce a renewed sustainability grant for men’s sheds across the State. [22193/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/976/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Service Executive",
-                "children": [
-                  {
-                    "name": "Wednesday, 22 April",
-                    "date_iso": "2026-04-22",
-                    "children": [
-                      {
-                        "name": "247. Deputy Pádraig Mac Lochlainn asked the Minister for Health if a permanent location and additional days will be supported for the HSE's day services in Carndonagh, County Donegal. [29141/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/247/"
                       }
                     ]
                   }
@@ -2686,6 +2738,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "213. Deputy Pádraig Mac Lochlainn asked the Minister for Transport the timeline for the provision of the Letterkenny town bus service in County Donegal that has been promised since September 2025, [64535/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/213/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "286. Deputy Pádraig Mac Lochlainn asked the Minister for Transport when an application (details supplied) submitted on 20 May 2026 under the road transport support scheme will be finalised. [65200/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/286/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3116,6 +3200,161 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "399. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport when he will sign off on the agreed pension increases for retired staff in An Post. [11540/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/399/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Swimming Pools",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "46. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport to make a firm commitment that the necessary funding will be provided from his Department to rebuild a centre (details supplied) once the latest design plans have been finalised, and it is ready to go to tender in the months ahead. [32814/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/46/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "656. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport if he has the power or discretion to fund a capital project allocation to a local authority backed project without match funding from that local authority. [40262/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/656/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "996. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport further to Parliamentary Question No. 656 of 26 May 2026, if he will confirm the percentage of the overall capital cost of building a swimming pool/ leisure centre does a local authority have to contribute when they are in receipt of a grant under the Local Authority Swimming Pool Programme. [42927/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/996/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "661. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport if he will establish a dedicated, ring-fenced and multi-annual local authority swimming pool fund in Budget 2027, as the first phase of a ten-year national programme of investment in Ireland’s swimming and community leisure infrastructure. [65906/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/661/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foreign",
+            "children": [
+              {
+                "name": "Passport Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "98. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade if a passport will issue to a person (details supplied) as the applicant's travel date is imminent; and if she will make a statement on the matter. [47004/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/98/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "68. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade if she will urgently intervene in the case of an international Irish passport application for a family (details supplied). [53198/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/68/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "77. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade the reason passport applications cannot be expedited or assisted by local TD offices when the estimated issue date falls after constituents confirmed date of travel, until that estimated issue date has officially passed; if she will address why this restriction remains in place even when a minimum of three weeks' notice is provided to her Department to assist with the application; and if she will make a statement of the matter. [63443/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/77/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "78. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade when a renewal child passport application (details supplied) will be finalised. [64460/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/78/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Immigration Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "251. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade the actions she is taking to ensure the wellbeing and protection of the rights of Irish citizens who are detained by Immigration and Customs Enforcement (ICE) in the United States. [11742/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/251/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -3188,134 +3427,6 @@
                         "name": "694. Deputy Pádraig Mac Lochlainn asked the Minister for Justice, Home Affairs and Migration if the financial criteria for a Stamp 4 status for Ukrainian refugees in Ireland under the temporary protection transition scheme is €29, 432 per person or per family. [45688/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/694/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "399. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport when he will sign off on the agreed pension increases for retired staff in An Post. [11540/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/399/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Swimming Pools",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "46. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport to make a firm commitment that the necessary funding will be provided from his Department to rebuild a centre (details supplied) once the latest design plans have been finalised, and it is ready to go to tender in the months ahead. [32814/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/46/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "656. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport if he has the power or discretion to fund a capital project allocation to a local authority backed project without match funding from that local authority. [40262/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/656/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Facilities",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "996. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport further to Parliamentary Question No. 656 of 26 May 2026, if he will confirm the percentage of the overall capital cost of building a swimming pool/ leisure centre does a local authority have to contribute when they are in receipt of a grant under the Local Authority Swimming Pool Programme. [42927/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/996/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Foreign",
-            "children": [
-              {
-                "name": "Passport Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "98. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade if a passport will issue to a person (details supplied) as the applicant's travel date is imminent; and if she will make a statement on the matter. [47004/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/98/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "68. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade if she will urgently intervene in the case of an international Irish passport application for a family (details supplied). [53198/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/68/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "77. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade the reason passport applications cannot be expedited or assisted by local TD offices when the estimated issue date falls after constituents confirmed date of travel, until that estimated issue date has officially passed; if she will address why this restriction remains in place even when a minimum of three weeks' notice is provided to her Department to assist with the application; and if she will make a statement of the matter. [63443/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/77/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Immigration Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "251. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade the actions she is taking to ensure the wellbeing and protection of the rights of Irish citizens who are detained by Immigration and Customs Enforcement (ICE) in the United States. [11742/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/251/"
                       }
                     ]
                   }
@@ -5545,6 +5656,78 @@
           "heading": "Departmental Reports",
           "question": "3773. Deputy Pádraig Mac Lochlainn asked the Minister for Health when the Model 3 Report at Letterkenny University Hospital (details supplied) will be published along with a plan to address the issues raised by the report. [62696/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3773/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 78,
+          "department": "Foreign",
+          "heading": "Passport Services",
+          "question": "78. Deputy Pádraig Mac Lochlainn asked the Minister for Foreign Affairs and Trade when a renewal child passport application (details supplied) will be finalised. [64460/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/78/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 213,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "213. Deputy Pádraig Mac Lochlainn asked the Minister for Transport the timeline for the provision of the Letterkenny town bus service in County Donegal that has been promised since September 2025, [64535/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 286,
+          "department": "Transport",
+          "heading": "Departmental Schemes",
+          "question": "286. Deputy Pádraig Mac Lochlainn asked the Minister for Transport when an application (details supplied) submitted on 20 May 2026 under the road transport support scheme will be finalised. [65200/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/286/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 661,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "661. Deputy Pádraig Mac Lochlainn asked the Minister for Culture, Communications and Sport if he will establish a dedicated, ring-fenced and multi-annual local authority swimming pool fund in Budget 2027, as the first phase of a ten-year national programme of investment in Ireland’s swimming and community leisure infrastructure. [65906/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/661/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 1298,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "1298. Deputy Pádraig Mac Lochlainn asked the Minister for Health when HSE estates will carry out the requisite preparatory work to allow the new ambulance base at Buncrana, County Donegal to proceed; and to provide a timeframe for the completion and opening of the new base. [65006/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1298/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 1474,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "1474. Deputy Pádraig Mac Lochlainn asked the Minister for Health if the design brief for the new surgical hub building at Letterkenny University Hospital incorporates inpatient wards on the upper floors of the building and a link corridor connecting said wards to the main hospital; and if so, if the architectural design brief specifically references the need to isolate the surgical hub from such inpatient wards as may be built on the upper floors of the building. [65930/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1474/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 1476,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "1476. Deputy Pádraig Mac Lochlainn asked the Minister for Health if, 13 months after she awarded a surgical hub to Letterkenny University Hospital, the HSE has identified the precise site on the hospital campus where the hub is to be built; and if not, the reason. [65937/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1476/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 352,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "352. Deputy Pádraig Mac Lochlainn asked the Minister for Health if an update can be provided for an application (details supplied) submitted in April for reimbursement under the Northern Ireland planned healthcare scheme. [66058/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/352/",
           "questionType": "written"
         }
       ]

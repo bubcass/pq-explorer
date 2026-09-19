@@ -9,17 +9,19 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Denise-Mitchell.D.2016-10-03/image/large",
   "types": {
     "all": {
-      "count": 102,
+      "count": 112,
       "headingOptions": [
         "Air Services",
         "Ambulance Service",
         "Animal Welfare",
         "Business Supports",
         "Childcare Services",
+        "Citizenship Applications",
         "Defective Building Materials",
         "Departmental Funding",
         "Departmental Inquiries",
         "Departmental Properties",
+        "Departmental Regulations",
         "Departmental Reviews",
         "Departmental Schemes",
         "Disability Services",
@@ -29,6 +31,7 @@
         "Dublin Airport Authority",
         "Early Childhood Care and Education",
         "Education Schemes",
+        "Emergency Planning",
         "EU Regulations",
         "Food Industry",
         "Health Promotion",
@@ -61,6 +64,7 @@
         "Special Educational Needs",
         "Sports Funding",
         "Stardust Fire",
+        "Student Visas",
         "Visa Applications",
         "Water Services",
         "Work Permits"
@@ -69,7 +73,7 @@
         "topHeading": "Early Childhood Care and Education",
         "topHeadingCount": 10,
         "topDepartment": "Health",
-        "topDepartmentCount": 30
+        "topDepartmentCount": 32
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -94,11 +98,19 @@
                 "value": 2
               },
               {
+                "name": "Disease Management",
+                "value": 2
+              },
+              {
                 "name": "Hospital Overcrowding",
                 "value": 2
               },
               {
                 "name": "Hospital Facilities",
+                "value": 2
+              },
+              {
+                "name": "Departmental Funding",
                 "value": 2
               },
               {
@@ -114,19 +126,11 @@
                 "value": 1
               },
               {
-                "name": "Disease Management",
-                "value": 1
-              },
-              {
                 "name": "Hospital Services",
                 "value": 1
               },
               {
                 "name": "Health Promotion",
-                "value": 1
-              },
-              {
-                "name": "Departmental Funding",
                 "value": 1
               },
               {
@@ -140,7 +144,7 @@
             "children": [
               {
                 "name": "Special Educational Needs",
-                "value": 8
+                "value": 9
               },
               {
                 "name": "Schools Building Projects",
@@ -210,10 +214,43 @@
             ]
           },
           {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Stardust Fire",
+                "value": 3
+              },
+              {
+                "name": "Citizenship Applications",
+                "value": 3
+              },
+              {
+                "name": "Naturalisation Applications",
+                "value": 1
+              },
+              {
+                "name": "Residency Permits",
+                "value": 1
+              },
+              {
+                "name": "Visa Applications",
+                "value": 1
+              },
+              {
+                "name": "Student Visas",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Transport",
             "children": [
               {
                 "name": "Dublin Airport Authority",
+                "value": 2
+              },
+              {
+                "name": "Departmental Regulations",
                 "value": 2
               },
               {
@@ -234,27 +271,6 @@
               },
               {
                 "name": "Driver Licences",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Stardust Fire",
-                "value": 3
-              },
-              {
-                "name": "Naturalisation Applications",
-                "value": 1
-              },
-              {
-                "name": "Residency Permits",
-                "value": 1
-              },
-              {
-                "name": "Visa Applications",
                 "value": 1
               }
             ]
@@ -315,20 +331,24 @@
             ]
           },
           {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Renewable Energy Generation",
-                "value": 2
-              }
-            ]
-          },
-          {
             "name": "Agriculture",
             "children": [
               {
                 "name": "Animal Welfare",
                 "value": 1
+              },
+              {
+                "name": "Emergency Planning",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Renewable Energy Generation",
+                "value": 2
               }
             ]
           },
@@ -547,6 +567,33 @@
                 ]
               },
               {
+                "name": "Disease Management",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2789. Deputy Denise Mitchell asked the Minister for Health if consideration will be given to adding Crohn’s disease to the long term illness scheme in order that those suffering with this chronic lifelong condition can avail of medicines and treatments to manage their disease; and if she will make a statement on the matter. [24279/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2789/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "1280. Deputy Denise Mitchell asked the Minister for Health the progress made on a national care pathway to help those diagnosed with Huntington’s disease; the additional resources and staffing that will be made available to support patients diagnosed with this disease; when it is expected a national care pathway for this disease will be implemented; and if she will make a statement on the matter. [64955/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1280/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Hospital Overcrowding",
                 "children": [
                   {
@@ -583,6 +630,33 @@
                         "name": "3524. Deputy Denise Mitchell asked the Minister for Health the current status of the proposed redevelopment of Beaumont Hospital’s emergency department and associated additional bed capacity, including the proposed 95-bed development; the current stage of the project; if the project is currently on time; the anticipated timeline for completion; and if she will make a statement on the matter. [60912/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3524/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3425. Deputy Denise Mitchell asked the Minister for Health if she is aware of reports that the breastfeeding support group at Vernon Avenue Health Centre, Clontarf, may be discontinued due to lack of resources; if she will clarify the situation and ensure adequate resources are available to ensure the group can continue to support new mothers; and if she will make a statement on the matter. [60800/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3425/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "1275. Deputy Denise Mitchell asked the Minister for Health her plans to ensure that the reduction of income to public maternity hospitals as a result of the ending of private maternity care will be offset and not result in a reduction in hospital budgets; and if she will make a statement on the matter. [64946/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1275/"
                       }
                     ]
                   }
@@ -637,22 +711,6 @@
                 ]
               },
               {
-                "name": "Disease Management",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2789. Deputy Denise Mitchell asked the Minister for Health if consideration will be given to adding Crohn’s disease to the long term illness scheme in order that those suffering with this chronic lifelong condition can avail of medicines and treatments to manage their disease; and if she will make a statement on the matter. [24279/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2789/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Hospital Services",
                 "children": [
                   {
@@ -679,22 +737,6 @@
                         "name": "254. Deputy Denise Mitchell asked the Minister for Health the steps she is taking to restrict the advertising of food high in fat, sugar and salt, commonly referred to as junk food, to children via digital means and online marketing; if she is considering mandatory codes to restrict such advertising; and if she will make a statement on the matter. [48175/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/254/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "3425. Deputy Denise Mitchell asked the Minister for Health if she is aware of reports that the breastfeeding support group at Vernon Avenue Health Centre, Clontarf, may be discontinued due to lack of resources; if she will clarify the situation and ensure adequate resources are available to ensure the group can continue to support new mothers; and if she will make a statement on the matter. [60800/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3425/"
                       }
                     ]
                   }
@@ -797,6 +839,17 @@
                         "name": "105. Deputy Denise Mitchell asked the Minister for Education and Youth the progress made on the provision of additional accommodation at a school (details supplied) for autism classes; when it is expected these classrooms will be ready for use; and if she will make a statement on the matter. [28989/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/105/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "545. Deputy Denise Mitchell asked the Minister for Education and Youth if she will ensure that a child (details supplied) with additional needs secures an appropriate local school place to allow her to complete her leaving certificate; and if she will make a statement on the matter. [64845/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/545/"
                       }
                     ]
                   }
@@ -1216,6 +1269,139 @@
             ]
           },
           {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "Stardust Fire",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "799. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if the Stardust recognition payment scheme will consider applications from survivors who were not beneficiaries of the original Stardust victims compensation scheme on account of having emigrated from Ireland or for other reasons; and if he will make a statement on the matter. [14891/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/799/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2051. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if children of a deceased beneficiary of the original Stardust Victims Compensation Tribunal can apply for the new Stardust recognition payment scheme; and if he will make a statement on the matter. [24990/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2051/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "358. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the status of an application (details supplied) to the Stardust recognition payment scheme for survivors; the length of time processing takes for an average application; and if he will make a statement on the matter. [48522/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/358/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Applications",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "894. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the provisions that will be made for individuals who are non-verbal or have other disabilities which may limit them in their ability to complete the new proposed language tests as part of the revised citizenship process; and if he will make a statement on the matter [65044/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/894/"
+                      },
+                      {
+                        "name": "920. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the transitional arrangements that will be in place for workers already resident in Ireland who are concerned by plans to increase residency requirements to eight years in order to obtain citizenship; if the new residency rules will apply retrospectively to those already present in the State on appropriate visas or only to those who are arrive in Ireland after its introduction; and if he will make a statement on the matter [65186/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/920/"
+                      },
+                      {
+                        "name": "961. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration to outline precisely which categories of welfare payments are planned to render an applicant ineligible for naturalisation under the Irish Nationality and Citizenship (Amendment) Bill 2026; if there are specific time limits with regard to claiming particular welfare payments that will result in ineligibility; and clarify that being in receipt of children's allowance, maternity benefit, paternity benefit, parent's benefit or similar will not make a person ineligible for naturalistion. [65743/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/961/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naturalisation Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "721. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if the standard processing timeframe for naturalisation applications has increased in recent months; if he is aware of reports of recent prolonged delays in applications from certain non-EU countries such as India and Pakistan; the reason for these delays; whether an increase in staff or resources is needed to ensure consistency in processing such applications; and if he will make a statement on the matter. [3569/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/721/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Residency Permits",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "552. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the percentage of Stamp 4 renewal applications that are being processed within the estimated ten-to-twelve-week period; and if he will make a statement on the matter. [51085/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/552/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "161. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if he can clarify the situation for a person in an instance where their Stamp 4 work permit expires while the individual is awaiting the renewal of their Irish residence permit (IRP) card, particularly in an instance where the wait for the IRP card has gone beyond the twelve week grace period; if he is aware that delays in IRP renewals processing means that employers are seeking clarity on their obligations when a Stamp 4 expires during this limbo period; and if he will make a statement on the matter. [52229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/161/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Student Visas",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "908. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if he will re-examine the decision to refuse 31 out of 59 Palestinian students who applied for study visas despite having secured full scholarships at Irish universities; if he accepts that Israel's genocidal rampage in Gaza and widespread destruction of infrastructure, educational institutions and homes makes it almost impossible for these students to obtain some of the original documentary evidence requested; and if he will take these difficulties into account when examining their applications. [65003/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/908/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Transport",
             "children": [
               {
@@ -1240,6 +1426,27 @@
                         "name": "874. Deputy Denise Mitchell asked the Minister for Transport the options that are being examined to increase public transport connectivity to Dublin Airport in the short-to-medium term; if consideration is being given to extending bus routes or adding new routes in north-east Dublin so that citizens do not have to travel into the city centre in order to get a bus to the airport; and if he will make a statement on the matter. [27241/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/874/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Regulations",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "321. Deputy Denise Mitchell asked the Minister for Transport the technical and safety basis which was relied upon for treating e-scooters differently under the new regulations from electrically assisted bicycles, including heavier utility or cargo e-bikes that may provide assistance up to 25 km/h. [65483/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/321/"
+                      },
+                      {
+                        "name": "322. Deputy Denise Mitchell asked the Minister for Transport the scientific, engineering, collision-safety or risk-assessment evidence that was used to select 25 kg as Ireland’s maximum permissible e-scooter weight; and if he will make a statement on the matter. [65482/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/322/"
                       }
                     ]
                   }
@@ -1320,97 +1527,6 @@
                         "name": "234. Deputy Denise Mitchell asked the Minister for Transport the status of a driving licence exchange application by a person (details supplied) which was submitted to the NDLS on 5 April 2026; when the applicant’s Cypriot driver’s licence will be returned to them; and if he will make a statement on the matter. [48429/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/234/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Stardust Fire",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "799. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if the Stardust recognition payment scheme will consider applications from survivors who were not beneficiaries of the original Stardust victims compensation scheme on account of having emigrated from Ireland or for other reasons; and if he will make a statement on the matter. [14891/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/799/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2051. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if children of a deceased beneficiary of the original Stardust Victims Compensation Tribunal can apply for the new Stardust recognition payment scheme; and if he will make a statement on the matter. [24990/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2051/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "358. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the status of an application (details supplied) to the Stardust recognition payment scheme for survivors; the length of time processing takes for an average application; and if he will make a statement on the matter. [48522/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/358/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Naturalisation Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "721. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if the standard processing timeframe for naturalisation applications has increased in recent months; if he is aware of reports of recent prolonged delays in applications from certain non-EU countries such as India and Pakistan; the reason for these delays; whether an increase in staff or resources is needed to ensure consistency in processing such applications; and if he will make a statement on the matter. [3569/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/721/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Residency Permits",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "552. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the percentage of Stamp 4 renewal applications that are being processed within the estimated ten-to-twelve-week period; and if he will make a statement on the matter. [51085/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/552/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
-                    "children": [
-                      {
-                        "name": "161. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if he can clarify the situation for a person in an instance where their Stamp 4 work permit expires while the individual is awaiting the renewal of their Irish residence permit (IRP) card, particularly in an instance where the wait for the IRP card has gone beyond the twelve week grace period; if he is aware that delays in IRP renewals processing means that employers are seeking clarity on their obligations when a Stamp 4 expires during this limbo period; and if he will make a statement on the matter. [52229/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/161/"
                       }
                     ]
                   }
@@ -1599,6 +1715,43 @@
             ]
           },
           {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Animal Welfare",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "887. Deputy Denise Mitchell asked the Minister for Agriculture, Food and the Marine the progress made in addressing the issue of wandering, unchipped horses in urban settings; and if he will make a statement on the matter. [9519/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/887/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Emergency Planning",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "986. Deputy Denise Mitchell asked the Minister for Agriculture, Food and the Marine if he will consider the creation of a strategic 90-day food reserve similar to the NORA model for fuel; his views on whether recent climate related disruption in the area of food production coupled with Ireland's reliance on imports for both food and livestock production that it is prudent to explore the feasability of such an approach; and if he will make a statement on the matter. [64947/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/986/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -1617,27 +1770,6 @@
                         "name": "91. Deputy Denise Mitchell asked the Minister for Climate, Energy and the Environment if the SEAI plans to publish a report or data outlining clear timelines and processing data for the traditional homes pilot scheme; the way in which his Department is monitoring the processing of applications and whether he is concerned that delays are dissuading homeowners from proceeding with retrofit projects; and if he will make a statement on the matter. [32847/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/91/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Animal Welfare",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "887. Deputy Denise Mitchell asked the Minister for Agriculture, Food and the Marine the progress made in addressing the issue of wandering, unchipped horses in urban settings; and if he will make a statement on the matter. [9519/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/887/"
                       }
                     ]
                   }
@@ -2606,6 +2738,96 @@
           "heading": "Departmental Schemes",
           "question": "3525. Deputy Denise Mitchell asked the Minister for Health if consideration is being given for the inclusion of chronic hepatitis B in the long-term illness scheme (LTIS); when the list of qualifying conditions for the LTIS was last clinically reviewed; the criteria used to add conditions to the scheme; and if she will make a statement on the matter. [60597/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3525/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 321,
+          "department": "Transport",
+          "heading": "Departmental Regulations",
+          "question": "321. Deputy Denise Mitchell asked the Minister for Transport the technical and safety basis which was relied upon for treating e-scooters differently under the new regulations from electrically assisted bicycles, including heavier utility or cargo e-bikes that may provide assistance up to 25 km/h. [65483/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/321/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 322,
+          "department": "Transport",
+          "heading": "Departmental Regulations",
+          "question": "322. Deputy Denise Mitchell asked the Minister for Transport the scientific, engineering, collision-safety or risk-assessment evidence that was used to select 25 kg as Ireland’s maximum permissible e-scooter weight; and if he will make a statement on the matter. [65482/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/322/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 545,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "545. Deputy Denise Mitchell asked the Minister for Education and Youth if she will ensure that a child (details supplied) with additional needs secures an appropriate local school place to allow her to complete her leaving certificate; and if she will make a statement on the matter. [64845/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/545/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 894,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "894. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the provisions that will be made for individuals who are non-verbal or have other disabilities which may limit them in their ability to complete the new proposed language tests as part of the revised citizenship process; and if he will make a statement on the matter [65044/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/894/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 908,
+          "department": "Justice",
+          "heading": "Student Visas",
+          "question": "908. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration if he will re-examine the decision to refuse 31 out of 59 Palestinian students who applied for study visas despite having secured full scholarships at Irish universities; if he accepts that Israel's genocidal rampage in Gaza and widespread destruction of infrastructure, educational institutions and homes makes it almost impossible for these students to obtain some of the original documentary evidence requested; and if he will take these difficulties into account when examining their applications. [65003/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/908/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 920,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "920. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration the transitional arrangements that will be in place for workers already resident in Ireland who are concerned by plans to increase residency requirements to eight years in order to obtain citizenship; if the new residency rules will apply retrospectively to those already present in the State on appropriate visas or only to those who are arrive in Ireland after its introduction; and if he will make a statement on the matter [65186/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/920/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 961,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "961. Deputy Denise Mitchell asked the Minister for Justice, Home Affairs and Migration to outline precisely which categories of welfare payments are planned to render an applicant ineligible for naturalisation under the Irish Nationality and Citizenship (Amendment) Bill 2026; if there are specific time limits with regard to claiming particular welfare payments that will result in ineligibility; and clarify that being in receipt of children's allowance, maternity benefit, paternity benefit, parent's benefit or similar will not make a person ineligible for naturalistion. [65743/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/961/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 986,
+          "department": "Agriculture",
+          "heading": "Emergency Planning",
+          "question": "986. Deputy Denise Mitchell asked the Minister for Agriculture, Food and the Marine if he will consider the creation of a strategic 90-day food reserve similar to the NORA model for fuel; his views on whether recent climate related disruption in the area of food production coupled with Ireland's reliance on imports for both food and livestock production that it is prudent to explore the feasability of such an approach; and if he will make a statement on the matter. [64947/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/986/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 1275,
+          "department": "Health",
+          "heading": "Departmental Funding",
+          "question": "1275. Deputy Denise Mitchell asked the Minister for Health her plans to ensure that the reduction of income to public maternity hospitals as a result of the ending of private maternity care will be offset and not result in a reduction in hospital budgets; and if she will make a statement on the matter. [64946/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1275/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 1280,
+          "department": "Health",
+          "heading": "Disease Management",
+          "question": "1280. Deputy Denise Mitchell asked the Minister for Health the progress made on a national care pathway to help those diagnosed with Huntington’s disease; the additional resources and staffing that will be made available to support patients diagnosed with this disease; when it is expected a national care pathway for this disease will be implemented; and if she will make a statement on the matter. [64955/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/1280/",
           "questionType": "written"
         }
       ]

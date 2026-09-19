@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Brian-Stanley.D.2011-03-09/image/large",
   "types": {
     "all": {
-      "count": 207,
+      "count": 212,
       "headingOptions": [
         "Active Travel",
         "Agriculture Schemes",
@@ -53,6 +53,7 @@
         "Health Services Staff",
         "Healthcare Infrastructure Provision",
         "Healthcare Policy",
+        "Home Care Packages",
         "Hospital Appointments Status",
         "Hospital Facilities",
         "Hospital Services",
@@ -230,16 +231,20 @@
                 "value": 6
               },
               {
+                "name": "Social Welfare Benefits",
+                "value": 3
+              },
+              {
+                "name": "Social Welfare Code",
+                "value": 2
+              },
+              {
                 "name": "Social Welfare Rates",
                 "value": 2
               },
               {
-                "name": "Social Welfare Benefits",
+                "name": "Budget 2027",
                 "value": 2
-              },
-              {
-                "name": "Social Welfare Code",
-                "value": 1
               },
               {
                 "name": "Departmental Reviews",
@@ -254,15 +259,15 @@
                 "value": 1
               },
               {
-                "name": "Budget 2027",
-                "value": 1
-              },
-              {
                 "name": "Childcare Services",
                 "value": 1
               },
               {
                 "name": "Civil Registration Service",
+                "value": 1
+              },
+              {
+                "name": "Home Care Packages",
                 "value": 1
               }
             ]
@@ -549,24 +554,11 @@
             ]
           },
           {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "National Broadband Plan",
-                "value": 5
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Climate",
             "children": [
               {
                 "name": "Data Centres",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Departmental Schemes",
@@ -582,6 +574,19 @@
               },
               {
                 "name": "Wind Energy Generation",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "National Broadband Plan",
+                "value": 5
+              },
+              {
+                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -1400,27 +1405,6 @@
                 ]
               },
               {
-                "name": "Social Welfare Rates",
-                "children": [
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "352. Deputy Brian Stanley asked the Minister for Social Protection if he will review and increase the current €30 per week initial means disregard applied to the State pension (non-contributory), for those in receipt of part of an occupational pension, in light of rising living costs and the impact on low-income older people; and if he will make a statement on the matter. [31555/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/352/"
-                      },
-                      {
-                        "name": "353. Deputy Brian Stanley asked the Minister for Social Protection if he will undertake a review of the means assessment applied to recipients of the State pension (non-contributory) who also receive an occupational pension, with particular consideration of assessing 50% of that income to ensure a fairer and more proportionate system; and if he will make a statement on the matter. [31556/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/353/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Social Welfare Benefits",
                 "children": [
                   {
@@ -1444,6 +1428,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/63/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "249. Deputy Brian Stanley asked the Minister for Social Protection his plans to increase the weekly rate of carer's allowance and carer's benefit to €325 to recognise the additional cost of providing full-time care in a cost of living crisis. [65994/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/249/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1458,6 +1453,65 @@
                         "name": "1203. Deputy Brian Stanley asked the Minister for Social Protection if there has been a change to the criteria recently in order for parents to be granted domiciliary care allowance for children who have specific needs; and if he will make a statement on the matter. [20061/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1203/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "770. Deputy Brian Stanley asked the Minister for Social Protection the rational for the exclusion of teachers and others in the education sector from accessing jobseeker's pay related benefit; and if his Department will re-examine this with a view to allowing them to apply for the payment when they become unemployed. [65056/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/770/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Rates",
+                "children": [
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "352. Deputy Brian Stanley asked the Minister for Social Protection if he will review and increase the current €30 per week initial means disregard applied to the State pension (non-contributory), for those in receipt of part of an occupational pension, in light of rising living costs and the impact on low-income older people; and if he will make a statement on the matter. [31555/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/352/"
+                      },
+                      {
+                        "name": "353. Deputy Brian Stanley asked the Minister for Social Protection if he will undertake a review of the means assessment applied to recipients of the State pension (non-contributory) who also receive an occupational pension, with particular consideration of assessing 50% of that income to ensure a fairer and more proportionate system; and if he will make a statement on the matter. [31556/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/353/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "96. Deputy Brian Stanley asked the Minister for Social Protection his plans in the next budget to introduce a cost of disability payment; and if he will make a statement on the matter. [46153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/96/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "247. Deputy Brian Stanley asked the Minister for Social Protection if he will give a commitment in the upcoming budget to eliminate and publish a definitive timeline to abolish the carer's allowance means test. [65993/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/247/"
                       }
                     ]
                   }
@@ -1512,22 +1566,6 @@
                 ]
               },
               {
-                "name": "Budget 2027",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "96. Deputy Brian Stanley asked the Minister for Social Protection his plans in the next budget to introduce a cost of disability payment; and if he will make a statement on the matter. [46153/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/96/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Childcare Services",
                 "children": [
                   {
@@ -1554,6 +1592,22 @@
                         "name": "2040. Deputy Brian Stanley asked the Minister for Social Protection if a death, birth or marriage certificate can be paid for with cash or card; and if he will make a statement on the matter. [57433/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2040/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Home Care Packages",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "250. Deputy Brian Stanley asked the Minister for Social Protection his plans to address the shortfall in respite services, and the promised statutory home support scheme; and if there will be investment to meet demand and milage reimbursement for all home care workers. [65998/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/250/"
                       }
                     ]
                   }
@@ -2861,63 +2915,6 @@
             ]
           },
           {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "National Broadband Plan",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "154. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the numbers of homes/premises that are connected to high speed broadband under national broadband scheme; and if he will make a statement on the matter. [3421/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/154/"
-                      },
-                      {
-                        "name": "173. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the date for completion of the final of roll-out of the national broadband scheme; and if he will make a statement on the matter. [3423/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/173/"
-                      },
-                      {
-                        "name": "174. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the person or body which will have ownership of the national broadband scheme at the point where roll-out and delivery has been completed; and if he will make a statement on the matter. [3425/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/174/"
-                      },
-                      {
-                        "name": "184. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the amount which has been paid to a company (details supplied) by the national broadband scheme for use of their poles, ducting and infrastructure in each of the past five years, in tabular form; and if he will make a statement on the matter. [3424/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/184/"
-                      },
-                      {
-                        "name": "197. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the final expected cost of the national broadband scheme to the Exchequer; and if he will make a statement on the matter. [3422/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/197/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1467. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport when the small scale festivals grants will be allocated; and if he will make a statement on the matter. [54932/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1467/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Climate",
             "children": [
               {
@@ -2936,6 +2933,17 @@
                         "name": "33. Deputy Brian Stanley asked the Minister for Climate, Energy and the Environment if his Department has carried out an impact study on the effects of the large energy demand of data centres; the way this may be increasing costs to households; the findings of same; and if he will make a statement on the matter. [44125/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/33/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "11. Deputy Brian Stanley asked the Minister for Climate, Energy and the Environment the impact of electricity demand for data centres on the public network; and the studies that have been carried out to determine the impact on the householder in terms of additional costs and so on. [65585/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/11/"
                       }
                     ]
                   }
@@ -3000,6 +3008,63 @@
                         "name": "131. Deputy Brian Stanley asked the Minister for Climate, Energy and the Environment the progress being made to date on the development of offshore wind energy potential; if sites are being identified; the infrastructure and regulatory impediments that remain; and if he will make a statement on the matter. [27556/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/131/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "National Broadband Plan",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "154. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the numbers of homes/premises that are connected to high speed broadband under national broadband scheme; and if he will make a statement on the matter. [3421/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/154/"
+                      },
+                      {
+                        "name": "173. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the date for completion of the final of roll-out of the national broadband scheme; and if he will make a statement on the matter. [3423/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/173/"
+                      },
+                      {
+                        "name": "174. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the person or body which will have ownership of the national broadband scheme at the point where roll-out and delivery has been completed; and if he will make a statement on the matter. [3425/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/174/"
+                      },
+                      {
+                        "name": "184. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the amount which has been paid to a company (details supplied) by the national broadband scheme for use of their poles, ducting and infrastructure in each of the past five years, in tabular form; and if he will make a statement on the matter. [3424/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/184/"
+                      },
+                      {
+                        "name": "197. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport the final expected cost of the national broadband scheme to the Exchequer; and if he will make a statement on the matter. [3422/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/197/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1467. Deputy Brian Stanley asked the Minister for Culture, Communications and Sport when the small scale festivals grants will be allocated; and if he will make a statement on the matter. [54932/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1467/"
                       }
                     ]
                   }
@@ -5083,13 +5148,59 @@
           "question": "3901. Deputy Brian Stanley asked the Minister for Health the number of agency staff employed in Portlaoise Hospital for each of the following years 2023, 2024, 2025 and to date in 2026, in tabular form; and will she make a statement on the matter. [63377/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3901/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-16",
+          "questionNumber": 770,
+          "department": "Social",
+          "heading": "Social Welfare Code",
+          "question": "770. Deputy Brian Stanley asked the Minister for Social Protection the rational for the exclusion of teachers and others in the education sector from accessing jobseeker's pay related benefit; and if his Department will re-examine this with a view to allowing them to apply for the payment when they become unemployed. [65056/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/770/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 11,
+          "department": "Climate",
+          "heading": "Data Centres",
+          "question": "11. Deputy Brian Stanley asked the Minister for Climate, Energy and the Environment the impact of electricity demand for data centres on the public network; and the studies that have been carried out to determine the impact on the householder in terms of additional costs and so on. [65585/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/11/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 247,
+          "department": "Social",
+          "heading": "Budget 2027",
+          "question": "247. Deputy Brian Stanley asked the Minister for Social Protection if he will give a commitment in the upcoming budget to eliminate and publish a definitive timeline to abolish the carer's allowance means test. [65993/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/247/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 249,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "249. Deputy Brian Stanley asked the Minister for Social Protection his plans to increase the weekly rate of carer's allowance and carer's benefit to €325 to recognise the additional cost of providing full-time care in a cost of living crisis. [65994/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/249/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 250,
+          "department": "Social",
+          "heading": "Home Care Packages",
+          "question": "250. Deputy Brian Stanley asked the Minister for Social Protection his plans to address the shortfall in respite services, and the promised statutory home support scheme; and if there will be investment to meet demand and milage reimbursement for all home care workers. [65998/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/250/",
+          "questionType": "written"
         }
       ]
     },
     "oral": {
-      "count": 10,
+      "count": 11,
       "headingOptions": [
         "Childcare Services",
+        "Data Centres",
         "Departmental Properties",
         "Food Industry",
         "Naval Service",
@@ -5185,6 +5296,15 @@
             "children": [
               {
                 "name": "Water Services",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Data Centres",
                 "value": 1
               }
             ]
@@ -5393,6 +5513,27 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Data Centres",
+                "children": [
+                  {
+                    "name": "Thursday, 17 September",
+                    "date_iso": "2026-09-17",
+                    "children": [
+                      {
+                        "name": "11. Deputy Brian Stanley asked the Minister for Climate, Energy and the Environment the impact of electricity demand for data centres on the public network; and the studies that have been carried out to determine the impact on the householder in terms of additional costs and so on. [65585/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/11/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -5485,6 +5626,15 @@
           "heading": "Water Services",
           "question": "81. Deputy Brian Stanley asked the Minister for Housing, Local Government and Heritage if his Department will provide sufficient funding to Uisce Éireann to upgrade the wastewater systems in towns and villages within the wider Dublin commuter belt, which now includes Laois, where lands have been rezoned; and if he will make a statement on the matter. [48497/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/81/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-09-17",
+          "questionNumber": 11,
+          "department": "Climate",
+          "heading": "Data Centres",
+          "question": "11. Deputy Brian Stanley asked the Minister for Climate, Energy and the Environment the impact of electricity demand for data centres on the public network; and the studies that have been carried out to determine the impact on the householder in terms of additional costs and so on. [65585/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/11/",
           "questionType": "oral"
         }
       ]
