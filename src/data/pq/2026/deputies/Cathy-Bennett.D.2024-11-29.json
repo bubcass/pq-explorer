@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Cathy-Bennett.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 269,
+      "count": 284,
       "headingOptions": [
         "Ambulance Service",
         "An Garda Síochána",
@@ -51,6 +51,7 @@
         "Driver Licences",
         "Early Childhood Care and Education",
         "Education Costs",
+        "Education Schemes",
         "Electric Vehicles",
         "Energy Prices",
         "Enterprise Policy",
@@ -68,6 +69,7 @@
         "Grant Payments",
         "Health Promotion",
         "Health Services",
+        "Health Services Waiting Lists",
         "Health Strategies",
         "Hospital Equipment",
         "Hospital Facilities",
@@ -86,6 +88,7 @@
         "Medicinal Products",
         "Mental Health Services",
         "Middle East",
+        "National Transport Authority",
         "Northern Ireland",
         "Nursing and Midwifery Board of Ireland",
         "Pensions Reform",
@@ -124,13 +127,14 @@
         "Tourist Accommodation",
         "Universal Basic Income",
         "Wildlife Regulations",
+        "Work Permits",
         "Youth Services"
       ],
       "insights": {
         "topHeading": "Departmental Staff",
         "topHeadingCount": 18,
         "topDepartment": "Health",
-        "topDepartmentCount": 52
+        "topDepartmentCount": 53
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -225,6 +229,10 @@
               {
                 "name": "Hospital Staff",
                 "value": 1
+              },
+              {
+                "name": "Health Services Waiting Lists",
+                "value": 1
               }
             ]
           },
@@ -301,12 +309,16 @@
                 "value": 5
               },
               {
+                "name": "Early Childhood Care and Education",
+                "value": 4
+              },
+              {
                 "name": "Childcare Services",
                 "value": 4
               },
               {
-                "name": "Early Childhood Care and Education",
-                "value": 3
+                "name": "Education Schemes",
+                "value": 2
               },
               {
                 "name": "Child and Family Agency",
@@ -350,6 +362,10 @@
                 "value": 2
               },
               {
+                "name": "Bus Éireann",
+                "value": 2
+              },
+              {
                 "name": "Road Tolls",
                 "value": 1
               },
@@ -366,7 +382,72 @@
                 "value": 1
               },
               {
-                "name": "Bus Éireann",
+                "name": "National Transport Authority",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Tourism Industry",
+                "value": 6
+              },
+              {
+                "name": "Inland Fisheries",
+                "value": 2
+              },
+              {
+                "name": "Tourism Policy",
+                "value": 2
+              },
+              {
+                "name": "Tourism Promotion",
+                "value": 1
+              },
+              {
+                "name": "Departmental Strategies",
+                "value": 1
+              },
+              {
+                "name": "Northern Ireland",
+                "value": 1
+              },
+              {
+                "name": "Tourist Accommodation",
+                "value": 1
+              },
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Departmental Reviews",
+                "value": 1
+              },
+              {
+                "name": "Enterprise Policy",
+                "value": 1
+              },
+              {
+                "name": "Departmental Bodies",
+                "value": 1
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Cross-Border Co-operation",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Work Permits",
                 "value": 1
               }
             ]
@@ -502,63 +583,6 @@
               },
               {
                 "name": "Departmental Staff",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Inland Fisheries",
-                "value": 2
-              },
-              {
-                "name": "Tourism Industry",
-                "value": 2
-              },
-              {
-                "name": "Tourism Promotion",
-                "value": 1
-              },
-              {
-                "name": "Departmental Strategies",
-                "value": 1
-              },
-              {
-                "name": "Northern Ireland",
-                "value": 1
-              },
-              {
-                "name": "Tourist Accommodation",
-                "value": 1
-              },
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Departmental Reviews",
-                "value": 1
-              },
-              {
-                "name": "Enterprise Policy",
-                "value": 1
-              },
-              {
-                "name": "Departmental Bodies",
-                "value": 1
-              },
-              {
-                "name": "Tourism Policy",
-                "value": 1
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Cross-Border Co-operation",
                 "value": 1
               }
             ]
@@ -784,6 +808,10 @@
               {
                 "name": "Departmental Staff",
                 "value": 1
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
               }
             ]
           },
@@ -829,6 +857,10 @@
               },
               {
                 "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
                 "value": 1
               }
             ]
@@ -1426,6 +1458,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Health Services Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "517. Deputy Cathy Bennett asked the Minister for Health the total number of people waiting for MRI scans, by county, by duration of wait, zero to three months, three to six months, six to 12 months, 12 months plus, by age that is 16 and under; 18 and under and 18 plus. [66300/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/517/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1872,6 +1920,49 @@
                 ]
               },
               {
+                "name": "Early Childhood Care and Education",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "912. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality the breakdown of which counties the Shaping the Future: Early Years Action Plan is planned for, in tabular form; and if she will make a statement on the matter. [7878/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/912/"
+                      },
+                      {
+                        "name": "913. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality if counties Cavan and Monaghan have been considered for the Shaping the Future: Early Years Action Plan; and if she will make a statement on the matter. [7879/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/913/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1914. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality if she acknowledges that core funding provided to the early learning sector will not cover auto enrolment in the pension scheme from January 2026; if this additional cost will be included in core funding for the early learning sector; and if she will make a statement on the matter. [74433/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1914/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "482. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality her Departments plans to address recruitment and retention within the early years sector. [66308/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/482/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Childcare Services",
                 "children": [
                   {
@@ -1915,32 +2006,21 @@
                 ]
               },
               {
-                "name": "Early Childhood Care and Education",
+                "name": "Education Schemes",
                 "children": [
                   {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
                     "children": [
                       {
-                        "name": "912. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality the breakdown of which counties the Shaping the Future: Early Years Action Plan is planned for, in tabular form; and if she will make a statement on the matter. [7878/26]",
+                        "name": "483. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality the number of children receiving AIM supports in counties Cavan and Monaghan in each of the years 2022 to 2025 and to date in 2026, by county, by year, and by duration of wait, in tabular form. [66307/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/912/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/483/"
                       },
                       {
-                        "name": "913. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality if counties Cavan and Monaghan have been considered for the Shaping the Future: Early Years Action Plan; and if she will make a statement on the matter. [7879/26]",
+                        "name": "484. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality the number of children waiting to receive AIM supports in counties Cavan and Monaghan in each of the years 2022 to 2025 and to date in 2026, by county, by year, and by duration of wait, in tabular form. [66306/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/913/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1914. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality if she acknowledges that core funding provided to the early learning sector will not cover auto enrolment in the pension scheme from January 2026; if this additional cost will be included in core funding for the early learning sector; and if she will make a statement on the matter. [74433/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1914/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/484/"
                       }
                     ]
                   }
@@ -2182,6 +2262,33 @@
                 ]
               },
               {
+                "name": "Bus Éireann",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "226. Deputy Cathy Bennett asked the Minister for Transport if Bus Éireann has a dedicated phone line available for people, particularly older people, who are unable to purchase bus tickets online; if not, if he will consider introducing one. [64676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/226/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "117. Deputy Cathy Bennett asked the Minister for Transport the KPIs associated with Bus Éireann service delivery; the rate at which they adhered to such in counties Cavan and Monaghan in each of the years 2023 to 2025 and to date in 2026, by county. [66313/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/117/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Road Tolls",
                 "children": [
                   {
@@ -2246,16 +2353,320 @@
                 ]
               },
               {
-                "name": "Bus Éireann",
+                "name": "National Transport Authority",
                 "children": [
                   {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
                     "children": [
                       {
-                        "name": "226. Deputy Cathy Bennett asked the Minister for Transport if Bus Éireann has a dedicated phone line available for people, particularly older people, who are unable to purchase bus tickets online; if not, if he will consider introducing one. [64676/26]",
+                        "name": "116. Deputy Cathy Bennett asked the Minister for Transport the meetings he has held with the NTA since January 2026; if recently announced fare increases were discussed; and his response to the matter. [66314/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/226/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/116/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Tourism Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "207. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the list of projects under the coast-to-coast capital investment scheme; the status of those projects; and the expected delivery time. [66312/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/207/"
+                      },
+                      {
+                        "name": "208. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-border tourism. [66311/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/208/"
+                      },
+                      {
+                        "name": "209. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the number of bed nights available in each county, in tabular form. [66309/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/209/"
+                      },
+                      {
+                        "name": "210. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment to outline the work undertaken to promote all-island tourism in relation to major international sporting events which will be hosted in Ireland until 2030, by sporting project, in tabular form. [66304/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/210/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "173. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the number of bed nights available in each county, in tabular form; and if he will make a statement on the matter. [30508/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/173/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "145. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment his proposals to support employment in the tourism sector. [45647/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/145/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Inland Fisheries",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "548. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the plans Fáilte Ireland has in place to promote the future of Inland Fisheries Ireland; and if he will make a statement on the matter. [18296/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/548/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1065. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if his Department has a strategy in place to work with Fáilte Ireland and Tourism Northern Ireland to promote the future of inland fisheries; and if he will make a statement on the matter. [62847/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1065/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourism Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "183. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-Border tourism. [30509/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/183/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "39. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment his proposals to cultivate cross-border tourism. [66909/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/39/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourism Promotion",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "142. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-Border tourism. [1757/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/142/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1006. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he could provide a breakdown of his Department’s €4.7 billion capital investment strategy, ‘Start Up Ireland’, for the next five years; and if he will make a statement on the matter. [1905/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1006/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Northern Ireland",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "421. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the breakdown of funding budgeted for 2026 in relation to the Shared Island Fund; what it will be used for; amount budgeted for the next three years; and if he will make a statement on the matter. [5441/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/421/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourist Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "74. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the number of bed nights available in each county, in tabular form; and if he will make a statement on the matter. [12536/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/74/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Inquiries",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "281. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the initiatives he or his Department or associated State agencies have taken to encourage prospective new owners to establish a business at the former factory (details supplied); and if he will make a statement on the matter. [13432/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/281/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reviews",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "282. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the status of the review of the critical skills occupations list and ineligible occupations list; whether the review will take into consideration the availability of housing in addition to the needs of the labour market; and if he will make a statement on the matter. [13433/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/282/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Enterprise Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "454. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will consider updating the critical skills occupations list; if he will consider the addition of trade professions to the list; and if he will make a statement on the matter. [14930/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/454/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1164. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the bodies which operate under his aegis which have a regulatory or enforcement remit which include provision for a person convicted of an offence to receive a fine upon summary conviction, the associated maximum amount and duration of any related potential imprisonment term; provision for a person convicted on indictment to receive a fine, the associated maximum amount and duration of any related potential imprisonment term; provision for fines predicated upon the turnover of an entity, the maximum percentage thereof and any associated imprisonment term; and if he will make a statement on the matter. [25950/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1164/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "695. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the staff turnover rate in his Department in the years 2019 to date; and if he will make a statement on the matter. [42423/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/695/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cross-Border Co-operation",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "158. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-border tourism. [45648/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/158/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "82. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment their proposals to increase the number of overnight, multi-night regional stays in areas currently predominantly served by day-trips. [66919/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/82/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Work Permits",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "211. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the dates on which the critical skills occupation list has been updated since 2023; the changes made in each instance; and the timeframe for the next review of the list. [66303/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/211/"
                       }
                     ]
                   }
@@ -2912,241 +3323,6 @@
                         "name": "1358. Deputy Cathy Bennett asked the Minister for Justice, Home Affairs and Migration the staff turnover rate in his Department in the years 2019 to date; and if he will make a statement on the matter. [42429/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1358/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Inland Fisheries",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "548. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the plans Fáilte Ireland has in place to promote the future of Inland Fisheries Ireland; and if he will make a statement on the matter. [18296/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/548/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1065. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if his Department has a strategy in place to work with Fáilte Ireland and Tourism Northern Ireland to promote the future of inland fisheries; and if he will make a statement on the matter. [62847/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1065/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tourism Industry",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "173. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the number of bed nights available in each county, in tabular form; and if he will make a statement on the matter. [30508/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/173/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "145. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment his proposals to support employment in the tourism sector. [45647/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/145/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tourism Promotion",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "142. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-Border tourism. [1757/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/142/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Strategies",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1006. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he could provide a breakdown of his Department’s €4.7 billion capital investment strategy, ‘Start Up Ireland’, for the next five years; and if he will make a statement on the matter. [1905/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1006/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Northern Ireland",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "421. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the breakdown of funding budgeted for 2026 in relation to the Shared Island Fund; what it will be used for; amount budgeted for the next three years; and if he will make a statement on the matter. [5441/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/421/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tourist Accommodation",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "74. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the number of bed nights available in each county, in tabular form; and if he will make a statement on the matter. [12536/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/74/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Inquiries",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "281. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the initiatives he or his Department or associated State agencies have taken to encourage prospective new owners to establish a business at the former factory (details supplied); and if he will make a statement on the matter. [13432/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/281/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reviews",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "282. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the status of the review of the critical skills occupations list and ineligible occupations list; whether the review will take into consideration the availability of housing in addition to the needs of the labour market; and if he will make a statement on the matter. [13433/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/282/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Enterprise Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "454. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will consider updating the critical skills occupations list; if he will consider the addition of trade professions to the list; and if he will make a statement on the matter. [14930/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/454/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Bodies",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1164. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the bodies which operate under his aegis which have a regulatory or enforcement remit which include provision for a person convicted of an offence to receive a fine upon summary conviction, the associated maximum amount and duration of any related potential imprisonment term; provision for a person convicted on indictment to receive a fine, the associated maximum amount and duration of any related potential imprisonment term; provision for fines predicated upon the turnover of an entity, the maximum percentage thereof and any associated imprisonment term; and if he will make a statement on the matter. [25950/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1164/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tourism Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "183. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-Border tourism. [30509/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/183/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "695. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the staff turnover rate in his Department in the years 2019 to date; and if he will make a statement on the matter. [42423/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/695/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Cross-Border Co-operation",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "158. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-border tourism. [45648/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/158/"
                       }
                     ]
                   }
@@ -4196,6 +4372,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "334. Deputy Cathy Bennett asked the Minister for Culture, Communications and Sport the international sporting events taking place in Ireland that are being supported by his Department until 2030, by sporting project, in tabular form. [66910/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/334/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4346,6 +4538,22 @@
                         "name": "195. Deputy Cathy Bennett asked the Taoiseach the staff turnover rate in his Department in the years 2019 to date [42433/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/195/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "84. Deputy Cathy Bennett asked the Taoiseach the number of overseas visitors to Ireland in each of the years from 2019 to 2025 and to date in 2026, in tabular form. [66305/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/84/"
                       }
                     ]
                   }
@@ -6775,6 +6983,141 @@
           "heading": "Medical Cards",
           "question": "337. Deputy Cathy Bennett asked the Minister for Health when the HSE contracted printer will resume the printing of plastic medical cards/GP cards. [66022/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-17/337/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 39,
+          "department": "Enterprise",
+          "heading": "Tourism Policy",
+          "question": "39. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment his proposals to cultivate cross-border tourism. [66909/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/39/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 82,
+          "department": "Enterprise",
+          "heading": "Departmental Data",
+          "question": "82. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment their proposals to increase the number of overnight, multi-night regional stays in areas currently predominantly served by day-trips. [66919/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/82/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 84,
+          "department": "Taoiseach",
+          "heading": "Departmental Data",
+          "question": "84. Deputy Cathy Bennett asked the Taoiseach the number of overseas visitors to Ireland in each of the years from 2019 to 2025 and to date in 2026, in tabular form. [66305/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/84/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 116,
+          "department": "Transport",
+          "heading": "National Transport Authority",
+          "question": "116. Deputy Cathy Bennett asked the Minister for Transport the meetings he has held with the NTA since January 2026; if recently announced fare increases were discussed; and his response to the matter. [66314/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/116/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 117,
+          "department": "Transport",
+          "heading": "Bus Éireann",
+          "question": "117. Deputy Cathy Bennett asked the Minister for Transport the KPIs associated with Bus Éireann service delivery; the rate at which they adhered to such in counties Cavan and Monaghan in each of the years 2023 to 2025 and to date in 2026, by county. [66313/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/117/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 207,
+          "department": "Enterprise",
+          "heading": "Tourism Industry",
+          "question": "207. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the list of projects under the coast-to-coast capital investment scheme; the status of those projects; and the expected delivery time. [66312/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/207/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 208,
+          "department": "Enterprise",
+          "heading": "Tourism Industry",
+          "question": "208. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment if he will report on his proposals to cultivate cross-border tourism. [66311/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/208/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 209,
+          "department": "Enterprise",
+          "heading": "Tourism Industry",
+          "question": "209. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the number of bed nights available in each county, in tabular form. [66309/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/209/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 210,
+          "department": "Enterprise",
+          "heading": "Tourism Industry",
+          "question": "210. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment to outline the work undertaken to promote all-island tourism in relation to major international sporting events which will be hosted in Ireland until 2030, by sporting project, in tabular form. [66304/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/210/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 211,
+          "department": "Enterprise",
+          "heading": "Work Permits",
+          "question": "211. Deputy Cathy Bennett asked the Minister for Enterprise, Tourism and Employment the dates on which the critical skills occupation list has been updated since 2023; the changes made in each instance; and the timeframe for the next review of the list. [66303/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/211/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 334,
+          "department": "Culture",
+          "heading": "Departmental Funding",
+          "question": "334. Deputy Cathy Bennett asked the Minister for Culture, Communications and Sport the international sporting events taking place in Ireland that are being supported by his Department until 2030, by sporting project, in tabular form. [66910/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/334/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 482,
+          "department": "Children",
+          "heading": "Early Childhood Care and Education",
+          "question": "482. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality her Departments plans to address recruitment and retention within the early years sector. [66308/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/482/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 483,
+          "department": "Children",
+          "heading": "Education Schemes",
+          "question": "483. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality the number of children receiving AIM supports in counties Cavan and Monaghan in each of the years 2022 to 2025 and to date in 2026, by county, by year, and by duration of wait, in tabular form. [66307/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/483/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 484,
+          "department": "Children",
+          "heading": "Education Schemes",
+          "question": "484. Deputy Cathy Bennett asked the Minister for Children, Disability and Equality the number of children waiting to receive AIM supports in counties Cavan and Monaghan in each of the years 2022 to 2025 and to date in 2026, by county, by year, and by duration of wait, in tabular form. [66306/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/484/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 517,
+          "department": "Health",
+          "heading": "Health Services Waiting Lists",
+          "question": "517. Deputy Cathy Bennett asked the Minister for Health the total number of people waiting for MRI scans, by county, by duration of wait, zero to three months, three to six months, six to 12 months, 12 months plus, by age that is 16 and under; 18 and under and 18 plus. [66300/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/517/",
           "questionType": "written"
         }
       ]
