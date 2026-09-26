@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paula-Butterly.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 263,
+      "count": 269,
       "headingOptions": [
         "Ambulance Service",
         "An Garda Síochána",
@@ -510,15 +510,19 @@
             "name": "Transport",
             "children": [
               {
+                "name": "Rail Network",
+                "value": 3
+              },
+              {
+                "name": "Bus Services",
+                "value": 2
+              },
+              {
                 "name": "Immigration Support Services",
                 "value": 2
               },
               {
                 "name": "Departmental Correspondence",
-                "value": 1
-              },
-              {
-                "name": "Bus Services",
                 "value": 1
               },
               {
@@ -559,10 +563,6 @@
               },
               {
                 "name": "Legislative Measures",
-                "value": 1
-              },
-              {
-                "name": "Rail Network",
                 "value": 1
               },
               {
@@ -609,6 +609,47 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "value": 3
+              },
+              {
+                "name": "Social Welfare Fraud",
+                "value": 3
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "value": 1
+              },
+              {
+                "name": "International Protection",
+                "value": 1
+              },
+              {
+                "name": "Children in Care",
+                "value": 1
+              },
+              {
+                "name": "Budget 2027",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "State Pensions",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -645,47 +686,6 @@
               },
               {
                 "name": "Tax Rebates",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "value": 2
-              },
-              {
-                "name": "Social Welfare Fraud",
-                "value": 2
-              },
-              {
-                "name": "Social Welfare Schemes",
-                "value": 1
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "value": 1
-              },
-              {
-                "name": "International Protection",
-                "value": 1
-              },
-              {
-                "name": "Children in Care",
-                "value": 1
-              },
-              {
-                "name": "Budget 2027",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "State Pensions",
                 "value": 1
               }
             ]
@@ -2925,6 +2925,65 @@
             "name": "Transport",
             "children": [
               {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "143. Deputy Paula Butterly asked the Minister for Transport if his Department will undertake a feasibility study on the development of a north Drogheda railway station and a new railway station in mid-Louth; and if he will make a statement on the matter. [66673/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/143/"
+                      },
+                      {
+                        "name": "165. Deputy Paula Butterly asked the Minister for Transport if he will consider extending the proposed DART+ network northwards beyond Drogheda to include Dunleer, County Louth; if his Department has undertaken or plans to undertake any assessment of the feasibility; and if he will make a statement on the matter. [66675/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/165/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "227. Deputy Paula Butterly asked the Minister for Transport if his Department will undertake a feasibility study on the development of a North Drogheda railway station and a new railway station in Mid-Louth; and if he will make a statement on the matter. [64685/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/227/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "157. Deputy Paula Butterly asked the Minister for Transport the rationale of his Department and the National Transport Authority to not progress the introduction of a dedicated east–west bus service in County Louth; and if he will make a statement on the matter. [1758/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/157/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "238. Deputy Paula Butterly asked the Minister for Transport his plans to expand the rural link bus services nationwide; the measures being taken to improve service frequency, extend operating hours and introduce additional routes in rural communities; if he will provide details of any planned service enhancements for County Louth; and if he will make a statement on the matter. [66676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/238/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Immigration Support Services",
                 "children": [
                   {
@@ -2962,22 +3021,6 @@
                         "name": "712. Deputy Paula Butterly asked the Minister for Transport to provide an update on the implementation of the agreed increases in pensions for former CIÉ employees following the recent staff vote; the estimated timeline for when these changes will be fully implemented; and if he will make a statement on the matter. [1614/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/712/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "157. Deputy Paula Butterly asked the Minister for Transport the rationale of his Department and the National Transport Authority to not progress the introduction of a dedicated east–west bus service in County Louth; and if he will make a statement on the matter. [1758/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/157/"
                       }
                     ]
                   }
@@ -3138,22 +3181,6 @@
                         "name": "616. Deputy Paula Butterly asked the Minister for Transport if he will introduce regulations or legislation requiring courts to disclose driving convictions to insurance companies; and if he will make a statement on the matter. [60088/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/616/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Rail Network",
-                "children": [
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "227. Deputy Paula Butterly asked the Minister for Transport if his Department will undertake a feasibility study on the development of a North Drogheda railway station and a new railway station in Mid-Louth; and if he will make a statement on the matter. [64685/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/227/"
                       }
                     ]
                   }
@@ -3376,6 +3403,204 @@
             ]
           },
           {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "21. Deputy Paula Butterly asked the Minister for Social Protection if he will review the adequacy of supports available to individuals who pay PRSI, whether employed or self-employed, who find themselves out of work due to circumstances such as illness, bereavement and injury and to students who are engaged in employment, given concerns that many such individuals are not eligible for supplementary welfare allowance due to the means test criteria, leaving them without timely access to appropriate State supports; and if he will make a statement on the matter. [46300/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/21/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1987. Deputy Paula Butterly asked the Minister for Social Protection if he will consider the introduction of a new PRSI class for students engaged in part-time employment, which will enable them to establish entitlement to social welfare benefits; and if he will make a statement on the matter. [59990/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1987/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "38. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, extending eligibility for Illness Benefit to self-employed workers who are unable to work due to illness; and if he will make a statement on the matter. [66646/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/38/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Fraud",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1983. Deputy Paula Butterly asked the Minister for Social Protection the total amount of moneys recouped by his Department arising from social welfare fraud in each of the past five years, by category, in tabular form; and if he will make a statement on the matter. [59969/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1983/"
+                      },
+                      {
+                        "name": "1984. Deputy Paula Butterly asked the Minister for Social Protection the measures currently being undertaken by his Department to tackle social welfare fraud; the additional initiatives planned over the coming years to strengthen fraud detection and prevention; and if he will make a statement on the matter. [59975/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1984/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "107. Deputy Paula Butterly asked the Minister for Social Protection the process used by his Department to identify and investigate suspected social welfare fraud; the number of cases of social welfare fraud detected and confirmed in each of the past three years; the value of any overpayments identified and recovered during that period; the measures currently in place to prevent fraud and abuse of the social welfare system; any additional measures being considered to strengthen fraud detection and compliance activities; and if he will make a statement on the matter. [66706/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/107/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "564. Deputy Paula Butterly asked the Minister for Social Protection the reason a worker who paid Class A PRSI contributions up to 2022 (details supplied) before becoming self-employed, is excluded from illness benefit during a short term illness despite having a substantial contribution record; if he accepts that this creates a gap in income protection for self-employed individuals; and if he will outline any plans to extend illness benefit or introduce a short term illness support for class S contributors. [32099/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/564/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "46. Deputy Paula Butterly asked the Minister for Social Protection if, in light of the extension of Fuel Allowance eligibility to recipients of the Working Family Payment from 1 January 2026, he will review the eligibility criteria for Fuel Allowance for persons in receipt of Carer's Allowance; whether he acknowledges that some carers with household incomes comparable to those of Working Family Payment recipients are excluded from Fuel Allowance due to the means test; if he will consider introducing equivalent eligibility arrangements for carers; and if he will make a statement on the matter. [66648/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/46/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "27. Deputy Paula Butterly asked the Minister for Social Protection if he will conduct a full review of the CE scheme to ensure that placement processes are efficient, responsive, and supportive of participants seeking to return to work; and if he will make a statement on the matter. [14229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/27/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "667. Deputy Paula Butterly asked the Minister for Social Protection the supports currently in place and provided by his Department or agencies within his Department to support BOTPs and Ukrainian citizens; and if he will make a statement on the matter. [36891/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/667/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Children in Care",
+                "children": [
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "529. Deputy Paula Butterly asked the Minister for Social Protection if he will consider extending eligibility for the back to school clothing and footwear allowance to all children in foster care, regardless of the assessed income of the foster household, in recognition of the additional supports required for children in care; and if he will make a statement on the matter. [48793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/529/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1985. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, extending eligibility for illness benefit to self-employed workers who are unable to work due to illness; and if he will make a statement on the matter. [59979/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1985/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1986. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, introducing a provision whereby recipients of the widow's, widower's or surviving civil partner's pension will also be entitled to receive illness benefit; and if he will make a statement on the matter. [59982/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1986/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Pensions",
+                "children": [
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "5. Deputy Paula Butterly asked the Minister for Social Protection the changes he proposes to introduce to support women of older generations who are not eligible for a contributory State pension despite having made PRSI contributions through employment during their working lives but who do not have a sufficient contribution record to qualify for a pension at pensionable age; whether he is considering any further measures to recognise periods spent out of the workforce due to caring or family responsibilities; and if he will make a statement on the matter. [67756/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/5/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -3555,171 +3780,6 @@
                         "name": "745. Deputy Paula Butterly asked the Tánaiste and Minister for Finance if he will consider increasing the help to buy scheme to allow two applicants to claim the maximum refund from their income tax or DIRT liabilities, increasing the available support to €30,000 per applicant or €50,000 per couple; and if he will make a statement on the matter. [59829/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/745/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Thursday, 18 June",
-                    "date_iso": "2026-06-18",
-                    "children": [
-                      {
-                        "name": "21. Deputy Paula Butterly asked the Minister for Social Protection if he will review the adequacy of supports available to individuals who pay PRSI, whether employed or self-employed, who find themselves out of work due to circumstances such as illness, bereavement and injury and to students who are engaged in employment, given concerns that many such individuals are not eligible for supplementary welfare allowance due to the means test criteria, leaving them without timely access to appropriate State supports; and if he will make a statement on the matter. [46300/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/21/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1987. Deputy Paula Butterly asked the Minister for Social Protection if he will consider the introduction of a new PRSI class for students engaged in part-time employment, which will enable them to establish entitlement to social welfare benefits; and if he will make a statement on the matter. [59990/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1987/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Fraud",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1983. Deputy Paula Butterly asked the Minister for Social Protection the total amount of moneys recouped by his Department arising from social welfare fraud in each of the past five years, by category, in tabular form; and if he will make a statement on the matter. [59969/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1983/"
-                      },
-                      {
-                        "name": "1984. Deputy Paula Butterly asked the Minister for Social Protection the measures currently being undertaken by his Department to tackle social welfare fraud; the additional initiatives planned over the coming years to strengthen fraud detection and prevention; and if he will make a statement on the matter. [59975/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1984/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "27. Deputy Paula Butterly asked the Minister for Social Protection if he will conduct a full review of the CE scheme to ensure that placement processes are efficient, responsive, and supportive of participants seeking to return to work; and if he will make a statement on the matter. [14229/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/27/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "564. Deputy Paula Butterly asked the Minister for Social Protection the reason a worker who paid Class A PRSI contributions up to 2022 (details supplied) before becoming self-employed, is excluded from illness benefit during a short term illness despite having a substantial contribution record; if he accepts that this creates a gap in income protection for self-employed individuals; and if he will outline any plans to extend illness benefit or introduce a short term illness support for class S contributors. [32099/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/564/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "667. Deputy Paula Butterly asked the Minister for Social Protection the supports currently in place and provided by his Department or agencies within his Department to support BOTPs and Ukrainian citizens; and if he will make a statement on the matter. [36891/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/667/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Children in Care",
-                "children": [
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "529. Deputy Paula Butterly asked the Minister for Social Protection if he will consider extending eligibility for the back to school clothing and footwear allowance to all children in foster care, regardless of the assessed income of the foster household, in recognition of the additional supports required for children in care; and if he will make a statement on the matter. [48793/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/529/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Budget 2027",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1985. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, extending eligibility for illness benefit to self-employed workers who are unable to work due to illness; and if he will make a statement on the matter. [59979/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1985/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1986. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, introducing a provision whereby recipients of the widow's, widower's or surviving civil partner's pension will also be entitled to receive illness benefit; and if he will make a statement on the matter. [59982/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1986/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "State Pensions",
-                "children": [
-                  {
-                    "name": "Thursday, 24 September",
-                    "date_iso": "2026-09-24",
-                    "children": [
-                      {
-                        "name": "5. Deputy Paula Butterly asked the Minister for Social Protection the changes he proposes to introduce to support women of older generations who are not eligible for a contributory State pension despite having made PRSI contributions through employment during their working lives but who do not have a sufficient contribution record to qualify for a pension at pensionable age; whether he is considering any further measures to recognise periods spent out of the workforce due to caring or family responsibilities; and if he will make a statement on the matter. [67756/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/5/"
                       }
                     ]
                   }
@@ -6787,6 +6847,60 @@
           "question": "5. Deputy Paula Butterly asked the Minister for Social Protection the changes he proposes to introduce to support women of older generations who are not eligible for a contributory State pension despite having made PRSI contributions through employment during their working lives but who do not have a sufficient contribution record to qualify for a pension at pensionable age; whether he is considering any further measures to recognise periods spent out of the workforce due to caring or family responsibilities; and if he will make a statement on the matter. [67756/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/5/",
           "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-09-24",
+          "questionNumber": 38,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "38. Deputy Paula Butterly asked the Minister for Social Protection if he will consider, as part of Budget 2027, extending eligibility for Illness Benefit to self-employed workers who are unable to work due to illness; and if he will make a statement on the matter. [66646/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/38/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-24",
+          "questionNumber": 46,
+          "department": "Social",
+          "heading": "Social Welfare Eligibility",
+          "question": "46. Deputy Paula Butterly asked the Minister for Social Protection if, in light of the extension of Fuel Allowance eligibility to recipients of the Working Family Payment from 1 January 2026, he will review the eligibility criteria for Fuel Allowance for persons in receipt of Carer's Allowance; whether he acknowledges that some carers with household incomes comparable to those of Working Family Payment recipients are excluded from Fuel Allowance due to the means test; if he will consider introducing equivalent eligibility arrangements for carers; and if he will make a statement on the matter. [66648/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/46/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-24",
+          "questionNumber": 107,
+          "department": "Social",
+          "heading": "Social Welfare Fraud",
+          "question": "107. Deputy Paula Butterly asked the Minister for Social Protection the process used by his Department to identify and investigate suspected social welfare fraud; the number of cases of social welfare fraud detected and confirmed in each of the past three years; the value of any overpayments identified and recovered during that period; the measures currently in place to prevent fraud and abuse of the social welfare system; any additional measures being considered to strengthen fraud detection and compliance activities; and if he will make a statement on the matter. [66706/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/107/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-24",
+          "questionNumber": 143,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "143. Deputy Paula Butterly asked the Minister for Transport if his Department will undertake a feasibility study on the development of a north Drogheda railway station and a new railway station in mid-Louth; and if he will make a statement on the matter. [66673/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/143/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-24",
+          "questionNumber": 165,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "165. Deputy Paula Butterly asked the Minister for Transport if he will consider extending the proposed DART+ network northwards beyond Drogheda to include Dunleer, County Louth; if his Department has undertaken or plans to undertake any assessment of the feasibility; and if he will make a statement on the matter. [66675/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/165/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-24",
+          "questionNumber": 238,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "238. Deputy Paula Butterly asked the Minister for Transport his plans to expand the rural link bus services nationwide; the measures being taken to improve service frequency, extend operating hours and introduce additional routes in rural communities; if he will provide details of any planned service enhancements for County Louth; and if he will make a statement on the matter. [66676/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/238/",
+          "questionType": "written"
         }
       ]
     },
