@@ -9,11 +9,12 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paul-McAuliffe.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 339,
+      "count": 349,
       "headingOptions": [
         "An Garda Síochána",
         "Assisted Human Reproduction",
         "Bus Services",
+        "Business Supports",
         "Cabinet Committees",
         "Care Services",
         "Childcare Services",
@@ -50,6 +51,7 @@
         "EU Presidency",
         "Food Safety",
         "Fuel Poverty",
+        "Gambling Sector",
         "General Practitioner Services",
         "Greenhouse Gas Emissions",
         "Health Service Executive",
@@ -101,6 +103,7 @@
         "School Facilities",
         "Schools Building Projects",
         "Sentencing Policy",
+        "Small and Medium Enterprises",
         "Social Insurance",
         "Social Welfare Appeals",
         "Social Welfare Benefits",
@@ -321,6 +324,10 @@
                 "value": 2
               },
               {
+                "name": "School Facilities",
+                "value": 2
+              },
+              {
                 "name": "Education and Training Boards",
                 "value": 1
               },
@@ -353,10 +360,6 @@
                 "value": 1
               },
               {
-                "name": "School Facilities",
-                "value": 1
-              },
-              {
                 "name": "School Accommodation",
                 "value": 1
               }
@@ -374,12 +377,12 @@
                 "value": 4
               },
               {
-                "name": "Road Projects",
+                "name": "Public Transport",
                 "value": 3
               },
               {
-                "name": "Public Transport",
-                "value": 2
+                "name": "Road Projects",
+                "value": 3
               },
               {
                 "name": "Transport Policy",
@@ -473,6 +476,10 @@
               {
                 "name": "Programme for Government",
                 "value": 1
+              },
+              {
+                "name": "Business Supports",
+                "value": 1
               }
             ]
           },
@@ -552,6 +559,10 @@
               {
                 "name": "An Garda Síochána",
                 "value": 7
+              },
+              {
+                "name": "Gambling Sector",
+                "value": 5
               },
               {
                 "name": "Road Safety",
@@ -714,6 +725,23 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Small and Medium Enterprises",
+                "value": 2
+              },
+              {
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Tax Credits",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -726,19 +754,6 @@
               },
               {
                 "name": "EU Presidency",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "value": 1
-              },
-              {
-                "name": "Tax Credits",
                 "value": 1
               }
             ]
@@ -2390,6 +2405,33 @@
                 ]
               },
               {
+                "name": "School Facilities",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "37. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on sanctioned ASD classes in Dublin northwest (details supplied). [53938/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/37/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "377. Deputy Paul McAuliffe asked the Minister for Education and Youth if she will examine the possibility of a JCSP Library and Librarian for a school (details supplied). [68174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/377/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Education and Training Boards",
                 "children": [
                   {
@@ -2512,22 +2554,6 @@
                         "name": "1345. Deputy Paul McAuliffe asked the Minister for Education and Youth the criteria used for categorising DEIS plus schools; and if she will make a statement on the matter. [25019/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1345/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Facilities",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "37. Deputy Paul McAuliffe asked the Minister for Education and Youth to provide an update on sanctioned ASD classes in Dublin northwest (details supplied). [53938/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/37/"
                       }
                     ]
                   }
@@ -2679,6 +2705,44 @@
                 ]
               },
               {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "121. Deputy Paul McAuliffe asked the Minister for Transport to provide an updated timeline of construction for the Luas Finglas extension project; and if he will make a statement on the matter. [2876/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/121/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "142. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the timeline of construction for the Finglas Luas extension project, given the recent legal action has now been resolved; and if he will make a statement on the matter. [31269/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/142/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "266. Deputy Paul McAuliffe asked the Minister for Transport the status of the Luas Finglas and to provide an updated timeline for the project to commence construction. [68324/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/266/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Road Projects",
                 "children": [
                   {
@@ -2705,33 +2769,6 @@
                         "name": "208. Deputy Paul McAuliffe asked the Minister for Transport for the latest update and timeline of construction for the Finglas Roundabout projects at St Margaret's Road and McKee Avenue, given there are reported delays to the projects. [67519/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/208/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Transport",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "121. Deputy Paul McAuliffe asked the Minister for Transport to provide an updated timeline of construction for the Luas Finglas extension project; and if he will make a statement on the matter. [2876/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/121/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "142. Deputy Paul McAuliffe asked the Minister for Transport to provide an update on the timeline of construction for the Finglas Luas extension project, given the recent legal action has now been resolved; and if he will make a statement on the matter. [31269/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/142/"
                       }
                     ]
                   }
@@ -3274,6 +3311,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Business Supports",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "522. Deputy Paul McAuliffe asked the Minister for Social Protection if he has or is considering reducing employer PRSI in retail to help combat the cost of business increases. [68095/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/522/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3805,6 +3858,42 @@
                         "name": "152. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration the number of Garda reserves recruited in 2024, 2025 and to date in 2026; the areas that they have been allocated to; and if he will make a statement on the matter. [40489/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/152/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Gambling Sector",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "537. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration to clarify if online prize-competition operators marketing to Irish consumers are required to comply with Irish gambling legislation when they are registered in other jurisdictions such as the United Kingdom. [68098/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/537/"
+                      },
+                      {
+                        "name": "538. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration whether he or his Department have considered amending the Gambling Regulation Act 2024 due to regulatory gaps in respect of online prize competitions, which target consumers through social media platforms operating in the State, whilst being registered for business purposes outside of the State. [68097/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/538/"
+                      },
+                      {
+                        "name": "539. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration whether the Gambling Regulatory Authority of Ireland (GRAI) has guidelines setting out what constitutes a sufficient skill element for competition to fall outside the definition of a regulated game or lottery. [68096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/539/"
+                      },
+                      {
+                        "name": "540. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration if the inclusion of a skill-based question is sufficient in itself, to place an online paid-entry prize competition outside the licensing requirements of the Gambling Regulation Act 2024. [68094/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/540/"
+                      },
+                      {
+                        "name": "541. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration if he and his Department are satisfied that the current Gambling Regulation Act 2024 adequately covers online prize-competition companies (details supplied) who are registered in other jurisdictions and operate in the State on a charge per entry basis, to use a skill-based question and subsequently select winners by random draw. [68093/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/541/"
                       }
                     ]
                   }
@@ -4557,6 +4646,64 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Small and Medium Enterprises",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "134. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance his plans to improve transparency for SME business customers in relation to fees, charges and bills for banking and payment services. [68502/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/134/"
+                      },
+                      {
+                        "name": "155. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance if he is considering any initiatives to make it a simpler process for SMEs to switch banks. [68501/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/155/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "473. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance the progress to date designating psychotherapy and counselling services as VAT exempt; the costings if this was to take place; and if he will make a statement on the matter. [11894/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/473/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Credits",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "804. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance if he will give consideration to an increase in the single person child carer credit; and if he will make a statement on the matter. [58004/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/804/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -4607,43 +4754,6 @@
                         "name": "27. Deputy Paul McAuliffe asked the Minister for Enterprise, Tourism and Employment in the context of Ireland’s presidency of the EU Council, the action he is taking to drive forward simplification measures to ensure EU rules are proportionate, effective and supportive of enterprise. [66768/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/27/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "473. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance the progress to date designating psychotherapy and counselling services as VAT exempt; the costings if this was to take place; and if he will make a statement on the matter. [11894/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/473/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Credits",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "804. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance if he will give consideration to an increase in the single person child carer credit; and if he will make a statement on the matter. [58004/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/804/"
                       }
                     ]
                   }
@@ -7724,6 +7834,96 @@
           "heading": "Nursing Homes",
           "question": "449. Deputy Paul McAuliffe asked the Minister for Health the outcome if a home subject to the fair deal scheme was not insured and damaged by fire; and the way in which the contribution to the fair deal scheme will be settled. [67816/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/449/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 134,
+          "department": "Finance",
+          "heading": "Small and Medium Enterprises",
+          "question": "134. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance his plans to improve transparency for SME business customers in relation to fees, charges and bills for banking and payment services. [68502/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/134/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 155,
+          "department": "Finance",
+          "heading": "Small and Medium Enterprises",
+          "question": "155. Deputy Paul McAuliffe asked the Tánaiste and Minister for Finance if he is considering any initiatives to make it a simpler process for SMEs to switch banks. [68501/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/155/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 266,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "266. Deputy Paul McAuliffe asked the Minister for Transport the status of the Luas Finglas and to provide an updated timeline for the project to commence construction. [68324/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/266/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 377,
+          "department": "Education",
+          "heading": "School Facilities",
+          "question": "377. Deputy Paul McAuliffe asked the Minister for Education and Youth if she will examine the possibility of a JCSP Library and Librarian for a school (details supplied). [68174/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/377/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 522,
+          "department": "Social",
+          "heading": "Business Supports",
+          "question": "522. Deputy Paul McAuliffe asked the Minister for Social Protection if he has or is considering reducing employer PRSI in retail to help combat the cost of business increases. [68095/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/522/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 537,
+          "department": "Justice",
+          "heading": "Gambling Sector",
+          "question": "537. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration to clarify if online prize-competition operators marketing to Irish consumers are required to comply with Irish gambling legislation when they are registered in other jurisdictions such as the United Kingdom. [68098/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/537/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 538,
+          "department": "Justice",
+          "heading": "Gambling Sector",
+          "question": "538. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration whether he or his Department have considered amending the Gambling Regulation Act 2024 due to regulatory gaps in respect of online prize competitions, which target consumers through social media platforms operating in the State, whilst being registered for business purposes outside of the State. [68097/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/538/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 539,
+          "department": "Justice",
+          "heading": "Gambling Sector",
+          "question": "539. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration whether the Gambling Regulatory Authority of Ireland (GRAI) has guidelines setting out what constitutes a sufficient skill element for competition to fall outside the definition of a regulated game or lottery. [68096/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/539/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 540,
+          "department": "Justice",
+          "heading": "Gambling Sector",
+          "question": "540. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration if the inclusion of a skill-based question is sufficient in itself, to place an online paid-entry prize competition outside the licensing requirements of the Gambling Regulation Act 2024. [68094/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/540/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 541,
+          "department": "Justice",
+          "heading": "Gambling Sector",
+          "question": "541. Deputy Paul McAuliffe asked the Minister for Justice, Home Affairs and Migration if he and his Department are satisfied that the current Gambling Regulation Act 2024 adequately covers online prize-competition companies (details supplied) who are registered in other jurisdictions and operate in the State on a charge per entry basis, to use a skill-based question and subsequently select winners by random draw. [68093/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/541/",
           "questionType": "written"
         }
       ]
