@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Micheál-Carrigy.S.2020-03-30/image/large",
   "types": {
     "all": {
-      "count": 118,
+      "count": 123,
       "headingOptions": [
         "Agriculture Schemes",
         "Bus Services",
@@ -35,14 +35,17 @@
         "Health Services Staff",
         "Health Services Waiting Lists",
         "Healthcare Infrastructure Provision",
+        "Healthcare Policy",
         "Heritage Projects",
         "Home Care Packages",
         "Hospital Admissions",
         "Hospital Appointments Status",
         "Hospital Services",
+        "Hospital Staff",
         "Hospital Waiting Lists",
         "Housing Schemes",
         "Industrial Development",
+        "Local Authorities",
         "Medicinal Products",
         "Mental Health Services",
         "National Development Plan",
@@ -58,6 +61,7 @@
         "School Management",
         "Schools Building Projects",
         "Site Acquisitions",
+        "Small and Medium Enterprises",
         "Social Welfare Schemes",
         "Special Educational Needs",
         "Visa Applications"
@@ -66,7 +70,7 @@
         "topHeading": "Departmental Staff",
         "topHeadingCount": 13,
         "topDepartment": "Health",
-        "topDepartmentCount": 31
+        "topDepartmentCount": 34
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -95,11 +99,11 @@
                 "value": 3
               },
               {
-                "name": "Disability Services",
-                "value": 2
+                "name": "Hospital Waiting Lists",
+                "value": 3
               },
               {
-                "name": "Hospital Waiting Lists",
+                "name": "Disability Services",
                 "value": 2
               },
               {
@@ -140,6 +144,14 @@
               },
               {
                 "name": "Health Services Waiting Lists",
+                "value": 1
+              },
+              {
+                "name": "Healthcare Policy",
+                "value": 1
+              },
+              {
+                "name": "Hospital Staff",
                 "value": 1
               }
             ]
@@ -223,6 +235,31 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Industrial Development",
+                "value": 2
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Bodies",
+                "value": 1
+              },
+              {
+                "name": "Site Acquisitions",
+                "value": 1
+              },
+              {
+                "name": "Small and Medium Enterprises",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -269,27 +306,6 @@
             ]
           },
           {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Industrial Development",
-                "value": 2
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Departmental Bodies",
-                "value": 1
-              },
-              {
-                "name": "Site Acquisitions",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -299,6 +315,27 @@
               {
                 "name": "Departmental Data",
                 "value": 2
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Staff",
+                "value": 1
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "value": 1
+              },
+              {
+                "name": "Local Authorities",
+                "value": 1
               }
             ]
           },
@@ -340,23 +377,6 @@
               },
               {
                 "name": "Visa Applications",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "value": 1
-              },
-              {
-                "name": "Public Sector Staff",
-                "value": 1
-              },
-              {
-                "name": "Capital Expenditure Programme",
                 "value": 1
               }
             ]
@@ -658,27 +678,6 @@
                 ]
               },
               {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "2148. Deputy Micheál Carrigy asked the Minister for Health the current waiting times for children awaiting an occupational therapy assessment in County Longford; the number of children currently on the waiting list; the average and longest waiting time for an assessment; the number of whole-time equivalent occupational therapists assigned to children’s disability services in Longford; and the measures being taken to reduce waiting times, particularly for children transitioning to post-primary education. [74277/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2148/"
-                      },
-                      {
-                        "name": "2149. Deputy Micheál Carrigy asked the Minister for Health the position regarding an occupational therapy assessment for a child (details supplied) in County Longford who has been waiting over a year for an assessment; their current position on the waiting list; if a timeline can now be provided for assessment given that the child is due to commence post-primary education in September; and if the Minister will engage with the HSE to ensure that this case is reviewed as a matter of urgency. [74278/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2149/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Hospital Waiting Lists",
                 "children": [
                   {
@@ -700,6 +699,38 @@
                         "name": "1174. Deputy Micheál Carrigy asked the Minister for Health the reason for the delay in providing a rehabilitation bed at St. Mary’s Mullingar for a person (details supplied); if she is aware that the person was recently transferred to the hospital only to be informed a bed was unavailable; the steps she will take to ensure an immediate transfer to the specialist rehabilitation unit in Mullingar to prevent further physical deterioration; and if she will make a statement on the matter. [30178/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1174/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "764. Deputy Micheál Carrigy asked the Minister for Health the number of adult and paediatric patients with Type 1 diabetes currently on a waiting list to commence insulin pump therapy, specifically including hybrid closed-loop systems, within the CHO 8 region; if she will provide a breakdown of these figures by relevant acute hospital clinics providing diabetes services in the region, including Regional Hospital Mullingar and Midland Regional Hospital Portlaoise (details supplied); and if she will make a statement on the matter. [68481/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/764/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "2148. Deputy Micheál Carrigy asked the Minister for Health the current waiting times for children awaiting an occupational therapy assessment in County Longford; the number of children currently on the waiting list; the average and longest waiting time for an assessment; the number of whole-time equivalent occupational therapists assigned to children’s disability services in Longford; and the measures being taken to reduce waiting times, particularly for children transitioning to post-primary education. [74277/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2148/"
+                      },
+                      {
+                        "name": "2149. Deputy Micheál Carrigy asked the Minister for Health the position regarding an occupational therapy assessment for a child (details supplied) in County Longford who has been waiting over a year for an assessment; their current position on the waiting list; if a timeline can now be provided for assessment given that the child is due to commence post-primary education in September; and if the Minister will engage with the HSE to ensure that this case is reviewed as a matter of urgency. [74278/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2149/"
                       }
                     ]
                   }
@@ -860,6 +891,38 @@
                         "name": "170. Deputy Micheál Carrigy asked the Minister for Health the steps being taken to resolve administrative and multidisciplinary assessment delays for a child (details supplied) caught between the HSE primary care and children’s disability network teams (CDNT); the specific measures in place to ensure families receive timely updates and liaison officer engagement following multidisciplinary review meetings; and if she will make a statement on the matter. [67378/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-23/170/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Healthcare Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "825. Deputy Micheál Carrigy asked the Minister for Health the total number of patients travelling from county Longford to a hospital (details supplied) for appointments weekly in each of the years 2023 to 2025 and to date in 2026, in tabular form; and the cost to the HSE of such transport annually. [68788/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/825/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 30 September",
+                    "date_iso": "2026-09-30",
+                    "children": [
+                      {
+                        "name": "165. Deputy Micheál Carrigy asked the Minister for Health if there is a urologist position in Mullingar Regional Hospital which has 204 beds and six critical care beds, or Tullamore Regional Hospital which has 232-beds. [68996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/165/"
                       }
                     ]
                   }
@@ -1304,6 +1367,102 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Industrial Development",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "92. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment for an update on the securing of a site in Longford by the IDA for an advance factory. [31128/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/92/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "398. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment the timeframe for the purchase of a site for an advance factory; the projected timeframe for the building in Longford; and if he will make a statement on the matter. [45596/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/398/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "282. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment the number of civil and public servants employed by his Department in each of the past ten years, in tabular form. [33950/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/282/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "504. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment if he will provide a list of all capital projects and programmes including those delivered through IDA Ireland, Enterprise Ireland and Fáilte Ireland which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34084/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/504/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Site Acquisitions",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "75. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment the timeline for the purchase of a site (details supplied) in County Longford; and projected timeline for building. [66931/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/75/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Small and Medium Enterprises",
+                "children": [
+                  {
+                    "name": "Wednesday, 30 September",
+                    "date_iso": "2026-09-30",
+                    "children": [
+                      {
+                        "name": "57. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment whether he has considered recognising SME retail with under 100 employees as an energy intensive sector and extending eligibility for energy-intensive supports to include retailers; and if there has been consideration in the upcoming budget to implement supports for retailers of this size such as (details supplied). [69274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/57/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -1474,86 +1633,6 @@
             ]
           },
           {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Industrial Development",
-                "children": [
-                  {
-                    "name": "Wednesday, 29 April",
-                    "date_iso": "2026-04-29",
-                    "children": [
-                      {
-                        "name": "92. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment for an update on the securing of a site in Longford by the IDA for an advance factory. [31128/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/92/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "398. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment the timeframe for the purchase of a site for an advance factory; the projected timeframe for the building in Longford; and if he will make a statement on the matter. [45596/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/398/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "282. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment the number of civil and public servants employed by his Department in each of the past ten years, in tabular form. [33950/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/282/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Bodies",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "504. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment if he will provide a list of all capital projects and programmes including those delivered through IDA Ireland, Enterprise Ireland and Fáilte Ireland which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34084/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/504/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Site Acquisitions",
-                "children": [
-                  {
-                    "name": "Tuesday, 22 September",
-                    "date_iso": "2026-09-22",
-                    "children": [
-                      {
-                        "name": "75. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment the timeline for the purchase of a site (details supplied) in County Longford; and projected timeline for building. [66931/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/75/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -1604,6 +1683,75 @@
                         "name": "1254. Deputy Micheál Carrigy asked the Minister for Further and Higher Education, Research, Innovation and Science if he will provide a list of all capital projects, including further and higher education campus, ETB and research infrastructure projects, delivered under the remit of his Department which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34091/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/1254/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "237. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage the allocation for the 2026 social housing acquisition programme in Longford, in tabular form; and if he will make a statement on the matter. [3760/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/237/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Staff",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "351. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage the number of civil and public servants employed by his Department in each of the past ten years, in tabular form. [33955/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/351/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "677. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage if he will provide a list of all capital projects including social and affordable housing, water services, heritage and local authority-led projects funded under the remit of his Department which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34090/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/677/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Local Authorities",
+                "children": [
+                  {
+                    "name": "Wednesday, 30 September",
+                    "date_iso": "2026-09-30",
+                    "children": [
+                      {
+                        "name": "88. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage the number of applications approved, in progress and refused under the Land Acquisition Fund, by local authority and by year from 2020 to date in 2026, in tabular form. [69095/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/88/"
                       }
                     ]
                   }
@@ -1742,59 +1890,6 @@
                         "name": "2342. Deputy Micheál Carrigy asked the Minister for Justice, Home Affairs and Migration the status of an application for \"Without Condition as to Time\" (Stamp 5 permission) submitted on 16 February 2026 by an individual residing in County Longford (details supplied); if he is aware that the individual's prior Stamp 4 permission expired on 15 March 2026, resulting in the loss of their employment; the timeline for the processing team to review the requested documentation covering the past eight years; and if he will make a statement on the matter. [61630/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2342/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "237. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage the allocation for the 2026 social housing acquisition programme in Longford, in tabular form; and if he will make a statement on the matter. [3760/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/237/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Sector Staff",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "351. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage the number of civil and public servants employed by his Department in each of the past ten years, in tabular form. [33955/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/351/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "677. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage if he will provide a list of all capital projects including social and affordable housing, water services, heritage and local authority-led projects funded under the remit of his Department which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34090/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/677/"
                       }
                     ]
                   }
@@ -3193,6 +3288,51 @@
           "heading": "Disability Services",
           "question": "649. Deputy Micheál Carrigy asked the Minister for Children, Disability and Equality the steps being taken to address the critical waiting lists for occupational therapy and psychology services in County Longford; if she is aware of the case of a child (details supplied) who has been on waiting lists for both services for almost two years; if interim emergency intervention, access to a speech and language therapist, or Cross-Border/National Treatment Purchase funding for private assessments will be provided; and if she will make a statement on the matter. [68311/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/649/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 764,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "764. Deputy Micheál Carrigy asked the Minister for Health the number of adult and paediatric patients with Type 1 diabetes currently on a waiting list to commence insulin pump therapy, specifically including hybrid closed-loop systems, within the CHO 8 region; if she will provide a breakdown of these figures by relevant acute hospital clinics providing diabetes services in the region, including Regional Hospital Mullingar and Midland Regional Hospital Portlaoise (details supplied); and if she will make a statement on the matter. [68481/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/764/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 825,
+          "department": "Health",
+          "heading": "Healthcare Policy",
+          "question": "825. Deputy Micheál Carrigy asked the Minister for Health the total number of patients travelling from county Longford to a hospital (details supplied) for appointments weekly in each of the years 2023 to 2025 and to date in 2026, in tabular form; and the cost to the HSE of such transport annually. [68788/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/825/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-30",
+          "questionNumber": 57,
+          "department": "Enterprise",
+          "heading": "Small and Medium Enterprises",
+          "question": "57. Deputy Micheál Carrigy asked the Minister for Enterprise, Tourism and Employment whether he has considered recognising SME retail with under 100 employees as an energy intensive sector and extending eligibility for energy-intensive supports to include retailers; and if there has been consideration in the upcoming budget to implement supports for retailers of this size such as (details supplied). [69274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/57/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-30",
+          "questionNumber": 88,
+          "department": "Housing",
+          "heading": "Local Authorities",
+          "question": "88. Deputy Micheál Carrigy asked the Minister for Housing, Local Government and Heritage the number of applications approved, in progress and refused under the Land Acquisition Fund, by local authority and by year from 2020 to date in 2026, in tabular form. [69095/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/88/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-30",
+          "questionNumber": 165,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "165. Deputy Micheál Carrigy asked the Minister for Health if there is a urologist position in Mullingar Regional Hospital which has 204 beds and six critical care beds, or Tullamore Regional Hospital which has 232-beds. [68996/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/165/",
           "questionType": "written"
         }
       ]

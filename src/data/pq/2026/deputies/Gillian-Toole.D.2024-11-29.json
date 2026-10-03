@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Gillian-Toole.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 88,
+      "count": 95,
       "headingOptions": [
         "Agriculture Industry",
         "Air Navigation Orders",
@@ -20,6 +20,7 @@
         "Bus Éireann",
         "Childcare Services",
         "Covid-19 Pandemic",
+        "Defence Forces",
         "Departmental Bodies",
         "Departmental Funding",
         "Departmental Inquiries",
@@ -39,12 +40,14 @@
         "Grant Payments",
         "Health Promotion",
         "Health Services",
+        "Health Strategies",
         "Housing Policy",
         "Housing Provision",
         "Housing Schemes",
         "International Protection",
         "Legislative Measures",
         "Local Development Companies",
+        "Medical Inquiries",
         "Medicinal Products",
         "National Council for Special Education",
         "National Transport Authority",
@@ -159,6 +162,14 @@
               {
                 "name": "Covid-19 Pandemic",
                 "value": 1
+              },
+              {
+                "name": "Health Strategies",
+                "value": 1
+              },
+              {
+                "name": "Medical Inquiries",
+                "value": 1
               }
             ]
           },
@@ -187,6 +198,10 @@
             "name": "Housing",
             "children": [
               {
+                "name": "Housing Policy",
+                "value": 2
+              },
+              {
                 "name": "Emergency Accommodation",
                 "value": 2
               },
@@ -196,10 +211,6 @@
               },
               {
                 "name": "Housing Provision",
-                "value": 1
-              },
-              {
-                "name": "Housing Policy",
                 "value": 1
               },
               {
@@ -255,6 +266,15 @@
               {
                 "name": "School Facilities",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 4
               }
             ]
           },
@@ -921,6 +941,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Health Strategies",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "690. Deputy Gillian Toole asked the Minister for Health what examination is being carried out into the fourfold increase in neurological conditions since 2019, as referenced by the HSE Chief Clinical Officer, 22nd July 2026 at EU World Neurology Day. [68075/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/690/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medical Inquiries",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "698. Deputy Gillian Toole asked the Minister for Health the examination of the Health Products Regulatory Authority pharmacovigilance processes is being carried out in light of the recent British Medical Journal findings (September 16th 2026) of a faulty algorithm in the US Centre for Disease Control Vaccine Adverse Event Reporting System. [68072/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/698/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1033,6 +1085,33 @@
             "name": "Housing",
             "children": [
               {
+                "name": "Housing Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "383. Deputy Gillian Toole asked the Minister for Housing, Local Government and Heritage when Part V will be amended to include housing for people with disabilities on local authority housing lists and private home buyers. [18184/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/383/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "466. Deputy Gillian Toole asked the Minister for Housing, Local Government and Heritage the consideration being given to the payment of Housing Assistance Payment to parents or guardians of an adult with a disability, who may own a second property that could be adapted if necessary &amp; lived in by their family member, with appropriately matched additional occupants with a disability, thereby removing them earlier from lengthy Local Authority social housing lists. [68070/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/466/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Emergency Accommodation",
                 "children": [
                   {
@@ -1086,22 +1165,6 @@
                         "name": "151. Deputy Gillian Toole asked the Minister for Housing, Local Government and Heritage the measures being taken to ensure the provision of housing for people with disabilities, to ensure that Ireland complies with Article 19 of the UNCRPD, including but not limited to expansion of the capital acquisition scheme; and if he will make a statement on the matter. [18183/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/151/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "383. Deputy Gillian Toole asked the Minister for Housing, Local Government and Heritage when Part V will be amended to include housing for people with disabilities on local authority housing lists and private home buyers. [18184/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/383/"
                       }
                     ]
                   }
@@ -1299,6 +1362,42 @@
                         "name": "293. Deputy Gillian Toole asked the Minister for Education and Youth the forward planning methodologies and datasets being used to ensure the timely or advance delivery of social infrastructure in the rapidly developing towns of Meath east, in particular the provision of new schools’ facilities and the upgrade of existing school facilities (details supplied). [23515/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/293/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "232. Deputy Gillian Toole asked the Minister for Defence whether four members of the legal team originally appointed to the Defence Forces Tribunal (details supplied) ceased to act during the latter part of 2024, whether by resignation, judicial appointment or otherwise; the name, position and date of departure of each person; the reason for each departure insofar as communicated to her or her Department; the period for which each position remained vacant; and the transparent and accountable process used to select and appoint each replacement, including, in particular, the replacement. [68402/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/232/"
+                      },
+                      {
+                        "name": "233. Deputy Gillian Toole asked the Minister for Defence where no formal complaints procedure has been adopted by the Defence Forces Tribunal, the procedure by which complaints already received, or received in the future, concerning the Tribunal’s administration, procedures, services, legal team or treatment of complainants and victim-witnesses are to be acknowledged, recorded, independently examined and determined; the person or office responsible for each stage; the standards and time limits applicable; and whether written reasons and an internal or independent review mechanism are available. [68397/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/233/"
+                      },
+                      {
+                        "name": "234. Deputy Gillian Toole asked the Minister for Defence whether the Tribunal of Inquiry into Issues Relating to the Complaints Processes in the Defence Forces and the Culture Surrounding the Making of Complaints has adopted a formal written procedure for receiving, registering, investigating and determining complaints concerning the tribunal’s own administration, procedures, services, legal team or treatment of persons engaging with it; and the date on which any such procedure was adopted and where it has been published. [68394/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/234/"
+                      },
+                      {
+                        "name": "235. Deputy Gillian Toole asked the Minister for Defence whether the Defence Forces Tribunal has appointed any persons specifically to act as independent investigators, separate from its counsel and solicitors; if so, the number appointed, their professional qualifications, terms of appointment and functions; if none have been appointed, whether the Tribunal’s investigative work is being conducted solely through its legal team (details supplied); whether she has sought or received any assessment of the adequacy of that investigative model; and to provide details of any capacity assessment or assurance received. [68400/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/235/"
                       }
                     ]
                   }
@@ -2143,6 +2242,42 @@
         },
         {
           "date_iso": "2026-09-29",
+          "questionNumber": 232,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "232. Deputy Gillian Toole asked the Minister for Defence whether four members of the legal team originally appointed to the Defence Forces Tribunal (details supplied) ceased to act during the latter part of 2024, whether by resignation, judicial appointment or otherwise; the name, position and date of departure of each person; the reason for each departure insofar as communicated to her or her Department; the period for which each position remained vacant; and the transparent and accountable process used to select and appoint each replacement, including, in particular, the replacement. [68402/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/232/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 233,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "233. Deputy Gillian Toole asked the Minister for Defence where no formal complaints procedure has been adopted by the Defence Forces Tribunal, the procedure by which complaints already received, or received in the future, concerning the Tribunal’s administration, procedures, services, legal team or treatment of complainants and victim-witnesses are to be acknowledged, recorded, independently examined and determined; the person or office responsible for each stage; the standards and time limits applicable; and whether written reasons and an internal or independent review mechanism are available. [68397/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/233/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 234,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "234. Deputy Gillian Toole asked the Minister for Defence whether the Tribunal of Inquiry into Issues Relating to the Complaints Processes in the Defence Forces and the Culture Surrounding the Making of Complaints has adopted a formal written procedure for receiving, registering, investigating and determining complaints concerning the tribunal’s own administration, procedures, services, legal team or treatment of persons engaging with it; and the date on which any such procedure was adopted and where it has been published. [68394/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/234/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 235,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "235. Deputy Gillian Toole asked the Minister for Defence whether the Defence Forces Tribunal has appointed any persons specifically to act as independent investigators, separate from its counsel and solicitors; if so, the number appointed, their professional qualifications, terms of appointment and functions; if none have been appointed, whether the Tribunal’s investigative work is being conducted solely through its legal team (details supplied); whether she has sought or received any assessment of the adequacy of that investigative model; and to provide details of any capacity assessment or assurance received. [68400/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/235/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
           "questionNumber": 268,
           "department": "Transport",
           "heading": "Airport Policy",
@@ -2224,6 +2359,15 @@
         },
         {
           "date_iso": "2026-09-29",
+          "questionNumber": 466,
+          "department": "Housing",
+          "heading": "Housing Policy",
+          "question": "466. Deputy Gillian Toole asked the Minister for Housing, Local Government and Heritage the consideration being given to the payment of Housing Assistance Payment to parents or guardians of an adult with a disability, who may own a second property that could be adapted if necessary &amp; lived in by their family member, with appropriately matched additional occupants with a disability, thereby removing them earlier from lengthy Local Authority social housing lists. [68070/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/466/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
           "questionNumber": 608,
           "department": "Agriculture",
           "heading": "Grant Payments",
@@ -2238,6 +2382,24 @@
           "heading": "Childcare Services",
           "question": "631. Deputy Gillian Toole asked the Minister for Children, Disability and Equality the current status of the Programme for Government commitment to bring home-based childcare within a regulated and grant-accessible framework. [68073/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/631/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 690,
+          "department": "Health",
+          "heading": "Health Strategies",
+          "question": "690. Deputy Gillian Toole asked the Minister for Health what examination is being carried out into the fourfold increase in neurological conditions since 2019, as referenced by the HSE Chief Clinical Officer, 22nd July 2026 at EU World Neurology Day. [68075/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/690/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-29",
+          "questionNumber": 698,
+          "department": "Health",
+          "heading": "Medical Inquiries",
+          "question": "698. Deputy Gillian Toole asked the Minister for Health the examination of the Health Products Regulatory Authority pharmacovigilance processes is being carried out in light of the recent British Medical Journal findings (September 16th 2026) of a faulty algorithm in the US Centre for Disease Control Vaccine Adverse Event Reporting System. [68072/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/698/",
           "questionType": "written"
         },
         {
