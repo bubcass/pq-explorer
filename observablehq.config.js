@@ -2,6 +2,7 @@ export default {
   title: "PQ Explorer",
   head: `
     <link rel="preload" href="oireachtas-logo.svg" as="image" type="image/svg+xml">
+    <link rel="preload" href="insights-house.svg" as="image" type="image/svg+xml" data-insights-house>
     <link rel="icon" href="logo.png" type="image/png" sizes="32x32">
     <script>
       document.documentElement.lang = "en-IE";
@@ -38,6 +39,7 @@ export default {
           logo.width = 163;
           logo.height = 69;
           logo.src = document.querySelector('link[rel="preload"][as="image"]')?.href || "oireachtas-logo.svg";
+          const houseSrc = document.querySelector('link[data-insights-house]')?.href || "insights-house.svg";
           homeLink.appendChild(logo);
 
           const resourceLink = document.createElement("a");
@@ -45,7 +47,7 @@ export default {
           resourceLink.href = "https://bubcass.github.io/open-data-insights/";
           resourceLink.setAttribute("aria-label", "Open Data Insights home");
           resourceLink.innerHTML = \`
-            <span class="oireachtas-masthead__brand-mark" aria-hidden="true"><svg viewBox="0 0 64 28" focusable="false"><path d="M12 9H26L32 5L38 9H52"/><line x1="12" y1="10.5" x2="52" y2="10.5"/><rect x="12" y="10.5" width="40" height="13.5"/><line x1="27.5" y1="10.5" x2="27.5" y2="24"/><line x1="30" y1="10.5" x2="30" y2="24"/><line x1="34" y1="10.5" x2="34" y2="24"/><line x1="36.5" y1="10.5" x2="36.5" y2="24"/><line x1="26.5" y1="24" x2="37.5" y2="24"/><rect class="oireachtas-masthead__brand-mark-fill" x="30.7" y="18.2" width="2.6" height="5.8"/><path class="oireachtas-masthead__brand-mark-fill" d="M15 13h1.7v1.7H15zm4 0h1.7v1.7H19zm4 0h1.7v1.7H23zm16.3 0H41v1.7h-1.7zm4 0H45v1.7h-1.7zm4 0H49v1.7h-1.7zM15 18h1.7v1.7H15zm4 0h1.7v1.7H19zm4 0h1.7v1.7H23zm16.3 0H41v1.7h-1.7zm4 0H45v1.7h-1.7zm4 0H49v1.7h-1.7z"/><line x1="12" y1="24" x2="52" y2="24"/></svg></span>
+            <span class="oireachtas-masthead__brand-mark" aria-hidden="true"><svg viewBox="0 0 1092 526" focusable="false"><use href="\${houseSrc}#house-lockup" /></svg></span>
             <span class="oireachtas-masthead__brand-copy"><span class="oireachtas-masthead__brand-title">Open Data Insights</span><span class="oireachtas-masthead__brand-tagline">Parliamentary visual data</span></span>
           \`;
 
