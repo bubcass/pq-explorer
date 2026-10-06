@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Sinéad-Gibney.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 238,
+      "count": 246,
       "headingOptions": [
         "Action Plan for Jobs",
         "Air Navigation Orders",
@@ -41,6 +41,7 @@
         "Disease Management",
         "Driver Licences",
         "Early Childhood Care and Education",
+        "Education Policy",
         "Employment Data",
         "Employment Rights",
         "Employment Support Services",
@@ -60,11 +61,13 @@
         "Health Services",
         "Human Rights",
         "Humanitarian Access",
+        "Humanitarian Aid",
         "Immigration Policy",
         "Industrial Development",
         "Industrial Relations",
         "Information and Communications Technology",
         "International Bodies",
+        "International Sanctions",
         "Job Losses",
         "Legislative Measures",
         "Legislative Programme",
@@ -88,6 +91,7 @@
         "Pension Provisions",
         "Planning Issues",
         "Postal Services",
+        "Public Transport",
         "Raidió Teilifís Éireann",
         "Residency Permits",
         "Rights of the Child",
@@ -324,6 +328,14 @@
               {
                 "name": "Climate Change Policy",
                 "value": 1
+              },
+              {
+                "name": "International Sanctions",
+                "value": 1
+              },
+              {
+                "name": "Humanitarian Aid",
+                "value": 1
               }
             ]
           },
@@ -531,12 +543,12 @@
             "name": "Transport",
             "children": [
               {
-                "name": "Artificial Intelligence",
+                "name": "Bus Services",
                 "value": 2
               },
               {
-                "name": "Bus Services",
-                "value": 1
+                "name": "Artificial Intelligence",
+                "value": 2
               },
               {
                 "name": "Driver Licences",
@@ -556,6 +568,35 @@
               },
               {
                 "name": "National Monuments",
+                "value": 1
+              },
+              {
+                "name": "Public Transport",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Education Policy",
+                "value": 4
+              },
+              {
+                "name": "Artificial Intelligence",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "School Transport",
+                "value": 1
+              },
+              {
+                "name": "Teaching Qualifications",
                 "value": 1
               }
             ]
@@ -636,27 +677,6 @@
               },
               {
                 "name": "Small and Medium Enterprises",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Artificial Intelligence",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "School Transport",
-                "value": 1
-              },
-              {
-                "name": "Teaching Qualifications",
                 "value": 1
               }
             ]
@@ -1899,6 +1919,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "International Sanctions",
+                "children": [
+                  {
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
+                    "children": [
+                      {
+                        "name": "213. Deputy Sinéad Gibney asked the Minister for Foreign Affairs and Trade the steps her Department is taking to support the work of the International Criminal Court and to oppose the sanctions currently being imposed on Judges and Prosecutors in the ICC by the United States. [69718/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/213/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Humanitarian Aid",
+                "children": [
+                  {
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
+                    "children": [
+                      {
+                        "name": "214. Deputy Sinéad Gibney asked the Minister for Foreign Affairs and Trade the steps her Department is taking to reach the 0.7% goal for Overseas Development Aid; and the engagements she has with other EU member states on increasing their Aid budgets. [69717/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/214/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3032,6 +3084,33 @@
             "name": "Transport",
             "children": [
               {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "523. Deputy Sinéad Gibney asked the Minister for Transport the steps his Department will take to expand bus services in Stepaside, Glencullen, and Kiltiernan beyond current BusConnect plans, in order to address severe traffic congestion issues and lack of public transport capacity and reliability; and if he will make a statement on the matter. [74122/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/523/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
+                    "children": [
+                      {
+                        "name": "249. Deputy Sinéad Gibney asked the Minister for Transport whether he plans to engage with TII and NTA for the purpose of introducing efficient routes for essential night bus services from the City Centre to areas of Dublin Rathdown constituency, including Dundrum, Stillorgan, and Ballyogan, so that late-night workers have safe and reliable public transport after work. [69627/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/249/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Artificial Intelligence",
                 "children": [
                   {
@@ -3053,22 +3132,6 @@
                         "name": "772. Deputy Sinéad Gibney asked the Minister for Transport to provide a list of AI pilot projects which have taken place in his Department within the past three months; the expenditure associated with those projects; and whether they are still ongoing, in tabular form. [25805/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/772/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "523. Deputy Sinéad Gibney asked the Minister for Transport the steps his Department will take to expand bus services in Stepaside, Glencullen, and Kiltiernan beyond current BusConnect plans, in order to address severe traffic congestion issues and lack of public transport capacity and reliability; and if he will make a statement on the matter. [74122/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/523/"
                       }
                     ]
                   }
@@ -3149,6 +3212,122 @@
                         "name": "248. Deputy Sinéad Gibney asked the Minister for Transport his Department’s policy on consultation with the National Monuments Service and The Heritage Council, with regards to protected sites located close to proposed development of bus layover infrastructure. [68116/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/248/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
+                    "children": [
+                      {
+                        "name": "250. Deputy Sinéad Gibney asked the Minister for Transport his plans to engage with TII for the purpose of extending Luas operating hours past midnight, and introducing a permanent late-night Luas service. [69626/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/250/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Education Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
+                    "children": [
+                      {
+                        "name": "289. Deputy Sinéad Gibney asked the Minister for Education and Youth whether her Department has any plans to review Circular 29/2007, regarding incremental credit; and whether there is a timeline for same. [69628/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/289/"
+                      },
+                      {
+                        "name": "290. Deputy Sinéad Gibney asked the Minister for Education and Youth her Department’s policy regarding an introduction of an expenses allowance for student teachers, in line with expenses allowed for qualified teachers. [69625/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/290/"
+                      },
+                      {
+                        "name": "291. Deputy Sinéad Gibney asked the Minister for Education and Youth if her Department has costed student teacher placement hours against that paid to final-year student nurses and midwives; and the results of any student teacher projection. [69624/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/291/"
+                      },
+                      {
+                        "name": "292. Deputy Sinéad Gibney asked the Minister for Education and Youth the number of school placement hours worked by student teachers in the 2025-2026 academic year, broken down by county, in tabular form. [69623/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/292/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artificial Intelligence",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1039. Deputy Sinéad Gibney asked the Minister for Education and Youth to provide a list of AI pilot projects which have taken place in her Department within the past 12 months; the expenditure associated with those projects; and whether they are still ongoing, in tabular form. [74131/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1039/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1441. Deputy Sinéad Gibney asked the Minister for Education and Youth to provide a list of AI pilot projects which have taken place in her Department within the past three months; the expenditure associated with those projects; and whether they are still ongoing, in tabular form. [25793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1441/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1371. Deputy Sinéad Gibney asked the Minister for Education and Youth the planned increases in school bus provision for September 2026 term; and if she will make a statement on the matter. [58498/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1371/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Teaching Qualifications",
+                "children": [
+                  {
+                    "name": "Thursday, 24 September",
+                    "date_iso": "2026-09-24",
+                    "children": [
+                      {
+                        "name": "341. Deputy Sinéad Gibney asked the Minister for Education and Youth whether she will engage with an organisation (details supplied) regarding the policy on incremental credits; and whether it adequately assesses past experience of teaching abroad. [67983/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/341/"
                       }
                     ]
                   }
@@ -3462,75 +3641,6 @@
                         "name": "16. Deputy Sinéad Gibney asked the Minister for Climate, Energy and the Environment the steps his Department is taking to ensure that micro-businesses, sole traders and SMEs are supported in the implementation of the EU Packaging and Packaging Waste Regulation; and the steps he has taken at EU level to ensure harmonisation across the EU. [69053/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/16/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Artificial Intelligence",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1039. Deputy Sinéad Gibney asked the Minister for Education and Youth to provide a list of AI pilot projects which have taken place in her Department within the past 12 months; the expenditure associated with those projects; and whether they are still ongoing, in tabular form. [74131/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1039/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1441. Deputy Sinéad Gibney asked the Minister for Education and Youth to provide a list of AI pilot projects which have taken place in her Department within the past three months; the expenditure associated with those projects; and whether they are still ongoing, in tabular form. [25793/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1441/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Transport",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1371. Deputy Sinéad Gibney asked the Minister for Education and Youth the planned increases in school bus provision for September 2026 term; and if she will make a statement on the matter. [58498/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1371/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Teaching Qualifications",
-                "children": [
-                  {
-                    "name": "Thursday, 24 September",
-                    "date_iso": "2026-09-24",
-                    "children": [
-                      {
-                        "name": "341. Deputy Sinéad Gibney asked the Minister for Education and Youth whether she will engage with an organisation (details supplied) regarding the policy on incremental credits; and whether it adequately assesses past experience of teaching abroad. [67983/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-24/341/"
                       }
                     ]
                   }
@@ -5942,6 +6052,78 @@
           "heading": "Climate Change Policy",
           "question": "87. Deputy Sinéad Gibney asked the Minister for Foreign Affairs and Trade the actions she and her Department have taken diplomatically at EU and UN level to pursue global action on climate commitments and the Paris Agreement following the heatwaves, flooding, and other extreme weather events globally in recent months. [69076/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/87/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 213,
+          "department": "Foreign",
+          "heading": "International Sanctions",
+          "question": "213. Deputy Sinéad Gibney asked the Minister for Foreign Affairs and Trade the steps her Department is taking to support the work of the International Criminal Court and to oppose the sanctions currently being imposed on Judges and Prosecutors in the ICC by the United States. [69718/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/213/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 214,
+          "department": "Foreign",
+          "heading": "Humanitarian Aid",
+          "question": "214. Deputy Sinéad Gibney asked the Minister for Foreign Affairs and Trade the steps her Department is taking to reach the 0.7% goal for Overseas Development Aid; and the engagements she has with other EU member states on increasing their Aid budgets. [69717/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/214/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 249,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "249. Deputy Sinéad Gibney asked the Minister for Transport whether he plans to engage with TII and NTA for the purpose of introducing efficient routes for essential night bus services from the City Centre to areas of Dublin Rathdown constituency, including Dundrum, Stillorgan, and Ballyogan, so that late-night workers have safe and reliable public transport after work. [69627/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/249/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 250,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "250. Deputy Sinéad Gibney asked the Minister for Transport his plans to engage with TII for the purpose of extending Luas operating hours past midnight, and introducing a permanent late-night Luas service. [69626/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/250/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 289,
+          "department": "Education",
+          "heading": "Education Policy",
+          "question": "289. Deputy Sinéad Gibney asked the Minister for Education and Youth whether her Department has any plans to review Circular 29/2007, regarding incremental credit; and whether there is a timeline for same. [69628/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/289/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 290,
+          "department": "Education",
+          "heading": "Education Policy",
+          "question": "290. Deputy Sinéad Gibney asked the Minister for Education and Youth her Department’s policy regarding an introduction of an expenses allowance for student teachers, in line with expenses allowed for qualified teachers. [69625/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/290/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 291,
+          "department": "Education",
+          "heading": "Education Policy",
+          "question": "291. Deputy Sinéad Gibney asked the Minister for Education and Youth if her Department has costed student teacher placement hours against that paid to final-year student nurses and midwives; and the results of any student teacher projection. [69624/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/291/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 292,
+          "department": "Education",
+          "heading": "Education Policy",
+          "question": "292. Deputy Sinéad Gibney asked the Minister for Education and Youth the number of school placement hours worked by student teachers in the 2025-2026 academic year, broken down by county, in tabular form. [69623/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/292/",
           "questionType": "written"
         }
       ]
