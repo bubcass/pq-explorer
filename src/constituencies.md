@@ -406,7 +406,7 @@ display(
         <div class="hero__content">
           <p class="hero__eyebrow">Open data insights</p>
           <h1 class="hero__title">PQ Explorer: Constituencies</h1>
-          <p class="hero__subtitle">A data-driven perspective on the questions asked in Parliament.</p>
+          <p class="hero__subtitle">A data-driven perspective of the questions asked in Parliament.</p>
         </div>
       </div>
     `;

@@ -279,7 +279,7 @@ display(
           <p class="hero__eyebrow">Open data insights</p>
           <h1 class="hero__title">PQ Explorer</h1>
           <p class="hero__subtitle">
-            A data-driven perspective on the questions asked in Parliament.
+            A data-driven perspective of the questions asked in Parliament.
           </p>
         </div>
       </div>
