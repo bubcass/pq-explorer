@@ -47,7 +47,7 @@ export default {
           resourceLink.href = "https://bubcass.github.io/open-data-insights/";
           resourceLink.setAttribute("aria-label", "Open Data Insights home");
           resourceLink.innerHTML = \`
-            <span class="oireachtas-masthead__brand-mark" aria-hidden="true"><svg viewBox="0 0 1092 526" focusable="false"><use href="\${houseSrc}#house-lockup" /></svg></span>
+            <span class="oireachtas-masthead__brand-mark" aria-hidden="true"><svg viewBox="0 0 1092 526" focusable="false"><use href="\${houseSrc}#house-lockup" fill="currentColor" /></svg></span>
             <span class="oireachtas-masthead__brand-copy"><span class="oireachtas-masthead__brand-title">Open Data Insights</span><span class="oireachtas-masthead__brand-tagline">Parliamentary visual data</span></span>
           \`;
 
