@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Sorca-Clarke.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 830,
+      "count": 843,
       "headingOptions": [
         "Abuse in Hospitals",
         "Agriculture Schemes",
@@ -137,6 +137,7 @@
         "Pharmacy Services",
         "Primary Care Services",
         "Prison Service",
+        "Protected Disclosures",
         "Psychological Assessments",
         "Public Sector Pay",
         "Public Sector Staff",
@@ -199,7 +200,7 @@
         "topHeading": "Mental Health Services",
         "topHeadingCount": 90,
         "topDepartment": "Health",
-        "topDepartmentCount": 366
+        "topDepartmentCount": 368
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -213,7 +214,7 @@
               },
               {
                 "name": "Health Services",
-                "value": 41
+                "value": 42
               },
               {
                 "name": "Health Services Staff",
@@ -320,6 +321,10 @@
                 "value": 2
               },
               {
+                "name": "General Practitioner Services",
+                "value": 2
+              },
+              {
                 "name": "Medical Aids and Appliances",
                 "value": 2
               },
@@ -373,10 +378,6 @@
               },
               {
                 "name": "Cancer Services",
-                "value": 1
-              },
-              {
-                "name": "General Practitioner Services",
                 "value": 1
               },
               {
@@ -636,100 +637,11 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Health Services Staff",
-                "value": 9
-              },
-              {
-                "name": "Disabilities Assessments",
-                "value": 5
-              },
-              {
-                "name": "Care Services",
-                "value": 4
-              },
-              {
-                "name": "Disability Issues",
-                "value": 3
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 3
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 3
-              },
-              {
-                "name": "Disability Services",
-                "value": 3
-              },
-              {
-                "name": "Childcare Services",
-                "value": 3
-              },
-              {
-                "name": "Health Services",
-                "value": 2
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "value": 2
-              },
-              {
-                "name": "Departmental Data",
-                "value": 2
-              },
-              {
-                "name": "Departmental Consultations",
-                "value": 1
-              },
-              {
-                "name": "Children in Care",
-                "value": 1
-              },
-              {
-                "name": "State Examinations",
-                "value": 1
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Magdalen Laundries",
-                "value": 1
-              },
-              {
-                "name": "Gender Balance",
-                "value": 1
-              },
-              {
-                "name": "Health Services Waiting Lists",
-                "value": 1
-              },
-              {
-                "name": "Family Resource Centres",
-                "value": 1
-              },
-              {
-                "name": "Home Help Service",
-                "value": 1
-              },
-              {
-                "name": "Public Sector Staff",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Transport",
             "children": [
               {
                 "name": "Rail Network",
-                "value": 15
+                "value": 16
               },
               {
                 "name": "Bus Services",
@@ -826,6 +738,95 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Health Services Staff",
+                "value": 9
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 5
+              },
+              {
+                "name": "Care Services",
+                "value": 4
+              },
+              {
+                "name": "Disability Issues",
+                "value": 3
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 3
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 3
+              },
+              {
+                "name": "Disability Services",
+                "value": 3
+              },
+              {
+                "name": "Childcare Services",
+                "value": 3
+              },
+              {
+                "name": "Health Services",
+                "value": 2
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "value": 2
+              },
+              {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "Departmental Consultations",
+                "value": 1
+              },
+              {
+                "name": "Children in Care",
+                "value": 1
+              },
+              {
+                "name": "State Examinations",
+                "value": 1
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Magdalen Laundries",
+                "value": 1
+              },
+              {
+                "name": "Gender Balance",
+                "value": 1
+              },
+              {
+                "name": "Health Services Waiting Lists",
+                "value": 1
+              },
+              {
+                "name": "Family Resource Centres",
+                "value": 1
+              },
+              {
+                "name": "Home Help Service",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Staff",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Housing",
             "children": [
               {
@@ -886,6 +887,43 @@
               },
               {
                 "name": "Housing Schemes",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Protected Disclosures",
+                "value": 10
+              },
+              {
+                "name": "Office of Public Works",
+                "value": 7
+              },
+              {
+                "name": "Flood Relief Schemes",
+                "value": 7
+              },
+              {
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "Departmental Consultations",
+                "value": 1
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 1
+              },
+              {
+                "name": "Departmental Properties",
                 "value": 1
               },
               {
@@ -1134,39 +1172,6 @@
               },
               {
                 "name": "Departmental Contracts",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Office of Public Works",
-                "value": 7
-              },
-              {
-                "name": "Flood Relief Schemes",
-                "value": 7
-              },
-              {
-                "name": "Departmental Data",
-                "value": 2
-              },
-              {
-                "name": "Departmental Consultations",
-                "value": 1
-              },
-              {
-                "name": "An Garda Síochána",
-                "value": 1
-              },
-              {
-                "name": "Departmental Properties",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
                 "value": 1
               }
             ]
@@ -2292,6 +2297,17 @@
                         "name": "3288. Deputy Sorca Clarke asked the Minister for Health the number of approved centres in each RHA that currently have access to a multidisciplinary team including psychology, occupational therapy and social work; the number of WTE posts approved for each discipline in each approved centre; the number of posts currently filled; the number that are vacant; where a post is vacant, to confirm patients continue to have access to the relevant discipline; to provide details of any approved centres where inpatients currently have no access to psychology, occupational therapy or social work; and if she will make a statement on the matter. [61109/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3288/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 6 October",
+                    "date_iso": "2026-10-06",
+                    "children": [
+                      {
+                        "name": "543. Deputy Sorca Clarke asked the Minister for Health the current average waiting time for a first appointment at a symptomatic breast disease clinic; the number of urgent referrals seen within the two-week target in each of the past 12 months; the number of women currently waiting beyond that target, broken down by hospital; and the steps she is taking to ensure all urgent referrals are seen on time. [69774/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/543/"
                       }
                     ]
                   }
@@ -4126,6 +4142,33 @@
                 ]
               },
               {
+                "name": "General Practitioner Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "3055. Deputy Sorca Clarke asked the Minister for Health the current number of vacant GP posts, including GMS and non-GMS contracted positions, in the counties of Longford and Westmeath; to provide a breakdown of these vacancies by primary care area, town, or practice where applicable; to detail the length of time each vacancy has remained unfilled; to set out the measures currently being undertaken by the Health Service Executive to recruit and retain GPs in these counties; and to indicate the expected timelines for filling these vacancies. [25560/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3055/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 6 October",
+                    "date_iso": "2026-10-06",
+                    "children": [
+                      {
+                        "name": "690. Deputy Sorca Clarke asked the Minister for Health in view of the closure of the adult diabetes clinic at the Regional Hospital Mullingar and the fact that affected patients are being directed to GP services in the interim, if temporary GP visit card eligibility will be provided to those patients, particularly those who have previously been refused a medical card or GP visit card; and if not, if another form of discretionary financial assistance will be considered for the duration of the closure. [70554/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/690/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Medical Aids and Appliances",
                 "children": [
                   {
@@ -4414,22 +4457,6 @@
                         "name": "2966. Deputy Sorca Clarke asked the Minister for Health her views on the regional disparities in access to lung cancer care. [25013/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2966/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "General Practitioner Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "3055. Deputy Sorca Clarke asked the Minister for Health the current number of vacant GP posts, including GMS and non-GMS contracted positions, in the counties of Longford and Westmeath; to provide a breakdown of these vacancies by primary care area, town, or practice where applicable; to detail the length of time each vacancy has remained unfilled; to set out the measures currently being undertaken by the Health Service Executive to recruit and retain GPs in these counties; and to indicate the expected timelines for filling these vacancies. [25560/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/3055/"
                       }
                     ]
                   }
@@ -6175,6 +6202,616 @@
             ]
           },
           {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Rail Network",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "258. Deputy Sorca Clarke asked the Minister for Transport if he is aware that the men’s bathrooms in Tullamore train station have been closed since Covid-19 and that the disabled bathrooms do not meet minimum requirements; the steps his Department will take to address this issue; and if he will make a statement on the matter. [19064/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/258/"
+                      },
+                      {
+                        "name": "259. Deputy Sorca Clarke asked the Minister for Transport for an update in relation to the proposed second platform in Clara train station, County Offaly; and if he will make a statement on the matter. [19065/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/259/"
+                      },
+                      {
+                        "name": "268. Deputy Sorca Clarke asked the Minister for Transport if he will provide an update on the status of the proposed reopening of the Mullingar–Athlone railway line; the extent to which the project is being examined following its inclusion in the All-Island Strategic Rail Review; and if he will make a statement on the matter. [19121/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/268/"
+                      },
+                      {
+                        "name": "269. Deputy Sorca Clarke asked the Minister for Transport whether his Department, the National Transport Authority or Iarnród Éireann plans to undertake a detailed feasibility study or cost-benefit analysis on the reopening of the Mullingar–Athlone rail line; the timeline for any such study; and if he will make a statement on the matter. [19122/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/269/"
+                      },
+                      {
+                        "name": "270. Deputy Sorca Clarke asked the Minister for Transport the steps being taken to ensure the former Mullingar–Athlone rail corridor and associated railway lands are preserved for potential future rail use; and if there are any proposals to repurpose or alter sections of the alignment. [19123/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/270/"
+                      },
+                      {
+                        "name": "271. Deputy Sorca Clarke asked the Minister for Transport whether his Department has examined the potential impact of reopening the Mullingar–Athlone rail line on commuting patterns to Technological University of the Shannon in Athlone from towns along the Dublin–Sligo line including Mullingar, Longford, Edgeworthstown, Enfield, Kilcock and Maynooth. [19125/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/271/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "392. Deputy Sorca Clarke asked the Minister for Transport the plans in place to improve rail frequency and reliability on routes serving Longford, Mullingar and Athlone; and if he will make a statement on the matter. [41500/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/392/"
+                      },
+                      {
+                        "name": "397. Deputy Sorca Clarke asked the Minister for Transport if his Department has conducted an assessment of the economic benefits of enhanced rail connectivity between Dublin and the Midlands region. [41506/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/397/"
+                      },
+                      {
+                        "name": "401. Deputy Sorca Clarke asked the Minister for Transport the number of WTE Garda Vetting Officer and Child Safeguarding Officer posts filled within Iarnród Éireann as of 26 May 2026, in tabular form. [41797/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/401/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "378. Deputy Sorca Clarke asked the Minister for Transport when a second train line will begin construction in Clara; and if he will make a statement on the matter. [39297/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/378/"
+                      },
+                      {
+                        "name": "379. Deputy Sorca Clarke asked the Minister for Transport if he is aware that the disabled bathroom in Tullamore Train Station has been out of service for over 24-months; when it is hoped it will be reopened; and if he will make a statement on the matter. [39298/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/379/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "795. Deputy Sorca Clarke asked the Minister for Transport when the car park at Mullingar train station was last re-marked; and if this car-park is scheduled for re-marking this year. [26077/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/795/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "400. Deputy Sorca Clarke asked the Minister for Transport if he is aware of the ongoing delays on the Dublin-Westport rail line caused by single-track sections, particularly between Portarlington and Tullamore, resulting in trains being routinely held to allow passing services; if there are plans to upgrade or provide dual-tracking on this section of the line; the timeline for any such works; and if he will make a statement on the matter. [28433/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/400/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "175. Deputy Sorca Clarke asked the Minister for Transport the number of WTE staff by job title currently working within facilities and building department within Iarnród Éireann. [32824/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/175/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "244. Deputy Sorca Clarke asked the Minister for Transport his plans to expand parking at Clara train station to meet increased demand. [64935/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/244/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 6 October",
+                    "date_iso": "2026-10-06",
+                    "children": [
+                      {
+                        "name": "89. Deputy Sorca Clarke asked the Minister for Transport for an update in relation to the current status of the Iarnród Éireann National Carpark Strategy report which is currently bring reviewed with the NTA; and when this report will be published. [70635/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/89/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "395. Deputy Sorca Clarke asked the Minister for Transport if additional funding will be provided for rural bus services and Local Link routes serving communities in Westmeath and Longford. [41504/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/395/"
+                      },
+                      {
+                        "name": "440. Deputy Sorca Clarke asked the Minister for Transport whether additional Local Link services or expanded evening and weekend rural bus services are planned for communities in Longford and Westmeath who have limited public transport options. [42362/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/440/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "355. Deputy Sorca Clarke asked the Minister for Transport number of bus services, scheduled departures affecting Longford-Westmeath PSO routes in 2024 and 2025, in tabular form. [4172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/355/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "380. Deputy Sorca Clarke asked the Minister for Transport if the proposed assessment of Tullamore bus service has been completed; when it is hoped the details will be published; and if he will make a statement on the matter. [39299/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/380/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "246. Deputy Sorca Clarke asked the Minister for Transport if he is aware that passengers in Mullingar and surrounding areas are unable to purchase online tickets from Mullingar to Dublin on bus 115; the reason for this discrepancy; and if he will urgently engage with the National Transport Authority and Bus Éireann to resolve the matter.; and if he will make a statement on the matter. [41345/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/246/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Traffic Accidents",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "698. Deputy Sorca Clarke asked the Minister for Transport if he will ensure that the Road Safety Authority resumes the publication of anonymised, collision location data for public, research and local-authority use, including for high risk corridors such as the Longford/Westmeath section of the N4; and if he will confirm that this will be done in line with Data Protection Commissioner guidance that proportionate publication of crash location details is compatible with GDPR. [1469/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/698/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "173. Deputy Sorca Clarke asked the Minister for Transport if he will recognise road-traffic collision and fatality data as public-health data, given that such data relates to preventable deaths and injuries that cluster at identifiable locations; and if he will support the routine sharing and publication of anonymised collision location data for prevention and research purposes, in line with the April 2024 guidance of the Data Protection Commissioner. [9086/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/173/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "445. Deputy Sorca Clarke asked the Minister for Transport further to Parliamentary Question No. 2415 of 13 January 2026, if he accepts road traffic deaths and serious injuries as a public health harm requiring surveillance; if his Department will collect, analyse and use road-traffic collision and fatality statistics for population health improvement; if he and his Department will engage with the Minister for Health to support and expedite the routine use and publication of this data as a public health concern for preventing injuries and deaths; and to outline any meetings held or planned, actions taken and a timeline for same. [12929/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/445/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "260. Deputy Sorca Clarke asked the Minister for Transport for an update in relation to the proposed works on Spollanstown Bridge, Tullamore, County Offaly; and if he will make a statement on the matter. [19066/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/260/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "396. Deputy Sorca Clarke asked the Minister for Transport the number of transport-related projects in Westmeath and Longford currently awaiting approval or funding allocation. [41505/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/396/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "477. Deputy Sorca Clarke asked the Minister for Transport the status of the Government’s commitment to introduce contactless fare payments across public transport, including the use of ordinary debit and credit cards and mobile wallets on bus services; the bus services and operators that currently accept contactless bank-card payments; the progress made by the NTA on developing and implementing the new contactless fare-payment system; if the system will provide daily and weekly fare capping comparable with Leap card; and the target date for nationwide availability of contactless bank-card payments on bus services. [62322/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/477/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Driver Licences",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "215. Deputy Sorca Clarke asked the Minister for Transport if his Department has considered a driver licence exchange agreement between Ireland and the United States to allow Irish citizens returning home with full US licences to exchange them for an Irish licence; and if he will make a statement on the matter. [21371/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/215/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "400. Deputy Sorca Clarke asked the Minister for Transport if he is aware of the delay citizens returning from Australia are facing in exchanging their driving licences; the impact this is having on their ability to secure employment; the steps he is taking to address this; and if he will make a statement on the matter. [41741/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/400/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bus Éireann",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "158. Deputy Sorca Clarke asked the Minister for Transport the number of full-time heavy vehicle mechanics employed by Bus Éireann as of 29 June 2026; if he will provide the corresponding figures in 2023, in tabular form. [50781/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/158/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "451. Deputy Sorca Clarke asked the Minister for Transport the number of double decker coaches and double decker buses in the Bus Éireann PSO fleet as of 17 July 2026; if he will the provide the same figures as of 31 December 2023, in tabular form. [56496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/451/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Consultations",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "528. Deputy Sorca Clarke asked the Minister for Transport whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74258/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/528/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "44. Deputy Sorca Clarke asked the Minister for Transport the investment that will be made in 2026 for the provision of disability user friendly public transport. [15275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/44/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Infrastructure Ireland",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "203. Deputy Sorca Clarke asked the Minister for Transport if his attention has been drawn to the TFI Child (5–8) Leap Card which is currently not being accepted on the MU1 and MU2 town bus services in Mullingar; if he will clarify the reason for this; the timeline for when the free travel scheme for children aged 5–8 will be operational on these routes; and the steps being taken by the National Transport Authority to ensure that new local bus services are fully integrated with national ticketing schemes from their commencement. [18381/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/203/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "399. Deputy Sorca Clarke asked the Minister for Transport the number of occasions in each of the past five years on which Luas services were delayed due to road traffic collisions or incidents involving other vehicles on sections of the network where the Luas operates on street with general traffic; the average duration of such delays; the locations where these incidents most frequently occur; the measures being taken by Transport Infrastructure Ireland and the operator to minimise disruption to Luas services arising from road traffic collisions; and whether consideration has been given to providing additional segregation or priority measures to prevent Luas trams being delayed by general traffic. [20839/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/399/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "401. Deputy Sorca Clarke asked the Minister for Transport the measures being taken to improve reliability and journey times for commuters travelling from towns such as Athlone to Dublin; and if he will make a statement on the matter. [28434/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/401/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EU Meetings",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "174. Deputy Sorca Clarke asked the Minister for Transport when is the next EU Transport Council Meeting scheduled to occur. [32823/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/174/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Development Plan",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "393. Deputy Sorca Clarke asked the Minister for Transport the level of capital funding allocated to transport infrastructure projects in County Westmeath and County Longford under the current National Development Plan. [41501/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/393/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "394. Deputy Sorca Clarke asked the Minister for Transport if consideration is being given to upgrading the N4 and N55 road corridors to support regional economic growth and improve road safety in the Midlands. [41502/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/394/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Greenways Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "398. Deputy Sorca Clarke asked the Minister for Transport the progress made on active travel and greenway projects in counties Westmeath and Longford. [41508/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/398/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "429. Deputy Sorca Clarke asked the Minister for Transport whether his Department has engaged with local authorities and community groups in Longford and Westmeath regarding delays and barriers to the delivery of EV charging infrastructure in smaller towns and rural villages. [42272/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/429/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rail Accidents",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "439. Deputy Sorca Clarke asked the Minister for Transport the number of complaints received by Iarnród Éireann relating to onboard announcement systems, overcrowding and onboard connectivity issues on services serving Longford and Westmeath over the past two years. [42361/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/439/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "160. Deputy Sorca Clarke asked the Minister for Transport whether his Department is considering the introduction of a mandatory helmet requirement for users of electric scooters; whether any assessment has been carried out regarding the potential road safety benefits of such a measure; and if he will make a statement on the matter. [44733/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/160/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "157. Deputy Sorca Clarke asked the Minister for Transport if his attention has been drawn to the difficulties experienced by some learner driver applicants with literacy challenges when undertaking the driver theory test; the supports and reasonable accommodations available for individuals who have difficulty reading and/or writing leading to difficulty in understanding the test questions; if additional supports are available or being considered; and if he will make a statement on the matter. [46796/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/157/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "452. Deputy Sorca Clarke asked the Minister for Transport if he has spoken formally with the chairperson of the United States National Transportation Safety Board to date in 2026. [56497/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/452/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "357. Deputy Sorca Clarke asked the Minister for Transport the expenditure incurred by his Government Department on external consultancy services in each of the past five years, broken down by consultancy firm, project and amount paid; and if he will make a statement on the matter. [61345/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/357/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Gifts",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "439. Deputy Sorca Clarke asked the Minister for Transport if his Department and bodies under his aegis maintain a register of gifts, hospitality or other benefits received by public servants; the number of entries recorded on each such register since January 2025; and if he will make a statement on the matter. [61583/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/439/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vehicle Registration",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "444. Deputy Sorca Clarke asked the Minister for Transport if his Department has assessed the increase in the average kerb weight and gross vehicle weight of passenger cars registered in the State over the past 20 years; whether it has examined the implications of increasing vehicle weights, including those associated with electric vehicles, hybrid vehicles and larger SUVs, for existing transport and parking infrastructure; whether this issue has been raised with his Department by the Road Safety Authority, Transport Infrastructure Ireland, local authorities or other bodies; and if he will make a statement on the matter. [61916/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/444/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Transport Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "247. Deputy Sorca Clarke asked the Minister for Transport the current position regarding the Transport Security Force Bill; and when this Bill will progress to the next stage. [68054/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/247/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -6758,605 +7395,6 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Rail Network",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "258. Deputy Sorca Clarke asked the Minister for Transport if he is aware that the men’s bathrooms in Tullamore train station have been closed since Covid-19 and that the disabled bathrooms do not meet minimum requirements; the steps his Department will take to address this issue; and if he will make a statement on the matter. [19064/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/258/"
-                      },
-                      {
-                        "name": "259. Deputy Sorca Clarke asked the Minister for Transport for an update in relation to the proposed second platform in Clara train station, County Offaly; and if he will make a statement on the matter. [19065/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/259/"
-                      },
-                      {
-                        "name": "268. Deputy Sorca Clarke asked the Minister for Transport if he will provide an update on the status of the proposed reopening of the Mullingar–Athlone railway line; the extent to which the project is being examined following its inclusion in the All-Island Strategic Rail Review; and if he will make a statement on the matter. [19121/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/268/"
-                      },
-                      {
-                        "name": "269. Deputy Sorca Clarke asked the Minister for Transport whether his Department, the National Transport Authority or Iarnród Éireann plans to undertake a detailed feasibility study or cost-benefit analysis on the reopening of the Mullingar–Athlone rail line; the timeline for any such study; and if he will make a statement on the matter. [19122/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/269/"
-                      },
-                      {
-                        "name": "270. Deputy Sorca Clarke asked the Minister for Transport the steps being taken to ensure the former Mullingar–Athlone rail corridor and associated railway lands are preserved for potential future rail use; and if there are any proposals to repurpose or alter sections of the alignment. [19123/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/270/"
-                      },
-                      {
-                        "name": "271. Deputy Sorca Clarke asked the Minister for Transport whether his Department has examined the potential impact of reopening the Mullingar–Athlone rail line on commuting patterns to Technological University of the Shannon in Athlone from towns along the Dublin–Sligo line including Mullingar, Longford, Edgeworthstown, Enfield, Kilcock and Maynooth. [19125/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/271/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "392. Deputy Sorca Clarke asked the Minister for Transport the plans in place to improve rail frequency and reliability on routes serving Longford, Mullingar and Athlone; and if he will make a statement on the matter. [41500/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/392/"
-                      },
-                      {
-                        "name": "397. Deputy Sorca Clarke asked the Minister for Transport if his Department has conducted an assessment of the economic benefits of enhanced rail connectivity between Dublin and the Midlands region. [41506/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/397/"
-                      },
-                      {
-                        "name": "401. Deputy Sorca Clarke asked the Minister for Transport the number of WTE Garda Vetting Officer and Child Safeguarding Officer posts filled within Iarnród Éireann as of 26 May 2026, in tabular form. [41797/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/401/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "378. Deputy Sorca Clarke asked the Minister for Transport when a second train line will begin construction in Clara; and if he will make a statement on the matter. [39297/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/378/"
-                      },
-                      {
-                        "name": "379. Deputy Sorca Clarke asked the Minister for Transport if he is aware that the disabled bathroom in Tullamore Train Station has been out of service for over 24-months; when it is hoped it will be reopened; and if he will make a statement on the matter. [39298/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/379/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "795. Deputy Sorca Clarke asked the Minister for Transport when the car park at Mullingar train station was last re-marked; and if this car-park is scheduled for re-marking this year. [26077/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/795/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "400. Deputy Sorca Clarke asked the Minister for Transport if he is aware of the ongoing delays on the Dublin-Westport rail line caused by single-track sections, particularly between Portarlington and Tullamore, resulting in trains being routinely held to allow passing services; if there are plans to upgrade or provide dual-tracking on this section of the line; the timeline for any such works; and if he will make a statement on the matter. [28433/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/400/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "175. Deputy Sorca Clarke asked the Minister for Transport the number of WTE staff by job title currently working within facilities and building department within Iarnród Éireann. [32824/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/175/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "244. Deputy Sorca Clarke asked the Minister for Transport his plans to expand parking at Clara train station to meet increased demand. [64935/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/244/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "395. Deputy Sorca Clarke asked the Minister for Transport if additional funding will be provided for rural bus services and Local Link routes serving communities in Westmeath and Longford. [41504/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/395/"
-                      },
-                      {
-                        "name": "440. Deputy Sorca Clarke asked the Minister for Transport whether additional Local Link services or expanded evening and weekend rural bus services are planned for communities in Longford and Westmeath who have limited public transport options. [42362/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/440/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "355. Deputy Sorca Clarke asked the Minister for Transport number of bus services, scheduled departures affecting Longford-Westmeath PSO routes in 2024 and 2025, in tabular form. [4172/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/355/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "380. Deputy Sorca Clarke asked the Minister for Transport if the proposed assessment of Tullamore bus service has been completed; when it is hoped the details will be published; and if he will make a statement on the matter. [39299/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/380/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "246. Deputy Sorca Clarke asked the Minister for Transport if he is aware that passengers in Mullingar and surrounding areas are unable to purchase online tickets from Mullingar to Dublin on bus 115; the reason for this discrepancy; and if he will urgently engage with the National Transport Authority and Bus Éireann to resolve the matter.; and if he will make a statement on the matter. [41345/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/246/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Traffic Accidents",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "698. Deputy Sorca Clarke asked the Minister for Transport if he will ensure that the Road Safety Authority resumes the publication of anonymised, collision location data for public, research and local-authority use, including for high risk corridors such as the Longford/Westmeath section of the N4; and if he will confirm that this will be done in line with Data Protection Commissioner guidance that proportionate publication of crash location details is compatible with GDPR. [1469/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/698/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "173. Deputy Sorca Clarke asked the Minister for Transport if he will recognise road-traffic collision and fatality data as public-health data, given that such data relates to preventable deaths and injuries that cluster at identifiable locations; and if he will support the routine sharing and publication of anonymised collision location data for prevention and research purposes, in line with the April 2024 guidance of the Data Protection Commissioner. [9086/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/173/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "445. Deputy Sorca Clarke asked the Minister for Transport further to Parliamentary Question No. 2415 of 13 January 2026, if he accepts road traffic deaths and serious injuries as a public health harm requiring surveillance; if his Department will collect, analyse and use road-traffic collision and fatality statistics for population health improvement; if he and his Department will engage with the Minister for Health to support and expedite the routine use and publication of this data as a public health concern for preventing injuries and deaths; and to outline any meetings held or planned, actions taken and a timeline for same. [12929/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/445/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Transport",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "260. Deputy Sorca Clarke asked the Minister for Transport for an update in relation to the proposed works on Spollanstown Bridge, Tullamore, County Offaly; and if he will make a statement on the matter. [19066/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/260/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "396. Deputy Sorca Clarke asked the Minister for Transport the number of transport-related projects in Westmeath and Longford currently awaiting approval or funding allocation. [41505/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/396/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "477. Deputy Sorca Clarke asked the Minister for Transport the status of the Government’s commitment to introduce contactless fare payments across public transport, including the use of ordinary debit and credit cards and mobile wallets on bus services; the bus services and operators that currently accept contactless bank-card payments; the progress made by the NTA on developing and implementing the new contactless fare-payment system; if the system will provide daily and weekly fare capping comparable with Leap card; and the target date for nationwide availability of contactless bank-card payments on bus services. [62322/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/477/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Driver Licences",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "215. Deputy Sorca Clarke asked the Minister for Transport if his Department has considered a driver licence exchange agreement between Ireland and the United States to allow Irish citizens returning home with full US licences to exchange them for an Irish licence; and if he will make a statement on the matter. [21371/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/215/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "400. Deputy Sorca Clarke asked the Minister for Transport if he is aware of the delay citizens returning from Australia are facing in exchanging their driving licences; the impact this is having on their ability to secure employment; the steps he is taking to address this; and if he will make a statement on the matter. [41741/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/400/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Bus Éireann",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "158. Deputy Sorca Clarke asked the Minister for Transport the number of full-time heavy vehicle mechanics employed by Bus Éireann as of 29 June 2026; if he will provide the corresponding figures in 2023, in tabular form. [50781/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/158/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "451. Deputy Sorca Clarke asked the Minister for Transport the number of double decker coaches and double decker buses in the Bus Éireann PSO fleet as of 17 July 2026; if he will the provide the same figures as of 31 December 2023, in tabular form. [56496/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/451/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Consultations",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "528. Deputy Sorca Clarke asked the Minister for Transport whether standards or service-level targets exist for his Department or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74258/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/528/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "44. Deputy Sorca Clarke asked the Minister for Transport the investment that will be made in 2026 for the provision of disability user friendly public transport. [15275/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/44/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Transport Infrastructure Ireland",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "203. Deputy Sorca Clarke asked the Minister for Transport if his attention has been drawn to the TFI Child (5–8) Leap Card which is currently not being accepted on the MU1 and MU2 town bus services in Mullingar; if he will clarify the reason for this; the timeline for when the free travel scheme for children aged 5–8 will be operational on these routes; and the steps being taken by the National Transport Authority to ensure that new local bus services are fully integrated with national ticketing schemes from their commencement. [18381/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/203/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "399. Deputy Sorca Clarke asked the Minister for Transport the number of occasions in each of the past five years on which Luas services were delayed due to road traffic collisions or incidents involving other vehicles on sections of the network where the Luas operates on street with general traffic; the average duration of such delays; the locations where these incidents most frequently occur; the measures being taken by Transport Infrastructure Ireland and the operator to minimise disruption to Luas services arising from road traffic collisions; and whether consideration has been given to providing additional segregation or priority measures to prevent Luas trams being delayed by general traffic. [20839/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/399/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "401. Deputy Sorca Clarke asked the Minister for Transport the measures being taken to improve reliability and journey times for commuters travelling from towns such as Athlone to Dublin; and if he will make a statement on the matter. [28434/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/401/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EU Meetings",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "174. Deputy Sorca Clarke asked the Minister for Transport when is the next EU Transport Council Meeting scheduled to occur. [32823/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/174/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "National Development Plan",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "393. Deputy Sorca Clarke asked the Minister for Transport the level of capital funding allocated to transport infrastructure projects in County Westmeath and County Longford under the current National Development Plan. [41501/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/393/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Network",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "394. Deputy Sorca Clarke asked the Minister for Transport if consideration is being given to upgrading the N4 and N55 road corridors to support regional economic growth and improve road safety in the Midlands. [41502/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/394/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Greenways Provision",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "398. Deputy Sorca Clarke asked the Minister for Transport the progress made on active travel and greenway projects in counties Westmeath and Longford. [41508/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/398/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Electric Vehicles",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "429. Deputy Sorca Clarke asked the Minister for Transport whether his Department has engaged with local authorities and community groups in Longford and Westmeath regarding delays and barriers to the delivery of EV charging infrastructure in smaller towns and rural villages. [42272/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/429/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Rail Accidents",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "439. Deputy Sorca Clarke asked the Minister for Transport the number of complaints received by Iarnród Éireann relating to onboard announcement systems, overcrowding and onboard connectivity issues on services serving Longford and Westmeath over the past two years. [42361/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/439/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Safety",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "160. Deputy Sorca Clarke asked the Minister for Transport whether his Department is considering the introduction of a mandatory helmet requirement for users of electric scooters; whether any assessment has been carried out regarding the potential road safety benefits of such a measure; and if he will make a statement on the matter. [44733/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/160/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Driver Test",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "157. Deputy Sorca Clarke asked the Minister for Transport if his attention has been drawn to the difficulties experienced by some learner driver applicants with literacy challenges when undertaking the driver theory test; the supports and reasonable accommodations available for individuals who have difficulty reading and/or writing leading to difficulty in understanding the test questions; if additional supports are available or being considered; and if he will make a statement on the matter. [46796/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/157/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "452. Deputy Sorca Clarke asked the Minister for Transport if he has spoken formally with the chairperson of the United States National Transportation Safety Board to date in 2026. [56497/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/452/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "357. Deputy Sorca Clarke asked the Minister for Transport the expenditure incurred by his Government Department on external consultancy services in each of the past five years, broken down by consultancy firm, project and amount paid; and if he will make a statement on the matter. [61345/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/357/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "State Gifts",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "439. Deputy Sorca Clarke asked the Minister for Transport if his Department and bodies under his aegis maintain a register of gifts, hospitality or other benefits received by public servants; the number of entries recorded on each such register since January 2025; and if he will make a statement on the matter. [61583/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/439/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Vehicle Registration",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "444. Deputy Sorca Clarke asked the Minister for Transport if his Department has assessed the increase in the average kerb weight and gross vehicle weight of passenger cars registered in the State over the past 20 years; whether it has examined the implications of increasing vehicle weights, including those associated with electric vehicles, hybrid vehicles and larger SUVs, for existing transport and parking infrastructure; whether this issue has been raised with his Department by the Road Safety Authority, Transport Infrastructure Ireland, local authorities or other bodies; and if he will make a statement on the matter. [61916/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/444/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Transport Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "247. Deputy Sorca Clarke asked the Minister for Transport the current position regarding the Transport Security Force Bill; and when this Bill will progress to the next stage. [68054/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/247/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Housing",
             "children": [
               {
@@ -7715,6 +7753,273 @@
                         "name": "1772. Deputy Sorca Clarke asked the Minister for Housing, Local Government and Heritage the expenditure incurred by his Government Department on external consultancy services in each of the past five years, broken down by consultancy firm, project and amount paid; and if he will make a statement on the matter. [61336/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1772/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Protected Disclosures",
+                "children": [
+                  {
+                    "name": "Tuesday, 6 October",
+                    "date_iso": "2026-10-06",
+                    "children": [
+                      {
+                        "name": "149. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the criteria applied by the Protected Disclosures Commissioner in determining that an “other suitable person” has the competence to provide feedback and follow-up for the purposes of section 10C of the Protected Disclosures Act 2014, as amended; and whether such competence is considered in respect of each category of alleged relevant wrongdoing contained in a report. [69794/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/149/"
+                      },
+                      {
+                        "name": "150. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance that applies where information available to the Protected Disclosures Commissioner raises a potential issue concerning the suitability, independence or impartiality of a proposed “other suitable person”; and whether consideration of such matters and the reasons for selecting that recipient are required to be documented. [69795/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/150/"
+                      },
+                      {
+                        "name": "151. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance that applies to the maintenance of records recording the conclusion of procedures concerning protected disclosures; the date and basis upon which the relevant procedures were concluded and notification of the reporting person; and whether such records should be capable of establishing subsequently that the relevant procedures concerning an earlier report had been concluded. [69796/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/151/"
+                      },
+                      {
+                        "name": "152. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the procedures that apply where a protected disclosure contains several distinct alleged relevant wrongdoings which potentially fall within the functions or competence of different prescribed persons or other suitable persons; and whether individual matters contained in such a report may be transmitted to different appropriate recipients. [69791/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/152/"
+                      },
+                      {
+                        "name": "153. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance that applies to an “other suitable person” in carrying out an initial assessment pursuant to section 10E of the Protected Disclosures Act 2014, as amended; whether such an assessment should be recorded contemporaneously in writing; and whether the record should identify the information considered and the determination as to whether there is prima facie evidence that a relevant wrongdoing may have occurred. [69788/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/153/"
+                      },
+                      {
+                        "name": "154. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the evidence or records that should be established by a recipient before determining, for the purposes of the Protected Disclosures Act 2014, as amended, that the relevant procedures concerning an earlier report have been concluded. [69787/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/154/"
+                      },
+                      {
+                        "name": "155. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation where a report containing multiple alleged relevant wrongdoings is being considered for closure on the basis that it concerns matters previously reported, if the recipient is expected to conduct and retain an issue-by-issue or allegation-by-allegation comparison between the earlier and subsequent reports. [69785/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/155/"
+                      },
+                      {
+                        "name": "156. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance or criteria that apply when determining, for the purposes of the Protected Disclosures Act 2014, as amended, whether a subsequent report contains meaningful new information compared with a previous report; and whether such a determination is required to be documented. [69784/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/156/"
+                      },
+                      {
+                        "name": "157. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the procedures that apply where the Protected Disclosures Commissioner does not accept the opinion of an “other suitable person” that a matter does not fall within that person's remit; the procedures thereafter that apply to the report; and the safeguards that apply to ensure appropriate and independent follow-up. [69782/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/157/"
+                      },
+                      {
+                        "name": "158. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of times since the commencement of the relevant provisions of the Protected Disclosures (Amendment) Act 2022 that an “other suitable person” identified by the Protected Disclosures Commissioner has notified the Commissioner that the matter concerned does not fall within their remit; the number of such notifications were accepted; and the number that were rejected. [69781/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/158/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Office of Public Works",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "428. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works in excess of €40,000 that the OPW carried out at Mullingar Garda Station in 2024 and 2025, in tabular form. [4177/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/428/"
+                      },
+                      {
+                        "name": "429. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works in excess of €40,000 that the OPW carried out at Granard Garda Station in 2024 and 2025, in tabular form. [4178/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/429/"
+                      },
+                      {
+                        "name": "430. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works in excess of €40,000 that the OPW carried out at Longford Garda Station in 2024 and 2025, in tabular form. [4179/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/430/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "902. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total number of properties currently owned or controlled by the OPW which are vacant; the location of each; the date on which each property became vacant; the number of properties that have been vacant over 12 months; the current annual cost to the State of maintaining, securing, insuring and otherwise holding each property; and if he will publish the full list of such properties. [60894/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/902/"
+                      },
+                      {
+                        "name": "903. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of former Garda stations currently owned by the State which remain vacant; the location of each; the date on which each ceased to operate as a Garda station; the current annual cost of securing and maintaining each property; whether each property has been considered for housing or another public-service use; and if he will provide details of any proposed disposal or redevelopment. [60962/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/903/"
+                      },
+                      {
+                        "name": "937. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE security operations managers employed by the OPW as of 13 August 2026; and the civil service grade this post is normally filled by. [61392/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/937/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "527. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of female qualified horticulturists employed by the OPW as of 10 February 2026, in tabular form. [12065/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/527/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flood Relief Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 February",
+                    "date_iso": "2026-02-11",
+                    "children": [
+                      {
+                        "name": "94. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the timeframe for the Athlone flood alleviation scheme, including original planned completion date; revised expected completion date; and reasons for each delay to date. [10600/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/94/"
+                      },
+                      {
+                        "name": "95. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current percentage of works completed on the Athlone scheme; and the expected dates for remaining elements. [10601/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/95/"
+                      },
+                      {
+                        "name": "96. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the itemised cost breakdown of the Athlone flood alleviation scheme; to provide the original budget; current projected cost; the reasons for cost increases; and confirmation of whether cost overruns have impacted delivery timelines. [10602/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/96/"
+                      },
+                      {
+                        "name": "97. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation Expenditure to provide a progress update on the Longford flood relief scheme, including stage of design or planning; the expected date for commencement of physical works; the projected completion date; and to provide an explanation if works have not yet commenced despite past flood events. [10604/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/97/"
+                      },
+                      {
+                        "name": "98. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for clarification whether minor flood mitigation works funded by OPW have been implemented in Longford town; and to provide details of such works, including locations and completion dates. [10605/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/98/"
+                      },
+                      {
+                        "name": "99. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the way in which the Shannon Flood Risk State Agency Co-ordination Working Group is engaging with Westmeath and Longford authorities to coordinate flood defence delivery and information flow to residents. [10606/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/99/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "635. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number and location of communities in Longford-Westmeath currently identified as being at risk of flooding; the status of any planned flood relief works; and if he will make a statement on the matter. [42270/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/635/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "911. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his Department and bodies under his aegis maintain a register of gifts, hospitality or other benefits received by public servants; the number of entries recorded on each such register since January 2025; and if he will make a statement on the matter. [61268/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/911/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "333. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if companies (details supplied) are currently on the Office of Government Procurement framework to provide security and or steward personnel to public bodies; and if so, the date on which the companies term on the framework expires, in tabular form. [68059/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/333/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Consultations",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "896. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if standards or service-level targets exist for his Department, or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74254/25]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/896/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "505. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the progress that has been achieved so far on the construction of a new Garda dog training centre; when this project will move to the next stage of works. [12063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/505/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Properties",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 April",
+                    "date_iso": "2026-04-15",
+                    "children": [
+                      {
+                        "name": "214. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the State-owned properties in County Offaly that are not currently occupied; and if he will make a statement on the matter. [27444/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/214/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "898. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the expenditure incurred by each Government Department on external consultancy services in each of the past five years, broken down by Department, consultancy firm, project and amount paid; and if he will make a statement on the matter. [60282/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/898/"
                       }
                     ]
                   }
@@ -8859,212 +9164,6 @@
                         "name": "347. Deputy Sorca Clarke asked the Minister for Enterprise, Tourism and Employment the names of external HR companies that are contracted to provide services to his Department in 2025 and to date in 2026; and the nature of services each of those companies provided in each year, in tabular form. [68045/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/347/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Office of Public Works",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "428. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works in excess of €40,000 that the OPW carried out at Mullingar Garda Station in 2024 and 2025, in tabular form. [4177/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/428/"
-                      },
-                      {
-                        "name": "429. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works in excess of €40,000 that the OPW carried out at Granard Garda Station in 2024 and 2025, in tabular form. [4178/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/429/"
-                      },
-                      {
-                        "name": "430. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the nature of refurbishment works in excess of €40,000 that the OPW carried out at Longford Garda Station in 2024 and 2025, in tabular form. [4179/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/430/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "902. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total number of properties currently owned or controlled by the OPW which are vacant; the location of each; the date on which each property became vacant; the number of properties that have been vacant over 12 months; the current annual cost to the State of maintaining, securing, insuring and otherwise holding each property; and if he will publish the full list of such properties. [60894/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/902/"
-                      },
-                      {
-                        "name": "903. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of former Garda stations currently owned by the State which remain vacant; the location of each; the date on which each ceased to operate as a Garda station; the current annual cost of securing and maintaining each property; whether each property has been considered for housing or another public-service use; and if he will provide details of any proposed disposal or redevelopment. [60962/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/903/"
-                      },
-                      {
-                        "name": "937. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE security operations managers employed by the OPW as of 13 August 2026; and the civil service grade this post is normally filled by. [61392/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/937/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "527. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of female qualified horticulturists employed by the OPW as of 10 February 2026, in tabular form. [12065/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/527/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Flood Relief Schemes",
-                "children": [
-                  {
-                    "name": "Wednesday, 11 February",
-                    "date_iso": "2026-02-11",
-                    "children": [
-                      {
-                        "name": "94. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the timeframe for the Athlone flood alleviation scheme, including original planned completion date; revised expected completion date; and reasons for each delay to date. [10600/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/94/"
-                      },
-                      {
-                        "name": "95. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current percentage of works completed on the Athlone scheme; and the expected dates for remaining elements. [10601/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/95/"
-                      },
-                      {
-                        "name": "96. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the itemised cost breakdown of the Athlone flood alleviation scheme; to provide the original budget; current projected cost; the reasons for cost increases; and confirmation of whether cost overruns have impacted delivery timelines. [10602/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/96/"
-                      },
-                      {
-                        "name": "97. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation Expenditure to provide a progress update on the Longford flood relief scheme, including stage of design or planning; the expected date for commencement of physical works; the projected completion date; and to provide an explanation if works have not yet commenced despite past flood events. [10604/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/97/"
-                      },
-                      {
-                        "name": "98. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for clarification whether minor flood mitigation works funded by OPW have been implemented in Longford town; and to provide details of such works, including locations and completion dates. [10605/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/98/"
-                      },
-                      {
-                        "name": "99. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the way in which the Shannon Flood Risk State Agency Co-ordination Working Group is engaging with Westmeath and Longford authorities to coordinate flood defence delivery and information flow to residents. [10606/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-11/99/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "635. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number and location of communities in Longford-Westmeath currently identified as being at risk of flooding; the status of any planned flood relief works; and if he will make a statement on the matter. [42270/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/635/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "911. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if his Department and bodies under his aegis maintain a register of gifts, hospitality or other benefits received by public servants; the number of entries recorded on each such register since January 2025; and if he will make a statement on the matter. [61268/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/911/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "333. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if companies (details supplied) are currently on the Office of Government Procurement framework to provide security and or steward personnel to public bodies; and if so, the date on which the companies term on the framework expires, in tabular form. [68059/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/333/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Consultations",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "896. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if standards or service-level targets exist for his Department, or bodies under the aegis of his Department, in responding to correspondence from members of local authorities; if compliance with such standards is monitored; the reasons for delays or failures to respond to correspondence from elected members; and the measures being taken to ensure more consistent and timely communication going forward. [74254/25]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/896/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "505. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the progress that has been achieved so far on the construction of a new Garda dog training centre; when this project will move to the next stage of works. [12063/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/505/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Properties",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 April",
-                    "date_iso": "2026-04-15",
-                    "children": [
-                      {
-                        "name": "214. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the State-owned properties in County Offaly that are not currently occupied; and if he will make a statement on the matter. [27444/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-15/214/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "898. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the expenditure incurred by each Government Department on external consultancy services in each of the past five years, broken down by Department, consultancy firm, project and amount paid; and if he will make a statement on the matter. [60282/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/898/"
                       }
                     ]
                   }
@@ -17548,6 +17647,123 @@
           "heading": "Visa Applications",
           "question": "387. Deputy Sorca Clarke asked the Minister for Justice, Home Affairs and Migration the status of a join family visa (details supplied); and if the visa will be given priority considering the circumstances. [69645/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/387/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 89,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "89. Deputy Sorca Clarke asked the Minister for Transport for an update in relation to the current status of the Iarnród Éireann National Carpark Strategy report which is currently bring reviewed with the NTA; and when this report will be published. [70635/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/89/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 149,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "149. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the criteria applied by the Protected Disclosures Commissioner in determining that an “other suitable person” has the competence to provide feedback and follow-up for the purposes of section 10C of the Protected Disclosures Act 2014, as amended; and whether such competence is considered in respect of each category of alleged relevant wrongdoing contained in a report. [69794/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/149/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 150,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "150. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance that applies where information available to the Protected Disclosures Commissioner raises a potential issue concerning the suitability, independence or impartiality of a proposed “other suitable person”; and whether consideration of such matters and the reasons for selecting that recipient are required to be documented. [69795/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/150/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 151,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "151. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance that applies to the maintenance of records recording the conclusion of procedures concerning protected disclosures; the date and basis upon which the relevant procedures were concluded and notification of the reporting person; and whether such records should be capable of establishing subsequently that the relevant procedures concerning an earlier report had been concluded. [69796/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/151/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 152,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "152. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the procedures that apply where a protected disclosure contains several distinct alleged relevant wrongdoings which potentially fall within the functions or competence of different prescribed persons or other suitable persons; and whether individual matters contained in such a report may be transmitted to different appropriate recipients. [69791/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/152/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 153,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "153. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance that applies to an “other suitable person” in carrying out an initial assessment pursuant to section 10E of the Protected Disclosures Act 2014, as amended; whether such an assessment should be recorded contemporaneously in writing; and whether the record should identify the information considered and the determination as to whether there is prima facie evidence that a relevant wrongdoing may have occurred. [69788/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/153/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 154,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "154. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the evidence or records that should be established by a recipient before determining, for the purposes of the Protected Disclosures Act 2014, as amended, that the relevant procedures concerning an earlier report have been concluded. [69787/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/154/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 155,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "155. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation where a report containing multiple alleged relevant wrongdoings is being considered for closure on the basis that it concerns matters previously reported, if the recipient is expected to conduct and retain an issue-by-issue or allegation-by-allegation comparison between the earlier and subsequent reports. [69785/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/155/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 156,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "156. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the guidance or criteria that apply when determining, for the purposes of the Protected Disclosures Act 2014, as amended, whether a subsequent report contains meaningful new information compared with a previous report; and whether such a determination is required to be documented. [69784/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/156/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 157,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "157. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the procedures that apply where the Protected Disclosures Commissioner does not accept the opinion of an “other suitable person” that a matter does not fall within that person's remit; the procedures thereafter that apply to the report; and the safeguards that apply to ensure appropriate and independent follow-up. [69782/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/157/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 158,
+          "department": "Public Expenditure",
+          "heading": "Protected Disclosures",
+          "question": "158. Deputy Sorca Clarke asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of times since the commencement of the relevant provisions of the Protected Disclosures (Amendment) Act 2022 that an “other suitable person” identified by the Protected Disclosures Commissioner has notified the Commissioner that the matter concerned does not fall within their remit; the number of such notifications were accepted; and the number that were rejected. [69781/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/158/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 543,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "543. Deputy Sorca Clarke asked the Minister for Health the current average waiting time for a first appointment at a symptomatic breast disease clinic; the number of urgent referrals seen within the two-week target in each of the past 12 months; the number of women currently waiting beyond that target, broken down by hospital; and the steps she is taking to ensure all urgent referrals are seen on time. [69774/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/543/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-06",
+          "questionNumber": 690,
+          "department": "Health",
+          "heading": "General Practitioner Services",
+          "question": "690. Deputy Sorca Clarke asked the Minister for Health in view of the closure of the adult diabetes clinic at the Regional Hospital Mullingar and the fact that affected patients are being directed to GP services in the interim, if temporary GP visit card eligibility will be provided to those patients, particularly those who have previously been refused a medical card or GP visit card; and if not, if another form of discretionary financial assistance will be considered for the duration of the closure. [70554/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/690/",
           "questionType": "written"
         }
       ]
