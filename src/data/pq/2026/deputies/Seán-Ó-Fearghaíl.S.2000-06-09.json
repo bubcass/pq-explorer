@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Ó-Fearghaíl.S.2000-06-09/image/large",
   "types": {
     "all": {
-      "count": 436,
+      "count": 448,
       "headingOptions": [
         "Active Travel",
         "Adult Education Provision",
@@ -40,6 +40,7 @@
         "Child and Family Agency",
         "Child Protection",
         "Childcare Services",
+        "Citizenship Applications",
         "Climate Change Policy",
         "Coast Guard Service",
         "Consular Services",
@@ -114,6 +115,7 @@
         "Hospital Equipment",
         "Hospital Services",
         "Hospital Staff",
+        "Hospital Waiting Lists",
         "Housing Policy",
         "Housing Provision",
         "Housing Schemes",
@@ -194,6 +196,7 @@
         "Tax Credits",
         "Tax Data",
         "Tax Reliefs",
+        "Third Level Education",
         "Third Level Fees",
         "Tourism Industry",
         "Trade Promotion",
@@ -317,18 +320,18 @@
             "children": [
               {
                 "name": "Hospital Staff",
-                "value": 7
+                "value": 9
               },
               {
                 "name": "Health Services",
+                "value": 5
+              },
+              {
+                "name": "Health Services Staff",
                 "value": 4
               },
               {
                 "name": "General Practitioner Services",
-                "value": 3
-              },
-              {
-                "name": "Health Services Staff",
                 "value": 3
               },
               {
@@ -450,6 +453,10 @@
               {
                 "name": "Medical Aids and Appliances",
                 "value": 1
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "value": 1
               }
             ]
           },
@@ -458,7 +465,7 @@
             "children": [
               {
                 "name": "Disability Services",
-                "value": 10
+                "value": 13
               },
               {
                 "name": "Disability Issues",
@@ -473,6 +480,10 @@
                 "value": 2
               },
               {
+                "name": "Departmental Correspondence",
+                "value": 2
+              },
+              {
                 "name": "Early Childhood Care and Education",
                 "value": 2
               },
@@ -482,10 +493,6 @@
               },
               {
                 "name": "Parental Leave",
-                "value": 1
-              },
-              {
-                "name": "Departmental Correspondence",
                 "value": 1
               },
               {
@@ -831,56 +838,11 @@
             ]
           },
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 13
-              },
-              {
-                "name": "Departmental Properties",
-                "value": 3
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 2
-              },
-              {
-                "name": "Programme for Government",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Illegal Dumping",
-                "value": 1
-              },
-              {
-                "name": "Official Engagements",
-                "value": 1
-              },
-              {
-                "name": "Animal Welfare",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
                 "name": "An Garda Síochána",
-                "value": 5
+                "value": 6
               },
               {
                 "name": "Visa Applications",
@@ -928,6 +890,55 @@
               },
               {
                 "name": "Residency Permits",
+                "value": 1
+              },
+              {
+                "name": "Citizenship Applications",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 13
+              },
+              {
+                "name": "Departmental Properties",
+                "value": 3
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 2
+              },
+              {
+                "name": "Programme for Government",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Illegal Dumping",
+                "value": 1
+              },
+              {
+                "name": "Official Engagements",
+                "value": 1
+              },
+              {
+                "name": "Animal Welfare",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
                 "value": 1
               }
             ]
@@ -1108,39 +1119,6 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "National Development Plan",
-                "value": 3
-              },
-              {
-                "name": "Departmental Meetings",
-                "value": 2
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 2
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "value": 2
-              },
-              {
-                "name": "Office of Public Works",
-                "value": 1
-              },
-              {
-                "name": "Fiscal Policy",
-                "value": 1
-              },
-              {
-                "name": "Public Sector Pay",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -1181,6 +1159,43 @@
               },
               {
                 "name": "Third Level Fees",
+                "value": 1
+              },
+              {
+                "name": "Third Level Education",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "National Development Plan",
+                "value": 3
+              },
+              {
+                "name": "Departmental Meetings",
+                "value": 2
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 2
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "value": 2
+              },
+              {
+                "name": "Office of Public Works",
+                "value": 1
+              },
+              {
+                "name": "Fiscal Policy",
+                "value": 1
+              },
+              {
+                "name": "Public Sector Pay",
                 "value": 1
               }
             ]
@@ -2060,6 +2075,22 @@
                     ]
                   },
                   {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "696. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns raised in correspondence (details supplied) regarding staffing shortages and capacity pressures in a Dublin maternity hospital; the impact these issues are having on the timely delivery of maternity services, including scheduled inductions; and the measures being taken to ensure women can access safe and appropriate maternity care within clinically recommended timeframes. [71424/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/696/"
+                      },
+                      {
+                        "name": "700. Deputy Seán Ó Fearghaíl asked the Minister for Health further to Parliamentary Question No. 362 of 17 September 2026, when the oncology nurse co-ordinator is expected to return to their substantive care co-ordination role; the specific staffing levels that must be achieved before this redeployment can end; the recruitment measures currently under way to fill nursing vacancies that led to the redeployment; and the alternative patient navigation and support arrangements currently in place for oncology patients and their families. [71453/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/700/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Wednesday, 4 February",
                     "date_iso": "2026-02-04",
                     "children": [
@@ -2129,6 +2160,60 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/689/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "197. Deputy Seán Ó Fearghaíl asked the Minister for Health the expanded older persons and community supports, including additional home-support hours, dementia services and community-based care that will be provided under Budget 2027. [72329/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/197/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "819. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE consultant paediatric plastic surgeons based at CHI Temple Street as of 23 February 2026, in tabular form; and if she will make a statement on the matter. [16401/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/819/"
+                      },
+                      {
+                        "name": "821. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE consultant orthopaedic surgeons with a SI in shoulder and elbow surgery at the Mater Hospital as of 23 February 2026; and if she will make a statement on the matter. [16403/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/821/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1140. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE dietitians, by grade posts, filled at each primary care centre within CHO7 as of 27 January 2026, in tabular form; and if she will make a statement on the matter. [8371/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1140/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "769. Deputy Seán Ó Fearghaíl asked the Minister for Health the estimated full year costs of fully resourcing five additional HSE crisis resolutions teams. [71775/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/769/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2165,38 +2250,6 @@
                         "name": "212. Deputy Seán Ó Fearghaíl asked the Minister for Health the key measures taken to support and improve GP services since January 2025; her priorities for same for the rest of 2026; and if she will make a statement on the matter. [51934/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/212/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Health Services Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "819. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE consultant paediatric plastic surgeons based at CHI Temple Street as of 23 February 2026, in tabular form; and if she will make a statement on the matter. [16401/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/819/"
-                      },
-                      {
-                        "name": "821. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE consultant orthopaedic surgeons with a SI in shoulder and elbow surgery at the Mater Hospital as of 23 February 2026; and if she will make a statement on the matter. [16403/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/821/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1140. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of WTE dietitians, by grade posts, filled at each primary care centre within CHO7 as of 27 January 2026, in tabular form; and if she will make a statement on the matter. [8371/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1140/"
                       }
                     ]
                   }
@@ -2747,6 +2800,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "770. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of persons on the waiting list to see a consultant cardiologist for a first appointment at the Mater Hospital; and the average waiting time for same. [71774/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/770/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2795,6 +2864,27 @@
                         "name": "535. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will address the concerns raised in correspondence (details supplied) regarding the funding challenges facing an organisation and the proposals submitted to the HSE to support the continuation and expansion of services for children with additional needs. [70491/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/535/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "630. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the current staffing complement, by grade and discipline, within the South Kildare West Wicklow children's disability network team; the number of sanctioned posts and vacant posts within the team; the measures being taken to fill vacancies; the number of children awaiting occupational therapy and speech and language therapy interventions; whether commissioned or private services are utilised where staffing shortages prevent the delivery of therapies; and the way in which the assessed therapy needs of children are met where direct intervention is unavailable. [71539/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/630/"
+                      },
+                      {
+                        "name": "631. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the specific therapy, intervention and support programmes currently available through the South Kildare West Wicklow Children's Disability Network Team for autistic children aged eight years and older; and the number of children currently receiving direct occupational therapy and speech and language therapy interventions. [71541/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/631/"
+                      },
+                      {
+                        "name": "636. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the number of WTE dietitians posts filled at south Kildare children's disability network team as of 2 October 2026, in tabular form. [71776/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/636/"
                       }
                     ]
                   },
@@ -2998,6 +3088,33 @@
                 ]
               },
               {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2472. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will consider matters raised in correspondence (details supplied) and intervene to ensure that essential supports are provided to a child in the interest of health and safety; and if she will make a statement on the matter. [25070/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2472/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "620. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will address the concerns raised in correspondence (details supplied) regarding the rising cost of childcare. [71588/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/620/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Early Childhood Care and Education",
                 "children": [
                   {
@@ -3051,22 +3168,6 @@
                         "name": "807. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will address the proposal regarding parental leave, raised in correspondence (details supplied); and if she will make a statement on the matter. [21546/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/807/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2472. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will consider matters raised in correspondence (details supplied) and intervene to ensure that essential supports are provided to a child in the interest of health and safety; and if she will make a statement on the matter. [25070/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2472/"
                       }
                     ]
                   }
@@ -4849,6 +4950,344 @@
             ]
           },
           {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "824. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if a new recruitment campaign for An Garda Síochána will be launched before Easter; and if he will make a statement on the matter. [8185/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/824/"
+                      },
+                      {
+                        "name": "825. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of new marked Garda cars and vans that were allocated to the Kildare-Carlow Garda Division during 2025; the number of those vehicles that were withdrawn from the division during same period, in tabular form; and if he will make a statement on the matter. [8186/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/825/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "857. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of 4x4 vehicles currently in the Kildare-Carlow Garda Fleet; and if he will make a statement on the matter. [35214/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/857/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 25 June",
+                    "date_iso": "2026-06-25",
+                    "children": [
+                      {
+                        "name": "355. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Gardaí trained and deployed in specialist units for cyber-crime and serious and organised crime within Kildare-Carlow Division; and if he will make a statement on the matter. [48463/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/355/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2553. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Gardaí within Kildare-Carlow Division that undertook the Refresher Public Order Course in the years of 2025 and to date in 2026, in tabular form; and if he will make a statement on the matter. [63406/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2553/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "537. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 2553 on 7 September 2026, if he has received the relevant information from Garda Authorities to answer this PQ. [71773/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/537/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "472. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider matters raised in correspondence (details supplied); and if he will make a statement on the matter. [3223/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/472/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "910. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the difficulties raised in correspondence regarding a de facto partner visa (details supplied); and if he will make a statement on the matter. [12352/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/910/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2064. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider the appeal regarding the issuing of a short-stay visa raised in correspondence (details supplied); and if he will make a statement on the matter. [25150/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2064/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "552. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration for an update on a visa application (details supplied); the current status of the application; the reason for the delay in processing the application beyond the anticipated timeframe; whether all required documentation has been received; when a decision is expected; and if he will make a statement on the matter. [53258/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/552/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "879. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if in the context of reforming the accommodation system for displaced Ukrainians compassionate consideration will be given to elderly and disabled persons; to mothers of very young children; and if he will make a statement on the matter. [40192/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/879/"
+                      },
+                      {
+                        "name": "880. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if consideration is being given to a repatriation scheme for Ukrainian citizens; if so, if particular attention will be paid to the question of Ukrainian citizens returning to Russian occupied areas; and if he will make a statement on the matter. [40193/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/880/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "550. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the current average processing times for Afghan applicants seeking international protection or humanitarian admission to Ireland; the prioritisation criteria that are applied in cases involving women, educators, and families under threat from the Taliban; whether additional resources or emergency procedures are being considered to address long-standing cases exceeding four years; and if he will make a statement on the matter. [47764/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/550/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prison Service",
+                "children": [
+                  {
+                    "name": "Thursday, 29 January",
+                    "date_iso": "2026-01-29",
+                    "children": [
+                      {
+                        "name": "347. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider important issues relating to the Irish Prison Service, raised in correspondence (details supplied); and if he will make a statement on the matter. [7231/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/347/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2552. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the estimated cost in 2027 if 270 recruit prison officers were recruited into Irish Prison Services; and if he will make a statement on the matter. [63407/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2552/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1943. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 217 of 24 March 2026, if he will address concerns raised in correspondence (details supplied) with specific focus on the fact that this is no longer a question of legal process, but one of enforcement failure and accountability; and if he will make a statement on the matter. [26418/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1943/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Youth Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "856. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Juvenile Liaison Officers attached to Kildare-Carlow Division as of 6 May 2026; if he will provide the same figures as of 31 December 2024, in tabular form; and if he will make a statement on the matter. [35213/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/856/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Crime Prevention",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "140. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the key measures taken to tackle crime and improve community safety since January 2025; his priorities for same for the rest of 2026; and if he will make a statement on the matter. [51945/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/140/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Antisocial Behaviour",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "412. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he is aware of the concerns regarding the increasing incidence of anti-social behaviour raised in correspondence (details supplied); the measures being taken by his Department to address these issues; whether additional resources or initiatives are being considered to assist affected communities; and if he will make a statement on the matter. [54462/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/412/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Juvenile Offenders",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2391. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration whether legislative changes are being considered in relation to parental responsibility for persistent youth offending; and if he will make a statement on the matter. [62014/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2391/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Student Visas",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "949. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he is aware of the case of a person (details supplied) whose family visit visa application was submitted on 27 November 2025 and remained under consideration for approximately seven months before being refused; if he is concerned that the refusal cited issues including expired travel dates, an outdated itinerary and documentation that had become out of date during the processing period; and if consideration will be given to reviewing the case. [65524/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/949/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Family Reunification",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "421. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration If consideration has been given to the impact of the €75,000 three-year income threshold for non-EEA family reunification on recipients of Carer's Allowance whose employment is restricted under State rules; and whether any discretion or exceptional circumstances provisions exist in such cases. [66479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/421/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naturalisation Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "441. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the concerns raised in correspondence (details supplied) regarding the proposed changes to the Irish Naturalisation Rules. [67060/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/441/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Residency Permits",
+                "children": [
+                  {
+                    "name": "Wednesday, 23 September",
+                    "date_iso": "2026-09-23",
+                    "children": [
+                      {
+                        "name": "109. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration If he will expedite a decision on an appeal against the refusal of a residence card application for a person (details supplied). [67304/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-23/109/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "550. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the concerns raised in correspondence (details supplied) regarding the proposed Irish nationality and citizenship (amendment) Bill 2026, particularly the impact on persons already lawfully resident in the State and progressing towards naturalisation. [72155/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/550/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Defence",
             "children": [
               {
@@ -5147,317 +5586,6 @@
                         "name": "136. Deputy Seán Ó Fearghaíl asked the Minister for Defence the number of applications to join the Defence Forces that have been received in 2026 to date; and if she will make a statement on the matter. [53696/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/136/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "824. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if a new recruitment campaign for An Garda Síochána will be launched before Easter; and if he will make a statement on the matter. [8185/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/824/"
-                      },
-                      {
-                        "name": "825. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of new marked Garda cars and vans that were allocated to the Kildare-Carlow Garda Division during 2025; the number of those vehicles that were withdrawn from the division during same period, in tabular form; and if he will make a statement on the matter. [8186/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/825/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "857. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of 4x4 vehicles currently in the Kildare-Carlow Garda Fleet; and if he will make a statement on the matter. [35214/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/857/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 25 June",
-                    "date_iso": "2026-06-25",
-                    "children": [
-                      {
-                        "name": "355. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Gardaí trained and deployed in specialist units for cyber-crime and serious and organised crime within Kildare-Carlow Division; and if he will make a statement on the matter. [48463/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-25/355/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "2553. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Gardaí within Kildare-Carlow Division that undertook the Refresher Public Order Course in the years of 2025 and to date in 2026, in tabular form; and if he will make a statement on the matter. [63406/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2553/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "472. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider matters raised in correspondence (details supplied); and if he will make a statement on the matter. [3223/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/472/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "910. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the difficulties raised in correspondence regarding a de facto partner visa (details supplied); and if he will make a statement on the matter. [12352/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/910/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2064. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider the appeal regarding the issuing of a short-stay visa raised in correspondence (details supplied); and if he will make a statement on the matter. [25150/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2064/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "552. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration for an update on a visa application (details supplied); the current status of the application; the reason for the delay in processing the application beyond the anticipated timeframe; whether all required documentation has been received; when a decision is expected; and if he will make a statement on the matter. [53258/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/552/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "879. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if in the context of reforming the accommodation system for displaced Ukrainians compassionate consideration will be given to elderly and disabled persons; to mothers of very young children; and if he will make a statement on the matter. [40192/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/879/"
-                      },
-                      {
-                        "name": "880. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if consideration is being given to a repatriation scheme for Ukrainian citizens; if so, if particular attention will be paid to the question of Ukrainian citizens returning to Russian occupied areas; and if he will make a statement on the matter. [40193/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/880/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "550. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the current average processing times for Afghan applicants seeking international protection or humanitarian admission to Ireland; the prioritisation criteria that are applied in cases involving women, educators, and families under threat from the Taliban; whether additional resources or emergency procedures are being considered to address long-standing cases exceeding four years; and if he will make a statement on the matter. [47764/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/550/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Prison Service",
-                "children": [
-                  {
-                    "name": "Thursday, 29 January",
-                    "date_iso": "2026-01-29",
-                    "children": [
-                      {
-                        "name": "347. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will consider important issues relating to the Irish Prison Service, raised in correspondence (details supplied); and if he will make a statement on the matter. [7231/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/347/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "2552. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the estimated cost in 2027 if 270 recruit prison officers were recruited into Irish Prison Services; and if he will make a statement on the matter. [63407/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2552/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1943. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 217 of 24 March 2026, if he will address concerns raised in correspondence (details supplied) with specific focus on the fact that this is no longer a question of legal process, but one of enforcement failure and accountability; and if he will make a statement on the matter. [26418/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1943/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Youth Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "856. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the number of Juvenile Liaison Officers attached to Kildare-Carlow Division as of 6 May 2026; if he will provide the same figures as of 31 December 2024, in tabular form; and if he will make a statement on the matter. [35213/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/856/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Crime Prevention",
-                "children": [
-                  {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
-                    "children": [
-                      {
-                        "name": "140. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration the key measures taken to tackle crime and improve community safety since January 2025; his priorities for same for the rest of 2026; and if he will make a statement on the matter. [51945/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/140/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Antisocial Behaviour",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "412. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he is aware of the concerns regarding the increasing incidence of anti-social behaviour raised in correspondence (details supplied); the measures being taken by his Department to address these issues; whether additional resources or initiatives are being considered to assist affected communities; and if he will make a statement on the matter. [54462/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/412/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Juvenile Offenders",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "2391. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration whether legislative changes are being considered in relation to parental responsibility for persistent youth offending; and if he will make a statement on the matter. [62014/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2391/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Student Visas",
-                "children": [
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "949. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he is aware of the case of a person (details supplied) whose family visit visa application was submitted on 27 November 2025 and remained under consideration for approximately seven months before being refused; if he is concerned that the refusal cited issues including expired travel dates, an outdated itinerary and documentation that had become out of date during the processing period; and if consideration will be given to reviewing the case. [65524/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/949/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Family Reunification",
-                "children": [
-                  {
-                    "name": "Tuesday, 22 September",
-                    "date_iso": "2026-09-22",
-                    "children": [
-                      {
-                        "name": "421. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration If consideration has been given to the impact of the €75,000 three-year income threshold for non-EEA family reunification on recipients of Carer's Allowance whose employment is restricted under State rules; and whether any discretion or exceptional circumstances provisions exist in such cases. [66479/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/421/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Naturalisation Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 22 September",
-                    "date_iso": "2026-09-22",
-                    "children": [
-                      {
-                        "name": "441. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the concerns raised in correspondence (details supplied) regarding the proposed changes to the Irish Naturalisation Rules. [67060/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/441/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Residency Permits",
-                "children": [
-                  {
-                    "name": "Wednesday, 23 September",
-                    "date_iso": "2026-09-23",
-                    "children": [
-                      {
-                        "name": "109. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration If he will expedite a decision on an appeal against the refusal of a residence card application for a person (details supplied). [67304/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-23/109/"
                       }
                     ]
                   }
@@ -6281,166 +6409,6 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "National Development Plan",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "8. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 10 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27479/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/8/"
-                      },
-                      {
-                        "name": "53. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 9 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27478/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/53/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "13. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the progress made to date under NSO No. 4 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [51359/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/13/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Meetings",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "29. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the first meeting of the Joint Utilities and Transport Clearing House to Accelerate Infrastructure Delivery; and if he will make a statement on the matter. [10567/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/29/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "503. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will consider the proposal regarding the establishment of an Irish Academy of Fine Arts in the GPO Dublin (details supplied); and if he will make a statement on the matter. [18665/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/503/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Thursday, 26 March",
-                    "date_iso": "2026-03-26",
-                    "children": [
-                      {
-                        "name": "232. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will address concerns regarding the 2013 public sector single pension scheme (details supplied); and if he will make a statement on the matter. [23254/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/232/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 July",
-                    "date_iso": "2026-07-14",
-                    "children": [
-                      {
-                        "name": "242. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will review the impact of the public sector single pension scheme on post-2013 fast accrual pension members, including prison officers; to give consideration to restoring a supplementary pension arrangement to bridge the gap between retirement age and State pension age; and if he will make a statement on the matter. [53598/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/242/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Capital Expenditure Programme",
-                "children": [
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "31. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the progress being made under Pillar II of the Accelerating Infrastructure Plan [40321/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/31/"
-                      },
-                      {
-                        "name": "37. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the progress being made under Pillar I of the Accelerating Infrastructure Plan. [40320/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/37/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Office of Public Works",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "419. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE qualified health and safety advisors employed by the OPW as of 27 January 2026, in tabular form; and if he will make a statement on the matter. [8188/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/419/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Fiscal Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "41. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the actions his Department will take under the Medium-Term Fiscal and Structural Plan; and if he will make a statement on the matter. [10568/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/41/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Sector Pay",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 October",
-                    "date_iso": "2026-10-13",
-                    "children": [
-                      {
-                        "name": "223. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current status of discussions regarding public sector pay negotiations; the measures being taken by Government to secure agreement with the relevant unions and avert further industrial action; and the contingency arrangements being considered to minimise disruption to public services, including schools. [71584/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/223/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -6608,6 +6576,182 @@
                         "name": "4093. Deputy Seán Ó Fearghaíl asked the Minister for Further and Higher Education, Research, Innovation and Science the estimated full-year cost if the student contribution charge for free eligible students was reduced from €2,500 to €2,200; and if he will make a statement on the matter. [63402/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/4093/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Third Level Education",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "891. Deputy Seán Ó Fearghaíl asked the Minister for Further and Higher Education, Research, Innovation and Science if he will address the concerns raised in correspondence (details supplied) regarding a university student who has been refused progression to fourth year. [71587/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/891/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "National Development Plan",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "8. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 10 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/8/"
+                      },
+                      {
+                        "name": "53. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an overview of the progress made to date under National Strategic Outcome (NSO) 9 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [27478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/53/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "13. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the progress made to date under NSO No. 4 of the National Development Plan 2021-2030; and if he will make a statement on the matter. [51359/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/13/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Meetings",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "29. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the first meeting of the Joint Utilities and Transport Clearing House to Accelerate Infrastructure Delivery; and if he will make a statement on the matter. [10567/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/29/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "503. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will consider the proposal regarding the establishment of an Irish Academy of Fine Arts in the GPO Dublin (details supplied); and if he will make a statement on the matter. [18665/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/503/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Thursday, 26 March",
+                    "date_iso": "2026-03-26",
+                    "children": [
+                      {
+                        "name": "232. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will address concerns regarding the 2013 public sector single pension scheme (details supplied); and if he will make a statement on the matter. [23254/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-26/232/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 July",
+                    "date_iso": "2026-07-14",
+                    "children": [
+                      {
+                        "name": "242. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will review the impact of the public sector single pension scheme on post-2013 fast accrual pension members, including prison officers; to give consideration to restoring a supplementary pension arrangement to bridge the gap between retirement age and State pension age; and if he will make a statement on the matter. [53598/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/242/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Capital Expenditure Programme",
+                "children": [
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "31. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the progress being made under Pillar II of the Accelerating Infrastructure Plan [40321/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/31/"
+                      },
+                      {
+                        "name": "37. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the progress being made under Pillar I of the Accelerating Infrastructure Plan. [40320/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/37/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Office of Public Works",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "419. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE qualified health and safety advisors employed by the OPW as of 27 January 2026, in tabular form; and if he will make a statement on the matter. [8188/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/419/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fiscal Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "41. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will report on the actions his Department will take under the Medium-Term Fiscal and Structural Plan; and if he will make a statement on the matter. [10568/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/41/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Pay",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "223. Deputy Seán Ó Fearghaíl asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current status of discussions regarding public sector pay negotiations; the measures being taken by Government to secure agreement with the relevant unions and avert further industrial action; and the contingency arrangements being considered to minimise disruption to public services, including schools. [71584/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/223/"
                       }
                     ]
                   }
@@ -10880,6 +11024,114 @@
           "heading": "Trade Unions",
           "question": "301. Deputy Seán Ó Fearghaíl asked the Minister for Education and Youth the engagement that has taken place between her Department and the education unions regarding the current industrial dispute; the measures being taken to minimise disruption to pupils and families arising from industrial action, and the contingency arrangements being considered in the event of further escalation of the dispute. [71585/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/301/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 537,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "537. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 2553 on 7 September 2026, if he has received the relevant information from Garda Authorities to answer this PQ. [71773/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/537/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 550,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "550. Deputy Seán Ó Fearghaíl asked the Minister for Justice, Home Affairs and Migration if he will address the concerns raised in correspondence (details supplied) regarding the proposed Irish nationality and citizenship (amendment) Bill 2026, particularly the impact on persons already lawfully resident in the State and progressing towards naturalisation. [72155/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/550/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 620,
+          "department": "Children",
+          "heading": "Departmental Correspondence",
+          "question": "620. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality if she will address the concerns raised in correspondence (details supplied) regarding the rising cost of childcare. [71588/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/620/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 630,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "630. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the current staffing complement, by grade and discipline, within the South Kildare West Wicklow children's disability network team; the number of sanctioned posts and vacant posts within the team; the measures being taken to fill vacancies; the number of children awaiting occupational therapy and speech and language therapy interventions; whether commissioned or private services are utilised where staffing shortages prevent the delivery of therapies; and the way in which the assessed therapy needs of children are met where direct intervention is unavailable. [71539/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/630/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 631,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "631. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the specific therapy, intervention and support programmes currently available through the South Kildare West Wicklow Children's Disability Network Team for autistic children aged eight years and older; and the number of children currently receiving direct occupational therapy and speech and language therapy interventions. [71541/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/631/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 636,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "636. Deputy Seán Ó Fearghaíl asked the Minister for Children, Disability and Equality the number of WTE dietitians posts filled at south Kildare children's disability network team as of 2 October 2026, in tabular form. [71776/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/636/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 696,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "696. Deputy Seán Ó Fearghaíl asked the Minister for Health if she will address concerns raised in correspondence (details supplied) regarding staffing shortages and capacity pressures in a Dublin maternity hospital; the impact these issues are having on the timely delivery of maternity services, including scheduled inductions; and the measures being taken to ensure women can access safe and appropriate maternity care within clinically recommended timeframes. [71424/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/696/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 700,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "700. Deputy Seán Ó Fearghaíl asked the Minister for Health further to Parliamentary Question No. 362 of 17 September 2026, when the oncology nurse co-ordinator is expected to return to their substantive care co-ordination role; the specific staffing levels that must be achieved before this redeployment can end; the recruitment measures currently under way to fill nursing vacancies that led to the redeployment; and the alternative patient navigation and support arrangements currently in place for oncology patients and their families. [71453/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/700/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 769,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "769. Deputy Seán Ó Fearghaíl asked the Minister for Health the estimated full year costs of fully resourcing five additional HSE crisis resolutions teams. [71775/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/769/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 770,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "770. Deputy Seán Ó Fearghaíl asked the Minister for Health the number of persons on the waiting list to see a consultant cardiologist for a first appointment at the Mater Hospital; and the average waiting time for same. [71774/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/770/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 891,
+          "department": "Further and Higher Education",
+          "heading": "Third Level Education",
+          "question": "891. Deputy Seán Ó Fearghaíl asked the Minister for Further and Higher Education, Research, Innovation and Science if he will address the concerns raised in correspondence (details supplied) regarding a university student who has been refused progression to fourth year. [71587/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/891/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 197,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "197. Deputy Seán Ó Fearghaíl asked the Minister for Health the expanded older persons and community supports, including additional home-support hours, dementia services and community-based care that will be provided under Budget 2027. [72329/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/197/",
           "questionType": "written"
         }
       ]
