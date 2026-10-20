@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Pádraig-O'Sullivan.D.2019-11-29/image/large",
   "types": {
     "all": {
-      "count": 931,
+      "count": 941,
       "headingOptions": [
         "Agriculture Schemes",
         "Agriculture Supports",
@@ -92,6 +92,7 @@
         "EU Summits",
         "Fines Administration",
         "Flood Relief Schemes",
+        "Flood Risk Management",
         "Food Safety",
         "Foreign Conflicts",
         "Fuel Prices",
@@ -122,12 +123,14 @@
         "Hospital Services",
         "Hospital Staff",
         "Hospital Transfers",
+        "Hospital Waiting Lists",
         "Housing Policy",
         "Housing Provision",
         "Human Rights",
         "Immigration Policy",
         "Industrial Development",
         "Infectious Diseases",
+        "Insurance Coverage",
         "International Protection",
         "Legislative Measures",
         "Library Projects",
@@ -225,7 +228,7 @@
         "topHeading": "Departmental Data",
         "topHeadingCount": 57,
         "topDepartment": "Health",
-        "topDepartmentCount": 346
+        "topDepartmentCount": 350
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -322,6 +325,10 @@
                 "value": 5
               },
               {
+                "name": "Healthcare Infrastructure Provision",
+                "value": 4
+              },
+              {
                 "name": "Home Care Packages",
                 "value": 4
               },
@@ -332,10 +339,6 @@
               {
                 "name": "Departmental Schemes",
                 "value": 4
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "value": 3
               },
               {
                 "name": "Medical Qualifications",
@@ -360,6 +363,14 @@
               {
                 "name": "Legislative Measures",
                 "value": 3
+              },
+              {
+                "name": "Hospital Overcrowding",
+                "value": 2
+              },
+              {
+                "name": "Hospital Facilities",
+                "value": 2
               },
               {
                 "name": "Medical Aids and Appliances",
@@ -387,14 +398,6 @@
               },
               {
                 "name": "Medical Cards",
-                "value": 1
-              },
-              {
-                "name": "Hospital Overcrowding",
-                "value": 1
-              },
-              {
-                "name": "Hospital Facilities",
                 "value": 1
               },
               {
@@ -455,6 +458,10 @@
               },
               {
                 "name": "Budget 2027",
+                "value": 1
+              },
+              {
+                "name": "Hospital Waiting Lists",
                 "value": 1
               }
             ]
@@ -1024,6 +1031,63 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Tax Code",
+                "value": 7
+              },
+              {
+                "name": "Tax Data",
+                "value": 7
+              },
+              {
+                "name": "Flood Risk Management",
+                "value": 2
+              },
+              {
+                "name": "Departmental Inquiries",
+                "value": 1
+              },
+              {
+                "name": "Tax Yield",
+                "value": 1
+              },
+              {
+                "name": "Customs and Excise",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Banking Sector",
+                "value": 1
+              },
+              {
+                "name": "Budget 2027",
+                "value": 1
+              },
+              {
+                "name": "Tax Collection",
+                "value": 1
+              },
+              {
+                "name": "Fuel Prices",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "Insurance Coverage",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -1064,55 +1128,6 @@
               },
               {
                 "name": "Third Level Admissions",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "value": 7
-              },
-              {
-                "name": "Tax Data",
-                "value": 7
-              },
-              {
-                "name": "Departmental Inquiries",
-                "value": 1
-              },
-              {
-                "name": "Tax Yield",
-                "value": 1
-              },
-              {
-                "name": "Customs and Excise",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Banking Sector",
-                "value": 1
-              },
-              {
-                "name": "Budget 2027",
-                "value": 1
-              },
-              {
-                "name": "Tax Collection",
-                "value": 1
-              },
-              {
-                "name": "Fuel Prices",
-                "value": 1
-              },
-              {
-                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -1200,6 +1215,39 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Flood Relief Schemes",
+                "value": 7
+              },
+              {
+                "name": "Office of Public Works",
+                "value": 5
+              },
+              {
+                "name": "Budget 2027",
+                "value": 2
+              },
+              {
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Vacant Properties",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Budget 2026",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -1253,34 +1301,22 @@
             ]
           },
           {
-            "name": "Public Expenditure",
+            "name": "Defence",
             "children": [
               {
-                "name": "Flood Relief Schemes",
-                "value": 5
+                "name": "Defence Forces",
+                "value": 9
               },
               {
-                "name": "Office of Public Works",
-                "value": 5
-              },
-              {
-                "name": "Budget 2027",
+                "name": "Naval Service",
                 "value": 2
               },
               {
-                "name": "Tax Code",
+                "name": "Military Neutrality",
                 "value": 1
               },
               {
-                "name": "Vacant Properties",
-                "value": 1
-              },
-              {
-                "name": "Departmental Data",
-                "value": 1
-              },
-              {
-                "name": "Budget 2026",
+                "name": "Air Corps",
                 "value": 1
               }
             ]
@@ -1322,27 +1358,6 @@
               },
               {
                 "name": "Men's Sheds",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 8
-              },
-              {
-                "name": "Naval Service",
-                "value": 2
-              },
-              {
-                "name": "Military Neutrality",
-                "value": 1
-              },
-              {
-                "name": "Air Corps",
                 "value": 1
               }
             ]
@@ -3554,6 +3569,49 @@
                 ]
               },
               {
+                "name": "Healthcare Infrastructure Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "177. Deputy Pádraig O'Sullivan asked the Minister for Health further to Parliamentary Question No. 1949 of 4 November 2025, the current stage of the proposed €27 million stem cell tissue establishment and aseptic compounding unit at Cork University Hospital, for which a project team was established in 2024; whether capital funding for its construction has been secured in the HSE Capital Plan; the projected dates for appointment of a design and construction team, commencement of construction and commissioning of the unit; and whether the unit will be equipped to deliver CAR-T cellular therapies. [72762/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/177/"
+                      },
+                      {
+                        "name": "807. Deputy Pádraig O'Sullivan asked the Minister for Health further to Parliamentary Question No. 28272/26, the current stage of detailed design for the Cork elective hospital; the projected dates for planning lodgement, commencement of construction and opening of the hospital. [72764/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/807/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "94. Deputy Pádraig O'Sullivan asked the Minister for Health if she will provide an update on plans for the new elective hospital for Cork; the indicative timeline for when planning will be ready; and if she will make a statement on the matter. [17475/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/94/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 27 May",
+                    "date_iso": "2026-05-27",
+                    "children": [
+                      {
+                        "name": "238. Deputy Pádraig O'Sullivan asked the Minister for Health if she will provide a full update on the status of the new dementia-specific residential care unit currently awaiting HIQA registration in the Cork region; the expected timeline for the unit to become operational and begin admitting residents into its 20-bed capacity; the specific HIQA registration requirements that remain outstanding; and if she will make a statement on the matter. [40562/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/238/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Home Care Packages",
                 "children": [
                   {
@@ -3665,44 +3723,6 @@
                         "name": "885. Deputy Pádraig O'Sullivan asked the Minister for Health the annual cost of the national unused medicines return and disposal scheme; the details of the contract awarded to the appointed waste disposal provider including its duration and value; whether the contract was subject to competitive tender; and if she will make a statement on the matter. [53451/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/885/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "children": [
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "94. Deputy Pádraig O'Sullivan asked the Minister for Health if she will provide an update on plans for the new elective hospital for Cork; the indicative timeline for when planning will be ready; and if she will make a statement on the matter. [17475/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/94/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 27 May",
-                    "date_iso": "2026-05-27",
-                    "children": [
-                      {
-                        "name": "238. Deputy Pádraig O'Sullivan asked the Minister for Health if she will provide a full update on the status of the new dementia-specific residential care unit currently awaiting HIQA registration in the Cork region; the expected timeline for the unit to become operational and begin admitting residents into its 20-bed capacity; the specific HIQA registration requirements that remain outstanding; and if she will make a statement on the matter. [40562/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/238/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 15 October",
-                    "date_iso": "2026-10-15",
-                    "children": [
-                      {
-                        "name": "177. Deputy Pádraig O'Sullivan asked the Minister for Health further to Parliamentary Question No. 1949 of 4 November 2025, the current stage of the proposed €27 million stem cell tissue establishment and aseptic compounding unit at Cork University Hospital, for which a project team was established in 2024; whether capital funding for its construction has been secured in the HSE Capital Plan; the projected dates for appointment of a design and construction team, commencement of construction and commissioning of the unit; and whether the unit will be equipped to deliver CAR-T cellular therapies. [72762/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/177/"
                       }
                     ]
                   }
@@ -3889,6 +3909,60 @@
                 ]
               },
               {
+                "name": "Hospital Overcrowding",
+                "children": [
+                  {
+                    "name": "Thursday, 22 January",
+                    "date_iso": "2026-01-22",
+                    "children": [
+                      {
+                        "name": "117. Deputy Pádraig O'Sullivan asked the Minister for Health if she is aware of the current overcrowding issues at Cork University Hospital, particularly in the emergency department; the immediate measures she plans to implement to alleviate pressure on the hospital; and if she will make a statement on the matter. [4483/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/117/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "805. Deputy Pádraig O'Sullivan asked the Minister for Health if a tailored winter overcrowding plan, similar to the measures introduced at University Hospital Limerick, will be implemented at Cork University Hospital, given that trolley numbers there rose from 405 in June 2025 to 708 in June 2026 according to INMO trolley watch. [72766/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/805/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "1059. Deputy Pádraig O'Sullivan asked the Minister for Health when the 24-acute beds for Mallow General Hospital will be operational; if there are specific timelines or factors contributing to any delays in the commissioning of these beds; and if she will make a statement on the matter. [6168/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1059/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "808. Deputy Pádraig O'Sullivan asked the Minister for Health the number of patients referred from Cork University Hospital to St. James's Hospital and University Hospital Galway for stem cell transplantation in each of the years 2023 to 2025 and to date in 2026; the average wait from referral to transplant; and the number of referred patients who did not proceed to transplant. [72763/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/808/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Medical Aids and Appliances",
                 "children": [
                   {
@@ -4043,38 +4117,6 @@
                         "name": "2081. Deputy Pádraig O'Sullivan asked the Minister for Health the number of discretionary medical card applications received for persons aged over 70 for the years 2020 to date in 2025, by year; the number approved; the number refused; the number of appeals lodged following refusals; of those appeals the number granted on review and the number in which the original decision was upheld; and if she will make a statement on the matter. [74076/25]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/2081/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Overcrowding",
-                "children": [
-                  {
-                    "name": "Thursday, 22 January",
-                    "date_iso": "2026-01-22",
-                    "children": [
-                      {
-                        "name": "117. Deputy Pádraig O'Sullivan asked the Minister for Health if she is aware of the current overcrowding issues at Cork University Hospital, particularly in the emergency department; the immediate measures she plans to implement to alleviate pressure on the hospital; and if she will make a statement on the matter. [4483/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/117/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Facilities",
-                "children": [
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "1059. Deputy Pádraig O'Sullivan asked the Minister for Health when the 24-acute beds for Mallow General Hospital will be operational; if there are specific timelines or factors contributing to any delays in the commissioning of these beds; and if she will make a statement on the matter. [6168/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/1059/"
                       }
                     ]
                   }
@@ -4315,6 +4357,22 @@
                         "name": "786. Deputy Pádraig O'Sullivan asked the Minister for Health the projected 2026 outturn for current expenditure on the Health Vote compared with the 2026 allocation of €25,790 million shown in the Budget 2027 Expenditure Report; the projected overrun in each HSE health region, in tabular form; and the way in which the 2027 allocation of €27,390 million provides for any 2026 overrun. [71828/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/786/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Waiting Lists",
+                "children": [
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "806. Deputy Pádraig O'Sullivan asked the Minister for Health the number of elective procedures cancelled on the day at Cork University Hospital in 2025 and to date in 2026 due to bed unavailability, by specialty. [72765/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/806/"
                       }
                     ]
                   }
@@ -8579,6 +8637,314 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "657. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated amount of corporation tax foregone to the Exchequer in each of the years 2019 to 2025 inclusive by reason of the carry forward of trading losses under section 396 of the Taxes Consolidation Act 1997 by institutions which received State support during the banking crisis; and if he will make a statement on the matter. [60167/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/657/"
+                      },
+                      {
+                        "name": "659. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if he will outline the current status of section 396C of the Taxes Consolidation Act 1997 relating to relief from corporation tax for losses of participating institutions; the date on which and the enactment by which that section was amended or repealed; whether his Department has conducted any review of that decision since; and if he will make a statement on the matter. [60172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/659/"
+                      },
+                      {
+                        "name": "707. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance further to the statement issued by his Department on 30 July 2026 noting shareholder approval of the cash offer for a bank (details supplied) in respect of which the State voted its 57.5% shareholding in favour, if his Department or the Revenue Commissioners have assessed the application of section 401 of, and Schedule 9 to, the Taxes Consolidation Act 1997 to the unused trading losses carried forward by the bank upon completion of the transaction; the value of those losses; and if he will make a statement on the matter. [60171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/707/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "230. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if any consideration or investigation is underway since Budget 2026 to assess the appropriateness of a VAT reduction to stimulate the construction sector; and if he will make a statement on the matter. [9540/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/230/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "318. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the immediate tax or fiscal measures being considered to alleviate ongoing cost-of-living pressures on low and middle-income households, particularly in light of rising energy, food and housing costs; and if he will make a statement on the matter. [26732/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/318/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "171. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance whether he has considered applying a reduced rate of VAT to alcohol-free beers, wines, spirits and other non-alcoholic adult beverages as part of Budget 2027; and whether an assessment has been undertaken of the potential public health benefits of incentivising consumers to choose alcohol-free alternatives. [66591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/171/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "185. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated cost to the Exchequer, on a monthly and annual basis, of reducing VAT, excise duty or other fuel-related charges so as to cap the retail price of petrol and diesel at €1.70 per litre; and the average wholesale fuel price assumptions used in the calculation. [71852/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/185/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "265. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of indexing personal tax credits, the employee tax credit and the earned income tax credit at a rate of 1%, in tabular form; and if he will make a statement on the matter. [51370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/265/"
+                      },
+                      {
+                        "name": "266. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of reducing the standard and higher rates of taxation by 1% each, the number of people impacted by such reductions, in tabular form; and if he will make a statement on the matter. [51371/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/266/"
+                      },
+                      {
+                        "name": "267. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of reducing each of the USC rates by 1%; the number of people impacted by such reductions, in tabular form; and if he will make a statement on the matter. [51372/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/267/"
+                      },
+                      {
+                        "name": "268. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of indexing income tax bands at rates of 1%, 2% and 3%, in tabular form; and if he will make a statement on the matter. [51373/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/268/"
+                      },
+                      {
+                        "name": "269. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if consideration has been or is currently being given to indexing income tax bands, and in particular, to the average annual inflation rate; and if he will make a statement on the matter. [51374/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/269/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "705. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the total amount of corporation tax paid by the banking sector in each of the years 2019 to 2025, inclusive; and the aggregate amount of unused trading losses carried forward by that sector at the end of the most recent year for which figures are available. [60166/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/705/"
+                      },
+                      {
+                        "name": "706. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if he will set out, in respect of banks (details supplied), the deferred tax asset recognised in each institution's most recently published annual report arising from unused trading losses, together with the corporation tax charge and the corporation tax actually paid as disclosed in each of those reports; and if he will make a statement on the matter. [60170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/706/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flood Risk Management",
+                "children": [
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "360. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the Government's position on a request (details supplied) that the Government endorse a national flood framework and establish a sustainable flood insurance fund and flood agency through enabling legislation, with collection of a flood insurance protection contribution to begin in 2027 and the fund to begin taking on risk by 2028; the date by which the Flood Insurance Protection Gap Working Group is due to report; and whether the 2027 timeline is considered achievable. [72774/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/360/"
+                      },
+                      {
+                        "name": "361. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if his Department has engaged with the Central Bank and an organisation (details supplied) on the credit risk posed by uninsured flood-exposed homes; and if he has considered the proposal by another organisation in August 2026 for mortgage top-up lending to fund property-level flood resilience works. [72773/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/361/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Inquiries",
+                "children": [
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "270. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if he will consider addressing the deemed disposal issue relating to exchange-traded funds in budget 2027; and if he will make a statement on the matter. [13958/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/270/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Yield",
+                "children": [
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "295. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the assessment that has been made of the State’s increasing reliance on corporation tax receipts; the risks this poses to the sustainability of the public finances in the medium term; the steps being taken to mitigate those risks; and if he will make a statement on the matter. [26733/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/295/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Customs and Excise",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "793. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the schedule and increments by which the reduced rates of excise duty on petrol and diesel will be restored following the Government decision of 29 June 2026 to maintain the reductions until 1 September 2026 and to unwind them gradually over four months; the estimated cost to the Exchequer of the excise reductions introduced in March and April 2026 to date; whether the carbon tax increases deferred earlier this year will proceed as part of Budget 2027; and if he will make a statement on the matter. [57410/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/793/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "658. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the total amount returned to the Exchequer to date from the State's investment in the banking sector, disaggregated by share sales, dividends, guarantee fees, coupon and other payments and the bank levy; the total amount of State support provided to that sector; and if he will make a statement on the matter. [60175/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/658/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Banking Sector",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "660. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the amount collected from the bank levy in each year since its introduction; the number of institutions liable to the levy in each such year; the projected yield for 2026; and if he will make a statement on the matter. [60173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/660/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "416. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance whether consideration is being given, in advance of Budget 2027 and the winter heating season, to introducing a subsidy or other financial support to reduce the cost of kerosene for households dependent on home heating oil. [65190/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/416/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Collection",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "138. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the additional VAT receipts accruing to the Exchequer for each one cent per litre increase in the pre-tax price of petrol and diesel; and the total additional VAT collected on road fuels in 2026 to date as a result of higher wholesale prices. [68467/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/138/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fuel Prices",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "142. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if his Department has assessed proposals for a mechanism under which no further VAT or excise would be applied to petrol and diesel once the retail price reaches a set threshold, such as €1.70 per litre; the estimated annual cost to the Exchequer of such a mechanism at current and forecast pump prices; and his Department's view on its compatibility with the EU VAT Directive and the Energy Taxation Directive. [68466/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/142/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "184. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated full-year cost in 2027 of increasing the maximum relief under the help to buy scheme from €30,000 to €35,000, as announced in Budget 2027; the number of help to buy claims approved and the total value of relief paid in 2025 and to date in 2026, in tabular form. [71822/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/184/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Insurance Coverage",
+                "children": [
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "359. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if his Department has assessed a proposal (details supplied) to fund a flood insurance protection contribution of approximately €24 per insured household annually by removing the 3% insurance premium tax on household insurance and allowing the 1% insurance compensation fund levy to lapse; the estimated 2025 yield from the insurance premium tax on household policies; when the insurance compensation fund levy is expected to fall to zero; and if such a rebalancing of insurance levies is under consideration. [72776/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/359/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -8841,277 +9207,6 @@
                         "name": "4186. Deputy Pádraig O'Sullivan asked the Minister for Further and Higher Education, Research, Innovation and Science the number of students enrolled in higher education at undergraduate level and at postgraduate level respectively, broken down by gender, in each of the academic years 2021-2022, 2022-2023, 2023-2024, 2024-2025 and 2025-2026, in tabular form; and if he will make a statement on the matter. [55710/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4186/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Tax Code",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "657. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated amount of corporation tax foregone to the Exchequer in each of the years 2019 to 2025 inclusive by reason of the carry forward of trading losses under section 396 of the Taxes Consolidation Act 1997 by institutions which received State support during the banking crisis; and if he will make a statement on the matter. [60167/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/657/"
-                      },
-                      {
-                        "name": "659. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if he will outline the current status of section 396C of the Taxes Consolidation Act 1997 relating to relief from corporation tax for losses of participating institutions; the date on which and the enactment by which that section was amended or repealed; whether his Department has conducted any review of that decision since; and if he will make a statement on the matter. [60172/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/659/"
-                      },
-                      {
-                        "name": "707. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance further to the statement issued by his Department on 30 July 2026 noting shareholder approval of the cash offer for a bank (details supplied) in respect of which the State voted its 57.5% shareholding in favour, if his Department or the Revenue Commissioners have assessed the application of section 401 of, and Schedule 9 to, the Taxes Consolidation Act 1997 to the unused trading losses carried forward by the bank upon completion of the transaction; the value of those losses; and if he will make a statement on the matter. [60171/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/707/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "230. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if any consideration or investigation is underway since Budget 2026 to assess the appropriateness of a VAT reduction to stimulate the construction sector; and if he will make a statement on the matter. [9540/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/230/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "318. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the immediate tax or fiscal measures being considered to alleviate ongoing cost-of-living pressures on low and middle-income households, particularly in light of rising energy, food and housing costs; and if he will make a statement on the matter. [26732/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/318/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 22 September",
-                    "date_iso": "2026-09-22",
-                    "children": [
-                      {
-                        "name": "171. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance whether he has considered applying a reduced rate of VAT to alcohol-free beers, wines, spirits and other non-alcoholic adult beverages as part of Budget 2027; and whether an assessment has been undertaken of the potential public health benefits of incentivising consumers to choose alcohol-free alternatives. [66591/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/171/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 October",
-                    "date_iso": "2026-10-13",
-                    "children": [
-                      {
-                        "name": "185. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated cost to the Exchequer, on a monthly and annual basis, of reducing VAT, excise duty or other fuel-related charges so as to cap the retail price of petrol and diesel at €1.70 per litre; and the average wholesale fuel price assumptions used in the calculation. [71852/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/185/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "265. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of indexing personal tax credits, the employee tax credit and the earned income tax credit at a rate of 1%, in tabular form; and if he will make a statement on the matter. [51370/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/265/"
-                      },
-                      {
-                        "name": "266. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of reducing the standard and higher rates of taxation by 1% each, the number of people impacted by such reductions, in tabular form; and if he will make a statement on the matter. [51371/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/266/"
-                      },
-                      {
-                        "name": "267. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of reducing each of the USC rates by 1%; the number of people impacted by such reductions, in tabular form; and if he will make a statement on the matter. [51372/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/267/"
-                      },
-                      {
-                        "name": "268. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated first and full-year costs of indexing income tax bands at rates of 1%, 2% and 3%, in tabular form; and if he will make a statement on the matter. [51373/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/268/"
-                      },
-                      {
-                        "name": "269. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if consideration has been or is currently being given to indexing income tax bands, and in particular, to the average annual inflation rate; and if he will make a statement on the matter. [51374/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/269/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "705. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the total amount of corporation tax paid by the banking sector in each of the years 2019 to 2025, inclusive; and the aggregate amount of unused trading losses carried forward by that sector at the end of the most recent year for which figures are available. [60166/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/705/"
-                      },
-                      {
-                        "name": "706. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if he will set out, in respect of banks (details supplied), the deferred tax asset recognised in each institution's most recently published annual report arising from unused trading losses, together with the corporation tax charge and the corporation tax actually paid as disclosed in each of those reports; and if he will make a statement on the matter. [60170/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/706/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Inquiries",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "270. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if he will consider addressing the deemed disposal issue relating to exchange-traded funds in budget 2027; and if he will make a statement on the matter. [13958/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/270/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Yield",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "295. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the assessment that has been made of the State’s increasing reliance on corporation tax receipts; the risks this poses to the sustainability of the public finances in the medium term; the steps being taken to mitigate those risks; and if he will make a statement on the matter. [26733/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/295/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Customs and Excise",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "793. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the schedule and increments by which the reduced rates of excise duty on petrol and diesel will be restored following the Government decision of 29 June 2026 to maintain the reductions until 1 September 2026 and to unwind them gradually over four months; the estimated cost to the Exchequer of the excise reductions introduced in March and April 2026 to date; whether the carbon tax increases deferred earlier this year will proceed as part of Budget 2027; and if he will make a statement on the matter. [57410/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/793/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "658. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the total amount returned to the Exchequer to date from the State's investment in the banking sector, disaggregated by share sales, dividends, guarantee fees, coupon and other payments and the bank levy; the total amount of State support provided to that sector; and if he will make a statement on the matter. [60175/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/658/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Banking Sector",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "660. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the amount collected from the bank levy in each year since its introduction; the number of institutions liable to the levy in each such year; the projected yield for 2026; and if he will make a statement on the matter. [60173/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/660/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Budget 2027",
-                "children": [
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "416. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance whether consideration is being given, in advance of Budget 2027 and the winter heating season, to introducing a subsidy or other financial support to reduce the cost of kerosene for households dependent on home heating oil. [65190/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/416/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Collection",
-                "children": [
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "138. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the additional VAT receipts accruing to the Exchequer for each one cent per litre increase in the pre-tax price of petrol and diesel; and the total additional VAT collected on road fuels in 2026 to date as a result of higher wholesale prices. [68467/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/138/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Fuel Prices",
-                "children": [
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "142. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if his Department has assessed proposals for a mechanism under which no further VAT or excise would be applied to petrol and diesel once the retail price reaches a set threshold, such as €1.70 per litre; the estimated annual cost to the Exchequer of such a mechanism at current and forecast pump prices; and his Department's view on its compatibility with the EU VAT Directive and the Energy Taxation Directive. [68466/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/142/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 October",
-                    "date_iso": "2026-10-13",
-                    "children": [
-                      {
-                        "name": "184. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the estimated full-year cost in 2027 of increasing the maximum relief under the help to buy scheme from €30,000 to €35,000, as announced in Budget 2027; the number of help to buy claims approved and the total value of relief paid in 2025 and to date in 2026, in tabular form. [71822/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/184/"
                       }
                     ]
                   }
@@ -9607,6 +9702,226 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Flood Relief Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "380. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to the OPW's statement that the 56 completed flood relief schemes protect some 12,200 properties, the number of those properties whose details have been shared with Insurance Ireland under the memorandum of understanding between the OPW and Insurance Ireland; the most recent data from Insurance Ireland on the proportion of those properties offered flood cover, and the date of that data; and the average time between a scheme's completion and its notification to insurers. [72772/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/380/"
+                      },
+                      {
+                        "name": "381. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether the OPW has examined a national grant scheme for property-level flood resilience measures, such as flood doors, non-return valves and raised electrics, for homes where flood relief schemes are not planned in the near term, as proposed in the homeowner flood adaptation scheme in insurance Ireland's report, Flood Protection Gap – Proposed Solution (August 2026); whether such a scheme could be delivered through the SEAI's existing retrofit grant model; and whether a flood performance certificate at point of sale, similar to the building energy rating, is under consideration. [72771/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/381/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "14. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of flood relief schemes commencements since 2020; the total cost of each to date per scheme; the average length of time spent in pre-planning consultation prior to each of these works commencing, in tabular form; and if he will make a statement on the matter. [10558/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/14/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "28. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update in relation to the Blackpool flood relief scheme; and if he will make a statement on the matter. [27251/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/28/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "648. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the Blackpool flood relief scheme, including when the project is expected to progress; and if he will make a statement on the matter. [42781/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/648/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "22. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update in relation to the Blackpool flood relief scheme; and if he will make a statement on the matter. [51268/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/22/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "227. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current status of the Glashaboy (Glanmire/Sallybrook) flood relief scheme in Cork, which Cork City Council indicated in August 2024 would be completed by summer 2026; the reason for the delay; the revised completion date; the expenditure on the scheme to date and the projected final cost; and the amount provided for the scheme in 2027. [71825/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/227/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Office of Public Works",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "889. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of buildings in the Office of Public Works estate that are fully wheelchair accessible; the number that are not; the programme of works in place to bring the remaining buildings into compliance with section 25 of the Disability Act 2005, which required public buildings to be made accessible; and if he will make a statement on the matter. [56408/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/889/"
+                      },
+                      {
+                        "name": "913. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to Parliamentary Question No.155 of 3 April 2025 and the reply of the Office of Public Works stating that the Morrison's Island public realm improvement and flood protection scheme in Cork city was due to be substantially complete by the summer of 2026, the reason completion has now been deferred to 2027; the revised completion date and current estimated cost of the scheme; and the interim flood protection in place for the approximately 400 properties the scheme is designed to protect; and if he will make a statement on the matter. [58161/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/913/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "662. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total amount spent to date on the refurbishment and redevelopment of Barryscourt Castle, Carrigtwohill, County Cork; the number of visitor admissions recorded at the site in each year since it reopened, in tabular form; the future plan to facilitate food stalls, craft stalls, markets or other ancillary visitor activities at the site; and if he will make a statement on the matter. [43495/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/662/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "273. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the plans the Office of Public Works has to expand ancillary and visitor activities at a castle (details supplied); whether consideration has been given, or will be given, to facilitating craft fairs, markets or stalls in the environs of the castle; and if he will make a statement on the matter. [47324/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/273/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "46. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a breakdown, by project, of all capital expenditure under the Office of Public Works in County Cork in each of the years 2024, 2025 and to date in 2026, including amounts allocated and amounts drawn down in each year; and if he will make a statement on the matter. [51269/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/46/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2027",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "228. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the specific savings and efficiency measures each Department will implement in 2027 to meet the expenditure levy totalling €446 million set out in the Budget 2027 Expenditure Report, in tabular form, by Department; and the reason the Department of Education and Youth is not subject to the levy. [71824/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/228/"
+                      },
+                      {
+                        "name": "232. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether the reduction in carbon tax announced in Budget 2027 will affect the carbon tax revenue allocated to the sustainable energy authority of Ireland residential and community retrofit schemes, given that the Budget 2027 expenditure report provides €655 million for those schemes, including increased provision through carbon tax revenues. [71842/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/232/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "528. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will outline where the carbon tax that is collected goes; the schemes it specifically funds; the exact amounts redistributed to each individual scheme or programme for each of the years 2023 to 2025; and if he will make a statement on the matter. [19754/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/528/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vacant Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "629. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of vacant properties currently owned by the Office of Public Works in Cork city and county; the total economic value of those properties; and if he will make a statement on the matter. [42057/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/629/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "890. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total amount paid from public funds in lump sum fines and daily or periodic penalty payments arising from judgments of the Court of Justice of the European Union against Ireland, by case and by year, since 2010, in tabular form; and if he will make a statement on the matter. [56411/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/890/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Budget 2026",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "229. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the projected 2026 outturn for gross voted expenditure compared with the expenditure ceiling of €117.8 billion set in Budget 2026, by Ministerial Vote Group, in tabular form; and the Supplementary Estimates expected to be brought before Dáil Éireann for 2026. [71823/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/229/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -9841,202 +10156,136 @@
             ]
           },
           {
-            "name": "Public Expenditure",
+            "name": "Defence",
             "children": [
               {
-                "name": "Flood Relief Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "14. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of flood relief schemes commencements since 2020; the total cost of each to date per scheme; the average length of time spent in pre-planning consultation prior to each of these works commencing, in tabular form; and if he will make a statement on the matter. [10558/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/14/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "28. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update in relation to the Blackpool flood relief scheme; and if he will make a statement on the matter. [27251/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/28/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "648. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update on the Blackpool flood relief scheme, including when the project is expected to progress; and if he will make a statement on the matter. [42781/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/648/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "22. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation for an update in relation to the Blackpool flood relief scheme; and if he will make a statement on the matter. [51268/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/22/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 13 October",
-                    "date_iso": "2026-10-13",
-                    "children": [
-                      {
-                        "name": "227. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the current status of the Glashaboy (Glanmire/Sallybrook) flood relief scheme in Cork, which Cork City Council indicated in August 2024 would be completed by summer 2026; the reason for the delay; the revised completion date; the expenditure on the scheme to date and the projected final cost; and the amount provided for the scheme in 2027. [71825/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/227/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Office of Public Works",
+                "name": "Defence Forces",
                 "children": [
                   {
                     "name": "Tuesday, 28 July",
                     "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "889. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of buildings in the Office of Public Works estate that are fully wheelchair accessible; the number that are not; the programme of works in place to bring the remaining buildings into compliance with section 25 of the Disability Act 2005, which required public buildings to be made accessible; and if he will make a statement on the matter. [56408/26]",
+                        "name": "262. Deputy Pádraig O'Sullivan asked the Minister for Defence the progress made in her examination of the decision of the European Committee of Social Rights, published on 9 February 2026, which found that the prohibition on overtime across the Defence Forces and the lack of adequate provision for payment of public holiday premiums breach the European Social Charter; whether she plans to introduce overtime pay for members of the Defence Forces; and if she will make a statement on the matter. [55716/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/889/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/262/"
                       },
                       {
-                        "name": "913. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to Parliamentary Question No.155 of 3 April 2025 and the reply of the Office of Public Works stating that the Morrison's Island public realm improvement and flood protection scheme in Cork city was due to be substantially complete by the summer of 2026, the reason completion has now been deferred to 2027; the revised completion date and current estimated cost of the scheme; and the interim flood protection in place for the approximately 400 properties the scheme is designed to protect; and if he will make a statement on the matter. [58161/26]",
+                        "name": "263. Deputy Pádraig O'Sullivan asked the Minister for Defence whether any decision arising from the decision of the European Committee of Social Rights of 9 February 2026 on overtime and public holiday premiums will apply to all ranks of the Defence Forces, including cadets, enlisted personnel and commissioned officers; and if she will make a statement on the matter. [55717/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/913/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/263/"
+                      },
+                      {
+                        "name": "264. Deputy Pádraig O'Sullivan asked the Minister for Defence when the electronic recording of time and attendance will be operational in all military installations, in view of the finding of the European Committee of Social Rights that the absence of such a system makes it impossible to determine the overtime actually worked; and if she will make a statement on the matter. [55718/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/264/"
+                      },
+                      {
+                        "name": "266. Deputy Pádraig O'Sullivan asked the Minister for Defence the status of the Military Radar Programme announced on 17 December 2025, including the long-range land-based primary radar, ground based air defence and maritime radar elements; whether the government-to-government negotiations with France have concluded; whether the roll-out remains on schedule to commence in 2026 with full delivery by the end of 2028; and if she will make a statement on the matter. [55720/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/266/"
                       }
                     ]
                   },
                   {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
                     "children": [
                       {
-                        "name": "662. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total amount spent to date on the refurbishment and redevelopment of Barryscourt Castle, Carrigtwohill, County Cork; the number of visitor admissions recorded at the site in each year since it reopened, in tabular form; the future plan to facilitate food stalls, craft stalls, markets or other ancillary visitor activities at the site; and if he will make a statement on the matter. [43495/26]",
+                        "name": "185. Deputy Pádraig O'Sullivan asked the Minister for Defence the measures being taken to resolve Defence Forces equipment deficits, as Ireland remains the only EU country without a sovereign military-grade primary radar system, leaving it unable to independently monitor its own airspace; and if she will make a statement on the matter. [12110/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/662/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/185/"
+                      },
+                      {
+                        "name": "213. Deputy Pádraig O'Sullivan asked the Minister for Defence the measures being taken to deal with the recruitment and retention crisis in the Defence Force; when she expects staffing levels to reach 11,500 personnel; and if she will make a statement on the matter. [12111/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/213/"
                       }
                     ]
                   },
                   {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
                     "children": [
                       {
-                        "name": "273. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the plans the Office of Public Works has to expand ancillary and visitor activities at a castle (details supplied); whether consideration has been given, or will be given, to facilitating craft fairs, markets or stalls in the environs of the castle; and if he will make a statement on the matter. [47324/26]",
+                        "name": "70. Deputy Pádraig O'Sullivan asked the Minister for Defence when the outstanding payments due under the most recent local bargaining clause and under the national pay agreement will be paid; if she will acknowledge that the timely implementation of these payments is vital to retaining highly skilled and experienced members across the Defence Forces; and if she will make a statement on the matter. [32724/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/273/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/70/"
+                      },
+                      {
+                        "name": "82. Deputy Pádraig O'Sullivan asked the Minister for Defence if she will ensure measures are continued to secure investment in accommodation throughout the Defence Forces; and following on from the positive progress made to date, if she recognises that modern fit-for-purpose accommodation is paramount for recruiting and retaining personal and for the overall welfare of the members; and if she will make a statement on the matter. [32723/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/82/"
                       }
                     ]
                   },
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "46. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will provide a breakdown, by project, of all capital expenditure under the Office of Public Works in County Cork in each of the years 2024, 2025 and to date in 2026, including amounts allocated and amounts drawn down in each year; and if he will make a statement on the matter. [51269/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/46/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Budget 2027",
-                "children": [
                   {
                     "name": "Tuesday, 13 October",
                     "date_iso": "2026-10-13",
                     "children": [
                       {
-                        "name": "228. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the specific savings and efficiency measures each Department will implement in 2027 to meet the expenditure levy totalling €446 million set out in the Budget 2027 Expenditure Report, in tabular form, by Department; and the reason the Department of Education and Youth is not subject to the levy. [71824/26]",
+                        "name": "54. Deputy Pádraig O'Sullivan asked the Minister for Defence the strength of the permanent Defence Force at the end of 2025 and at the latest date in 2026; the projected strength at the end of 2026 and the end of 2027; and how the recruitment of 400 additional Permanent Defence Force members and almost 100 civilian and civil service roles announced in Budget 2027 relates to the increase in the Defence staffing figure from 9,140 to 9,370 in the Budget 2027 expenditure report. [71845/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/228/"
-                      },
-                      {
-                        "name": "232. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether the reduction in carbon tax announced in Budget 2027 will affect the carbon tax revenue allocated to the sustainable energy authority of Ireland residential and community retrofit schemes, given that the Budget 2027 expenditure report provides €655 million for those schemes, including increased provision through carbon tax revenues. [71842/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/232/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/54/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Tax Code",
+                "name": "Naval Service",
                 "children": [
                   {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
                     "children": [
                       {
-                        "name": "528. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if he will outline where the carbon tax that is collected goes; the schemes it specifically funds; the exact amounts redistributed to each individual scheme or programme for each of the years 2023 to 2025; and if he will make a statement on the matter. [19754/26]",
+                        "name": "280. Deputy Pádraig O'Sullivan asked the Minister for Defence to provide an update on the progress of a project (details supplied); when the ship will be delivered following a proposed public tender competition for a multi-role vessel; and if she will make a statement on the matter. [15153/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/528/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/280/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "144. Deputy Pádraig O'Sullivan asked the Minister for Defence the current strength of the Naval Service; and the status of the P60 fleet extension programme; and if she will make a statement on the matter. [53892/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/144/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Vacant Properties",
+                "name": "Military Neutrality",
                 "children": [
                   {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
                     "children": [
                       {
-                        "name": "629. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of vacant properties currently owned by the Office of Public Works in Cork city and county; the total economic value of those properties; and if he will make a statement on the matter. [42057/26]",
+                        "name": "125. Deputy Pádraig O'Sullivan asked the Minister for Defence when legislation to amend the triple lock mechanism for the deployment of the Defence Forces overseas will be introduced, the expected timeline for its passage and implementation and if she will make a statement on the matter. [53891/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/629/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/125/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Departmental Data",
+                "name": "Air Corps",
                 "children": [
                   {
                     "name": "Tuesday, 28 July",
                     "date_iso": "2026-07-28",
                     "children": [
                       {
-                        "name": "890. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the total amount paid from public funds in lump sum fines and daily or periodic penalty payments arising from judgments of the Court of Justice of the European Union against Ireland, by case and by year, since 2010, in tabular form; and if he will make a statement on the matter. [56411/26]",
+                        "name": "265. Deputy Pádraig O'Sullivan asked the Minister for Defence whether the contract for Counter-Unmanned Aerial Systems capabilities, which her Department stated in December 2025 was in final negotiations to conclude before the end of the year in advance of Ireland's Presidency of the Council of the European Union, has been concluded; whether these systems are now operational; and if she will make a statement on the matter. [55719/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/890/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Budget 2026",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 October",
-                    "date_iso": "2026-10-13",
-                    "children": [
-                      {
-                        "name": "229. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the projected 2026 outturn for gross voted expenditure compared with the expenditure ceiling of €117.8 billion set in Budget 2026, by Ministerial Vote Group, in tabular form; and the Supplementary Estimates expected to be brought before Dáil Éireann for 2026. [71823/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/229/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/265/"
                       }
                     ]
                   }
@@ -10207,133 +10456,6 @@
                         "name": "8. Deputy Pádraig O'Sullivan asked the Minister for Rural and Community Development and the Gaeltacht to clarify recent difficulties surrounding the funding of men's sheds. [67464/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/8/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "262. Deputy Pádraig O'Sullivan asked the Minister for Defence the progress made in her examination of the decision of the European Committee of Social Rights, published on 9 February 2026, which found that the prohibition on overtime across the Defence Forces and the lack of adequate provision for payment of public holiday premiums breach the European Social Charter; whether she plans to introduce overtime pay for members of the Defence Forces; and if she will make a statement on the matter. [55716/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/262/"
-                      },
-                      {
-                        "name": "263. Deputy Pádraig O'Sullivan asked the Minister for Defence whether any decision arising from the decision of the European Committee of Social Rights of 9 February 2026 on overtime and public holiday premiums will apply to all ranks of the Defence Forces, including cadets, enlisted personnel and commissioned officers; and if she will make a statement on the matter. [55717/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/263/"
-                      },
-                      {
-                        "name": "264. Deputy Pádraig O'Sullivan asked the Minister for Defence when the electronic recording of time and attendance will be operational in all military installations, in view of the finding of the European Committee of Social Rights that the absence of such a system makes it impossible to determine the overtime actually worked; and if she will make a statement on the matter. [55718/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/264/"
-                      },
-                      {
-                        "name": "266. Deputy Pádraig O'Sullivan asked the Minister for Defence the status of the Military Radar Programme announced on 17 December 2025, including the long-range land-based primary radar, ground based air defence and maritime radar elements; whether the government-to-government negotiations with France have concluded; whether the roll-out remains on schedule to commence in 2026 with full delivery by the end of 2028; and if she will make a statement on the matter. [55720/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/266/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "185. Deputy Pádraig O'Sullivan asked the Minister for Defence the measures being taken to resolve Defence Forces equipment deficits, as Ireland remains the only EU country without a sovereign military-grade primary radar system, leaving it unable to independently monitor its own airspace; and if she will make a statement on the matter. [12110/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/185/"
-                      },
-                      {
-                        "name": "213. Deputy Pádraig O'Sullivan asked the Minister for Defence the measures being taken to deal with the recruitment and retention crisis in the Defence Force; when she expects staffing levels to reach 11,500 personnel; and if she will make a statement on the matter. [12111/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/213/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "70. Deputy Pádraig O'Sullivan asked the Minister for Defence when the outstanding payments due under the most recent local bargaining clause and under the national pay agreement will be paid; if she will acknowledge that the timely implementation of these payments is vital to retaining highly skilled and experienced members across the Defence Forces; and if she will make a statement on the matter. [32724/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/70/"
-                      },
-                      {
-                        "name": "82. Deputy Pádraig O'Sullivan asked the Minister for Defence if she will ensure measures are continued to secure investment in accommodation throughout the Defence Forces; and following on from the positive progress made to date, if she recognises that modern fit-for-purpose accommodation is paramount for recruiting and retaining personal and for the overall welfare of the members; and if she will make a statement on the matter. [32723/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/82/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Naval Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "280. Deputy Pádraig O'Sullivan asked the Minister for Defence to provide an update on the progress of a project (details supplied); when the ship will be delivered following a proposed public tender competition for a multi-role vessel; and if she will make a statement on the matter. [15153/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/280/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "144. Deputy Pádraig O'Sullivan asked the Minister for Defence the current strength of the Naval Service; and the status of the P60 fleet extension programme; and if she will make a statement on the matter. [53892/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/144/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Military Neutrality",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "125. Deputy Pádraig O'Sullivan asked the Minister for Defence when legislation to amend the triple lock mechanism for the deployment of the Defence Forces overseas will be introduced, the expected timeline for its passage and implementation and if she will make a statement on the matter. [53891/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/125/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Air Corps",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "265. Deputy Pádraig O'Sullivan asked the Minister for Defence whether the contract for Counter-Unmanned Aerial Systems capabilities, which her Department stated in December 2025 was in final negotiations to conclude before the end of the year in advance of Ireland's Presidency of the Council of the European Union, has been concluded; whether these systems are now operational; and if she will make a statement on the matter. [55719/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/265/"
                       }
                     ]
                   }
@@ -18473,6 +18595,15 @@
         },
         {
           "date_iso": "2026-10-13",
+          "questionNumber": 54,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "54. Deputy Pádraig O'Sullivan asked the Minister for Defence the strength of the permanent Defence Force at the end of 2025 and at the latest date in 2026; the projected strength at the end of 2026 and the end of 2027; and how the recruitment of 400 additional Permanent Defence Force members and almost 100 civilian and civil service roles announced in Budget 2027 relates to the increase in the Defence staffing figure from 9,140 to 9,370 in the Budget 2027 expenditure report. [71845/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/54/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
           "questionNumber": 106,
           "department": "Transport",
           "heading": "Rail Network",
@@ -18811,6 +18942,87 @@
           "heading": "Mental Health Services",
           "question": "221. Deputy Pádraig O'Sullivan asked the Minister for Health the reason Cork North and East accounts for 88% of all children nationally awaiting CAMHS-ID services, with 716 children waiting at end-2025; the number of CAMHS-ID teams currently operating in Cork against HSE service requirements; and the timeline for additional teams. [72761/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/221/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 359,
+          "department": "Finance",
+          "heading": "Insurance Coverage",
+          "question": "359. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if his Department has assessed a proposal (details supplied) to fund a flood insurance protection contribution of approximately €24 per insured household annually by removing the 3% insurance premium tax on household insurance and allowing the 1% insurance compensation fund levy to lapse; the estimated 2025 yield from the insurance premium tax on household policies; when the insurance compensation fund levy is expected to fall to zero; and if such a rebalancing of insurance levies is under consideration. [72776/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/359/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 360,
+          "department": "Finance",
+          "heading": "Flood Risk Management",
+          "question": "360. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance the Government's position on a request (details supplied) that the Government endorse a national flood framework and establish a sustainable flood insurance fund and flood agency through enabling legislation, with collection of a flood insurance protection contribution to begin in 2027 and the fund to begin taking on risk by 2028; the date by which the Flood Insurance Protection Gap Working Group is due to report; and whether the 2027 timeline is considered achievable. [72774/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/360/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 361,
+          "department": "Finance",
+          "heading": "Flood Risk Management",
+          "question": "361. Deputy Pádraig O'Sullivan asked the Tánaiste and Minister for Finance if his Department has engaged with the Central Bank and an organisation (details supplied) on the credit risk posed by uninsured flood-exposed homes; and if he has considered the proposal by another organisation in August 2026 for mortgage top-up lending to fund property-level flood resilience works. [72773/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/361/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 380,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "380. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation further to the OPW's statement that the 56 completed flood relief schemes protect some 12,200 properties, the number of those properties whose details have been shared with Insurance Ireland under the memorandum of understanding between the OPW and Insurance Ireland; the most recent data from Insurance Ireland on the proportion of those properties offered flood cover, and the date of that data; and the average time between a scheme's completion and its notification to insurers. [72772/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/380/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 381,
+          "department": "Public Expenditure",
+          "heading": "Flood Relief Schemes",
+          "question": "381. Deputy Pádraig O'Sullivan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation whether the OPW has examined a national grant scheme for property-level flood resilience measures, such as flood doors, non-return valves and raised electrics, for homes where flood relief schemes are not planned in the near term, as proposed in the homeowner flood adaptation scheme in insurance Ireland's report, Flood Protection Gap – Proposed Solution (August 2026); whether such a scheme could be delivered through the SEAI's existing retrofit grant model; and whether a flood performance certificate at point of sale, similar to the building energy rating, is under consideration. [72771/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/381/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 805,
+          "department": "Health",
+          "heading": "Hospital Overcrowding",
+          "question": "805. Deputy Pádraig O'Sullivan asked the Minister for Health if a tailored winter overcrowding plan, similar to the measures introduced at University Hospital Limerick, will be implemented at Cork University Hospital, given that trolley numbers there rose from 405 in June 2025 to 708 in June 2026 according to INMO trolley watch. [72766/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/805/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 806,
+          "department": "Health",
+          "heading": "Hospital Waiting Lists",
+          "question": "806. Deputy Pádraig O'Sullivan asked the Minister for Health the number of elective procedures cancelled on the day at Cork University Hospital in 2025 and to date in 2026 due to bed unavailability, by specialty. [72765/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/806/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 807,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "807. Deputy Pádraig O'Sullivan asked the Minister for Health further to Parliamentary Question No. 28272/26, the current stage of detailed design for the Cork elective hospital; the projected dates for planning lodgement, commencement of construction and opening of the hospital. [72764/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/807/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-15",
+          "questionNumber": 808,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "808. Deputy Pádraig O'Sullivan asked the Minister for Health the number of patients referred from Cork University Hospital to St. James's Hospital and University Hospital Galway for stem cell transplantation in each of the years 2023 to 2025 and to date in 2026; the average wait from referral to transplant; and the number of referred patients who did not proceed to transplant. [72763/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/808/",
           "questionType": "written"
         }
       ]
