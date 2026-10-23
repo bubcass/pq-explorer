@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Micheál-Carrigy.S.2020-03-30/image/large",
   "types": {
     "all": {
-      "count": 133,
+      "count": 137,
       "headingOptions": [
         "Agriculture Schemes",
         "Bus Services",
@@ -61,11 +61,13 @@
         "School Accommodation",
         "School Enrolments",
         "School Management",
+        "School Transport",
         "Schools Building Projects",
         "Site Acquisitions",
         "Small and Medium Enterprises",
         "Social Welfare Schemes",
         "Special Educational Needs",
+        "State Savings Schemes",
         "Student Accommodation",
         "Visa Applications"
       ],
@@ -73,7 +75,7 @@
         "topHeading": "Departmental Staff",
         "topHeadingCount": 13,
         "topDepartment": "Health",
-        "topDepartmentCount": 36
+        "topDepartmentCount": 37
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -114,6 +116,10 @@
                 "value": 2
               },
               {
+                "name": "Hospital Staff",
+                "value": 2
+              },
+              {
                 "name": "Healthcare Infrastructure Provision",
                 "value": 1
               },
@@ -151,10 +157,6 @@
               },
               {
                 "name": "Healthcare Policy",
-                "value": 1
-              },
-              {
-                "name": "Hospital Staff",
                 "value": 1
               }
             ]
@@ -200,6 +202,10 @@
               },
               {
                 "name": "Pupil-Teacher Ratio",
+                "value": 1
+              },
+              {
+                "name": "School Transport",
                 "value": 1
               }
             ]
@@ -308,6 +314,31 @@
               },
               {
                 "name": "Student Accommodation",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Departmental Staff",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              },
+              {
+                "name": "State Savings Schemes",
                 "value": 1
               }
             ]
@@ -434,23 +465,6 @@
               },
               {
                 "name": "Social Welfare Schemes",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Departmental Staff",
-                "value": 1
-              },
-              {
-                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -802,6 +816,33 @@
                 ]
               },
               {
+                "name": "Hospital Staff",
+                "children": [
+                  {
+                    "name": "Wednesday, 30 September",
+                    "date_iso": "2026-09-30",
+                    "children": [
+                      {
+                        "name": "165. Deputy Micheál Carrigy asked the Minister for Health if there is a urologist position in Mullingar Regional Hospital which has 204 beds and six critical care beds, or Tullamore Regional Hospital which has 232-beds. [68996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/165/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1050. Deputy Micheál Carrigy asked the Minister for Health for an update on the ophthalmology consultation position in Mullingar Regional Hospital. [74513/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1050/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Healthcare Infrastructure Provision",
                 "children": [
                   {
@@ -956,22 +997,6 @@
                         "name": "825. Deputy Micheál Carrigy asked the Minister for Health the total number of patients travelling from county Longford to a hospital (details supplied) for appointments weekly in each of the years 2023 to 2025 and to date in 2026, in tabular form; and the cost to the HSE of such transport annually. [68788/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/825/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Staff",
-                "children": [
-                  {
-                    "name": "Wednesday, 30 September",
-                    "date_iso": "2026-09-30",
-                    "children": [
-                      {
-                        "name": "165. Deputy Micheál Carrigy asked the Minister for Health if there is a urologist position in Mullingar Regional Hospital which has 204 beds and six critical care beds, or Tullamore Regional Hospital which has 232-beds. [68996/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/165/"
                       }
                     ]
                   }
@@ -1259,6 +1284,22 @@
                         "name": "1284. Deputy Micheál Carrigy asked the Minister for Education and Youth the number of students enrolled per class for a school (details supplied) for each of the years 2024, 2025 and 2026; the staff ratio for the school for each of those years; and her plans to address the student teacher ratio in primary schools; and if she will make a statement on the matter. [57198/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1284/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "481. Deputy Micheál Carrigy asked the Minister for Education and Youth if she will consider establishing a mechanism within the school transport scheme to allow families to access in-principle eligibility information prior to enrolling their children in a post-primary school; if she is aware that school enrolments typically take place late in the preceding year (details supplied); if a forward-looking process will be introduced to provide parents with this necessary clarity during their planning phase; and if she will make a statement on the matter. [73686/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/481/"
                       }
                     ]
                   }
@@ -1730,6 +1771,91 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "991. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance to provide a full breakdown of the Approved Retirement Funds and Retirement Annuity Contracts that are not provided for, or regulated under the Pensions Act 1990, that pension providers are charging. [26963/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/991/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Staff",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "263. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance the number of civil and public servants employed by his Department in each of the past ten years, in tabular form. [33951/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/263/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "447. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance if he will provide a list of all capital projects and programmes funded or overseen under the remit of his Department, and bodies under its aegis, which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34076/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/447/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "362. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance if consideration will be given to including secondhand properties as part of the help-to-buy scheme. [73570/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/362/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Savings Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "363. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance for an update on the progress of the personal investment account, which is scheduled to open in July 2027. [73568/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/363/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -2147,59 +2273,6 @@
                         "name": "630. Deputy Micheál Carrigy asked the Minister for Social Protection if discretion or an exceptional administrative sanction can be applied to the medical care scheme under the occupational injuries scheme to reimburse private medical expenses for an injured worker; if he is aware of a case (details supplied) where a worker has been waiting three years for a public appointment, forcing them to fund private consultant visits out-of-pocket due to a lack of public system availability; if the scheme will adapt to cover private treatment costs when the HSE fails to provide the equivalent public treatment within a reasonable timeframe; and if he will make a statement on the matter. [45786/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/630/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "991. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance to provide a full breakdown of the Approved Retirement Funds and Retirement Annuity Contracts that are not provided for, or regulated under the Pensions Act 1990, that pension providers are charging. [26963/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/991/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Staff",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "263. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance the number of civil and public servants employed by his Department in each of the past ten years, in tabular form. [33951/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/263/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "447. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance if he will provide a list of all capital projects and programmes funded or overseen under the remit of his Department, and bodies under its aegis, which have been completed on time and within budget in Longford in each of the past five years, in tabular form; and if he will make a statement on the matter. [34076/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/447/"
                       }
                     ]
                   }
@@ -3590,6 +3663,42 @@
           "heading": "Community Development Projects",
           "question": "24. Deputy Micheál Carrigy asked the Minister for Rural and Community Development and the Gaeltacht to provide an update on the timeline for the announcement and allocation of funding under the CLÁR Programme, recognising the vital role this funding plays in supporting community development projects across rural Ireland; and when groups awaiting decisions, such as the applicants from Longford community groups, can expect funding announcements and subsequent drawdown. [72195/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/24/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 362,
+          "department": "Finance",
+          "heading": "Departmental Schemes",
+          "question": "362. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance if consideration will be given to including secondhand properties as part of the help-to-buy scheme. [73570/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/362/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 363,
+          "department": "Finance",
+          "heading": "State Savings Schemes",
+          "question": "363. Deputy Micheál Carrigy asked the Tánaiste and Minister for Finance for an update on the progress of the personal investment account, which is scheduled to open in July 2027. [73568/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/363/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 481,
+          "department": "Education",
+          "heading": "School Transport",
+          "question": "481. Deputy Micheál Carrigy asked the Minister for Education and Youth if she will consider establishing a mechanism within the school transport scheme to allow families to access in-principle eligibility information prior to enrolling their children in a post-primary school; if she is aware that school enrolments typically take place late in the preceding year (details supplied); if a forward-looking process will be introduced to provide parents with this necessary clarity during their planning phase; and if she will make a statement on the matter. [73686/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/481/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1050,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "1050. Deputy Micheál Carrigy asked the Minister for Health for an update on the ophthalmology consultation position in Mullingar Regional Hospital. [74513/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1050/",
           "questionType": "written"
         }
       ]

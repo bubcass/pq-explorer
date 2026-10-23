@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/John-Connolly.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 613,
+      "count": 648,
       "headingOptions": [
         "Active Travel",
         "Addiction Treatment Services",
@@ -133,6 +133,7 @@
         "Naval Service",
         "Nursing Homes",
         "Oideachas Gaeltachta",
+        "Park-and-Ride Facilities",
         "Parking Provision",
         "Passport Services",
         "Paternity Leave",
@@ -141,6 +142,7 @@
         "Ports Policy",
         "Postal Voting",
         "Primary Care Centres",
+        "Primary Care Services",
         "Prison Service",
         "Programme for Government",
         "Psychological Assessments",
@@ -157,6 +159,7 @@
         "Research Funding",
         "Revenue Commissioners",
         "Rights of the Child",
+        "Road Network",
         "Road Projects",
         "Road Safety",
         "Scéimeanna Fostaíochta",
@@ -212,9 +215,9 @@
       ],
       "insights": {
         "topHeading": "Bus Services",
-        "topHeadingCount": 32,
+        "topHeadingCount": 40,
         "topDepartment": "Health",
-        "topDepartmentCount": 129
+        "topDepartmentCount": 142
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -227,6 +230,14 @@
                 "value": 27
               },
               {
+                "name": "Healthcare Infrastructure Provision",
+                "value": 12
+              },
+              {
+                "name": "Primary Care Centres",
+                "value": 11
+              },
+              {
                 "name": "Ambulance Service",
                 "value": 9
               },
@@ -235,19 +246,15 @@
                 "value": 8
               },
               {
-                "name": "Primary Care Centres",
-                "value": 7
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "value": 6
-              },
-              {
                 "name": "Health Strategies",
                 "value": 6
               },
               {
                 "name": "Medicinal Products",
+                "value": 5
+              },
+              {
+                "name": "Hospital Services",
                 "value": 5
               },
               {
@@ -280,10 +287,6 @@
               },
               {
                 "name": "Hospital Waiting Lists",
-                "value": 3
-              },
-              {
-                "name": "Hospital Services",
                 "value": 3
               },
               {
@@ -373,6 +376,10 @@
               {
                 "name": "Tobacco Control Measures",
                 "value": 1
+              },
+              {
+                "name": "Primary Care Services",
+                "value": 1
               }
             ]
           },
@@ -381,23 +388,27 @@
             "children": [
               {
                 "name": "Bus Services",
-                "value": 32
+                "value": 40
               },
               {
                 "name": "Rail Network",
-                "value": 18
-              },
-              {
-                "name": "Public Transport",
-                "value": 11
+                "value": 21
               },
               {
                 "name": "Road Projects",
-                "value": 11
+                "value": 13
+              },
+              {
+                "name": "Public Transport",
+                "value": 12
               },
               {
                 "name": "National Transport Authority",
                 "value": 8
+              },
+              {
+                "name": "Park-and-Ride Facilities",
+                "value": 6
               },
               {
                 "name": "Bus Éireann",
@@ -473,6 +484,10 @@
               },
               {
                 "name": "Transport Policy",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
                 "value": 1
               }
             ]
@@ -835,6 +850,55 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Arts Funding",
+                "value": 6
+              },
+              {
+                "name": "Sports Funding",
+                "value": 4
+              },
+              {
+                "name": "Sport and Recreational Development",
+                "value": 2
+              },
+              {
+                "name": "Sports Facilities",
+                "value": 1
+              },
+              {
+                "name": "Telecommunications Infrastructure",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Dental Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 1
+              },
+              {
+                "name": "Culture Policy",
+                "value": 1
+              },
+              {
+                "name": "Artists' Remuneration",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -912,51 +976,6 @@
               },
               {
                 "name": "Social Welfare Code",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Arts Funding",
-                "value": 6
-              },
-              {
-                "name": "Sports Funding",
-                "value": 4
-              },
-              {
-                "name": "Sport and Recreational Development",
-                "value": 2
-              },
-              {
-                "name": "Sports Facilities",
-                "value": 1
-              },
-              {
-                "name": "Telecommunications Infrastructure",
-                "value": 1
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Dental Services",
-                "value": 1
-              },
-              {
-                "name": "Departmental Expenditure",
-                "value": 1
-              },
-              {
-                "name": "Culture Policy",
-                "value": 1
-              },
-              {
-                "name": "Artists' Remuneration",
                 "value": 1
               }
             ]
@@ -1438,6 +1457,185 @@
                 ]
               },
               {
+                "name": "Healthcare Infrastructure Provision",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1059. Deputy John Connolly asked the Minister for Health the progress made to date on the proposed new emergency department, critical care and surgical block at University Hospital Galway; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the project; and if she will make a statement on the matter. [74169/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1059/"
+                      },
+                      {
+                        "name": "1064. Deputy John Connolly asked the Minister for Health the progress made to date on the development of the two new ward blocks planned for university hospital Galway under phase 1 of the university hospital Galway development control plan (UHG DCP); the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the project and its individual elements; the works planned under each phase of the UHG DCP, including phase 1; and if she will make a statement on the matter. [74168/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1064/"
+                      },
+                      {
+                        "name": "1067. Deputy John Connolly asked the Minister for Health the progress made to date on the university hospital Galway development control plan; the forthcoming stages in the delivery of the overall development programme; the expected timelines associated with those stages; the estimated cost range of the project; and if she will make a statement on the matter. [74167/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1067/"
+                      },
+                      {
+                        "name": "1069. Deputy John Connolly asked the Minister for Health if she could provide an update and timeline for publication on the ten-year capital plan for mental health. [74193/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1069/"
+                      },
+                      {
+                        "name": "1081. Deputy John Connolly asked the Minister for Health the progress made to date on the proposed new helipad, ambulatory cancer centre and laboratory block at University Hospital Galway; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the project; and if she will make a statement on the matter. [74170/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1081/"
+                      },
+                      {
+                        "name": "1097. Deputy John Connolly asked the Minister for Health the progress made to date on the refurbishment of the maternity unit, paediatric unit and diagnostic services, together with improvements to transport routes, at University Hospital Galway; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the works; and if she will make a statement on the matter. [74171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1097/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "494. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at An Spidéal, County Galway; and if she will make a statement on the matter. [50567/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/494/"
+                      },
+                      {
+                        "name": "495. Deputy John Connolly asked the Minister for Health for an update on the development of a minor injuries clinic in Galway; and if she will make a statement on the matter. [50569/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/495/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 25 February",
+                    "date_iso": "2026-02-25",
+                    "children": [
+                      {
+                        "name": "276. Deputy John Connolly asked the Minister for Health if she will clarify the current status of the elective hospitals proposed for Cork and Dublin; and whether standalone elective hospitals will still be developed at both locations, with bed capacity, as originally envisaged under the National Elective Care Programme (details supplied); if she will provide an estimated timeline for the works; and if she will make a statement on the matter. [15498/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/276/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "840. Deputy John Connolly asked the Minister for Health for an update on the appraisal of the development of a Galway injury unit; the potential locations being considered for the unit; the services the unit could provide; and if she will make a statement on the matter. [16512/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/840/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "213. Deputy John Connolly asked the Minister for Health whether a design team have been appointed to design the two new blocks to be developed at University Hospital Galway as part of the masterplan project for the site of the hospital; the content and capacity of the new blocks; and if she will make a statement on the matter. [28220/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/213/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "2171. Deputy John Connolly asked the Minister for Health for an update on the development control plan for Merlin Park Hospital in Galway; and if she will make a statement on the matter. [43144/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2171/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Primary Care Centres",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "1104. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at An Spidéal, County Galway; and if she will make a statement on the matter. [8171/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1104/"
+                      },
+                      {
+                        "name": "1105. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Inisboffin, County Galway; and if she will make a statement on the matter. [8172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1105/"
+                      },
+                      {
+                        "name": "1106. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Oughterard, County Galway; and if she will make a statement on the matter. [8173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1106/"
+                      },
+                      {
+                        "name": "1107. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Clifden, County Galway; and if she will make a statement on the matter. [8174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1107/"
+                      },
+                      {
+                        "name": "1108. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Claregalway, County Galway; and if she will make a statement on the matter. [8175/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1108/"
+                      },
+                      {
+                        "name": "1109. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Oranmore, County Galway; and if she will make a statement on the matter. [8176/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1109/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1060. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically an update on the progress made on the provision of a primary care centre in Oranmore, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74184/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1060/"
+                      },
+                      {
+                        "name": "1061. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically an update on the progress made on the provision of a primary care centre in Claregalway, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74183/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1061/"
+                      },
+                      {
+                        "name": "1063. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme to provide a primary care centre for South Connemara, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74182/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1063/"
+                      },
+                      {
+                        "name": "1066. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically at the former Aviva site in Knocknacarra which the HSE Capital Plan 2026 stated construction will commence at in 2026, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74181/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1066/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "214. Deputy John Connolly asked the Minister for Health the number and location of all primary care centres in the development pipeline; the average length of time it takes to complete the development of a primary care centre from concept through to completion in each of the six health regions; and if she will make a statement on the matter. [48116/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/214/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Ambulance Service",
                 "children": [
                   {
@@ -1557,123 +1755,6 @@
                 ]
               },
               {
-                "name": "Primary Care Centres",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "1104. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at An Spidéal, County Galway; and if she will make a statement on the matter. [8171/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1104/"
-                      },
-                      {
-                        "name": "1105. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Inisboffin, County Galway; and if she will make a statement on the matter. [8172/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1105/"
-                      },
-                      {
-                        "name": "1106. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Oughterard, County Galway; and if she will make a statement on the matter. [8173/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1106/"
-                      },
-                      {
-                        "name": "1107. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Clifden, County Galway; and if she will make a statement on the matter. [8174/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1107/"
-                      },
-                      {
-                        "name": "1108. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Claregalway, County Galway; and if she will make a statement on the matter. [8175/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1108/"
-                      },
-                      {
-                        "name": "1109. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at Oranmore, County Galway; and if she will make a statement on the matter. [8176/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/1109/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "214. Deputy John Connolly asked the Minister for Health the number and location of all primary care centres in the development pipeline; the average length of time it takes to complete the development of a primary care centre from concept through to completion in each of the six health regions; and if she will make a statement on the matter. [48116/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/214/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Healthcare Infrastructure Provision",
-                "children": [
-                  {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
-                    "children": [
-                      {
-                        "name": "494. Deputy John Connolly asked the Minister for Health for an update on the development of a primary care centre at An Spidéal, County Galway; and if she will make a statement on the matter. [50567/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/494/"
-                      },
-                      {
-                        "name": "495. Deputy John Connolly asked the Minister for Health for an update on the development of a minor injuries clinic in Galway; and if she will make a statement on the matter. [50569/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/495/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 25 February",
-                    "date_iso": "2026-02-25",
-                    "children": [
-                      {
-                        "name": "276. Deputy John Connolly asked the Minister for Health if she will clarify the current status of the elective hospitals proposed for Cork and Dublin; and whether standalone elective hospitals will still be developed at both locations, with bed capacity, as originally envisaged under the National Elective Care Programme (details supplied); if she will provide an estimated timeline for the works; and if she will make a statement on the matter. [15498/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-25/276/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "840. Deputy John Connolly asked the Minister for Health for an update on the appraisal of the development of a Galway injury unit; the potential locations being considered for the unit; the services the unit could provide; and if she will make a statement on the matter. [16512/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/840/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "213. Deputy John Connolly asked the Minister for Health whether a design team have been appointed to design the two new blocks to be developed at University Hospital Galway as part of the masterplan project for the site of the hospital; the content and capacity of the new blocks; and if she will make a statement on the matter. [28220/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/213/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "2171. Deputy John Connolly asked the Minister for Health for an update on the development control plan for Merlin Park Hospital in Galway; and if she will make a statement on the matter. [43144/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/2171/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Health Strategies",
                 "children": [
                   {
@@ -1769,6 +1850,60 @@
                         "name": "229. Deputy John Connolly asked the Minister for Health the steps being taken to ensure compliance by the HSE with the statutory requirement (details supplied) under the Health (Pricing and Supply of Medical Goods) Act 2013 to make reimbursement decisions within 180 days of receiving an application; and if she will make a statement on the matter. [40477/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-27/229/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1093. Deputy John Connolly asked the Minister for Health the progress made to date on the proposed elective treatment centre at Merlin Park University Hospital; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range attributable to the project; and if she will make a statement on the matter. [74175/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1093/"
+                      },
+                      {
+                        "name": "1096. Deputy John Connolly asked the Minister for Health the progress made to date on the delivery of the new surgical hub at Merlin Park University Hospital under the Elective Care Programme; the forthcoming stages of the project; the expected timelines for those stages; when the surgical hub will become operational; the estimated cost range attributable to the project; and if she will make a statement on the matter. [74173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1096/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "339. Deputy John Connolly asked the Minister for Health the current MRI capacity in University Hospital Galway, including waiting times for scans, availability of equipment, and any plans to expand access to MRI services in the region (details supplied); and if she will make a statement on the matter. [44767/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/339/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "493. Deputy John Connolly asked the Minister for Health for an update on the progression of the implementation of masterplan for University Hospital Galway; and if she will make a statement on the matter. [50565/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/493/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "226. Deputy John Connolly asked the Minister for Health for an update on the establishment of a planned trauma care service at Merlin Park University Hospital; and if she will make a statement on the matter. [52089/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/226/"
                       }
                     ]
                   }
@@ -2052,44 +2187,6 @@
                         "name": "3774. Deputy John Connolly asked the Minister for Health the current waiting time for a first outpatient gynaecology appointment at University Hospital Galway; the number of patients currently awaiting such appointments; the measures being taken to reduce waiting lists for gynaecology services in Galway and the HSE west and north-west health region; whether additional consultant gynaecology resources are planned for the region; and if she will make a statement on the matter. [62767/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3774/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Services",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "339. Deputy John Connolly asked the Minister for Health the current MRI capacity in University Hospital Galway, including waiting times for scans, availability of equipment, and any plans to expand access to MRI services in the region (details supplied); and if she will make a statement on the matter. [44767/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/339/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
-                    "children": [
-                      {
-                        "name": "493. Deputy John Connolly asked the Minister for Health for an update on the progression of the implementation of masterplan for University Hospital Galway; and if she will make a statement on the matter. [50565/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/493/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
-                    "children": [
-                      {
-                        "name": "226. Deputy John Connolly asked the Minister for Health for an update on the establishment of a planned trauma care service at Merlin Park University Hospital; and if she will make a statement on the matter. [52089/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/226/"
                       }
                     ]
                   }
@@ -2521,6 +2618,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Primary Care Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1058. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically at the former T O’Higgins site on Seamus Quirke Road, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74177/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1058/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2598,6 +2711,52 @@
                         "name": "580. Deputy John Connolly asked the Minister for Transport the complete list of licensed bus routes in County Galway. [63243/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/580/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "328. Deputy John Connolly asked the Minister for Transport the progress made to date on the provision of new bus stops and shelters under the BusConnects Galway programme; the forthcoming stages of implementation; the expected timelines for those stages; the estimated completion date for delivery; the estimated cost range attributable to this element of the programme; the number of new bus stops and shelters proposed under the programme in Galway; whether the NTA intend to continue to fund the Bus Stop Enhancement Programme; and if he will make a statement on the matter. [74228/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/328/"
+                      },
+                      {
+                        "name": "332. Deputy John Connolly asked the Minister for Transport the progress made to date on the roll-out of the new bus livery under the BusConnects Galway programme; the forthcoming stages of implementation; the expected timelines for those stages; the estimated completion date for the rollout; the estimated cost range attributable to this element of the programme; when to expect the first deliveries of the new livery and when should this be completed; how will the new livery compare to the current and if he will make a statement on the matter. [74225/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/332/"
+                      },
+                      {
+                        "name": "334. Deputy John Connolly asked the Minister for Transport the progress made to date on the introduction of a simplified fare structure under the BusConnects Galway programme; the forthcoming stages of implementation; the expected timelines for those stages; the estimated completion date for implementation; the estimated cost range attributable to this element of the programme; what should be expected as part of the implementation of the simplified fare structure; and if he will make a statement on the matter. [74224/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/334/"
+                      },
+                      {
+                        "name": "340. Deputy John Connolly asked the Minister for Transport the progress made to date on the implementation of the new ticketing system under the BusConnects Galway programme; the forthcoming stages of the programme; the expected timelines for those stages; the estimated completion date for implementation; the estimated cost range attributable to this element of the programme; what exactly will be included in the new state-of-the-art ticketing system; and if he will make a statement on the matter. [74223/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/340/"
+                      },
+                      {
+                        "name": "341. Deputy John Connolly asked the Minister for Transport the progress made to date on the BusConnects Galway programme; the forthcoming stages of the programme; the expected timelines for those stages; the estimated cost range of the Programme; and if he will make a statement on the matter. [74208/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/341/"
+                      },
+                      {
+                        "name": "342. Deputy John Connolly asked the Minister for Transport the progress made to date on the cross-city link scheme under the BusConnects Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the project; the estimated cost range attributable to the project; and if he will make a statement on the matter. [74222/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/342/"
+                      },
+                      {
+                        "name": "343. Deputy John Connolly asked the Minister for Transport the progress made to date on the Dublin Road Project under the BusConnects Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; whether he expects the project to be included in the forthcoming NTA Capital Plan; the estimated completion date for the project; the estimated cost range attributable to the project; and if he will make a statement on the matter. [74221/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/343/"
+                      },
+                      {
+                        "name": "344. Deputy John Connolly asked the Minister for Transport the progress made to date on the implementation of the redesigned bus network and associated timetable changes under the BusConnects Galway programme; the forthcoming stages of the programme; the expected timelines for those stages; the estimated completion date for implementation; the estimated cost range attributable to this element of the programme; and if he will make a statement on the matter. [74220/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/344/"
                       }
                     ]
                   },
@@ -2827,6 +2986,27 @@
                     ]
                   },
                   {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "319. Deputy John Connolly asked the Minister for Transport the progress made to date on the Ceannt Station redevelopment project; the forthcoming stages of the project; the expected timelines for those stages; the estimated timeline for completion and cost range attributable to the redevelopment; and if he will make a statement on the matter. [74230/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/319/"
+                      },
+                      {
+                        "name": "320. Deputy John Connolly asked the Minister for Transport the progress made to date on the Oranmore Station Redevelopment and Passing Loop project; the forthcoming stages of the project; the expected timelines for those stages; the estimated completion date and cost range attributable to the project; and if he will make a statement on the matter. [74231/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/320/"
+                      },
+                      {
+                        "name": "322. Deputy John Connolly asked the Minister for Transport the progress made to date on the Galway–Athenry railway line double tracking project; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated cost range attributable to the project; and if he will make a statement on the matter. [74233/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/322/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Tuesday, 24 March",
                     "date_iso": "2026-03-24",
                     "children": [
@@ -2920,6 +3100,124 @@
                         "name": "25. Deputy John Connolly asked the Minister for Transport the actions taken by Iarnród Éireann in response to complaints regarding overcrowding and passenger safety on the morning Oranmore to Galway rail service since 2024; the number of complaints received concerning overcrowding on the service; whether a passenger capacity and safety assessment has been undertaken for the 8.00 a.m. Oranmore to Galway service; the current passenger capacity and average passenger numbers on that service; the measures being considered to increase capacity in the short term, including the provision of additional carriages (details supplied). [67663/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-23/25/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "323. Deputy John Connolly asked the Minister for Transport to provide an update on the N6 Galway City Ring Road; the progress achieved to date; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [21882/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/323/"
+                      },
+                      {
+                        "name": "324. Deputy John Connolly asked the Minister for Transport for an update on the N59 Clifden to Maam Cross scheme; the progress to date; the forthcoming lifecycle stages; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [21883/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/324/"
+                      },
+                      {
+                        "name": "325. Deputy John Connolly asked the Minister for Transport to report on the Claregalway Bypass Relief Road Programme; the progress made to date; the next stages in the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [21884/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/325/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "194. Deputy John Connolly asked the Minister for Transport for an update on the upgrade of the N59 between Oughterard and Bunakill; and if he will make a statement on the matter. [51068/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/194/"
+                      },
+                      {
+                        "name": "195. Deputy John Connolly asked the Minister for Transport for an update on the upgrade of the N59 between Maam Cross and Clifden; and if he will make a statement on the matter. [51069/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/195/"
+                      },
+                      {
+                        "name": "223. Deputy John Connolly asked the Minister for Transport for an update on the development of the M20 Cork-Limerick Motorway; and if he will make a statement on the matter. [51700/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/223/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "330. Deputy John Connolly asked the Minister for Transport to report on the Claregalway Bypass Relief Road Programme; the progress made to date; the next stages in the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [74218/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/330/"
+                      },
+                      {
+                        "name": "331. Deputy John Connolly asked the Minister for Transport for an update on the N59 Clifden to Maam Cross scheme; the progress to date; the forthcoming lifecycle stages; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [74217/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/331/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "316. Deputy John Connolly asked the Minister for Transport the resources provided to Galway County Council in 2026 for the development of the route of the Claregalway Relief Road; and if he will make a statement on the matter. [3540/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/316/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 March",
+                    "date_iso": "2026-03-05",
+                    "children": [
+                      {
+                        "name": "288. Deputy John Connolly asked the Minister for Transport for an update on the proposed park and ride facilities to be developed in Galway on the N6 national primary road next to Junction 19, approximately 550 spaces and at the N83 national primary road, just north of Claregalway approximately 320 spaces; the status of the accompanying development of the bus priority measures along both the N6 and N83; and if he will make a statement on the matter. [18068/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/288/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "865. Deputy John Connolly asked the Minister for Transport the steps being taken by his Department, in collaboration with Galway County Council and the Department of Rural and Community Development and the Gaeltacht to support the refurbishment and ongoing maintenance of roads on Inis Oírr, County Galway; and if he will make a statement on the matter. [27072/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/865/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "219. Deputy John Connolly asked the Minister for Transport for an update on the development of the Galway city ring road; and if he will make a statement on the matter. [50568/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/219/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "299. Deputy John Connolly asked the Minister for Transport to report on the Claregalway Bypass Relief Road Programme; the progress made to date; the next stages in the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [65406/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/299/"
                       }
                     ]
                   }
@@ -3024,106 +3322,15 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/304/"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "323. Deputy John Connolly asked the Minister for Transport to provide an update on the N6 Galway City Ring Road; the progress achieved to date; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [21882/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/323/"
-                      },
-                      {
-                        "name": "324. Deputy John Connolly asked the Minister for Transport for an update on the N59 Clifden to Maam Cross scheme; the progress to date; the forthcoming lifecycle stages; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [21883/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/324/"
-                      },
-                      {
-                        "name": "325. Deputy John Connolly asked the Minister for Transport to report on the Claregalway Bypass Relief Road Programme; the progress made to date; the next stages in the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [21884/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/325/"
-                      }
-                    ]
                   },
                   {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
                     "children": [
                       {
-                        "name": "194. Deputy John Connolly asked the Minister for Transport for an update on the upgrade of the N59 between Oughterard and Bunakill; and if he will make a statement on the matter. [51068/26]",
+                        "name": "310. Deputy John Connolly asked the Minister for Transport his plans to expand the Bus Éireann route 419 that serves Galway to Clifden via Oughterard. [73938/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/194/"
-                      },
-                      {
-                        "name": "195. Deputy John Connolly asked the Minister for Transport for an update on the upgrade of the N59 between Maam Cross and Clifden; and if he will make a statement on the matter. [51069/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/195/"
-                      },
-                      {
-                        "name": "223. Deputy John Connolly asked the Minister for Transport for an update on the development of the M20 Cork-Limerick Motorway; and if he will make a statement on the matter. [51700/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/223/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "316. Deputy John Connolly asked the Minister for Transport the resources provided to Galway County Council in 2026 for the development of the route of the Claregalway Relief Road; and if he will make a statement on the matter. [3540/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/316/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 March",
-                    "date_iso": "2026-03-05",
-                    "children": [
-                      {
-                        "name": "288. Deputy John Connolly asked the Minister for Transport for an update on the proposed park and ride facilities to be developed in Galway on the N6 national primary road next to Junction 19, approximately 550 spaces and at the N83 national primary road, just north of Claregalway approximately 320 spaces; the status of the accompanying development of the bus priority measures along both the N6 and N83; and if he will make a statement on the matter. [18068/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/288/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "865. Deputy John Connolly asked the Minister for Transport the steps being taken by his Department, in collaboration with Galway County Council and the Department of Rural and Community Development and the Gaeltacht to support the refurbishment and ongoing maintenance of roads on Inis Oírr, County Galway; and if he will make a statement on the matter. [27072/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/865/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
-                    "children": [
-                      {
-                        "name": "219. Deputy John Connolly asked the Minister for Transport for an update on the development of the Galway city ring road; and if he will make a statement on the matter. [50568/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/219/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "299. Deputy John Connolly asked the Minister for Transport to report on the Claregalway Bypass Relief Road Programme; the progress made to date; the next stages in the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [65406/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/299/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/310/"
                       }
                     ]
                   }
@@ -3211,6 +3418,47 @@
                         "name": "284. Deputy John Connolly asked the Minister for Transport if it remains the intention that the National Transport Authority's capital investment plan to 2030 will be published before the end of 2026; if he will confirm whether the BusConnects Galway Dublin Road Scheme is expected to be included within that plan; and if he will provide an update on the current status of the scheme, including progress on compulsory purchase procedures, the appointment of engineering consultants for detailed design works, and the anticipated timelines for the commencement of construction and completion of the project. [72997/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/284/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Park-and-Ride Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "333. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N59 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74214/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/333/"
+                      },
+                      {
+                        "name": "335. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N84 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74213/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/335/"
+                      },
+                      {
+                        "name": "336. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility at Oranmore Train Station under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74212/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/336/"
+                      },
+                      {
+                        "name": "337. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N83 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74211/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/337/"
+                      },
+                      {
+                        "name": "338. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N6 corridor (Junction 19 of the N6) under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74210/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/338/"
+                      },
+                      {
+                        "name": "339. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the R336 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74209/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/339/"
                       }
                     ]
                   }
@@ -3644,6 +3892,22 @@
                         "name": "119. Deputy John Connolly asked the Minister for Transport the increase in existing services and the establishment of new services arising from the additional funding provided in Budget 2026, including €940 million for PSO and TFI Local Link services and €31 million for rural transport services for County Galway; and to provide for each service, the route number, nature of the enhancement or new service, additional funding allocated, expected commencement date and estimated increase in passenger capacity, in tabular form. [71150/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-08/119/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "327. Deputy John Connolly asked the Minister for Transport the progress made to date on the N6 Galway City Ring Road project; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated cost range of the project; and if he will make a statement on the matter. [74229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/327/"
                       }
                     ]
                   }
@@ -5948,6 +6212,262 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "400. Deputy John Connolly asked the Minister for Culture, Communications and Sport whether a company (details supplied) continues to benefit from funding provided by his Department; and if he will make a statement on the matter. [47776/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/400/"
+                      },
+                      {
+                        "name": "401. Deputy John Connolly asked the Minister for Culture, Communications and Sport the level of funding provided by his Department to a company (details supplied) in each of the years 2022, 2023, 2024 and 2025; the organ or precise source within his Department that provided the funding; the purpose of the funding; and if he will make a statement on the matter. [47777/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/401/"
+                      },
+                      {
+                        "name": "402. Deputy John Connolly asked the Minister for Culture, Communications and Sport if his Department has a direct role in the Governance structure of a company (details supplied) or in the general governance or oversight of the company; and if he will make a statement on the matter. [47778/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/402/"
+                      },
+                      {
+                        "name": "403. Deputy John Connolly asked the Minister for Culture, Communications and Sport if a company (details supplied) shared their intention to expend €1 million resourced by his Department on projects that mark the legacy of Galway European Capital of Culture 2020; and if he will make a statement on the matter. [47779/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/403/"
+                      },
+                      {
+                        "name": "404. Deputy John Connolly asked the Minister for Culture, Communications and Sport if a company (details supplied) shared with his Department any proposal for change of the ownership structure of governance structure of the company; and if he will make a statement on the matter. [47780/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/404/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "152. Deputy John Connolly asked the Minister for Culture, Communications and Sport if his Department will consider providing special additional funding support to a festival (details supplied), which will celebrate the unique milestone of 30 years in existence in 2026; and if he will make a statement on the matter. [4130/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/152/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 26 February",
+                    "date_iso": "2026-02-26",
+                    "children": [
+                      {
+                        "name": "364. Deputy John Connolly asked the Minister for Culture, Communications and Sport to provide the full list of grants provided per project, including the detail of where top-up funding was provided, under the Large-Scale Sports Infrastructure Fund, in tabular form; and if he will make a statement on the matter. [16060/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/364/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "392. Deputy John Connolly asked the Minister for Culture, Communications and Sport when the next round of the Sports Capital Programme will open for applications; and if he will make a statement on the matter. [46988/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/392/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 2 July",
+                    "date_iso": "2026-07-02",
+                    "children": [
+                      {
+                        "name": "327. Deputy John Connolly asked the Minister for Culture, Communications and Sport for an evaluation undertaken within his Department of the impact of the large scale sports infrastructure funding; and if he will make a statement on the matter. [50601/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/327/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 15 October",
+                    "date_iso": "2026-10-15",
+                    "children": [
+                      {
+                        "name": "480. Deputy John Connolly asked the Minister for Culture, Communications and Sport if he will consider an extension to the deadline to register with the SPRAOI system. [73262/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/480/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sport and Recreational Development",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "601. Deputy John Connolly asked the Minister for Culture, Communications and Sport if his Department has reviewed the unsuccessful applications of the second round of the LSSIF, which commenced in April 2024; if his Department has prepared a LSSIF reserve list; if further opportunities will be provided to fund these applications; and if he will make a statement on the matter. [14316/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/601/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "50. Deputy John Connolly asked the Minister for Culture, Communications and Sport given the Government’s commitment to promote the uptake of sport and physical activity by all citizens, if he will undertake a review of the available outdoor recreational spaces in urban areas; and if he will make a statement on the matter. [33412/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/50/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "182. Deputy John Connolly asked the Minister for Culture, Communications and Sport for an update on the support the Government is providing for the redevelopment of a stadium (details supplied). [4129/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/182/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Telecommunications Infrastructure",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "158. Deputy John Connolly asked the Minister for Culture, Communications and Sport the efforts undertaken since Storm Éowyn to increase the resilience of mobile infrastructure; and if he will make a statement on the matter. [16269/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/158/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "180. Deputy John Connolly asked the Minister for Culture, Communications and Sport whether a further opportunity to apply for large-scale sports infrastructure funding will be open to sporting organisations in 2026; if so, the level of funding that will be available; the criteria for applications; and if he will make a statement on the matter. [16268/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/180/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dental Services ",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "981. Deputy John Connolly asked the Minister for Culture, Communications and Sport the number of consultant orthodontists and specialist orthodontists currently working in the public dental service in each RHA; the number of whole-time equivalent posts in each RHA; the number of vacancies and posts filled on a temporary or agency basis; the current waiting list for orthodontic assessment and treatment in each RHA; and if he will make a statement on the matter. [20696/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/981/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "982. Deputy John Connolly asked the Minister for Culture, Communications and Sport the position regarding a project (details supplied); the progress made to date; the expected timelines for completion; and the estimated cost range for the project; and if he will make a statement on the matter. [20696/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/982/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Culture Policy",
+                "children": [
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "51. Deputy John Connolly asked the Minister for Culture, Communications and Sport to report on the work of the night-time economy advisor for Galway city. [33413/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/51/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artists' Remuneration",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "582. Deputy John Connolly asked the Minister for Culture, Communications and Sport the data collected as part of the administration and evaluation of the basic income for the arts scheme relating to survey questions on whether the provision of venues and facilities in the place in which recipients live and work impacts on their artistic practice, disaggregated by county (details supplied); if he is able to share the data collected by scheme recipients in Galway city and environs, in tabular form; and if he will make a statement on the matter. [37624/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/582/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "140. Deputy John Connolly asked the Minister for Culture, Communications and Sport the measures being considered by his Department to recognise the 50th anniversary of the first Galway Arts Festival; and his plans to support the organisation of special commemorative events as part of the festival in 2027. [68872/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/140/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -6409,246 +6929,6 @@
                         "name": "771. Deputy John Connolly asked the Minister for Social Protection when the €1,270 annual income exemption for seaweed harvesting under Article 152 of S.I. No. 142 of 2007 was last reviewed; if his Department has examined the impact of this threshold on recipients of jobseeker's allowance in coastal communities; and if he will amend the regulations to increase the exemption in recognition of inflation and the importance of traditional seaweed harvesting as a supplementary income source in coastal communities. [65259/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/771/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "400. Deputy John Connolly asked the Minister for Culture, Communications and Sport whether a company (details supplied) continues to benefit from funding provided by his Department; and if he will make a statement on the matter. [47776/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/400/"
-                      },
-                      {
-                        "name": "401. Deputy John Connolly asked the Minister for Culture, Communications and Sport the level of funding provided by his Department to a company (details supplied) in each of the years 2022, 2023, 2024 and 2025; the organ or precise source within his Department that provided the funding; the purpose of the funding; and if he will make a statement on the matter. [47777/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/401/"
-                      },
-                      {
-                        "name": "402. Deputy John Connolly asked the Minister for Culture, Communications and Sport if his Department has a direct role in the Governance structure of a company (details supplied) or in the general governance or oversight of the company; and if he will make a statement on the matter. [47778/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/402/"
-                      },
-                      {
-                        "name": "403. Deputy John Connolly asked the Minister for Culture, Communications and Sport if a company (details supplied) shared their intention to expend €1 million resourced by his Department on projects that mark the legacy of Galway European Capital of Culture 2020; and if he will make a statement on the matter. [47779/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/403/"
-                      },
-                      {
-                        "name": "404. Deputy John Connolly asked the Minister for Culture, Communications and Sport if a company (details supplied) shared with his Department any proposal for change of the ownership structure of governance structure of the company; and if he will make a statement on the matter. [47780/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/404/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "152. Deputy John Connolly asked the Minister for Culture, Communications and Sport if his Department will consider providing special additional funding support to a festival (details supplied), which will celebrate the unique milestone of 30 years in existence in 2026; and if he will make a statement on the matter. [4130/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/152/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 26 February",
-                    "date_iso": "2026-02-26",
-                    "children": [
-                      {
-                        "name": "364. Deputy John Connolly asked the Minister for Culture, Communications and Sport to provide the full list of grants provided per project, including the detail of where top-up funding was provided, under the Large-Scale Sports Infrastructure Fund, in tabular form; and if he will make a statement on the matter. [16060/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-26/364/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 23 June",
-                    "date_iso": "2026-06-23",
-                    "children": [
-                      {
-                        "name": "392. Deputy John Connolly asked the Minister for Culture, Communications and Sport when the next round of the Sports Capital Programme will open for applications; and if he will make a statement on the matter. [46988/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/392/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 2 July",
-                    "date_iso": "2026-07-02",
-                    "children": [
-                      {
-                        "name": "327. Deputy John Connolly asked the Minister for Culture, Communications and Sport for an evaluation undertaken within his Department of the impact of the large scale sports infrastructure funding; and if he will make a statement on the matter. [50601/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-02/327/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 15 October",
-                    "date_iso": "2026-10-15",
-                    "children": [
-                      {
-                        "name": "480. Deputy John Connolly asked the Minister for Culture, Communications and Sport if he will consider an extension to the deadline to register with the SPRAOI system. [73262/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/480/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sport and Recreational Development",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "601. Deputy John Connolly asked the Minister for Culture, Communications and Sport if his Department has reviewed the unsuccessful applications of the second round of the LSSIF, which commenced in April 2024; if his Department has prepared a LSSIF reserve list; if further opportunities will be provided to fund these applications; and if he will make a statement on the matter. [14316/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/601/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "50. Deputy John Connolly asked the Minister for Culture, Communications and Sport given the Government’s commitment to promote the uptake of sport and physical activity by all citizens, if he will undertake a review of the available outdoor recreational spaces in urban areas; and if he will make a statement on the matter. [33412/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/50/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Facilities",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "182. Deputy John Connolly asked the Minister for Culture, Communications and Sport for an update on the support the Government is providing for the redevelopment of a stadium (details supplied). [4129/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/182/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Telecommunications Infrastructure",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "158. Deputy John Connolly asked the Minister for Culture, Communications and Sport the efforts undertaken since Storm Éowyn to increase the resilience of mobile infrastructure; and if he will make a statement on the matter. [16269/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/158/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "180. Deputy John Connolly asked the Minister for Culture, Communications and Sport whether a further opportunity to apply for large-scale sports infrastructure funding will be open to sporting organisations in 2026; if so, the level of funding that will be available; the criteria for applications; and if he will make a statement on the matter. [16268/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/180/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dental Services ",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "981. Deputy John Connolly asked the Minister for Culture, Communications and Sport the number of consultant orthodontists and specialist orthodontists currently working in the public dental service in each RHA; the number of whole-time equivalent posts in each RHA; the number of vacancies and posts filled on a temporary or agency basis; the current waiting list for orthodontic assessment and treatment in each RHA; and if he will make a statement on the matter. [20696/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/981/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Expenditure",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "982. Deputy John Connolly asked the Minister for Culture, Communications and Sport the position regarding a project (details supplied); the progress made to date; the expected timelines for completion; and the estimated cost range for the project; and if he will make a statement on the matter. [20696/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/982/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Culture Policy",
-                "children": [
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "51. Deputy John Connolly asked the Minister for Culture, Communications and Sport to report on the work of the night-time economy advisor for Galway city. [33413/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/51/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Artists' Remuneration",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "582. Deputy John Connolly asked the Minister for Culture, Communications and Sport the data collected as part of the administration and evaluation of the basic income for the arts scheme relating to survey questions on whether the provision of venues and facilities in the place in which recipients live and work impacts on their artistic practice, disaggregated by county (details supplied); if he is able to share the data collected by scheme recipients in Galway city and environs, in tabular form; and if he will make a statement on the matter. [37624/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/582/"
                       }
                     ]
                   }
@@ -13581,6 +13861,321 @@
           "question": "42. Deputy John Connolly asked the Taoiseach when the Cabinet committee on children and education will meet next. [64284/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/42/",
           "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 140,
+          "department": "Culture",
+          "heading": "Departmental Policies",
+          "question": "140. Deputy John Connolly asked the Minister for Culture, Communications and Sport the measures being considered by his Department to recognise the 50th anniversary of the first Galway Arts Festival; and his plans to support the organisation of special commemorative events as part of the festival in 2027. [68872/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/140/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 310,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "310. Deputy John Connolly asked the Minister for Transport his plans to expand the Bus Éireann route 419 that serves Galway to Clifden via Oughterard. [73938/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/310/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 319,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "319. Deputy John Connolly asked the Minister for Transport the progress made to date on the Ceannt Station redevelopment project; the forthcoming stages of the project; the expected timelines for those stages; the estimated timeline for completion and cost range attributable to the redevelopment; and if he will make a statement on the matter. [74230/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/319/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 320,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "320. Deputy John Connolly asked the Minister for Transport the progress made to date on the Oranmore Station Redevelopment and Passing Loop project; the forthcoming stages of the project; the expected timelines for those stages; the estimated completion date and cost range attributable to the project; and if he will make a statement on the matter. [74231/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/320/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 322,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "322. Deputy John Connolly asked the Minister for Transport the progress made to date on the Galway–Athenry railway line double tracking project; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated cost range attributable to the project; and if he will make a statement on the matter. [74233/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/322/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 327,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "327. Deputy John Connolly asked the Minister for Transport the progress made to date on the N6 Galway City Ring Road project; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated cost range of the project; and if he will make a statement on the matter. [74229/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/327/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 328,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "328. Deputy John Connolly asked the Minister for Transport the progress made to date on the provision of new bus stops and shelters under the BusConnects Galway programme; the forthcoming stages of implementation; the expected timelines for those stages; the estimated completion date for delivery; the estimated cost range attributable to this element of the programme; the number of new bus stops and shelters proposed under the programme in Galway; whether the NTA intend to continue to fund the Bus Stop Enhancement Programme; and if he will make a statement on the matter. [74228/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/328/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 330,
+          "department": "Transport",
+          "heading": "Road Projects",
+          "question": "330. Deputy John Connolly asked the Minister for Transport to report on the Claregalway Bypass Relief Road Programme; the progress made to date; the next stages in the project lifecycle; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [74218/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/330/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 331,
+          "department": "Transport",
+          "heading": "Road Projects",
+          "question": "331. Deputy John Connolly asked the Minister for Transport for an update on the N59 Clifden to Maam Cross scheme; the progress to date; the forthcoming lifecycle stages; the expected timelines for those stages; the estimated cost range; and if he will make a statement on the matter. [74217/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/331/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 332,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "332. Deputy John Connolly asked the Minister for Transport the progress made to date on the roll-out of the new bus livery under the BusConnects Galway programme; the forthcoming stages of implementation; the expected timelines for those stages; the estimated completion date for the rollout; the estimated cost range attributable to this element of the programme; when to expect the first deliveries of the new livery and when should this be completed; how will the new livery compare to the current and if he will make a statement on the matter. [74225/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/332/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 333,
+          "department": "Transport",
+          "heading": "Park-and-Ride Facilities",
+          "question": "333. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N59 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74214/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/333/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 334,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "334. Deputy John Connolly asked the Minister for Transport the progress made to date on the introduction of a simplified fare structure under the BusConnects Galway programme; the forthcoming stages of implementation; the expected timelines for those stages; the estimated completion date for implementation; the estimated cost range attributable to this element of the programme; what should be expected as part of the implementation of the simplified fare structure; and if he will make a statement on the matter. [74224/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/334/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 335,
+          "department": "Transport",
+          "heading": "Park-and-Ride Facilities",
+          "question": "335. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N84 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74213/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/335/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 336,
+          "department": "Transport",
+          "heading": "Park-and-Ride Facilities",
+          "question": "336. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility at Oranmore Train Station under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74212/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/336/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 337,
+          "department": "Transport",
+          "heading": "Park-and-Ride Facilities",
+          "question": "337. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N83 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74211/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/337/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 338,
+          "department": "Transport",
+          "heading": "Park-and-Ride Facilities",
+          "question": "338. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the N6 corridor (Junction 19 of the N6) under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74210/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/338/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 339,
+          "department": "Transport",
+          "heading": "Park-and-Ride Facilities",
+          "question": "339. Deputy John Connolly asked the Minister for Transport the progress made to date on the proposed park and ride facility on the R336 corridor under the Park and Ride Strategy Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the facility; the estimated cost range attributable to the project; the number of parking spaces envisaged as part of the facility; and if he will make a statement on the matter. [74209/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/339/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 340,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "340. Deputy John Connolly asked the Minister for Transport the progress made to date on the implementation of the new ticketing system under the BusConnects Galway programme; the forthcoming stages of the programme; the expected timelines for those stages; the estimated completion date for implementation; the estimated cost range attributable to this element of the programme; what exactly will be included in the new state-of-the-art ticketing system; and if he will make a statement on the matter. [74223/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/340/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 341,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "341. Deputy John Connolly asked the Minister for Transport the progress made to date on the BusConnects Galway programme; the forthcoming stages of the programme; the expected timelines for those stages; the estimated cost range of the Programme; and if he will make a statement on the matter. [74208/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/341/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 342,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "342. Deputy John Connolly asked the Minister for Transport the progress made to date on the cross-city link scheme under the BusConnects Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; the estimated completion date for the project; the estimated cost range attributable to the project; and if he will make a statement on the matter. [74222/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/342/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 343,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "343. Deputy John Connolly asked the Minister for Transport the progress made to date on the Dublin Road Project under the BusConnects Galway programme; the forthcoming stages of the project lifecycle; the expected timelines for those stages; whether he expects the project to be included in the forthcoming NTA Capital Plan; the estimated completion date for the project; the estimated cost range attributable to the project; and if he will make a statement on the matter. [74221/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/343/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 344,
+          "department": "Transport",
+          "heading": "Bus Services",
+          "question": "344. Deputy John Connolly asked the Minister for Transport the progress made to date on the implementation of the redesigned bus network and associated timetable changes under the BusConnects Galway programme; the forthcoming stages of the programme; the expected timelines for those stages; the estimated completion date for implementation; the estimated cost range attributable to this element of the programme; and if he will make a statement on the matter. [74220/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/344/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1058,
+          "department": "Health",
+          "heading": "Primary Care Services",
+          "question": "1058. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically at the former T O’Higgins site on Seamus Quirke Road, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74177/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1058/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1059,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "1059. Deputy John Connolly asked the Minister for Health the progress made to date on the proposed new emergency department, critical care and surgical block at University Hospital Galway; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the project; and if she will make a statement on the matter. [74169/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1059/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1060,
+          "department": "Health",
+          "heading": "Primary Care Centres",
+          "question": "1060. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically an update on the progress made on the provision of a primary care centre in Oranmore, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74184/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1060/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1061,
+          "department": "Health",
+          "heading": "Primary Care Centres",
+          "question": "1061. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically an update on the progress made on the provision of a primary care centre in Claregalway, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74183/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1061/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1063,
+          "department": "Health",
+          "heading": "Primary Care Centres",
+          "question": "1063. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme to provide a primary care centre for South Connemara, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74182/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1063/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1064,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "1064. Deputy John Connolly asked the Minister for Health the progress made to date on the development of the two new ward blocks planned for university hospital Galway under phase 1 of the university hospital Galway development control plan (UHG DCP); the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the project and its individual elements; the works planned under each phase of the UHG DCP, including phase 1; and if she will make a statement on the matter. [74168/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1064/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1066,
+          "department": "Health",
+          "heading": "Primary Care Centres",
+          "question": "1066. Deputy John Connolly asked the Minister for Health the progress made to date under the Primary Care Centres Programme in Galway and surrounding areas, specifically at the former Aviva site in Knocknacarra which the HSE Capital Plan 2026 stated construction will commence at in 2026, forthcoming stages of programme delivery; the expected timelines for implementation; the estimated cost range for the programme; and if she will make a statement on the matter. [74181/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1066/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1067,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "1067. Deputy John Connolly asked the Minister for Health the progress made to date on the university hospital Galway development control plan; the forthcoming stages in the delivery of the overall development programme; the expected timelines associated with those stages; the estimated cost range of the project; and if she will make a statement on the matter. [74167/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1067/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1069,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "1069. Deputy John Connolly asked the Minister for Health if she could provide an update and timeline for publication on the ten-year capital plan for mental health. [74193/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1069/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1081,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "1081. Deputy John Connolly asked the Minister for Health the progress made to date on the proposed new helipad, ambulatory cancer centre and laboratory block at University Hospital Galway; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the project; and if she will make a statement on the matter. [74170/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1081/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1093,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "1093. Deputy John Connolly asked the Minister for Health the progress made to date on the proposed elective treatment centre at Merlin Park University Hospital; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range attributable to the project; and if she will make a statement on the matter. [74175/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1093/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1096,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "1096. Deputy John Connolly asked the Minister for Health the progress made to date on the delivery of the new surgical hub at Merlin Park University Hospital under the Elective Care Programme; the forthcoming stages of the project; the expected timelines for those stages; when the surgical hub will become operational; the estimated cost range attributable to the project; and if she will make a statement on the matter. [74173/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1096/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1097,
+          "department": "Health",
+          "heading": "Healthcare Infrastructure Provision",
+          "question": "1097. Deputy John Connolly asked the Minister for Health the progress made to date on the refurbishment of the maternity unit, paediatric unit and diagnostic services, together with improvements to transport routes, at University Hospital Galway; the forthcoming stages of the project; the expected timelines for delivery; the estimated cost range associated with the works; and if she will make a statement on the matter. [74171/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1097/",
+          "questionType": "written"
         }
       ]
     },

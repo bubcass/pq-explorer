@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Pa-Daly.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 1058,
+      "count": 1075,
       "headingOptions": [
         "Active Travel",
         "Agriculture Schemes",
@@ -109,6 +109,7 @@
         "Health Services Staff",
         "Health Services Waiting Lists",
         "Healthcare Infrastructure Provision",
+        "Healthcare Policy",
         "Home Care Packages",
         "Home Help Service",
         "Hospital Admissions",
@@ -166,6 +167,7 @@
         "Regional Airports",
         "Renewable Energy Generation",
         "Rental Sector",
+        "Residential Institutions",
         "Restorative Justice",
         "Revenue Commissioners",
         "Road Network",
@@ -708,7 +710,7 @@
               },
               {
                 "name": "Health Services",
-                "value": 16
+                "value": 17
               },
               {
                 "name": "Health Services Staff",
@@ -824,6 +826,10 @@
               },
               {
                 "name": "Primary Care Centres",
+                "value": 1
+              },
+              {
+                "name": "Healthcare Policy",
                 "value": 1
               }
             ]
@@ -958,72 +964,15 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Disability Services",
-                "value": 18
-              },
-              {
-                "name": "Disabilities Assessments",
-                "value": 11
-              },
-              {
-                "name": "Childcare Services",
-                "value": 3
-              },
-              {
-                "name": "Disability Issues",
-                "value": 3
-              },
-              {
-                "name": "Home Care Packages",
-                "value": 2
-              },
-              {
-                "name": "EU Directives",
-                "value": 2
-              },
-              {
-                "name": "Family Resource Centres",
-                "value": 1
-              },
-              {
-                "name": "Early Childhood Care and Education",
-                "value": 1
-              },
-              {
-                "name": "Departmental Bodies",
-                "value": 1
-              },
-              {
-                "name": "Care Services",
-                "value": 1
-              },
-              {
-                "name": "Climate Action Plan",
-                "value": 1
-              },
-              {
-                "name": "Vacant Properties",
-                "value": 1
-              },
-              {
-                "name": "Mother and Baby Homes",
-                "value": 1
-              },
-              {
-                "name": "Child Abuse",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Education",
             "children": [
               {
                 "name": "Special Educational Needs",
                 "value": 18
+              },
+              {
+                "name": "Residential Institutions",
+                "value": 7
               },
               {
                 "name": "Departmental Reports",
@@ -1104,15 +1053,76 @@
             ]
           },
           {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Services",
+                "value": 18
+              },
+              {
+                "name": "Disabilities Assessments",
+                "value": 11
+              },
+              {
+                "name": "Childcare Services",
+                "value": 3
+              },
+              {
+                "name": "Disability Issues",
+                "value": 3
+              },
+              {
+                "name": "Home Care Packages",
+                "value": 2
+              },
+              {
+                "name": "EU Directives",
+                "value": 2
+              },
+              {
+                "name": "Family Resource Centres",
+                "value": 1
+              },
+              {
+                "name": "Early Childhood Care and Education",
+                "value": 1
+              },
+              {
+                "name": "Departmental Bodies",
+                "value": 1
+              },
+              {
+                "name": "Care Services",
+                "value": 1
+              },
+              {
+                "name": "Climate Action Plan",
+                "value": 1
+              },
+              {
+                "name": "Vacant Properties",
+                "value": 1
+              },
+              {
+                "name": "Mother and Baby Homes",
+                "value": 1
+              },
+              {
+                "name": "Child Abuse",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
-                "name": "Tax Code",
-                "value": 9
+                "name": "Tax Data",
+                "value": 14
               },
               {
-                "name": "Tax Data",
-                "value": 8
+                "name": "Tax Code",
+                "value": 10
               },
               {
                 "name": "Tax Yield",
@@ -1467,44 +1477,11 @@
             ]
           },
           {
-            "name": "Further and Higher Education",
-            "children": [
-              {
-                "name": "Student Accommodation",
-                "value": 3
-              },
-              {
-                "name": "Apprenticeship Programmes",
-                "value": 3
-              },
-              {
-                "name": "Education Policy",
-                "value": 1
-              },
-              {
-                "name": "Third Level Fees",
-                "value": 1
-              },
-              {
-                "name": "Climate Action Plan",
-                "value": 1
-              },
-              {
-                "name": "Departmental Properties",
-                "value": 1
-              },
-              {
-                "name": "Disability Issues",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Enterprise",
             "children": [
               {
                 "name": "Data Centres",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Tourism Industry",
@@ -1532,6 +1509,39 @@
               },
               {
                 "name": "Departmental Meetings",
+                "value": 1
+              },
+              {
+                "name": "Disability Issues",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Further and Higher Education",
+            "children": [
+              {
+                "name": "Student Accommodation",
+                "value": 3
+              },
+              {
+                "name": "Apprenticeship Programmes",
+                "value": 3
+              },
+              {
+                "name": "Education Policy",
+                "value": 1
+              },
+              {
+                "name": "Third Level Fees",
+                "value": 1
+              },
+              {
+                "name": "Climate Action Plan",
+                "value": 1
+              },
+              {
+                "name": "Departmental Properties",
                 "value": 1
               },
               {
@@ -7137,6 +7147,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-07/296/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1030. Deputy Pa Daly asked the Minister for Health further to commitments made to survivors of Industrial and Reformatory Schools, when the promised health supports and services will be operational; the nature of those services; and if a dedicated point of contact has been established for survivors seeking assistance. [74459/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1030/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -8254,6 +8275,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Healthcare Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "1028. Deputy Pa Daly asked the Minister for Health the measures that have been taken to provide nursing home support for survivors of Industrial and Reformatory Schools under the agreement concluded on 10 November 2025; the number of survivors who have benefited from such measures to date; and if she will make a statement on the matter. [74460/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1028/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -9012,6 +9049,563 @@
             ]
           },
           {
+            "name": "Education",
+            "children": [
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "300. Deputy Pa Daly asked the Minister for Education and Youth the criteria used to determine which special schools are included in the Special Education Therapy Service; and if she will make a statement on the matter. [21328/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/300/"
+                      },
+                      {
+                        "name": "301. Deputy Pa Daly asked the Minister for Education and Youth the reason a school (details supplied) was not selected for inclusion in the Special Education Therapy Service; whether consideration will be given to extending the service to the school; and if she will make a statement on the matter. [21329/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/301/"
+                      },
+                      {
+                        "name": "302. Deputy Pa Daly asked the Minister for Education and Youth if she is aware of the financial burden placed on families whose children cannot access therapy services through the Special Education Therapy Service or Children’s Disability Network Teams and are therefore required to access therapy privately; and if she will make a statement on the matter. [21330/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/302/"
+                      },
+                      {
+                        "name": "303. Deputy Pa Daly asked the Minister for Education and Youth whether her Department has assessed the cost impact on families who must access private therapy services for their children due to a lack of available State-provided therapies, where sessions can cost approximately €90 per session; and if she will make a statement on the matter. [21331/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/303/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "490. Deputy Pa Daly asked the Minister for Education and Youth the measures she is taking to sanction more early intervention classes in Kerry; the number that will be available in September 2026; the number of places that will be available in total; the number of places that will be available for new students; and if she will make a statement on the matter. [21649/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/490/"
+                      },
+                      {
+                        "name": "491. Deputy Pa Daly asked the Minister for Education and Youth the measures she is taking to sanction more special education classes in Kerry; the number that will be available in September 2026; the number of places that will be available in total; the number of places that will be available for new students; and if she will make a statement on the matter. [21650/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/491/"
+                      },
+                      {
+                        "name": "550. Deputy Pa Daly asked the Minister for Education and Youth further to Parliamentary Question No. 716 of 18 March 2026, if further details will be provided specifically on the number of specialised reading classes currently in operation in north Kerry for children with dyslexia and other literacy-related special educational needs; the number of children currently awaiting access to such supports; the timeline for the provision of additional classes in the area; and if she will make a statement on the matter. [22409/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/550/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 28 May",
+                    "date_iso": "2026-05-28",
+                    "children": [
+                      {
+                        "name": "369. Deputy Pa Daly asked the Minister for Education and Youth the number of special education classes in each of the years 2020 to date, broken down by county, in tabular form. [41396/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/369/"
+                      },
+                      {
+                        "name": "370. Deputy Pa Daly asked the Minister for Education and Youth the number of SNAS in each of the years 2020 to date, broken down by county, in tabular form. [41397/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/370/"
+                      },
+                      {
+                        "name": "371. Deputy Pa Daly asked the Minister for Education and Youth the number of early intervention classes in each of the years 2020 to date, broken down by county, in tabular form.; and if she will make a statement on the matter. [41398/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/371/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1265. Deputy Pa Daly asked the Minister for Education and Youth to provide a breakdown of the number of special education places available in Kerry; the demand for special educational needs places in Kerry; the number of special education classes sanctioned in Kerry in each of the years 2020 to date and for the school year 2026-2027, in tabular form. [56835/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1265/"
+                      },
+                      {
+                        "name": "1266. Deputy Pa Daly asked the Minister for Education and Youth the number of special needs assistants and special class places allocated to schools in County Kerry in each of the past five years. [56836/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1266/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 14 January",
+                    "date_iso": "2026-01-14",
+                    "children": [
+                      {
+                        "name": "68. Deputy Pa Daly asked the Minister for Education and Youth if the number of reading classes in County Kerry that will be increased (details supplied); and if she will make a statement on the matter. [2816/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/68/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "154. Deputy Pa Daly asked the Minister for Education and Youth if she will approve a second special education class for a school (details supplied) for the academic year 2026-2027; and if she will make a statement on the matter. [10478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/154/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "716. Deputy Pa Daly asked the Minister for Education and Youth when additional reading classes will be made available in schools, particularly in North Kerry, for children with severe dyslexia and literacy challenges; the number of reading classes currently in operation in the area; whether her Department is aware of children waiting for places; and if she will make a statement on the matter. [18954/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/716/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1357. Deputy Pa Daly asked the Minister for Education and Youth if she is aware that existing fuel and travel allowance arrangements are not meeting the actual costs incurred by travelling special education teachers (SETs) required to work across multiple school settings; if she will review same; the measures being considered to ensure that teachers are not required to subsidise work-related travel costs; and if she will make a statement on the matter. [25198/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1357/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "121. Deputy Pa Daly asked the Minister for Education and Youth if she will provide an update on the application for a second special class at a school (details supplied); if approval will be granted for same; if not, the reasons for the decision given the concerns raised locally regarding the availability of special class places in the area; and if she will make a statement on the matter. [37964/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/121/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "478. Deputy Pa Daly asked the Minister for Education and Youth if she will sanction an autism unit at a school (details supplied); and if she will make a statement on the matter. [45496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/478/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Residential Institutions",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "495. Deputy Pa Daly asked the Minister for Education and Youth the engagement that has taken place with survivor groups regarding implementation of the agreement reached on 10 November 2025; the frequency of updates being provided; and if she will publish a progress report on delivery of the commitments. [74461/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/495/"
+                      },
+                      {
+                        "name": "499. Deputy Pa Daly asked the Minister for Education and Youth further to commitments made to survivors of Industrial and Reformatory Schools, when the promised health supports and services will be operational; the nature of those services; and if a dedicated point of contact has been established for survivors seeking assistance. [74457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/499/"
+                      },
+                      {
+                        "name": "503. Deputy Pa Daly asked the Minister for Education and Youth the Department, agency or named official that has responsibility for overseeing and ensuring delivery of the commitments agreed with survivors of Industrial and Reformatory Schools on 10 November 2025; and the governance structures that have been put in place to monitor progress. [74454/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/503/"
+                      },
+                      {
+                        "name": "504. Deputy Pa Daly asked the Minister for Education and Youth the projected implementation dates for each outstanding measure contained in the agreement reached with survivors of Industrial and Reformatory Schools; and if she will provide a detailed schedule for delivery. [74453/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/504/"
+                      },
+                      {
+                        "name": "506. Deputy Pa Daly asked the Minister for Education and Youth the current status of the supports package agreed with survivors of Industrial and Reformatory Schools following the agreement signed by the Taoiseach on 10 November 2025; the elements of the package that have been delivered to date; the elements that remain outstanding; the reasons for the delays in implementing the commitments contained in the agreement; the specific obstacles that have arisen; if she will provide a revised timeline for delivery of all outstanding commitments; and if she will make a statement on the matter. [74452/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/506/"
+                      },
+                      {
+                        "name": "532. Deputy Pa Daly asked the Minister for Education and Youth the amount of funding allocated and drawn down to date for the implementation of the supports package agreed with survivors of Industrial and Reformatory Schools; and the amount required to complete delivery of all outstanding measures. [74463/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/532/"
+                      },
+                      {
+                        "name": "533. Deputy Pa Daly asked the Minister for Education and Youth if she remains committed to delivering in full the agreement reached with survivors of Industrial and Reformatory Schools on 10 November 2025; when all outstanding commitments will be fulfilled; and if she will make a statement on the matter. [74482/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/533/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reports",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "540. Deputy Pa Daly asked the Minister for Education and Youth the expected publication date of the updated progress report on the implementation of the recommendations of the Out of School Education Provision review; and if she will make a statement on the matter. [30019/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/540/"
+                      },
+                      {
+                        "name": "541. Deputy Pa Daly asked the Minister for Education and Youth whether a draft or interim version of the Out of School Education Provision report is available for public review; and if she will make a statement on the matter. [30020/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/541/"
+                      },
+                      {
+                        "name": "542. Deputy Pa Daly asked the Minister for Education and Youth whether any supplementary materials are available summarising the current work of the Out of School Education Provision implementation group; and if she will make a statement on the matter. [30021/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/542/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Costs",
+                "children": [
+                  {
+                    "name": "Thursday, 12 February",
+                    "date_iso": "2026-02-12",
+                    "children": [
+                      {
+                        "name": "191. Deputy Pa Daly asked the Minister for Education and Youth the steps she is taking to reduce the burden on parents brought on by so called voluntary contributions; and if she will make a statement on the matter. [10479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/191/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1269. Deputy Pa Daly asked the Minister for Education and Youth the average expenditure of schools in County Kerry on electricity and heating in each of the years from 2021 to 2025 and to date in 2026, in tabular form. [56882/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1269/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Equipment",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "602. Deputy Pa Daly asked the Minister for Education and Youth if she is aware of delays in the provision of approved assistive technology for primary school pupils in County Kerry including a school (details supplied); whether applications approved by the National Council for Special Education (NCSE) are awaiting approval letters from her Department before schools can purchase equipment; the reason for these delays; and if she will make a statement on the matter. [11746/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/602/"
+                      },
+                      {
+                        "name": "603. Deputy Pa Daly asked the Minister for Education and Youth whether she is aware that assistive technology applications submitted in March 2025 for pupils attending a school (details supplied) including pupils with dyslexia and dysgraphia, were approved by the NCSE but remain outstanding due to delays at Departmental level; the steps being taken to address this backlog; and if she will make a statement on the matter. [11747/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/603/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Teacher Training",
+                "children": [
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "275. Deputy Pa Daly asked the Minister for Education and Youth whether her Department has considered introducing a stipend, allowance or other financial support for Professional Master of Education (PME) student teachers while undertaking mandatory school placements; and if she will make a statement on the matter. [20980/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/275/"
+                      },
+                      {
+                        "name": "276. Deputy Pa Daly asked the Minister for Education and Youth whether her Department has examined the financial pressures facing PME student teachers during mandatory school placements, including the costs of tuition fees, travel and living expenses while receiving no income; and if any proposals are under consideration to provide financial support to such students; and if she will make a statement on the matter. [20981/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/276/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1291. Deputy Pa Daly asked the Minister for Education and Youth the average class size in Kerry in each of the past five years. [57273/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1291/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1108. Deputy Pa Daly asked the Minister for Education and Youth the average expenditure of schools on electricity and heating in each of the years from 2021 to 2025 and to date in 2026, by county, in tabular form. [59799/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1108/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Public Sector Pay",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "490. Deputy Pa Daly asked the Minister for Education and Youth if she will consider providing financial recognition to teachers who completed recognised postgraduate qualifications in special educational needs education following the discontinuation of the qualification allowance in 2012. [64279/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/490/"
+                      },
+                      {
+                        "name": "491. Deputy Pa Daly asked the Minister for Education and Youth if she will consider reinstating a qualification allowance for teachers who complete recognised postgraduate qualifications in special educational needs education. [64277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/491/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education and Training Boards",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "1181. Deputy Pa Daly asked the Minister for Education and Youth the total amount of public funding expended on school book rental schemes from their introduction, circa 2010, up to the launch of the free schoolbooks scheme in 2023; to provide a breakdown of this expenditure by year where available; and to confirm whether this expenditure includes primary schools, post-primary schools, and Education and Training Board (ETB) schools, in tabular form; and if she will make a statement on the matter. [1172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1181/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "582. Deputy Pa Daly asked the Minister for Education and Youth further to commitments made on 10 November 2025 to survivors of the industrial and reformatory school system, the current status of the delivery of the agreed services and supports; the Departments and agencies responsible for implementation; the actions taken to date; the timeline for full delivery. [12026/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/582/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1229. Deputy Pa Daly asked the Minister for Education and Youth to provide a breakdown of all taskforces that fall under her remit; the dates on which they have met since their inception; the membership of each taskforce; and if she will make a statement on the matter. [23730/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1229/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1443. Deputy Pa Daly asked the Minister for Education and Youth her plans to amend the rules (details supplied) where a school may only appoint a replacement secretary for sick leave for school secretaries who are paid by the Paymaster, where a secretary has a significant illness and will be on long term absence will the Department fund a replacement with immediate effect and not only after the ten day sick leave period has passed. [25819/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1443/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Youth Work Supports",
+                "children": [
+                  {
+                    "name": "Thursday, 23 April",
+                    "date_iso": "2026-04-23",
+                    "children": [
+                      {
+                        "name": "354. Deputy Pa Daly asked the Minister for Education and Youth the plans in place to provide funding for additional youth work supports in County Kerry, specifically the provision of four full-time universal (non-targeted) youth workers; and if she will make a statement on the matter. [29340/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/354/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 15 July",
+                    "date_iso": "2026-07-15",
+                    "children": [
+                      {
+                        "name": "194. Deputy Pa Daly asked the Minister for Education and Youth her views regarding the increasing cost of private school transport for families; her views on the impact rising operating costs are having on the viability of private school transport operators; whether consideration is being given to introducing a subsidy scheme to support these services and reduce costs for parents; and if she will make a statement on the matter. [53799/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/194/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Climate Action Plan",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "343. Deputy Pa Daly asked the Minister for Education and Youth the position regarding all actions in each of the Climate Action Plans 2021 to 2025 under the remit of her Department; to provide a breakdown of the legacy actions remaining, broken down by the year of the climate action plan they were initially included in; and the estimated timelines for completion, in tabular form. [54626/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/343/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Enrolments",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1264. Deputy Pa Daly asked the Minister for Education and Youth the number of approved school places required in County Kerry at primary and post-primary level over the next five years; and the schools where capacity pressures have been identified. [56833/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1264/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Properties",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1268. Deputy Pa Daly asked the Minister for Education and Youth the number of publicly owned buildings that were vacant on the latest date available, broken down by purpose and/or last previous use; the length of time each property has been vacant; the reason for vacancy in each case; the amount spent to maintain the property since it was first left vacant in each of the years 2020 to date, in tabular form; and if she will make a statement on the matter. [56849/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1268/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1117. Deputy Pa Daly asked the Minister for Education and Youth the average class size, by county and by primary and post primary school in each of the past five years. [60009/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1117/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Issues",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1194. Deputy Pa Daly asked the Minister for Education and Youth to report on progress to meet her commitments under the National Human Rights Strategy for disabled people; the measures taken since the strategy was introduced; the key metrics identified to measure progress; and if she will make a statement on the matter [60747/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1194/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Schools Building Projects",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1461. Deputy Pa Daly asked the Minister for Education and Youth for an update on a school building project (details supplied); when approval will issue for the project to progress from stage 2A to stage 2B; and whether the project is being considered for inclusion in the next tranche of school building projects to progress in 2027. [63134/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1461/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Tuesday, 6 October",
+                    "date_iso": "2026-10-06",
+                    "children": [
+                      {
+                        "name": "257. Deputy Pa Daly asked the Minister for Education and Youth the funding streams available to post-primary schools seeking to undertake exterior repainting and improvement works; and whether funding may be available to a school (details supplied) seeking to undertake such works to improve the exterior of its building and school environment. [70475/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/257/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -9484,519 +10078,95 @@
             ]
           },
           {
-            "name": "Education",
-            "children": [
-              {
-                "name": "Special Educational Needs",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "300. Deputy Pa Daly asked the Minister for Education and Youth the criteria used to determine which special schools are included in the Special Education Therapy Service; and if she will make a statement on the matter. [21328/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/300/"
-                      },
-                      {
-                        "name": "301. Deputy Pa Daly asked the Minister for Education and Youth the reason a school (details supplied) was not selected for inclusion in the Special Education Therapy Service; whether consideration will be given to extending the service to the school; and if she will make a statement on the matter. [21329/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/301/"
-                      },
-                      {
-                        "name": "302. Deputy Pa Daly asked the Minister for Education and Youth if she is aware of the financial burden placed on families whose children cannot access therapy services through the Special Education Therapy Service or Children’s Disability Network Teams and are therefore required to access therapy privately; and if she will make a statement on the matter. [21330/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/302/"
-                      },
-                      {
-                        "name": "303. Deputy Pa Daly asked the Minister for Education and Youth whether her Department has assessed the cost impact on families who must access private therapy services for their children due to a lack of available State-provided therapies, where sessions can cost approximately €90 per session; and if she will make a statement on the matter. [21331/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/303/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "490. Deputy Pa Daly asked the Minister for Education and Youth the measures she is taking to sanction more early intervention classes in Kerry; the number that will be available in September 2026; the number of places that will be available in total; the number of places that will be available for new students; and if she will make a statement on the matter. [21649/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/490/"
-                      },
-                      {
-                        "name": "491. Deputy Pa Daly asked the Minister for Education and Youth the measures she is taking to sanction more special education classes in Kerry; the number that will be available in September 2026; the number of places that will be available in total; the number of places that will be available for new students; and if she will make a statement on the matter. [21650/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/491/"
-                      },
-                      {
-                        "name": "550. Deputy Pa Daly asked the Minister for Education and Youth further to Parliamentary Question No. 716 of 18 March 2026, if further details will be provided specifically on the number of specialised reading classes currently in operation in north Kerry for children with dyslexia and other literacy-related special educational needs; the number of children currently awaiting access to such supports; the timeline for the provision of additional classes in the area; and if she will make a statement on the matter. [22409/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/550/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 28 May",
-                    "date_iso": "2026-05-28",
-                    "children": [
-                      {
-                        "name": "369. Deputy Pa Daly asked the Minister for Education and Youth the number of special education classes in each of the years 2020 to date, broken down by county, in tabular form. [41396/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/369/"
-                      },
-                      {
-                        "name": "370. Deputy Pa Daly asked the Minister for Education and Youth the number of SNAS in each of the years 2020 to date, broken down by county, in tabular form. [41397/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/370/"
-                      },
-                      {
-                        "name": "371. Deputy Pa Daly asked the Minister for Education and Youth the number of early intervention classes in each of the years 2020 to date, broken down by county, in tabular form.; and if she will make a statement on the matter. [41398/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-28/371/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1265. Deputy Pa Daly asked the Minister for Education and Youth to provide a breakdown of the number of special education places available in Kerry; the demand for special educational needs places in Kerry; the number of special education classes sanctioned in Kerry in each of the years 2020 to date and for the school year 2026-2027, in tabular form. [56835/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1265/"
-                      },
-                      {
-                        "name": "1266. Deputy Pa Daly asked the Minister for Education and Youth the number of special needs assistants and special class places allocated to schools in County Kerry in each of the past five years. [56836/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1266/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 14 January",
-                    "date_iso": "2026-01-14",
-                    "children": [
-                      {
-                        "name": "68. Deputy Pa Daly asked the Minister for Education and Youth if the number of reading classes in County Kerry that will be increased (details supplied); and if she will make a statement on the matter. [2816/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-14/68/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "154. Deputy Pa Daly asked the Minister for Education and Youth if she will approve a second special education class for a school (details supplied) for the academic year 2026-2027; and if she will make a statement on the matter. [10478/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/154/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "716. Deputy Pa Daly asked the Minister for Education and Youth when additional reading classes will be made available in schools, particularly in North Kerry, for children with severe dyslexia and literacy challenges; the number of reading classes currently in operation in the area; whether her Department is aware of children waiting for places; and if she will make a statement on the matter. [18954/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/716/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1357. Deputy Pa Daly asked the Minister for Education and Youth if she is aware that existing fuel and travel allowance arrangements are not meeting the actual costs incurred by travelling special education teachers (SETs) required to work across multiple school settings; if she will review same; the measures being considered to ensure that teachers are not required to subsidise work-related travel costs; and if she will make a statement on the matter. [25198/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1357/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "121. Deputy Pa Daly asked the Minister for Education and Youth if she will provide an update on the application for a second special class at a school (details supplied); if approval will be granted for same; if not, the reasons for the decision given the concerns raised locally regarding the availability of special class places in the area; and if she will make a statement on the matter. [37964/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/121/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "478. Deputy Pa Daly asked the Minister for Education and Youth if she will sanction an autism unit at a school (details supplied); and if she will make a statement on the matter. [45496/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/478/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Reports",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "540. Deputy Pa Daly asked the Minister for Education and Youth the expected publication date of the updated progress report on the implementation of the recommendations of the Out of School Education Provision review; and if she will make a statement on the matter. [30019/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/540/"
-                      },
-                      {
-                        "name": "541. Deputy Pa Daly asked the Minister for Education and Youth whether a draft or interim version of the Out of School Education Provision report is available for public review; and if she will make a statement on the matter. [30020/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/541/"
-                      },
-                      {
-                        "name": "542. Deputy Pa Daly asked the Minister for Education and Youth whether any supplementary materials are available summarising the current work of the Out of School Education Provision implementation group; and if she will make a statement on the matter. [30021/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/542/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Costs",
-                "children": [
-                  {
-                    "name": "Thursday, 12 February",
-                    "date_iso": "2026-02-12",
-                    "children": [
-                      {
-                        "name": "191. Deputy Pa Daly asked the Minister for Education and Youth the steps she is taking to reduce the burden on parents brought on by so called voluntary contributions; and if she will make a statement on the matter. [10479/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-12/191/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1269. Deputy Pa Daly asked the Minister for Education and Youth the average expenditure of schools in County Kerry on electricity and heating in each of the years from 2021 to 2025 and to date in 2026, in tabular form. [56882/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1269/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Equipment",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "602. Deputy Pa Daly asked the Minister for Education and Youth if she is aware of delays in the provision of approved assistive technology for primary school pupils in County Kerry including a school (details supplied); whether applications approved by the National Council for Special Education (NCSE) are awaiting approval letters from her Department before schools can purchase equipment; the reason for these delays; and if she will make a statement on the matter. [11746/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/602/"
-                      },
-                      {
-                        "name": "603. Deputy Pa Daly asked the Minister for Education and Youth whether she is aware that assistive technology applications submitted in March 2025 for pupils attending a school (details supplied) including pupils with dyslexia and dysgraphia, were approved by the NCSE but remain outstanding due to delays at Departmental level; the steps being taken to address this backlog; and if she will make a statement on the matter. [11747/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/603/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Teacher Training",
-                "children": [
-                  {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
-                    "children": [
-                      {
-                        "name": "275. Deputy Pa Daly asked the Minister for Education and Youth whether her Department has considered introducing a stipend, allowance or other financial support for Professional Master of Education (PME) student teachers while undertaking mandatory school placements; and if she will make a statement on the matter. [20980/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/275/"
-                      },
-                      {
-                        "name": "276. Deputy Pa Daly asked the Minister for Education and Youth whether her Department has examined the financial pressures facing PME student teachers during mandatory school placements, including the costs of tuition fees, travel and living expenses while receiving no income; and if any proposals are under consideration to provide financial support to such students; and if she will make a statement on the matter. [20981/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/276/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1291. Deputy Pa Daly asked the Minister for Education and Youth the average class size in Kerry in each of the past five years. [57273/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1291/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1108. Deputy Pa Daly asked the Minister for Education and Youth the average expenditure of schools on electricity and heating in each of the years from 2021 to 2025 and to date in 2026, by county, in tabular form. [59799/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1108/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Sector Pay",
-                "children": [
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "490. Deputy Pa Daly asked the Minister for Education and Youth if she will consider providing financial recognition to teachers who completed recognised postgraduate qualifications in special educational needs education following the discontinuation of the qualification allowance in 2012. [64279/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/490/"
-                      },
-                      {
-                        "name": "491. Deputy Pa Daly asked the Minister for Education and Youth if she will consider reinstating a qualification allowance for teachers who complete recognised postgraduate qualifications in special educational needs education. [64277/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/491/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Education and Training Boards",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "1181. Deputy Pa Daly asked the Minister for Education and Youth the total amount of public funding expended on school book rental schemes from their introduction, circa 2010, up to the launch of the free schoolbooks scheme in 2023; to provide a breakdown of this expenditure by year where available; and to confirm whether this expenditure includes primary schools, post-primary schools, and Education and Training Board (ETB) schools, in tabular form; and if she will make a statement on the matter. [1172/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/1181/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "582. Deputy Pa Daly asked the Minister for Education and Youth further to commitments made on 10 November 2025 to survivors of the industrial and reformatory school system, the current status of the delivery of the agreed services and supports; the Departments and agencies responsible for implementation; the actions taken to date; the timeline for full delivery. [12026/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/582/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Bodies",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1229. Deputy Pa Daly asked the Minister for Education and Youth to provide a breakdown of all taskforces that fall under her remit; the dates on which they have met since their inception; the membership of each taskforce; and if she will make a statement on the matter. [23730/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1229/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "1443. Deputy Pa Daly asked the Minister for Education and Youth her plans to amend the rules (details supplied) where a school may only appoint a replacement secretary for sick leave for school secretaries who are paid by the Paymaster, where a secretary has a significant illness and will be on long term absence will the Department fund a replacement with immediate effect and not only after the ten day sick leave period has passed. [25819/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1443/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Youth Work Supports",
-                "children": [
-                  {
-                    "name": "Thursday, 23 April",
-                    "date_iso": "2026-04-23",
-                    "children": [
-                      {
-                        "name": "354. Deputy Pa Daly asked the Minister for Education and Youth the plans in place to provide funding for additional youth work supports in County Kerry, specifically the provision of four full-time universal (non-targeted) youth workers; and if she will make a statement on the matter. [29340/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-23/354/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Transport",
-                "children": [
-                  {
-                    "name": "Wednesday, 15 July",
-                    "date_iso": "2026-07-15",
-                    "children": [
-                      {
-                        "name": "194. Deputy Pa Daly asked the Minister for Education and Youth her views regarding the increasing cost of private school transport for families; her views on the impact rising operating costs are having on the viability of private school transport operators; whether consideration is being given to introducing a subsidy scheme to support these services and reduce costs for parents; and if she will make a statement on the matter. [53799/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-15/194/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Climate Action Plan",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "343. Deputy Pa Daly asked the Minister for Education and Youth the position regarding all actions in each of the Climate Action Plans 2021 to 2025 under the remit of her Department; to provide a breakdown of the legacy actions remaining, broken down by the year of the climate action plan they were initially included in; and the estimated timelines for completion, in tabular form. [54626/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/343/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Enrolments",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1264. Deputy Pa Daly asked the Minister for Education and Youth the number of approved school places required in County Kerry at primary and post-primary level over the next five years; and the schools where capacity pressures have been identified. [56833/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1264/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Properties",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1268. Deputy Pa Daly asked the Minister for Education and Youth the number of publicly owned buildings that were vacant on the latest date available, broken down by purpose and/or last previous use; the length of time each property has been vacant; the reason for vacancy in each case; the amount spent to maintain the property since it was first left vacant in each of the years 2020 to date, in tabular form; and if she will make a statement on the matter. [56849/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1268/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pupil-Teacher Ratio",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1117. Deputy Pa Daly asked the Minister for Education and Youth the average class size, by county and by primary and post primary school in each of the past five years. [60009/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1117/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Issues",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1194. Deputy Pa Daly asked the Minister for Education and Youth to report on progress to meet her commitments under the National Human Rights Strategy for disabled people; the measures taken since the strategy was introduced; the key metrics identified to measure progress; and if she will make a statement on the matter [60747/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1194/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Schools Building Projects",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1461. Deputy Pa Daly asked the Minister for Education and Youth for an update on a school building project (details supplied); when approval will issue for the project to progress from stage 2A to stage 2B; and whether the project is being considered for inclusion in the next tranche of school building projects to progress in 2027. [63134/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1461/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "School Accommodation",
-                "children": [
-                  {
-                    "name": "Tuesday, 6 October",
-                    "date_iso": "2026-10-06",
-                    "children": [
-                      {
-                        "name": "257. Deputy Pa Daly asked the Minister for Education and Youth the funding streams available to post-primary schools seeking to undertake exterior repainting and improvement works; and whether funding may be available to a school (details supplied) seeking to undertake such works to improve the exterior of its building and school environment. [70475/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/257/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Finance",
             "children": [
+              {
+                "name": "Tax Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "355. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for electricity was set at 0%, in each of the years 2020 to date, in tabular form. [16993/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/355/"
+                      },
+                      {
+                        "name": "356. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for gas was set at 0%, in each of the years 2020 to date, in tabular form. [16994/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/356/"
+                      },
+                      {
+                        "name": "357. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for electricity was set at 0% for domestic customers only, in each of the years 2020 to date, in tabular form. [16995/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/357/"
+                      },
+                      {
+                        "name": "358. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for gas was set at 0% for domestic customers only, in each of the years 2020 to date, in tabular form. [16996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/358/"
+                      },
+                      {
+                        "name": "359. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on electricity, in each of the years 2015 to date. [16997/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/359/"
+                      },
+                      {
+                        "name": "360. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on gas, in each of the years 2015 to date. [16998/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/360/"
+                      },
+                      {
+                        "name": "361. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on electricity on domestic bills only, in each of the years 2015 to date. [16999/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/361/"
+                      },
+                      {
+                        "name": "362. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on gas on domestic bills only, in each of the years 2015 to date. [17000/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/362/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "367. Deputy Pa Daly asked the Tánaiste and Minister for Finance the VAT that has been earned on gas and electricity bills, broken down by fuel type on bills for large energy users only in each month since January 2024, in tabular form. [73668/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/367/"
+                      },
+                      {
+                        "name": "368. Deputy Pa Daly asked the Tánaiste and Minister for Finance the VAT that has been earned on gas and electricity bills ,broken down by fuel type on non-domestic bills only in each month since January 2024, in tabular form. [73667/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/368/"
+                      },
+                      {
+                        "name": "369. Deputy Pa Daly asked the Tánaiste and Minister for Finance the VAT that has been earned on gas and electricity bills, broken down by fuel type on domestic bills only in each month since January 2024, in tabular form. [73666/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/369/"
+                      },
+                      {
+                        "name": "370. Deputy Pa Daly asked the Tánaiste and Minister for Finance the breakdown of the VAT earned on electricity and gas bills, by fuel type and by type of customer in each month since January 2024, in tabular form. [73665/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/370/"
+                      },
+                      {
+                        "name": "371. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on electricity, in each of the years 2015 to date; the amount of revenue that has been earned through the VAT on gas, in each of the years 2015 to date; the amount of revenue that has been earned through the VAT on electricity on domestic bills only, in each of the years 2015 to date; and the amount of revenue that has been earned through the VAT on gas on domestic bills only, in each of the years 2015 to date. [73664/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/371/"
+                      },
+                      {
+                        "name": "372. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for electricity was set at 0%, in each of the years 2020 to date; the estimated revenue foregone if the VAT rate for gas was set at 0%, in each of the years 2020 to date; the estimated revenue foregone if the VAT rate for electricity was set at 0% for domestic customers only, in each of the years 2020 to date; and the estimated revenue foregone if the VAT rate for gas was set at 0% for domestic customers only, in each of the years 2020 to date, in tabular form. [73661/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/372/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Tax Code",
                 "children": [
@@ -10080,55 +10250,15 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/268/"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Data",
-                "children": [
+                  },
                   {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
                     "children": [
                       {
-                        "name": "355. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for electricity was set at 0%, in each of the years 2020 to date, in tabular form. [16993/26]",
+                        "name": "357. Deputy Pa Daly asked the Tánaiste and Minister for Finance if LPG is excluded from the announced reduction in the carbon tax rate for kerosene and natural gas to €48.50 per tonne of CO and if so, the rationale for this exclusion. [73501/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/355/"
-                      },
-                      {
-                        "name": "356. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for gas was set at 0%, in each of the years 2020 to date, in tabular form. [16994/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/356/"
-                      },
-                      {
-                        "name": "357. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for electricity was set at 0% for domestic customers only, in each of the years 2020 to date, in tabular form. [16995/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/357/"
-                      },
-                      {
-                        "name": "358. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for gas was set at 0% for domestic customers only, in each of the years 2020 to date, in tabular form. [16996/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/358/"
-                      },
-                      {
-                        "name": "359. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on electricity, in each of the years 2015 to date. [16997/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/359/"
-                      },
-                      {
-                        "name": "360. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on gas, in each of the years 2015 to date. [16998/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/360/"
-                      },
-                      {
-                        "name": "361. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on electricity on domestic bills only, in each of the years 2015 to date. [16999/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/361/"
-                      },
-                      {
-                        "name": "362. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on gas on domestic bills only, in each of the years 2015 to date. [17000/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/362/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/357/"
                       }
                     ]
                   }
@@ -11742,6 +11872,171 @@
             ]
           },
           {
+            "name": "Enterprise",
+            "children": [
+              {
+                "name": "Data Centres",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "186. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the status of the research his Department is carrying out to assess the economic impact of data centres in Ireland; and if he will make a statement on the matter. [1235/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/186/"
+                      },
+                      {
+                        "name": "984. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the status of the research his Department is carrying out to assess to economic impact of data centres in Ireland; when this research was originally commissioned; to report on any insights garnered to date; if any of the research was presented to the CRU as part of their process of updating Ireland’s large energy user connection policy; if any of the research has been used to inform any projects / on going pieces of work; and if he will make a statement on the matter. [1222/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/984/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "436. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment further to Parliamentary Question No. 69365/26, if he is aware of this decision by the regulator to cap data centre power demand (details supplied); the way in which this will impact the Large Energy User Action Plan; the measures he is taking to ensure that his plans for data centre expansion do not place our energy grid at further risk of blackout; if he has met with the Minister for Climate, Energy and the Environment to discuss; and the dates on which these meetings took place between ministers. [73574/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/436/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourism Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 January",
+                    "date_iso": "2026-01-13",
+                    "children": [
+                      {
+                        "name": "157. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the measures he is taking to support the tourism industry in Kerry; and if he will make a statement on the matter. [1236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/157/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Environmental Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 March",
+                    "date_iso": "2026-03-24",
+                    "children": [
+                      {
+                        "name": "430. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment when he plans to introduce a right to repair; and if he will make a statement on the matter. [21646/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/430/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Climate Action Plan",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "295. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the position regarding all actions in each of the Climate Action Plans 2021 to 2025 under the remit of his Department; to provide a breakdown of the legacy actions remaining, broken down by the year of the climate action plan they were initially included in; and the estimated timelines for completion, in tabular form. [54627/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/295/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Programme for Government",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "948. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the position regarding the commitment in the programme for Government to “work to progress recommendations of the Shannon Estuary Economic Taskforce central to renewable energy planning, recognising the region’s potential”; which recommendations that have been completed or are in progress; to report on any key milestones achieved; and if he will make a statement on the matter. [56132/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/948/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ministerial Communications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "962. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment to report on a meeting (details supplied); who was in attendance; the matters discussed; and if he will make a statement on the matter. [55059/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/962/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "1017. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the number of publicly owned buildings that were vacant on the latest date available, broken down by purpose and/or last previous use; the length of time each property has been vacant; the reason for vacancy in each case; the amount spent to maintain the property since it was first left vacant in each of the years 2020 to date, in tabular form; and if he will make a statement on the matter. [56850/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1017/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Meetings",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1004. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment to report on all taskforces led by his Department; the dates on which they have met since the taskforces inception; the breakdown of all subgroups; the dates on which each subgroup has met; the breakdown of all progress achieved including reports published and explicit policy recommendations issues; and the policy recommendations implemented to date since the taskforces' inception, in tabular form. [60023/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1004/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Issues",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1022. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment to report on progress to meet his commitments under the National Human Rights Strategy for disabled people; the measures taken since the strategy was introduced; the key metrics identified to measure progress; and if he will make a statement on the matter [60748/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1022/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Further and Higher Education",
             "children": [
               {
@@ -11895,160 +12190,6 @@
                         "name": "4057. Deputy Pa Daly asked the Minister for Further and Higher Education, Research, Innovation and Science to report on progress to meet his commitments under the National Human Rights Strategy for disabled people; the measures taken since the strategy was introduced; the key metrics identified to measure progress; and if he will make a statement on the matter. [60739/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/4057/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Enterprise",
-            "children": [
-              {
-                "name": "Data Centres",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "186. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the status of the research his Department is carrying out to assess the economic impact of data centres in Ireland; and if he will make a statement on the matter. [1235/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/186/"
-                      },
-                      {
-                        "name": "984. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the status of the research his Department is carrying out to assess to economic impact of data centres in Ireland; when this research was originally commissioned; to report on any insights garnered to date; if any of the research was presented to the CRU as part of their process of updating Ireland’s large energy user connection policy; if any of the research has been used to inform any projects / on going pieces of work; and if he will make a statement on the matter. [1222/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/984/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tourism Industry",
-                "children": [
-                  {
-                    "name": "Tuesday, 13 January",
-                    "date_iso": "2026-01-13",
-                    "children": [
-                      {
-                        "name": "157. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the measures he is taking to support the tourism industry in Kerry; and if he will make a statement on the matter. [1236/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-13/157/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Environmental Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 March",
-                    "date_iso": "2026-03-24",
-                    "children": [
-                      {
-                        "name": "430. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment when he plans to introduce a right to repair; and if he will make a statement on the matter. [21646/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/430/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Climate Action Plan",
-                "children": [
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "295. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the position regarding all actions in each of the Climate Action Plans 2021 to 2025 under the remit of his Department; to provide a breakdown of the legacy actions remaining, broken down by the year of the climate action plan they were initially included in; and the estimated timelines for completion, in tabular form. [54627/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/295/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Programme for Government",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "948. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the position regarding the commitment in the programme for Government to “work to progress recommendations of the Shannon Estuary Economic Taskforce central to renewable energy planning, recognising the region’s potential”; which recommendations that have been completed or are in progress; to report on any key milestones achieved; and if he will make a statement on the matter. [56132/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/948/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ministerial Communications",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "962. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment to report on a meeting (details supplied); who was in attendance; the matters discussed; and if he will make a statement on the matter. [55059/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/962/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "1017. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment the number of publicly owned buildings that were vacant on the latest date available, broken down by purpose and/or last previous use; the length of time each property has been vacant; the reason for vacancy in each case; the amount spent to maintain the property since it was first left vacant in each of the years 2020 to date, in tabular form; and if he will make a statement on the matter. [56850/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1017/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Meetings",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1004. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment to report on all taskforces led by his Department; the dates on which they have met since the taskforces inception; the breakdown of all subgroups; the dates on which each subgroup has met; the breakdown of all progress achieved including reports published and explicit policy recommendations issues; and the policy recommendations implemented to date since the taskforces' inception, in tabular form. [60023/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1004/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Disability Issues",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "1022. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment to report on progress to meet his commitments under the National Human Rights Strategy for disabled people; the measures taken since the strategy was introduced; the key metrics identified to measure progress; and if he will make a statement on the matter [60748/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1022/"
                       }
                     ]
                   }
@@ -21957,6 +22098,159 @@
           "heading": "Health Services Staff",
           "question": "852. Deputy Pa Daly asked the Minister for Health the number of physiotherapists currently assigned to the Castleisland-Farranfore primary care area; the number assigned in each year from 2020 to date; if she is aware that physiotherapy staffing in the Castleisland-Farranfore primary care area is due to be reduced to a single senior physiotherapist for the next six-month rotation period; whether a risk assessment was carried out prior to this reduction; and if she will make a statement on the matter. [72499/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-15/852/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 357,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "357. Deputy Pa Daly asked the Tánaiste and Minister for Finance if LPG is excluded from the announced reduction in the carbon tax rate for kerosene and natural gas to €48.50 per tonne of CO and if so, the rationale for this exclusion. [73501/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/357/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 367,
+          "department": "Finance",
+          "heading": "Tax Data",
+          "question": "367. Deputy Pa Daly asked the Tánaiste and Minister for Finance the VAT that has been earned on gas and electricity bills, broken down by fuel type on bills for large energy users only in each month since January 2024, in tabular form. [73668/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/367/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 368,
+          "department": "Finance",
+          "heading": "Tax Data",
+          "question": "368. Deputy Pa Daly asked the Tánaiste and Minister for Finance the VAT that has been earned on gas and electricity bills ,broken down by fuel type on non-domestic bills only in each month since January 2024, in tabular form. [73667/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/368/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 369,
+          "department": "Finance",
+          "heading": "Tax Data",
+          "question": "369. Deputy Pa Daly asked the Tánaiste and Minister for Finance the VAT that has been earned on gas and electricity bills, broken down by fuel type on domestic bills only in each month since January 2024, in tabular form. [73666/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/369/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 370,
+          "department": "Finance",
+          "heading": "Tax Data",
+          "question": "370. Deputy Pa Daly asked the Tánaiste and Minister for Finance the breakdown of the VAT earned on electricity and gas bills, by fuel type and by type of customer in each month since January 2024, in tabular form. [73665/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/370/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 371,
+          "department": "Finance",
+          "heading": "Tax Data",
+          "question": "371. Deputy Pa Daly asked the Tánaiste and Minister for Finance the amount of revenue that has been earned through the VAT on electricity, in each of the years 2015 to date; the amount of revenue that has been earned through the VAT on gas, in each of the years 2015 to date; the amount of revenue that has been earned through the VAT on electricity on domestic bills only, in each of the years 2015 to date; and the amount of revenue that has been earned through the VAT on gas on domestic bills only, in each of the years 2015 to date. [73664/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/371/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 372,
+          "department": "Finance",
+          "heading": "Tax Data",
+          "question": "372. Deputy Pa Daly asked the Tánaiste and Minister for Finance the estimated revenue foregone if the VAT rate for electricity was set at 0%, in each of the years 2020 to date; the estimated revenue foregone if the VAT rate for gas was set at 0%, in each of the years 2020 to date; the estimated revenue foregone if the VAT rate for electricity was set at 0% for domestic customers only, in each of the years 2020 to date; and the estimated revenue foregone if the VAT rate for gas was set at 0% for domestic customers only, in each of the years 2020 to date, in tabular form. [73661/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/372/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 436,
+          "department": "Enterprise",
+          "heading": "Data Centres",
+          "question": "436. Deputy Pa Daly asked the Minister for Enterprise, Tourism and Employment further to Parliamentary Question No. 69365/26, if he is aware of this decision by the regulator to cap data centre power demand (details supplied); the way in which this will impact the Large Energy User Action Plan; the measures he is taking to ensure that his plans for data centre expansion do not place our energy grid at further risk of blackout; if he has met with the Minister for Climate, Energy and the Environment to discuss; and the dates on which these meetings took place between ministers. [73574/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/436/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 495,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "495. Deputy Pa Daly asked the Minister for Education and Youth the engagement that has taken place with survivor groups regarding implementation of the agreement reached on 10 November 2025; the frequency of updates being provided; and if she will publish a progress report on delivery of the commitments. [74461/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/495/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 499,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "499. Deputy Pa Daly asked the Minister for Education and Youth further to commitments made to survivors of Industrial and Reformatory Schools, when the promised health supports and services will be operational; the nature of those services; and if a dedicated point of contact has been established for survivors seeking assistance. [74457/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/499/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 503,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "503. Deputy Pa Daly asked the Minister for Education and Youth the Department, agency or named official that has responsibility for overseeing and ensuring delivery of the commitments agreed with survivors of Industrial and Reformatory Schools on 10 November 2025; and the governance structures that have been put in place to monitor progress. [74454/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/503/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 504,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "504. Deputy Pa Daly asked the Minister for Education and Youth the projected implementation dates for each outstanding measure contained in the agreement reached with survivors of Industrial and Reformatory Schools; and if she will provide a detailed schedule for delivery. [74453/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/504/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 506,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "506. Deputy Pa Daly asked the Minister for Education and Youth the current status of the supports package agreed with survivors of Industrial and Reformatory Schools following the agreement signed by the Taoiseach on 10 November 2025; the elements of the package that have been delivered to date; the elements that remain outstanding; the reasons for the delays in implementing the commitments contained in the agreement; the specific obstacles that have arisen; if she will provide a revised timeline for delivery of all outstanding commitments; and if she will make a statement on the matter. [74452/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/506/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 532,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "532. Deputy Pa Daly asked the Minister for Education and Youth the amount of funding allocated and drawn down to date for the implementation of the supports package agreed with survivors of Industrial and Reformatory Schools; and the amount required to complete delivery of all outstanding measures. [74463/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/532/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 533,
+          "department": "Education",
+          "heading": "Residential Institutions",
+          "question": "533. Deputy Pa Daly asked the Minister for Education and Youth if she remains committed to delivering in full the agreement reached with survivors of Industrial and Reformatory Schools on 10 November 2025; when all outstanding commitments will be fulfilled; and if she will make a statement on the matter. [74482/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/533/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1028,
+          "department": "Health",
+          "heading": "Healthcare Policy",
+          "question": "1028. Deputy Pa Daly asked the Minister for Health the measures that have been taken to provide nursing home support for survivors of Industrial and Reformatory Schools under the agreement concluded on 10 November 2025; the number of survivors who have benefited from such measures to date; and if she will make a statement on the matter. [74460/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1028/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-20",
+          "questionNumber": 1030,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "1030. Deputy Pa Daly asked the Minister for Health further to commitments made to survivors of Industrial and Reformatory Schools, when the promised health supports and services will be operational; the nature of those services; and if a dedicated point of contact has been established for survivors seeking assistance. [74459/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/1030/",
           "questionType": "written"
         }
       ]
