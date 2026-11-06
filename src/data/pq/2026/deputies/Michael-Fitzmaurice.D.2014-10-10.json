@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Michael-Fitzmaurice.D.2014-10-10/image/large",
   "types": {
     "all": {
-      "count": 236,
+      "count": 247,
       "headingOptions": [
         "Agriculture Industry",
         "Agriculture Schemes",
@@ -51,6 +51,7 @@
         "Forestry Sector",
         "Fuel Prices",
         "Health and Safety",
+        "Health Screening Programmes",
         "Health Service Executive",
         "Health Services",
         "Health Services Staff",
@@ -219,16 +220,16 @@
             "name": "Health",
             "children": [
               {
-                "name": "Food Safety",
-                "value": 7
-              },
-              {
                 "name": "Health Services Staff",
-                "value": 7
+                "value": 12
               },
               {
                 "name": "Medicinal Products",
-                "value": 6
+                "value": 8
+              },
+              {
+                "name": "Food Safety",
+                "value": 7
               },
               {
                 "name": "Beef Sector",
@@ -263,6 +264,10 @@
                 "value": 2
               },
               {
+                "name": "Hospital Staff",
+                "value": 2
+              },
+              {
                 "name": "Health Service Executive",
                 "value": 2
               },
@@ -279,11 +284,11 @@
                 "value": 1
               },
               {
-                "name": "Hospital Staff",
+                "name": "Primary Care Centres",
                 "value": 1
               },
               {
-                "name": "Primary Care Centres",
+                "name": "Health Screening Programmes",
                 "value": 1
               }
             ]
@@ -301,6 +306,10 @@
               },
               {
                 "name": "School Transport",
+                "value": 2
+              },
+              {
+                "name": "Departmental Schemes",
                 "value": 2
               },
               {
@@ -341,10 +350,6 @@
               },
               {
                 "name": "Public Transport",
-                "value": 1
-              },
-              {
-                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -582,6 +587,15 @@
             "children": [
               {
                 "name": "Education and Training Boards",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -1501,66 +1515,39 @@
             "name": "Health",
             "children": [
               {
-                "name": "Food Safety",
-                "children": [
-                  {
-                    "name": "Tuesday, 7 July",
-                    "date_iso": "2026-07-07",
-                    "children": [
-                      {
-                        "name": "813. Deputy Michael Fitzmaurice asked the Minister for Health the scientific validation undertaken by the Food Safety Authority of Ireland in respect of the laboratory methods relied upon for the detection of salmonella typhimurium in duck flocks; whether those methods have been independently validated for use in ducks; and if she will make a statement on the matter. [51400/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/813/"
-                      },
-                      {
-                        "name": "814. Deputy Michael Fitzmaurice asked the Minister for Health whether following recent court proceedings concerning salmonella testing in poultry, the Food Safety Authority of Ireland has reviewed the reliability of the sampling, testing and chain-of-custody procedures relied upon in enforcement actions involving duck flocks; if such a review has been completed, if she will publish the findings; and if she will make a statement on the matter. [51401/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/814/"
-                      },
-                      {
-                        "name": "815. Deputy Michael Fitzmaurice asked the Minister for Health if the Food Safety Authority of Ireland has commissioned, or intends to commission, an independent scientific review of the evidence underpinning its risk assessments relating to salmonella in duck flocks, including the laboratory methodologies employed and the epidemiological evidence relied upon; and if she will make a statement on the matter. [51402/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/815/"
-                      },
-                      {
-                        "name": "816. Deputy Michael Fitzmaurice asked the Minister for Health the role that the Food Safety Authority of Ireland plays in advising the Department of Agriculture, Food and the Marine before compliance notices, prohibition notices, product seizures or flock destruction are undertaken in cases involving suspected salmonella infection; and whether the FSAI independently verifies the scientific evidence relied upon before such enforcement action proceeds. [51403/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/816/"
-                      },
-                      {
-                        "name": "817. Deputy Michael Fitzmaurice asked the Minister for Health if the Food Safety Authority of Ireland has reviewed whether the ongoing Department-funded research into salmonella control in duck production has identified any uncertainties regarding existing sampling, laboratory testing or risk assessment methodologies; and whether any interim findings have resulted in changes to current enforcement or regulatory practice. [51404/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/817/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 5 February",
-                    "date_iso": "2026-02-05",
-                    "children": [
-                      {
-                        "name": "364. Deputy Michael Fitzmaurice asked the Minister for Health the compliance and enforcement which is taken by her Department to ensure that the FSAI ensure food businesses in Ireland comply with the origin of beef regulations; and if she will make a statement on the matter. [8805/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/364/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "554. Deputy Michael Fitzmaurice asked the Minister for Health the measures in place to inform the public if a product for human consumption is found to contain a cancer-causing substance, or any other human health issue; and if she will make a statement on the matter. [13668/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/554/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Health Services Staff",
                 "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "2100. Deputy Michael Fitzmaurice asked the Minister for Health when will the temporary pause to recruitment appointments be lifted in the CHW region. [77096/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2100/"
+                      },
+                      {
+                        "name": "2101. Deputy Michael Fitzmaurice asked the Minister for Health the reason start dates have been postponed while positions remain vacant in Roscommon University Hospital. [77095/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2101/"
+                      },
+                      {
+                        "name": "2102. Deputy Michael Fitzmaurice asked the Minister for Health the number of staffing posts that have been filled with the start dates given been postponed in Roscommon University Hospital, Galway University Hospital and Sligo University Hospital. [77094/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2102/"
+                      },
+                      {
+                        "name": "2103. Deputy Michael Fitzmaurice asked the Minister for Health the number of staffing posts that remain unfilled in Roscommon University Hospital in 2026. [77093/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2103/"
+                      },
+                      {
+                        "name": "2299. Deputy Michael Fitzmaurice asked the Minister for Health if she can confirm when a person (details supplied) will commence a position. [77582/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2299/"
+                      }
+                    ]
+                  },
                   {
                     "name": "Thursday, 25 June",
                     "date_iso": "2026-06-25",
@@ -1646,6 +1633,22 @@
                     ]
                   },
                   {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "2179. Deputy Michael Fitzmaurice asked the Minister for Health her views on whether two commercial negotiation meetings between the HSE and the applicant (details supplied), in the 45 months since the reimbursement application for pluvicto was received in January 2023 is consistent with the commitment to equitable and timely access to new medicines in the National Cancer Strategy; and if it is in line with the targets set by the Framework Agreement on the Supply and Pricing of Medicines. [77167/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2179/"
+                      },
+                      {
+                        "name": "2184. Deputy Michael Fitzmaurice asked the Minister for Health if she will write to the Chief Executive of the HSE requesting that the Senior Leadership Team seek an improved commercial offer from, and invite counterproposals from, the applicant (details supplied) for reimbursement of pluvicto (lutetium-177 vipivotide tetraxetan) before finalising its decision following the notice of proposal issued on 12 October 2026, having regard to the HSE’s confirmation that it sought an improved commercial offer and invited multiple counterproposals in respect of skyclarys. [77164/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2184/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Thursday, 30 April",
                     "date_iso": "2026-04-30",
                     "children": [
@@ -1664,6 +1667,64 @@
                         "name": "836. Deputy Michael Fitzmaurice asked the Minister for Health the status of gaining access to givinostat for boys living with Duchenne muscular dystrophy; and if she will make a statement on the matter. [44919/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/836/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Food Safety",
+                "children": [
+                  {
+                    "name": "Tuesday, 7 July",
+                    "date_iso": "2026-07-07",
+                    "children": [
+                      {
+                        "name": "813. Deputy Michael Fitzmaurice asked the Minister for Health the scientific validation undertaken by the Food Safety Authority of Ireland in respect of the laboratory methods relied upon for the detection of salmonella typhimurium in duck flocks; whether those methods have been independently validated for use in ducks; and if she will make a statement on the matter. [51400/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/813/"
+                      },
+                      {
+                        "name": "814. Deputy Michael Fitzmaurice asked the Minister for Health whether following recent court proceedings concerning salmonella testing in poultry, the Food Safety Authority of Ireland has reviewed the reliability of the sampling, testing and chain-of-custody procedures relied upon in enforcement actions involving duck flocks; if such a review has been completed, if she will publish the findings; and if she will make a statement on the matter. [51401/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/814/"
+                      },
+                      {
+                        "name": "815. Deputy Michael Fitzmaurice asked the Minister for Health if the Food Safety Authority of Ireland has commissioned, or intends to commission, an independent scientific review of the evidence underpinning its risk assessments relating to salmonella in duck flocks, including the laboratory methodologies employed and the epidemiological evidence relied upon; and if she will make a statement on the matter. [51402/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/815/"
+                      },
+                      {
+                        "name": "816. Deputy Michael Fitzmaurice asked the Minister for Health the role that the Food Safety Authority of Ireland plays in advising the Department of Agriculture, Food and the Marine before compliance notices, prohibition notices, product seizures or flock destruction are undertaken in cases involving suspected salmonella infection; and whether the FSAI independently verifies the scientific evidence relied upon before such enforcement action proceeds. [51403/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/816/"
+                      },
+                      {
+                        "name": "817. Deputy Michael Fitzmaurice asked the Minister for Health if the Food Safety Authority of Ireland has reviewed whether the ongoing Department-funded research into salmonella control in duck production has identified any uncertainties regarding existing sampling, laboratory testing or risk assessment methodologies; and whether any interim findings have resulted in changes to current enforcement or regulatory practice. [51404/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/817/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 5 February",
+                    "date_iso": "2026-02-05",
+                    "children": [
+                      {
+                        "name": "364. Deputy Michael Fitzmaurice asked the Minister for Health the compliance and enforcement which is taken by her Department to ensure that the FSAI ensure food businesses in Ireland comply with the origin of beef regulations; and if she will make a statement on the matter. [8805/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-05/364/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "554. Deputy Michael Fitzmaurice asked the Minister for Health the measures in place to inform the public if a product for human consumption is found to contain a cancer-causing substance, or any other human health issue; and if she will make a statement on the matter. [13668/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/554/"
                       }
                     ]
                   }
@@ -1972,6 +2033,33 @@
                 ]
               },
               {
+                "name": "Hospital Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "1213. Deputy Michael Fitzmaurice asked the Minister for Health the number of WTE emergency medicine registrars and advanced nurse practitioners posts filled within minor injuries clinics at Roscommon University Hospital as of 21 April 2026, in tabular form; and if she will make a statement on the matter. [30288/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1213/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1733. Deputy Michael Fitzmaurice asked the Minister for Health the number of permanent posts that remain unfilled which could be filled with a locum consultant in the HSE West Division. [75568/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1733/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Health Service Executive",
                 "children": [
                   {
@@ -2041,22 +2129,6 @@
                 ]
               },
               {
-                "name": "Hospital Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "1213. Deputy Michael Fitzmaurice asked the Minister for Health the number of WTE emergency medicine registrars and advanced nurse practitioners posts filled within minor injuries clinics at Roscommon University Hospital as of 21 April 2026, in tabular form; and if she will make a statement on the matter. [30288/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1213/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Primary Care Centres",
                 "children": [
                   {
@@ -2067,6 +2139,22 @@
                         "name": "1164. Deputy Michael Fitzmaurice asked the Minister for Health to outline the proposal for progressing the primary care centre for Ballaghaderreen, County Roscommon which the HSE was given planning permission for 2021; and if she will make a statement on the matter. [37332/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1164/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Screening Programmes",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1822. Deputy Michael Fitzmaurice asked the Minister for Health if she will implement a fully funded DEXA screening programme for women over 50 years-of-age. [75999/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1822/"
                       }
                     ]
                   }
@@ -2156,6 +2244,33 @@
                         "name": "353. Deputy Michael Fitzmaurice asked the Minister for Transport further to Parliamentary Question No. 205 of 6 May 2026, to state plainly the circumstances where passenger service vehicles that do not fall under the scope of supports provided by the NTA or DEY may be eligible for support under the RTSS; and if he will make a statement on the matter. [37010/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/353/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 6 October",
+                    "date_iso": "2026-10-06",
+                    "children": [
+                      {
+                        "name": "53. Deputy Michael Fitzmaurice asked the Minister for Transport when a payment under the road transport scheme will issue to a person (details supplied). [70000/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/53/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "466. Deputy Michael Fitzmaurice asked the Minister for Transport further to Parliamentary Question No. 53 of 6 October, the reason this payment has not been paid; and if he will outline the issues with this application. [77108/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/466/"
                       }
                     ]
                   }
@@ -2316,22 +2431,6 @@
                         "name": "248. Deputy Michael Fitzmaurice asked the Minister for Transport when the independent appeals process will be in place for applicants who have been refused payment under the road transport support scheme. [69710/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/248/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 6 October",
-                    "date_iso": "2026-10-06",
-                    "children": [
-                      {
-                        "name": "53. Deputy Michael Fitzmaurice asked the Minister for Transport when a payment under the road transport scheme will issue to a person (details supplied). [70000/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-06/53/"
                       }
                     ]
                   }
@@ -3196,6 +3295,27 @@
                         "name": "1039. Deputy Michael Fitzmaurice asked the Minister for Further and Higher Education, Research, Innovation and Science if he will honour the contract between GRETB and a person (details supplied) that was to run until 20 June 2026; and if he will make a statement on the matter. [21469/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/1039/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rural",
+            "children": [
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "2376. Deputy Michael Fitzmaurice asked the Minister for Rural and Community Development and the Gaeltacht when a decision will be made on application received under the Community Centre Investment Fund 2026. [76123/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2376/"
                       }
                     ]
                   }
@@ -5328,6 +5448,105 @@
           "heading": "Poultry Sector",
           "question": "600. Deputy Michael Fitzmaurice asked the Minister for Agriculture, Food and the Marine the reasonable cause for an authorised officer (details supplied) to form the opinion that an animal or animal product was or may have been affected with Salmonella Typhimurium for the purposes of the Section 42 notice issued on 15 March 2024; whether direct sampling of the birds was undertaken; and if not, the reason. [71741/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/600/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 466,
+          "department": "Transport",
+          "heading": "Departmental Schemes",
+          "question": "466. Deputy Michael Fitzmaurice asked the Minister for Transport further to Parliamentary Question No. 53 of 6 October, the reason this payment has not been paid; and if he will outline the issues with this application. [77108/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/466/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1733,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "1733. Deputy Michael Fitzmaurice asked the Minister for Health the number of permanent posts that remain unfilled which could be filled with a locum consultant in the HSE West Division. [75568/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1733/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1822,
+          "department": "Health",
+          "heading": "Health Screening Programmes",
+          "question": "1822. Deputy Michael Fitzmaurice asked the Minister for Health if she will implement a fully funded DEXA screening programme for women over 50 years-of-age. [75999/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1822/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2100,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "2100. Deputy Michael Fitzmaurice asked the Minister for Health when will the temporary pause to recruitment appointments be lifted in the CHW region. [77096/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2100/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2101,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "2101. Deputy Michael Fitzmaurice asked the Minister for Health the reason start dates have been postponed while positions remain vacant in Roscommon University Hospital. [77095/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2101/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2102,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "2102. Deputy Michael Fitzmaurice asked the Minister for Health the number of staffing posts that have been filled with the start dates given been postponed in Roscommon University Hospital, Galway University Hospital and Sligo University Hospital. [77094/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2102/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2103,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "2103. Deputy Michael Fitzmaurice asked the Minister for Health the number of staffing posts that remain unfilled in Roscommon University Hospital in 2026. [77093/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2103/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2179,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "2179. Deputy Michael Fitzmaurice asked the Minister for Health her views on whether two commercial negotiation meetings between the HSE and the applicant (details supplied), in the 45 months since the reimbursement application for pluvicto was received in January 2023 is consistent with the commitment to equitable and timely access to new medicines in the National Cancer Strategy; and if it is in line with the targets set by the Framework Agreement on the Supply and Pricing of Medicines. [77167/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2179/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2184,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "2184. Deputy Michael Fitzmaurice asked the Minister for Health if she will write to the Chief Executive of the HSE requesting that the Senior Leadership Team seek an improved commercial offer from, and invite counterproposals from, the applicant (details supplied) for reimbursement of pluvicto (lutetium-177 vipivotide tetraxetan) before finalising its decision following the notice of proposal issued on 12 October 2026, having regard to the HSE’s confirmation that it sought an improved commercial offer and invited multiple counterproposals in respect of skyclarys. [77164/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2184/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2299,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "2299. Deputy Michael Fitzmaurice asked the Minister for Health if she can confirm when a person (details supplied) will commence a position. [77582/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2299/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 2376,
+          "department": "Rural",
+          "heading": "Departmental Funding",
+          "question": "2376. Deputy Michael Fitzmaurice asked the Minister for Rural and Community Development and the Gaeltacht when a decision will be made on application received under the Community Centre Investment Fund 2026. [76123/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2376/",
           "questionType": "written"
         }
       ]
