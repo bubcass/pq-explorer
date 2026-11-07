@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26/image/large",
   "types": {
     "all": {
-      "count": 303,
+      "count": 310,
       "headingOptions": [
         "Action Plan for Rural Development",
         "Ambulance Service",
@@ -114,11 +114,13 @@
         "School Facilities",
         "School Funding",
         "School Staff",
+        "School Transport",
         "Schools Building Projects",
         "Small and Medium Enterprises",
         "Social Welfare Benefits",
         "Social Welfare Code",
         "Social Welfare Eligibility",
+        "Social Welfare Offices",
         "Social Welfare Payments",
         "Social Welfare Schemes",
         "Special Educational Needs",
@@ -344,6 +346,10 @@
               {
                 "name": "School Funding",
                 "value": 1
+              },
+              {
+                "name": "School Transport",
+                "value": 1
               }
             ]
           },
@@ -477,6 +483,10 @@
                 "value": 2
               },
               {
+                "name": "State Pensions",
+                "value": 2
+              },
+              {
                 "name": "Social Welfare Payments",
                 "value": 2
               },
@@ -501,10 +511,6 @@
                 "value": 1
               },
               {
-                "name": "State Pensions",
-                "value": 1
-              },
-              {
                 "name": "Social Welfare Code",
                 "value": 1
               },
@@ -522,6 +528,10 @@
               },
               {
                 "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Social Welfare Offices",
                 "value": 1
               }
             ]
@@ -576,6 +586,31 @@
             ]
           },
           {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "value": 11
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Naval Service",
+                "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "United Nations",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -616,31 +651,6 @@
               },
               {
                 "name": "Employment Rights",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "value": 10
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Naval Service",
-                "value": 1
-              },
-              {
-                "name": "Departmental Correspondence",
-                "value": 1
-              },
-              {
-                "name": "United Nations",
                 "value": 1
               }
             ]
@@ -720,35 +730,6 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Public Transport",
-                "value": 3
-              },
-              {
-                "name": "Electric Vehicles",
-                "value": 2
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Departmental Correspondence",
-                "value": 1
-              },
-              {
-                "name": "Road Safety",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
@@ -777,6 +758,39 @@
               },
               {
                 "name": "Naturalisation Applications",
+                "value": 1
+              },
+              {
+                "name": "Ukraine War",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Public Transport",
+                "value": 3
+              },
+              {
+                "name": "Electric Vehicles",
+                "value": 2
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Departmental Correspondence",
+                "value": 1
+              },
+              {
+                "name": "Road Safety",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
                 "value": 1
               }
             ]
@@ -811,6 +825,27 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "value": 3
+              },
+              {
+                "name": "Online Safety",
+                "value": 2
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -831,23 +866,6 @@
               },
               {
                 "name": "Electricity Grid",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Online Safety",
-                "value": 2
-              },
-              {
-                "name": "Sports Funding",
-                "value": 2
-              },
-              {
-                "name": "Departmental Funding",
                 "value": 1
               }
             ]
@@ -2327,6 +2345,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "School Transport",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "768. Deputy Sean Fleming asked the Minister for Education and Youth if arrangements will be put in place whereby parents can pay for school transport on an instalment basis for their children (details supplied). [76714/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/768/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3055,6 +3089,33 @@
                 ]
               },
               {
+                "name": "State Pensions",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "643. Deputy Sean Fleming asked the Minister for Social Protection the position regarding payments to a category of persons who are currently in receipt of a State payment and will be transferring to the State Pension (Non-Contributory) (details supplied); and if he will make a statement on the matter. [17003/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/643/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 4 November",
+                    "date_iso": "2026-11-04",
+                    "children": [
+                      {
+                        "name": "89. Deputy Sean Fleming asked the Minister for Social Protection if an oral hearing and a date for same will be expedited in respect of an application for the State Pension (details supplied). [78153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/89/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Social Welfare Payments",
                 "children": [
                   {
@@ -3173,22 +3234,6 @@
                 ]
               },
               {
-                "name": "State Pensions",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "643. Deputy Sean Fleming asked the Minister for Social Protection the position regarding payments to a category of persons who are currently in receipt of a State payment and will be transferring to the State Pension (Non-Contributory) (details supplied); and if he will make a statement on the matter. [17003/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/643/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Social Welfare Code",
                 "children": [
                   {
@@ -3263,6 +3308,22 @@
                         "name": "616. Deputy Sean Fleming asked the Minister for Social Protection the total number of recipients of social protection payments; the total value of those payments in 2022; and best estimate for 2026 in County Laois. [73484/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/616/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Offices",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1171. Deputy Sean Fleming asked the Minister for Social Protection to provide an updates position regarding a matter (details supplied). [75843/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1171/"
                       }
                     ]
                   }
@@ -3501,6 +3562,171 @@
             ]
           },
           {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Defence Forces",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "272. Deputy Sean Fleming asked the Minister for Defence if she will publish the regeneration plans for the Naval Service and Air Corps that she has committed to progressing this year; and if she will make a statement on the matter. [14943/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/272/"
+                      },
+                      {
+                        "name": "273. Deputy Sean Fleming asked the Minister for Defence is she will publish the Capability Development Programme 2028 to 2032, and also the programme to 2040; and if she will make a statement on the matter. [14944/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/273/"
+                      },
+                      {
+                        "name": "274. Deputy Sean Fleming asked the Minister for Defence if the NDP 2030 allocation for the armoured fleet replacement programme will be used to replace the Mowag Piranha; if it is envisioned that the Mowags will be replaced in the next NDP allocation; when she envisages the programme will be completed; and if she will make a statement on the matter. [14966/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/274/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "176. Deputy Sean Fleming asked the Minister for Defence the way the new strategic framework for the transformation of the Defence Forces will impact the Naval Service and Air Corps; and if she will make a statement on the matter. [12174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/176/"
+                      },
+                      {
+                        "name": "193. Deputy Sean Fleming asked the Minister for Defence the way the new strategic framework for the transformation of the Defence Forces will boost recruitment and retention levels; and if she will make a statement on the matter. [12173/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/193/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "163. Deputy Sean Fleming asked the Minister for Defence when she expects the permanent Defence Forces to attain the agreed establishment strength of 9,739; and if she will make a statement on the matter. [53697/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/163/"
+                      },
+                      {
+                        "name": "178. Deputy Sean Fleming asked the Minister for Defence for a report on the establishment of a defence attaché network; and if she will make a statement on the matter. [53698/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/178/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "155. Deputy Sean Fleming asked the Minister for Defence the strength of the permanent Defence Forces as of 31 October 2026 or latest date available; and the way in which this compares to the end of 2025. [76438/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/155/"
+                      },
+                      {
+                        "name": "333. Deputy Sean Fleming asked the Minister for Defence to outline discussions and consideration her Department is currently undertaking regarding increasing the retirement age for members of the Defence Forces from 62 years-of age up to 64 years-of-age. [77295/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/333/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 7 May",
+                    "date_iso": "2026-05-07",
+                    "children": [
+                      {
+                        "name": "108. Deputy Sean Fleming asked the Minister for Defence the timeframe for legislation to underpin the appointment and status of military chaplains; and if she will make a statement on the matter. [33121/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/108/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "177. Deputy Sean Fleming asked the Minister for Defence the total number of members of the Defence Forces currently serving on UN or UN mandated missions overseas; the total figure if the UNIFIL mission is excluded; and if she will make a statement on the matter. [42792/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/177/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "22. Deputy Sean Fleming asked the Minister for Defence the funding allocated to NGOs by her Department in 2025; the funding allocated to NGOs by agencies and bodies under the remit of her Department; and if she will make a statement on the matter. [13082/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/22/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Naval Service",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "275. Deputy Sean Fleming asked the Minister for Defence the way her Department will put in place an accelerated programme of naval vessel replacement in 2028, as highlighted in the Updated Detailed Implementation Plan for the Commission of the Defence Forces given no capital funding has been allocated out to 2030; and if she will make a statement on the matter. [14968/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/275/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "600. Deputy Sean Fleming asked the Minister for Defence to consider and respond to correspondence (details supplied) for people who were involved in 1916 Rising; and if she will make a statement on the matter. [26988/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/600/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "United Nations",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "160. Deputy Sean Fleming asked the Minister for Defence her response to the failure of the United Nations Security Council to renew its mandate for the EU Mediterranean naval mission, Operation Irini. [42793/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/160/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Enterprise",
             "children": [
               {
@@ -3696,166 +3922,6 @@
                         "name": "432. Deputy Sean Fleming asked the Minister for Enterprise, Tourism and Employment to respond to matters raised in correspondence (details supplied). [73523/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/432/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Defence Forces",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "272. Deputy Sean Fleming asked the Minister for Defence if she will publish the regeneration plans for the Naval Service and Air Corps that she has committed to progressing this year; and if she will make a statement on the matter. [14943/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/272/"
-                      },
-                      {
-                        "name": "273. Deputy Sean Fleming asked the Minister for Defence is she will publish the Capability Development Programme 2028 to 2032, and also the programme to 2040; and if she will make a statement on the matter. [14944/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/273/"
-                      },
-                      {
-                        "name": "274. Deputy Sean Fleming asked the Minister for Defence if the NDP 2030 allocation for the armoured fleet replacement programme will be used to replace the Mowag Piranha; if it is envisioned that the Mowags will be replaced in the next NDP allocation; when she envisages the programme will be completed; and if she will make a statement on the matter. [14966/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/274/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "176. Deputy Sean Fleming asked the Minister for Defence the way the new strategic framework for the transformation of the Defence Forces will impact the Naval Service and Air Corps; and if she will make a statement on the matter. [12174/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/176/"
-                      },
-                      {
-                        "name": "193. Deputy Sean Fleming asked the Minister for Defence the way the new strategic framework for the transformation of the Defence Forces will boost recruitment and retention levels; and if she will make a statement on the matter. [12173/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/193/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 16 July",
-                    "date_iso": "2026-07-16",
-                    "children": [
-                      {
-                        "name": "163. Deputy Sean Fleming asked the Minister for Defence when she expects the permanent Defence Forces to attain the agreed establishment strength of 9,739; and if she will make a statement on the matter. [53697/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/163/"
-                      },
-                      {
-                        "name": "178. Deputy Sean Fleming asked the Minister for Defence for a report on the establishment of a defence attaché network; and if she will make a statement on the matter. [53698/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/178/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 7 May",
-                    "date_iso": "2026-05-07",
-                    "children": [
-                      {
-                        "name": "108. Deputy Sean Fleming asked the Minister for Defence the timeframe for legislation to underpin the appointment and status of military chaplains; and if she will make a statement on the matter. [33121/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-07/108/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "177. Deputy Sean Fleming asked the Minister for Defence the total number of members of the Defence Forces currently serving on UN or UN mandated missions overseas; the total figure if the UNIFIL mission is excluded; and if she will make a statement on the matter. [42792/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/177/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 3 November",
-                    "date_iso": "2026-11-03",
-                    "children": [
-                      {
-                        "name": "155. Deputy Sean Fleming asked the Minister for Defence the strength of the permanent Defence Forces as of 31 October 2026 or latest date available; and the way in which this compares to the end of 2025. [76438/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/155/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "22. Deputy Sean Fleming asked the Minister for Defence the funding allocated to NGOs by her Department in 2025; the funding allocated to NGOs by agencies and bodies under the remit of her Department; and if she will make a statement on the matter. [13082/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/22/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Naval Service",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "275. Deputy Sean Fleming asked the Minister for Defence the way her Department will put in place an accelerated programme of naval vessel replacement in 2028, as highlighted in the Updated Detailed Implementation Plan for the Commission of the Defence Forces given no capital funding has been allocated out to 2030; and if she will make a statement on the matter. [14968/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/275/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "600. Deputy Sean Fleming asked the Minister for Defence to consider and respond to correspondence (details supplied) for people who were involved in 1916 Rising; and if she will make a statement on the matter. [26988/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/600/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "United Nations",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "160. Deputy Sean Fleming asked the Minister for Defence her response to the failure of the United Nations Security Council to renew its mandate for the EU Mediterranean naval mission, Operation Irini. [42793/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/160/"
                       }
                     ]
                   }
@@ -4188,134 +4254,6 @@
             ]
           },
           {
-            "name": "Transport",
-            "children": [
-              {
-                "name": "Public Transport",
-                "children": [
-                  {
-                    "name": "Monday, 7 September",
-                    "date_iso": "2026-09-07",
-                    "children": [
-                      {
-                        "name": "443. Deputy Sean Fleming asked the Minister for Transport the measures he is taking to encourage greater use of public transport by the promotion of buses or railways; to promote the use of travel passes under the tax savers scheme in view of the fact that less than 1% of the work force currently benefit from this scheme; the measures his Department is taking to encourage employers to cooperate with employees who request to be included in the scheme, but choose not to do so; and if the Minister will make a statement on the matter. [61861/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/443/"
-                      },
-                      {
-                        "name": "514. Deputy Sean Fleming asked the Minister for Transport his plans to promote the tax savers scheme where an employer purchases a travel pass for their employees in view of the fact that less than 1% of the workforce in Ireland currently avail of this scheme; and if he will make a statement on the matter. [61862/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/514/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "280. Deputy Sean Fleming asked the Minister for Transport to contact the people involved who approved a 15% in public transport to reconsider the decision and to reverse this increase in view of the impact this is having on the cost of living and the inevitable situation where more people will be forced to go back into cars on the road because of the cost of public transport; and if he will make a statement on the matter. [68464/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/280/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Electric Vehicles",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "29. Deputy Sean Fleming asked the Minister for Transport to outline the proposals and targets for the number of electric EVs and solar vehicles in Ireland by 2030; if there will be sufficient infrastructure in place for these electric vehicles to be charged at sufficient locations throughout the country; and if he will make a statement on the matter. [12993/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/29/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 26 May",
-                    "date_iso": "2026-05-26",
-                    "children": [
-                      {
-                        "name": "389. Deputy Sean Fleming asked the Minister for Transport when it is intended that EV charging points will be installed at locations (details supplied); and if he will make a statement on the matter. [39372/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/389/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "32. Deputy Sean Fleming asked the Minister for Transport the funding allocated to NGOs by his Department in 2025; the funding allocated to NGOs by agencies and bodies under the remit of his Department; and if he will make a statement on the matter. [13095/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/32/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Correspondence",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "358. Deputy Sean Fleming asked the Minister for Transport his views on matters raised in correspondence (details supplied); and if he will make a statement on the matter. [30028/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/358/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Road Safety",
-                "children": [
-                  {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
-                    "children": [
-                      {
-                        "name": "207. Deputy Sean Fleming asked the Minister for Transport to respond to matters raised in correspondence (details supplied); and if he will make a statement on the matter. [34025/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/207/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Wednesday, 16 September",
-                    "date_iso": "2026-09-16",
-                    "children": [
-                      {
-                        "name": "184. Deputy Sean Fleming asked the Minister for Transport the up-to-date position in relation to the CIÉ pension scheme; if the process has been completed; the date for payments under this agreement to be paid; and if he will make a statement on the matter. [64154/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/184/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
               {
@@ -4436,6 +4374,150 @@
                         "name": "668. Deputy Sean Fleming asked the Minister for Justice, Home Affairs and Migration to respond to correspondence (details supplied). [73550/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/668/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ukraine War",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 November",
+                    "date_iso": "2026-11-04",
+                    "children": [
+                      {
+                        "name": "111. Deputy Sean Fleming asked the Minister for Justice, Home Affairs and Migration to respond to correspondence (details supplied) regarding the new temporary protection transition scheme. [78172/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/111/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "children": [
+              {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "443. Deputy Sean Fleming asked the Minister for Transport the measures he is taking to encourage greater use of public transport by the promotion of buses or railways; to promote the use of travel passes under the tax savers scheme in view of the fact that less than 1% of the work force currently benefit from this scheme; the measures his Department is taking to encourage employers to cooperate with employees who request to be included in the scheme, but choose not to do so; and if the Minister will make a statement on the matter. [61861/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/443/"
+                      },
+                      {
+                        "name": "514. Deputy Sean Fleming asked the Minister for Transport his plans to promote the tax savers scheme where an employer purchases a travel pass for their employees in view of the fact that less than 1% of the workforce in Ireland currently avail of this scheme; and if he will make a statement on the matter. [61862/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/514/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "280. Deputy Sean Fleming asked the Minister for Transport to contact the people involved who approved a 15% in public transport to reconsider the decision and to reverse this increase in view of the impact this is having on the cost of living and the inevitable situation where more people will be forced to go back into cars on the road because of the cost of public transport; and if he will make a statement on the matter. [68464/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/280/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "29. Deputy Sean Fleming asked the Minister for Transport to outline the proposals and targets for the number of electric EVs and solar vehicles in Ireland by 2030; if there will be sufficient infrastructure in place for these electric vehicles to be charged at sufficient locations throughout the country; and if he will make a statement on the matter. [12993/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/29/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 26 May",
+                    "date_iso": "2026-05-26",
+                    "children": [
+                      {
+                        "name": "389. Deputy Sean Fleming asked the Minister for Transport when it is intended that EV charging points will be installed at locations (details supplied); and if he will make a statement on the matter. [39372/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-26/389/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "32. Deputy Sean Fleming asked the Minister for Transport the funding allocated to NGOs by his Department in 2025; the funding allocated to NGOs by agencies and bodies under the remit of his Department; and if he will make a statement on the matter. [13095/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/32/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Correspondence",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "358. Deputy Sean Fleming asked the Minister for Transport his views on matters raised in correspondence (details supplied); and if he will make a statement on the matter. [30028/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/358/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Safety",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "207. Deputy Sean Fleming asked the Minister for Transport to respond to matters raised in correspondence (details supplied); and if he will make a statement on the matter. [34025/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/207/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Wednesday, 16 September",
+                    "date_iso": "2026-09-16",
+                    "children": [
+                      {
+                        "name": "184. Deputy Sean Fleming asked the Minister for Transport the up-to-date position in relation to the CIÉ pension scheme; if the process has been completed; the date for payments under this agreement to be paid; and if he will make a statement on the matter. [64154/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-16/184/"
                       }
                     ]
                   }
@@ -4567,6 +4649,102 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "564. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport to provide the required information to an organisation in respect of an allocation under a previous round of funding under the Sports Capital Programme (details supplied); and if he will make a statement on the matter. [17055/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/564/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "535. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport to provide details of the Sports Capital Programme payments made in each year since 2023 including the best estimate for 2026 in County Laois. [73566/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/535/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "911. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport the status of the payment of grant that was approved for a sporting organisation (details supplied). [75811/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/911/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Online Safety",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "194. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport his views and plans to enforce age verification obligations on online service providers; and if he will make a statement on the matter. [13108/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/194/"
+                      },
+                      {
+                        "name": "195. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport his views on tackling the use of recommender algorithms to protect children from harmful content on various online service providers; and if he will make a statement on the matter. [13112/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/195/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "193. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport the funding allocated to NGOs by his Department in 2025; the funding allocated to NGOs by agencies and bodies under the remit of his Department; and if he will make a statement on the matter. [13081/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/193/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "935. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport the up to date position in relation to An Post pension scheme for current pensioners; if the process has been completed; the date for payments under this agreement to be paid; and if he will make a statement on the matter. [76694/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/935/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Climate",
             "children": [
               {
@@ -4644,75 +4822,6 @@
                         "name": "116. Deputy Sean Fleming asked the Minister for Climate, Energy and the Environment if the Celtic Interconnector is on track to be operational by Spring 2028; and if he will make a statement on the matter. [27323/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/116/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Online Safety",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "194. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport his views and plans to enforce age verification obligations on online service providers; and if he will make a statement on the matter. [13108/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/194/"
-                      },
-                      {
-                        "name": "195. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport his views on tackling the use of recommender algorithms to protect children from harmful content on various online service providers; and if he will make a statement on the matter. [13112/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/195/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "564. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport to provide the required information to an organisation in respect of an allocation under a previous round of funding under the Sports Capital Programme (details supplied); and if he will make a statement on the matter. [17055/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/564/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 20 October",
-                    "date_iso": "2026-10-20",
-                    "children": [
-                      {
-                        "name": "535. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport to provide details of the Sports Capital Programme payments made in each year since 2023 including the best estimate for 2026 in County Laois. [73566/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/535/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "193. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport the funding allocated to NGOs by his Department in 2025; the funding allocated to NGOs by agencies and bodies under the remit of his Department; and if he will make a statement on the matter. [13081/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/193/"
                       }
                     ]
                   }
@@ -7568,11 +7677,56 @@
         },
         {
           "date_iso": "2026-11-03",
+          "questionNumber": 333,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "333. Deputy Sean Fleming asked the Minister for Defence to outline discussions and consideration her Department is currently undertaking regarding increasing the retirement age for members of the Defence Forces from 62 years-of age up to 64 years-of-age. [77295/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/333/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
           "questionNumber": 716,
           "department": "Education",
           "heading": "Departmental Correspondence",
           "question": "716. Deputy Sean Fleming asked the Minister for Education and Youth to respond to correspondence (details supplied) on behalf of a parent in County Laois in respect of her son. [76184/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/716/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 768,
+          "department": "Education",
+          "heading": "School Transport",
+          "question": "768. Deputy Sean Fleming asked the Minister for Education and Youth if arrangements will be put in place whereby parents can pay for school transport on an instalment basis for their children (details supplied). [76714/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/768/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 911,
+          "department": "Culture",
+          "heading": "Sports Funding",
+          "question": "911. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport the status of the payment of grant that was approved for a sporting organisation (details supplied). [75811/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/911/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 935,
+          "department": "Culture",
+          "heading": "Pension Provisions",
+          "question": "935. Deputy Sean Fleming asked the Minister for Culture, Communications and Sport the up to date position in relation to An Post pension scheme for current pensioners; if the process has been completed; the date for payments under this agreement to be paid; and if he will make a statement on the matter. [76694/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/935/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1171,
+          "department": "Social",
+          "heading": "Social Welfare Offices",
+          "question": "1171. Deputy Sean Fleming asked the Minister for Social Protection to provide an updates position regarding a matter (details supplied). [75843/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1171/",
           "questionType": "written"
         },
         {
@@ -7591,6 +7745,24 @@
           "heading": "Departmental Schemes",
           "question": "2369. Deputy Sean Fleming asked the Minister for Rural and Community Development and the Gaeltacht if he will support a proposal (details supplied); and the estimated timeframe from when applications in respect of this scheme will be examined and a decision made on this issue. [75793/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2369/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-04",
+          "questionNumber": 89,
+          "department": "Social",
+          "heading": "State Pensions",
+          "question": "89. Deputy Sean Fleming asked the Minister for Social Protection if an oral hearing and a date for same will be expedited in respect of an application for the State Pension (details supplied). [78153/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/89/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-04",
+          "questionNumber": 111,
+          "department": "Justice",
+          "heading": "Ukraine War",
+          "question": "111. Deputy Sean Fleming asked the Minister for Justice, Home Affairs and Migration to respond to correspondence (details supplied) regarding the new temporary protection transition scheme. [78172/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/111/",
           "questionType": "written"
         }
       ]

@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12/image/large",
   "types": {
     "all": {
-      "count": 186,
+      "count": 189,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -108,7 +108,7 @@
         "topHeading": "Special Educational Needs",
         "topHeadingCount": 10,
         "topDepartment": "Health",
-        "topDepartmentCount": 48
+        "topDepartmentCount": 50
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -129,6 +129,10 @@
                 "value": 4
               },
               {
+                "name": "Hospital Services",
+                "value": 4
+              },
+              {
                 "name": "Hospital Waiting Lists",
                 "value": 4
               },
@@ -142,10 +146,6 @@
               },
               {
                 "name": "Medicinal Products",
-                "value": 2
-              },
-              {
-                "name": "Hospital Services",
                 "value": 2
               },
               {
@@ -488,6 +488,27 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Arts Funding",
+                "value": 3
+              },
+              {
+                "name": "Sports Funding",
+                "value": 1
+              },
+              {
+                "name": "Pension Provisions",
+                "value": 1
+              },
+              {
+                "name": "Departmental Schemes",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Agriculture",
             "children": [
               {
@@ -508,27 +529,6 @@
               },
               {
                 "name": "Wildlife Protection",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Arts Funding",
-                "value": 2
-              },
-              {
-                "name": "Sports Funding",
-                "value": 1
-              },
-              {
-                "name": "Pension Provisions",
-                "value": 1
-              },
-              {
-                "name": "Departmental Schemes",
                 "value": 1
               }
             ]
@@ -804,6 +804,49 @@
                 ]
               },
               {
+                "name": "Hospital Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 November",
+                    "date_iso": "2026-11-04",
+                    "children": [
+                      {
+                        "name": "134. Deputy Eamon Scanlon asked the Minister for Health the median and longest waiting times between a patient being deemed medically fit for discharge and admission to specialist inpatient rehabilitation; and the total acute hospital bed days associated with these delays in 2024, 2025 and 2026 to date. [77988/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/134/"
+                      },
+                      {
+                        "name": "135. Deputy Eamon Scanlon asked the Minister for Health the number of patients currently in acute hospitals who have been deemed medically fit for discharge but remain in hospital awaiting specialist inpatient rehabilitation, by hospital, HSE CHO, and rehabilitation requirement. [77987/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/135/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "965. Deputy Eamon Scanlon asked the Minister for Health whether the new St. Patrick’s Hospital development in Carrick on Shannon will include diagnostic facilities such as X-ray and ultrasound services; and if she will make a statement on the matter. [17185/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/965/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "183. Deputy Eamon Scanlon asked the Minister for Health if she will examine the case for the establishment of an urgent care centre and minor injury clinic at Our Lady’s Hospital, Manorhamilton (details supplied); and if she will make a statement on the matter. [51864/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/183/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Hospital Waiting Lists",
                 "children": [
                   {
@@ -910,33 +953,6 @@
                         "name": "840. Deputy Eamon Scanlon asked the Minister for Health the steps being taken to expedite the assessment and approval of belzutifan for patients with Von Hippel–Lindau (VHL) disease to ensure timely access for eligible patients; if she will engage with clinicians and patient groups regarding barriers to access; and if she will make a statement on the matter. [51615/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-07/840/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Hospital Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "965. Deputy Eamon Scanlon asked the Minister for Health whether the new St. Patrick’s Hospital development in Carrick on Shannon will include diagnostic facilities such as X-ray and ultrasound services; and if she will make a statement on the matter. [17185/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/965/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 9 July",
-                    "date_iso": "2026-07-09",
-                    "children": [
-                      {
-                        "name": "183. Deputy Eamon Scanlon asked the Minister for Health if she will examine the case for the establishment of an urgent care centre and minor injury clinic at Our Lady’s Hospital, Manorhamilton (details supplied); and if she will make a statement on the matter. [51864/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/183/"
                       }
                     ]
                   }
@@ -2620,6 +2636,97 @@
             ]
           },
           {
+            "name": "Culture",
+            "children": [
+              {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "371. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport if his Department provides funding supports for independent artists who are invited to present their work at international conferences (details supplied); and if he will make a statement on the matter. [3115/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/371/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "444. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when applicants can expect notification regarding the basic income for the arts scheme 2026–2029; and if he will make a statement on the matter. [49418/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/444/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "953. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when the remaining successful applicants under the basic income for the arts scheme 2026–2029 will be notified; the number of applicants who have accepted offers and completed the necessary requirements to commence payments; and when unsuccessful applicants will be informed of the outcome of their applications. [77448/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/953/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sports Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 February",
+                    "date_iso": "2026-02-18",
+                    "children": [
+                      {
+                        "name": "191. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when written approval will issue to a community organisation (details supplied) to proceed with works under the community sports facilities fund; and if he will make a statement on the matter. [12963/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/191/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pension Provisions",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "997. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport to provide an update on the An Post superannuation scheme; the agreed pension increases for An Post workers; and if he will make a statement on the matter. [43024/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/997/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Schemes",
+                "children": [
+                  {
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
+                    "children": [
+                      {
+                        "name": "309. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when applicants can expect notification regarding the basic income for the arts scheme 2026–2029; and when the first payments are expected to reach successful applicants. [69493/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/309/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Agriculture",
             "children": [
               {
@@ -2708,86 +2815,6 @@
                         "name": "616. Deputy Eamon Scanlon asked the Minister for Agriculture, Food and the Marine the results of the independent experts' analysis of the research provided to his Department in December 2024 in relation to the native Irish honeybee assessment, as recommended by the Attorney General; and if he will make a statement on the matter. [53263/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-14/616/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Culture",
-            "children": [
-              {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "371. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport if his Department provides funding supports for independent artists who are invited to present their work at international conferences (details supplied); and if he will make a statement on the matter. [3115/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/371/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 30 June",
-                    "date_iso": "2026-06-30",
-                    "children": [
-                      {
-                        "name": "444. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when applicants can expect notification regarding the basic income for the arts scheme 2026–2029; and if he will make a statement on the matter. [49418/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/444/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Sports Funding",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 February",
-                    "date_iso": "2026-02-18",
-                    "children": [
-                      {
-                        "name": "191. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when written approval will issue to a community organisation (details supplied) to proceed with works under the community sports facilities fund; and if he will make a statement on the matter. [12963/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-18/191/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Pension Provisions",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "997. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport to provide an update on the An Post superannuation scheme; the agreed pension increases for An Post workers; and if he will make a statement on the matter. [43024/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/997/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Schemes",
-                "children": [
-                  {
-                    "name": "Thursday, 1 October",
-                    "date_iso": "2026-10-01",
-                    "children": [
-                      {
-                        "name": "309. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when applicants can expect notification regarding the basic income for the arts scheme 2026–2029; and when the first payments are expected to reach successful applicants. [69493/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/309/"
                       }
                     ]
                   }
@@ -4793,6 +4820,33 @@
           "heading": "Health Screening Programmes",
           "question": "453. Deputy Eamon Scanlon asked the Minister for Health if she will introduce a fully funded DEXA screening programme for women over 50 years of age to support the early detection and treatment of osteoporosis and reduce the incidence of preventable fractures. [75286/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-10-22/453/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 953,
+          "department": "Culture",
+          "heading": "Arts Funding",
+          "question": "953. Deputy Eamon Scanlon asked the Minister for Culture, Communications and Sport when the remaining successful applicants under the basic income for the arts scheme 2026–2029 will be notified; the number of applicants who have accepted offers and completed the necessary requirements to commence payments; and when unsuccessful applicants will be informed of the outcome of their applications. [77448/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/953/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-04",
+          "questionNumber": 134,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "134. Deputy Eamon Scanlon asked the Minister for Health the median and longest waiting times between a patient being deemed medically fit for discharge and admission to specialist inpatient rehabilitation; and the total acute hospital bed days associated with these delays in 2024, 2025 and 2026 to date. [77988/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/134/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-04",
+          "questionNumber": 135,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "135. Deputy Eamon Scanlon asked the Minister for Health the number of patients currently in acute hospitals who have been deemed medically fit for discharge but remain in hospital awaiting specialist inpatient rehabilitation, by hospital, HSE CHO, and rehabilitation requirement. [77987/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/135/",
           "questionType": "written"
         }
       ]

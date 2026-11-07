@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Ryan-O'Meara.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 591,
+      "count": 609,
       "headingOptions": [
         "Agriculture Schemes",
         "Ambulance Service",
@@ -17,6 +17,7 @@
         "Animal Culls",
         "Animal Diseases",
         "Animal Welfare",
+        "Artists' Remuneration",
         "Arts Funding",
         "Assisted Human Reproduction",
         "Banking Sector",
@@ -28,12 +29,14 @@
         "Business Supports",
         "Cabinet Committees",
         "Cancer Services",
+        "Citizenship Applications",
         "Climate Change Policy",
         "Clinical Trials",
         "Commercial Rates",
         "Common Agricultural Policy",
         "Community Care",
         "Community Development Projects",
+        "Crime Prevention",
         "Defective Building Materials",
         "Defence Forces",
         "Dental Services",
@@ -53,6 +56,7 @@
         "Domestic, Sexual and Gender-based Violence",
         "Eating Disorders",
         "Education Policy",
+        "Education Schemes",
         "Electric Vehicles",
         "Employment Schemes",
         "Environmental Policy",
@@ -106,6 +110,7 @@
         "Parking Provision",
         "Passport Services",
         "Paternity Leave",
+        "Patient Files",
         "Pension Provisions",
         "Pharmacy Services",
         "Planning Issues",
@@ -165,7 +170,7 @@
         "topHeading": "Health Services",
         "topHeadingCount": 41,
         "topDepartment": "Health",
-        "topDepartmentCount": 173
+        "topDepartmentCount": 174
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -356,6 +361,10 @@
               {
                 "name": "Disease Management",
                 "value": 1
+              },
+              {
+                "name": "Patient Files",
+                "value": 1
               }
             ]
           },
@@ -452,6 +461,10 @@
               },
               {
                 "name": "Teaching Council of Ireland",
+                "value": 1
+              },
+              {
+                "name": "Education Schemes",
                 "value": 1
               }
             ]
@@ -574,6 +587,10 @@
                 "value": 4
               },
               {
+                "name": "Defective Building Materials",
+                "value": 4
+              },
+              {
                 "name": "Invasive Species Policy",
                 "value": 4
               },
@@ -591,10 +608,6 @@
               },
               {
                 "name": "National Planning Framework",
-                "value": 1
-              },
-              {
-                "name": "Defective Building Materials",
                 "value": 1
               },
               {
@@ -684,11 +697,23 @@
                 "value": 4
               },
               {
+                "name": "Crime Prevention",
+                "value": 3
+              },
+              {
+                "name": "Citizenship Applications",
+                "value": 2
+              },
+              {
                 "name": "Road Safety",
                 "value": 1
               },
               {
                 "name": "Family Reunification",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
                 "value": 1
               }
             ]
@@ -710,6 +735,10 @@
               },
               {
                 "name": "Social Welfare Schemes",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Benefits",
                 "value": 2
               },
               {
@@ -743,10 +772,6 @@
               {
                 "name": "Employment Schemes",
                 "value": 1
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "value": 1
               }
             ]
           },
@@ -762,6 +787,14 @@
                 "value": 4
               },
               {
+                "name": "Arts Funding",
+                "value": 2
+              },
+              {
+                "name": "Artists' Remuneration",
+                "value": 2
+              },
+              {
                 "name": "Public Sector Pensions",
                 "value": 1
               },
@@ -770,11 +803,11 @@
                 "value": 1
               },
               {
-                "name": "Arts Funding",
+                "name": "Broadband Infrastructure",
                 "value": 1
               },
               {
-                "name": "Broadband Infrastructure",
+                "name": "Departmental Advertising",
                 "value": 1
               }
             ]
@@ -855,6 +888,47 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Renewable Energy Generation",
+                "value": 3
+              },
+              {
+                "name": "Climate Change Policy",
+                "value": 1
+              },
+              {
+                "name": "Housing Schemes",
+                "value": 1
+              },
+              {
+                "name": "Departmental Programmes",
+                "value": 1
+              },
+              {
+                "name": "Wind Energy Generation",
+                "value": 1
+              },
+              {
+                "name": "Environmental Policy",
+                "value": 1
+              },
+              {
+                "name": "Departmental Policies",
+                "value": 1
+              },
+              {
+                "name": "Departmental Projects",
+                "value": 1
+              },
+              {
+                "name": "Electric Vehicles",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -889,47 +963,6 @@
               {
                 "name": "Departmental Data",
                 "value": 4
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Climate Change Policy",
-                "value": 1
-              },
-              {
-                "name": "Housing Schemes",
-                "value": 1
-              },
-              {
-                "name": "Departmental Programmes",
-                "value": 1
-              },
-              {
-                "name": "Wind Energy Generation",
-                "value": 1
-              },
-              {
-                "name": "Environmental Policy",
-                "value": 1
-              },
-              {
-                "name": "Departmental Policies",
-                "value": 1
-              },
-              {
-                "name": "Departmental Projects",
-                "value": 1
-              },
-              {
-                "name": "Renewable Energy Generation",
-                "value": 1
-              },
-              {
-                "name": "Electric Vehicles",
-                "value": 1
               }
             ]
           },
@@ -2672,6 +2705,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Patient Files",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 November",
+                    "date_iso": "2026-11-04",
+                    "children": [
+                      {
+                        "name": "159. Deputy Ryan O'Meara asked the Minister for Health the efforts being made to streamline patient access to immunisation records, particularly given the difficulties that can be faced obtaining them from primary care centres that may be understaffed and difficult to contact in a timely manner. [78051/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/159/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -3525,6 +3574,22 @@
                         "name": "719. Deputy Ryan O'Meara asked the Minister for Education and Youth to outline the process by which a qualified teacher from a non-EEA country may apply for a teaching post in Ireland; the requirements that apply in respect of teaching council registration; and if registration can be completed in advance, before moving to Ireland. [76201/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/719/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Education Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "844. Deputy Ryan O'Meara asked the Minister for Education and Youth for an update on a school's (details supplied) application for the climate action summer works scheme; and if she will make a statement on the matter. [77536/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/844/"
                       }
                     ]
                   }
@@ -4713,6 +4778,43 @@
                 ]
               },
               {
+                "name": "Defective Building Materials",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1086. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No.28023/26, when it is expected the statutory designation process will be completed for County Tipperary. [76677/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1086/"
+                      },
+                      {
+                        "name": "1087. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No.28023/26, if the Housing Agency has made its recommendation to him under Section 5 of the Remediation of Dwellings Damaged by the Use of Defective Concrete Blocks Act 2022; if so, when was it sent to him; and if the recommendations include all or part of County Tipperary. [76676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1087/"
+                      },
+                      {
+                        "name": "1088. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 28023/26, if the final test results for Tipperary have been received by the Housing Agency; and if so, when they were received. [76674/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1088/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 21 April",
+                    "date_iso": "2026-04-21",
+                    "children": [
+                      {
+                        "name": "565. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage the counties currently included in the pyrite remediation scheme; his plans to extend the scheme to further counties, including Tipperary; and if he will make a statement on the matter. [28023/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/565/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Invasive Species Policy",
                 "children": [
                   {
@@ -4851,22 +4953,6 @@
                         "name": "189. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage if he will update the rural housing guidelines to remove some of the unnecessary barriers to building in rural Ireland; and if he will make a statement on the matter. [17671/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-05/189/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defective Building Materials",
-                "children": [
-                  {
-                    "name": "Tuesday, 21 April",
-                    "date_iso": "2026-04-21",
-                    "children": [
-                      {
-                        "name": "565. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage the counties currently included in the pyrite remediation scheme; his plans to extend the scheme to further counties, including Tipperary; and if he will make a statement on the matter. [28023/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-21/565/"
                       }
                     ]
                   }
@@ -5494,6 +5580,53 @@
                 ]
               },
               {
+                "name": "Crime Prevention",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1262. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration whether he will review the effectiveness of existing criminal trespass legislation as it applies to agricultural land, including deliberate and repeated entry where the statutory threshold for an existing offence may not be met; whether consideration will be given to a narrowly defined offence targeting deliberate, harmful unauthorised entry; and the way in which any reform would protect lawful access, legitimate hunting or conservation activities and genuinely harmless entry. [75608/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1262/"
+                      },
+                      {
+                        "name": "1263. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration whether the existing statutory powers available to An Garda Síochána are sufficient to seize and retain firearms, vehicles, trailers or other equipment where there are reasonable grounds to suspect that these items are being used in connection with criminal trespass, illegal hunting, animal cruelty or criminal damage; and whether he will review the adequacy of these powers and the relevant safeguards. [75606/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1263/"
+                      },
+                      {
+                        "name": "1266. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration whether he is satisfied that the existing criminal law adequately protects farmers from deliberate and repeated unauthorised entry onto agricultural land, particularly where threats, damage, illegal hunting or other harmful conduct is alleged; and whether he will review the operation and effectiveness of the relevant provisions of the Criminal Justice (Public Order) Act 1994. [75590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1266/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1270. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of citizenship applications received; the number of citizenship applications processed; the number of citizenship applications still processing; the median processing time for citizenship applications, broken down by year, from 2018 to date, in tabular form. [75776/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1270/"
+                      },
+                      {
+                        "name": "1271. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the breakdown of the number of citizenship applications processing, by timeframes 0-6 months, 6 months-1 year, 1-2 years, 2-3 years, 3-4 years, 4+ years, in tabular form. [75778/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1271/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Road Safety",
                 "children": [
                   {
@@ -5520,6 +5653,22 @@
                         "name": "1441. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the way in which a concerned family reunification applicant can submit a request to expedite their application; and if he will make a statement on the matter. [43835/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1441/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1265. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of offences recorded, prosecutions initiated and convictions secured in each of the years 2021 to 2025, and to date in 2026, for trespass under the Criminal Justice (Public Order) Act 1994, with a breakdown by Garda division where available; and whether the figures distinguish incidents involving agricultural land. [75591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1265/"
                       }
                     ]
                   }
@@ -5686,6 +5835,33 @@
                 ]
               },
               {
+                "name": "Social Welfare Benefits",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "516. Deputy Ryan O'Meara asked the Minister for Social Protection for an update on the introduction of pay-related parent's benefit; and when the public consultation will be issued. [68671/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/516/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1204. Deputy Ryan O'Meara asked the Minister for Social Protection if there are free travel entitlements for cancer patients to travel to and from hospital appointments. [77097/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1204/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "School Meals Programme",
                 "children": [
                   {
@@ -5812,22 +5988,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "name": "Social Welfare Benefits",
-                "children": [
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "516. Deputy Ryan O'Meara asked the Minister for Social Protection for an update on the introduction of pay-related parent's benefit; and when the public consultation will be issued. [68671/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/516/"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           },
@@ -5930,6 +6090,54 @@
                 ]
               },
               {
+                "name": "Arts Funding",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "104. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport for an update on plans to provide capital funding to amateur drama and musical societies; and if he will make a statement on the matter. [44459/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/104/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1006. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport the way in which offers under the basic income for artists scheme have issued in the first cohort of offers; and the number of these offers have been accepted to date. [77804/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1006/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artists' Remuneration",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1005. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport when unsuccessful applicants for the basic income for artists scheme will be notified the outcome of their applications as payments have now commenced. [77805/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1005/"
+                      },
+                      {
+                        "name": "1007. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport when remaining applicants for the basic income for artists scheme will be notified the outcome of their applications as payments have now commenced. [77803/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1007/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Public Sector Pensions",
                 "children": [
                   {
@@ -5962,22 +6170,6 @@
                 ]
               },
               {
-                "name": "Arts Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 11 June",
-                    "date_iso": "2026-06-11",
-                    "children": [
-                      {
-                        "name": "104. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport for an update on plans to provide capital funding to amateur drama and musical societies; and if he will make a statement on the matter. [44459/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/104/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Broadband Infrastructure",
                 "children": [
                   {
@@ -5988,6 +6180,22 @@
                         "name": "1631. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport for an update on the rollout of highspeed broadband in Tipperary; the number of premises in Tipperary still awaiting a connection; the anticipated completion date for fibre broadband rollout in Tipperary; and if he will make a statement on the matter. [61801/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1631/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Advertising",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "941. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport if his Department has advertised with community radio stations around the country over the past five years; the amount spent on community radio adverting over those years; and if not, the reason his Department does not advertise with community radio to ensure his Department's communications are reaching local areas. [77320/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/941/"
                       }
                     ]
                   }
@@ -6451,6 +6659,171 @@
             ]
           },
           {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Renewable Energy Generation",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "293. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the support available to customers that wish to purchase a battery and inverter for their solar panels, having previously received support under the solar PV scheme for medically vulnerable customers through their provider. [77341/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/293/"
+                      },
+                      {
+                        "name": "300. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the position regarding individuals that previously availed of the solar PV scheme for medically vulnerable customers through their provider, the additional support that is available for appropriate battery storage, compatible equipment and the electrical arrangements required to supply essential medical equipment safely during a power cut. [77943/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/300/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "207. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment with regards to SEAI's warmer homes scheme, if there are plans to raise the year of construction and occupation from 2006 in order that it may closer align with SEAI's other grants which are available to homes built and occupied before 2011; if not, if he will consider this in the context of future budgets, particularly given the popularity of the scheme and the serious advances made in energy efficiency in the past 20 years. [68131/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/207/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Climate Change Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 January",
+                    "date_iso": "2026-01-20",
+                    "children": [
+                      {
+                        "name": "239. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the plans to introduce a carbon credit trading desk in Ireland for community grounds that produce carbon credits to enable them to sell them on the open market; and if he will make a statement on the matter. [3339/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/239/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 March",
+                    "date_iso": "2026-03-03",
+                    "children": [
+                      {
+                        "name": "242. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the measures the SEAI is taking to include works to old stone houses, many without foundations, under the warmer homes scheme given many are being refused any or most works due to structural issues; and if he will make a statement on the matter. [16197/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/242/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Programmes",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "143. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment if he would consider expanding the membership of the Biomethane Implementation Group, which has been established to oversee implementation of the National Biomethane Strategy and delivery of the 25 key strategic actions to ensure the necessary infrastructure and supports are in place to aid development of an indigenous biomethane sector of scale, to include the National Biogas Concern Group (NBCG) to ensure communities are represented within the decision making process; and if he will make a statement on the matter. [20692/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/143/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wind Energy Generation",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "88. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the initiatives he is taking to ensure greater public support for onshore wind energy generation; and if he will make a statement on the matter. [27337/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/88/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Environmental Policy",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "272. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the plans in place for the introduction of levies on single-use cups and containers; and if he will make a statement on the matter. [42012/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/272/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Policies",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "243. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment for an update on plans to introduce a carbon credit trading desk in Ireland through which community grounds could produce carbon credits to enable them to sell them on the open market; and if he will make a statement on the matter. [44937/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/243/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "178. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment for an update on the work ongoing by his Department in the tailings pond in the Silvermines, County Tipperary; the cost of these works and the timelines for same; and if he will make a statement on the matter. [56272/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/178/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electric Vehicles",
+                "children": [
+                  {
+                    "name": "Tuesday, 29 September",
+                    "date_iso": "2026-09-29",
+                    "children": [
+                      {
+                        "name": "219. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the efforts his Department have made to encourage better take-up of the solar PV scheme by electricity providers. [68695/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/219/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Rural",
             "children": [
               {
@@ -6660,155 +7033,6 @@
                         "name": "357. Deputy Ryan O'Meara asked the Minister for Defence further to Parliamentary Question No. 55 of 2 December 2025, if she will provide an update on the actual and projected appointments under each stream identified to date in 2026, in tabular form. [42642/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/357/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Climate Change Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 January",
-                    "date_iso": "2026-01-20",
-                    "children": [
-                      {
-                        "name": "239. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the plans to introduce a carbon credit trading desk in Ireland for community grounds that produce carbon credits to enable them to sell them on the open market; and if he will make a statement on the matter. [3339/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-20/239/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Housing Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 3 March",
-                    "date_iso": "2026-03-03",
-                    "children": [
-                      {
-                        "name": "242. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the measures the SEAI is taking to include works to old stone houses, many without foundations, under the warmer homes scheme given many are being refused any or most works due to structural issues; and if he will make a statement on the matter. [16197/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-03/242/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Programmes",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "143. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment if he would consider expanding the membership of the Biomethane Implementation Group, which has been established to oversee implementation of the National Biomethane Strategy and delivery of the 25 key strategic actions to ensure the necessary infrastructure and supports are in place to aid development of an indigenous biomethane sector of scale, to include the National Biogas Concern Group (NBCG) to ensure communities are represented within the decision making process; and if he will make a statement on the matter. [20692/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/143/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wind Energy Generation",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "88. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the initiatives he is taking to ensure greater public support for onshore wind energy generation; and if he will make a statement on the matter. [27337/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/88/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Environmental Policy",
-                "children": [
-                  {
-                    "name": "Tuesday, 9 June",
-                    "date_iso": "2026-06-09",
-                    "children": [
-                      {
-                        "name": "272. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the plans in place for the introduction of levies on single-use cups and containers; and if he will make a statement on the matter. [42012/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/272/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Policies",
-                "children": [
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "243. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment for an update on plans to introduce a carbon credit trading desk in Ireland through which community grounds could produce carbon credits to enable them to sell them on the open market; and if he will make a statement on the matter. [44937/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/243/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Projects",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "178. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment for an update on the work ongoing by his Department in the tailings pond in the Silvermines, County Tipperary; the cost of these works and the timelines for same; and if he will make a statement on the matter. [56272/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/178/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Renewable Energy Generation",
-                "children": [
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "207. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment with regards to SEAI's warmer homes scheme, if there are plans to raise the year of construction and occupation from 2006 in order that it may closer align with SEAI's other grants which are available to homes built and occupied before 2011; if not, if he will consider this in the context of future budgets, particularly given the popularity of the scheme and the serious advances made in energy efficiency in the past 20 years. [68131/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/207/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Electric Vehicles",
-                "children": [
-                  {
-                    "name": "Tuesday, 29 September",
-                    "date_iso": "2026-09-29",
-                    "children": [
-                      {
-                        "name": "219. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the efforts his Department have made to encourage better take-up of the solar PV scheme by electricity providers. [68695/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-29/219/"
                       }
                     ]
                   }
@@ -12267,6 +12491,24 @@
         },
         {
           "date_iso": "2026-11-03",
+          "questionNumber": 293,
+          "department": "Climate",
+          "heading": "Renewable Energy Generation",
+          "question": "293. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the support available to customers that wish to purchase a battery and inverter for their solar panels, having previously received support under the solar PV scheme for medically vulnerable customers through their provider. [77341/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/293/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 300,
+          "department": "Climate",
+          "heading": "Renewable Energy Generation",
+          "question": "300. Deputy Ryan O'Meara asked the Minister for Climate, Energy and the Environment the position regarding individuals that previously availed of the solar PV scheme for medically vulnerable customers through their provider, the additional support that is available for appropriate battery storage, compatible equipment and the electrical arrangements required to supply essential medical equipment safely during a power cut. [77943/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/300/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
           "questionNumber": 338,
           "department": "Transport",
           "heading": "Departmental Schemes",
@@ -12308,6 +12550,141 @@
           "heading": "Teaching Council of Ireland",
           "question": "719. Deputy Ryan O'Meara asked the Minister for Education and Youth to outline the process by which a qualified teacher from a non-EEA country may apply for a teaching post in Ireland; the requirements that apply in respect of teaching council registration; and if registration can be completed in advance, before moving to Ireland. [76201/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/719/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 844,
+          "department": "Education",
+          "heading": "Education Schemes",
+          "question": "844. Deputy Ryan O'Meara asked the Minister for Education and Youth for an update on a school's (details supplied) application for the climate action summer works scheme; and if she will make a statement on the matter. [77536/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/844/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 941,
+          "department": "Culture",
+          "heading": "Departmental Advertising",
+          "question": "941. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport if his Department has advertised with community radio stations around the country over the past five years; the amount spent on community radio adverting over those years; and if not, the reason his Department does not advertise with community radio to ensure his Department's communications are reaching local areas. [77320/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/941/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1005,
+          "department": "Culture",
+          "heading": "Artists' Remuneration",
+          "question": "1005. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport when unsuccessful applicants for the basic income for artists scheme will be notified the outcome of their applications as payments have now commenced. [77805/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1005/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1006,
+          "department": "Culture",
+          "heading": "Arts Funding",
+          "question": "1006. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport the way in which offers under the basic income for artists scheme have issued in the first cohort of offers; and the number of these offers have been accepted to date. [77804/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1006/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1007,
+          "department": "Culture",
+          "heading": "Artists' Remuneration",
+          "question": "1007. Deputy Ryan O'Meara asked the Minister for Culture, Communications and Sport when remaining applicants for the basic income for artists scheme will be notified the outcome of their applications as payments have now commenced. [77803/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1007/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1086,
+          "department": "Housing",
+          "heading": "Defective Building Materials",
+          "question": "1086. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No.28023/26, when it is expected the statutory designation process will be completed for County Tipperary. [76677/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1086/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1087,
+          "department": "Housing",
+          "heading": "Defective Building Materials",
+          "question": "1087. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No.28023/26, if the Housing Agency has made its recommendation to him under Section 5 of the Remediation of Dwellings Damaged by the Use of Defective Concrete Blocks Act 2022; if so, when was it sent to him; and if the recommendations include all or part of County Tipperary. [76676/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1087/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1088,
+          "department": "Housing",
+          "heading": "Defective Building Materials",
+          "question": "1088. Deputy Ryan O'Meara asked the Minister for Housing, Local Government and Heritage further to Parliamentary Question No. 28023/26, if the final test results for Tipperary have been received by the Housing Agency; and if so, when they were received. [76674/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1088/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1204,
+          "department": "Social",
+          "heading": "Social Welfare Benefits",
+          "question": "1204. Deputy Ryan O'Meara asked the Minister for Social Protection if there are free travel entitlements for cancer patients to travel to and from hospital appointments. [77097/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1204/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1262,
+          "department": "Justice",
+          "heading": "Crime Prevention",
+          "question": "1262. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration whether he will review the effectiveness of existing criminal trespass legislation as it applies to agricultural land, including deliberate and repeated entry where the statutory threshold for an existing offence may not be met; whether consideration will be given to a narrowly defined offence targeting deliberate, harmful unauthorised entry; and the way in which any reform would protect lawful access, legitimate hunting or conservation activities and genuinely harmless entry. [75608/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1262/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1263,
+          "department": "Justice",
+          "heading": "Crime Prevention",
+          "question": "1263. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration whether the existing statutory powers available to An Garda Síochána are sufficient to seize and retain firearms, vehicles, trailers or other equipment where there are reasonable grounds to suspect that these items are being used in connection with criminal trespass, illegal hunting, animal cruelty or criminal damage; and whether he will review the adequacy of these powers and the relevant safeguards. [75606/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1263/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1265,
+          "department": "Justice",
+          "heading": "Departmental Data",
+          "question": "1265. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of offences recorded, prosecutions initiated and convictions secured in each of the years 2021 to 2025, and to date in 2026, for trespass under the Criminal Justice (Public Order) Act 1994, with a breakdown by Garda division where available; and whether the figures distinguish incidents involving agricultural land. [75591/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1265/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1266,
+          "department": "Justice",
+          "heading": "Crime Prevention",
+          "question": "1266. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration whether he is satisfied that the existing criminal law adequately protects farmers from deliberate and repeated unauthorised entry onto agricultural land, particularly where threats, damage, illegal hunting or other harmful conduct is alleged; and whether he will review the operation and effectiveness of the relevant provisions of the Criminal Justice (Public Order) Act 1994. [75590/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1266/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1270,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "1270. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the number of citizenship applications received; the number of citizenship applications processed; the number of citizenship applications still processing; the median processing time for citizenship applications, broken down by year, from 2018 to date, in tabular form. [75776/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1270/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1271,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "1271. Deputy Ryan O'Meara asked the Minister for Justice, Home Affairs and Migration the breakdown of the number of citizenship applications processing, by timeframes 0-6 months, 6 months-1 year, 1-2 years, 2-3 years, 3-4 years, 4+ years, in tabular form. [75778/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1271/",
           "questionType": "written"
         },
         {
@@ -12452,6 +12829,15 @@
           "heading": "Departmental Funding",
           "question": "2387. Deputy Ryan O'Meara asked the Minister for Rural and Community Development and the Gaeltacht the way in which Pobal assesses the effectiveness and benefits of community radio stations when appraising whether they are suitable for funding or not. [77314/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/2387/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-04",
+          "questionNumber": 159,
+          "department": "Health",
+          "heading": "Patient Files",
+          "question": "159. Deputy Ryan O'Meara asked the Minister for Health the efforts being made to streamline patient access to immunisation records, particularly given the difficulties that can be faced obtaining them from primary care centres that may be understaffed and difficult to contact in a timely manner. [78051/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-04/159/",
           "questionType": "written"
         }
       ]
