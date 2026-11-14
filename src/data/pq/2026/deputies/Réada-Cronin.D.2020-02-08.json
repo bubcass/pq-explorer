@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Réada-Cronin.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 318,
+      "count": 339,
       "headingOptions": [
         "After-School Support Services",
         "Ambulance Service",
@@ -45,12 +45,15 @@
         "Energy Policy",
         "Energy Prices",
         "Environmental Policy",
+        "Environmental Schemes",
         "Fire Service",
         "Fire Stations",
         "Fuel Prices",
+        "Fuel Sales",
         "General Practitioner Services",
         "Grant Payments",
         "Greenhouse Gas Emissions",
+        "Greenways Provision",
         "Guardians Ad Litem",
         "Health Services",
         "Health Services Staff",
@@ -86,9 +89,11 @@
         "Public Private Partnerships",
         "Public Transport",
         "Rail Network",
+        "Recycling Policy",
         "Regulatory Bodies",
         "Renewable Energy Generation",
         "Rental Sector",
+        "Road Network",
         "Road Projects",
         "Road Safety",
         "Road Signage",
@@ -106,6 +111,7 @@
         "Sports Facilities",
         "Student Accommodation",
         "Swimming Pools",
+        "Tax Code",
         "Tax Rebates",
         "Tax Yield",
         "Third Level Education",
@@ -283,16 +289,16 @@
             "name": "Climate",
             "children": [
               {
+                "name": "Departmental Funding",
+                "value": 5
+              },
+              {
                 "name": "Data Centres",
                 "value": 4
               },
               {
                 "name": "Energy Prices",
                 "value": 4
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 3
               },
               {
                 "name": "Renewable Energy Generation",
@@ -332,6 +338,18 @@
               },
               {
                 "name": "Energy Infrastructure",
+                "value": 2
+              },
+              {
+                "name": "Environmental Schemes",
+                "value": 2
+              },
+              {
+                "name": "Recycling Policy",
+                "value": 2
+              },
+              {
+                "name": "Departmental Data",
                 "value": 2
               },
               {
@@ -519,11 +537,15 @@
             "children": [
               {
                 "name": "Rail Network",
-                "value": 8
+                "value": 15
               },
               {
                 "name": "Bus Services",
                 "value": 7
+              },
+              {
+                "name": "Public Transport",
+                "value": 4
               },
               {
                 "name": "Disability Services",
@@ -531,10 +553,6 @@
               },
               {
                 "name": "Ports Policy",
-                "value": 2
-              },
-              {
-                "name": "Public Transport",
                 "value": 2
               },
               {
@@ -559,6 +577,14 @@
               },
               {
                 "name": "Drug and Alcohol Testing",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
+                "value": 1
+              },
+              {
+                "name": "Greenways Provision",
                 "value": 1
               }
             ]
@@ -614,6 +640,31 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "value": 2
+              },
+              {
+                "name": "Fuel Prices",
+                "value": 1
+              },
+              {
+                "name": "Tax Rebates",
+                "value": 1
+              },
+              {
+                "name": "Tax Code",
+                "value": 1
+              },
+              {
+                "name": "Fuel Sales",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -647,23 +698,6 @@
               },
               {
                 "name": "Third Level Education",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "value": 2
-              },
-              {
-                "name": "Fuel Prices",
-                "value": 1
-              },
-              {
-                "name": "Tax Rebates",
                 "value": 1
               }
             ]
@@ -2032,6 +2066,60 @@
             "name": "Climate",
             "children": [
               {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "15. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the funding allocated to local authorities for enforcement of solid fuel regulations in 2026 and proposed for 2027; the number of staff assigned to those enforcement activities. [80148/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/15/"
+                      },
+                      {
+                        "name": "16. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment whether measures are in place to prevent the importation and sale of illegal or non-compliant solid fuels entering the State; and whether additional enforcement measures are under consideration. [80145/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/16/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 February",
+                    "date_iso": "2026-02-19",
+                    "children": [
+                      {
+                        "name": "211. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment if consideration will be given to the funding by his Department of the EU LIFE Programme should funding be cut to projects in Ireland at an EU level; and if he will make a statement on the matter. [13962/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/211/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 22 April",
+                    "date_iso": "2026-04-22",
+                    "children": [
+                      {
+                        "name": "27. Deputy Réada Cronin asked the Minister for Climate; Energy and the Environment the breakdown of the €930 million provided to the Sustainable Energy Authority of Ireland in 2026; and if he will make a statement on the matter. [29180/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/27/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 30 September",
+                    "date_iso": "2026-09-30",
+                    "children": [
+                      {
+                        "name": "12. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the amount of Exchequer funding that will be provided to the Commission for Regulation of Utilities to prepare for its role as heat network regulator once the Heat (Networks and Miscellaneous Provisions) Bill is ratified; and if he will make a statement on the matter. [69333/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/12/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Data Centres",
                 "children": [
                   {
@@ -2118,44 +2206,6 @@
                         "name": "172. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment whether the CRU monitors supplier margins; if it has the powers it needs to make sure prices come down when wholesale costs do. [74962/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-22/172/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Thursday, 19 February",
-                    "date_iso": "2026-02-19",
-                    "children": [
-                      {
-                        "name": "211. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment if consideration will be given to the funding by his Department of the EU LIFE Programme should funding be cut to projects in Ireland at an EU level; and if he will make a statement on the matter. [13962/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-19/211/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 22 April",
-                    "date_iso": "2026-04-22",
-                    "children": [
-                      {
-                        "name": "27. Deputy Réada Cronin asked the Minister for Climate; Energy and the Environment the breakdown of the €930 million provided to the Sustainable Energy Authority of Ireland in 2026; and if he will make a statement on the matter. [29180/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-22/27/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 30 September",
-                    "date_iso": "2026-09-30",
-                    "children": [
-                      {
-                        "name": "12. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the amount of Exchequer funding that will be provided to the Commission for Regulation of Utilities to prepare for its role as heat network regulator once the Heat (Networks and Miscellaneous Provisions) Bill is ratified; and if he will make a statement on the matter. [69333/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/12/"
                       }
                     ]
                   }
@@ -2423,6 +2473,69 @@
                         "name": "11. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the criteria will be used to determine whether connection to a district heating network is technically feasible and economically cost effective for a public sector building; and if he will make a statement on the matter. [69334/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-30/11/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Environmental Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "10. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the extent to which the deposit return scheme has contributed towards Ireland meeting EU recycled content and separate collection targets under the EU single-use plastics directive. [80199/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/10/"
+                      },
+                      {
+                        "name": "11. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment whether an independent assessment has been undertaken of the reduction in bottle and can litter attributable to the deposit return scheme. [80198/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/11/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Recycling Policy",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "12. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the estimated cost of the proposed rPET facility being advanced by Re-turn. [80196/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/12/"
+                      },
+                      {
+                        "name": "13. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the engagement his Department has had with a company (details supplied) regarding the proposed development of Ireland's first rPET recycling facility; and the anticipated timeline for completion of the site. [80192/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/13/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "14. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the number of schools, sports clubs, charities and community groups that have participated in fundraising activities through the deposit return scheme; and the total funds generated by those organisations. [80191/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/14/"
+                      },
+                      {
+                        "name": "17. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the amount raised through the return for children initiative since its establishment; the amount distributed to each participating charity; and the oversight involved in the transfer of these funds to charities. [80189/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/17/"
                       }
                     ]
                   }
@@ -3450,6 +3563,47 @@
                 "name": "Rail Network",
                 "children": [
                   {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "52. Deputy Réada Cronin asked the Minister for Transport whether construction on the second station recently announced for Maynooth, County Kildare will impact the operation of the current station in Maynooth; and if plans are in place to ensure as little disruption to its operation as possible. [80136/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/52/"
+                      },
+                      {
+                        "name": "53. Deputy Réada Cronin asked the Minister for Transport if additional carriages will be provided for trains from Kilcock to Dublin and vice versa during the construction of the second station recently announced for Maynooth, County Kildare, given the increase in population in recent years. [80135/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/53/"
+                      },
+                      {
+                        "name": "54. Deputy Réada Cronin asked the Minister for Transport the budget provided for the second train station recently announced for Maynooth, County Kildare. [80134/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/54/"
+                      },
+                      {
+                        "name": "55. Deputy Réada Cronin asked the Minister for Transport the timeline for the completion of the second train station recently announced for Maynooth County Kildare. [80133/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/55/"
+                      },
+                      {
+                        "name": "61. Deputy Réada Cronin asked the Minister for Transport when the new DART+ fleet is expected to enter service on routes serving Leixlip, Maynooth and Kilcock. [80217/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/61/"
+                      },
+                      {
+                        "name": "62. Deputy Réada Cronin asked the Minister for Transport the current passenger capacity on the Maynooth commuter rail line; and the projected increase in capacity arising from DART+ project. [80216/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/62/"
+                      },
+                      {
+                        "name": "63. Deputy Réada Cronin asked the Minister for Transport the timeline for the delivery of the DART+ programme to Maynooth; and the projected commencement and completion dates for works on the Maynooth Line. [80215/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/63/"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Wednesday, 15 July",
                     "date_iso": "2026-07-15",
                     "children": [
@@ -3598,6 +3752,49 @@
                 ]
               },
               {
+                "name": "Public Transport",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "59. Deputy Réada Cronin asked the Minister for Transport the current status of plans for additional park-and-ride facilities serving rail and bus users in north Kildare. [80226/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/59/"
+                      },
+                      {
+                        "name": "60. Deputy Réada Cronin asked the Minister for Transport the measures being taken through the National Transport Authority to improve bus service frequency and reliability for commuters travelling from north Kildare to Dublin, and vice versa. [80221/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/60/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "29. Deputy Réada Cronin asked the Minister for Transport whether his Department has assessed transport barriers preventing young people from accessing youth services; and if he will make a statement on the matter. [51917/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/29/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 7 October",
+                    "date_iso": "2026-10-07",
+                    "children": [
+                      {
+                        "name": "112. Deputy Réada Cronin asked the Minister for Transport his plans to increase public transport infrastructure over the next five years in north Kildare, given the increasing population; and if he will make a statement on the matter. [70996/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-07/112/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Disability Services",
                 "children": [
                   {
@@ -3645,33 +3842,6 @@
                         "name": "411. Deputy Réada Cronin asked the Minister for Transport to provide details of planned investment in port infrastructure to facilitate offshore wind development; the ports under consideration; and the projected cost of these upgrades. [76641/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/411/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Public Transport",
-                "children": [
-                  {
-                    "name": "Wednesday, 8 July",
-                    "date_iso": "2026-07-08",
-                    "children": [
-                      {
-                        "name": "29. Deputy Réada Cronin asked the Minister for Transport whether his Department has assessed transport barriers preventing young people from accessing youth services; and if he will make a statement on the matter. [51917/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/29/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 7 October",
-                    "date_iso": "2026-10-07",
-                    "children": [
-                      {
-                        "name": "112. Deputy Réada Cronin asked the Minister for Transport his plans to increase public transport infrastructure over the next five years in north Kildare, given the increasing population; and if he will make a statement on the matter. [70996/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-07/112/"
                       }
                     ]
                   }
@@ -3768,6 +3938,38 @@
                         "name": "444. Deputy Réada Cronin asked the Minister for Transport the current legal limit for cannabis found in a driver's system; and the legal ramifications this limit could potentially have on an individual who has consumed cannabis days before operation of a vehicle. [76673/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/444/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "65. Deputy Réada Cronin asked the Minister for Transport the assessment that has been undertaken of congestion levels on the M4 corridor serving north Kildare; and the measures planned to reduce journey times. [80230/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/65/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Greenways Provision",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "66. Deputy Réada Cronin asked the Minister for Transport the amount of funding has been allocated under programme A, active travel and greenways, to Kildare County Council in 2026; the projects funded in the north Kildare area; and their expected completion date. [80229/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/66/"
                       }
                     ]
                   }
@@ -3983,6 +4185,96 @@
             ]
           },
           {
+            "name": "Finance",
+            "children": [
+              {
+                "name": "Housing Schemes",
+                "children": [
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "76. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to Increase the help-to-buy ceiling to reflect current prices in commuter counties such as in north Kildare; and if he will make a statement on the matter. [31320/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/76/"
+                      },
+                      {
+                        "name": "77. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to allow first-time buyer couples to combine individual help-to-buy entitlements; and if he will make a statement on the matter. [31324/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/77/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fuel Prices",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "940. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to a move to zero-rated VAT for the private bus and coach sector so they can reclaim the 23% VAT on fuel and parts; and if he will make a statement on the matter. [25455/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/940/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Rebates",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "941. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to a five cent rebate for the private bus and coach sector to keep school runs and rural routes viable for the sector; and if he will make a statement on the matter. [25456/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/941/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Code",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "86. Deputy Réada Cronin asked the Tánaiste and Minister for Finance the assessment that has been undertaken of the impact of planned carbon tax increases in 2027 on compliant solid fuel businesses and consumers, particularly those in rural areas. [80150/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/86/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Fuel Sales",
+                "children": [
+                  {
+                    "name": "Wednesday, 11 November",
+                    "date_iso": "2026-11-11",
+                    "children": [
+                      {
+                        "name": "87. Deputy Réada Cronin asked the Tánaiste and Minister for Finance the estimated annual loss to the Exchequer arising from the sale of solid fuels on which applicable taxes have not been paid. [80153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/87/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Justice",
             "children": [
               {
@@ -4113,64 +4405,6 @@
                         "name": "4032. Deputy Réada Cronin asked the Minister for Further and Higher Education, Research, Innovation and Science the measures being taken to support integration between Maynooth University and the surrounding community, including transport links and student accommodation planning; and if he will make a statement on the matter. [60110/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/4032/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Finance",
-            "children": [
-              {
-                "name": "Housing Schemes",
-                "children": [
-                  {
-                    "name": "Wednesday, 29 April",
-                    "date_iso": "2026-04-29",
-                    "children": [
-                      {
-                        "name": "76. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to Increase the help-to-buy ceiling to reflect current prices in commuter counties such as in north Kildare; and if he will make a statement on the matter. [31320/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/76/"
-                      },
-                      {
-                        "name": "77. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to allow first-time buyer couples to combine individual help-to-buy entitlements; and if he will make a statement on the matter. [31324/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/77/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Fuel Prices",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "940. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to a move to zero-rated VAT for the private bus and coach sector so they can reclaim the 23% VAT on fuel and parts; and if he will make a statement on the matter. [25455/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/940/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Tax Rebates",
-                "children": [
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "941. Deputy Réada Cronin asked the Tánaiste and Minister for Finance if consideration will be given to a five cent rebate for the private bus and coach sector to keep school runs and rural routes viable for the sector; and if he will make a statement on the matter. [25456/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/941/"
                       }
                     ]
                   }
@@ -7109,6 +7343,195 @@
           "heading": "Schools Building Projects",
           "question": "491. Deputy Réada Cronin asked the Minister for Education and Youth to provide a breakdown of the money intended to be spent as part of the 2027 climate action summer works scheme on a school (details supplied); and the specific areas of the school will undergo work. [79654/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/491/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 10,
+          "department": "Climate",
+          "heading": "Environmental Schemes",
+          "question": "10. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the extent to which the deposit return scheme has contributed towards Ireland meeting EU recycled content and separate collection targets under the EU single-use plastics directive. [80199/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/10/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 11,
+          "department": "Climate",
+          "heading": "Environmental Schemes",
+          "question": "11. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment whether an independent assessment has been undertaken of the reduction in bottle and can litter attributable to the deposit return scheme. [80198/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/11/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 12,
+          "department": "Climate",
+          "heading": "Recycling Policy",
+          "question": "12. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the estimated cost of the proposed rPET facility being advanced by Re-turn. [80196/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/12/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 13,
+          "department": "Climate",
+          "heading": "Recycling Policy",
+          "question": "13. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the engagement his Department has had with a company (details supplied) regarding the proposed development of Ireland's first rPET recycling facility; and the anticipated timeline for completion of the site. [80192/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/13/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 14,
+          "department": "Climate",
+          "heading": "Departmental Data",
+          "question": "14. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the number of schools, sports clubs, charities and community groups that have participated in fundraising activities through the deposit return scheme; and the total funds generated by those organisations. [80191/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/14/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 15,
+          "department": "Climate",
+          "heading": "Departmental Funding",
+          "question": "15. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the funding allocated to local authorities for enforcement of solid fuel regulations in 2026 and proposed for 2027; the number of staff assigned to those enforcement activities. [80148/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/15/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 16,
+          "department": "Climate",
+          "heading": "Departmental Funding",
+          "question": "16. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment whether measures are in place to prevent the importation and sale of illegal or non-compliant solid fuels entering the State; and whether additional enforcement measures are under consideration. [80145/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/16/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 17,
+          "department": "Climate",
+          "heading": "Departmental Data",
+          "question": "17. Deputy Réada Cronin asked the Minister for Climate, Energy and the Environment the amount raised through the return for children initiative since its establishment; the amount distributed to each participating charity; and the oversight involved in the transfer of these funds to charities. [80189/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/17/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 52,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "52. Deputy Réada Cronin asked the Minister for Transport whether construction on the second station recently announced for Maynooth, County Kildare will impact the operation of the current station in Maynooth; and if plans are in place to ensure as little disruption to its operation as possible. [80136/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/52/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 53,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "53. Deputy Réada Cronin asked the Minister for Transport if additional carriages will be provided for trains from Kilcock to Dublin and vice versa during the construction of the second station recently announced for Maynooth, County Kildare, given the increase in population in recent years. [80135/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/53/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 54,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "54. Deputy Réada Cronin asked the Minister for Transport the budget provided for the second train station recently announced for Maynooth, County Kildare. [80134/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/54/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 55,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "55. Deputy Réada Cronin asked the Minister for Transport the timeline for the completion of the second train station recently announced for Maynooth County Kildare. [80133/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/55/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 59,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "59. Deputy Réada Cronin asked the Minister for Transport the current status of plans for additional park-and-ride facilities serving rail and bus users in north Kildare. [80226/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/59/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 60,
+          "department": "Transport",
+          "heading": "Public Transport",
+          "question": "60. Deputy Réada Cronin asked the Minister for Transport the measures being taken through the National Transport Authority to improve bus service frequency and reliability for commuters travelling from north Kildare to Dublin, and vice versa. [80221/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/60/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 61,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "61. Deputy Réada Cronin asked the Minister for Transport when the new DART+ fleet is expected to enter service on routes serving Leixlip, Maynooth and Kilcock. [80217/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/61/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 62,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "62. Deputy Réada Cronin asked the Minister for Transport the current passenger capacity on the Maynooth commuter rail line; and the projected increase in capacity arising from DART+ project. [80216/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/62/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 63,
+          "department": "Transport",
+          "heading": "Rail Network",
+          "question": "63. Deputy Réada Cronin asked the Minister for Transport the timeline for the delivery of the DART+ programme to Maynooth; and the projected commencement and completion dates for works on the Maynooth Line. [80215/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/63/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 65,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "65. Deputy Réada Cronin asked the Minister for Transport the assessment that has been undertaken of congestion levels on the M4 corridor serving north Kildare; and the measures planned to reduce journey times. [80230/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/65/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 66,
+          "department": "Transport",
+          "heading": "Greenways Provision",
+          "question": "66. Deputy Réada Cronin asked the Minister for Transport the amount of funding has been allocated under programme A, active travel and greenways, to Kildare County Council in 2026; the projects funded in the north Kildare area; and their expected completion date. [80229/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/66/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 86,
+          "department": "Finance",
+          "heading": "Tax Code",
+          "question": "86. Deputy Réada Cronin asked the Tánaiste and Minister for Finance the assessment that has been undertaken of the impact of planned carbon tax increases in 2027 on compliant solid fuel businesses and consumers, particularly those in rural areas. [80150/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/86/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-11",
+          "questionNumber": 87,
+          "department": "Finance",
+          "heading": "Fuel Sales",
+          "question": "87. Deputy Réada Cronin asked the Tánaiste and Minister for Finance the estimated annual loss to the Exchequer arising from the sale of solid fuels on which applicable taxes have not been paid. [80153/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-11/87/",
           "questionType": "written"
         }
       ]
