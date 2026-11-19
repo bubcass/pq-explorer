@@ -1,0 +1,67 @@
+name: Deploy PQ Explorer to AWS
+
+on:
+  workflow_call:
+    inputs:
+      snapshot:
+        required: true
+        type: string
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      id-token: write
+    concurrency:
+      group: pq-explorer-aws
+    env:
+      INSIGHTS_TARGET: aws
+      AWS_DEPLOY_ROLE_ARN: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+      AWS_REGION: ${{ vars.AWS_REGION }}
+      AWS_SITE_BUCKET: ${{ vars.AWS_SITE_BUCKET }}
+      AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+
+    steps:
+      - name: Check deployment settings
+        run: |
+          for setting in AWS_DEPLOY_ROLE_ARN AWS_REGION AWS_SITE_BUCKET AWS_CLOUDFRONT_DISTRIBUTION_ID; do
+            if [[ -z "${!setting}" ]]; then
+              echo "::error::Set the ${setting} repository Actions variable."
+              exit 1
+            fi
+          done
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.snapshot }}
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+      - run: node scripts/pq/copy-deputy-json-to-dist.js
+
+      - name: Assume AWS deployment role
+        uses: aws-actions/configure-aws-credentials@v6.3.0
+        with:
+          role-to-assume: ${{ env.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Upload assets before HTML
+        run: |
+          destination="s3://${AWS_SITE_BUCKET}/pq-explorer/"
+          aws s3 sync dist/ "$destination" --exclude '*.html' --only-show-errors
+          aws s3 sync dist/ "$destination" --exclude '*' --include '*.html' --only-show-errors
+
+      - name: Invalidate PQ Explorer cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "$AWS_CLOUDFRONT_DISTRIBUTION_ID" \
+            --paths '/pq-explorer' '/pq-explorer/*'

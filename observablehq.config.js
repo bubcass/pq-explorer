@@ -1,3 +1,7 @@
+const insightsHome = process.env.INSIGHTS_TARGET === "aws"
+  ? "/"
+  : "https://bubcass.github.io/open-data-insights/";
+
 export default {
   title: "PQ Explorer",
   head: `
@@ -45,7 +49,10 @@ export default {
 
           const resourceLink = document.createElement("a");
           resourceLink.className = "oireachtas-masthead__resource";
-          resourceLink.href = "https://bubcass.github.io/open-data-insights/";
+          resourceLink.href = ${JSON.stringify(insightsHome)};
+          document.querySelectorAll("a[data-insights-home]").forEach((link) => {
+            link.href = resourceLink.href;
+          });
           resourceLink.setAttribute("aria-label", "Open Data Insights home");
           resourceLink.innerHTML = \`
             <span class="oireachtas-masthead__brand-mark" aria-hidden="true" style="--house-mask:url('\${houseSrc}')"><svg viewBox="0 0 790 381" focusable="false"><use href="\${houseSrc}#house-lockup" fill="currentColor" /></svg></span>

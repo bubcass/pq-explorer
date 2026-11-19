@@ -5,16 +5,19 @@ on:
     - cron: "0 5 * * *"
   workflow_dispatch: {}
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+concurrency:
+  group: pq-explorer-data-refresh
+
+permissions: {}
 
 jobs:
-  update-and-deploy:
+  refresh:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
+    permissions:
+      contents: write
+    outputs:
+      snapshot: ${{ steps.commit_data.outputs.snapshot }}
 
     steps:
       - name: Checkout repo
@@ -39,36 +42,54 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add src/data src/generated || true
+          git add src/data src/generated
 
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes to commit"
-          else
+          if ! git diff --cached --quiet; then
             git commit -m "Nightly PQ data refresh"
             git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+          echo "snapshot=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Build site
-        if: steps.commit_data.outputs.changed == 'true'
-        run: npm run build
+  deploy-pages:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-      - name: Copy deputy JSON to dist
-        if: steps.commit_data.outputs.changed == 'true'
-        run: node scripts/pq/copy-deputy-json-to-dist.js
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.refresh.outputs.snapshot }}
+          persist-credentials: false
 
-      - name: Configure Pages
-        if: steps.commit_data.outputs.changed == 'true'
-        uses: actions/configure-pages@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
 
-      - name: Upload Pages artifact
-        if: steps.commit_data.outputs.changed == 'true'
-        uses: actions/upload-pages-artifact@v3
+      - run: npm ci
+      - run: npm run build
+      - run: node scripts/pq/copy-deputy-json-to-dist.js
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
       - name: Deploy to GitHub Pages
-        if: steps.commit_data.outputs.changed == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-aws:
+    needs: refresh
+    permissions:
+      contents: read
+      id-token: write
+    uses: ./.github/workflows/deploy-aws.yml
+    with:
+      snapshot: ${{ needs.refresh.outputs.snapshot }}
