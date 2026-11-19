@@ -56,7 +56,7 @@ jobs:
 
       - name: Upload assets before HTML
         run: |
-          destination="s3://${AWS_SITE_BUCKET}/pq-explorer/"
+          destination="s3://${AWS_SITE_BUCKET}/insights-pilot/pq-explorer/"
           aws s3 sync dist/ "$destination" --exclude '*.html' --only-show-errors
           aws s3 sync dist/ "$destination" --exclude '*' --include '*.html' --only-show-errors
 
