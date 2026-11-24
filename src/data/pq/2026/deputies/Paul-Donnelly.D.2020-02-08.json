@@ -9,8 +9,9 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Paul-Donnelly.D.2020-02-08/image/large",
   "types": {
     "all": {
-      "count": 215,
+      "count": 231,
       "headingOptions": [
+        "Agriculture Industry",
         "Air Corps",
         "An Garda Síochána",
         "Animal Welfare",
@@ -19,10 +20,12 @@
         "Bus Services",
         "Care Services",
         "Childcare Services",
+        "Community Welfare Services",
         "Consular Services",
         "Córas Iompair Éireann",
         "Customs and Excise",
         "Defence Forces",
+        "Defibrillators Provision",
         "Dental Services",
         "Departmental Bodies",
         "Departmental Communications",
@@ -34,6 +37,7 @@
         "Departmental Inquiries",
         "Departmental Meetings",
         "Departmental Staff",
+        "Diplomatic Representation",
         "Disabilities Assessments",
         "Disability Services",
         "Disadvantaged Status",
@@ -42,6 +46,7 @@
         "Early Childhood Care and Education",
         "Education Policy",
         "Electric Vehicles",
+        "Emergency Planning",
         "Energy Prices",
         "Enterprise Support Services",
         "EU Funding",
@@ -83,6 +88,7 @@
         "Rail Network",
         "Redundancy Payments",
         "Revenue Commissioners",
+        "Road Network",
         "Road Safety",
         "School Accommodation",
         "School Meals Programme",
@@ -105,13 +111,14 @@
         "Traveller Community",
         "United Nations",
         "Visa Applications",
+        "Women's Health",
         "Work Permits"
       ],
       "insights": {
         "topHeading": "An Garda Síochána",
-        "topHeadingCount": 21,
+        "topHeadingCount": 24,
         "topDepartment": "Health",
-        "topDepartmentCount": 47
+        "topDepartmentCount": 50
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -120,11 +127,11 @@
             "name": "Health",
             "children": [
               {
-                "name": "Health Services Staff",
-                "value": 5
+                "name": "Hospital Staff",
+                "value": 7
               },
               {
-                "name": "Hospital Staff",
+                "name": "Health Services Staff",
                 "value": 5
               },
               {
@@ -206,6 +213,10 @@
               {
                 "name": "Hospital Services",
                 "value": 1
+              },
+              {
+                "name": "Women's Health",
+                "value": 1
               }
             ]
           },
@@ -214,7 +225,7 @@
             "children": [
               {
                 "name": "An Garda Síochána",
-                "value": 21
+                "value": 24
               },
               {
                 "name": "Electric Vehicles",
@@ -295,6 +306,14 @@
               },
               {
                 "name": "Public Transport",
+                "value": 1
+              },
+              {
+                "name": "Emergency Planning",
+                "value": 1
+              },
+              {
+                "name": "Road Network",
                 "value": 1
               }
             ]
@@ -382,7 +401,7 @@
             "children": [
               {
                 "name": "Defence Forces",
-                "value": 6
+                "value": 7
               },
               {
                 "name": "Naval Service",
@@ -440,6 +459,10 @@
               {
                 "name": "United Nations",
                 "value": 1
+              },
+              {
+                "name": "Diplomatic Representation",
+                "value": 1
               }
             ]
           },
@@ -449,6 +472,10 @@
               {
                 "name": "Tourism Promotion",
                 "value": 3
+              },
+              {
+                "name": "State Bodies",
+                "value": 2
               },
               {
                 "name": "Enterprise Support Services",
@@ -473,9 +500,34 @@
               {
                 "name": "Redundancy Payments",
                 "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
+              {
+                "name": "Animal Welfare",
+                "value": 3
               },
               {
-                "name": "State Bodies",
+                "name": "Departmental Data",
+                "value": 2
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Greyhound Industry",
+                "value": 1
+              },
+              {
+                "name": "Horse Racing Industry",
+                "value": 1
+              },
+              {
+                "name": "Agriculture Industry",
                 "value": 1
               }
             ]
@@ -514,31 +566,6 @@
             ]
           },
           {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Animal Welfare",
-                "value": 3
-              },
-              {
-                "name": "Departmental Data",
-                "value": 2
-              },
-              {
-                "name": "Departmental Funding",
-                "value": 1
-              },
-              {
-                "name": "Greyhound Industry",
-                "value": 1
-              },
-              {
-                "name": "Horse Racing Industry",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -559,6 +586,10 @@
               },
               {
                 "name": "Redundancy Payments",
+                "value": 1
+              },
+              {
+                "name": "Defibrillators Provision",
                 "value": 1
               }
             ]
@@ -589,6 +620,36 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Office of Public Works",
+                "value": 4
+              },
+              {
+                "name": "Flood Relief Schemes",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Departmental Contracts",
+                "value": 2
+              },
+              {
+                "name": "Energy Prices",
+                "value": 1
+              },
+              {
+                "name": "United Nations",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -610,40 +671,14 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Office of Public Works",
-                "value": 3
-              },
-              {
-                "name": "Flood Relief Schemes",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Prices",
-                "value": 1
-              },
-              {
-                "name": "Departmental Contracts",
-                "value": 1
-              },
-              {
-                "name": "United Nations",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
               {
                 "name": "Social Enterprise Sector",
+                "value": 1
+              },
+              {
+                "name": "Community Welfare Services",
                 "value": 1
               }
             ]
@@ -666,62 +701,24 @@
             "name": "Health",
             "children": [
               {
-                "name": "Health Services Staff",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "1047. Deputy Paul Donnelly asked the Minister for Health the number of nurses since 2021 that are registered in Ireland who previously worked in Japan, in tabular form [11593/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1047/"
-                      },
-                      {
-                        "name": "1049. Deputy Paul Donnelly asked the Minister for Health the number of nurses since 2021 that are registered in Ireland who previously worked in Thailand, in tabular form. [11595/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1049/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "941. Deputy Paul Donnelly asked the Minister for Health if the endometriosis hubs and supra-regional specialists centres have been provided with sufficient staffing and theatre capacity to deliver the National Endometriosis Framework; and the current waiting times for consultants and surgeries at each site, in tabular form. [5551/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/941/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Thursday, 30 April",
-                    "date_iso": "2026-04-30",
-                    "children": [
-                      {
-                        "name": "468. Deputy Paul Donnelly asked the Minister for Health the number of consultant neurosurgeons based at Beaumont Hospital that are only dealing with and treating public patients. [31802/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/468/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "1062. Deputy Paul Donnelly asked the Minister for Health the number of WTE advanced nurse practitioners in diabetes posts filled at North Dublin Chronic Disease Hub as of 11 May 2026, in tabular form. [36833/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1062/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Hospital Staff",
                 "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "526. Deputy Paul Donnelly asked the Minister for Health if she plans to expand the number of eye clinic liaison officers in public hospitals. [82492/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/526/"
+                      },
+                      {
+                        "name": "531. Deputy Paul Donnelly asked the Minister for Health if she plans to expand the number of eye clinic liaison officers in public hospitals. [82493/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/531/"
+                      }
+                    ]
+                  },
                   {
                     "name": "Tuesday, 27 January",
                     "date_iso": "2026-01-27",
@@ -774,6 +771,60 @@
                         "name": "897. Deputy Paul Donnelly asked the Minister for Health the current staffing levels in Connolly Hospital Blanchardstown laboratory services including the haematology and biochemistry Department; and the number of laboratory staff rostered for overnight and weekend on-call services. [73520/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/897/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services Staff",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "1047. Deputy Paul Donnelly asked the Minister for Health the number of nurses since 2021 that are registered in Ireland who previously worked in Japan, in tabular form [11593/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1047/"
+                      },
+                      {
+                        "name": "1049. Deputy Paul Donnelly asked the Minister for Health the number of nurses since 2021 that are registered in Ireland who previously worked in Thailand, in tabular form. [11595/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/1049/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "941. Deputy Paul Donnelly asked the Minister for Health if the endometriosis hubs and supra-regional specialists centres have been provided with sufficient staffing and theatre capacity to deliver the National Endometriosis Framework; and the current waiting times for consultants and surgeries at each site, in tabular form. [5551/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/941/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 30 April",
+                    "date_iso": "2026-04-30",
+                    "children": [
+                      {
+                        "name": "468. Deputy Paul Donnelly asked the Minister for Health the number of consultant neurosurgeons based at Beaumont Hospital that are only dealing with and treating public patients. [31802/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-30/468/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "1062. Deputy Paul Donnelly asked the Minister for Health the number of WTE advanced nurse practitioners in diabetes posts filled at North Dublin Chronic Disease Hub as of 11 May 2026, in tabular form. [36833/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1062/"
                       }
                     ]
                   }
@@ -1237,6 +1288,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Women's Health",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "527. Deputy Paul Donnelly asked the Minister for Health to provide a detailed breakdown of the dedicated additional funding invested into women's health since 2024, in tabular form. [82489/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/527/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1327,6 +1394,27 @@
                         "name": "669. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration the number of detective inspector posts and detective superintendent posts filled within each division in the Dublin region, in tabular form. [73518/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/669/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "452. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 666 on 20 October 2026, if he has received the relevant information from Garda authorities to answer this parliamentary question. [82479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/452/"
+                      },
+                      {
+                        "name": "456. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 664 on 20 October 2026, if he has received the relevant information from Garda authorities to answer this parliamentary question. [82482/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/456/"
+                      },
+                      {
+                        "name": "458. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration the amount that An Garda Síochána spent on purchasing heavy vehicle mitigation barriers in 2024 and 2025 and to date in 2026, in tabular form. [82481/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/458/"
                       }
                     ]
                   },
@@ -1869,6 +1957,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Emergency Planning",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "316. Deputy Paul Donnelly asked the Minister for Transport the frequency with which an expert external company carries out an emergency training exercise on behalf of Iarnród Éireann with Irish Rail staff in the event of a major accident on a train, or at a train station or on the train lines; and when the next emergency training exercise is scheduled to take place. [82484/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/316/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Network",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "317. Deputy Paul Donnelly asked the Minister for Transport the number of rest stops on the motorway network that are currently opened and in use; and if new rest stop areas on the motorway network are scheduled to be opened during 2027, in tabular form. [82483/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/317/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2372,6 +2492,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/161/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "292. Deputy Paul Donnelly asked the Minister for Defence for an update on the implementation of the Strategic Framework for the Transformation of the Defence Forces; the measures currently underway; and the expected timeframe for those remaining measures. [82487/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/292/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2641,6 +2772,22 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Diplomatic Representation",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "266. Deputy Paul Donnelly asked the Minister for Foreign Affairs and Trade the number of WTE housekeeper posts filled at the Irish embassies in Wellington, Berlin, Makati City and Abu Dhabi as of 11 November 2026, in tabular form. [82486/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/266/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2674,6 +2821,33 @@
                         "name": "229. Deputy Paul Donnelly asked the Minister for Enterprise, Tourism and Employment the number of full time advertising and consumer engagement co-ordinators posts filled by gender and location, employed by Tourism Ireland as of 15 September 2026, in tabular form. [67077/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/229/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "State Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "401. Deputy Paul Donnelly asked the Minister for Enterprise, Tourism and Employment the number of WTE digital marketing specialists employed by Enterprise Ireland as of 10 June 2026, in tabular form. [45745/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/401/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "355. Deputy Paul Donnelly asked the Minister for Enterprise, Tourism and Employment the names of external security companies contracted by IDA Ireland to provide security personnel at IDA business parks; the amount that IDA Ireland paid each company for such services in 2025 and for the first ten months of 2026, in tabular form. [82499/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/355/"
                       }
                     ]
                   }
@@ -2779,18 +2953,118 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "name": "Agriculture",
+            "children": [
               {
-                "name": "State Bodies",
+                "name": "Animal Welfare",
                 "children": [
                   {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
                     "children": [
                       {
-                        "name": "401. Deputy Paul Donnelly asked the Minister for Enterprise, Tourism and Employment the number of WTE digital marketing specialists employed by Enterprise Ireland as of 10 June 2026, in tabular form. [45745/26]",
+                        "name": "811. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine if there plans to increase horse seizure operations under the Control of Horses Act 1996; and the number of prosecutions have resulted from these activities. [14003/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/401/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/811/"
+                      },
+                      {
+                        "name": "812. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the measures that are in place to ensure seized horses are protected and re-homed. [14004/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/812/"
+                      },
+                      {
+                        "name": "813. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine if there is coordination between Gardaí, local councils and animal welfare organisations to address repeat offenders of (sulky) road racing. [14005/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/813/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "959. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of sanitary and phytosanitary checks which were carried out at designated border control posts here on imports covered by common health entry documents for products of animal origin by country of origin in the years 2024, 2025 and to-date in 2026 [11597/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/959/"
+                      },
+                      {
+                        "name": "960. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of common health entry documents for products of animal origin that were processed by his officials by designated border control posts of entry for the years of 2024, 2025 and to-date in 2026, in tabular form. [11598/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/960/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "784. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine if his Department will provide the necessary funding to increase the number of specialist food detection dogs to be deployed at ports and airports nationwide. [36836/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/784/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Greyhound Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2555. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of WTE sales and marketing executive staff by gender that are employed by an organisation (details supplied) as of 16 July 2026, in tabular form. [56279/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2555/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Horse Racing Industry",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "2556. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of WTE sales and marketing executive staff by gender that are employed by an organisation (details supplied) as of 16 July 2026, in tabular form. [56280/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2556/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agriculture Industry",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "466. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the top seven countries, by volume and value, from which Ireland imported lamb products in 2025 and in the first three quarters of 2026; and the quantity from each country, in tabular form. [82497/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/466/"
                       }
                     ]
                   }
@@ -2932,106 +3206,6 @@
             ]
           },
           {
-            "name": "Agriculture",
-            "children": [
-              {
-                "name": "Animal Welfare",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "811. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine if there plans to increase horse seizure operations under the Control of Horses Act 1996; and the number of prosecutions have resulted from these activities. [14003/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/811/"
-                      },
-                      {
-                        "name": "812. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the measures that are in place to ensure seized horses are protected and re-homed. [14004/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/812/"
-                      },
-                      {
-                        "name": "813. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine if there is coordination between Gardaí, local councils and animal welfare organisations to address repeat offenders of (sulky) road racing. [14005/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/813/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Data",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "959. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of sanitary and phytosanitary checks which were carried out at designated border control posts here on imports covered by common health entry documents for products of animal origin by country of origin in the years 2024, 2025 and to-date in 2026 [11597/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/959/"
-                      },
-                      {
-                        "name": "960. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of common health entry documents for products of animal origin that were processed by his officials by designated border control posts of entry for the years of 2024, 2025 and to-date in 2026, in tabular form. [11598/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/960/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Funding",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "784. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine if his Department will provide the necessary funding to increase the number of specialist food detection dogs to be deployed at ports and airports nationwide. [36836/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/784/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Greyhound Industry",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2555. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of WTE sales and marketing executive staff by gender that are employed by an organisation (details supplied) as of 16 July 2026, in tabular form. [56279/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2555/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Horse Racing Industry",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "2556. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the number of WTE sales and marketing executive staff by gender that are employed by an organisation (details supplied) as of 16 July 2026, in tabular form. [56280/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/2556/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -3109,6 +3283,22 @@
                         "name": "1933. Deputy Paul Donnelly asked the Minister for Social Protection the number of times the Government provided statutory redundancies for businesses that could not afford it; the number of persons paid; and the cost of same. [56215/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/1933/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defibrillators Provision",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "436. Deputy Paul Donnelly asked the Minister for Social Protection if all full time INTREO offices currently have a defibrillator available on site; if all staff within those offices are fully trained in the use of the defibrillator; and if not, the estimated cost required to ensure remaining full time INTREO offices have a defibrillator available for use. [82496/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/436/"
                       }
                     ]
                   }
@@ -3202,6 +3392,140 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Office of Public Works",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "504. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE staff, by job title, and gender, employed by the OPW working at Dublin Castle as of 3 March 2026, in tabular form. [18682/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/504/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "373. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE painter and decorators employed by the OPW as of 10 June 2026; and if he will provide the same figures as of 1 January 2024, in tabular form. [45749/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/373/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "206. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the amount that the OPW collected in rent fees from external restaurants/cafes within OPW Heritage Sites in 2025 and the first seven months of 2026, in tabular form. [67078/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/206/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "345. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE staff, by grade and gender working within the State events unit of the OPW as of 11 November 2026, in tabular form. [82498/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/345/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flood Relief Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "886. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the flood relief projects currently under construction and funded by the OPW; and the timeframe for each of those projects be completed, in tabular form. [56212/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/886/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "294. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment the number of contracts his Department in the years of 2024, 2025 and to date in 2026; the nature of services this company (details supplied) has provided to the Department in each of the years in question; the amount his Department has paid this company for such services in each of the years in question, in tabular form. [11601/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/294/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "286. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment the number of contracts a company (details supplied) has had with his Department in 2025 and to-date in 2026; and the nature of services this company provided to his Department in each of the years in question, in tabular form. [82494/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/286/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Energy Prices",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 February",
+                    "date_iso": "2026-02-17",
+                    "children": [
+                      {
+                        "name": "292. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment the help available to single people who work full time and live alone in their own home to deal with the spiralling cost of energy, and in particular gas. [12547/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/292/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "United Nations",
+                "children": [
+                  {
+                    "name": "Tuesday, 20 October",
+                    "date_iso": "2026-10-20",
+                    "children": [
+                      {
+                        "name": "218. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment If he had a bilateral meeting with his Canadian counterpart during the recent UN High Level Week. [73509/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/218/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Finance",
             "children": [
               {
@@ -3271,118 +3595,6 @@
             ]
           },
           {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Office of Public Works",
-                "children": [
-                  {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
-                    "children": [
-                      {
-                        "name": "504. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE staff, by job title, and gender, employed by the OPW working at Dublin Castle as of 3 March 2026, in tabular form. [18682/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/504/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 16 June",
-                    "date_iso": "2026-06-16",
-                    "children": [
-                      {
-                        "name": "373. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE painter and decorators employed by the OPW as of 10 June 2026; and if he will provide the same figures as of 1 January 2024, in tabular form. [45749/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/373/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 22 September",
-                    "date_iso": "2026-09-22",
-                    "children": [
-                      {
-                        "name": "206. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the amount that the OPW collected in rent fees from external restaurants/cafes within OPW Heritage Sites in 2025 and the first seven months of 2026, in tabular form. [67078/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/206/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Flood Relief Schemes",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 July",
-                    "date_iso": "2026-07-28",
-                    "children": [
-                      {
-                        "name": "886. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the flood relief projects currently under construction and funded by the OPW; and the timeframe for each of those projects be completed, in tabular form. [56212/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/886/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Energy Prices",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "292. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment the help available to single people who work full time and live alone in their own home to deal with the spiralling cost of energy, and in particular gas. [12547/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/292/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Tuesday, 17 February",
-                    "date_iso": "2026-02-17",
-                    "children": [
-                      {
-                        "name": "294. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment the number of contracts his Department in the years of 2024, 2025 and to date in 2026; the nature of services this company (details supplied) has provided to the Department in each of the years in question; the amount his Department has paid this company for such services in each of the years in question, in tabular form. [11601/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-17/294/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "United Nations",
-                "children": [
-                  {
-                    "name": "Tuesday, 20 October",
-                    "date_iso": "2026-10-20",
-                    "children": [
-                      {
-                        "name": "218. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment If he had a bilateral meeting with his Canadian counterpart during the recent UN High Level Week. [73509/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-20/218/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Rural",
             "children": [
               {
@@ -3396,6 +3608,22 @@
                         "name": "343. Deputy Paul Donnelly asked the Minister for Rural and Community Development and the Gaeltacht his views on the proposal by an organisation (details supplied), under which the Government will support social enterprises to maximise trading income where possible while providing sustained State co-funding and cost relief in areas of market failure; and if he will make a statement on the matter. [47936/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-06-24/343/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Community Welfare Services",
+                "children": [
+                  {
+                    "name": "Thursday, 19 November",
+                    "date_iso": "2026-11-19",
+                    "children": [
+                      {
+                        "name": "589. Deputy Paul Donnelly asked the Minister for Rural and Community Development and the Gaeltacht the total funding provided through the Community Services Programme in the Dublin 15 area for 2025 and to-date in 2026, in tabular form. [82488/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/589/"
                       }
                     ]
                   }
@@ -5360,6 +5588,150 @@
           "heading": "Special Educational Needs",
           "question": "408. Deputy Paul Donnelly asked the Minister for Education and Youth if there is a plan to provide additional special needs places in Dublin 15 and Dublin 7 for September 2027, as parents are concerned at the waiting list, which far exceed the available places. [81043/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-17/408/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 266,
+          "department": "Foreign",
+          "heading": "Diplomatic Representation",
+          "question": "266. Deputy Paul Donnelly asked the Minister for Foreign Affairs and Trade the number of WTE housekeeper posts filled at the Irish embassies in Wellington, Berlin, Makati City and Abu Dhabi as of 11 November 2026, in tabular form. [82486/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/266/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 286,
+          "department": "Climate",
+          "heading": "Departmental Contracts",
+          "question": "286. Deputy Paul Donnelly asked the Minister for Climate, Energy and the Environment the number of contracts a company (details supplied) has had with his Department in 2025 and to-date in 2026; and the nature of services this company provided to his Department in each of the years in question, in tabular form. [82494/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/286/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 292,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "292. Deputy Paul Donnelly asked the Minister for Defence for an update on the implementation of the Strategic Framework for the Transformation of the Defence Forces; the measures currently underway; and the expected timeframe for those remaining measures. [82487/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/292/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 316,
+          "department": "Transport",
+          "heading": "Emergency Planning",
+          "question": "316. Deputy Paul Donnelly asked the Minister for Transport the frequency with which an expert external company carries out an emergency training exercise on behalf of Iarnród Éireann with Irish Rail staff in the event of a major accident on a train, or at a train station or on the train lines; and when the next emergency training exercise is scheduled to take place. [82484/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/316/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 317,
+          "department": "Transport",
+          "heading": "Road Network",
+          "question": "317. Deputy Paul Donnelly asked the Minister for Transport the number of rest stops on the motorway network that are currently opened and in use; and if new rest stop areas on the motorway network are scheduled to be opened during 2027, in tabular form. [82483/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/317/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 345,
+          "department": "Public Expenditure",
+          "heading": "Office of Public Works",
+          "question": "345. Deputy Paul Donnelly asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of WTE staff, by grade and gender working within the State events unit of the OPW as of 11 November 2026, in tabular form. [82498/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/345/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 355,
+          "department": "Enterprise",
+          "heading": "State Bodies",
+          "question": "355. Deputy Paul Donnelly asked the Minister for Enterprise, Tourism and Employment the names of external security companies contracted by IDA Ireland to provide security personnel at IDA business parks; the amount that IDA Ireland paid each company for such services in 2025 and for the first ten months of 2026, in tabular form. [82499/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/355/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 436,
+          "department": "Social",
+          "heading": "Defibrillators Provision",
+          "question": "436. Deputy Paul Donnelly asked the Minister for Social Protection if all full time INTREO offices currently have a defibrillator available on site; if all staff within those offices are fully trained in the use of the defibrillator; and if not, the estimated cost required to ensure remaining full time INTREO offices have a defibrillator available for use. [82496/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/436/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 452,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "452. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 666 on 20 October 2026, if he has received the relevant information from Garda authorities to answer this parliamentary question. [82479/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/452/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 456,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "456. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 664 on 20 October 2026, if he has received the relevant information from Garda authorities to answer this parliamentary question. [82482/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/456/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 458,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "458. Deputy Paul Donnelly asked the Minister for Justice, Home Affairs and Migration the amount that An Garda Síochána spent on purchasing heavy vehicle mitigation barriers in 2024 and 2025 and to date in 2026, in tabular form. [82481/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/458/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 466,
+          "department": "Agriculture",
+          "heading": "Agriculture Industry",
+          "question": "466. Deputy Paul Donnelly asked the Minister for Agriculture, Food and the Marine the top seven countries, by volume and value, from which Ireland imported lamb products in 2025 and in the first three quarters of 2026; and the quantity from each country, in tabular form. [82497/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/466/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 526,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "526. Deputy Paul Donnelly asked the Minister for Health if she plans to expand the number of eye clinic liaison officers in public hospitals. [82492/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/526/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 527,
+          "department": "Health",
+          "heading": "Women's Health",
+          "question": "527. Deputy Paul Donnelly asked the Minister for Health to provide a detailed breakdown of the dedicated additional funding invested into women's health since 2024, in tabular form. [82489/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/527/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 531,
+          "department": "Health",
+          "heading": "Hospital Staff",
+          "question": "531. Deputy Paul Donnelly asked the Minister for Health if she plans to expand the number of eye clinic liaison officers in public hospitals. [82493/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/531/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-19",
+          "questionNumber": 589,
+          "department": "Rural",
+          "heading": "Community Welfare Services",
+          "question": "589. Deputy Paul Donnelly asked the Minister for Rural and Community Development and the Gaeltacht the total funding provided through the Community Services Programme in the Dublin 15 area for 2025 and to-date in 2026, in tabular form. [82488/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/589/",
           "questionType": "written"
         }
       ]
