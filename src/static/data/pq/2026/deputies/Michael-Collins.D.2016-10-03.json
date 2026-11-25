@@ -9,23 +9,34 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Michael-Collins.D.2016-10-03/image/large",
   "types": {
     "all": {
-      "count": 167,
+      "count": 219,
       "headingOptions": [
         "Abortion Services",
         "Agriculture Industry",
         "Air Corps",
         "Ambulance Service",
         "Bord Bia",
+        "Cabinet Committees",
+        "Childcare Services",
+        "Citizenship Applications",
         "Coast Guard Service",
+        "Cross-Border Co-operation",
+        "Defence Forces",
         "Departmental Bodies",
         "Departmental Communications",
         "Departmental Contracts",
         "Departmental Correspondence",
+        "Departmental Data",
+        "Departmental Funding",
+        "Departmental Offices",
         "Departmental Projects",
         "Departmental Properties",
         "Departmental Schemes",
         "Deportation Orders",
         "Direct Provision System",
+        "Disability Issues",
+        "Disability Services",
+        "Driver Test",
         "EU Regulations",
         "Fishing Industry",
         "Food Industry",
@@ -34,14 +45,18 @@
         "Health Services",
         "Health Services Staff",
         "Home Care Packages",
+        "Hospital Facilities",
         "Hospital Procedures",
         "Hospital Services",
         "Hospital Waiting Lists",
         "Housing Policy",
+        "Housing Provision",
         "Housing Schemes",
         "Immigration Support Services",
         "Industrial Development",
+        "International Agreements",
         "International Protection",
+        "Land Development Agency",
         "Legislative Measures",
         "Medical Aids and Appliances",
         "Medicinal Products",
@@ -51,6 +66,8 @@
         "Naval Service",
         "Parental Leave",
         "Pension Provisions",
+        "Pharmacy Services",
+        "Road Projects",
         "Road Safety",
         "School Patronage",
         "School Transport",
@@ -59,9 +76,12 @@
         "Sports Funding",
         "State Examinations",
         "Strategic Infrastructure",
+        "Taoiseach's Meetings and Engagements",
         "Tax Code",
+        "Tax Credits",
         "Tax Data",
         "Trade Agreements",
+        "Vehicle Registration Tax",
         "Visa Applications",
         "Water Services",
         "Wildlife Regulations"
@@ -69,28 +89,19 @@
       "insights": {
         "topHeading": "Air Corps",
         "topHeadingCount": 27,
-        "topDepartment": "Defence",
-        "topDepartmentCount": 32
+        "topDepartment": "Justice",
+        "topDepartmentCount": 46
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
           {
-            "name": "Defence",
-            "children": [
-              {
-                "name": "Air Corps",
-                "value": 27
-              },
-              {
-                "name": "Naval Service",
-                "value": 5
-              }
-            ]
-          },
-          {
             "name": "Justice",
             "children": [
+              {
+                "name": "International Protection",
+                "value": 12
+              },
               {
                 "name": "Departmental Contracts",
                 "value": 10
@@ -100,11 +111,11 @@
                 "value": 5
               },
               {
-                "name": "International Protection",
+                "name": "Immigration Support Services",
                 "value": 4
               },
               {
-                "name": "Immigration Support Services",
+                "name": "Road Projects",
                 "value": 4
               },
               {
@@ -122,6 +133,31 @@
               {
                 "name": "Visa Applications",
                 "value": 1
+              },
+              {
+                "name": "International Agreements",
+                "value": 1
+              },
+              {
+                "name": "Citizenship Applications",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Defence",
+            "children": [
+              {
+                "name": "Air Corps",
+                "value": 27
+              },
+              {
+                "name": "Naval Service",
+                "value": 5
+              },
+              {
+                "name": "Defence Forces",
+                "value": 3
               }
             ]
           },
@@ -130,14 +166,26 @@
             "children": [
               {
                 "name": "Health Services Staff",
-                "value": 3
+                "value": 6
               },
               {
                 "name": "Medicinal Products",
-                "value": 2
+                "value": 5
+              },
+              {
+                "name": "Departmental Data",
+                "value": 5
               },
               {
                 "name": "Ambulance Service",
+                "value": 2
+              },
+              {
+                "name": "Health Services",
+                "value": 2
+              },
+              {
+                "name": "Hospital Services",
                 "value": 2
               },
               {
@@ -165,11 +213,15 @@
                 "value": 1
               },
               {
-                "name": "Health Services",
+                "name": "Departmental Bodies",
                 "value": 1
               },
               {
-                "name": "Hospital Services",
+                "name": "Pharmacy Services",
+                "value": 1
+              },
+              {
+                "name": "Hospital Facilities",
                 "value": 1
               }
             ]
@@ -183,7 +235,7 @@
               },
               {
                 "name": "Fishing Industry",
-                "value": 3
+                "value": 4
               },
               {
                 "name": "Food Industry",
@@ -221,6 +273,14 @@
               {
                 "name": "Departmental Schemes",
                 "value": 1
+              },
+              {
+                "name": "Tax Credits",
+                "value": 1
+              },
+              {
+                "name": "Vehicle Registration Tax",
+                "value": 1
               }
             ]
           },
@@ -241,6 +301,10 @@
               },
               {
                 "name": "Road Safety",
+                "value": 1
+              },
+              {
+                "name": "Driver Test",
                 "value": 1
               }
             ]
@@ -268,11 +332,94 @@
             ]
           },
           {
+            "name": "Taoiseach",
+            "children": [
+              {
+                "name": "Cabinet Committees",
+                "value": 3
+              },
+              {
+                "name": "National Security",
+                "value": 1
+              },
+              {
+                "name": "Cross-Border Co-operation",
+                "value": 1
+              },
+              {
+                "name": "Departmental Offices",
+                "value": 1
+              },
+              {
+                "name": "Taoiseach's Meetings and Engagements",
+                "value": 1
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
                 "name": "Sports Funding",
                 "value": 7
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Water Services",
+                "value": 2
+              },
+              {
+                "name": "Wildlife Regulations",
+                "value": 1
+              },
+              {
+                "name": "Departmental Communications",
+                "value": 1
+              },
+              {
+                "name": "Land Development Agency",
+                "value": 1
+              },
+              {
+                "name": "Housing Provision",
+                "value": 1
+              },
+              {
+                "name": "Disability Issues",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Issues",
+                "value": 2
+              },
+              {
+                "name": "Parental Leave",
+                "value": 1
+              },
+              {
+                "name": "Departmental Funding",
+                "value": 1
+              },
+              {
+                "name": "Disability Services",
+                "value": 1
+              },
+              {
+                "name": "Departmental Data",
+                "value": 1
+              },
+              {
+                "name": "Childcare Services",
+                "value": 1
               }
             ]
           },
@@ -340,45 +487,10 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Water Services",
-                "value": 2
-              },
-              {
-                "name": "Wildlife Regulations",
-                "value": 1
-              },
-              {
-                "name": "Departmental Communications",
-                "value": 1
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
                 "name": "Social Welfare Payments",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Taoiseach",
-            "children": [
-              {
-                "name": "National Security",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Parental Leave",
                 "value": 1
               }
             ]
@@ -388,6 +500,398 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Justice",
+            "children": [
+              {
+                "name": "International Protection",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "512. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the engagement that has taken place with South Dublin County Council concerning the housing, homelessness, community service and other local impacts associated with residents moving from the Citywest Hotel and convention centre following the granting of international protection status; and whether there is a formal written protocol or agreed arrangement between the Department and the council for this purpose. [71473/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/512/"
+                      },
+                      {
+                        "name": "513. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the specific arrangements that are in place to support persons who have received international protection status to move from the Citywest Hotel and convention centre into mainstream accommodation; the number of such exits from Citywest in 2025 and to date in 2026; and the number currently awaiting move-on accommodation. [71472/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/513/"
+                      },
+                      {
+                        "name": "514. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration with reference to the Comptroller and Auditor General’s Report on the Accounts of the Public Services 2025, which records that 5,123 persons who had received international protection status remained in international protection accommodation services, IPAS, accommodation at the end of March 2026, to provide the current number of persons accommodated at the Citywest Hotel and convention centre who have already received international protection status; the number who have remained there for less than six months, six to 12 months, one to two years, two to three years and more than three years, following the granting of status. [71471/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/514/"
+                      },
+                      {
+                        "name": "516. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration noting that the Comptroller and Auditor General records an estimated accommodation capacity of approximately 2,300 persons at Citywest hotel and convention centre, whether his Department has undertaken or participated in an assessment of the impact of this population on services and infrastructure in Citywest, Saggart, Rathcoole and the surrounding area; which public bodies or local authorities were involved in such an assessment; and whether his Department has provided current or projected Citywest occupancy figures to those bodies for planning purposes. [71475/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/516/"
+                      },
+                      {
+                        "name": "517. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether all fire safety deficiencies, which were identified in his Department commissioned 2025 ORS fire safety assessment and associated inspections of the Citywest Hotel and convention centre, have now been fully rectified; the date on which his Department was satisfied that all matters identified as requiring urgent or immediate action had been rectified; whether this was independently verified by a suitably qualified fire safety professional; whether identified deficiencies remain outstanding; and, if so, to identify those outstanding matters and the timeframe for their completion. [71476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/517/"
+                      },
+                      {
+                        "name": "522. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the date the Department became aware of the 2025 ORS finding that a door-control system on cross-corridor fire doors at Citywest could hinder escape; the date the system, which ORS recommended be removed immediately, was removed or rectified; who verified the escape route was thereafter compliant and safe; and whether persons remained accommodated in the affected area pending rectification. [71478/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/522/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "197. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the timeline for formally designating a facility (details supplied) as a permanent International Protection Accommodation Service (IPAS) facility;if such a designation will bring the facility under the statutory remit of the Health Information and Quality Authority (HIQA) and other independent inspection bodies to ensure rigorous oversight of resident welfare and facility standards; the current inspection and safeguarding regime in place at the site while it operates as a processing location, following the significant State investment and doubling of staff at the International Protection Office (IPO); his views on the way permanent designation will address reported concerns regarding contractual boundaries and the duty of care owed to residents both within and outside the facility gates; and if he will make a statement on the matter. [38048/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/197/"
+                      },
+                      {
+                        "name": "199. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the legal and policy rationale for requesting a change of use exemption (details supplied); the reason this exemption is being requested for a privately owned facility; the way in which his Department justifies applying the same planning approach to this site as the State-linked Citywest Reception Centre; the intended duration of use for the facility as International Protection Accommodation Services (IPAS) accommodation the projected and maximum occupancy levels for this specific location; if these figures and the \"scale and intensity\" of the development have been formally evaluated in a community impact assessment to determine the cumulative effect on the wider area, given that no public consultation or submission process has been facilitated; and if he will make a statement on the matter. [38050/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/199/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 27 January",
+                    "date_iso": "2026-01-27",
+                    "children": [
+                      {
+                        "name": "737. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the full list of accommodation premises currently in use, or used at any time since 1 January 2022, in County Kildare by the International Protection Accommodation Service and Ukrainian emergency accommodation/temporary protection accommodation; if details will be provided in relation to each premises (details supplied); and if he will make a statement on the matter. [5901/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/737/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "741. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the Standard Operating Procedures (SOPs) and emergency protocols in place at a facility for handling medical or psychiatric emergencies involving residents; whether he is aware of an incident on 9 May 2026 (details supplied) and reports that centre security claimed no responsibility for the individual's welfare once they had passed the facility gates; to clarify the \"boundary of responsibility\" defined in service-level agreements with management and security contractors regarding the duty of care owed to residents when they are in the surrounding community; if he will address the lack of a dedicated management contact number for the facility for use by local residents and emergency services during such incidents; to detail the findings of any risk or safeguarding assessments conducted regarding the impact of the facilities operations on the safety and welfare of both residents and the local community; and if he will make a statement on the matter. [37573/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/741/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1353. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the response to serious concerns regarding the impact of the Citywest IPAS accommodation centre (details supplied); the duty-of-care assessment that has been carried out for the existing local community and for businesses operating within the Citywest campus since the State acquired the complex; the Department, agency, centre operator, security provider, An Garda Síochána structure or other body that is accountable for responding to safety concerns both inside the campus grounds and in the surrounding village areas; the way in which he plans to ensure to ensure the safety of staff, customers, clients and visitors of premises operating within the Citywest campus grounds; the number of reported incidents, complaints or Garda notifications in the past 12 months involving public intoxication, drug use, aggressive behaviour, intimidation, antisocial behaviour or breaches of house rules, broken down between incidents within the Citywest IPAS centre, incidents within the wider Citywest campus grounds, and incidents reported in the surrounding local communities of Saggart, Rathcoole and Citywest; the current management escalation process for repeated breaches; if he will commit to open public engagement with residents and businesses rather than invitation-only meetings; the timeline for the promised Garda station; and if he will make a statement on the matter. [42351/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1353/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "675. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 197 of 20 May 2026, whether he will correct or clarify the record in respect of where his answer referred to general IPAS inspection arrangements, in circumstances where FOI evidence and published inspection records appear to show that the State-owned Citywest Hotel and Convention Centre are not designated centres, have no published HIQA or IPAS inspection reports, and are treated differently from a privately owned facility (details supplied) on the same campus; and if he will make a statement on the matter. [45398/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/675/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Contracts",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "802. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the appointment, procurement basis and ongoing payments in respect of services provided by a company at a location (details supplied); and if he will make a statement on the matter. [7881/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/802/"
+                      },
+                      {
+                        "name": "803. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the decision taken in or around September 2022 to appoint a company to provide panelling, accommodation infrastructure or accommodation-related services at a site (details supplied); the criteria applied and the basis on which the company was deemed suitable, having regard to its registered business activities; and if he will make a statement on the matter. [7882/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/803/"
+                      },
+                      {
+                        "name": "804. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the procurement method used to appoint a company (details supplied); if the arrangement arose from an emergency procurement, direct award or other non-competitive process; the reasons such a method was considered appropriate; and if he will make a statement on the matter. [7883/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/804/"
+                      },
+                      {
+                        "name": "805. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the contractual basis under which a company (details supplied) has been paid a fixed monthly amount of €143,322.30 from September 2022 to date in 2026; the duration of the arrangement; the extension or continuation decisions; the status of the contract; and if he will make a statement on the matter. [7884/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/805/"
+                      },
+                      {
+                        "name": "806. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reasons the arrangement with a company (details supplied) has been continued on a rolling monthly basis for multiple years, rather than being time-limited, competitively re-tendered, or transitioned to an alternative arrangement; and if he will make a statement on the matter. [7885/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/806/"
+                      },
+                      {
+                        "name": "807. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the basis on which payments originally described as \"supply panelling\" were subsequently reclassified as \"temporary accommodation\"; the criteria used to treat the infrastructure supplied as accommodation; and if he will make a statement on the matter. [7886/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/807/"
+                      },
+                      {
+                        "name": "808. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reasons his Department elected to maintain a monthly rental model for the relevant infrastructure (details supplied) rather than purchasing or capitalising it; the value-for-money assessments undertaken in this regard with a company; and if he will make a statement on the matter. [7887/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/808/"
+                      },
+                      {
+                        "name": "809. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reasons payments to a company have continued after the State's acquisition of a complex (details supplied), rather than transitioning to State-owned infrastructure or a different contractual model; and if he will make a statement on the matter. [7888/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/809/"
+                      },
+                      {
+                        "name": "810. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the total amount paid to a company (details supplied) from September 2022 to date in 2026; the projected annual cost if the current arrangement continues; and if he will make a statement on the matter. [7889/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/810/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "2068. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration to set out in full the total financial value of the State's acquisition and use of the Citywest Hotel and Convention Centre (details supplied); the basis on which it was determined that the transaction fell below the €200 million threshold; if this assessment included all interdependent and related expenditure; to detail any legal, financial or procurement advice obtained in relation to the structuring of the transaction, including any consideration of the risk of artificial disaggregation; if a full business case, appraisal, and sanction process was completed; the documents held by this Department in this regard; the planning, fire safety and regulatory compliance checks were in place at the time of acquisition and subsequent use of the site; and if he will make a statement on the matter. [25270/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2068/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Direct Provision System",
+                "children": [
+                  {
+                    "name": "Tuesday, 14 April",
+                    "date_iso": "2026-04-14",
+                    "children": [
+                      {
+                        "name": "1996. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the total cost incurred by the State in opening, closing, reopening and now again closing an accommodation centre (details supplied); and if he will make a statement on the matter. [24254/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1996/"
+                      },
+                      {
+                        "name": "1997. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the costs involved in closing a facility on two previous occasions, including any contractual penalties, demobilisation costs or reinstatement works required; and if he will make a statement on the matter. [24255/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1997/"
+                      },
+                      {
+                        "name": "1998. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the costs associated with opening and reopening a facility (details supplied) on two previous occasions and any further expenditure now arising from the decision to close the centre again in view of the significant decline in new arrivals from Ukraine seeking State accommodation since the beginning of 2026; and if he will make a statement on the matter. [24256/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1998/"
+                      },
+                      {
+                        "name": "1999. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the total cumulative cost to the Exchequer arising from decisions to close a centre (details supplied); the measures being taken to ensure greater certainty, planning and cost control in the provision of temporary accommodation centres going forward If the minister; and if he will make a statement on the matter. [24257/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1999/"
+                      },
+                      {
+                        "name": "2027. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if consideration will be given to repurposing an accommodation centre (details supplied), previously used for Ukrainian temporary protection accommodation, for alternative urgent housing needs, specifically for the provision of temporary accommodation for persons experiencing homelessness and for essential key workers such as hospital staff, members of An Garda Síochána and teachers who are working in the area on a temporary basis; and if he will make a statement on the matter. [24493/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2027/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Immigration Support Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 20 May",
+                    "date_iso": "2026-05-20",
+                    "children": [
+                      {
+                        "name": "194. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the scheduled expiry date for the existing management contract of a facility (details supplied); if the initial one-year contract reportedly agreed upon at the time of the facility's purchase is the current arrangement governing the site, or if it has since been extended; the expected timeline for the issuance of the new management tender for the complex and whether he anticipates that this new contract will be awarded and in place prior to the expiration of the current agreement; the steps being taken to ensure operational continuity and the maintenance of a \"robust and rules-based\" immigration system during the transition between management contractors at this site; and if he will make a statement on the matter. [38045/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/194/"
+                      },
+                      {
+                        "name": "195. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the status of the proposed tender for the management of facilities (details supplied); the scheduled date for the issuance of this tender, the expected platform where it will be published; if he will provide a detailed breakdown of the services and operational requirements to be covered under the new management contract; to clarify the separation of duties and the defined \"boundary of responsibility\" between Departmental staff and the private contractors appointed through this tender; if the scope of this tender will include another facility noted as a privately owned entity located on the same campus; if the facility is excluded from the tender, to detail what considerations have been taken regarding the long-term co-existence of these facilities, given the pending exemption application for that site; the way in which his Department intends to manage the logistics of shared campus facilities and hospitality services between state-managed processing centres and privately operated premises; and if he will make a statement on the matter. [38046/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/195/"
+                      },
+                      {
+                        "name": "196. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if he will commit to ensuring that all forthcoming security and management tenders for facilities (details supplied) explicitly include protocols within service level agreements (SLAs) requiring contractors to assist residents in distress when they are outside the immediate campus boundaries; the specific mechanisms by which his Department ensures that resident welfare and community safety are maintained when residents are in the surrounding locality, and how these responsibilities are formalised and monitored within private management contracts; if he will mandate that new tenders for these facilities define a clear duty of care extending beyond the facility gates, particularly to address reported gaps in responsibility during medical or psychiatric emergencies involving residents in the local community; and if he will make a statement on the matter. [38047/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/196/"
+                      },
+                      {
+                        "name": "198. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration to provide a detailed statement on the specific clauses within service-level agreements (SLAs) with private contractors managing facilities (details supplied) that define the \"boundary of responsibility\" regarding the welfare and safety of residents; if these contracts stipulate that the duty of care for residents ceases once an individual passes beyond the facility gates, as reportedly claimed by security staff during a medical emergency involving a 22-year-old resident on 9 May 2026; the way in which his Department ensures that resident welfare and community safety are maintained when residents are in the surrounding locality, and whether current SLAs include protocols for contractors to assist residents in distress outside the immediate campus; whether any risk or safeguarding assessments have been conducted to evaluate the impact of this perceived \"responsibility gap\" on the local community and the health outcomes of vulnerable residents; the steps being taken to ensure that centre management, An Garda Síochána, and the National Ambulance Service have a coordinated response protocol for incidents involving residents that occur in the public domain (details supplied); and if he will make a statement on the matter. [38049/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/198/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Road Projects",
+                "children": [
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "671. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the specific access road or portion of road referred to in the Project Echo final business case for the acquisition of a facility (details supplied) including the road name, map reference, folio reference or other identifying description; and if he will make a statement on the matter. [45384/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/671/"
+                      },
+                      {
+                        "name": "672. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether the access road or portion of road referred to in the Project Echo final business case is a public road, taken in charge by South Dublin County Council, privately owned, subject to an easement, right of way, licence, management company arrangement or other access arrangement; and if he will make a statement on the matter. [45385/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/672/"
+                      },
+                      {
+                        "name": "673. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether uninterrupted 24-hour access to a facility (details supplied) is legally secured for fire services, ambulance services, An Garda Síochána, residents, staff, service providers, buses, deliveries and neighbouring businesses; whether this was assessed before acquisition; whether any road-access risk was identified; and if he will make a statement on the matter. [45386/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/673/"
+                      },
+                      {
+                        "name": "674. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the amount of the annual maintenance fee payable by his Department in respect of the access road or portion of road referred to in the Project Echo final business case; the recipient of that payment; the legal basis for the payment; whether the fee is fixed, index-linked or subject to review; whether the cost was included in the 25-year value-for-money assessment; and if he will make a statement on the matter. [45387/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/674/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Properties",
+                "children": [
+                  {
+                    "name": "Wednesday, 4 February",
+                    "date_iso": "2026-02-04",
+                    "children": [
+                      {
+                        "name": "811. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether, prior to the State's purchase of a property (details supplied) a formal value-for-money assessment was undertaken; whether that assessment distinguished between the capital cost of the building and the ongoing operational costs associated with its use, including catering, security, staffing, transport and facilities management; and if he will make a statement on the matter. [7892/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/811/"
+                      },
+                      {
+                        "name": "812. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether he will publish the methodology and key assumptions underpinning any value-for-money assessment carried out in respect of the €148.2 million purchase of a property (details supplied); and if he will make a statement on the matter. [7893/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/812/"
+                      },
+                      {
+                        "name": "813. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if no distinction was made in the value-for-money assessment between the cost of acquiring a property (details supplied) and the cost of providing ongoing services at the site; the way in which the purchase is credibly described as representing value-for-money for the taxpayer; and if he will make a statement on the matter. [7894/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/813/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Deportation Orders",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "738. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the accommodation protocols for individuals subject to deportation orders who are currently residing at a location (details supplied); if he will confirm whether persons under such orders are being accommodated within the same premises where members of the general public have access to licensed restaurant and hospitality facilities; the specific risk or safeguarding assessments conducted by his Department, International Protection Accommodation Services (IPAS), or the Garda National Immigration Bureau (GNIB) in relation to this arrangement; the total number of residents at that specific location who are currently subject to a signed deportation order; and if he will make a statement on the matter. [37570/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/738/"
+                      },
+                      {
+                        "name": "739. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the accommodation protocols for individuals subject to deportation orders who are currently residing within a facility (details supplied); if he will confirm whether persons under such orders at these locations are being accommodated within the same premises; the specific risk or safeguarding assessments conducted by his Department, International Protection Accommodation Services (IPAS), or the Garda National Immigration Bureau (GNIB) regarding the co-location of these residents with public-facing hospitality services, licensed restaurant, leisure centre, and also the local community; the total number of residents at the facility respectively who are subject to a signed deportation order; and if he will make a statement on the matter. [37571/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/739/"
+                      },
+                      {
+                        "name": "740. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration to provide details on the management of individuals subject to deportation orders who are present at a facility (details supplied); whether his Department has performed a safeguarding or security risk assessment concerning the presence of individuals awaiting the enforcement of deportation orders; the number of individuals currently residing in or being processed at the facility who are subject to an active deportation order; and if he will make a statement on the matter. [37572/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/740/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Bodies",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "853. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether he will provide an update on the work of the Firearms Forum established by his Department, including the number of meetings held to date and the matters discussed; and if he will make a statement on the matter. [35153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/853/"
+                      },
+                      {
+                        "name": "854. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reason discussion of inconsistencies in the application and administration of firearms legislation was ruled out of order at the most recent firearms stakeholder meeting held in Kilmainham; whether this matter was raised by stakeholder representatives at the meeting; and if he will make a statement on the matter. [35154/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/854/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Visa Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "840. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the way in which renewal decisions are made in respect of a non-EEA national (details supplied); whether the receipt of such supports by the Irish-citizen partner will have any bearing on the renewal of the non-EEA national’s de facto partner permission, notwithstanding that the permission holder remains in full-time employment and continues to comply with all conditions attaching to that permission; the consideration given to humanitarian and compassionate circumstances in such cases; and if he will make a statement on the matter. [30256/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/840/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "International Agreements",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "1356. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration given the implementation of the EU Migration and Asylum Pact and the increasing long-term use of large-scale international protection accommodation centres, whether new operational standards or regulations will be introduced governing the management of such centres (details supplied), the interaction between centre management, residents and the local community and the provision of designated recreational and social spaces within centres; and if he will make a statement on the matter. [42378/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1356/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Citizenship Applications",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "531. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if the proposed increase in the residence requirement for spouses of Irish citizens from three to five years will apply to persons who commenced legal residence in the State before the new legislation comes into effect. [71719/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/531/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Defence",
             "children": [
@@ -578,273 +1082,28 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Justice",
-            "children": [
-              {
-                "name": "Departmental Contracts",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "802. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the appointment, procurement basis and ongoing payments in respect of services provided by a company at a location (details supplied); and if he will make a statement on the matter. [7881/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/802/"
-                      },
-                      {
-                        "name": "803. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the decision taken in or around September 2022 to appoint a company to provide panelling, accommodation infrastructure or accommodation-related services at a site (details supplied); the criteria applied and the basis on which the company was deemed suitable, having regard to its registered business activities; and if he will make a statement on the matter. [7882/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/803/"
-                      },
-                      {
-                        "name": "804. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the procurement method used to appoint a company (details supplied); if the arrangement arose from an emergency procurement, direct award or other non-competitive process; the reasons such a method was considered appropriate; and if he will make a statement on the matter. [7883/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/804/"
-                      },
-                      {
-                        "name": "805. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the contractual basis under which a company (details supplied) has been paid a fixed monthly amount of €143,322.30 from September 2022 to date in 2026; the duration of the arrangement; the extension or continuation decisions; the status of the contract; and if he will make a statement on the matter. [7884/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/805/"
-                      },
-                      {
-                        "name": "806. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reasons the arrangement with a company (details supplied) has been continued on a rolling monthly basis for multiple years, rather than being time-limited, competitively re-tendered, or transitioned to an alternative arrangement; and if he will make a statement on the matter. [7885/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/806/"
-                      },
-                      {
-                        "name": "807. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the basis on which payments originally described as \"supply panelling\" were subsequently reclassified as \"temporary accommodation\"; the criteria used to treat the infrastructure supplied as accommodation; and if he will make a statement on the matter. [7886/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/807/"
-                      },
-                      {
-                        "name": "808. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reasons his Department elected to maintain a monthly rental model for the relevant infrastructure (details supplied) rather than purchasing or capitalising it; the value-for-money assessments undertaken in this regard with a company; and if he will make a statement on the matter. [7887/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/808/"
-                      },
-                      {
-                        "name": "809. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reasons payments to a company have continued after the State's acquisition of a complex (details supplied), rather than transitioning to State-owned infrastructure or a different contractual model; and if he will make a statement on the matter. [7888/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/809/"
-                      },
-                      {
-                        "name": "810. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the total amount paid to a company (details supplied) from September 2022 to date in 2026; the projected annual cost if the current arrangement continues; and if he will make a statement on the matter. [7889/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/810/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
-                    "children": [
-                      {
-                        "name": "2068. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration to set out in full the total financial value of the State's acquisition and use of the Citywest Hotel and Convention Centre (details supplied); the basis on which it was determined that the transaction fell below the €200 million threshold; if this assessment included all interdependent and related expenditure; to detail any legal, financial or procurement advice obtained in relation to the structuring of the transaction, including any consideration of the risk of artificial disaggregation; if a full business case, appraisal, and sanction process was completed; the documents held by this Department in this regard; the planning, fire safety and regulatory compliance checks were in place at the time of acquisition and subsequent use of the site; and if he will make a statement on the matter. [25270/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2068/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "Direct Provision System",
+                "name": "Defence Forces",
                 "children": [
                   {
-                    "name": "Tuesday, 14 April",
-                    "date_iso": "2026-04-14",
+                    "name": "Thursday, 1 October",
+                    "date_iso": "2026-10-01",
                     "children": [
                       {
-                        "name": "1996. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the total cost incurred by the State in opening, closing, reopening and now again closing an accommodation centre (details supplied); and if he will make a statement on the matter. [24254/26]",
+                        "name": "234. Deputy Michael Collins asked the Minister for Defence if she will confirm where Defence Force reservists need to submit their application in advance, at short notice to get paid SMS, the mechanism that is available to them to submit an application electronically or otherwise in advance; and if she will confirm that this is acceptable by email rather than hard copy. [69459/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1996/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/234/"
                       },
                       {
-                        "name": "1997. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the costs involved in closing a facility on two previous occasions, including any contractual penalties, demobilisation costs or reinstatement works required; and if he will make a statement on the matter. [24255/26]",
+                        "name": "235. Deputy Michael Collins asked the Minister for Defence if she will confirm that SMS pre deployment applications, that is Annex F &amp; G -maintained at unit level, need to be submitted in advance in hard copy and physically signed in advance of activity; and the mechanism available when the office is not staffed given that SMS activities are covered by the yearly supplemental military service application (RDF Officers &amp; Reservists – Annes A &amp;B), (details supplied). [69458/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1997/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/235/"
                       },
                       {
-                        "name": "1998. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the costs associated with opening and reopening a facility (details supplied) on two previous occasions and any further expenditure now arising from the decision to close the centre again in view of the significant decline in new arrivals from Ukraine seeking State accommodation since the beginning of 2026; and if he will make a statement on the matter. [24256/26]",
+                        "name": "236. Deputy Michael Collins asked the Minister for Defence if she will provide a breakdown of the average number of days paid to Defence Force personnel in the Army Reserve for 2026, excluding courses and annual training of five days or more (details supplied). [69454/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1998/"
-                      },
-                      {
-                        "name": "1999. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the total cumulative cost to the Exchequer arising from decisions to close a centre (details supplied); the measures being taken to ensure greater certainty, planning and cost control in the provision of temporary accommodation centres going forward If the minister; and if he will make a statement on the matter. [24257/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1999/"
-                      },
-                      {
-                        "name": "2027. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if consideration will be given to repurposing an accommodation centre (details supplied), previously used for Ukrainian temporary protection accommodation, for alternative urgent housing needs, specifically for the provision of temporary accommodation for persons experiencing homelessness and for essential key workers such as hospital staff, members of An Garda Síochána and teachers who are working in the area on a temporary basis; and if he will make a statement on the matter. [24493/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/2027/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "International Protection",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "197. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the timeline for formally designating a facility (details supplied) as a permanent International Protection Accommodation Service (IPAS) facility;if such a designation will bring the facility under the statutory remit of the Health Information and Quality Authority (HIQA) and other independent inspection bodies to ensure rigorous oversight of resident welfare and facility standards; the current inspection and safeguarding regime in place at the site while it operates as a processing location, following the significant State investment and doubling of staff at the International Protection Office (IPO); his views on the way permanent designation will address reported concerns regarding contractual boundaries and the duty of care owed to residents both within and outside the facility gates; and if he will make a statement on the matter. [38048/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/197/"
-                      },
-                      {
-                        "name": "199. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the legal and policy rationale for requesting a change of use exemption (details supplied); the reason this exemption is being requested for a privately owned facility; the way in which his Department justifies applying the same planning approach to this site as the State-linked Citywest Reception Centre; the intended duration of use for the facility as International Protection Accommodation Services (IPAS) accommodation the projected and maximum occupancy levels for this specific location; if these figures and the \"scale and intensity\" of the development have been formally evaluated in a community impact assessment to determine the cumulative effect on the wider area, given that no public consultation or submission process has been facilitated; and if he will make a statement on the matter. [38050/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/199/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 27 January",
-                    "date_iso": "2026-01-27",
-                    "children": [
-                      {
-                        "name": "737. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the full list of accommodation premises currently in use, or used at any time since 1 January 2022, in County Kildare by the International Protection Accommodation Service and Ukrainian emergency accommodation/temporary protection accommodation; if details will be provided in relation to each premises (details supplied); and if he will make a statement on the matter. [5901/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-27/737/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "741. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the Standard Operating Procedures (SOPs) and emergency protocols in place at a facility for handling medical or psychiatric emergencies involving residents; whether he is aware of an incident on 9 May 2026 (details supplied) and reports that centre security claimed no responsibility for the individual's welfare once they had passed the facility gates; to clarify the \"boundary of responsibility\" defined in service-level agreements with management and security contractors regarding the duty of care owed to residents when they are in the surrounding community; if he will address the lack of a dedicated management contact number for the facility for use by local residents and emergency services during such incidents; to detail the findings of any risk or safeguarding assessments conducted regarding the impact of the facilities operations on the safety and welfare of both residents and the local community; and if he will make a statement on the matter. [37573/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/741/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Immigration Support Services",
-                "children": [
-                  {
-                    "name": "Wednesday, 20 May",
-                    "date_iso": "2026-05-20",
-                    "children": [
-                      {
-                        "name": "194. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the scheduled expiry date for the existing management contract of a facility (details supplied); if the initial one-year contract reportedly agreed upon at the time of the facility's purchase is the current arrangement governing the site, or if it has since been extended; the expected timeline for the issuance of the new management tender for the complex and whether he anticipates that this new contract will be awarded and in place prior to the expiration of the current agreement; the steps being taken to ensure operational continuity and the maintenance of a \"robust and rules-based\" immigration system during the transition between management contractors at this site; and if he will make a statement on the matter. [38045/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/194/"
-                      },
-                      {
-                        "name": "195. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the status of the proposed tender for the management of facilities (details supplied); the scheduled date for the issuance of this tender, the expected platform where it will be published; if he will provide a detailed breakdown of the services and operational requirements to be covered under the new management contract; to clarify the separation of duties and the defined \"boundary of responsibility\" between Departmental staff and the private contractors appointed through this tender; if the scope of this tender will include another facility noted as a privately owned entity located on the same campus; if the facility is excluded from the tender, to detail what considerations have been taken regarding the long-term co-existence of these facilities, given the pending exemption application for that site; the way in which his Department intends to manage the logistics of shared campus facilities and hospitality services between state-managed processing centres and privately operated premises; and if he will make a statement on the matter. [38046/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/195/"
-                      },
-                      {
-                        "name": "196. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if he will commit to ensuring that all forthcoming security and management tenders for facilities (details supplied) explicitly include protocols within service level agreements (SLAs) requiring contractors to assist residents in distress when they are outside the immediate campus boundaries; the specific mechanisms by which his Department ensures that resident welfare and community safety are maintained when residents are in the surrounding locality, and how these responsibilities are formalised and monitored within private management contracts; if he will mandate that new tenders for these facilities define a clear duty of care extending beyond the facility gates, particularly to address reported gaps in responsibility during medical or psychiatric emergencies involving residents in the local community; and if he will make a statement on the matter. [38047/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/196/"
-                      },
-                      {
-                        "name": "198. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration to provide a detailed statement on the specific clauses within service-level agreements (SLAs) with private contractors managing facilities (details supplied) that define the \"boundary of responsibility\" regarding the welfare and safety of residents; if these contracts stipulate that the duty of care for residents ceases once an individual passes beyond the facility gates, as reportedly claimed by security staff during a medical emergency involving a 22-year-old resident on 9 May 2026; the way in which his Department ensures that resident welfare and community safety are maintained when residents are in the surrounding locality, and whether current SLAs include protocols for contractors to assist residents in distress outside the immediate campus; whether any risk or safeguarding assessments have been conducted to evaluate the impact of this perceived \"responsibility gap\" on the local community and the health outcomes of vulnerable residents; the steps being taken to ensure that centre management, An Garda Síochána, and the National Ambulance Service have a coordinated response protocol for incidents involving residents that occur in the public domain (details supplied); and if he will make a statement on the matter. [38049/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/198/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Properties",
-                "children": [
-                  {
-                    "name": "Wednesday, 4 February",
-                    "date_iso": "2026-02-04",
-                    "children": [
-                      {
-                        "name": "811. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether, prior to the State's purchase of a property (details supplied) a formal value-for-money assessment was undertaken; whether that assessment distinguished between the capital cost of the building and the ongoing operational costs associated with its use, including catering, security, staffing, transport and facilities management; and if he will make a statement on the matter. [7892/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/811/"
-                      },
-                      {
-                        "name": "812. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether he will publish the methodology and key assumptions underpinning any value-for-money assessment carried out in respect of the €148.2 million purchase of a property (details supplied); and if he will make a statement on the matter. [7893/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/812/"
-                      },
-                      {
-                        "name": "813. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if no distinction was made in the value-for-money assessment between the cost of acquiring a property (details supplied) and the cost of providing ongoing services at the site; the way in which the purchase is credibly described as representing value-for-money for the taxpayer; and if he will make a statement on the matter. [7894/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-04/813/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Deportation Orders",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "738. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the accommodation protocols for individuals subject to deportation orders who are currently residing at a location (details supplied); if he will confirm whether persons under such orders are being accommodated within the same premises where members of the general public have access to licensed restaurant and hospitality facilities; the specific risk or safeguarding assessments conducted by his Department, International Protection Accommodation Services (IPAS), or the Garda National Immigration Bureau (GNIB) in relation to this arrangement; the total number of residents at that specific location who are currently subject to a signed deportation order; and if he will make a statement on the matter. [37570/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/738/"
-                      },
-                      {
-                        "name": "739. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the accommodation protocols for individuals subject to deportation orders who are currently residing within a facility (details supplied); if he will confirm whether persons under such orders at these locations are being accommodated within the same premises; the specific risk or safeguarding assessments conducted by his Department, International Protection Accommodation Services (IPAS), or the Garda National Immigration Bureau (GNIB) regarding the co-location of these residents with public-facing hospitality services, licensed restaurant, leisure centre, and also the local community; the total number of residents at the facility respectively who are subject to a signed deportation order; and if he will make a statement on the matter. [37571/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/739/"
-                      },
-                      {
-                        "name": "740. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration to provide details on the management of individuals subject to deportation orders who are present at a facility (details supplied); whether his Department has performed a safeguarding or security risk assessment concerning the presence of individuals awaiting the enforcement of deportation orders; the number of individuals currently residing in or being processed at the facility who are subject to an active deportation order; and if he will make a statement on the matter. [37572/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/740/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Bodies",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "853. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether he will provide an update on the work of the Firearms Forum established by his Department, including the number of meetings held to date and the matters discussed; and if he will make a statement on the matter. [35153/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/853/"
-                      },
-                      {
-                        "name": "854. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the reason discussion of inconsistencies in the application and administration of firearms legislation was ruled out of order at the most recent firearms stakeholder meeting held in Kilmainham; whether this matter was raised by stakeholder representatives at the meeting; and if he will make a statement on the matter. [35154/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/854/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Visa Applications",
-                "children": [
-                  {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
-                    "children": [
-                      {
-                        "name": "840. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the way in which renewal decisions are made in respect of a non-EEA national (details supplied); whether the receipt of such supports by the Irish-citizen partner will have any bearing on the renewal of the non-EEA national’s de facto partner permission, notwithstanding that the permission holder remains in full-time employment and continues to comply with all conditions attaching to that permission; the consideration given to humanitarian and compassionate circumstances in such cases; and if he will make a statement on the matter. [30256/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/840/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/236/"
                       }
                     ]
                   }
@@ -884,6 +1143,39 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/959/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 30 June",
+                    "date_iso": "2026-06-30",
+                    "children": [
+                      {
+                        "name": "820. Deputy Michael Collins asked the Minister for Health the rationale behind a proposal by her Department to break the established pay link between Advanced Nurse Practitioners (ANPs) and Assistant Directors of Nursing (ADONs), having regard to the Labour Court recommendation LCR 19230 which underpins this alignment; if she will confirm whether this proposal represents a change in long-standing policy; the consultation that has taken place with representative bodies; if she will further outline the impact assessment carried out in relation to recruitment, retention and the future development of advanced clinical practice within the health service; and if she will make a statement on the matter. [49153/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/820/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3455. Deputy Michael Collins asked the Minister for Health the Government’s plans at National and EU level to ensure that the EU Common Training Framework proposal for physiotherapists does not undermine the high level of training that physiotherapists have in Ireland; and if she will engage with an organisation (details supplied) to ally their serious concerns regarding this EU framework. [60231/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3455/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1861. Deputy Michael Collins asked the Minister for Health if the HSE conducted a national audit of sonographer qualifications across services (details supplied) and other contracted ultrasound providers; whether all practitioners carrying out HSE-funded ultrasound examinations meet the contractual requirement for a recognised postgraduate ultrasound qualification at NFQ Level 9 or equivalent; and the investigations that have been undertaken since July 2026 regarding compliance with these requirements. [76165/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1861/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -905,6 +1197,81 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/890/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "940. Deputy Michael Collins asked the Minister for Health the reason the HSE has not yet approved funding for the drug dupixent (dupilumab) for adults with eosinophilic oesophagitis; the stage the pricing and assessment process is currently at; when a decision is expected; and if she will make a statement on the matter. [45320/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/940/"
+                      },
+                      {
+                        "name": "941. Deputy Michael Collins asked the Minister for Health the supports available for patients with eosinophilic oesophagitis who cannot access standard treatments such as jorveza; whether the HSE will provide urgent access to dupixent through the individual patient approval scheme in serious cases; and if she will make a statement on the matter. [45321/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/941/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1708. Deputy Michael Collins asked the Minister for Health to provide an update on the status of the full health technology assessment (HTA ID: 25069) being undertaken by the National Centre for Pharmacoeconomics in respect of house dust mite allergen extract (Acarizax®) for patients aged 5 to 65 years; the current timeline for completion of the assessment and submission of recommendations to the HSE; the stage reached in reimbursement and pricing discussions relating to the medicine; the timeline within which the HSE Corporate Pharmaceutical Unit expects to conclude its consideration of the product for reimbursement under the drugs payment scheme. [75439/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1708/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "3292. Deputy Michael Collins asked the Minister for Health following the HSE's report published on 3 July 2026 on \"Termination of Pregnancy Services in Ireland\", to provide the timeline expected for the NWIHP to collect and publish data on abortions performed by GPs; to collect and publish the full range of data planned for the national dataset on abortions in hospitals; and if she will make a statement on the matter. [55691/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3292/"
+                      },
+                      {
+                        "name": "3293. Deputy Michael Collins asked the Minister for Health the stakeholders that were involved in deciding the data to include in the NWIHP's expanded data collection on abortion; the process and criteria by which the stakeholders were selected; and if she will make a statement on the matter. [55692/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3293/"
+                      },
+                      {
+                        "name": "3294. Deputy Michael Collins asked the Minister for Health whether all data on abortion that was collected at pilot sites was published in the NWIHP report published on 3rd July 2026; and if she will make a statement on the matter. [55693/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3294/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 16 June",
+                    "date_iso": "2026-06-16",
+                    "children": [
+                      {
+                        "name": "942. Deputy Michael Collins asked the Minister for Health the number of claims for reimbursement via the primary care reimbursement scheme for a patient’s first visit for purpose of termination of pregnancy; the number of claims for combined termination procedure and aftercare during 2025 and to date in 2026; and if she will make a statement on the matter. [45352/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/942/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1734. Deputy Michael Collins asked the Minister for Health the number of patients currently awaiting reimbursement for lipedema surgery undertaken abroad under the Cross Border Healthcare Directive; the total value of outstanding reimbursement claims; the reasons for delays in processing these claims; the measures being taken to address any backlog; and when affected patients can expect reimbursement to issue. [75683/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1734/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -924,6 +1291,60 @@
                         "name": "1222. Deputy Michael Collins asked the Minister for Health the reason a person (details supplied) waited three hours and ten minutes for an ambulance after it was requested by SouthDoc in Bantry on the night of 14 April 2026; whether this response time complies with HSE and National Ambulance Service targets for potentially life threatening respiratory emergencies; the measures she is taking to ensure that patients in rural areas are not placed at serious risk due to excessive ambulance waiting times.; and if she will make a statement on the matter. [30372/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1222/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Health Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 April",
+                    "date_iso": "2026-04-28",
+                    "children": [
+                      {
+                        "name": "1225. Deputy Michael Collins asked the Minister for Health her views on whether repeated reliance on antibiotics, prolonged ENT waiting lists and the absence of clear emergency referral pathways represent a failure of joined up care within the public health system; if she will provide a timeline for reform to ensure patient safety is prioritised over administrative barriers; and if she will make a statement on the matter. [30375/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1225/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1783. Deputy Michael Collins asked the Minister for Health the reason for the curtailment of the DOMINO midwifery service at Cork University Maternity Hospital; whether a risk assessment and impact assessment on continuity of care, hospital capacity and postnatal supports were carried out; the number of midwifery vacancies currently affecting the service; and the measures being taken to restore full DOMINO services. [75795/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1783/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Services",
+                "children": [
+                  {
+                    "name": "Wednesday, 6 May",
+                    "date_iso": "2026-05-06",
+                    "children": [
+                      {
+                        "name": "1228. Deputy Michael Collins asked the Minister for Health to provide an update on the elective surgical hospital for Cork (details supplied). [33226/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1228/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "790. Deputy Michael Collins asked the Minister for Health the curtailments that will be made to the Domino maternity scheme at Cork University Maternity Hospital, as of 12 October 2026; the arrangements that have been made for expectant mothers currently booked under the Domino scheme; and the date the Domino maternity scheme will fully resume its normal independent operations. [71897/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/790/"
                       }
                     ]
                   }
@@ -1031,32 +1452,48 @@
                 ]
               },
               {
-                "name": "Health Services",
+                "name": "Departmental Bodies",
                 "children": [
                   {
-                    "name": "Tuesday, 28 April",
-                    "date_iso": "2026-04-28",
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
                     "children": [
                       {
-                        "name": "1225. Deputy Michael Collins asked the Minister for Health her views on whether repeated reliance on antibiotics, prolonged ENT waiting lists and the absence of clear emergency referral pathways represent a failure of joined up care within the public health system; if she will provide a timeline for reform to ensure patient safety is prioritised over administrative barriers; and if she will make a statement on the matter. [30375/26]",
+                        "name": "638. Deputy Michael Collins asked the Minister for Health the steps taken to implement the findings of the Health Research Board annual bulletin on people engaging with disability services, produced using the National Ability Supports System data, in relation to the provision of accommodation for adults with intellectual disabilities; the number and percentage of the total adult population with an intellectual disability in the State represented in the annual bulletin in each year; the number of service providers, by Section 38, Section 39 and HSE-operated statutory services (details supplied) in each of the years from 2022 to 2025 to date in 2026. [67045/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/1225/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/638/"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Hospital Services",
+                "name": "Pharmacy Services",
                 "children": [
                   {
-                    "name": "Wednesday, 6 May",
-                    "date_iso": "2026-05-06",
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
                     "children": [
                       {
-                        "name": "1228. Deputy Michael Collins asked the Minister for Health to provide an update on the elective surgical hospital for Cork (details supplied). [33226/26]",
+                        "name": "740. Deputy Michael Collins asked the Minister for Health if guidance will be issued (details supplied) to pharmacies to allow patients who depend on essential prescribed medicines, including pregabalin, to obtain a limited emergency supply for use during prolonged power outages, evacuations or other disruptions. [71551/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-06/1228/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/740/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hospital Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1768. Deputy Michael Collins asked the Minister for Health the current status of plans to refurbish and upgrade the puffin ward at Cork University Hospital; the funding allocated to date for these works; the additional funding required, if any, to complete the project; and the expected timeline for completion of the refurbishment and associated improvements to paediatric services. [75762/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1768/"
                       }
                     ]
                   }
@@ -1130,6 +1567,17 @@
                         "name": "79. Deputy Michael Collins asked the Minister for Agriculture, Food and the Marine the steps he is taking to address the acknowledged overfishing of mackerel by non-EU coastal States, which has directly contributed to sharp quota reductions for Irish fishers in 2026; and whether he will provide details of Ireland’s engagement with the European Commission and coastal states to safeguard this stock and prevent a repeat of these losses; and if he will make a statement on the matter. [6851/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/79/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "583. Deputy Michael Collins asked the Minister for Agriculture, Food and the Marine in light of the ongoing crisis in the fishing sector and its devastating impact on coastal and inland fishing communities, if he will update the Dáil on the progress of the new Fishing Task Force; if he will confirm whether the Task Force has met as scheduled; and if he will outline the current status of its work and the timeline for the recommendations that were due to be completed by June 2026; and if he will make a statement on the matter. [47553/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/583/"
                       }
                     ]
                   }
@@ -1338,6 +1786,38 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Tax Credits",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "192. Deputy Michael Collins asked the Tánaiste and Minister for Finance to consider, in the context of Budget 2027 and in consultation with (details supplied) the introduction of a permanent 8% regional uplift to the Section 481 film tax credit for qualifying productions undertaken outside the Dublin Metropolitan Area, including Ashford; to assess the potential of such a measure to increase regional film and television production, support employment, skills development and investment in screen-production infrastructure, including the continued development of studio facilities in West Cork; and if he will make a statement on the matter. [67151/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/192/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vehicle Registration Tax",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "533. Deputy Michael Collins asked the Tánaiste and Minister for Finance if he will review the vehicle registration tax regime, in light of concerns that it significantly inflates the cost of second-hand vehicles in Ireland compared with equivalent vehicles available in the UK and elsewhere in Europe, increases motoring costs for families, distorts the used car market, and unfairly taxes imported vehicles on a Revenue-assessed open market selling price rather than the actual purchase price paid. [77215/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/533/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1448,6 +1928,22 @@
                         "name": "376. Deputy Michael Collins asked the Minister for Transport the measures currently in place to regulate the brightness, alignment and use of modern LED vehicle headlights (details supplied); his plans to introduce or strengthen legislation, regulations or enforcement standards in this area, including limits on brightness and mandatory alignment requirements, to ensure the safety and comfort of all road users; and if he will make a statement on the matter. [30376/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-28/376/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Driver Test",
+                "children": [
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "112. Deputy Michael Collins asked the Minister for Transport the steps being taken to address reported waiting times of up to 23 weeks for Category C, BE and D1 driving tests in Skibbereen; if additional testing capacity will be provided given the reported absence of these tests locally since June and the impact delays are having on access to employment and local driver training services in West Cork. [71865/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/112/"
                       }
                     ]
                   }
@@ -1579,6 +2075,107 @@
             ]
           },
           {
+            "name": "Taoiseach",
+            "children": [
+              {
+                "name": "Cabinet Committees",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 November",
+                    "date_iso": "2026-11-10",
+                    "children": [
+                      {
+                        "name": "10. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on water quality will meet next. [79369/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/10/"
+                      },
+                      {
+                        "name": "27. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on climate action, environment and energy will next meet. [79370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/27/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "17. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [76176/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/17/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "National Security",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 February",
+                    "date_iso": "2026-02-24",
+                    "children": [
+                      {
+                        "name": "201. Deputy Michael Collins asked the Taoiseach when the Government will publish Ireland’s first National Security Strategy (details supplied). [14986/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/201/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cross-Border Co-operation",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "38. Deputy Michael Collins asked the Taoiseach if he will report on the work of the shared island unit in his Department. [76177/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/38/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Offices",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 November",
+                    "date_iso": "2026-11-24",
+                    "children": [
+                      {
+                        "name": "6. Deputy Michael Collins asked the Taoiseach to report on the work of the child poverty and well-being programme office in his Department. [82934/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/6/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Taoiseach's Meetings and Engagements",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 November",
+                    "date_iso": "2026-11-24",
+                    "children": [
+                      {
+                        "name": "24. Deputy Michael Collins asked the Taoiseach If he will report on his recent meeting with the President of the United States of America. [82935/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/24/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Culture",
             "children": [
               {
@@ -1622,6 +2219,218 @@
                         "name": "1555. Deputy Michael Collins asked the Minister for Culture, Communications and Sport to confirm that once Gateway approvals are completed the grant of €3 million will be formally approved to allow the local authority to appoint a contractor and commence works; and if he will make a statement on the matter. [24268/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-04-14/1555/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Housing",
+            "children": [
+              {
+                "name": "Water Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "665. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage if he will confirm that the Commission for Regulation of Utilities already has the legal authority to set enforceable statutory timeframes for Uisce Éireann to issue connection offers and complete connection works; if he will direct the CRU to introduce maximum time limits in line with European norms; and if he will make a statement on the matter. [34917/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/665/"
+                      },
+                      {
+                        "name": "666. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage if he will consider directing the CRU to introduce statutory maximum timeframes, such as six weeks to issue a connection offer and six weeks to complete works, along with automatic compensation for breaches, in order to address chronic delays in water and wastewater connections; and if he will make a statement on the matter. [34918/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/666/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wildlife Regulations",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "741. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage if his attention has been drawn to the unilateral suspension of the Sustainable Hunting of Wild Bird Stakeholder Forum; if he will arrange for the reconvening of the forum and/or the appointment of a new chair; and if he will make a statement on the matter. [35151/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/741/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Communications",
+                "children": [
+                  {
+                    "name": "Tuesday, 12 May",
+                    "date_iso": "2026-05-12",
+                    "children": [
+                      {
+                        "name": "742. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage what stakeholder groups or organisations have not yet been contacted in relation to any review of their Memoranda of Understanding with his Department; the reason for any delay in commencing such engagement; the timeline for completion of the review process; and if he will make a statement on the matter. [35152/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/742/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Land Development Agency",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1763. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage the total amount spent by the Land Development Agency on external public relations, communications, public affairs, media relations and reputation management services since its establishment in 2018; the names of all companies engaged; the value of each contract; the procurement process used; and if he will make a statement on the matter. [60019/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1763/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Housing Provision",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "1794. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage the number of people with an intellectual disability currently on the housing waiting list of each of the local authorities (details supplied); the breakdown of the number by length of time spent on the waiting list, less than one year, one to three years, three to five years, five to ten years, and greater than ten years, by local authority, in tabular form; and if he will make a statement on the matter. [61467/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1794/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Issues",
+                "children": [
+                  {
+                    "name": "Tuesday, 22 September",
+                    "date_iso": "2026-09-22",
+                    "children": [
+                      {
+                        "name": "362. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage the number of persons with an intellectual disability currently on the local authority housing waiting list in areas (details supplied); the number in each local authority who have been waiting less than one year, one to three, three to five, five to ten and more than ten years, in tabular form; and if he will make a statement on the matter. [67081/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/362/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Disability Issues",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2946. Deputy Michael Collins asked the Minister for Children, Disability and Equality her views on the value of the HRB/NASS annual bulletin report that neither represents the full population of adults with an intellectual disability nor identifies the percentage of that population which it covers; whether the annual bulletin represents value for money; and if she will make a statement on the matter. [61488/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2946/"
+                      },
+                      {
+                        "name": "2947. Deputy Michael Collins asked the Minister for Children, Disability and Equality the percentage of the total number of adults with an intellectual disability in the State that the HRB/NASS annual bulletin represents, by reference to the total number of adults with an intellectual disability in the country; and if she will make a statement on the matter. [61485/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2947/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Parental Leave",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "915. Deputy Michael Collins asked the Minister for Children, Disability and Equality further to representations received from a constituent, the rationale behind parent's leave being allocated on a per pregnancy basis rather than per child; her views that this results in parents of twins or other multiple births receiving the same statutory parent's leave entitlement as parents of a single child; her views that this creates an inequity given the significantly increased physical, emotional and financial demands placed on such families; the reason this approach differs from unpaid parental leave which is allocated per child; to consider amending the parent's leave provisions in order that entitlement is allocated per child rather than per pregnancy, in order to ensure fair and consistent treatment of families with multiple births; and if she will make a statement on the matter. [37263/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/915/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Funding",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2980. Deputy Michael Collins asked the Minister for Children, Disability and Equality the funding provided to the HRB for 2023, 2024 and 2025; the amount that was spent producing the annual HRB overview of people engaging with disability services; and if she will make a statement on the matter. [61487/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2980/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Disability Services",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3030. Deputy Michael Collins asked the Minister for Children, Disability and Equality the steps taken to implement the findings of the HRB/NASS annual bulletin on people engaging with disability services, in relation to accommodation provision for adults with intellectual disabilities, for each year from 2022 to 2025 and to date in 2026; and if she will make a statement on the matter. [61481/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3030/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Data",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "3048. Deputy Michael Collins asked the Minister for Children, Disability and Equality the number of service providers (details supplied) that made the necessary annual returns to the HRB/NASS in each of the past two years; the number that did not make the necessary annual returns in each of those years; the steps being taken to secure full compliance from service providers in submitting the data needed for an accurate annual bulletin; and if she will make a statement on the matter. [61486/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3048/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Childcare Services",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 November",
+                    "date_iso": "2026-11-10",
+                    "children": [
+                      {
+                        "name": "737. Deputy Michael Collins asked the Minister for Children, Disability and Equality if she is aware of the significant shortage of early-years and after-school childcare places in Kilcock, County Kildare; whether her Department has assessed current and projected demand for childcare provision in the town, having regard to ongoing population and housing growth; if Kilcock is being considered under the €135 million State-led Early Learning and Childcare Capital Programme; whether any site or property has been identified for development; the number of additional places required; and the timeframe for a decision on a State-led childcare facility is expected. [79060/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/737/"
                       }
                     ]
                   }
@@ -1858,64 +2667,6 @@
             ]
           },
           {
-            "name": "Housing",
-            "children": [
-              {
-                "name": "Water Services",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "665. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage if he will confirm that the Commission for Regulation of Utilities already has the legal authority to set enforceable statutory timeframes for Uisce Éireann to issue connection offers and complete connection works; if he will direct the CRU to introduce maximum time limits in line with European norms; and if he will make a statement on the matter. [34917/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/665/"
-                      },
-                      {
-                        "name": "666. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage if he will consider directing the CRU to introduce statutory maximum timeframes, such as six weeks to issue a connection offer and six weeks to complete works, along with automatic compensation for breaches, in order to address chronic delays in water and wastewater connections; and if he will make a statement on the matter. [34918/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/666/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Wildlife Regulations",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "741. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage if his attention has been drawn to the unilateral suspension of the Sustainable Hunting of Wild Bird Stakeholder Forum; if he will arrange for the reconvening of the forum and/or the appointment of a new chair; and if he will make a statement on the matter. [35151/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/741/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Departmental Communications",
-                "children": [
-                  {
-                    "name": "Tuesday, 12 May",
-                    "date_iso": "2026-05-12",
-                    "children": [
-                      {
-                        "name": "742. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage what stakeholder groups or organisations have not yet been contacted in relation to any review of their Memoranda of Understanding with his Department; the reason for any delay in commencing such engagement; the timeline for completion of the review process; and if he will make a statement on the matter. [35152/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-12/742/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Social",
             "children": [
               {
@@ -1929,48 +2680,6 @@
                         "name": "4. Deputy Michael Collins asked the Minister for Social Protection for an update on meetings between his Department and disabled persons’ organisations regarding the proposed cost-of-disability payment; to provide a timeline for its introduction; and if he will make a statement on the matter. [3294/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/4/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Taoiseach",
-            "children": [
-              {
-                "name": "National Security",
-                "children": [
-                  {
-                    "name": "Tuesday, 24 February",
-                    "date_iso": "2026-02-24",
-                    "children": [
-                      {
-                        "name": "201. Deputy Michael Collins asked the Taoiseach when the Government will publish Ireland’s first National Security Strategy (details supplied). [14986/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-24/201/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Parental Leave",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "915. Deputy Michael Collins asked the Minister for Children, Disability and Equality further to representations received from a constituent, the rationale behind parent's leave being allocated on a per pregnancy basis rather than per child; her views that this results in parents of twins or other multiple births receiving the same statutory parent's leave entitlement as parents of a single child; her views that this creates an inequity given the significantly increased physical, emotional and financial demands placed on such families; the reason this approach differs from unpaid parental leave which is allocated per child; to consider amending the parent's leave provisions in order that entitlement is allocated per child rather than per pregnancy, in order to ensure fair and consistent treatment of families with multiple births; and if she will make a statement on the matter. [37263/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/915/"
                       }
                     ]
                   }
@@ -3483,23 +4192,516 @@
           "question": "214. Deputy Michael Collins asked the Minister for Agriculture, Food and the Marine the way in which the diesel rebate scheme operates for agricultural contractors and farmers; the current and projected rebate rates per litre; the basis on which the rebate is calculated, including whether it is linked to the price paid per litre by operators; the timeline for submitting and receiving payments; whether further clarity can be provided to fuel users who report difficulty obtaining accurate information from suppliers; and if he will make a statement on the matter. [38666/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-05-20/214/",
           "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1353,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "1353. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration his views on the response to serious concerns regarding the impact of the Citywest IPAS accommodation centre (details supplied); the duty-of-care assessment that has been carried out for the existing local community and for businesses operating within the Citywest campus since the State acquired the complex; the Department, agency, centre operator, security provider, An Garda Síochána structure or other body that is accountable for responding to safety concerns both inside the campus grounds and in the surrounding village areas; the way in which he plans to ensure to ensure the safety of staff, customers, clients and visitors of premises operating within the Citywest campus grounds; the number of reported incidents, complaints or Garda notifications in the past 12 months involving public intoxication, drug use, aggressive behaviour, intimidation, antisocial behaviour or breaches of house rules, broken down between incidents within the Citywest IPAS centre, incidents within the wider Citywest campus grounds, and incidents reported in the surrounding local communities of Saggart, Rathcoole and Citywest; the current management escalation process for repeated breaches; if he will commit to open public engagement with residents and businesses rather than invitation-only meetings; the timeline for the promised Garda station; and if he will make a statement on the matter. [42351/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1353/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 1356,
+          "department": "Justice",
+          "heading": "International Agreements",
+          "question": "1356. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration given the implementation of the EU Migration and Asylum Pact and the increasing long-term use of large-scale international protection accommodation centres, whether new operational standards or regulations will be introduced governing the management of such centres (details supplied), the interaction between centre management, residents and the local community and the provision of designated recreational and social spaces within centres; and if he will make a statement on the matter. [42378/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1356/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 671,
+          "department": "Justice",
+          "heading": "Road Projects",
+          "question": "671. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the specific access road or portion of road referred to in the Project Echo final business case for the acquisition of a facility (details supplied) including the road name, map reference, folio reference or other identifying description; and if he will make a statement on the matter. [45384/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/671/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 672,
+          "department": "Justice",
+          "heading": "Road Projects",
+          "question": "672. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether the access road or portion of road referred to in the Project Echo final business case is a public road, taken in charge by South Dublin County Council, privately owned, subject to an easement, right of way, licence, management company arrangement or other access arrangement; and if he will make a statement on the matter. [45385/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/672/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 673,
+          "department": "Justice",
+          "heading": "Road Projects",
+          "question": "673. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether uninterrupted 24-hour access to a facility (details supplied) is legally secured for fire services, ambulance services, An Garda Síochána, residents, staff, service providers, buses, deliveries and neighbouring businesses; whether this was assessed before acquisition; whether any road-access risk was identified; and if he will make a statement on the matter. [45386/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/673/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 674,
+          "department": "Justice",
+          "heading": "Road Projects",
+          "question": "674. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the amount of the annual maintenance fee payable by his Department in respect of the access road or portion of road referred to in the Project Echo final business case; the recipient of that payment; the legal basis for the payment; whether the fee is fixed, index-linked or subject to review; whether the cost was included in the 25-year value-for-money assessment; and if he will make a statement on the matter. [45387/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/674/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 675,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "675. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration further to Parliamentary Question No. 197 of 20 May 2026, whether he will correct or clarify the record in respect of where his answer referred to general IPAS inspection arrangements, in circumstances where FOI evidence and published inspection records appear to show that the State-owned Citywest Hotel and Convention Centre are not designated centres, have no published HIQA or IPAS inspection reports, and are treated differently from a privately owned facility (details supplied) on the same campus; and if he will make a statement on the matter. [45398/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/675/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 940,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "940. Deputy Michael Collins asked the Minister for Health the reason the HSE has not yet approved funding for the drug dupixent (dupilumab) for adults with eosinophilic oesophagitis; the stage the pricing and assessment process is currently at; when a decision is expected; and if she will make a statement on the matter. [45320/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/940/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 941,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "941. Deputy Michael Collins asked the Minister for Health the supports available for patients with eosinophilic oesophagitis who cannot access standard treatments such as jorveza; whether the HSE will provide urgent access to dupixent through the individual patient approval scheme in serious cases; and if she will make a statement on the matter. [45321/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/941/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-16",
+          "questionNumber": 942,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "942. Deputy Michael Collins asked the Minister for Health the number of claims for reimbursement via the primary care reimbursement scheme for a patient’s first visit for purpose of termination of pregnancy; the number of claims for combined termination procedure and aftercare during 2025 and to date in 2026; and if she will make a statement on the matter. [45352/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-16/942/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 583,
+          "department": "Agriculture",
+          "heading": "Fishing Industry",
+          "question": "583. Deputy Michael Collins asked the Minister for Agriculture, Food and the Marine in light of the ongoing crisis in the fishing sector and its devastating impact on coastal and inland fishing communities, if he will update the Dáil on the progress of the new Fishing Task Force; if he will confirm whether the Task Force has met as scheduled; and if he will outline the current status of its work and the timeline for the recommendations that were due to be completed by June 2026; and if he will make a statement on the matter. [47553/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/583/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-30",
+          "questionNumber": 820,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "820. Deputy Michael Collins asked the Minister for Health the rationale behind a proposal by her Department to break the established pay link between Advanced Nurse Practitioners (ANPs) and Assistant Directors of Nursing (ADONs), having regard to the Labour Court recommendation LCR 19230 which underpins this alignment; if she will confirm whether this proposal represents a change in long-standing policy; the consultation that has taken place with representative bodies; if she will further outline the impact assessment carried out in relation to recruitment, retention and the future development of advanced clinical practice within the health service; and if she will make a statement on the matter. [49153/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-30/820/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3292,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "3292. Deputy Michael Collins asked the Minister for Health following the HSE's report published on 3 July 2026 on \"Termination of Pregnancy Services in Ireland\", to provide the timeline expected for the NWIHP to collect and publish data on abortions performed by GPs; to collect and publish the full range of data planned for the national dataset on abortions in hospitals; and if she will make a statement on the matter. [55691/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3292/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3293,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "3293. Deputy Michael Collins asked the Minister for Health the stakeholders that were involved in deciding the data to include in the NWIHP's expanded data collection on abortion; the process and criteria by which the stakeholders were selected; and if she will make a statement on the matter. [55692/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3293/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 3294,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "3294. Deputy Michael Collins asked the Minister for Health whether all data on abortion that was collected at pilot sites was published in the NWIHP report published on 3rd July 2026; and if she will make a statement on the matter. [55693/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/3294/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1763,
+          "department": "Housing",
+          "heading": "Land Development Agency",
+          "question": "1763. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage the total amount spent by the Land Development Agency on external public relations, communications, public affairs, media relations and reputation management services since its establishment in 2018; the names of all companies engaged; the value of each contract; the procurement process used; and if he will make a statement on the matter. [60019/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1763/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 1794,
+          "department": "Housing",
+          "heading": "Housing Provision",
+          "question": "1794. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage the number of people with an intellectual disability currently on the housing waiting list of each of the local authorities (details supplied); the breakdown of the number by length of time spent on the waiting list, less than one year, one to three years, three to five years, five to ten years, and greater than ten years, by local authority, in tabular form; and if he will make a statement on the matter. [61467/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/1794/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2946,
+          "department": "Children",
+          "heading": "Disability Issues",
+          "question": "2946. Deputy Michael Collins asked the Minister for Children, Disability and Equality her views on the value of the HRB/NASS annual bulletin report that neither represents the full population of adults with an intellectual disability nor identifies the percentage of that population which it covers; whether the annual bulletin represents value for money; and if she will make a statement on the matter. [61488/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2946/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2947,
+          "department": "Children",
+          "heading": "Disability Issues",
+          "question": "2947. Deputy Michael Collins asked the Minister for Children, Disability and Equality the percentage of the total number of adults with an intellectual disability in the State that the HRB/NASS annual bulletin represents, by reference to the total number of adults with an intellectual disability in the country; and if she will make a statement on the matter. [61485/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2947/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2980,
+          "department": "Children",
+          "heading": "Departmental Funding",
+          "question": "2980. Deputy Michael Collins asked the Minister for Children, Disability and Equality the funding provided to the HRB for 2023, 2024 and 2025; the amount that was spent producing the annual HRB overview of people engaging with disability services; and if she will make a statement on the matter. [61487/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2980/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3030,
+          "department": "Children",
+          "heading": "Disability Services",
+          "question": "3030. Deputy Michael Collins asked the Minister for Children, Disability and Equality the steps taken to implement the findings of the HRB/NASS annual bulletin on people engaging with disability services, in relation to accommodation provision for adults with intellectual disabilities, for each year from 2022 to 2025 and to date in 2026; and if she will make a statement on the matter. [61481/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3030/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3048,
+          "department": "Children",
+          "heading": "Departmental Data",
+          "question": "3048. Deputy Michael Collins asked the Minister for Children, Disability and Equality the number of service providers (details supplied) that made the necessary annual returns to the HRB/NASS in each of the past two years; the number that did not make the necessary annual returns in each of those years; the steps being taken to secure full compliance from service providers in submitting the data needed for an accurate annual bulletin; and if she will make a statement on the matter. [61486/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3048/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 3455,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "3455. Deputy Michael Collins asked the Minister for Health the Government’s plans at National and EU level to ensure that the EU Common Training Framework proposal for physiotherapists does not undermine the high level of training that physiotherapists have in Ireland; and if she will engage with an organisation (details supplied) to ally their serious concerns regarding this EU framework. [60231/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/3455/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 192,
+          "department": "Finance",
+          "heading": "Tax Credits",
+          "question": "192. Deputy Michael Collins asked the Tánaiste and Minister for Finance to consider, in the context of Budget 2027 and in consultation with (details supplied) the introduction of a permanent 8% regional uplift to the Section 481 film tax credit for qualifying productions undertaken outside the Dublin Metropolitan Area, including Ashford; to assess the potential of such a measure to increase regional film and television production, support employment, skills development and investment in screen-production infrastructure, including the continued development of studio facilities in West Cork; and if he will make a statement on the matter. [67151/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/192/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 362,
+          "department": "Housing",
+          "heading": "Disability Issues",
+          "question": "362. Deputy Michael Collins asked the Minister for Housing, Local Government and Heritage the number of persons with an intellectual disability currently on the local authority housing waiting list in areas (details supplied); the number in each local authority who have been waiting less than one year, one to three, three to five, five to ten and more than ten years, in tabular form; and if he will make a statement on the matter. [67081/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/362/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-22",
+          "questionNumber": 638,
+          "department": "Health",
+          "heading": "Departmental Bodies",
+          "question": "638. Deputy Michael Collins asked the Minister for Health the steps taken to implement the findings of the Health Research Board annual bulletin on people engaging with disability services, produced using the National Ability Supports System data, in relation to the provision of accommodation for adults with intellectual disabilities; the number and percentage of the total adult population with an intellectual disability in the State represented in the annual bulletin in each year; the number of service providers, by Section 38, Section 39 and HSE-operated statutory services (details supplied) in each of the years from 2022 to 2025 to date in 2026. [67045/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-22/638/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 234,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "234. Deputy Michael Collins asked the Minister for Defence if she will confirm where Defence Force reservists need to submit their application in advance, at short notice to get paid SMS, the mechanism that is available to them to submit an application electronically or otherwise in advance; and if she will confirm that this is acceptable by email rather than hard copy. [69459/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/234/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 235,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "235. Deputy Michael Collins asked the Minister for Defence if she will confirm that SMS pre deployment applications, that is Annex F &amp; G -maintained at unit level, need to be submitted in advance in hard copy and physically signed in advance of activity; and the mechanism available when the office is not staffed given that SMS activities are covered by the yearly supplemental military service application (RDF Officers &amp; Reservists – Annes A &amp;B), (details supplied). [69458/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/235/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-01",
+          "questionNumber": 236,
+          "department": "Defence",
+          "heading": "Defence Forces",
+          "question": "236. Deputy Michael Collins asked the Minister for Defence if she will provide a breakdown of the average number of days paid to Defence Force personnel in the Army Reserve for 2026, excluding courses and annual training of five days or more (details supplied). [69454/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-01/236/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 112,
+          "department": "Transport",
+          "heading": "Driver Test",
+          "question": "112. Deputy Michael Collins asked the Minister for Transport the steps being taken to address reported waiting times of up to 23 weeks for Category C, BE and D1 driving tests in Skibbereen; if additional testing capacity will be provided given the reported absence of these tests locally since June and the impact delays are having on access to employment and local driver training services in West Cork. [71865/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/112/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 512,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "512. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the engagement that has taken place with South Dublin County Council concerning the housing, homelessness, community service and other local impacts associated with residents moving from the Citywest Hotel and convention centre following the granting of international protection status; and whether there is a formal written protocol or agreed arrangement between the Department and the council for this purpose. [71473/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/512/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 513,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "513. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the specific arrangements that are in place to support persons who have received international protection status to move from the Citywest Hotel and convention centre into mainstream accommodation; the number of such exits from Citywest in 2025 and to date in 2026; and the number currently awaiting move-on accommodation. [71472/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/513/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 514,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "514. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration with reference to the Comptroller and Auditor General’s Report on the Accounts of the Public Services 2025, which records that 5,123 persons who had received international protection status remained in international protection accommodation services, IPAS, accommodation at the end of March 2026, to provide the current number of persons accommodated at the Citywest Hotel and convention centre who have already received international protection status; the number who have remained there for less than six months, six to 12 months, one to two years, two to three years and more than three years, following the granting of status. [71471/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/514/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 516,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "516. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration noting that the Comptroller and Auditor General records an estimated accommodation capacity of approximately 2,300 persons at Citywest hotel and convention centre, whether his Department has undertaken or participated in an assessment of the impact of this population on services and infrastructure in Citywest, Saggart, Rathcoole and the surrounding area; which public bodies or local authorities were involved in such an assessment; and whether his Department has provided current or projected Citywest occupancy figures to those bodies for planning purposes. [71475/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/516/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 517,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "517. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration whether all fire safety deficiencies, which were identified in his Department commissioned 2025 ORS fire safety assessment and associated inspections of the Citywest Hotel and convention centre, have now been fully rectified; the date on which his Department was satisfied that all matters identified as requiring urgent or immediate action had been rectified; whether this was independently verified by a suitably qualified fire safety professional; whether identified deficiencies remain outstanding; and, if so, to identify those outstanding matters and the timeframe for their completion. [71476/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/517/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 522,
+          "department": "Justice",
+          "heading": "International Protection",
+          "question": "522. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration the date the Department became aware of the 2025 ORS finding that a door-control system on cross-corridor fire doors at Citywest could hinder escape; the date the system, which ORS recommended be removed immediately, was removed or rectified; who verified the escape route was thereafter compliant and safe; and whether persons remained accommodated in the affected area pending rectification. [71478/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/522/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 531,
+          "department": "Justice",
+          "heading": "Citizenship Applications",
+          "question": "531. Deputy Michael Collins asked the Minister for Justice, Home Affairs and Migration if the proposed increase in the residence requirement for spouses of Irish citizens from three to five years will apply to persons who commenced legal residence in the State before the new legislation comes into effect. [71719/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/531/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 740,
+          "department": "Health",
+          "heading": "Pharmacy Services",
+          "question": "740. Deputy Michael Collins asked the Minister for Health if guidance will be issued (details supplied) to pharmacies to allow patients who depend on essential prescribed medicines, including pregabalin, to obtain a limited emergency supply for use during prolonged power outages, evacuations or other disruptions. [71551/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/740/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 790,
+          "department": "Health",
+          "heading": "Hospital Services",
+          "question": "790. Deputy Michael Collins asked the Minister for Health the curtailments that will be made to the Domino maternity scheme at Cork University Maternity Hospital, as of 12 October 2026; the arrangements that have been made for expectant mothers currently booked under the Domino scheme; and the date the Domino maternity scheme will fully resume its normal independent operations. [71897/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/790/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 17,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "17. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [76176/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/17/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 38,
+          "department": "Taoiseach",
+          "heading": "Cross-Border Co-operation",
+          "question": "38. Deputy Michael Collins asked the Taoiseach if he will report on the work of the shared island unit in his Department. [76177/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/38/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 533,
+          "department": "Finance",
+          "heading": "Vehicle Registration Tax",
+          "question": "533. Deputy Michael Collins asked the Tánaiste and Minister for Finance if he will review the vehicle registration tax regime, in light of concerns that it significantly inflates the cost of second-hand vehicles in Ireland compared with equivalent vehicles available in the UK and elsewhere in Europe, increases motoring costs for families, distorts the used car market, and unfairly taxes imported vehicles on a Revenue-assessed open market selling price rather than the actual purchase price paid. [77215/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/533/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1708,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "1708. Deputy Michael Collins asked the Minister for Health to provide an update on the status of the full health technology assessment (HTA ID: 25069) being undertaken by the National Centre for Pharmacoeconomics in respect of house dust mite allergen extract (Acarizax®) for patients aged 5 to 65 years; the current timeline for completion of the assessment and submission of recommendations to the HSE; the stage reached in reimbursement and pricing discussions relating to the medicine; the timeline within which the HSE Corporate Pharmaceutical Unit expects to conclude its consideration of the product for reimbursement under the drugs payment scheme. [75439/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1708/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1734,
+          "department": "Health",
+          "heading": "Departmental Data",
+          "question": "1734. Deputy Michael Collins asked the Minister for Health the number of patients currently awaiting reimbursement for lipedema surgery undertaken abroad under the Cross Border Healthcare Directive; the total value of outstanding reimbursement claims; the reasons for delays in processing these claims; the measures being taken to address any backlog; and when affected patients can expect reimbursement to issue. [75683/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1734/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1768,
+          "department": "Health",
+          "heading": "Hospital Facilities",
+          "question": "1768. Deputy Michael Collins asked the Minister for Health the current status of plans to refurbish and upgrade the puffin ward at Cork University Hospital; the funding allocated to date for these works; the additional funding required, if any, to complete the project; and the expected timeline for completion of the refurbishment and associated improvements to paediatric services. [75762/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1768/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1783,
+          "department": "Health",
+          "heading": "Health Services",
+          "question": "1783. Deputy Michael Collins asked the Minister for Health the reason for the curtailment of the DOMINO midwifery service at Cork University Maternity Hospital; whether a risk assessment and impact assessment on continuity of care, hospital capacity and postnatal supports were carried out; the number of midwifery vacancies currently affecting the service; and the measures being taken to restore full DOMINO services. [75795/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1783/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1861,
+          "department": "Health",
+          "heading": "Health Services Staff",
+          "question": "1861. Deputy Michael Collins asked the Minister for Health if the HSE conducted a national audit of sonographer qualifications across services (details supplied) and other contracted ultrasound providers; whether all practitioners carrying out HSE-funded ultrasound examinations meet the contractual requirement for a recognised postgraduate ultrasound qualification at NFQ Level 9 or equivalent; and the investigations that have been undertaken since July 2026 regarding compliance with these requirements. [76165/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1861/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-10",
+          "questionNumber": 10,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "10. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on water quality will meet next. [79369/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/10/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-10",
+          "questionNumber": 27,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "27. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on climate action, environment and energy will next meet. [79370/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/27/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-10",
+          "questionNumber": 737,
+          "department": "Children",
+          "heading": "Childcare Services",
+          "question": "737. Deputy Michael Collins asked the Minister for Children, Disability and Equality if she is aware of the significant shortage of early-years and after-school childcare places in Kilcock, County Kildare; whether her Department has assessed current and projected demand for childcare provision in the town, having regard to ongoing population and housing growth; if Kilcock is being considered under the €135 million State-led Early Learning and Childcare Capital Programme; whether any site or property has been identified for development; the number of additional places required; and the timeframe for a decision on a State-led childcare facility is expected. [79060/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/737/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-24",
+          "questionNumber": 6,
+          "department": "Taoiseach",
+          "heading": "Departmental Offices",
+          "question": "6. Deputy Michael Collins asked the Taoiseach to report on the work of the child poverty and well-being programme office in his Department. [82934/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/6/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-24",
+          "questionNumber": 24,
+          "department": "Taoiseach",
+          "heading": "Taoiseach's Meetings and Engagements",
+          "question": "24. Deputy Michael Collins asked the Taoiseach If he will report on his recent meeting with the President of the United States of America. [82935/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/24/",
+          "questionType": "oral"
         }
       ]
     },
     "oral": {
-      "count": 1,
+      "count": 7,
       "headingOptions": [
-        "Fishing Industry"
+        "Cabinet Committees",
+        "Cross-Border Co-operation",
+        "Departmental Offices",
+        "Fishing Industry",
+        "Taoiseach's Meetings and Engagements"
       ],
       "insights": {
-        "topHeading": "Fishing Industry",
-        "topHeadingCount": 1,
-        "topDepartment": "Agriculture",
-        "topDepartmentCount": 1
+        "topHeading": "Cabinet Committees",
+        "topHeadingCount": 3,
+        "topDepartment": "Taoiseach",
+        "topDepartmentCount": 6
       },
       "packed": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Taoiseach",
+            "children": [
+              {
+                "name": "Cabinet Committees",
+                "value": 3
+              },
+              {
+                "name": "Cross-Border Co-operation",
+                "value": 1
+              },
+              {
+                "name": "Departmental Offices",
+                "value": 1
+              },
+              {
+                "name": "Taoiseach's Meetings and Engagements",
+                "value": 1
+              }
+            ]
+          },
           {
             "name": "Agriculture",
             "children": [
@@ -3514,6 +4716,91 @@
       "treemap": {
         "name": "Parliamentary Questions",
         "children": [
+          {
+            "name": "Taoiseach",
+            "children": [
+              {
+                "name": "Cabinet Committees",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 November",
+                    "date_iso": "2026-11-10",
+                    "children": [
+                      {
+                        "name": "10. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on water quality will meet next. [79369/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/10/"
+                      },
+                      {
+                        "name": "27. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on climate action, environment and energy will next meet. [79370/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/27/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "17. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [76176/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/17/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cross-Border Co-operation",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "38. Deputy Michael Collins asked the Taoiseach if he will report on the work of the shared island unit in his Department. [76177/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/38/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Offices",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 November",
+                    "date_iso": "2026-11-24",
+                    "children": [
+                      {
+                        "name": "6. Deputy Michael Collins asked the Taoiseach to report on the work of the child poverty and well-being programme office in his Department. [82934/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/6/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Taoiseach's Meetings and Engagements",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 November",
+                    "date_iso": "2026-11-24",
+                    "children": [
+                      {
+                        "name": "24. Deputy Michael Collins asked the Taoiseach If he will report on his recent meeting with the President of the United States of America. [82935/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/24/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Agriculture",
             "children": [
@@ -3545,6 +4832,60 @@
           "heading": "Fishing Industry",
           "question": "15. Deputy Michael Collins asked the Minister for Agriculture, Food and the Marine the urgent actions he is taking, at EU and Council level, to reverse or challenge the severe loss of approximately 57,000 tonnes of Irish fishing quota for 2026, representing an estimated €94 million blow to the Irish fishing sector; whether he plans to initiate or support legal action at the European Court of Justice to defend Ireland’s interests given the collapse of Hague Preferences at the recent EU Agriculture and Fisheries Council; and if he will make a statement on the matter. [6850/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-01-29/15/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 17,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "17. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on infrastructure will meet next. [76176/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/17/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 38,
+          "department": "Taoiseach",
+          "heading": "Cross-Border Co-operation",
+          "question": "38. Deputy Michael Collins asked the Taoiseach if he will report on the work of the shared island unit in his Department. [76177/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/38/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-10",
+          "questionNumber": 10,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "10. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on water quality will meet next. [79369/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/10/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-10",
+          "questionNumber": 27,
+          "department": "Taoiseach",
+          "heading": "Cabinet Committees",
+          "question": "27. Deputy Michael Collins asked the Taoiseach when the Cabinet committee on climate action, environment and energy will next meet. [79370/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-10/27/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-24",
+          "questionNumber": 6,
+          "department": "Taoiseach",
+          "heading": "Departmental Offices",
+          "question": "6. Deputy Michael Collins asked the Taoiseach to report on the work of the child poverty and well-being programme office in his Department. [82934/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/6/",
+          "questionType": "oral"
+        },
+        {
+          "date_iso": "2026-11-24",
+          "questionNumber": 24,
+          "department": "Taoiseach",
+          "heading": "Taoiseach's Meetings and Engagements",
+          "question": "24. Deputy Michael Collins asked the Taoiseach If he will report on his recent meeting with the President of the United States of America. [82935/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/24/",
           "questionType": "oral"
         }
       ]

@@ -9,15 +9,22 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Natasha-Newsome-Drennan.D.2024-11-29/image/large",
   "types": {
     "all": {
-      "count": 41,
+      "count": 89,
       "headingOptions": [
+        "Agriculture Schemes",
+        "Agriculture Supports",
         "An Garda Síochána",
         "Animal Diseases",
         "Animal Sales",
         "Beef Sector",
+        "Bord Bia",
         "Bus Services",
+        "Common Agricultural Policy",
         "Defective Building Materials",
         "Departmental Data",
+        "Departmental Expenditure",
+        "Departmental Reports",
+        "Drug and Alcohol Testing",
         "Education and Training Boards",
         "Electricity Grid",
         "EU Regulations",
@@ -32,23 +39,31 @@
         "Home Help Service",
         "Hospital Services",
         "Hospital Transfers",
+        "Laboratory Facilities",
         "Medicinal Products",
         "National Asset Management Agency",
+        "Official Engagements",
+        "Pupil-Teacher Ratio",
+        "Regulatory Bodies",
         "Road Network",
+        "Road Projects",
+        "School Accommodation",
         "School Admissions",
         "Schools Building Projects",
         "Social Welfare Appeals",
         "Social Welfare Eligibility",
         "Special Educational Needs",
+        "Tax Yield",
         "Trade Agreements",
+        "Wildlife Protection",
         "Wind Energy Generation",
         "Wind Energy Guidelines"
       ],
       "insights": {
-        "topHeading": "Home Help Service",
-        "topHeadingCount": 3,
+        "topHeading": "Agriculture Schemes",
+        "topHeadingCount": 9,
         "topDepartment": "Health",
-        "topDepartmentCount": 15
+        "topDepartmentCount": 29
       },
       "packed": {
         "name": "Parliamentary Questions",
@@ -57,7 +72,19 @@
             "name": "Health",
             "children": [
               {
+                "name": "Health Service Executive",
+                "value": 5
+              },
+              {
+                "name": "Laboratory Facilities",
+                "value": 5
+              },
+              {
                 "name": "Home Help Service",
+                "value": 3
+              },
+              {
+                "name": "Food Safety",
                 "value": 3
               },
               {
@@ -65,15 +92,11 @@
                 "value": 2
               },
               {
-                "name": "Food Safety",
+                "name": "Medicinal Products",
                 "value": 2
               },
               {
                 "name": "Food Labelling",
-                "value": 1
-              },
-              {
-                "name": "Medicinal Products",
                 "value": 1
               },
               {
@@ -93,11 +116,19 @@
                 "value": 1
               },
               {
-                "name": "Health Service Executive",
+                "name": "Health Services Staff",
                 "value": 1
               },
               {
-                "name": "Health Services Staff",
+                "name": "Official Engagements",
+                "value": 1
+              },
+              {
+                "name": "Regulatory Bodies",
+                "value": 1
+              },
+              {
+                "name": "Wind Energy Guidelines",
                 "value": 1
               }
             ]
@@ -105,6 +136,18 @@
           {
             "name": "Agriculture",
             "children": [
+              {
+                "name": "Agriculture Schemes",
+                "value": 9
+              },
+              {
+                "name": "Beef Sector",
+                "value": 5
+              },
+              {
+                "name": "Departmental Expenditure",
+                "value": 5
+              },
               {
                 "name": "Animal Diseases",
                 "value": 2
@@ -118,7 +161,19 @@
                 "value": 1
               },
               {
-                "name": "Beef Sector",
+                "name": "Agriculture Supports",
+                "value": 1
+              },
+              {
+                "name": "Departmental Reports",
+                "value": 1
+              },
+              {
+                "name": "Bord Bia",
+                "value": 1
+              },
+              {
+                "name": "Common Agricultural Policy",
                 "value": 1
               }
             ]
@@ -126,6 +181,10 @@
           {
             "name": "Education",
             "children": [
+              {
+                "name": "Special Educational Needs",
+                "value": 4
+              },
               {
                 "name": "Schools Building Projects",
                 "value": 2
@@ -135,7 +194,15 @@
                 "value": 1
               },
               {
-                "name": "Special Educational Needs",
+                "name": "Departmental Reports",
+                "value": 1
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "value": 1
+              },
+              {
+                "name": "School Accommodation",
                 "value": 1
               }
             ]
@@ -145,23 +212,10 @@
             "children": [
               {
                 "name": "Wind Energy Guidelines",
-                "value": 2
+                "value": 3
               },
               {
                 "name": "Defective Building Materials",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Appeals",
-                "value": 2
-              },
-              {
-                "name": "Social Welfare Eligibility",
                 "value": 1
               }
             ]
@@ -180,28 +234,10 @@
               {
                 "name": "Greenways Provision",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Wind Energy Generation",
-                "value": 1
               },
               {
-                "name": "Electricity Grid",
+                "name": "Road Projects",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "value": 2
               }
             ]
           },
@@ -215,6 +251,44 @@
               {
                 "name": "Fines Administration",
                 "value": 1
+              },
+              {
+                "name": "Drug and Alcohol Testing",
+                "value": 1
+              },
+              {
+                "name": "An Garda Síochána",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Appeals",
+                "value": 2
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Wind Energy Generation",
+                "value": 1
+              },
+              {
+                "name": "Electricity Grid",
+                "value": 1
+              },
+              {
+                "name": "Wildlife Protection",
+                "value": 1
               }
             ]
           },
@@ -224,6 +298,19 @@
               {
                 "name": "National Asset Management Agency",
                 "value": 1
+              },
+              {
+                "name": "Tax Yield",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "value": 2
               }
             ]
           },
@@ -244,6 +331,90 @@
           {
             "name": "Health",
             "children": [
+              {
+                "name": "Health Service Executive",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "523. Deputy Natasha Newsome Drennan asked the Minister for Health when the commercial proposal request to include skyclarys on the agenda for the June HSE Drugs Group meeting was received by the HSE; and if she will make a statement on the matter. [46675/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/523/"
+                      },
+                      {
+                        "name": "524. Deputy Natasha Newsome Drennan asked the Minister for Health to list the personnel that form the membership of the HSE Drugs Group; and if she will make a statement on the matter. [46676/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/524/"
+                      },
+                      {
+                        "name": "525. Deputy Natasha Newsome Drennan asked the Minister for Health the frequency with which the HSE Drugs Group has met to date in 2026; and the outstanding meetings for 2026; and if she will make a statement on the matter. [46677/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/525/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "1139. Deputy Natasha Newsome Drennan asked the Minister for Health the number of hours of home support were provide by directly by the HSE, and not by private contractors, in the years 2023, 2024 and 2025, in tabular form. [37174/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1139/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4048. Deputy Natasha Newsome Drennan asked the Minister for Health if the HSE will confirm what data is, was, or will be created in respect of (details supplied}; and if she will request that a full copy of this data be provided to the family. [58915/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4048/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Laboratory Facilities",
+                "children": [
+                  {
+                    "name": "Tuesday, 28 July",
+                    "date_iso": "2026-07-28",
+                    "children": [
+                      {
+                        "name": "4049. Deputy Natasha Newsome Drennan asked the Minister for Health if a laboratory will sell, retain, or transfer any of the data held (details supplied); and if she will request that the laboratory will delete any and all data stored. [58916/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4049/"
+                      },
+                      {
+                        "name": "4050. Deputy Natasha Newsome Drennan asked the Minister for Health if the laboratory refuses to delete data, the period the data is retained or archived; who has access to it; and the specific date the data will be permanently expunged. [58917/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4050/"
+                      },
+                      {
+                        "name": "4051. Deputy Natasha Newsome Drennan asked the Minister for Health if the testing machine or process used for a sample creates a raw DNA sequencing file in any format, including binary; if DNA was extracted from the sample; and if she will confirm that any DNA, whether partial or full, and any raw files, will be deleted regardless of the format in which they are held (details supplied). [58918/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4051/"
+                      },
+                      {
+                        "name": "4052. Deputy Natasha Newsome Drennan asked the Minister for Health if she will confirm whether a laboratory will sell the genetic data at any point; if the genetic data is used for any purpose other than producing the test report, including but not limited to research, validation, quality improvement, training, or database comparison purposes (details supplied). [58919/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4052/"
+                      },
+                      {
+                        "name": "4053. Deputy Natasha Newsome Drennan asked the Minister for Health which organisations have received, accessed, or have access to information from the test or the results; if she will provide the complete laboratory report, any amendments, supplementary reports, and laboratory interpretation notes; and if the result was reviewed or reinterpreted after the original report was issued (details supplied). [58920/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4053/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Home Help Service",
                 "children": [
@@ -277,6 +448,38 @@
                 ]
               },
               {
+                "name": "Food Safety",
+                "children": [
+                  {
+                    "name": "Wednesday, 18 March",
+                    "date_iso": "2026-03-18",
+                    "children": [
+                      {
+                        "name": "1872. Deputy Natasha Newsome Drennan asked the Minister for Health the number of deaths as a result of listeria for each of the past ten years; and if she will make a statement on the matter. [19353/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1872/"
+                      },
+                      {
+                        "name": "1873. Deputy Natasha Newsome Drennan asked the Minister for Health the number of food products that have been recalled for each of the each of the past five years; and if she will make a statement on the matter. [19354/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1873/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "162. Deputy Natasha Newsome Drennan asked the Minister for Health her views on the public health risks posed by Brazilian beef, particularly given that, despite plans for its removal from the EU safe food list, it continues to be imported in large volumes; and if she will make a statement on the matter. [52296/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/162/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Healthcare Policy",
                 "children": [
                   {
@@ -304,21 +507,27 @@
                 ]
               },
               {
-                "name": "Food Safety",
+                "name": "Medicinal Products",
                 "children": [
                   {
-                    "name": "Wednesday, 18 March",
-                    "date_iso": "2026-03-18",
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
                     "children": [
                       {
-                        "name": "1872. Deputy Natasha Newsome Drennan asked the Minister for Health the number of deaths as a result of listeria for each of the past ten years; and if she will make a statement on the matter. [19353/26]",
+                        "name": "282. Deputy Natasha Newsome Drennan asked the Minister for Health to ensure that the HSE urgently prioritises a conclusion to the skyclarys reimbursement negotiations, given that it is the only available treatment for this progressive disease, which currently can be classed as having an ‘unmet need’ as outlined in the National Rare Disease Strategy 2025-2030; and if she will make a statement on the matter. [27745/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1872/"
-                      },
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/282/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
                       {
-                        "name": "1873. Deputy Natasha Newsome Drennan asked the Minister for Health the number of food products that have been recalled for each of the each of the past five years; and if she will make a statement on the matter. [19354/26]",
+                        "name": "740. Deputy Natasha Newsome Drennan asked the Minister for Health if a proposal for the reimbursement of vamorolone (Agamree) under the HSE drug reimbursement scheme has been submitted to the HSE Drugs Group; and if she will make a statement on the matter. [47252/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1873/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/740/"
                       }
                     ]
                   }
@@ -335,22 +544,6 @@
                         "name": "1647. Deputy Natasha Newsome Drennan asked the Minister for Health the work being carried out to improve labelling of origin on imported food products; and if she will make a statement on the matter. [20461/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/1647/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Medicinal Products",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "282. Deputy Natasha Newsome Drennan asked the Minister for Health to ensure that the HSE urgently prioritises a conclusion to the skyclarys reimbursement negotiations, given that it is the only available treatment for this progressive disease, which currently can be classed as having an ‘unmet need’ as outlined in the National Rare Disease Strategy 2025-2030; and if she will make a statement on the matter. [27745/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/282/"
                       }
                     ]
                   }
@@ -421,22 +614,6 @@
                 ]
               },
               {
-                "name": "Health Service Executive",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "1139. Deputy Natasha Newsome Drennan asked the Minister for Health the number of hours of home support were provide by directly by the HSE, and not by private contractors, in the years 2023, 2024 and 2025, in tabular form. [37174/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/1139/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Health Services Staff",
                 "children": [
                   {
@@ -451,12 +628,206 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Official Engagements",
+                "children": [
+                  {
+                    "name": "Thursday, 18 June",
+                    "date_iso": "2026-06-18",
+                    "children": [
+                      {
+                        "name": "526. Deputy Natasha Newsome Drennan asked the Minister for Health the engagements she has had with those advocating on behalf of people living with Friedreich's ataxia; and if she will make a statement on the matter. [46678/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/526/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Regulatory Bodies",
+                "children": [
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "186. Deputy Natasha Newsome Drennan asked the Minister for Health if her Department has reviewed the independent review assessing the regulatory processes of the Health Information and Quality Authority's inspection of nursing homes, which highlighted the need for regulatory reform in a number of key areas; and if she will make a statement on the matter. [52295/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/186/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wind Energy Guidelines",
+                "children": [
+                  {
+                    "name": "Tuesday, 17 November",
+                    "date_iso": "2026-11-17",
+                    "children": [
+                      {
+                        "name": "839. Deputy Natasha Newsome Drennan asked the Minister for Health further to Parliamentary Question No. 54923/25; if not, whether the Department intends to set a firm deadline, given the ongoing development of wind energy projects and the associated public-health implications; whether the HSE has engaged with the Environmental Protection Agency as part of this review, particularly in relation to environmental noise, monitoring and the protection of public health; and if she will make a statement on the matter. [80901/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-17/839/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
             "name": "Agriculture",
             "children": [
+              {
+                "name": "Agriculture Schemes",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "576. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount of applicants for the badger biosecurity scheme; and if he will make a statement on the matter. [47235/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/576/"
+                      },
+                      {
+                        "name": "577. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount of successful applicants for the badger biosecurity scheme; and if he will make a statement on the matter. [47236/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/577/"
+                      },
+                      {
+                        "name": "578. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount of successful applicants and rejected applicants per county for the badger biosecurity scheme; and if he will make a statement on the matter. [47237/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/578/"
+                      },
+                      {
+                        "name": "579. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the planned locations of cold storage units under the scheme proposed by the Deer Management Strategy Group; and if he will make a statement on the matter. [47245/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/579/"
+                      },
+                      {
+                        "name": "580. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the cost associated with each of the planned cold storage units under the scheme proposed by Deer Management Strategy Group; and if he will make a statement on the matter. [47246/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/580/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2705. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of herds and cows in Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61480/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2705/"
+                      },
+                      {
+                        "name": "2706. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of farmers in the Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61479/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2706/"
+                      },
+                      {
+                        "name": "2707. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of farmers that have opted to withdraw themselves from the Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61477/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2707/"
+                      },
+                      {
+                        "name": "2708. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of farmers that have been removed from the Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61476/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2708/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Beef Sector",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "181. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the way in which beef found to have tuberculosis present at the time of slaughtering is processed; if this beef is processed for human consumption; and if he will make a statement on the matter. [52276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/181/"
+                      },
+                      {
+                        "name": "182. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if he is concerned regarding the high volume of importing of Brazilian beef impact on public health, since the EU commission announced plans to remove it from the EU safe food list; and if he will make a statement on the matter. [52277/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/182/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 9 July",
+                    "date_iso": "2026-07-09",
+                    "children": [
+                      {
+                        "name": "44. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the tonnage of Brazilian beef imported to Ireland since May 2026; and if he will make a statement on the matter. [52218/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/44/"
+                      },
+                      {
+                        "name": "73. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if there has been increased physical checks on Brazilian beef into Ireland following the EU Commissions plans to remove Brazilian beef from the EU safe food list; and if he will make a statement on the matter. [52217/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/73/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Thursday, 19 March",
+                    "date_iso": "2026-03-19",
+                    "children": [
+                      {
+                        "name": "140. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the percentage of the 172 tons of beef that was imported from Brazil in 2025 that has had food safety testing carried out; and if he will make a statement on the matter. [20457/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/140/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Expenditure",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2691. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount paid to sub-contractors as contracted by his Department to carry out work on his Department’s schemes (details supplied) in each of the years 2022 to 2025, and to date in 2026, in tabular form; and if he will make a statement. [61276/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2691/"
+                      },
+                      {
+                        "name": "2692. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount paid to the staff in his Department to administer all schemes in each of the years 2022 to 2025, and to date in 2026, in tabular form; and if he will make a statement on the matter. [61275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2692/"
+                      },
+                      {
+                        "name": "2693. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount from both Pillar 1 and Pillar 2 budgets that was paid to the eight ACRES co-operation projects from 1 January 2022 to to date in 2026, in tabular form; and if he will make a statement on the matter. [61273/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2693/"
+                      },
+                      {
+                        "name": "2694. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount from Pillar 1 and Pillar 2 budgets that was paid to and or retained by his Department for administering all of the schemes, broken down by each scheme listed under Pillar 1 and for each scheme listed under Pillar 2, in each of the years 2022 to 2025, and to date in 2026, in tabular form; and if he will make a statement on the matter. [61274/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2694/"
+                      },
+                      {
+                        "name": "2695. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount from each Pillar that has been paid to farmers for each individual scheme in each of the years 2022 to 2025 and to date in 2026, in tabular form; and if he will make a statement on the matter. [61272/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2695/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Animal Diseases",
                 "children": [
@@ -517,16 +888,64 @@
                 ]
               },
               {
-                "name": "Beef Sector",
+                "name": "Agriculture Supports",
                 "children": [
                   {
-                    "name": "Thursday, 19 March",
-                    "date_iso": "2026-03-19",
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
                     "children": [
                       {
-                        "name": "140. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the percentage of the 172 tons of beef that was imported from Brazil in 2025 that has had food safety testing carried out; and if he will make a statement on the matter. [20457/26]",
+                        "name": "179. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if the Government will draw down funding from the EU fertiliser support plan to provide direct payments to farmers; and if he will make a statement on the matter. [52274/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-03-19/140/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/179/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Departmental Reports",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "180. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if he intends to implement the recommendations of the report on generational renewal; and if he will make a statement on the matter. [52275/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/180/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bord Bia",
+                "children": [
+                  {
+                    "name": "Wednesday, 8 July",
+                    "date_iso": "2026-07-08",
+                    "children": [
+                      {
+                        "name": "183. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if he is satisfied with the recent Bord Bia report, given its failure to adequately address public concerns regarding a potential conflict of interest arising from the chairperson's involvement in the importation of Brazilian beef into Ireland; and if he will make a statement on the matter. [52278/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/183/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Common Agricultural Policy",
+                "children": [
+                  {
+                    "name": "Monday, 7 September",
+                    "date_iso": "2026-09-07",
+                    "children": [
+                      {
+                        "name": "2689. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount allocated to the CAP budget for agriculture in Ireland nationally and co-funded by Europe for Pillar 1 and Pillar 2, the amount from each pillar that has been paid to farmers as a total in each of the years 2022, 2023, 2024, 2025, and to date in 2026, in tabular form; and if he will make a statement. [61271/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2689/"
                       }
                     ]
                   }
@@ -537,6 +956,43 @@
           {
             "name": "Education",
             "children": [
+              {
+                "name": "Special Educational Needs",
+                "children": [
+                  {
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
+                    "children": [
+                      {
+                        "name": "763. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the number of places in ASD units in schools located in County Kilkenny for 2023, 2024 and 2025, in tabular form; and if she will make a statement on the matter. [41590/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/763/"
+                      },
+                      {
+                        "name": "764. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the number of places that will be available in ASD units in schools located in County Kilkenny for the next school term; and if she will make a statement on the matter. [41591/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/764/"
+                      },
+                      {
+                        "name": "845. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the status of plans to deliver an ASD unit at a school (details supplied); and if she will make a statement on the matter. [42407/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/845/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 13 May",
+                    "date_iso": "2026-05-13",
+                    "children": [
+                      {
+                        "name": "78. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the status of funding for an additional ASD unit at a school (details supplied); and if she will make a statement on the matter. [35379/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/78/"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "name": "Schools Building Projects",
                 "children": [
@@ -581,16 +1037,48 @@
                 ]
               },
               {
-                "name": "Special Educational Needs",
+                "name": "Departmental Reports",
                 "children": [
                   {
-                    "name": "Wednesday, 13 May",
-                    "date_iso": "2026-05-13",
+                    "name": "Tuesday, 9 June",
+                    "date_iso": "2026-06-09",
                     "children": [
                       {
-                        "name": "78. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the status of funding for an additional ASD unit at a school (details supplied); and if she will make a statement on the matter. [35379/26]",
+                        "name": "794. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth whether her Department's attention has been drawn to a Tusla report which found that allegations of physical and emotional abuse by a teacher (details supplied) against a student were \"founded\"; and if she will clarify how this teacher was subsequently employed as a principal in a school in Dublin. [42038/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-13/78/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/794/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pupil-Teacher Ratio",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "26. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth her views on pupil teacher ratios of classrooms in primary education; and if she will make a statement on the matter. [54062/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/26/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "School Accommodation",
+                "children": [
+                  {
+                    "name": "Thursday, 16 July",
+                    "date_iso": "2026-07-16",
+                    "children": [
+                      {
+                        "name": "108. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth if there are any legal requirements in relation to the minimum space requirement for children in classrooms; if she has examined the matter; and if she will make a statement on the matter. [54063/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/108/"
                       }
                     ]
                   }
@@ -625,6 +1113,17 @@
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-01-22/255/"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tuesday, 13 October",
+                    "date_iso": "2026-10-13",
+                    "children": [
+                      {
+                        "name": "419. Deputy Natasha Newsome Drennan asked the Minister for Housing, Local Government and Heritage for an update on the review of the 2006 wind energy development guidelines; and when new guidelines will be published. [71689/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/419/"
+                      }
+                    ]
                   }
                 ]
               },
@@ -639,54 +1138,6 @@
                         "name": "638. Deputy Natasha Newsome Drennan asked the Minister for Housing, Local Government and Heritage if he will act on a recommendation by the Housing Agency that all of County Carlow be included in the defective block work scheme; if so, when this will be announced;; and if he will make a statement on the matter. [22299/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-24/638/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Social",
-            "children": [
-              {
-                "name": "Social Welfare Appeals",
-                "children": [
-                  {
-                    "name": "Thursday, 15 January",
-                    "date_iso": "2026-01-15",
-                    "children": [
-                      {
-                        "name": "73. Deputy Natasha Newsome Drennan asked the Minister for Social Protection the average time for a section 318 review to be completed; and if he will make a statement on the matter. [1781/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/73/"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Wednesday, 29 April",
-                    "date_iso": "2026-04-29",
-                    "children": [
-                      {
-                        "name": "188. Deputy Natasha Newsome Drennan asked the Minister for Social Protection to provide an update into progress of the section 318 review of (details supplied); and if he will make a statement on the matter. [31470/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/188/"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Social Welfare Eligibility",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "257. Deputy Natasha Newsome Drennan asked the Minister for Social Protection the reason the travel allowance at Turas Nua is only provided if the client uses public transport or the client drives themselves, and not if the client uses a third party such as a taxi or hackney; and if he will make a statement on the matter. [27753/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/257/"
                       }
                     ]
                   }
@@ -744,65 +1195,18 @@
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Climate",
-            "children": [
-              {
-                "name": "Wind Energy Generation",
-                "children": [
-                  {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
-                    "children": [
-                      {
-                        "name": "165. Deputy Natasha Newsome Drennan asked the Minister for Climate, Energy and the Environment the strategy for the recycling of wind turbines in Ireland; and if he will make a statement on the matter. [27743/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/165/"
-                      }
-                    ]
-                  }
-                ]
               },
               {
-                "name": "Electricity Grid",
+                "name": "Road Projects",
                 "children": [
                   {
-                    "name": "Thursday, 16 April",
-                    "date_iso": "2026-04-16",
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
                     "children": [
                       {
-                        "name": "166. Deputy Natasha Newsome Drennan asked the Minister for Climate, Energy and the Environment to provide an update on the works to increase capacity of the national grid; and if he will make a statement on the matter. [27744/26]",
+                        "name": "196. Deputy Natasha Newsome Drennan asked the Minister for Transport the additional emergency funding that was allocated to each local authority for the repair and to reconstruct roads damaged by flooding during Storm Chandra; the amount that has been drawn down by each of the local authorities; and if he will make a statement on the matter. [47598/26]",
                         "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/166/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "An Garda Síochána",
-                "children": [
-                  {
-                    "name": "Tuesday, 19 May",
-                    "date_iso": "2026-05-19",
-                    "children": [
-                      {
-                        "name": "411. Deputy Natasha Newsome Drennan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of kennels built on private dwellings for canines used in canine units of An Garda Síochána, the Irish Prison Service and the Revenue Commissioners since 2020; and if he will make a statement on the matter. [37143/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/411/"
-                      },
-                      {
-                        "name": "412. Deputy Natasha Newsome Drennan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the cost of building kennels on private dwellings for canines used in Canine Units of An Garda Síochána, the Irish Prison Service and the Revenue Commissioners since 2020; and if he will make a statement on the matter. [37144/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/412/"
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/196/"
                       }
                     ]
                   }
@@ -844,6 +1248,139 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Drug and Alcohol Testing",
+                "children": [
+                  {
+                    "name": "Wednesday, 21 October",
+                    "date_iso": "2026-10-21",
+                    "children": [
+                      {
+                        "name": "124. Deputy Natasha Newsome Drennan asked the Minister for Justice, Home Affairs and Migration when regulations for drug testing of serving Garda members will be finalised and introduced. [74602/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-10-21/124/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 3 November",
+                    "date_iso": "2026-11-03",
+                    "children": [
+                      {
+                        "name": "1237. Deputy Natasha Newsome Drennan asked the Minister for Justice, Home Affairs and Migration the number of Gardaí of each rank currently assigned to each station across Carlow and Kilkenny; and the number who are currently not working due to accidents, road traffic crashes, and assaults suffered while on the duty as of October 2026. [75525/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1237/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Social",
+            "children": [
+              {
+                "name": "Social Welfare Appeals",
+                "children": [
+                  {
+                    "name": "Thursday, 15 January",
+                    "date_iso": "2026-01-15",
+                    "children": [
+                      {
+                        "name": "73. Deputy Natasha Newsome Drennan asked the Minister for Social Protection the average time for a section 318 review to be completed; and if he will make a statement on the matter. [1781/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-01-15/73/"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wednesday, 29 April",
+                    "date_iso": "2026-04-29",
+                    "children": [
+                      {
+                        "name": "188. Deputy Natasha Newsome Drennan asked the Minister for Social Protection to provide an update into progress of the section 318 review of (details supplied); and if he will make a statement on the matter. [31470/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-29/188/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Social Welfare Eligibility",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "257. Deputy Natasha Newsome Drennan asked the Minister for Social Protection the reason the travel allowance at Turas Nua is only provided if the client uses public transport or the client drives themselves, and not if the client uses a third party such as a taxi or hackney; and if he will make a statement on the matter. [27753/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/257/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Climate",
+            "children": [
+              {
+                "name": "Wind Energy Generation",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "165. Deputy Natasha Newsome Drennan asked the Minister for Climate, Energy and the Environment the strategy for the recycling of wind turbines in Ireland; and if he will make a statement on the matter. [27743/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/165/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electricity Grid",
+                "children": [
+                  {
+                    "name": "Thursday, 16 April",
+                    "date_iso": "2026-04-16",
+                    "children": [
+                      {
+                        "name": "166. Deputy Natasha Newsome Drennan asked the Minister for Climate, Energy and the Environment to provide an update on the works to increase capacity of the national grid; and if he will make a statement on the matter. [27744/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-04-16/166/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wildlife Protection",
+                "children": [
+                  {
+                    "name": "Thursday, 11 June",
+                    "date_iso": "2026-06-11",
+                    "children": [
+                      {
+                        "name": "15. Deputy Natasha Newsome Drennan asked the Minister for Climate, Energy and the Environment if the cause, and the perpetrator, of the large fish kill in Blackwater, north Cork in 2025 has been identified; and if he will make a statement on the matter. [29366/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/15/"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -861,6 +1398,48 @@
                         "name": "442. Deputy Natasha Newsome Drennan asked the Tánaiste and Minister for Finance if all NAMA files will be sent to the National Archives; and if he will make a statement on the matter. [19539/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-03-18/442/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tax Yield",
+                "children": [
+                  {
+                    "name": "Tuesday, 23 June",
+                    "date_iso": "2026-06-23",
+                    "children": [
+                      {
+                        "name": "253. Deputy Natasha Newsome Drennan asked the Tánaiste and Minister for Finance the amount of revenue generated from VAT applied to the sale of centre fire rifle ammunition for each of the years 2020 to 2025 and to date in 2026; and if he will make a statement on the matter. [47247/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/253/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "An Garda Síochána",
+                "children": [
+                  {
+                    "name": "Tuesday, 19 May",
+                    "date_iso": "2026-05-19",
+                    "children": [
+                      {
+                        "name": "411. Deputy Natasha Newsome Drennan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the number of kennels built on private dwellings for canines used in canine units of An Garda Síochána, the Irish Prison Service and the Revenue Commissioners since 2020; and if he will make a statement on the matter. [37143/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/411/"
+                      },
+                      {
+                        "name": "412. Deputy Natasha Newsome Drennan asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation the cost of building kennels on private dwellings for canines used in Canine Units of An Garda Síochána, the Irish Prison Service and the Revenue Commissioners since 2020; and if he will make a statement on the matter. [37144/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-05-19/412/"
                       }
                     ]
                   }
@@ -1254,11 +1833,443 @@
         },
         {
           "date_iso": "2026-06-09",
+          "questionNumber": 763,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "763. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the number of places in ASD units in schools located in County Kilkenny for 2023, 2024 and 2025, in tabular form; and if she will make a statement on the matter. [41590/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/763/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 764,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "764. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the number of places that will be available in ASD units in schools located in County Kilkenny for the next school term; and if she will make a statement on the matter. [41591/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/764/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 794,
+          "department": "Education",
+          "heading": "Departmental Reports",
+          "question": "794. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth whether her Department's attention has been drawn to a Tusla report which found that allegations of physical and emotional abuse by a teacher (details supplied) against a student were \"founded\"; and if she will clarify how this teacher was subsequently employed as a principal in a school in Dublin. [42038/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/794/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
+          "questionNumber": 845,
+          "department": "Education",
+          "heading": "Special Educational Needs",
+          "question": "845. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth the status of plans to deliver an ASD unit at a school (details supplied); and if she will make a statement on the matter. [42407/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/845/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-09",
           "questionNumber": 1783,
           "department": "Health",
           "heading": "Healthcare Policy",
           "question": "1783. Deputy Natasha Newsome Drennan asked the Minister for Health the current status of the AMRIC antimicrobial resistance programme; if the programme has been reviewed and updated following the concerns raised by the EU Commission over the Antibiotic/Anti-Microbial Resistance (AMR) threat posed by Brazilian beef production; and if she will make a statement on the matter. [41597/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-06-09/1783/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-11",
+          "questionNumber": 15,
+          "department": "Climate",
+          "heading": "Wildlife Protection",
+          "question": "15. Deputy Natasha Newsome Drennan asked the Minister for Climate, Energy and the Environment if the cause, and the perpetrator, of the large fish kill in Blackwater, north Cork in 2025 has been identified; and if he will make a statement on the matter. [29366/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-11/15/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 523,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "523. Deputy Natasha Newsome Drennan asked the Minister for Health when the commercial proposal request to include skyclarys on the agenda for the June HSE Drugs Group meeting was received by the HSE; and if she will make a statement on the matter. [46675/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/523/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 524,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "524. Deputy Natasha Newsome Drennan asked the Minister for Health to list the personnel that form the membership of the HSE Drugs Group; and if she will make a statement on the matter. [46676/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/524/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 525,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "525. Deputy Natasha Newsome Drennan asked the Minister for Health the frequency with which the HSE Drugs Group has met to date in 2026; and the outstanding meetings for 2026; and if she will make a statement on the matter. [46677/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/525/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-18",
+          "questionNumber": 526,
+          "department": "Health",
+          "heading": "Official Engagements",
+          "question": "526. Deputy Natasha Newsome Drennan asked the Minister for Health the engagements she has had with those advocating on behalf of people living with Friedreich's ataxia; and if she will make a statement on the matter. [46678/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-18/526/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 196,
+          "department": "Transport",
+          "heading": "Road Projects",
+          "question": "196. Deputy Natasha Newsome Drennan asked the Minister for Transport the additional emergency funding that was allocated to each local authority for the repair and to reconstruct roads damaged by flooding during Storm Chandra; the amount that has been drawn down by each of the local authorities; and if he will make a statement on the matter. [47598/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/196/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 253,
+          "department": "Finance",
+          "heading": "Tax Yield",
+          "question": "253. Deputy Natasha Newsome Drennan asked the Tánaiste and Minister for Finance the amount of revenue generated from VAT applied to the sale of centre fire rifle ammunition for each of the years 2020 to 2025 and to date in 2026; and if he will make a statement on the matter. [47247/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/253/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 576,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "576. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount of applicants for the badger biosecurity scheme; and if he will make a statement on the matter. [47235/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/576/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 577,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "577. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount of successful applicants for the badger biosecurity scheme; and if he will make a statement on the matter. [47236/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/577/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 578,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "578. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount of successful applicants and rejected applicants per county for the badger biosecurity scheme; and if he will make a statement on the matter. [47237/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/578/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 579,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "579. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the planned locations of cold storage units under the scheme proposed by the Deer Management Strategy Group; and if he will make a statement on the matter. [47245/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/579/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 580,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "580. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the cost associated with each of the planned cold storage units under the scheme proposed by Deer Management Strategy Group; and if he will make a statement on the matter. [47246/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/580/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-06-23",
+          "questionNumber": 740,
+          "department": "Health",
+          "heading": "Medicinal Products",
+          "question": "740. Deputy Natasha Newsome Drennan asked the Minister for Health if a proposal for the reimbursement of vamorolone (Agamree) under the HSE drug reimbursement scheme has been submitted to the HSE Drugs Group; and if she will make a statement on the matter. [47252/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-06-23/740/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 179,
+          "department": "Agriculture",
+          "heading": "Agriculture Supports",
+          "question": "179. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if the Government will draw down funding from the EU fertiliser support plan to provide direct payments to farmers; and if he will make a statement on the matter. [52274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/179/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 180,
+          "department": "Agriculture",
+          "heading": "Departmental Reports",
+          "question": "180. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if he intends to implement the recommendations of the report on generational renewal; and if he will make a statement on the matter. [52275/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/180/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 181,
+          "department": "Agriculture",
+          "heading": "Beef Sector",
+          "question": "181. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the way in which beef found to have tuberculosis present at the time of slaughtering is processed; if this beef is processed for human consumption; and if he will make a statement on the matter. [52276/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/181/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 182,
+          "department": "Agriculture",
+          "heading": "Beef Sector",
+          "question": "182. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if he is concerned regarding the high volume of importing of Brazilian beef impact on public health, since the EU commission announced plans to remove it from the EU safe food list; and if he will make a statement on the matter. [52277/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/182/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-08",
+          "questionNumber": 183,
+          "department": "Agriculture",
+          "heading": "Bord Bia",
+          "question": "183. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if he is satisfied with the recent Bord Bia report, given its failure to adequately address public concerns regarding a potential conflict of interest arising from the chairperson's involvement in the importation of Brazilian beef into Ireland; and if he will make a statement on the matter. [52278/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-08/183/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 44,
+          "department": "Agriculture",
+          "heading": "Beef Sector",
+          "question": "44. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the tonnage of Brazilian beef imported to Ireland since May 2026; and if he will make a statement on the matter. [52218/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/44/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 73,
+          "department": "Agriculture",
+          "heading": "Beef Sector",
+          "question": "73. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine if there has been increased physical checks on Brazilian beef into Ireland following the EU Commissions plans to remove Brazilian beef from the EU safe food list; and if he will make a statement on the matter. [52217/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/73/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 162,
+          "department": "Health",
+          "heading": "Food Safety",
+          "question": "162. Deputy Natasha Newsome Drennan asked the Minister for Health her views on the public health risks posed by Brazilian beef, particularly given that, despite plans for its removal from the EU safe food list, it continues to be imported in large volumes; and if she will make a statement on the matter. [52296/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/162/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-09",
+          "questionNumber": 186,
+          "department": "Health",
+          "heading": "Regulatory Bodies",
+          "question": "186. Deputy Natasha Newsome Drennan asked the Minister for Health if her Department has reviewed the independent review assessing the regulatory processes of the Health Information and Quality Authority's inspection of nursing homes, which highlighted the need for regulatory reform in a number of key areas; and if she will make a statement on the matter. [52295/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-09/186/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 26,
+          "department": "Education",
+          "heading": "Pupil-Teacher Ratio",
+          "question": "26. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth her views on pupil teacher ratios of classrooms in primary education; and if she will make a statement on the matter. [54062/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/26/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-16",
+          "questionNumber": 108,
+          "department": "Education",
+          "heading": "School Accommodation",
+          "question": "108. Deputy Natasha Newsome Drennan asked the Minister for Education and Youth if there are any legal requirements in relation to the minimum space requirement for children in classrooms; if she has examined the matter; and if she will make a statement on the matter. [54063/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-16/108/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4048,
+          "department": "Health",
+          "heading": "Health Service Executive",
+          "question": "4048. Deputy Natasha Newsome Drennan asked the Minister for Health if the HSE will confirm what data is, was, or will be created in respect of (details supplied}; and if she will request that a full copy of this data be provided to the family. [58915/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4048/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4049,
+          "department": "Health",
+          "heading": "Laboratory Facilities",
+          "question": "4049. Deputy Natasha Newsome Drennan asked the Minister for Health if a laboratory will sell, retain, or transfer any of the data held (details supplied); and if she will request that the laboratory will delete any and all data stored. [58916/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4049/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4050,
+          "department": "Health",
+          "heading": "Laboratory Facilities",
+          "question": "4050. Deputy Natasha Newsome Drennan asked the Minister for Health if the laboratory refuses to delete data, the period the data is retained or archived; who has access to it; and the specific date the data will be permanently expunged. [58917/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4050/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4051,
+          "department": "Health",
+          "heading": "Laboratory Facilities",
+          "question": "4051. Deputy Natasha Newsome Drennan asked the Minister for Health if the testing machine or process used for a sample creates a raw DNA sequencing file in any format, including binary; if DNA was extracted from the sample; and if she will confirm that any DNA, whether partial or full, and any raw files, will be deleted regardless of the format in which they are held (details supplied). [58918/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4051/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4052,
+          "department": "Health",
+          "heading": "Laboratory Facilities",
+          "question": "4052. Deputy Natasha Newsome Drennan asked the Minister for Health if she will confirm whether a laboratory will sell the genetic data at any point; if the genetic data is used for any purpose other than producing the test report, including but not limited to research, validation, quality improvement, training, or database comparison purposes (details supplied). [58919/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4052/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-07-28",
+          "questionNumber": 4053,
+          "department": "Health",
+          "heading": "Laboratory Facilities",
+          "question": "4053. Deputy Natasha Newsome Drennan asked the Minister for Health which organisations have received, accessed, or have access to information from the test or the results; if she will provide the complete laboratory report, any amendments, supplementary reports, and laboratory interpretation notes; and if the result was reviewed or reinterpreted after the original report was issued (details supplied). [58920/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-07-28/4053/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2689,
+          "department": "Agriculture",
+          "heading": "Common Agricultural Policy",
+          "question": "2689. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the total amount allocated to the CAP budget for agriculture in Ireland nationally and co-funded by Europe for Pillar 1 and Pillar 2, the amount from each pillar that has been paid to farmers as a total in each of the years 2022, 2023, 2024, 2025, and to date in 2026, in tabular form; and if he will make a statement. [61271/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2689/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2691,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2691. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount paid to sub-contractors as contracted by his Department to carry out work on his Department’s schemes (details supplied) in each of the years 2022 to 2025, and to date in 2026, in tabular form; and if he will make a statement. [61276/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2691/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2692,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2692. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount paid to the staff in his Department to administer all schemes in each of the years 2022 to 2025, and to date in 2026, in tabular form; and if he will make a statement on the matter. [61275/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2692/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2693,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2693. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount from both Pillar 1 and Pillar 2 budgets that was paid to the eight ACRES co-operation projects from 1 January 2022 to to date in 2026, in tabular form; and if he will make a statement on the matter. [61273/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2693/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2694,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2694. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount from Pillar 1 and Pillar 2 budgets that was paid to and or retained by his Department for administering all of the schemes, broken down by each scheme listed under Pillar 1 and for each scheme listed under Pillar 2, in each of the years 2022 to 2025, and to date in 2026, in tabular form; and if he will make a statement on the matter. [61274/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2694/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2695,
+          "department": "Agriculture",
+          "heading": "Departmental Expenditure",
+          "question": "2695. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the amount from each Pillar that has been paid to farmers for each individual scheme in each of the years 2022 to 2025 and to date in 2026, in tabular form; and if he will make a statement on the matter. [61272/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2695/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2705,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "2705. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of herds and cows in Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61480/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2705/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2706,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "2706. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of farmers in the Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61479/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2706/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2707,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "2707. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of farmers that have opted to withdraw themselves from the Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61477/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2707/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-09-07",
+          "questionNumber": 2708,
+          "department": "Agriculture",
+          "heading": "Agriculture Schemes",
+          "question": "2708. Deputy Natasha Newsome Drennan asked the Minister for Agriculture, Food and the Marine the number of farmers that have been removed from the Suckler Carbon Efficiency Programme (SCEP) in each of the years 2023 to 2026 to date; and if he will make a statement on the matter. [61476/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-09-07/2708/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-13",
+          "questionNumber": 419,
+          "department": "Housing",
+          "heading": "Wind Energy Guidelines",
+          "question": "419. Deputy Natasha Newsome Drennan asked the Minister for Housing, Local Government and Heritage for an update on the review of the 2006 wind energy development guidelines; and when new guidelines will be published. [71689/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-13/419/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-10-21",
+          "questionNumber": 124,
+          "department": "Justice",
+          "heading": "Drug and Alcohol Testing",
+          "question": "124. Deputy Natasha Newsome Drennan asked the Minister for Justice, Home Affairs and Migration when regulations for drug testing of serving Garda members will be finalised and introduced. [74602/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-10-21/124/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-03",
+          "questionNumber": 1237,
+          "department": "Justice",
+          "heading": "An Garda Síochána",
+          "question": "1237. Deputy Natasha Newsome Drennan asked the Minister for Justice, Home Affairs and Migration the number of Gardaí of each rank currently assigned to each station across Carlow and Kilkenny; and the number who are currently not working due to accidents, road traffic crashes, and assaults suffered while on the duty as of October 2026. [75525/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-03/1237/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-17",
+          "questionNumber": 839,
+          "department": "Health",
+          "heading": "Wind Energy Guidelines",
+          "question": "839. Deputy Natasha Newsome Drennan asked the Minister for Health further to Parliamentary Question No. 54923/25; if not, whether the Department intends to set a firm deadline, given the ongoing development of wind energy projects and the associated public-health implications; whether the HSE has engaged with the Environmental Protection Agency as part of this review, particularly in relation to environmental noise, monitoring and the protection of public health; and if she will make a statement on the matter. [80901/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-17/839/",
           "questionType": "written"
         }
       ]
