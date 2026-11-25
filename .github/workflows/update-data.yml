@@ -42,7 +42,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add src/data src/generated
+          # Deputy detail generation writes the same refreshed JSON to both
+          # src/data and src/static/data. Stage both copies before rebasing.
+          git add src/data src/generated src/static/data/pq
 
           if ! git diff --cached --quiet; then
             git commit -m "Nightly PQ data refresh"
@@ -101,11 +103,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  deploy-aws:
-    needs: refresh
-    permissions:
-      contents: read
-      id-token: write
-    uses: ./.github/workflows/deploy-aws.yml
-    with:
-      snapshot: ${{ needs.refresh.outputs.snapshot }}
