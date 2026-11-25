@@ -46,7 +46,23 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "Nightly PQ data refresh"
-            git push
+
+            # main may advance while the data build is running. Rebase the
+            # generated snapshot onto the latest main and retry if another
+            # push wins the race between fetch and push.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+
+              if git push origin HEAD:main; then
+                break
+              fi
+
+              if [ "$attempt" -eq 3 ]; then
+                echo "Could not push refreshed data after 3 attempts" >&2
+                exit 1
+              fi
+            done
           fi
           echo "snapshot=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
