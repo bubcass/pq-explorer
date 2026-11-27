@@ -8,6 +8,9 @@ aws_refresh() {
 project=pq-explorer-publish-pilot
 schedule=pq-explorer-daily-refresh
 role=PQExplorerRefreshScheduler
+build_role=PQExplorerCodeBuildPilot
+bucket=pq-explorer-test-716904822267-20261116
+source_key=aws-build-source/pq-explorer/current.tar.gz
 account=$(aws_refresh sts get-caller-identity --query Account --output text)
 if [[ "$account" != 716904822267 ]]; then
   echo "Expected the PQ Explorer pilot AWS account." >&2
@@ -18,13 +21,12 @@ work_dir=$(mktemp -d)
 trap 'rm -rf "$work_dir"' EXIT
 aws_refresh codebuild batch-get-projects --names "$project" --output json > "$work_dir/current.json"
 
-python3 - "$work_dir" "$account" "$project" "$schedule" "$role" <<'PY'
+python3 - "$work_dir" "$account" "$project" "$schedule" "$role" "$build_role" "$bucket" "$source_key" <<'PY'
 import json
-import re
 import sys
 from pathlib import Path
 
-directory, account, project, schedule, role = sys.argv[1:]
+directory, account, project, schedule, role, build_role, bucket, source_key = sys.argv[1:]
 directory = Path(directory)
 
 def save(filename, value):
@@ -35,25 +37,55 @@ if len(projects) != 1 or projects[0]["source"]["type"] != "NO_SOURCE":
     raise SystemExit("Expected the existing CodeBuild pilot with an inline buildspec.")
 
 source = projects[0]["source"]
-buildspec = source["buildspec"]
-repository = "https://github.com/bubcass/pq-explorer.git"
-fetch = f"git fetch --depth 1 {repository} refs/heads/main"
-checkout = "git checkout --detach FETCH_HEAD"
-log = 'echo "PQ Explorer snapshot $(git rev-parse HEAD)"'
-
-if fetch not in buildspec:
-    pattern = rf"git fetch --depth 1 {re.escape(repository)} [0-9a-f]{{7,40}}"
-    buildspec, count = re.subn(pattern, fetch, buildspec)
-    if count != 1:
-        raise SystemExit("Could not locate a single pinned PQ Explorer checkout.")
-if log not in buildspec:
-    if buildspec.count(checkout) != 1:
-        raise SystemExit("Could not locate a single detached checkout.")
-    buildspec = buildspec.replace(checkout, f"{checkout}\n      - >-\n        {log}")
+buildspec = f"""version: 0.2
+env:
+  variables:
+    INSIGHTS_TARGET: aws
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+  build:
+    commands:
+      - mkdir -p /tmp/pq-explorer-source
+      - aws s3 cp s3://{bucket}/{source_key} /tmp/pq-explorer-source.tar.gz
+      - tar -xzf /tmp/pq-explorer-source.tar.gz -C /tmp/pq-explorer-source --strip-components=1
+      - cd /tmp/pq-explorer-source
+      - echo "AWS site source revision $(cat AWS_SOURCE_REVISION)"
+      - npm ci
+      - npm run build:data
+      - npm run build
+      - node scripts/pq/copy-deputy-json-to-dist.js
+      - test -s dist/index.html
+      - test -s dist/deputies.html
+      - test -s dist/constituencies.html
+      - test -s dist/parties.html
+      - aws s3 sync dist/ s3://{bucket}/insights-pilot/pq-explorer/ --exclude '*.html' --only-show-errors
+      - aws s3 sync dist/ s3://{bucket}/insights-pilot/pq-explorer/ --exclude '*' --include '*.html' --only-show-errors
+      - aws cloudfront create-invalidation --distribution-id E18L5O4CYRKV4Y --paths '/pq-explorer' '/pq-explorer/*'
+"""
 save("project.json", {"name": project, "source": {**source, "buildspec": buildspec}})
 
 region = "eu-north-1"
 project_arn = f"arn:aws:codebuild:{region}:{account}:project/{project}"
+bucket_arn = f"arn:aws:s3:::{bucket}"
+log_group = f"arn:aws:logs:{region}:{account}:log-group:/aws/codebuild/{project}"
+save("publish.json", {
+    "Version": "2012-10-17",
+    "Statement": [
+        {"Effect": "Allow", "Action": "s3:ListBucket", "Resource": bucket_arn,
+         "Condition": {"StringLike": {"s3:prefix": ["insights-pilot/pq-explorer", "insights-pilot/pq-explorer/*"]}}},
+        {"Effect": "Allow", "Action": ["s3:PutObject", "s3:AbortMultipartUpload"],
+         "Resource": f"{bucket_arn}/insights-pilot/pq-explorer/*"},
+        {"Effect": "Allow", "Action": "s3:GetObject",
+         "Resource": f"{bucket_arn}/{source_key}"},
+        {"Effect": "Allow", "Action": "cloudfront:CreateInvalidation",
+         "Resource": f"arn:aws:cloudfront::{account}:distribution/E18L5O4CYRKV4Y"},
+        {"Effect": "Allow", "Action": "logs:CreateLogGroup", "Resource": log_group},
+        {"Effect": "Allow", "Action": ["logs:CreateLogStream", "logs:PutLogEvents"],
+         "Resource": log_group + ":log-stream:*"},
+    ],
+})
 group_arn = f"arn:aws:scheduler:{region}:{account}:schedule-group/default"
 save("trust.json", {
     "Version": "2012-10-17",
@@ -73,7 +105,7 @@ save("policy.json", {
 })
 save("schedule.json", {
     "Name": schedule,
-    "ScheduleExpression": "cron(0 14 * * ? *)",
+    "ScheduleExpression": "cron(0 12 * * ? *)",
     "ScheduleExpressionTimezone": "Europe/Dublin",
     "FlexibleTimeWindow": {"Mode": "OFF"},
     "Target": {
@@ -85,6 +117,8 @@ save("schedule.json", {
 PY
 
 aws_refresh codebuild update-project --cli-input-json "file://$work_dir/project.json" --query project.name
+aws_refresh iam put-role-policy --role-name "$build_role" --policy-name PublishPQExplorer \
+  --policy-document "file://$work_dir/publish.json"
 if ! aws_refresh iam get-role --role-name "$role" > /dev/null 2> "$work_dir/role-error"; then
   if ! rg -q 'NoSuchEntity' "$work_dir/role-error"; then
     cat "$work_dir/role-error" >&2

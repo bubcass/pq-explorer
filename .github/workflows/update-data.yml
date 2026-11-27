@@ -68,16 +68,12 @@ jobs:
           fi
           echo "snapshot=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-  deploy-pages:
+  build-pages:
     needs: refresh
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      pages: read
 
     steps:
       - uses: actions/checkout@v4
@@ -99,6 +95,18 @@ jobs:
         with:
           path: dist
 
+  deploy-pages:
+    needs: build-pages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -8,7 +8,7 @@ aws_pilot() {
 account=716904822267
 project=pq-explorer-publish-pilot
 role=PQExplorerCodeBuildPilot
-snapshot=$(git rev-parse '463e6e7^{commit}')
+source_key=aws-build-source/pq-explorer/current.tar.gz
 temp_dir=$(mktemp -d)
 trap 'rm -rf "$temp_dir"' EXIT
 
@@ -17,13 +17,14 @@ if [[ "$(aws_pilot sts get-caller-identity --query Account --output text)" != "$
   exit 1
 fi
 
-python3 - "$temp_dir" "$account" "$project" "$role" "$snapshot" <<'PY'
+python3 - "$temp_dir" "$account" "$project" "$role" "$source_key" <<'PY'
 import json
 from pathlib import Path
 import sys
 
-output, account, project, role, snapshot = sys.argv[1:]
-bucket = f"arn:aws:s3:::pq-explorer-test-{account}-20261116"
+output, account, project, role, source_key = sys.argv[1:]
+bucket_name = f"pq-explorer-test-{account}-20261116"
+bucket = f"arn:aws:s3:::{bucket_name}"
 prefix = "insights-pilot/pq-explorer"
 log_group = f"arn:aws:logs:eu-north-1:{account}:log-group:/aws/codebuild/{project}"
 
@@ -50,6 +51,8 @@ save("publish", {
          "Condition": {"StringLike": {"s3:prefix": [prefix, prefix + "/*"]}}},
         {"Effect": "Allow", "Action": ["s3:PutObject", "s3:AbortMultipartUpload"],
          "Resource": f"{bucket}/{prefix}/*"},
+        {"Effect": "Allow", "Action": "s3:GetObject",
+         "Resource": f"{bucket}/{source_key}"},
         {"Effect": "Allow", "Action": "cloudfront:CreateInvalidation",
          "Resource": f"arn:aws:cloudfront::{account}:distribution/E18L5O4CYRKV4Y"},
         {"Effect": "Allow", "Action": "logs:CreateLogGroup", "Resource": log_group},
@@ -68,19 +71,21 @@ phases:
       nodejs: 22
   build:
     commands:
-      - git init site
-      - cd site
-      - git fetch --depth 1 https://github.com/bubcass/pq-explorer.git {snapshot}
-      - git checkout --detach FETCH_HEAD
+      - mkdir -p /tmp/pq-explorer-source
+      - aws s3 cp s3://{bucket_name}/{source_key} /tmp/pq-explorer-source.tar.gz
+      - tar -xzf /tmp/pq-explorer-source.tar.gz -C /tmp/pq-explorer-source --strip-components=1
+      - cd /tmp/pq-explorer-source
+      - echo "AWS site source revision $(cat AWS_SOURCE_REVISION)"
       - npm ci
+      - npm run build:data
       - npm run build
       - node scripts/pq/copy-deputy-json-to-dist.js
       - test -s dist/index.html
       - test -s dist/deputies.html
       - test -s dist/constituencies.html
       - test -s dist/parties.html
-      - aws s3 sync dist/ s3://pq-explorer-test-{account}-20261116/{prefix}/ --exclude '*.html' --only-show-errors
-      - aws s3 sync dist/ s3://pq-explorer-test-{account}-20261116/{prefix}/ --exclude '*' --include '*.html' --only-show-errors
+      - aws s3 sync dist/ s3://{bucket_name}/{prefix}/ --exclude '*.html' --only-show-errors
+      - aws s3 sync dist/ s3://{bucket_name}/{prefix}/ --exclude '*' --include '*.html' --only-show-errors
       - aws cloudfront create-invalidation --distribution-id E18L5O4CYRKV4Y --paths '/pq-explorer' '/pq-explorer/*'
 """
 
@@ -94,7 +99,7 @@ save("project", {
         "computeType": "BUILD_GENERAL1_SMALL",
     },
     "serviceRole": f"arn:aws:iam::{account}:role/{role}",
-    "timeoutInMinutes": 10,
+    "timeoutInMinutes": 30,
     "queuedTimeoutInMinutes": 5,
     "autoRetryLimit": 0,
 })
