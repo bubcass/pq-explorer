@@ -9,7 +9,7 @@
   "imageUrl": "https://data.oireachtas.ie/ie/oireachtas/member/id/Máire-Devine.S.2016-04-25/image/large",
   "types": {
     "all": {
-      "count": 81,
+      "count": 82,
       "headingOptions": [
         "An Garda Síochána",
         "Bus Services",
@@ -51,7 +51,8 @@
         "Social Welfare Eligibility",
         "Special Educational Needs",
         "State Bodies",
-        "Undefined"
+        "Undefined",
+        "Waste Management"
       ],
       "insights": {
         "topHeading": "Special Educational Needs",
@@ -258,20 +259,24 @@
             ]
           },
           {
-            "name": "Children",
-            "children": [
-              {
-                "name": "Childcare Services",
-                "value": 2
-              }
-            ]
-          },
-          {
             "name": "Public Expenditure",
             "children": [
               {
                 "name": "Undefined",
                 "value": 1
+              },
+              {
+                "name": "Waste Management",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Children",
+            "children": [
+              {
+                "name": "Childcare Services",
+                "value": 2
               }
             ]
           },
@@ -1228,6 +1233,43 @@
             ]
           },
           {
+            "name": "Public Expenditure",
+            "children": [
+              {
+                "name": "Undefined",
+                "children": [
+                  {
+                    "name": "Tuesday, 10 February",
+                    "date_iso": "2026-02-10",
+                    "children": [
+                      {
+                        "name": "453. Deputy Máire Devine asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his views on a matter (details supplied). [9681/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/453/"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Waste Management",
+                "children": [
+                  {
+                    "name": "Tuesday, 24 November",
+                    "date_iso": "2026-11-24",
+                    "children": [
+                      {
+                        "name": "335. Deputy Máire Devine asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if the OPW will arrange for the removal of a large amount of waste which was left behind by an encampment in Islandbridge Memorial Park, Dublin 8. [83278/26]",
+                        "value": 1,
+                        "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/335/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Children",
             "children": [
               {
@@ -1246,27 +1288,6 @@
                         "name": "725. Deputy Máire Devine asked the Minister for Children, Disability and Equality the reason parents lose childcare subsidy because their child participates in an organised school activity during hours for which they are already paying for a childcare place (details supplied). [81131/26]",
                         "value": 1,
                         "url": "https://www.oireachtas.ie/en/debates/question/2026-11-17/725/"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Public Expenditure",
-            "children": [
-              {
-                "name": "Undefined",
-                "children": [
-                  {
-                    "name": "Tuesday, 10 February",
-                    "date_iso": "2026-02-10",
-                    "children": [
-                      {
-                        "name": "453. Deputy Máire Devine asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation his views on a matter (details supplied). [9681/26]",
-                        "value": 1,
-                        "url": "https://www.oireachtas.ie/en/debates/question/2026-02-10/453/"
                       }
                     ]
                   }
@@ -2025,6 +2046,15 @@
           "heading": "Mental Health Services",
           "question": "105. Deputy Máire Devine asked the Minister for Health the status and expected milestone dates for the renovation work of a mental healthcare facility. [80071/26]",
           "url": "https://www.oireachtas.ie/en/debates/question/2026-11-19/105/",
+          "questionType": "written"
+        },
+        {
+          "date_iso": "2026-11-24",
+          "questionNumber": 335,
+          "department": "Public Expenditure",
+          "heading": "Waste Management",
+          "question": "335. Deputy Máire Devine asked the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation if the OPW will arrange for the removal of a large amount of waste which was left behind by an encampment in Islandbridge Memorial Park, Dublin 8. [83278/26]",
+          "url": "https://www.oireachtas.ie/en/debates/question/2026-11-24/335/",
           "questionType": "written"
         }
       ]
